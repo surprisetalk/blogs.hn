@@ -25,12 +25,13 @@ for (const blog of blogs) {
   if (blog.desc) index += `<p>${blog.desc}</p>`;
   if (blog.hn) {
     index += `<table>`;
-    for (const story of blog.hn)
+    for (const { id, comments, created_at, points, url, title } of blog.hn)
       index += `
         <tr>
-          <td><a href="https://news.ycombinator.com/item?id=${story.id}">${story.comments}</a></td>
-          <td>${story.points}</td>
-          <td><a href="${story.url}">${story.title}</a></td>
+          <td><a href="https://news.ycombinator.com/item?id=${id}">${comments}</a></td>
+          <td>${points}</td>
+          <td>${created_at.slice(0, 4)}</td>
+          <td><a href="${url}">${title}</a></td>
         </tr>
       `;
     index += `</table>`;
