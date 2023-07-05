@@ -99,8 +99,8 @@ main > div {
 /*** TABLE ***/
 
 table {
-  border-spacing: 0.75rem 0.5rem;
-  margin: -0.5rem -0.75rem;
+  border-spacing: 0.5rem;
+  margin: -0.5rem;
   margin-top: 1rem;
 }
 td {
