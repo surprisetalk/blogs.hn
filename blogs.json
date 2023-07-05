@@ -11280,60 +11280,6 @@
     ]
   },
   {
-    "url": "https://indieweb.org",
-    "title": "IndieWeb",
-    "hn": [
-      {
-        "created_at": "2023-04-20T03:34:09.000Z",
-        "title": "POSSE: Publish on your Own Site, Syndicate Elsewhere",
-        "url": "https://indieweb.org/POSSE",
-        "points": 275,
-        "comments": 70,
-        "id": "35636052"
-      },
-      {
-        "created_at": "2021-11-05T05:13:09.000Z",
-        "title": "POSSE: Publish on your own site, syndicate elsewhere",
-        "url": "https://indieweb.org/POSSE",
-        "points": 192,
-        "comments": 43,
-        "id": "29115696"
-      },
-      {
-        "created_at": "2019-07-15T11:17:47.000Z",
-        "title": "IndieAuth – A federated login protocol using one's own domain name",
-        "url": "https://indieweb.org/IndieAuth",
-        "points": 165,
-        "comments": 51,
-        "id": "20439703"
-      },
-      {
-        "created_at": "2021-04-27T00:12:21.000Z",
-        "title": "IndieWeb: A people-focused alternative to the “corporate web”",
-        "url": "https://indieweb.org/",
-        "points": 120,
-        "comments": 55,
-        "id": "26950009"
-      },
-      {
-        "created_at": "2018-03-24T00:21:06.000Z",
-        "title": "Publish on Your Own Site, Syndicate Elsewhere",
-        "url": "https://indieweb.org/POSSE",
-        "points": 91,
-        "comments": 26,
-        "id": "16663850"
-      },
-      {
-        "created_at": "2016-05-16T19:32:10.000Z",
-        "title": "IndieWeb Summit",
-        "url": "http://2016.indieweb.org/",
-        "points": 14,
-        "comments": 0,
-        "id": "11708951"
-      }
-    ]
-  },
-  {
     "url": "https://infinitelimit.net",
     "title": "Infinite Limit",
     "feed": "https://infinitelimit.net/posts/index.xml"
