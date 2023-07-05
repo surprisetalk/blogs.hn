@@ -44,7 +44,7 @@ const links = process.argv.slice(2);
             comments: hit.num_comments,
             id: hit.objectID,
           }))
-          ?.filter(hit => hit.points > 25 || hit.comments > 10);
+          ?.filter(hit => hit.points >= 10 || hit.comments >= 5);
         if (!hn.length) hn = undefined;
       } catch (err) {
         console.error(`Error: ${err}`);
