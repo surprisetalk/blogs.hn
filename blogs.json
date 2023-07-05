@@ -570,17 +570,7 @@
   },
   {
     "url": "https://aaronoellis.com",
-    "title": "Aaron O. Ellis",
-    "hn": [
-      {
-        "created_at": "2014-07-28T16:21:29.000Z",
-        "title": "Arrays in Go",
-        "url": "http://aaronoellis.com/articles/arrays-in-go",
-        "points": 32,
-        "comments": 2,
-        "id": "8097695"
-      }
-    ]
+    "title": "Aaron O. Ellis"
   },
   {
     "url": "https://aaronstuyvenberg.com",
@@ -2636,12 +2626,6 @@
         "id": "30043497"
       }
     ]
-  },
-  {
-    "url": "https://bacabaca.net",
-    "title": "BacaBaca - Sumber inspirasi dan informasi terpercaya",
-    "feed": "https://bacabaca.net/feed.xml",
-    "desc": "Sumber inspirasi dan informasi terpercaya yang menghadirkan artikel menarik untuk membantu pembaca dalam menjalani aktivitas sehari-hari"
   },
   {
     "url": "https://bachmeil.github.io",
