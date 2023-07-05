@@ -141,12 +141,12 @@ main > div {
 @media (prefers-color-scheme: dark) {
   body {
     color: #ddd;
-    background-color: #151515;
+    background-color: black;
   }
 
   header,
   main > div {
-    background-color: black;
+    background-color: #151515;
   }
 
   a:link,
