@@ -40,7 +40,6 @@ for (const blog of blogs) {
     index += `</table>`;
   }
   index += `</div>`;
-  // TODO: shuffle, [] rss only, [search]
 }
 
 fs.writeFileSync("./dist/index.html", template.replace("{{main}}", index));

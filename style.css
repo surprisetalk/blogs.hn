@@ -1,14 +1,79 @@
+/*** TYPOGRAPHY ***/
+
+html {
+  font-size: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+small,
+.text_small {
+  font-size: 0.833rem;
+}
+
+/*** TABLE ***/
+
+table {
+  border-spacing: 0.75rem 0.5rem;
+}
+td {
+  vertical-align: top;
+}
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(3) {
+  text-align: right;
+}
+
+/*** LAYOUT ***/
+
 body {
   margin: 0;
 }
 header {
   padding: 2rem;
-  background-color: #151515;
   display: grid;
-  grid-template-columns: auto auto;
-}
-header > div:last-child {
-  justify-self: right;
+  grid-template-columns: auto 1fr auto;
 }
 main {
   margin: 1rem 2rem 12rem;
@@ -17,4 +82,42 @@ main {
 }
 main > div {
   display: inline-block;
+  width: 100%;
+}
+
+/*** COLOR ***/
+
+header a:link,
+header a:visited {
+  color: darkorange;
+}
+
+a:link {
+}
+a:visited {
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background: #222;
+    color: white;
+  }
+
+  header {
+    background-color: #151515;
+  }
+
+  a:link {
+    color: green;
+  }
+  a:visited {
+    color: green;
+  }
 }
