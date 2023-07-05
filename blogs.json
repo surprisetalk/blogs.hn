@@ -83,7 +83,7 @@
   },
   {
     "url": "https://0xbro.red",
-    "title": "Home | 0xbro",
+    "title": "0xbro",
     "desc": "0xbro personal site and blog related to everything that surrounds ethical hacking, penetration testing, AppSec, CTFs, and other various cybersecurity stuff."
   },
   {
@@ -584,7 +584,7 @@
   },
   {
     "url": "https://aaronstuyvenberg.com",
-    "title": "Home | AJ Stuyvenberg",
+    "title": "AJ Stuyvenberg",
     "about": "https://aaronstuyvenberg.com/about",
     "feed": "https://aaronstuyvenberg.com/feed.xml",
     "desc": "Software Engineer, Parachute Enthusiast"
@@ -604,8 +604,7 @@
   {
     "url": "https://ache.one",
     "title": "ache: Personnel blog",
-    "feed": "https://ache.one/en/rss.xml",
-    "desc": "ache:  "
+    "feed": "https://ache.one/en/rss.xml"
   },
   {
     "url": "https://adamconrad.dev",
@@ -752,7 +751,7 @@
   },
   {
     "url": "https://ahnfelt.medium.com",
-    "title": "Joakim Ahnfelt-Rønne – Medium",
+    "title": "Joakim Ahnfelt-Rønne",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Joakim Ahnfelt-Rønne on Medium. MSc Computer Science, working with functional programming in the industry — github.com/ahnfelt. Every day, Joakim Ahnfelt-Rønne and thousands of other voices read, write, and share important stories on Medium.",
     "hn": [
@@ -795,7 +794,7 @@
   },
   {
     "url": "https://akashrajpurohit.com",
-    "title": "Home | Akash Rajpurohit",
+    "title": "Akash Rajpurohit",
     "feed": "https://akashrajpurohit.com/rss.xml",
     "desc": "Hi!, I'm Akash Rajpurohit, a self taught software developer based in India. I specialize in developing web applications and cross platform mobile applications using modern technologies.",
     "hn": [
@@ -1533,7 +1532,7 @@
   },
   {
     "url": "https://andrewshay.me",
-    "title": "Home - andrewshay.me",
+    "title": "andrewshay.me",
     "feed": "https://andrewshay.me/feed.xml",
     "desc": "Andrew Shay's Blog and Digital Garden",
     "hn": [
@@ -1579,7 +1578,7 @@
   },
   {
     "url": "https://andyatkinson.com",
-    "title": "Home | Andrew Atkinson",
+    "title": "Andrew Atkinson",
     "about": "https://andyatkinson.com/about",
     "desc": "Software Engineer"
   },
@@ -1594,7 +1593,7 @@
   },
   {
     "url": "https://anfractuosity.com",
-    "title": "Home | Anfractuosity | Still waiting on the daybreak, its shadows in my mind",
+    "title": "Anfractuosity | Still waiting on the daybreak, its shadows in my mind",
     "feed": "https://anfractuosity.com/rss",
     "hn": [
       {
@@ -1681,7 +1680,7 @@
   },
   {
     "url": "https://aniddan.com",
-    "title": "Home | iddan",
+    "title": "iddan",
     "desc": "Iddan Aaronsohn's personal site",
     "hn": [
       {
@@ -1916,8 +1915,7 @@
   {
     "url": "https://aryanarora.hashnode.dev",
     "title": "Aryan Arora's Blog",
-    "feed": "https://aryanarora.hashnode.dev/rss.xml",
-    "desc": "Aryan Arora's Blog"
+    "feed": "https://aryanarora.hashnode.dev/rss.xml"
   },
   {
     "url": "https://ashleyjanssen.com",
@@ -2009,7 +2007,7 @@
   },
   {
     "url": "https://atelfo.github.io",
-    "title": "Alex’s blog | Personal site for posts about my interests: the biotech industry, medicine, molecular biology, neuroscience, biorisk, science, consciousness, AI, innovation, decision making, philosophy, games, sci-fi, probability, and forecasting (among other things). I write to learn, mostly about biotech.",
+    "title": "Alex’s blog",
     "feed": "https://atelfo.github.io/feed.xml",
     "desc": "Personal site for posts about my interests: the biotech industry, medicine, molecular biology, neuroscience, biorisk, science, consciousness, AI, innovation, decision making, philosophy, games, sci-fi, probability, and forecasting (among other things). I write to learn, mostly about biotech."
   },
@@ -2382,7 +2380,7 @@
   },
   {
     "url": "https://awanderingmind.blog",
-    "title": "awanderingmind - Home",
+    "title": "awanderingmind",
     "feed": "https://awanderingmind.blog/rss.xml",
     "keywords": "awanderingmind,blog",
     "desc": "A blog containing essays, of varying cogency, about various things that my mind have wandered to.",
@@ -2657,12 +2655,6 @@
     "title": "~/bala.sh – An intersection of Urban Planning, Geography, Computer Science and Data Science"
   },
   {
-    "url": "https://baotiao.github.io",
-    "title": "做有积累的事情 | MySQL数据库内核研发相关",
-    "feed": "https://baotiao.github.io/feed.xml",
-    "desc": "MySQL数据库内核研发相关"
-  },
-  {
     "url": "https://bartlomiejmika.com",
     "title": "Bartlomiej Mika",
     "feed": "https://bartlomiejmika.com/index.xml",
@@ -2731,7 +2723,7 @@
   },
   {
     "url": "https://benbrougher.tech",
-    "title": "Home | benbrougher.tech",
+    "title": "benbrougher.tech",
     "feed": "https://benbrougher.tech/rss.xml",
     "desc": "A Place to Share and Collaborate with Fellow Developers"
   },
@@ -3154,7 +3146,7 @@
   },
   {
     "url": "https://billylo.medium.com",
-    "title": "Billy Lo – Medium",
+    "title": "Billy Lo",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Billy Lo on Medium. I enjoy learning, creative engineering & reading. Evergreen-labs.com, Vaccine-Ontario.ca, TravelShoppingBuddy.com, Sidekick-app.com, ReportMyTest.ca."
   },
@@ -3214,7 +3206,7 @@
   },
   {
     "url": "https://blag.felixhummel.de",
-    "title": "Home — Felix' Wobsite"
+    "title": "Felix' Wobsite"
   },
   {
     "url": "https://blaise.bike",
@@ -3278,8 +3270,7 @@
   {
     "url": "https://blog.allen0s.com",
     "title": "Allen's Blog",
-    "feed": "https://blog.allen0s.com/rss.xml",
-    "desc": "Allen's Blog"
+    "feed": "https://blog.allen0s.com/rss.xml"
   },
   {
     "url": "https://blog.awaxman.com",
@@ -3296,7 +3287,6 @@
     "url": "https://blog.blockingqueue.com",
     "title": "Blocking Queue",
     "feed": "https://blog.blockingqueue.com/rss.xml",
-    "desc": "Blocking Queue",
     "hn": [
       {
         "created_at": "2022-01-07T22:33:08.000Z",
@@ -3422,7 +3412,6 @@
   },
   {
     "url": "https://blog.dannycastonguay.com",
-    "title": "Home",
     "feed": "https://blog.dannycastonguay.com/feed.xml",
     "desc": "Product Leader."
   },
@@ -4139,7 +4128,6 @@
   },
   {
     "url": "https://blog.kronis.dev",
-    "title": "Home | blog.kronis.dev",
     "feed": "https://blog.kronis.dev/everything%20is%20broken.atom",
     "desc": "My blog, where i attempt to collect my thoughts and share the occasional interesting topic with others",
     "hn": [
@@ -4357,7 +4345,6 @@
     "title": "Merzlabs Blog",
     "feed": "https://blog.merzlabs.com/index.xml",
     "keywords": "blog,developer,personal,opensource,sideprojects",
-    "desc": "Merzlabs Blog",
     "hn": [
       {
         "created_at": "2017-11-28T21:43:15.000Z",
@@ -5179,7 +5166,7 @@
   },
   {
     "url": "https://blog.tjll.net",
-    "title": "Tyblog | Home",
+    "title": "Tyblog",
     "about": "https://blog.tjll.net/about",
     "feed": "https://blog.tjll.net/feed.xml",
     "desc": "My personal blog with technical writeups, how-tos, and other information.",
@@ -5392,7 +5379,7 @@
   },
   {
     "url": "https://blog.whilenot.dev",
-    "title": "wh!le / blog | Home",
+    "title": "wh!le / blog",
     "feed": "https://blog.whilenot.dev/index.xml",
     "desc": ""
   },
@@ -6408,12 +6395,11 @@
   },
   {
     "url": "https://burakku.com",
-    "title": "Home - ブラック",
+    "title": "ブラック",
     "feed": "https://burakku.com/feed.xml"
   },
   {
     "url": "https://bytefish.de",
-    "title": "home",
     "feed": "https://www.bytefish.de/feeds/rss.xml",
     "desc": "Welcome Page for bytefish.de."
   },
@@ -6586,7 +6572,7 @@
   },
   {
     "url": "https://catswhisker.xyz",
-    "title": "Home - The Cat's Whisker",
+    "title": "The Cat's Whisker",
     "desc": "A weblog documenting my programming and engineering projects and explorations.",
     "hn": [
       {
@@ -6673,7 +6659,7 @@
   },
   {
     "url": "https://chrisgriffing.com",
-    "title": "Home | Chris Griffing",
+    "title": "Chris Griffing",
     "desc": "I like to make things and every once in a while I remember to blog about it. The topics a varied but often useful. Hopefully, you find something you are interested in."
   },
   {
@@ -6698,7 +6684,7 @@
   },
   {
     "url": "https://chriswales.uk",
-    "title": "Home | Christopher Wales",
+    "title": "Christopher Wales",
     "feed": "https://chriswales.uk/rss.xml",
     "desc": "Personal website of Christopher Wales; Software Engineer."
   },
@@ -6842,7 +6828,7 @@
   },
   {
     "url": "https://code.davidv.eu",
-    "title": "Home | Sustainable software",
+    "title": "Sustainable software",
     "desc": "It’s time to fix the 3-5 year lifespan of a software project. Let’s design code for humans!"
   },
   {
@@ -8278,7 +8264,7 @@
   },
   {
     "url": "https://deut-erium.github.io",
-    "title": "About - deuterium's blog",
+    "title": "deuterium's blog",
     "feed": "https://deut-erium.github.io/feed.xml",
     "desc": "Himanshu Sheoran is a nerd typically writing about cryptography, Capture The Flag i.e CTF events, hacking, cybersecurity, SAT SMT solvers and  computer science in general.\n"
   },
@@ -8677,7 +8663,7 @@
   },
   {
     "url": "https://djedr.github.io",
-    "title": "Darius J Chuck -- Home page",
+    "title": "Darius J Chuck",
     "hn": [
       {
         "created_at": "2022-10-21T13:09:26.000Z",
@@ -8712,7 +8698,7 @@
   },
   {
     "url": "https://dmitry-kan.medium.com",
-    "title": "Dmitry Kan – Medium",
+    "title": "Dmitry Kan",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Dmitry Kan on Medium. Founder and host of Vector Podcast, tech team lead, software engineer, manager, but also: cat lover and cyclist. Host: https://www.youtube.com/c/VectorPodcast.",
     "hn": [
@@ -8901,7 +8887,7 @@
   },
   {
     "url": "https://du.nkel.dev",
-    "title": "Home - du.nkel.dev",
+    "title": "du.nkel.dev",
     "desc": "A personal code notes blog"
   },
   {
@@ -9118,7 +9104,7 @@
   },
   {
     "url": "https://eliseomartelli.it",
-    "title": "Home - Eliseo Martelli",
+    "title": "Eliseo Martelli",
     "about": "https://eliseomartelli.it/about",
     "feed": "https://eliseomartelli.it/feed.xml",
     "desc": "Computers, photography & music."
@@ -9901,7 +9887,7 @@
   },
   {
     "url": "https://fredgrott.medium.com",
-    "title": "Fred Grott – Medium",
+    "title": "Fred Grott",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Fred Grott on Medium. Flutter Cross Platform Mobile App Design https://keybase.io/fredgrott. Every day, Fred Grott and thousands of other voices read, write, and share important stories on Medium."
   },
@@ -10759,7 +10745,7 @@
   },
   {
     "url": "https://hacdias.com",
-    "title": "Home - Henrique Dias",
+    "title": "Henrique Dias",
     "feed": "https://hacdias.com/feed.xml",
     "desc": "Henrique is interested in web infrastructure, decentralized systems, and making tools for developers and users. He likes coffee and tea alike. Currently works as a Software Engineer at Protocol Labs."
   },
@@ -10780,7 +10766,7 @@
   },
   {
     "url": "https://hankruiger.com",
-    "title": "Han | Home",
+    "title": "Han",
     "about": "https://hankruiger.com/about",
     "now": "https://hankruiger.com/now",
     "hn": [
@@ -10859,7 +10845,6 @@
   },
   {
     "url": "https://her.esy.fun",
-    "title": "Home",
     "feed": "https://her.esy.fun/rss.xml",
     "keywords": "",
     "desc": "Most recent articles"
@@ -10980,7 +10965,7 @@
   },
   {
     "url": "https://hsnice16.medium.com",
-    "title": "Himanshu Singh – Medium",
+    "title": "Himanshu Singh",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Himanshu Singh on Medium. I write blogs around React JS, JavaScript, Web Dev, and Programming. Follow to read blogs around them. Every day, Himanshu Singh and thousands of other voices read, write, and share important stories on Medium."
   },
@@ -11379,7 +11364,7 @@
   },
   {
     "url": "https://inorris.com",
-    "title": "Ian Norris - Home",
+    "title": "Ian Norris",
     "desc": "",
     "hn": [
       {
@@ -11404,7 +11389,7 @@
   },
   {
     "url": "https://jabperf.com",
-    "title": "Home - JabPerf Corp",
+    "title": "JabPerf Corp",
     "desc": "IT Consultancy providing Performance Engineering expertise, specializing in the FinTech/High Frequency Trading (HFT) industry",
     "hn": [
       {
@@ -11645,7 +11630,7 @@
   },
   {
     "url": "https://jakewallace.io",
-    "title": "Home | Jake Wallace"
+    "title": "Jake Wallace"
   },
   {
     "url": "https://james.brooks.page",
@@ -11657,7 +11642,7 @@
   },
   {
     "url": "https://jamesg.blog",
-    "title": "Home | James' Coffee Blog",
+    "title": "James' Coffee Blog",
     "desc": "Hello! Привіт! I'm James (/d͡ʒeɪmz/) (also capjamesg). My pronouns are he/him/his. I live in Scotland. This is my blog."
   },
   {
@@ -11871,7 +11856,7 @@
   },
   {
     "url": "https://jeremymikkola.com",
-    "title": "Jeremy Mikkola - Home",
+    "title": "Jeremy Mikkola",
     "hn": [
       {
         "created_at": "2019-03-20T03:58:47.000Z",
@@ -12261,7 +12246,7 @@
   },
   {
     "url": "https://johnfraney.ca",
-    "title": "Home · JohnFraney.ca",
+    "title": "JohnFraney.ca",
     "desc": "John Franey's personal website, including a technical blog, project list, and web-based tools for websites and programmers."
   },
   {
@@ -12480,7 +12465,7 @@
   },
   {
     "url": "https://jthatch.com",
-    "title": "JThatch.com - Home Test"
+    "title": "JThatch.com "
   },
   {
     "url": "https://juan.barriteau.net",
@@ -12556,7 +12541,6 @@
     "url": "https://jvns.ca",
     "title": "Julia Evans",
     "about": "https://jvns.ca/about",
-    "desc": "Julia Evans",
     "hn": [
       {
         "created_at": "2020-07-16T13:16:34.000Z",
@@ -12868,8 +12852,7 @@
     "url": "https://kevingrandjean.ch",
     "title": "Kevin Grandjean",
     "about": "https://kevingrandjean.ch/about",
-    "feed": "https://kevingrandjean.ch/index.xml",
-    "desc": "Kevin Grandjean"
+    "feed": "https://kevingrandjean.ch/index.xml"
   },
   {
     "url": "https://kevinlondon.com",
@@ -12946,7 +12929,6 @@
     "url": "https://khanna.law",
     "title": "Harry Khanna - The Lawyer for Founders | Khanna Law",
     "feed": "https://www.khanna.law/rss/feed.xml",
-    "desc": "Harry Khanna",
     "hn": [
       {
         "created_at": "2022-01-31T15:55:05.000Z",
@@ -12976,7 +12958,6 @@
   {
     "url": "https://kiru.io",
     "title": "Kiru.io",
-    "desc": "Kiru.io",
     "hn": [
       {
         "created_at": "2023-01-23T22:34:02.000Z",
@@ -13393,7 +13374,7 @@
   },
   {
     "url": "https://lagomor.ph",
-    "title": "Lagomorph | Home",
+    "title": "Lagomorph",
     "feed": "https://lagomor.ph/posts/index.xml"
   },
   {
@@ -13864,7 +13845,7 @@
   },
   {
     "url": "https://lmy.medium.com",
-    "title": "lmy – Medium",
+    "title": "lmy",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from lmy on Medium. Tech writer with creative analogies. | Donate: https://ko-fi.com/mingyli. Every day, lmy and thousands of other voices read, write, and share important stories on Medium.",
     "hn": [
@@ -13904,7 +13885,7 @@
   },
   {
     "url": "https://logical.li",
-    "title": "Home - Logically",
+    "title": "Logically",
     "about": "https://logical.li/about",
     "feed": "https://logical.li/blog/rss.xml",
     "hn": [
@@ -14377,7 +14358,7 @@
   },
   {
     "url": "https://marctreagan.medium.com",
-    "title": "Marc Reagan – Medium",
+    "title": "Marc Reagan",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Marc Reagan on Medium. Sovereign Individual. Objectivist. Boeing Engineer. Bodybuilder. Citadel Builder. Austrian. Deficit Hawk. Bond Vigilante. Member of the Intransigent Minority."
   },
@@ -14405,7 +14386,7 @@
   },
   {
     "url": "https://markjgsmith.com",
-    "title": "\n                  Mark Smith Homepage",
+    "title": "Mark Smith Homepage",
     "about": "https://markjgsmith.com/about"
   },
   {
@@ -14842,13 +14823,12 @@
   },
   {
     "url": "https://matthewsinclair.com",
-    "title": "M@ – Medium",
+    "title": "M@",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from M@ on Medium. Building stuff with bits since c1990. https://keybase.io/matthewsinclair https://twitter.com/matthewsinclair. Every day, M@ and thousands of other voices read, write, and share important stories on Medium."
   },
   {
     "url": "https://mattkeeter.com",
-    "title": "home",
     "about": "https://mattkeeter.com/about",
     "hn": [
       {
@@ -15020,7 +15000,7 @@
   },
   {
     "url": "https://mattpengelly.com",
-    "title": "Home | Matts blog"
+    "title": "Matts blog"
   },
   {
     "url": "https://mattrighetti.com",
@@ -15329,7 +15309,7 @@
   },
   {
     "url": "https://mfashby.net",
-    "title": "Home | mfashby.net",
+    "title": "mfashby.net",
     "feed": "https://mfashby.net/index.xml"
   },
   {
@@ -15343,7 +15323,6 @@
     "url": "https://mfkl.github.io",
     "title": "mfkl",
     "feed": "https://mfkl.github.io/feed.xml",
-    "desc": "mfkl ",
     "hn": [
       {
         "created_at": "2021-01-13T10:07:24.000Z",
@@ -15415,7 +15394,7 @@
   },
   {
     "url": "https://michaeldemar.co",
-    "title": "Home | michaeldemar.co",
+    "title": "michaeldemar.co",
     "about": "https://michaeldemar.co/about",
     "desc": "Michael DeMarco's personal blog. Software development, design, travel, and more."
   },
@@ -15983,8 +15962,7 @@
     "url": "https://nanotipsforvim.prose.sh",
     "title": "Nano Tips for Vim",
     "feed": "https://nanotipsforvim.prose.sh/rss",
-    "keywords": "blog, blogging, write, writing",
-    "desc": "Nano Tips for Vim"
+    "keywords": "blog, blogging, write, writing"
   },
   {
     "url": "https://nectarine.sh",
@@ -16053,8 +16031,7 @@
   {
     "url": "https://ng-tech.icu",
     "title": "Next-gen Tech Edu",
-    "feed": "https://ng-tech.icu/index.xml",
-    "desc": "Next-gen Tech Edu"
+    "feed": "https://ng-tech.icu/index.xml"
   },
   {
     "url": "https://nickjanetakis.com",
@@ -16329,7 +16306,7 @@
   },
   {
     "url": "https://nikhilism.com",
-    "title": "Nikhil's blog | Home ",
+    "title": "Nikhil's blog",
     "feed": "https://nikhilism.com/index.xml",
     "desc": "",
     "hn": [
@@ -16934,7 +16911,7 @@
   },
   {
     "url": "https://nyanpasu64.gitlab.io",
-    "title": "Home | nyanpasu64's blog",
+    "title": "nyanpasu64's blog",
     "desc": "Adventures in programming, hardware, DSP, and chiptune"
   },
   {
@@ -17501,7 +17478,7 @@
   },
   {
     "url": "https://patrickcollison.com",
-    "title": "Home · Patrick Collison",
+    "title": "Patrick Collison",
     "about": "https://patrickcollison.com/about",
     "hn": [
       {
@@ -18725,7 +18702,7 @@
   },
   {
     "url": "https://prashamhtrivedi.in",
-    "title": "Prasham H Trivedi | Home ",
+    "title": "Prasham H Trivedi",
     "about": "https://prashamhtrivedi.in/about",
     "feed": "https://prashamhtrivedi.in/index.xml",
     "desc": "Personal Site of Prasham H Trivedi"
@@ -18929,7 +18906,7 @@
   },
   {
     "url": "https://quinnkeast.com",
-    "title": "Home | Quinn Keast",
+    "title": "Quinn Keast",
     "about": "https://quinnkeast.com/about",
     "feed": "https://quinnkeast.com/feed.xml"
   },
@@ -19011,7 +18988,7 @@
   },
   {
     "url": "https://raduzaharia.medium.com",
-    "title": "Radu Zaharia – Medium",
+    "title": "Radu Zaharia",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Radu Zaharia on Medium. Still planning that trip to the Moon. Every day, Radu Zaharia and thousands of other voices read, write, and share important stories on Medium."
   },
@@ -19087,7 +19064,7 @@
   },
   {
     "url": "https://rasulkireev.com",
-    "title": "Home - Rasul Kireev",
+    "title": "Rasul Kireev",
     "feed": "https://rasulkireev.com/rss.xml",
     "desc": "This my personal Digital Garden. Collection of thoughts, notes and a bunch of other things. Whatever I want in fact.",
     "hn": [
@@ -19110,7 +19087,7 @@
   },
   {
     "url": "https://rebeccaskinner.net",
-    "title": "Rebecca Skinner - Home",
+    "title": "Rebecca Skinner",
     "hn": [
       {
         "created_at": "2021-09-09T05:48:29.000Z",
@@ -19332,13 +19309,12 @@
   },
   {
     "url": "https://rpep.dev",
-    "title": "Home | rpep.dev",
+    "title": "rpep.dev",
     "feed": "https://rpep.dev/index.xml",
     "desc": "Scientific software musings..."
   },
   {
     "url": "https://rrich.io",
-    "title": "Home » rrich.io",
     "feed": "https://rrich.io/feed.xml"
   },
   {
@@ -19772,7 +19748,7 @@
   },
   {
     "url": "https://seasonedtech.net",
-    "title": "Home | Seasoned Tech",
+    "title": "Seasoned Tech",
     "desc": "Jekyll Twitter Bootstrap is a Jekyll theme based on Twitter Bootstrap for easy customization by leveraging the Bootstrap framework for styling and layout.\n"
   },
   {
@@ -20875,7 +20851,6 @@
   },
   {
     "url": "https://spaccapeli.com",
-    "title": "Homepage",
     "about": "https://spaccapeli.com/about"
   },
   {
@@ -20941,7 +20916,7 @@
   },
   {
     "url": "https://ssg.dev",
-    "title": "Sedat Kapanoglu – Medium",
+    "title": "Sedat Kapanoglu",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Sedat Kapanoglu on Medium. Author of Street Coder (https://streetcoder.org) · Ex-Software Engineer at Microsoft · Founder of eksisozluk.com · Demoscene old-timer."
   },
@@ -21929,7 +21904,7 @@
   },
   {
     "url": "https://taoofmac.com",
-    "title": "Home Page - Tao of Mac",
+    "title": "Tao of Mac",
     "feed": "https://taoofmac.com/feed",
     "keywords": "12, 2023, 3d printing, 3dprinting, a-shell, agi, ai, apple, apple silicon, apps, ar, architecture, arm, art, autogpt, beta, bloat, books, build, chatgpt, coimbra, computing, copilot, development, directx, dualup, electron, emulation, enterprise, esim, ethernet, fedora, fountain, future, gaming, garden, gnome, godot, gpt, hack, hardware, harnesses, home automation, installation, ios, ipad, ipados, javascript, layoffs, lg, life, llm, m2, mac, macos, mail.app, maintenance, mathematics, mckinsey, metal, microsoft, mini, mission control, monitors, msbuild, msgfiler, networking, news, nintendo, nostalgia, notes, olympics, open source, openai, opinion, palace, performance, personal, photo, photography, plug-ins, policy, porto, portugal, pro, productivity, proxmox, pwa, python, rdp, retrobrighting, rss, safari, serralves, shareholder, sonoma, sqlite, stage manager, switch, task switching, ted lasso, tools, totk, travel, truphone, ux, value, ventura, venue, vim, vision pro, vmware, vr, wasm, watchos, web, weekend, weekly, windows, wine, wwdc, zelda",
     "desc": "Keeping Things Simple",
@@ -22155,7 +22130,7 @@
   },
   {
     "url": "https://thecapegreek.com",
-    "title": "Home | Nik Spyratos - The Cape Greek",
+    "title": "Nik Spyratos - The Cape Greek",
     "feed": "https://www.thecapegreek.com/rss.xml",
     "desc": "Personal & Professional website of Nik Spyratos"
   },
@@ -22830,13 +22805,12 @@
   },
   {
     "url": "https://tohya.net",
-    "title": "Home - tohya.net",
+    "title": "tohya.net",
     "keywords": "tohya, saturnexplorers",
     "desc": "saturnexplorers official website. Also videogame reviews and more"
   },
   {
     "url": "https://tomasdiblik.cz",
-    "title": "Home",
     "keywords": "Tomáš Diblík, Tomas Diblik, TDiblik, TDiblik005, tdiblik, tdiblik005, Tomh-hash Dibh-leek, Home, home page, home, index",
     "desc": "Hi there pal! This is my personal website, don't be worried / scared and come over here! :D - I don't bite!"
   },
@@ -22956,7 +22930,7 @@
   },
   {
     "url": "https://tomwh.uk",
-    "title": "Tom WH - Home"
+    "title": "Tom WH"
   },
   {
     "url": "https://tr3y.io",
@@ -22994,7 +22968,7 @@
   },
   {
     "url": "https://trendguardian.medium.com",
-    "title": "Trend Guardian – Medium",
+    "title": "Trend Guardian",
     "about": "https://medium.com/about?autoplay=1&source=---two_column_layout_sidebar----------------------------------",
     "desc": "Read writing from Trend Guardian on Medium. World insights. Every day, Trend Guardian and thousands of other voices read, write, and share important stories on Medium.",
     "hn": [
@@ -23360,7 +23334,7 @@
   },
   {
     "url": "https://uhmm.jwjacobs.com",
-    "title": "Home | Uhmm",
+    "title": "Uhmm",
     "about": "https://uhmm.jwjacobs.com/about",
     "desc": "Personal blog of Jason Jacobs. Past, present, future, imaginings, daydreams, stories, art, and more, all intertwined and making a home here."
   },
@@ -23477,7 +23451,7 @@
   },
   {
     "url": "https://uzpg.me",
-    "title": "Home | UZPG",
+    "title": "UZPG",
     "hn": [
       {
         "created_at": "2021-07-21T21:33:59.000Z",
@@ -23674,7 +23648,7 @@
   },
   {
     "url": "https://vinitkumar.me",
-    "title": "Home | Vinit Kumar",
+    "title": "Vinit Kumar",
     "desc": "My musings with programming, technology and life"
   },
   {
@@ -23724,7 +23698,7 @@
   },
   {
     "url": "https://vjeran.crnjak.xyz",
-    "title": "Chào bảo - Home",
+    "title": "Chào bảo",
     "about": "https://vjeran.crnjak.xyz/about"
   },
   {
@@ -23818,7 +23792,6 @@
   },
   {
     "url": "https://web.navan.dev",
-    "title": "Home",
     "desc": "code snippets, long-form rants, and tutorials"
   },
   {
@@ -24253,7 +24226,7 @@
   },
   {
     "url": "https://xavd.id",
-    "title": "Home | xavd.id",
+    "title": "xavd.id",
     "feed": "https://xavd.id/blog/feeds/rss.xml",
     "hn": [
       {
@@ -24635,7 +24608,6 @@
   },
   {
     "url": "https://yannesposito.com",
-    "title": "Home",
     "feed": "https://yannesposito.com/rss.xml",
     "keywords": "",
     "desc": "Most recent articles",
@@ -24830,7 +24802,7 @@
   },
   {
     "url": "https://zachnielsen.org",
-    "title": "Home | Zach Nielsen's Blog",
+    "title": "Zach Nielsen's Blog",
     "feed": "https://zachnielsen.org/index.xml"
   },
   {
@@ -24868,10 +24840,9 @@
   },
   {
     "url": "https://zacs.site",
-    "title": "Home - Zachary Szewczyk",
+    "title": "Zachary Szewczyk",
     "feed": "https://zacs.site/rss.xml",
     "keywords": "Zac Szewczyk, Zachary Szewczyk, Zac J. Szewczyk, Szewczyk, zacjszewczyk",
-    "desc": "Home",
     "hn": [
       {
         "created_at": "2019-07-05T13:26:14.000Z",
@@ -24909,15 +24880,14 @@
   },
   {
     "url": "https://zef.studio",
-    "title": "Home | Zef Houssney",
+    "title": "Zef Houssney",
     "about": "https://zef.studio/about"
   },
   {
     "url": "https://zefram.xyz",
     "title": "Zefram's Blog",
     "feed": "https://zefram.xyz/index.xml",
-    "keywords": "Blog,DeFi,Ethereum,Personal",
-    "desc": "Zefram's Personal Blog"
+    "keywords": "Blog,DeFi,Ethereum,Personal"
   },
   {
     "url": "https://zserge.com",

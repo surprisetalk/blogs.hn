@@ -15,10 +15,20 @@ blogs.sort(() => Math.random() - 0.5);
 let index = "";
 for (const blog of blogs) {
   blog.title = (blog.title || "").trim();
+  blog.desc = (blog.desc || "").trim();
   if (!blog.url) continue;
-  if (blog.title === blog.url.replace(/^https?:\/\//, ""))
-    console.log(blog.title.trim());
-  if (!!blog.title + !!blog.desc + !!blog.hn === 0) continue;
+  if (blog.title && blog.title === blog.desc) console.log(blog.title);
+  if (
+    3 >
+    0 +
+      !!blog.title +
+      !!blog.desc +
+      !!blog.about +
+      !!blog.now +
+      !!blog.feed +
+      3 * !!blog.hn
+  )
+    continue;
   const link = blog.url
     .replace(/^https?:\/\//, "")
     .replace(/[^A-Za-z0-9]/g, c => `<wbr/>${c}`);
