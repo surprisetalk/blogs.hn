@@ -46,6 +46,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
+  font-weight: 500;
 }
 
 /*** LAYOUT ***/
@@ -66,9 +67,6 @@ header {
 }
 main {
   margin: 2rem 2rem 12rem;
-  column-count: auto;
-  column-width: 22rem;
-  column-gap: 3rem;
 }
 main > div {
   display: inline-block;
@@ -76,6 +74,17 @@ main > div {
   margin-bottom: 2rem;
   border-radius: 10px;
   padding: 2rem 2rem 3rem;
+}
+
+#index {
+  column-count: auto;
+  column-width: 22rem;
+  column-gap: 3rem;
+}
+#about > div {
+  max-width: 22rem;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (min-width: 42rem) {
