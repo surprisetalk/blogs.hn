@@ -14,10 +14,11 @@ blogs.sort(() => Math.random() - 0.5);
 
 let index = "";
 for (const blog of blogs) {
+  blog.title = (blog.title || "").trim();
   if (!blog.url) continue;
-  if (blog.title?.trim() === blog.url.replace(/^https?:\/\//, ""))
+  if (blog.title === blog.url.replace(/^https?:\/\//, ""))
     console.log(blog.title.trim());
-  if (!!blog.title?.trim() + !!blog.desc + !!blog.hn === 0) continue;
+  if (!!blog.title + !!blog.desc + !!blog.hn === 0) continue;
   const link = blog.url
     .replace(/^https?:\/\//, "")
     .replace(/[^A-Za-z0-9]/g, c => `<wbr/>${c}`);
@@ -29,7 +30,7 @@ for (const blog of blogs) {
     .filter(x => x)
     .join(" • ");
 
-  const title_ = [blog.title?.trim(), links].filter(x => x).join(` • `);
+  const title_ = [blog.title, links].filter(x => x).join(` • `);
   if (title_) index += `<p><strong>${title_}</strong></p>`;
   if (blog.desc) index += `<p class="small"><em>${blog.desc}</em></p>`;
   if (blog.hn) {
