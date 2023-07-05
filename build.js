@@ -55,7 +55,7 @@ const about = `
     <h2>hello world,</h2>
     <p><a href="/">blogs.hn</a> is a directory of tech sites, primarily sourced from <a href="https://news.ycombinator.com">HackerNews</a>.</p>
     <p>To submit/update a blog, <a href="https://github.com/surprisetalk/blogs.hn/blob/main/blogs.json">edit blogs.json in a pull-request</a>.</p>
-    <p>If you like small sites with RSS feeds, consider checking out <a href="https://ooh.directory">ooh.directory</a>. If you don't have an RSS reader, I highly recommend <a href="https://reederapp.com">Reeder 5</a>.</p>
+    <p>If you like sites with RSS feeds, consider checking out <a href="https://ooh.directory">ooh.directory</a>. If you don't have an RSS reader, I highly recommend <a href="https://reederapp.com">Reeder 5</a>.</p>
     <p>And if you aren't already, <em>you should</em> <a href="https://www.benkuhn.net/writing/">write things on the internet</a>. All you need is <a href="https://github.com/surprisetalk/worstpress">worstpress</a> and some markdown files! You can <a href="mailto:hello@taylor.town">email me</a> if you need help getting started.</p>
     <p>Every blog is a window into a skull. Don't be afraid to ask questions and kindle friendships! Remember to be kind, courteous, and succinct.</p>
     <p>Thanks for stopping by.</p>
