@@ -26,7 +26,7 @@ for (const blog of blogs) {
       !!blog.about +
       !!blog.now +
       !!blog.feed +
-      3 * !!blog.hn
+      3 * ((blog.hn || []).length > 1)
   )
     continue;
   const link = blog.url
