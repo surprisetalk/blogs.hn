@@ -146,11 +146,20 @@ main > div {
 
   header,
   main > div {
-    background-color: #151515;
+    background-color: #222;
   }
 
   a:link,
   a:visited {
     color: white;
+  }
+
+  header {
+    border-bottom: 4px solid #333;
+  }
+
+  main > div {
+    border: 0;
+    border-bottom: 6px solid #333;
   }
 }
