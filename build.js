@@ -15,7 +15,9 @@ blogs.sort(() => Math.random() - 0.5);
 let index = "";
 for (const blog of blogs) {
   if (!blog.url) continue;
-  const link = blog.url.replace(/^https?:\/\//, "");
+  const link = blog.url
+    .replace(/^https?:\/\//, "")
+    .replace(/[^A-Za-z0-9]/g, c => `<wbr/>${c}`);
   index += `<div class="blog">`;
   index += `<h2><a href="${blog.url}">${link}</a></h2>`;
   const linkTitles = ["about", "now", "feed", "news"];
@@ -23,9 +25,10 @@ for (const blog of blogs) {
     .map((x, i) => x && `<a href=${x}>${linkTitles[i]}</a>`)
     .filter(x => x)
     .join(" • ");
-  const subtitle = [blog.title, links].filter(x => x).join(" • ");
-  if (subtitle) index += `<h3>${subtitle}</h3>`;
-  if (blog.desc) index += `<p>${blog.desc}</p>`;
+
+  const title = [blog.title.trim(), links].filter(x => x).join(` • `);
+  if (blog.title) index += `<p><strong>${title}</strong></p>`;
+  if (blog.desc) index += `<p class="small"><em>${blog.desc}</em></p>`;
   if (blog.hn) {
     index += `<table>`;
     for (const { id, comments, created_at, points, url, title } of blog.hn)
