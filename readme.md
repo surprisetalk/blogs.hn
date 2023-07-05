@@ -1,10 +1,10 @@
 # [blogs.hn](https://blogs.hn)
 
-## Adding Blogs
-
 [blogs.hn](https://blogs.hn) is for _personal_ blogs! Non-technical blogs are
 okay too, but remember that the community is mostly folks from
 [HackerNews](https://news.ycombinator.com).
+
+## Adding Blogs
 
 1. Run the script:
 
