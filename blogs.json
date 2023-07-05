@@ -1369,7 +1369,6 @@
     "title": "Andrea Bergia's Website",
     "feed": "https://andreabergia.com/index.xml",
     "keywords": "blog,programming,developer",
-    "desc": "Andrea Bergia's Website",
     "hn": [
       {
         "created_at": "2020-12-27T13:12:01.000Z",
@@ -1532,7 +1531,6 @@
   },
   {
     "url": "https://andrewshay.me",
-    "title": "andrewshay.me",
     "feed": "https://andrewshay.me/feed.xml",
     "desc": "Andrew Shay's Blog and Digital Garden",
     "hn": [
@@ -1850,8 +1848,7 @@
   },
   {
     "url": "https://aostil.es",
-    "title": "aostiles: quality programming",
-    "desc": "aostiles: quality programming"
+    "title": "aostiles: quality programming"
   },
   {
     "url": "https://apogliaghi.com",
@@ -2723,7 +2720,6 @@
   },
   {
     "url": "https://benbrougher.tech",
-    "title": "benbrougher.tech",
     "feed": "https://benbrougher.tech/rss.xml",
     "desc": "A Place to Share and Collaborate with Fellow Developers"
   },
@@ -4710,8 +4706,7 @@
   {
     "url": "https://blog.picheta.me",
     "title": "Dominik Picheta's blog",
-    "feed": "https://blog.picheta.me/rss.xml",
-    "desc": "Dominik Picheta's blog"
+    "feed": "https://blog.picheta.me/rss.xml"
   },
   {
     "url": "https://blog.plain.technology",
@@ -6834,8 +6829,7 @@
   {
     "url": "https://code.zikani.me",
     "title": "Zikani's Blog",
-    "feed": "https://code.zikani.me/rss.xml",
-    "desc": "Zikani's Blog"
+    "feed": "https://code.zikani.me/rss.xml"
   },
   {
     "url": "https://codeconfessions.substack.com",
@@ -8223,8 +8217,7 @@
   },
   {
     "url": "https://densebit.com",
-    "title": "densebit",
-    "desc": "densebit"
+    "title": "densebit"
   },
   {
     "url": "https://denvaar.github.io",
@@ -8887,7 +8880,6 @@
   },
   {
     "url": "https://du.nkel.dev",
-    "title": "du.nkel.dev",
     "desc": "A personal code notes blog"
   },
   {
@@ -10295,7 +10287,6 @@
     "title": "Geography & Coding",
     "feed": "https://geo.rocks/index.xml",
     "keywords": "Geography,Geo Data Sciene,Geo,Geo Science,Geospatial Data Science,Dominik Weckmüller,Blog,Geo Blog ,Geo Science Blog,Web Apps,Geoscripting,Geo Coding,Remote Sensing,Social Geography",
-    "desc": "Geography & Coding",
     "hn": [
       {
         "created_at": "2023-04-12T16:42:17.000Z",
@@ -10525,7 +10516,6 @@
   {
     "url": "https://gilmi.me",
     "title": "λm.me - home",
-    "desc": "λm.me - home",
     "hn": [
       {
         "created_at": "2018-10-07T16:01:29.000Z",
@@ -12482,7 +12472,6 @@
     "url": "https://juliette.page",
     "title": "Juliette",
     "feed": "https://juliette.page/rss",
-    "desc": "Juliette",
     "hn": [
       {
         "created_at": "2023-07-02T01:50:34.000Z",
@@ -13581,8 +13570,7 @@
   },
   {
     "url": "https://legendofcode.com",
-    "title": "Sen Hongo — freelance software engineer and business consultant",
-    "desc": "Sen Hongo — freelance software engineer and business consultant"
+    "title": "Sen Hongo — freelance software engineer and business consultant"
   },
   {
     "url": "https://lelanthran.com",
@@ -15309,7 +15297,6 @@
   },
   {
     "url": "https://mfashby.net",
-    "title": "mfashby.net",
     "feed": "https://mfashby.net/index.xml"
   },
   {
@@ -15394,7 +15381,6 @@
   },
   {
     "url": "https://michaeldemar.co",
-    "title": "michaeldemar.co",
     "about": "https://michaeldemar.co/about",
     "desc": "Michael DeMarco's personal blog. Software development, design, travel, and more."
   },
@@ -15895,8 +15881,7 @@
   {
     "url": "https://mvasilkov.animuchan.net",
     "title": "Mark Vasilkov",
-    "feed": "https://mvasilkov.animuchan.net/rss.xml",
-    "desc": "Mark Vasilkov"
+    "feed": "https://mvasilkov.animuchan.net/rss.xml"
   },
   {
     "url": "https://mylloon.fr",
@@ -19309,7 +19294,6 @@
   },
   {
     "url": "https://rpep.dev",
-    "title": "rpep.dev",
     "feed": "https://rpep.dev/index.xml",
     "desc": "Scientific software musings..."
   },
@@ -20113,7 +20097,6 @@
     "url": "https://shielddigitaldesign.com",
     "title": "Shield Digital Design",
     "about": "https://shielddigitaldesign.com/about",
-    "desc": "Shield Digital Design",
     "hn": [
       {
         "created_at": "2021-06-08T00:38:03.000Z",
@@ -22338,8 +22321,7 @@
   {
     "url": "https://thelis.org",
     "title": "Richard Li",
-    "about": "https://thelis.org/about",
-    "desc": "Richard Li"
+    "about": "https://thelis.org/about"
   },
   {
     "url": "https://thelisowe.com",
@@ -22768,8 +22750,7 @@
   },
   {
     "url": "https://timveletta.com",
-    "title": "Tim Veletta",
-    "desc": "Tim Veletta"
+    "title": "Tim Veletta"
   },
   {
     "url": "https://tito.co",
@@ -22805,7 +22786,6 @@
   },
   {
     "url": "https://tohya.net",
-    "title": "tohya.net",
     "keywords": "tohya, saturnexplorers",
     "desc": "saturnexplorers official website. Also videogame reviews and more"
   },
@@ -23747,7 +23727,6 @@
     "url": "https://wcedmisten.fyi",
     "title": "William Edmisten",
     "feed": "https://wcedmisten.fyi/feed.xml",
-    "desc": "William Edmisten",
     "hn": [
       {
         "created_at": "2022-11-22T12:00:24.000Z",
@@ -24226,7 +24205,6 @@
   },
   {
     "url": "https://xavd.id",
-    "title": "xavd.id",
     "feed": "https://xavd.id/blog/feeds/rss.xml",
     "hn": [
       {
@@ -24589,8 +24567,7 @@
   {
     "url": "https://y3sar.hashnode.dev",
     "title": "Yasar Blog",
-    "feed": "https://y3sar.hashnode.dev/rss.xml",
-    "desc": "Yasar Blog"
+    "feed": "https://y3sar.hashnode.dev/rss.xml"
   },
   {
     "url": "https://yakkomajuri.com",
