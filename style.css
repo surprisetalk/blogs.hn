@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+header {
+  padding: 2rem;
+  background-color: #151515;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+header > div:last-child {
+  justify-self: right;
+}
+main {
+  margin: 1rem 2rem 12rem;
+  column-count: auto;
+  column-width: 25rem;
+}
+main > div {
+  display: inline-block;
+}

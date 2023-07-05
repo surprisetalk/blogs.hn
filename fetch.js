@@ -32,7 +32,7 @@ const links = process.argv.slice(2);
           `https://hn.algolia.com/api/v1/search` +
             `?tags=story` +
             `&restrictSearchableAttributes=url` +
-            `&query=${encodeURIComponent(new URL(link).hostname)}`
+            `&query=${encodeURIComponent(link.replace(/^https?:\/\//, ""))}`
         );
         const data = await alg.json();
         hn = data?.hits
