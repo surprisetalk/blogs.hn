@@ -329,7 +329,7 @@
       },
       {
         "created_at": "2018-12-17T22:28:29.000Z",
-        "title": "A Gentle Introduction to Erasure Codes (2017)",
+        "title": "A Gentle Introduction to Erasure Codes",
         "url": "https://www.akalin.com/intro-erasure-codes",
         "points": 57,
         "comments": 5,
@@ -482,7 +482,7 @@
       },
       {
         "created_at": "2023-01-27T09:22:39.000Z",
-        "title": "Take more screenshots (2022)",
+        "title": "Take more screenshots",
         "url": "https://alexwlchan.net/2022/screenshots/",
         "points": 369,
         "comments": 176,
@@ -537,7 +537,7 @@
       },
       {
         "created_at": "2020-06-10T01:34:57.000Z",
-        "title": "The World's Simplest Interesting Algorithm (2019)",
+        "title": "The World's Simplest Interesting Algorithm",
         "url": "https://algorithmsoup.wordpress.com/2019/10/25/the-worlds-simplest-interesting-algorithm/",
         "points": 32,
         "comments": 16,
@@ -856,7 +856,7 @@
     "hn": [
       {
         "created_at": "2020-12-27T13:12:01.000Z",
-        "title": "Stack Based Virtual Machines (2015)",
+        "title": "Stack Based Virtual Machines",
         "url": "https://andreabergia.com/stack-based-virtual-machines/",
         "points": 58,
         "comments": 18,
@@ -1077,7 +1077,7 @@
       },
       {
         "created_at": "2013-06-21T01:34:12.000Z",
-        "title": "Mobile app startups are failing like it’s 1999 (2012)",
+        "title": "Mobile app startups are failing like it’s 1999",
         "url": "http://andrewchen.co/2012/08/15/mobile-app-startups-are-failing-like-its-1999/",
         "points": 87,
         "comments": 50,
@@ -1125,7 +1125,7 @@
       },
       {
         "created_at": "2021-10-14T16:26:44.000Z",
-        "title": "The Law of Shitty Clickthroughs (2012)",
+        "title": "The Law of Shitty Clickthroughs",
         "url": "https://andrewchen.com/the-law-of-shitty-clickthroughs/",
         "points": 62,
         "comments": 60,
@@ -1179,7 +1179,7 @@
     "hn": [
       {
         "created_at": "2015-08-16T12:22:50.000Z",
-        "title": "ReactJS for Stupid People (2014)",
+        "title": "ReactJS for Stupid People",
         "url": "http://blog.andrewray.me/reactjs-for-stupid-people/",
         "points": 66,
         "comments": 37,
@@ -1271,7 +1271,7 @@
       },
       {
         "created_at": "2021-03-25T18:09:08.000Z",
-        "title": "Ultrasound Networking (2014)",
+        "title": "Ultrasound Networking",
         "url": "https://www.anfractuosity.com/projects/ultrasound-networking/",
         "points": 42,
         "comments": 6,
@@ -1279,7 +1279,7 @@
       },
       {
         "created_at": "2020-06-27T17:20:28.000Z",
-        "title": "Ultrasound Networking (2014)",
+        "title": "Ultrasound Networking",
         "url": "https://www.anfractuosity.com/projects/ultrasound-networking/",
         "points": 31,
         "comments": 16,
@@ -1413,7 +1413,7 @@
     "hn": [
       {
         "created_at": "2018-06-20T18:20:53.000Z",
-        "title": "YAML: probably not so great after all (2017)",
+        "title": "YAML: probably not so great after all",
         "url": "https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html",
         "points": 673,
         "comments": 395,
@@ -1453,7 +1453,7 @@
       },
       {
         "created_at": "2019-04-13T16:10:56.000Z",
-        "title": "JSON as configuration files: please don’t (2016)",
+        "title": "JSON as configuration files: please don’t",
         "url": "https://arp242.net/weblog/json_as_configuration_files-_please_dont",
         "points": 401,
         "comments": 426,
@@ -1509,7 +1509,7 @@
       },
       {
         "created_at": "2019-01-18T22:29:17.000Z",
-        "title": "The Art of Unix Programming (2003)",
+        "title": "The Art of Unix Programming",
         "url": "https://arp242.net/the-art-of-unix-programming/",
         "points": 111,
         "comments": 6,
@@ -1517,7 +1517,7 @@
       },
       {
         "created_at": "2020-04-12T12:54:32.000Z",
-        "title": "YAML: Probably not so great after all (2019)",
+        "title": "YAML: Probably not so great after all",
         "url": "https://www.arp242.net/yaml-config.html",
         "points": 107,
         "comments": 129,
@@ -1740,7 +1740,7 @@
       },
       {
         "created_at": "2021-02-14T09:45:05.000Z",
-        "title": "Why blockchain is not yet working (2018)",
+        "title": "Why blockchain is not yet working",
         "url": "https://as1ndu.xyz/2018/05/why-blockchain-is-not-yet-working/",
         "points": 99,
         "comments": 317,
@@ -1848,7 +1848,7 @@
       },
       {
         "created_at": "2020-03-08T22:21:36.000Z",
-        "title": "Comparing the security of voting schemes (2019)",
+        "title": "Comparing the security of voting schemes",
         "url": "https://www.attejuvonen.fi/thesis/",
         "points": 62,
         "comments": 3,
@@ -1885,7 +1885,7 @@
     "hn": [
       {
         "created_at": "2019-02-03T05:47:07.000Z",
-        "title": "The Last Free Generation (2018)",
+        "title": "The Last Free Generation",
         "url": "https://austingwalters.com/the-last-free-generation/",
         "points": 52,
         "comments": 34,
@@ -2004,7 +2004,7 @@
       },
       {
         "created_at": "2022-03-29T16:38:41.000Z",
-        "title": "Implementing Cosine in C from Scratch (2020)",
+        "title": "Implementing Cosine in C from Scratch",
         "url": "https://austinhenley.com/blog/cosine.html",
         "points": 264,
         "comments": 134,
@@ -2012,7 +2012,7 @@
       },
       {
         "created_at": "2023-06-05T11:12:11.000Z",
-        "title": "Implementing Cosine in C from Scratch (2020)",
+        "title": "Implementing Cosine in C from Scratch",
         "url": "https://austinhenley.com/blog/cosine.html",
         "points": 220,
         "comments": 86,
@@ -2052,7 +2052,7 @@
       },
       {
         "created_at": "2023-06-14T02:40:22.000Z",
-        "title": "Gamification, life, and the pursuit of a gold badge (2021)",
+        "title": "Gamification, life, and the pursuit of a gold badge",
         "url": "https://austinhenley.com/blog/gamification.html",
         "points": 125,
         "comments": 59,
@@ -2068,7 +2068,7 @@
       },
       {
         "created_at": "2023-05-28T09:25:33.000Z",
-        "title": "Let's make a Teeny Tiny compiler (2020)",
+        "title": "Let's make a Teeny Tiny compiler",
         "url": "https://austinhenley.com/blog/teenytinycompiler1.html",
         "points": 107,
         "comments": 24,
@@ -2212,7 +2212,7 @@
       },
       {
         "created_at": "2022-01-23T03:57:06.000Z",
-        "title": "Automatic Ripping Machine (2016)",
+        "title": "Automatic Ripping Machine",
         "url": "https://b3n.org/automatic-ripping-machine/",
         "points": 60,
         "comments": 38,
@@ -2379,7 +2379,7 @@
       },
       {
         "created_at": "2022-05-12T19:10:48.000Z",
-        "title": "Wireless is a trap (2020)",
+        "title": "Wireless is a trap",
         "url": "https://www.benkuhn.net/wireless/",
         "points": 474,
         "comments": 409,
@@ -2403,7 +2403,7 @@
       },
       {
         "created_at": "2021-08-17T07:00:31.000Z",
-        "title": "You don’t need to work on hard problems (2020)",
+        "title": "You don’t need to work on hard problems",
         "url": "https://www.benkuhn.net/hard/",
         "points": 415,
         "comments": 127,
@@ -2419,7 +2419,7 @@
       },
       {
         "created_at": "2020-01-16T13:43:04.000Z",
-        "title": "Autocomplete as an Interface (2015)",
+        "title": "Autocomplete as an Interface",
         "url": "https://www.benkuhn.net/autocomplete",
         "points": 288,
         "comments": 191,
@@ -2427,7 +2427,7 @@
       },
       {
         "created_at": "2019-11-29T16:04:15.000Z",
-        "title": "Syntax Highlighting Is Backwards (2018)",
+        "title": "Syntax Highlighting Is Backwards",
         "url": "https://www.benkuhn.net/syntax",
         "points": 274,
         "comments": 140,
@@ -2435,7 +2435,7 @@
       },
       {
         "created_at": "2016-11-24T19:22:16.000Z",
-        "title": "Why squared error? (2014)",
+        "title": "Why squared error?",
         "url": "http://www.benkuhn.net/squared",
         "points": 256,
         "comments": 99,
@@ -2483,7 +2483,7 @@
       },
       {
         "created_at": "2022-02-20T07:14:13.000Z",
-        "title": "My favorite essays of life advice (2020)",
+        "title": "My favorite essays of life advice",
         "url": "https://www.benkuhn.net/weeklyessays/",
         "points": 154,
         "comments": 10,
@@ -2491,7 +2491,7 @@
       },
       {
         "created_at": "2022-05-17T21:28:50.000Z",
-        "title": "How to make video calls almost as good as face-to-face (2020)",
+        "title": "How to make video calls almost as good as face-to-face",
         "url": "https://www.benkuhn.net/vc/",
         "points": 145,
         "comments": 102,
@@ -2507,7 +2507,7 @@
       },
       {
         "created_at": "2022-02-09T19:41:56.000Z",
-        "title": "Grad school is worse for public health than STDs (2019)",
+        "title": "Grad school is worse for public health than STDs",
         "url": "https://www.benkuhn.net/grad/",
         "points": 120,
         "comments": 51,
@@ -2538,7 +2538,7 @@
       },
       {
         "created_at": "2021-03-30T04:38:40.000Z",
-        "title": "Compiling a Lisp to x86_64 (2020)",
+        "title": "Compiling a Lisp to x86_64",
         "url": "https://bernsteinbear.com/blog/lisp/",
         "points": 128,
         "comments": 31,
@@ -2659,7 +2659,7 @@
       },
       {
         "created_at": "2018-02-15T10:43:17.000Z",
-        "title": "A collection of things that are Turing-complete by accident (2013)",
+        "title": "A collection of things that are Turing-complete by accident",
         "url": "http://beza1e1.tuxen.de/articles/accidentally_turing_complete.html",
         "points": 244,
         "comments": 63,
@@ -2959,7 +2959,7 @@
       },
       {
         "created_at": "2022-08-12T08:56:53.000Z",
-        "title": "The value of owning more books than you can read (2018)",
+        "title": "The value of owning more books than you can read",
         "url": "https://bigthink.com/neuropsych/do-i-own-too-many-books/",
         "points": 194,
         "comments": 156,
@@ -3272,7 +3272,7 @@
       },
       {
         "created_at": "2022-07-05T17:08:15.000Z",
-        "title": "Why Can't Database Tables Index Themselves? (2006)",
+        "title": "Why Can't Database Tables Index Themselves?",
         "url": "https://blog.codinghorror.com/why-cant-database-tables-index-themselves/",
         "points": 158,
         "comments": 119,
@@ -3326,7 +3326,7 @@
       },
       {
         "created_at": "2020-01-22T20:07:30.000Z",
-        "title": "Web of Documents (2019)",
+        "title": "Web of Documents",
         "url": "http://blog.danieljanus.pl/2019/10/07/web-of-documents/",
         "points": 164,
         "comments": 91,
@@ -3444,7 +3444,7 @@
       },
       {
         "created_at": "2023-06-16T10:01:12.000Z",
-        "title": "DevOps; A decade of confusion and frustration (2021)",
+        "title": "DevOps; A decade of confusion and frustration",
         "url": "https://blog.dijit.sh//devops-confusion-and-frustration",
         "points": 29,
         "comments": 2,
@@ -3552,7 +3552,7 @@
       },
       {
         "created_at": "2020-04-09T13:14:06.000Z",
-        "title": "Redux – Not Dead Yet (2018)",
+        "title": "Redux – Not Dead Yet",
         "url": "https://blog.isquaredsoftware.com/2018/03/redux-not-dead-yet/",
         "points": 129,
         "comments": 128,
@@ -3636,7 +3636,7 @@
       },
       {
         "created_at": "2020-04-06T20:47:35.000Z",
-        "title": "Containers vs. Zones vs. Jails vs. VMs (2017)",
+        "title": "Containers vs. Zones vs. Jails vs. VMs",
         "url": "https://blog.jessfraz.com/post/containers-zones-jails-vms/",
         "points": 351,
         "comments": 128,
@@ -3716,7 +3716,7 @@
       },
       {
         "created_at": "2018-10-31T20:49:02.000Z",
-        "title": "Two Objects Not Namespaced by the Linux Kernel (2017)",
+        "title": "Two Objects Not Namespaced by the Linux Kernel",
         "url": "https://blog.jessfraz.com/post/two-objects-not-namespaced-linux-kernel/",
         "points": 169,
         "comments": 58,
@@ -3740,7 +3740,7 @@
       },
       {
         "created_at": "2020-10-17T17:44:51.000Z",
-        "title": "Thoughts on Conway's Law and the Software Stack (2019)",
+        "title": "Thoughts on Conway's Law and the Software Stack",
         "url": "https://blog.jessfraz.com/post/thoughts-on-conways-law-and-the-software-stack/",
         "points": 99,
         "comments": 24,
@@ -3923,7 +3923,7 @@
     "hn": [
       {
         "created_at": "2022-03-23T00:02:41.000Z",
-        "title": "Nintendo Switch prevents downgrades by irreparably blowing its own fuses (2020)",
+        "title": "Nintendo Switch prevents downgrades by irreparably blowing its own fuses",
         "url": "https://blog.jonlu.ca/posts/nintendo-switch",
         "points": 533,
         "comments": 481,
@@ -3955,7 +3955,7 @@
       },
       {
         "created_at": "2020-01-20T18:03:44.000Z",
-        "title": "Ryanair, Hamiltonian Cycles, and using graph theory to find cheap flights (2018)",
+        "title": "Ryanair, Hamiltonian Cycles, and using graph theory to find cheap flights",
         "url": "https://blog.jonlu.ca/posts/ryan-air?ref=hnj20",
         "points": 207,
         "comments": 81,
@@ -4027,7 +4027,7 @@
       },
       {
         "created_at": "2020-03-09T00:23:43.000Z",
-        "title": "Making high-fidelity audio sound like it came through the phone (2018)",
+        "title": "Making high-fidelity audio sound like it came through the phone",
         "url": "https://blog.jonlu.ca/posts/phone-calls",
         "points": 62,
         "comments": 28,
@@ -4051,7 +4051,7 @@
       },
       {
         "created_at": "2019-12-02T22:33:32.000Z",
-        "title": "Illegal streams, decrypting m3u8's, building a better stream experience (2018)",
+        "title": "Illegal streams, decrypting m3u8's, building a better stream experience",
         "url": "https://blog.jonlu.ca/posts/illegal-streams",
         "points": 42,
         "comments": 12,
@@ -4235,7 +4235,7 @@
       },
       {
         "created_at": "2021-04-13T09:27:06.000Z",
-        "title": "Modelling a Wealth Tax Correctly (2020)",
+        "title": "Modelling a Wealth Tax Correctly",
         "url": "https://blog.nindalf.com/posts/wealth-tax/",
         "points": 35,
         "comments": 18,
@@ -4391,7 +4391,7 @@
       },
       {
         "created_at": "2021-10-06T09:39:48.000Z",
-        "title": "A catalog of wealth-creation mechanisms (2009)",
+        "title": "A catalog of wealth-creation mechanisms",
         "url": "http://blog.rongarret.info/2009/10/catalog-of-wealth-creation-mechanisms.html",
         "points": 306,
         "comments": 172,
@@ -4431,7 +4431,7 @@
       },
       {
         "created_at": "2021-10-26T20:58:31.000Z",
-        "title": "Why Lisp? (2015)",
+        "title": "Why Lisp?",
         "url": "http://blog.rongarret.info/2015/05/why-lisp.html",
         "points": 157,
         "comments": 169,
@@ -4455,7 +4455,7 @@
       },
       {
         "created_at": "2018-09-21T07:26:34.000Z",
-        "title": "Worst Puzzle Ever  (2009)",
+        "title": "Worst Puzzle Ever ",
         "url": "http://blog.rongarret.info/2009/12/worst-puzzle-ever.html",
         "points": 127,
         "comments": 44,
@@ -4479,7 +4479,7 @@
       },
       {
         "created_at": "2014-03-18T07:31:58.000Z",
-        "title": "In defense of the Google Chef (2011)",
+        "title": "In defense of the Google Chef",
         "url": "http://blog.rongarret.info/2011/11/in-defense-of-google-chef.html",
         "points": 123,
         "comments": 86,
@@ -4575,7 +4575,7 @@
       },
       {
         "created_at": "2020-01-05T12:37:54.000Z",
-        "title": "Writing a Chip-8 Emulator with Rust and WebAssembly (2017)",
+        "title": "Writing a Chip-8 Emulator with Rust and WebAssembly",
         "url": "https://blog.scottlogic.com/2017/12/13/chip8-emulator-webassembly-rust.html",
         "points": 93,
         "comments": 13,
@@ -4908,7 +4908,7 @@
       },
       {
         "created_at": "2023-02-17T11:02:30.000Z",
-        "title": "Weird architectures weren’t supported to begin with (2021)",
+        "title": "Weird architectures weren’t supported to begin with",
         "url": "https://blog.yossarian.net/2021/02/28/Weird-architectures-werent-supported-to-begin-with",
         "points": 107,
         "comments": 93,
@@ -4948,7 +4948,7 @@
       },
       {
         "created_at": "2020-12-05T04:53:23.000Z",
-        "title": "Reading Manpages Like a Pro (2018)",
+        "title": "Reading Manpages Like a Pro",
         "url": "https://blog.yossarian.net/2018/01/22/Reading-Manpages-Like-a-Pro",
         "points": 59,
         "comments": 32,
@@ -5126,7 +5126,7 @@
       },
       {
         "created_at": "2017-09-18T23:58:52.000Z",
-        "title": "An efficient journal (2012)",
+        "title": "An efficient journal",
         "url": "https://blogs.harvard.edu/pamphlet/2012/03/06/an-efficient-journal/",
         "points": 55,
         "comments": 18,
@@ -5318,7 +5318,7 @@
       },
       {
         "created_at": "2018-04-18T12:59:39.000Z",
-        "title": "A constructive look at the Atari 2600 BASIC cartridge (2015)",
+        "title": "A constructive look at the Atari 2600 BASIC cartridge",
         "url": "http://boston.conman.org/2015/06/16.1",
         "points": 88,
         "comments": 36,
@@ -5326,7 +5326,7 @@
       },
       {
         "created_at": "2019-03-19T18:24:37.000Z",
-        "title": "A world of message-oriented programming languages (2018)",
+        "title": "A world of message-oriented programming languages",
         "url": "http://boston.conman.org/2018/11/21.1",
         "points": 74,
         "comments": 25,
@@ -5451,7 +5451,7 @@
       },
       {
         "created_at": "2019-09-17T22:31:18.000Z",
-        "title": "How Postgres Makes Transactions Atomic (2017)",
+        "title": "How Postgres Makes Transactions Atomic",
         "url": "https://brandur.org/postgres-atomicity",
         "points": 278,
         "comments": 26,
@@ -5748,7 +5748,7 @@
       },
       {
         "created_at": "2016-02-05T23:34:29.000Z",
-        "title": "No such thing as “real programming” (2015)",
+        "title": "No such thing as “real programming”",
         "url": "http://www.brightball.com/development/no-such-thing-as-real-programming",
         "points": 113,
         "comments": 104,
@@ -5835,7 +5835,7 @@
       },
       {
         "created_at": "2021-02-09T10:03:48.000Z",
-        "title": "Consensus Is Harder Than It Looks (2020)",
+        "title": "Consensus Is Harder Than It Looks",
         "url": "https://brooker.co.za/blog/2020/10/05/consensus.html",
         "points": 97,
         "comments": 31,
@@ -6145,7 +6145,7 @@
     "hn": [
       {
         "created_at": "2023-01-13T14:59:42.000Z",
-        "title": "Working for a Dating Website (2015)",
+        "title": "Working for a Dating Website",
         "url": "https://caseysoftware.com/blog/working-for-a-dating-website",
         "points": 164,
         "comments": 196,
@@ -6177,7 +6177,7 @@
       },
       {
         "created_at": "2019-09-26T15:21:02.000Z",
-        "title": "You are what you leak (2018)",
+        "title": "You are what you leak",
         "url": "https://caseysoftware.com/blog/you-are-what-you-leak",
         "points": 25,
         "comments": 27,
@@ -6246,7 +6246,7 @@
       },
       {
         "created_at": "2023-03-05T10:27:34.000Z",
-        "title": "Text Search with Tries (2021)",
+        "title": "Text Search with Tries",
         "url": "https://chidiwilliams.com/post/text-search-with-tries/",
         "points": 46,
         "comments": 5,
@@ -6504,7 +6504,7 @@
       },
       {
         "created_at": "2022-05-10T14:47:59.000Z",
-        "title": "Give me back my monolith (2019)",
+        "title": "Give me back my monolith",
         "url": "https://www.craigkerstiens.com/2019/03/13/give-me-back-my-monolith/",
         "points": 331,
         "comments": 296,
@@ -6797,7 +6797,7 @@
       },
       {
         "created_at": "2022-04-06T15:00:51.000Z",
-        "title": "Startup failure stories: 20 months in, 2K hours spent and 200K € lost (2021)",
+        "title": "Startup failure stories: 20 months in, 2K hours spent and 200K € lost",
         "url": "https://dsebastien.net/blog/2021-01-04-20-months-in-2k-hours-spent-and-200k-lost-a-story-about-resilience-and-the-sunk-cost-fallacy",
         "points": 57,
         "comments": 48,
@@ -6860,7 +6860,7 @@
       },
       {
         "created_at": "2014-06-01T05:44:41.000Z",
-        "title": "Teaching Distributed Systems in Go (2013)",
+        "title": "Teaching Distributed Systems in Go",
         "url": "http://da-data.blogspot.com/2013/02/teaching-distributed-systems-in-go.html",
         "points": 44,
         "comments": 28,
@@ -7134,7 +7134,7 @@
       },
       {
         "created_at": "2017-10-31T06:26:51.000Z",
-        "title": "We only hire the best means we only hire the trendiest (2016)",
+        "title": "We only hire the best means we only hire the trendiest",
         "url": "http://danluu.com/programmer-moneyball/",
         "points": 910,
         "comments": 625,
@@ -7238,7 +7238,7 @@
       },
       {
         "created_at": "2018-01-03T06:17:53.000Z",
-        "title": "Serious Intel CPU bugs (2016)",
+        "title": "Serious Intel CPU bugs",
         "url": "https://danluu.com/cpu-bugs/",
         "points": 562,
         "comments": 106,
@@ -7254,7 +7254,7 @@
       },
       {
         "created_at": "2020-12-03T15:57:30.000Z",
-        "title": "Computer input latency from 1977-2017 (2017)",
+        "title": "Computer input latency from 1977-2017",
         "url": "https://danluu.com/input-lag/",
         "points": 454,
         "comments": 259,
@@ -7380,7 +7380,7 @@
       },
       {
         "created_at": "2021-11-18T11:54:33.000Z",
-        "title": "Various ways to include comments on a static site (2018)",
+        "title": "Various ways to include comments on a static site",
         "url": "https://darekkay.com/blog/static-site-comments/",
         "points": 109,
         "comments": 47,
@@ -7524,7 +7524,7 @@
       },
       {
         "created_at": "2022-12-23T17:56:18.000Z",
-        "title": "The Rise of User-Hostile Software (2021)",
+        "title": "The Rise of User-Hostile Software",
         "url": "https://den.dev/blog/user-hostile-software/",
         "points": 269,
         "comments": 192,
@@ -7670,7 +7670,7 @@
       },
       {
         "created_at": "2020-03-16T10:35:21.000Z",
-        "title": "I am mesmerized by our new robotic vacuum (2019)",
+        "title": "I am mesmerized by our new robotic vacuum",
         "url": "https://dev.to/deciduously/i-am-mesmerized-by-our-new-robotic-vacuum-10pc",
         "points": 293,
         "comments": 179,
@@ -7916,7 +7916,7 @@
       },
       {
         "created_at": "2022-02-19T21:03:56.000Z",
-        "title": "Linux's GPLv2 licence is routinely violated (2015)",
+        "title": "Linux's GPLv2 licence is routinely violated",
         "url": "https://www.devever.net/~hl/linuxgpl",
         "points": 161,
         "comments": 199,
@@ -8547,7 +8547,7 @@
       },
       {
         "created_at": "2019-06-04T19:32:07.000Z",
-        "title": "Tara Vancil on exploring how to be online in radical ways (2018)",
+        "title": "Tara Vancil on exploring how to be online in radical ways",
         "url": "https://elliott.computer/tara-vancil-on-exploring-how-to-be-online-in-radical-ways/",
         "points": 43,
         "comments": 10,
@@ -8646,7 +8646,7 @@
     "hn": [
       {
         "created_at": "2020-04-25T04:46:17.000Z",
-        "title": "Perfect UX Is Impossible (2019)",
+        "title": "Perfect UX Is Impossible",
         "url": "https://erik.itland.no/perfect-ux-is-impossible",
         "points": 85,
         "comments": 66,
@@ -8907,7 +8907,7 @@
       },
       {
         "created_at": "2023-03-13T11:32:08.000Z",
-        "title": "Just Ask for Generalization (2021)",
+        "title": "Just Ask for Generalization",
         "url": "https://evjang.com/2021/10/23/generalization.html",
         "points": 46,
         "comments": 3,
@@ -9028,7 +9028,7 @@
       },
       {
         "created_at": "2022-04-28T12:31:19.000Z",
-        "title": "I want off Mr. Golang’s Wild Ride (2020)",
+        "title": "I want off Mr. Golang’s Wild Ride",
         "url": "https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride",
         "points": 428,
         "comments": 464,
@@ -9116,7 +9116,7 @@
       },
       {
         "created_at": "2021-01-02T21:14:24.000Z",
-        "title": "I want off Mr. Golang's Wild Ride (2020)",
+        "title": "I want off Mr. Golang's Wild Ride",
         "url": "https://fasterthanli.me/articles/i-want-off-mr-golangs-wild-ride",
         "points": 114,
         "comments": 35,
@@ -9206,7 +9206,7 @@
     "hn": [
       {
         "created_at": "2019-03-01T08:35:47.000Z",
-        "title": "Simpson’s Paradox (2016)",
+        "title": "Simpson’s Paradox",
         "url": "https://www.forrestthewoods.com/blog/my_favorite_paradox/",
         "points": 370,
         "comments": 82,
@@ -9230,7 +9230,7 @@
       },
       {
         "created_at": "2022-12-31T13:33:30.000Z",
-        "title": "Should small Rust structs be passed by-copy or by-borrow? (2019)",
+        "title": "Should small Rust structs be passed by-copy or by-borrow?",
         "url": "https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/",
         "points": 264,
         "comments": 226,
@@ -9278,7 +9278,7 @@
       },
       {
         "created_at": "2022-03-04T01:14:12.000Z",
-        "title": "Memory Bandwidth Napkin Math (2020)",
+        "title": "Memory Bandwidth Napkin Math",
         "url": "https://www.forrestthewoods.com/blog/memory-bandwidth-napkin-math/",
         "points": 45,
         "comments": 6,
@@ -9485,7 +9485,7 @@
       },
       {
         "created_at": "2019-04-05T17:26:12.000Z",
-        "title": "Computer Graphics from Scratch (2017)",
+        "title": "Computer Graphics from Scratch",
         "url": "http://www.gabrielgambetta.com/computer-graphics-from-scratch/",
         "points": 651,
         "comments": 94,
@@ -9493,7 +9493,7 @@
       },
       {
         "created_at": "2020-12-01T16:43:07.000Z",
-        "title": "Computer Graphics from Scratch (2017)",
+        "title": "Computer Graphics from Scratch",
         "url": "https://www.gabrielgambetta.com/computer-graphics-from-scratch/",
         "points": 296,
         "comments": 43,
@@ -9509,7 +9509,7 @@
       },
       {
         "created_at": "2020-02-04T01:58:47.000Z",
-        "title": "Pathfinding Demystified (2014)",
+        "title": "Pathfinding Demystified",
         "url": "https://gabrielgambetta.com/generic-search.html",
         "points": 103,
         "comments": 11,
@@ -9827,7 +9827,7 @@
       },
       {
         "created_at": "2023-02-05T12:28:57.000Z",
-        "title": "Structured Concurrency Definition (2019)",
+        "title": "Structured Concurrency Definition",
         "url": "https://gavinhoward.com/2019/12/structured-concurrency-definition/",
         "points": 49,
         "comments": 28,
@@ -10198,7 +10198,7 @@
       },
       {
         "created_at": "2023-02-23T16:06:42.000Z",
-        "title": "Reverse engineering a mysterious UDP stream in my hotel (2016)",
+        "title": "Reverse engineering a mysterious UDP stream in my hotel",
         "url": "https://www.gkbrk.com/2016/05/hotel-music/",
         "points": 1044,
         "comments": 179,
@@ -10206,7 +10206,7 @@
       },
       {
         "created_at": "2021-03-30T12:27:00.000Z",
-        "title": "Reverse engineering a mysterious UDP stream in my hotel (2016)",
+        "title": "Reverse engineering a mysterious UDP stream in my hotel",
         "url": "https://www.gkbrk.com/2016/05/hotel-music/",
         "points": 504,
         "comments": 86,
@@ -10222,7 +10222,7 @@
       },
       {
         "created_at": "2018-01-21T09:34:49.000Z",
-        "title": "Reverse Engineering a Mysterious UDP Stream in My Hotel (2016)",
+        "title": "Reverse Engineering a Mysterious UDP Stream in My Hotel",
         "url": "https://gkbrk.com/2016/05/hotel-music/",
         "points": 266,
         "comments": 15,
@@ -10362,7 +10362,7 @@
       },
       {
         "created_at": "2019-08-05T18:56:25.000Z",
-        "title": "Death Note: L, Anonymity and Eluding Entropy (2017)",
+        "title": "Death Note: L, Anonymity and Eluding Entropy",
         "url": "https://www.gwern.net/Death-Note-Anonymity",
         "points": 525,
         "comments": 139,
@@ -10490,7 +10490,7 @@
       },
       {
         "created_at": "2022-04-06T03:15:02.000Z",
-        "title": "Design of This Website (2021)",
+        "title": "Design of This Website",
         "url": "https://www.gwern.net/Design",
         "points": 269,
         "comments": 254,
@@ -10618,7 +10618,7 @@
       },
       {
         "created_at": "2020-10-20T06:01:58.000Z",
-        "title": "I miss Microsoft Encarta (2019)",
+        "title": "I miss Microsoft Encarta",
         "url": "https://www.hanselman.com/blog/i-miss-microsoft-encarta/",
         "points": 426,
         "comments": 192,
@@ -10951,7 +10951,7 @@
       },
       {
         "created_at": "2023-05-05T12:57:20.000Z",
-        "title": "Flutter Web: A Fractal of Bad Design (2020)",
+        "title": "Flutter Web: A Fractal of Bad Design",
         "url": "https://hugotunius.se/2020/10/31/flutter-web-a-fractal-of-bad-design.html",
         "points": 90,
         "comments": 76,
@@ -11156,7 +11156,7 @@
     "hn": [
       {
         "created_at": "2019-08-06T21:33:26.000Z",
-        "title": "Become a nurse or physicians assistant instead of a doctor (2012)",
+        "title": "Become a nurse or physicians assistant instead of a doctor",
         "url": "https://jakeseliger.com/2012/10/20/why-you-should-become-a-nurse-or-physicians-assistant-instead-of-a-doctor-the-underrated-perils-of-medical-school/",
         "points": 65,
         "comments": 61,
@@ -11300,7 +11300,7 @@
       },
       {
         "created_at": "2019-05-27T08:03:08.000Z",
-        "title": "Syntax highlighters are wrong (2014)",
+        "title": "Syntax highlighters are wrong",
         "url": "https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/",
         "points": 233,
         "comments": 170,
@@ -11324,7 +11324,7 @@
       },
       {
         "created_at": "2019-05-29T15:42:55.000Z",
-        "title": "The sorry state of OpenSSL usability (2017)",
+        "title": "The sorry state of OpenSSL usability",
         "url": "https://jameshfisher.com/2017/12/02/the-sorry-state-of-openssl-usability/",
         "points": 161,
         "comments": 79,
@@ -11348,7 +11348,7 @@
       },
       {
         "created_at": "2022-09-23T12:33:10.000Z",
-        "title": "I hate telephones (2017)",
+        "title": "I hate telephones",
         "url": "https://jameshfisher.com/2017/11/08/i-hate-telephones/",
         "points": 61,
         "comments": 80,
@@ -11356,7 +11356,7 @@
       },
       {
         "created_at": "2022-09-07T09:04:09.000Z",
-        "title": "Syntax highlighter is wrong (2014)",
+        "title": "Syntax highlighter is wrong",
         "url": "https://jameshfisher.com/2014/05/11/your-syntax-highlighter-is-wrong/",
         "points": 43,
         "comments": 41,
@@ -11427,7 +11427,7 @@
       },
       {
         "created_at": "2022-10-28T06:57:46.000Z",
-        "title": "My Fanless OpenBSD Desktop (2021)",
+        "title": "My Fanless OpenBSD Desktop",
         "url": "https://jcs.org/2021/07/19/desktop",
         "points": 200,
         "comments": 153,
@@ -11585,7 +11585,7 @@
       },
       {
         "created_at": "2021-08-26T04:50:57.000Z",
-        "title": "The Mathematics of 2048: Optimal Play with Markov Decision Processes (2018)",
+        "title": "The Mathematics of 2048: Optimal Play with Markov Decision Processes",
         "url": "https://jdlm.info/articles/2018/03/18/markov-decision-process-2048.html",
         "points": 209,
         "comments": 50,
@@ -12006,7 +12006,7 @@
       },
       {
         "created_at": "2022-07-18T05:05:18.000Z",
-        "title": "Down the memory lane with OS/2 (2020)",
+        "title": "Down the memory lane with OS/2",
         "url": "https://jmmv.dev/2020/08/os2-memory-lane.html",
         "points": 68,
         "comments": 43,
@@ -12046,7 +12046,7 @@
       },
       {
         "created_at": "2023-07-02T13:29:12.000Z",
-        "title": "From AST to bytecode execution in EndBASIC (2022)",
+        "title": "From AST to bytecode execution in EndBASIC",
         "url": "https://jmmv.dev/2022/11/endbasic-bytecode.html",
         "points": 40,
         "comments": 1,
@@ -12385,7 +12385,7 @@
       },
       {
         "created_at": "2020-06-27T17:17:18.000Z",
-        "title": "How Does Sqlite Work? (2014)",
+        "title": "How Does Sqlite Work?",
         "url": "https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/",
         "points": 480,
         "comments": 62,
@@ -12524,7 +12524,7 @@
       },
       {
         "created_at": "2021-03-21T15:50:57.000Z",
-        "title": "Don't End the Week with Nothing (2014)",
+        "title": "Don't End the Week with Nothing",
         "url": "https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing",
         "points": 824,
         "comments": 268,
@@ -12548,7 +12548,7 @@
       },
       {
         "created_at": "2017-12-23T15:12:52.000Z",
-        "title": "How I went from programming to consulting (2012)",
+        "title": "How I went from programming to consulting",
         "url": "https://training.kalzumeus.com/newsletters/archive/consulting_1",
         "points": 780,
         "comments": 472,
@@ -12620,7 +12620,7 @@
       },
       {
         "created_at": "2019-10-20T09:53:42.000Z",
-        "title": "Don't Call Yourself a Programmer, and Other Career Advice (2011)",
+        "title": "Don't Call Yourself a Programmer, and Other Career Advice",
         "url": "https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/",
         "points": 570,
         "comments": 307,
@@ -12927,7 +12927,7 @@
       },
       {
         "created_at": "2019-04-24T04:17:35.000Z",
-        "title": "How to use Gmail more efficiently (2013)",
+        "title": "How to use Gmail more efficiently",
         "url": "https://klinger.io/post/71640845938/dont-drown-in-email-how-to-use-gmail-more",
         "points": 100,
         "comments": 43,
@@ -13476,7 +13476,7 @@
     "hn": [
       {
         "created_at": "2022-09-12T08:24:27.000Z",
-        "title": "Making your own e-paper dashboard for home from scratch (2021) (2021)",
+        "title": "Making your own e-paper dashboard for home from scratch",
         "url": "https://lengrand.fr/complete-setup-epaper/",
         "points": 89,
         "comments": 20,
@@ -13508,7 +13508,7 @@
     "hn": [
       {
         "created_at": "2022-10-06T19:34:06.000Z",
-        "title": "Staff Engineer Archetypes (2020)",
+        "title": "Staff Engineer Archetypes",
         "url": "https://lethain.com/staff-engineer-archetypes/",
         "points": 367,
         "comments": 253,
@@ -13540,7 +13540,7 @@
       },
       {
         "created_at": "2022-08-10T10:22:57.000Z",
-        "title": "How to present to executives (2021)",
+        "title": "How to present to executives",
         "url": "https://lethain.com/present-to-executives/",
         "points": 266,
         "comments": 84,
@@ -13556,7 +13556,7 @@
       },
       {
         "created_at": "2023-06-06T10:13:47.000Z",
-        "title": "Digg's v4 launch: an optimism born of necessity (2018)",
+        "title": "Digg's v4 launch: an optimism born of necessity",
         "url": "https://lethain.com/digg-v4/",
         "points": 246,
         "comments": 327,
@@ -13572,7 +13572,7 @@
       },
       {
         "created_at": "2021-07-28T21:56:44.000Z",
-        "title": "Some career advice (2019)",
+        "title": "Some career advice",
         "url": "https://lethain.com/career-advice/",
         "points": 189,
         "comments": 100,
@@ -13604,7 +13604,7 @@
       },
       {
         "created_at": "2023-04-17T16:37:41.000Z",
-        "title": "A Forty-Year Career (2019)",
+        "title": "A Forty-Year Career",
         "url": "https://lethain.com/forty-year-career/",
         "points": 149,
         "comments": 87,
@@ -13795,7 +13795,7 @@
       },
       {
         "created_at": "2023-05-08T02:30:37.000Z",
-        "title": "You don't need Scrum, you just need to do Kanban right (2022)",
+        "title": "You don't need Scrum, you just need to do Kanban right",
         "url": "https://lucasfcosta.com/2022/10/02/scrum-versus-kanban.html",
         "points": 370,
         "comments": 324,
@@ -13891,7 +13891,7 @@
       },
       {
         "created_at": "2019-03-09T09:45:11.000Z",
-        "title": "JavaScript Fatigue: Realities of our industry (2017)",
+        "title": "JavaScript Fatigue: Realities of our industry",
         "url": "https://lucasfcosta.com/2017/07/17/The-Ultimate-Guide-to-JavaScript-Fatigue.html",
         "points": 83,
         "comments": 68,
@@ -14135,7 +14135,7 @@
       },
       {
         "created_at": "2022-08-24T21:53:24.000Z",
-        "title": "A Theoretical Justification (2021)",
+        "title": "A Theoretical Justification",
         "url": "https://memex.marginalia.nu/projects/edge/about.gmi#1.2",
         "points": 85,
         "comments": 22,
@@ -14213,7 +14213,7 @@
       },
       {
         "created_at": "2020-03-29T10:34:22.000Z",
-        "title": "Give Yourself More Playtime (2015)",
+        "title": "Give Yourself More Playtime",
         "url": "https://martinrue.com/give-yourself-more-playtime/",
         "points": 100,
         "comments": 16,
@@ -14229,7 +14229,7 @@
       },
       {
         "created_at": "2019-12-15T11:21:03.000Z",
-        "title": "Today is Esperanto Book Day – why I learned it (2018)",
+        "title": "Today is Esperanto Book Day – why I learned it",
         "url": "https://martinrue.com/zamenhofa-tago-18?jaro=19",
         "points": 69,
         "comments": 78,
@@ -14309,7 +14309,7 @@
       },
       {
         "created_at": "2020-03-29T10:34:22.000Z",
-        "title": "Give Yourself More Playtime (2015)",
+        "title": "Give Yourself More Playtime",
         "url": "https://martinrue.com/give-yourself-more-playtime/",
         "points": 100,
         "comments": 16,
@@ -14325,7 +14325,7 @@
       },
       {
         "created_at": "2019-12-15T11:21:03.000Z",
-        "title": "Today is Esperanto Book Day – why I learned it (2018)",
+        "title": "Today is Esperanto Book Day – why I learned it",
         "url": "https://martinrue.com/zamenhofa-tago-18?jaro=19",
         "points": 69,
         "comments": 78,
@@ -14643,7 +14643,7 @@
       },
       {
         "created_at": "2022-07-30T04:51:53.000Z",
-        "title": "I miss the programmable web (2021)",
+        "title": "I miss the programmable web",
         "url": "https://matt-rickard.com/the-programmable-web/",
         "points": 248,
         "comments": 177,
@@ -15922,7 +15922,7 @@
       },
       {
         "created_at": "2021-06-08T05:32:49.000Z",
-        "title": "Mechanisms in Modern Engineering Design (1979)",
+        "title": "Mechanisms in Modern Engineering Design",
         "url": "https://mirtitles.org/2018/10/13/mechanisms-in-modern-engineering-design-artobolevsky/",
         "points": 42,
         "comments": 5,
@@ -16100,7 +16100,7 @@
       },
       {
         "created_at": "2023-06-28T01:58:33.000Z",
-        "title": "Using command line to process CSV files (2022)",
+        "title": "Using command line to process CSV files",
         "url": "https://muhammadraza.me/2022/data-oneliners/",
         "points": 160,
         "comments": 109,
@@ -16288,7 +16288,7 @@
       },
       {
         "created_at": "2022-01-22T23:56:53.000Z",
-        "title": "Bell Labs Org Chart (1980)",
+        "title": "Bell Labs Org Chart",
         "url": "https://neil.computer/notes/bell-labs-org-chart/",
         "points": 172,
         "comments": 71,
@@ -16304,7 +16304,7 @@
       },
       {
         "created_at": "2022-02-20T16:58:21.000Z",
-        "title": "1950's Graphic Studies from a Gujarati Designer (2020)",
+        "title": "1950's Graphic Studies from a Gujarati Designer",
         "url": "https://neil.computer/notes/1950s-graphic-design-studies-from-a-gujarati-designer/",
         "points": 31,
         "comments": 1,
@@ -16421,7 +16421,7 @@
       },
       {
         "created_at": "2022-01-10T09:06:37.000Z",
-        "title": "How to start a successful freelance business as a software developer (2017)",
+        "title": "How to start a successful freelance business as a software developer",
         "url": "https://nickjanetakis.com/blog/how-to-start-a-successful-freelance-business-as-a-software-developer",
         "points": 199,
         "comments": 157,
@@ -16461,7 +16461,7 @@
       },
       {
         "created_at": "2020-02-06T18:50:16.000Z",
-        "title": "Benchmarking Debian vs. Alpine as a base Docker image (2018)",
+        "title": "Benchmarking Debian vs. Alpine as a base Docker image",
         "url": "https://nickjanetakis.com/blog/benchmarking-debian-vs-alpine-as-a-base-docker-image",
         "points": 70,
         "comments": 21,
@@ -17507,7 +17507,7 @@
       },
       {
         "created_at": "2023-02-12T11:07:49.000Z",
-        "title": "Start test names with “should” (2020)",
+        "title": "Start test names with “should”",
         "url": "https://paperless.blog/start-test-names-with-should",
         "points": 51,
         "comments": 60,
@@ -17601,7 +17601,7 @@
       },
       {
         "created_at": "2022-03-31T21:14:17.000Z",
-        "title": "Fast (2019)",
+        "title": "Fast",
         "url": "https://patrickcollison.com/fast",
         "points": 189,
         "comments": 97,
@@ -18001,7 +18001,7 @@
     "hn": [
       {
         "created_at": "2022-12-23T07:16:09.000Z",
-        "title": "Money, money, money (and investing) (2015)",
+        "title": "Money, money, money (and investing)",
         "url": "https://philip.greenspun.com/materialism/money",
         "points": 237,
         "comments": 162,
@@ -18009,7 +18009,7 @@
       },
       {
         "created_at": "2021-08-04T14:15:46.000Z",
-        "title": "Early Retirement (2006)",
+        "title": "Early Retirement",
         "url": "https://philip.greenspun.com/materialism/early-retirement/",
         "points": 170,
         "comments": 296,
@@ -18057,7 +18057,7 @@
       },
       {
         "created_at": "2020-03-19T11:50:01.000Z",
-        "title": "Introduction to AOLserver, Part 1 (1999)",
+        "title": "Introduction to AOLserver, Part 1",
         "url": "https://philip.greenspun.com/wtr/aolserver/introduction-1.html",
         "points": 116,
         "comments": 43,
@@ -18073,7 +18073,7 @@
       },
       {
         "created_at": "2009-08-23T03:07:23.000Z",
-        "title": "Tips for Startup Companies (2006)",
+        "title": "Tips for Startup Companies",
         "url": "http://philip.greenspun.com/business/startup-tips",
         "points": 98,
         "comments": 7,
@@ -18089,7 +18089,7 @@
       },
       {
         "created_at": "2014-05-20T01:34:30.000Z",
-        "title": "Unions and Airlines (2010)",
+        "title": "Unions and Airlines",
         "url": "http://philip.greenspun.com/flying/unions-and-airlines.html",
         "points": 84,
         "comments": 73,
@@ -18105,7 +18105,7 @@
       },
       {
         "created_at": "2014-07-26T13:42:09.000Z",
-        "title": "Professionalism for Software Engineers (2000)",
+        "title": "Professionalism for Software Engineers",
         "url": "http://philip.greenspun.com/ancient-history/professionalism-for-software-engineers",
         "points": 78,
         "comments": 56,
@@ -18121,7 +18121,7 @@
       },
       {
         "created_at": "2020-10-28T09:03:08.000Z",
-        "title": "Tcl for Web Nerds (2011)",
+        "title": "Tcl for Web Nerds",
         "url": "https://philip.greenspun.com/tcl/index.adp",
         "points": 75,
         "comments": 13,
@@ -18145,7 +18145,7 @@
       },
       {
         "created_at": "2021-03-30T14:02:55.000Z",
-        "title": "Money and Investing (1996)",
+        "title": "Money and Investing",
         "url": "http://philip.greenspun.com/materialism/money",
         "points": 72,
         "comments": 89,
@@ -18260,7 +18260,7 @@
       },
       {
         "created_at": "2022-11-20T21:19:05.000Z",
-        "title": "DOS/4GW and Protected Mode (2021)",
+        "title": "DOS/4GW and Protected Mode",
         "url": "https://pikuma.com/blog/what-is-dos4gw-protected-mode",
         "points": 125,
         "comments": 50,
@@ -18364,7 +18364,7 @@
       },
       {
         "created_at": "2022-01-27T04:46:26.000Z",
-        "title": "The computer built to last 50 years (2021)",
+        "title": "The computer built to last 50 years",
         "url": "http://ploum.net/the-computer-built-to-last-50-years/",
         "points": 71,
         "comments": 88,
@@ -18838,7 +18838,7 @@
       },
       {
         "created_at": "2013-11-11T09:00:44.000Z",
-        "title": "The Narcissism of Small Code Differences (2008)",
+        "title": "The Narcissism of Small Code Differences",
         "url": "http://raganwald.com/2008/05/narcissism-of-small-code-differences.html",
         "points": 166,
         "comments": 128,
@@ -18862,7 +18862,7 @@
       },
       {
         "created_at": "2019-01-28T02:02:30.000Z",
-        "title": "When FP? And When OOP? (2013)",
+        "title": "When FP? And When OOP?",
         "url": "http://raganwald.com/2013/04/08/functional-vs-OOP.html",
         "points": 147,
         "comments": 151,
@@ -18878,7 +18878,7 @@
       },
       {
         "created_at": "2022-08-15T23:43:48.000Z",
-        "title": "The Inner Osborne Effect (2021)",
+        "title": "The Inner Osborne Effect",
         "url": "https://raganwald.com/2021/10/28/the-inner-osborne-effect.html",
         "points": 145,
         "comments": 42,
@@ -18886,7 +18886,7 @@
       },
       {
         "created_at": "2023-05-16T19:27:18.000Z",
-        "title": "John Conway's FRACTRAN, a ridiculous, yet surprisingly deep language (2020)",
+        "title": "John Conway's FRACTRAN, a ridiculous, yet surprisingly deep language",
         "url": "http://raganwald.com/2020/05/03/fractran.html",
         "points": 144,
         "comments": 24,
@@ -18894,7 +18894,7 @@
       },
       {
         "created_at": "2014-12-20T11:23:45.000Z",
-        "title": "Why Why Functional Programming Matters Matters (2007)",
+        "title": "Why Why Functional Programming Matters Matters",
         "url": "http://weblog.raganwald.com/2007/03/why-why-functional-programming-matters",
         "points": 141,
         "comments": 34,
@@ -18934,7 +18934,7 @@
       },
       {
         "created_at": "2014-12-23T14:57:11.000Z",
-        "title": "My favourite interview question (2006)",
+        "title": "My favourite interview question",
         "url": "http://weblog.raganwald.com/2006/06/my-favourite-interview-question.html",
         "points": 105,
         "comments": 95,
@@ -19166,7 +19166,7 @@
       },
       {
         "created_at": "2023-01-09T15:36:50.000Z",
-        "title": "Demystifying Apache Arrow (2020)",
+        "title": "Demystifying Apache Arrow",
         "url": "https://www.robinlinacre.com/demystifying_arrow/",
         "points": 197,
         "comments": 47,
@@ -19223,7 +19223,7 @@
       },
       {
         "created_at": "2022-09-11T15:35:39.000Z",
-        "title": "An app can be a home-cooked meal (2020)",
+        "title": "An app can be a home-cooked meal",
         "url": "https://www.robinsloan.com/notes/home-cooked-app/",
         "points": 186,
         "comments": 51,
@@ -19255,7 +19255,7 @@
       },
       {
         "created_at": "2022-12-29T19:05:58.000Z",
-        "title": "The slab and the permacomputer (2021)",
+        "title": "The slab and the permacomputer",
         "url": "https://www.robinsloan.com/lab/slab/",
         "points": 84,
         "comments": 38,
@@ -19311,7 +19311,7 @@
       },
       {
         "created_at": "2020-02-26T22:12:21.000Z",
-        "title": "Writing with the Machine (2016)",
+        "title": "Writing with the Machine",
         "url": "https://www.robinsloan.com/notes/writing-with-the-machine/",
         "points": 43,
         "comments": 2,
@@ -19631,7 +19631,7 @@
       },
       {
         "created_at": "2021-10-18T05:57:26.000Z",
-        "title": "What software engineers should know about search (2017)",
+        "title": "What software engineers should know about search",
         "url": "https://scribe.rip/p/what-every-software-engineer-should-know-about-search-27d1df99f80d",
         "points": 352,
         "comments": 129,
@@ -19671,7 +19671,7 @@
       },
       {
         "created_at": "2021-10-28T20:11:04.000Z",
-        "title": "Earn.com will ruin email if it succeeds (2018)",
+        "title": "Earn.com will ruin email if it succeeds",
         "url": "https://scribe.rip/p/earn-com-email-ruin-threat-55bf9d3df99b",
         "points": 46,
         "comments": 96,
@@ -19724,7 +19724,7 @@
     "hn": [
       {
         "created_at": "2016-09-25T04:34:11.000Z",
-        "title": "My love-hate relationship with LuaJIT (2015)",
+        "title": "My love-hate relationship with LuaJIT",
         "url": "https://blog.separateconcerns.com/2015-06-18-love-hate-luajit.html",
         "points": 124,
         "comments": 102,
@@ -19804,7 +19804,7 @@
       },
       {
         "created_at": "2020-12-02T09:11:42.000Z",
-        "title": "Hackers can take full control of online compilers through a RCE exploit (2018)",
+        "title": "Hackers can take full control of online compilers through a RCE exploit",
         "url": "https://serhack.me/articles/hackers-full-control-of-online-compilers-through-a-common-exploit/",
         "points": 20,
         "comments": 15,
@@ -19812,7 +19812,7 @@
       },
       {
         "created_at": "2022-02-12T11:39:18.000Z",
-        "title": "Unpacking ASIC firmware: AntMiner Exploited (2019)",
+        "title": "Unpacking ASIC firmware: AntMiner Exploited",
         "url": "https://serhack.me/articles/unpacking-asic-firmware-antminer-exploited/",
         "points": 19,
         "comments": 14,
@@ -20194,7 +20194,7 @@
       },
       {
         "created_at": "2019-06-14T13:55:14.000Z",
-        "title": "I Can Tolerate Anything Except the Outgroup (2014)",
+        "title": "I Can Tolerate Anything Except the Outgroup",
         "url": "https://slatestarcodex.com/2014/09/30/i-can-tolerate-anything-except-the-outgroup/",
         "points": 282,
         "comments": 169,
@@ -20202,7 +20202,7 @@
       },
       {
         "created_at": "2021-09-04T15:41:38.000Z",
-        "title": "Melatonin: Much More Than You Wanted to Know (2018)",
+        "title": "Melatonin: Much More Than You Wanted to Know",
         "url": "https://slatestarcodex.com/2018/07/10/melatonin-much-more-than-you-wanted-to-know/",
         "points": 274,
         "comments": 146,
@@ -20218,7 +20218,7 @@
       },
       {
         "created_at": "2020-07-28T04:52:03.000Z",
-        "title": "The Toxoplasma of Rage (2014)",
+        "title": "The Toxoplasma of Rage",
         "url": "https://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/",
         "points": 267,
         "comments": 214,
@@ -20282,7 +20282,7 @@
       },
       {
         "created_at": "2019-06-27T12:50:02.000Z",
-        "title": "How Bad Are Things? (2015)",
+        "title": "How Bad Are Things?",
         "url": "https://slatestarcodex.com/2015/12/24/how-bad-are-things/",
         "points": 239,
         "comments": 136,
@@ -20599,7 +20599,7 @@
       },
       {
         "created_at": "2023-04-04T12:11:53.000Z",
-        "title": "Who will amplify this and why? (2021)",
+        "title": "Who will amplify this and why?",
         "url": "https://sparktoro.com/blog/who-will-amplify-this-and-why/",
         "points": 42,
         "comments": 18,
@@ -20848,7 +20848,7 @@
       },
       {
         "created_at": "2021-09-20T11:40:25.000Z",
-        "title": "Advice to New Managers: Don't Joke About Firing People (2020)",
+        "title": "Advice to New Managers: Don't Joke About Firing People",
         "url": "https://staysaasy.com/engineering/2020/06/09/Don%27t-Joke.html",
         "points": 347,
         "comments": 266,
@@ -20976,7 +20976,7 @@
       },
       {
         "created_at": "2022-04-23T09:47:25.000Z",
-        "title": "Simple Ways to Be Less Divisive (2021)",
+        "title": "Simple Ways to Be Less Divisive",
         "url": "https://staysaasy.com/management/2021/07/17/Less-Divisive.html",
         "points": 51,
         "comments": 67,
@@ -21115,7 +21115,7 @@
     "hn": [
       {
         "created_at": "2021-06-14T17:17:50.000Z",
-        "title": "Scaling Relational SQL Databases (2020)",
+        "title": "Scaling Relational SQL Databases",
         "url": "https://stribny.name/blog/2020/07/scaling-relational-sql-databases/",
         "points": 128,
         "comments": 29,
@@ -21202,7 +21202,7 @@
       },
       {
         "created_at": "2022-11-06T11:07:45.000Z",
-        "title": "Zero point leet seconds (2018)",
+        "title": "Zero point leet seconds",
         "url": "https://susam.net/blog/zero-point-leet-seconds.html",
         "points": 129,
         "comments": 38,
@@ -21242,7 +21242,7 @@
       },
       {
         "created_at": "2022-11-03T08:49:03.000Z",
-        "title": "WinPopup (2001)",
+        "title": "WinPopup",
         "url": "https://susam.net/maze/winpopup.html",
         "points": 67,
         "comments": 32,
@@ -21250,7 +21250,7 @@
       },
       {
         "created_at": "2022-12-04T11:55:24.000Z",
-        "title": "x86 Quine: These 12 Bytes of Machine Code Print Themselves (2005)",
+        "title": "x86 Quine: These 12 Bytes of Machine Code Print Themselves",
         "url": "https://susam.net/blog/x86-quine.html",
         "points": 53,
         "comments": 21,
@@ -21258,7 +21258,7 @@
       },
       {
         "created_at": "2022-12-31T19:45:33.000Z",
-        "title": "Cal 9 1752 (2004)",
+        "title": "Cal 9 1752",
         "url": "https://susam.net/blog/cal-9-1752.html",
         "points": 52,
         "comments": 22,
@@ -21266,7 +21266,7 @@
       },
       {
         "created_at": "2022-12-15T08:54:18.000Z",
-        "title": "Our Trip to Prime Number Theorem (2021)",
+        "title": "Our Trip to Prime Number Theorem",
         "url": "https://susam.net/club/trip-to-prime-number-theorem.html",
         "points": 50,
         "comments": 4,
@@ -21282,7 +21282,7 @@
       },
       {
         "created_at": "2022-11-08T08:26:39.000Z",
-        "title": "Programming with DOS Debugger (2003)",
+        "title": "Programming with DOS Debugger",
         "url": "https://susam.net/blog/programming-with-dos-debugger.html",
         "points": 42,
         "comments": 26,
@@ -21290,7 +21290,7 @@
       },
       {
         "created_at": "2022-07-30T10:22:36.000Z",
-        "title": "Lisp in Vim (2019)",
+        "title": "Lisp in Vim",
         "url": "https://susam.net/blog/lisp-in-vim.html",
         "points": 42,
         "comments": 5,
@@ -21298,7 +21298,7 @@
       },
       {
         "created_at": "2022-11-08T10:26:32.000Z",
-        "title": "Good Quality DOSBox Video Capture (2020)",
+        "title": "Good Quality DOSBox Video Capture",
         "url": "https://susam.net/blog/good-quality-dosbox-video-capture.html",
         "points": 40,
         "comments": 23,
@@ -21314,7 +21314,7 @@
       },
       {
         "created_at": "2023-05-07T12:22:24.000Z",
-        "title": "From XON/XOFF to Forward Incremental Search (2022)",
+        "title": "From XON/XOFF to Forward Incremental Search",
         "url": "https://susam.net/blog/from-xon-xoff-to-forward-incremental-search.html",
         "points": 37,
         "comments": 8,
@@ -21389,7 +21389,7 @@
       },
       {
         "created_at": "2023-01-18T11:26:26.000Z",
-        "title": "Create optimal conditions for lucky things to happen to you (2020)",
+        "title": "Create optimal conditions for lucky things to happen to you",
         "url": "https://www.swyx.io/create-luck/",
         "points": 218,
         "comments": 93,
@@ -21574,7 +21574,7 @@
       },
       {
         "created_at": "2016-03-07T18:57:52.000Z",
-        "title": "Python Patterns (2013)",
+        "title": "Python Patterns",
         "url": "https://taoofmac.com/space/blog/2013/08/11/2300",
         "points": 165,
         "comments": 45,
@@ -21765,7 +21765,7 @@
       },
       {
         "created_at": "2017-03-22T10:16:51.000Z",
-        "title": "Yes I Still Want to Be Doing This at 56 (2012)",
+        "title": "Yes I Still Want to Be Doing This at 56",
         "url": "http://thecodist.com/article/yes_i_still_want_to_be_doing_this_at_56",
         "points": 157,
         "comments": 114,
@@ -21797,7 +21797,7 @@
       },
       {
         "created_at": "2014-02-09T05:32:44.000Z",
-        "title": "The Programming Steamroller Waits For No One (2013)",
+        "title": "The Programming Steamroller Waits For No One",
         "url": "http://thecodist.com/article/the_programming_steamroller_waits_for_no_one",
         "points": 72,
         "comments": 46,
@@ -21912,7 +21912,7 @@
       },
       {
         "created_at": "2021-04-29T21:04:18.000Z",
-        "title": "The story BCG offered me $16k not to tell (2010)",
+        "title": "The story BCG offered me $16k not to tell",
         "url": "https://thetech.com/2010/04/09/dubai-v130-n18",
         "points": 261,
         "comments": 182,
@@ -21920,7 +21920,7 @@
       },
       {
         "created_at": "2022-09-07T16:23:23.000Z",
-        "title": "The story BCG offered me $16,000 not to tell (2010)",
+        "title": "The story BCG offered me $16,000 not to tell",
         "url": "https://thetech.com/2010/04/09/dubai-v130-n18",
         "points": 237,
         "comments": 128,
@@ -22004,7 +22004,7 @@
       },
       {
         "created_at": "2022-02-24T18:15:25.000Z",
-        "title": "Elevator.js (2015)",
+        "title": "Elevator.js",
         "url": "https://tholman.com/elevator.js/",
         "points": 273,
         "comments": 82,
@@ -22322,7 +22322,7 @@
       },
       {
         "created_at": "2022-12-23T06:30:42.000Z",
-        "title": "Introduction to Locality-Sensitive Hashing (2018)",
+        "title": "Introduction to Locality-Sensitive Hashing",
         "url": "https://tylerneylon.com/a/lsh1/",
         "points": 237,
         "comments": 36,
@@ -22330,7 +22330,7 @@
       },
       {
         "created_at": "2020-06-30T20:54:35.000Z",
-        "title": "Learn Lua in 15 Minutes (2013)",
+        "title": "Learn Lua in 15 Minutes",
         "url": "http://tylerneylon.com/a/learn-lua/",
         "points": 226,
         "comments": 101,
@@ -22392,7 +22392,7 @@
       },
       {
         "created_at": "2016-05-22T17:32:51.000Z",
-        "title": "Why Cruise Ships Are My Favorite Remote Work Location (2013)",
+        "title": "Why Cruise Ships Are My Favorite Remote Work Location",
         "url": "http://tynan.com/cruisework",
         "points": 50,
         "comments": 31,
@@ -22661,7 +22661,7 @@
     "hn": [
       {
         "created_at": "2019-06-07T16:59:24.000Z",
-        "title": "Writing Hello World in Web Assembly (2017)",
+        "title": "Writing Hello World in Web Assembly",
         "url": "https://wa9ace.net/2017/04/20/hello-world-web-assembly.html",
         "points": 148,
         "comments": 15,
@@ -22932,7 +22932,7 @@
       },
       {
         "created_at": "2019-07-06T00:30:08.000Z",
-        "title": "So you think you know C? (2016)",
+        "title": "So you think you know C?",
         "url": "https://wordsandbuttons.online/so_you_think_you_know_c.html",
         "points": 378,
         "comments": 322,
@@ -22988,7 +22988,7 @@
       },
       {
         "created_at": "2022-11-17T12:40:32.000Z",
-        "title": "APL deserves its renaissance too (2018)",
+        "title": "APL deserves its renaissance too",
         "url": "https://wordsandbuttons.online/apl_deserves_its_renaissance_too.html",
         "points": 192,
         "comments": 220,
@@ -23028,7 +23028,7 @@
       },
       {
         "created_at": "2019-11-13T19:56:02.000Z",
-        "title": "Logic Programming in C++ (2018)",
+        "title": "Logic Programming in C++",
         "url": "https://wordsandbuttons.online/logic_programming_in_cpp.html",
         "points": 85,
         "comments": 8,
@@ -23888,7 +23888,7 @@
       },
       {
         "created_at": "2022-10-24T22:50:23.000Z",
-        "title": "The Surreal Horror of PAM (2021)",
+        "title": "The Surreal Horror of PAM",
         "url": "https://xeiaso.net/talks/surreal-horror-pam-2021-11-09",
         "points": 81,
         "comments": 49,
