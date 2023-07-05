@@ -115,11 +115,6 @@ main > div {
   background-color: white;
 }
 
-header a:link,
-header a:visited {
-  color: black;
-}
-
 a:link,
 a:visited {
   color: black;
@@ -135,20 +130,18 @@ main > div {
 }
 
 @media (prefers-color-scheme: dark) {
-  html,
   body {
-    background: #222;
-    color: white;
-  }
-
-  header {
+    color: #ddd;
     background-color: #151515;
   }
 
-  a:link {
-    color: green;
+  header,
+  main > div {
+    background-color: black;
   }
+
+  a:link,
   a:visited {
-    color: green;
+    color: white;
   }
 }
