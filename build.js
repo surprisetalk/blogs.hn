@@ -61,9 +61,11 @@ for (const blog of blogs) {
 
 index += `
   <script>
-    var main = document.querySelector('main');
-    for (var i = main.children.length; i >= 0; i--)
-      main.appendChild(main.children[Math.random() * i | 0]);
+    const main = document.querySelector("main");
+    const temp = main.cloneNode(true);
+    for (let i = temp.children.length + 1; i--; )
+      temp.appendChild(temp.children[Math.random() * i |0]);
+    main.parentNode.replaceChild(temp, main);
   </script>
 `;
 
