@@ -33,7 +33,7 @@ h2 {
   font-size: 1.728rem;
 }
 
-header a:first-child {
+header > a:first-child {
   font-size: 1.2rem;
 }
 
@@ -62,7 +62,7 @@ header {
   padding: 1rem 2rem;
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto 1fr auto auto auto;
   align-items: baseline;
 }
 main {

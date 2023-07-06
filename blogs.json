@@ -21752,54 +21752,6 @@
     "feed": "https://tabacof.github.io/index.xml"
   },
   {
-    "url": "https://tailscale.dev",
-    "title": "Tailscale Community",
-    "feed": "https://tailscale.dev/feed.xml",
-    "desc": "The official community site for developers building with Tailscale. Find how-tos, solutions, and integrations to build your own secure network that just works.",
-    "hn": [
-      {
-        "created_at": "2023-04-13T17:36:39.000Z",
-        "title": "Improving Tailscale via Apple’s open source",
-        "url": "https://tailscale.dev/blog/darwin-spelunking",
-        "points": 441,
-        "comments": 62,
-        "id": "35559124"
-      },
-      {
-        "created_at": "2023-04-01T12:50:43.000Z",
-        "title": "Using Tailscale without using Tailscale",
-        "url": "https://tailscale.dev/blog/headscale-funnel",
-        "points": 96,
-        "comments": 30,
-        "id": "35399897"
-      },
-      {
-        "created_at": "2023-03-12T01:51:05.000Z",
-        "title": "Embed a Tailscale Funnel in your Go app",
-        "url": "https://tailscale.dev/blog/embedded-funnel",
-        "points": 63,
-        "comments": 16,
-        "id": "35115465"
-      },
-      {
-        "created_at": "2023-01-31T16:17:09.000Z",
-        "title": "Becoming the first DevRel at Tailscale",
-        "url": "https://tailscale.dev/blog/weaponizing-hyperfocus",
-        "points": 54,
-        "comments": 51,
-        "id": "34597089"
-      },
-      {
-        "created_at": "2023-04-11T19:34:09.000Z",
-        "title": "Tailscale Sucks",
-        "url": "https://tailscale.dev/blog/tailscale-sucks",
-        "points": 31,
-        "comments": 5,
-        "id": "35530268"
-      }
-    ]
-  },
-  {
     "url": "https://tanmaysarkar.hashnode.dev",
     "title": "Learned to Share",
     "feed": "https://tanmaysarkar.hashnode.dev/rss.xml",
