@@ -6405,8 +6405,7 @@
   },
   {
     "url": "https://c6p.netlify.app",
-    "title": "| c6p - log",
-    "desc": "Writings #  Recent posts from my Blog    2021   May   16   Yakala — capture everything       13   Get Fresh Pages with Messed Up Caches       12   What I Read — on books, personalities and ideas       10   Demistifying Content Securiy Policy       02   Developer and Power User Tools List     2014   Nov   26   Using Minko      Oct   18   Information capture        Gimp to YAML: Texture coordinates      Aug   27   NotAra       08   Perlin noise       06   Texture       02   Untitled game"
+    "title": "| c6p - log"
   },
   {
     "url": "https://caiustheory.com",
@@ -10811,8 +10810,7 @@
   {
     "url": "https://her.esy.fun",
     "feed": "https://her.esy.fun/rss.xml",
-    "keywords": "",
-    "desc": "Most recent articles"
+    "keywords": ""
   },
   {
     "url": "https://herbertlui.net",
@@ -11558,10 +11556,9 @@
   },
   {
     "url": "https://jamie.ideasasylum.com",
-    "title": "Recent posts | Jamie’s blog",
+    "title": "Jamie’s blog",
     "about": "https://jamie.ideasasylum.com/about",
     "feed": "https://jamie.ideasasylum.com/feed.xml",
-    "desc": "Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.",
     "hn": [
       {
         "created_at": "2008-07-15T23:10:43.000Z",
@@ -24459,7 +24456,6 @@
     "url": "https://yannesposito.com",
     "feed": "https://yannesposito.com/rss.xml",
     "keywords": "",
-    "desc": "Most recent articles",
     "hn": [
       {
         "created_at": "2011-08-29T10:32:15.000Z",
