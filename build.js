@@ -61,12 +61,13 @@ for (const blog of blogs) {
 
 index += `
   <script>
-    const main = document.querySelector("main");
-    const temp = main.cloneNode(true);
-    main.replaceChildren([]);
-    for (let i = temp.children.length + 1; i--; )
-      temp.appendChild(temp.children[Math.random() * i |0]);
-    main.parentNode.replaceChild(temp, main);
+    function shuffle() {
+      const main = document.querySelector("main");
+      const temp = main.cloneNode(true);
+      for (let i = temp.children.length + 1; i--; )
+        temp.appendChild(temp.children[Math.random() * i |0]);
+      main.parentNode.replaceChild(temp, main);
+    }
   </script>
 `;
 
