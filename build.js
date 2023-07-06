@@ -22,7 +22,7 @@ for (const blog of blogs) {
     3 >
     0 +
       !!blog.title +
-      !!blog.desc +
+      ((blog.desc || "").length > 40) +
       !!blog.about +
       !!blog.now +
       !!blog.feed +
