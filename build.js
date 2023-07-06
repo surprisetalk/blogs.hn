@@ -59,6 +59,14 @@ for (const blog of blogs) {
   index += `</div>`;
 }
 
+index += `
+  <script>
+    var main = document.querySelector('main');
+    for (var i = main.children.length; i >= 0; i--)
+      main.appendChild(main.children[Math.random() * i | 0]);
+  </script>
+`;
+
 fs.writeFileSync(
   "./dist/index.html",
   template.replace("{{body}}", `<main id="index">${index}</main>`)
