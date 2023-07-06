@@ -112,6 +112,18 @@ td:nth-child(3) {
   text-align: right;
 }
 
+@media (max-width: 36rem) {
+  td:nth-child(1) {
+    display: none;
+  }
+}
+
+@media (max-width: 38rem) {
+  td:nth-child(3) {
+    display: none;
+  }
+}
+
 /*** COLOR ***/
 
 body {
