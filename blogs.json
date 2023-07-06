@@ -9770,6 +9770,40 @@
     "title": "Fullstack Frontend"
   },
   {
+    "url": "https://foreverliketh.is/",
+    "title": "Both Blog & Digital Garden",
+    "about": "https://foreverliketh.is/blog/about-me/",
+    "feed": "https://foreverliketh.is/blog/index.xml",
+    "now": "https://foreverliketh.is/docs/connectivism/now/",
+    "desc": "Themes include: Education, Tech Lite, Life, Psychology and Journaling",
+    "hn": [
+      {
+        "created_at": "2023-05-06T16:20:46.000Z",
+        "title": "Exploring the Personal Web",
+        "url": "https://foreverliketh.is/blog/exploring-the-personal-web/",
+        "points": 2,
+        "comments": 0,
+        "id": "35842793"
+      },
+      {
+        "created_at": "2023-05-07T15:43:58.000Z",
+        "title": "Here Be AI",
+        "url": "https://foreverliketh.is/blog/here-be-ai/",
+        "points": 3,
+        "comments": 0,
+        "id": "35852595"
+      },
+      {
+        "created_at": "2023-05-31T00:30:35.000Z",
+        "title": "Internet Scavenger Hunt",
+        "url": "https://foreverliketh.is/blog/internet-scavenger-hunt/",
+        "points": 1,
+        "comments": 0,
+        "id": "36133062"
+      }
+    ]
+  },
+  {
     "url": "https://forwardscattering.org",
     "title": "Forward Scattering - The Weblog of Nicholas Chapman",
     "feed": "https://forwardscattering.org/rss",
