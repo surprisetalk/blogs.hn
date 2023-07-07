@@ -25494,5 +25494,3334 @@
         "id": "32499703"
       }
     ]
+  },
+  {
+    "url": "https://abhiraj.co",
+    "title": "Hi, I'm Abhiraj",
+    "desc": "I make stuff on the web and write blogs about it",
+    "hn": [
+      {
+        "created_at": "2019-01-01T16:40:00.000Z",
+        "title": "On linearity: straight lines, linear operators and the Fourier transform",
+        "url": "https://abhipray.com/posts/sigproc/linearity/",
+        "points": 25,
+        "comments": 3,
+        "id": "18800844"
+      },
+      {
+        "created_at": "2022-10-02T20:23:08.000Z",
+        "title": "Working with SVGs for icons on the web",
+        "url": "https://www.abiraja.com/blog/using-svgs-for-icons",
+        "points": 11,
+        "comments": 2,
+        "id": "33059837"
+      }
+    ]
+  },
+  {
+    "url": "https://alanhogan.com",
+    "title": "AlanHogan.com: A front-end web development blog (with occasional Mac tips) | AlanHogan.com",
+    "about": "https://alanhogan.com/about",
+    "desc": "Alan J. Hogan writes about web design, web development; JavaScript, TypeScript, CSS, PHP, Python, MySQL, programming and code; Apple macOS tips; bookmarklets; and more.",
+    "hn": [
+      {
+        "created_at": "2010-02-14T19:52:29.000Z",
+        "title": "Google Buzz is Already Dead",
+        "url": "http://alanhogan.com/buzz-is-already-dead",
+        "points": 25,
+        "comments": 14,
+        "id": "1125126"
+      },
+      {
+        "created_at": "2010-07-15T23:30:23.000Z",
+        "title": "GitHub Notiﬁcations: Stars, please",
+        "url": "http://aggregated.alanhogan.com/post/817024089/github-notifications",
+        "points": 16,
+        "comments": 12,
+        "id": "1519647"
+      },
+      {
+        "created_at": "2019-12-12T06:21:04.000Z",
+        "title": "Offline and back again: Surviving the PHP 7 upgrade by adding one letter",
+        "url": "https://alanhogan.com/blip",
+        "points": 11,
+        "comments": 10,
+        "id": "21769689"
+      }
+    ]
+  },
+  {
+    "url": "https://alanwsmith.com",
+    "title": "",
+    "hn": [
+      {
+        "created_at": "2016-02-12T21:11:17.000Z",
+        "title": "Protection from Adobe Creative Cloud Bug",
+        "url": "http://alanwsmith.com/protection-from-adobe-creative-cloud-folder-erasing-bug",
+        "points": 63,
+        "comments": 32,
+        "id": "11090630"
+      }
+    ]
+  },
+  {
+    "url": "https://alexcarpenter.me",
+    "title": "Alex Carpenter",
+    "about": "https://alexcarpenter.me/about",
+    "desc": "Design Engineer",
+    "hn": [
+      {
+        "created_at": "2020-07-13T19:36:48.000Z",
+        "title": "Ideas That Changed My Life",
+        "url": "https://www.perell.com/blog/50-ideas-that-changed-my-life?ref=alexcarpenter.me",
+        "points": 49,
+        "comments": 23,
+        "id": "23824730"
+      }
+    ]
+  },
+  {
+    "url": "https://alexdelorenzo.dev",
+    "title": " Alex DeLorenzo - Software Engineer ",
+    "feed": "https://alexdelorenzo.dev/feed.xml",
+    "desc": "Articles, blog and software by Alex DeLorenzo. Check out Alex's software, articles and open source contributions here. ",
+    "hn": [
+      {
+        "created_at": "2020-06-29T02:27:39.000Z",
+        "title": "Use Unix Pipes to Improve Chromecast Playback",
+        "url": "https://alexdelorenzo.dev/linux/2020/03/14/pipes",
+        "points": 174,
+        "comments": 51,
+        "id": "23673825"
+      }
+    ]
+  },
+  {
+    "url": "https://alispit.tel",
+    "title": "Polywork | Ali Spittel - Senior Developer Advocate, Amazon Web",
+    "desc": "View Ali Spittel's profile on Polywork, a new kind of professional network. Join the waitlist to create your own profile.",
+    "hn": [
+      {
+        "created_at": "2020-11-03T02:01:20.000Z",
+        "title": "Create a Git Diff in Markdown",
+        "url": "https://blog.alispit.tel/create-a-git-diff-in-markdown/",
+        "points": 18,
+        "comments": 0,
+        "id": "24975629"
+      }
+    ]
+  },
+  {
+    "url": "https://amitness.com",
+    "title": "Amit Chaudhary",
+    "feed": "https://amitness.com/feed.xml",
+    "desc": "I am a Machine Learning Engineer applying research to products. I explain machine learning concepts using diagrams, animations and intuition",
+    "hn": [
+      {
+        "created_at": "2020-04-03T14:16:06.000Z",
+        "title": "Illustrated FixMatch for semi-supervised learning",
+        "url": "https://amitness.com/2020/03/fixmatch-semi-supervised/",
+        "points": 237,
+        "comments": 47,
+        "id": "22769319"
+      },
+      {
+        "created_at": "2020-02-28T17:07:12.000Z",
+        "title": "Visual Introduction to Self Supervised Learning",
+        "url": "https://amitness.com/2020/02/illustrated-self-supervised-learning/",
+        "points": 219,
+        "comments": 12,
+        "id": "22444240"
+      },
+      {
+        "created_at": "2020-10-07T05:38:39.000Z",
+        "title": "VSCode on Google Colab",
+        "url": "https://amitness.com/vscode-on-colab/",
+        "points": 197,
+        "comments": 51,
+        "id": "24705599"
+      },
+      {
+        "created_at": "2020-03-20T13:40:37.000Z",
+        "title": "Math Symbols Explained with Python",
+        "url": "https://amitness.com/2019/08/math-for-programmers/",
+        "points": 130,
+        "comments": 55,
+        "id": "22637402"
+      },
+      {
+        "created_at": "2020-05-24T17:07:17.000Z",
+        "title": "Self Supervised Learning in NLP",
+        "url": "https://amitness.com/2020/05/self-supervised-learning-nlp/",
+        "points": 130,
+        "comments": 14,
+        "id": "23292885"
+      },
+      {
+        "created_at": "2020-05-09T11:42:45.000Z",
+        "title": "A commit history of BERT and its forks",
+        "url": "https://amitness.com/2020/05/git-log-of-bert/",
+        "points": 103,
+        "comments": 43,
+        "id": "23123917"
+      },
+      {
+        "created_at": "2020-03-16T11:52:12.000Z",
+        "title": "PIRL: Learn Image Representations Immune to Geometric Transformation",
+        "url": "https://amitness.com/2020/03/illustrated-pirl/",
+        "points": 50,
+        "comments": 6,
+        "id": "22591894"
+      },
+      {
+        "created_at": "2020-11-14T03:37:02.000Z",
+        "title": "A Visual Guide to Regular Expression",
+        "url": "https://amitness.com/regex/",
+        "points": 30,
+        "comments": 3,
+        "id": "25090112"
+      }
+    ]
+  },
+  {
+    "url": "https://andeers.com",
+    "title": "Andeers.com",
+    "feed": "https://andeers.com/feed/feed.xml",
+    "desc": "Personal site of Anders Grendstadbakk",
+    "hn": [
+      {
+        "created_at": "2017-02-04T13:48:54.000Z",
+        "title": "Blockchain Demo [video]",
+        "url": "https://anders.com/blockchain/",
+        "points": 723,
+        "comments": 147,
+        "id": "13566951"
+      },
+      {
+        "created_at": "2009-12-01T17:53:46.000Z",
+        "title": "Asterisk vs. FreeSWITCH",
+        "url": "http://www.anders.com/cms/266",
+        "points": 8,
+        "comments": 9,
+        "id": "970213"
+      }
+    ]
+  },
+  {
+    "url": "https://andy-bell.co.uk",
+    "title": "Andy Bell - Designer, front-end developer and founder of Set Studio",
+    "feed": "https://andy-bell.co.uk/feed.xml",
+    "desc": "I’m a designer, front-end developer and the founder of Set Studio.",
+    "hn": [
+      {
+        "created_at": "2023-02-21T06:23:59.000Z",
+        "title": "My favourite 3 lines of CSS",
+        "url": "https://andy-bell.co.uk/my-favourite-3-lines-of-css/",
+        "points": 121,
+        "comments": 83,
+        "id": "34877431"
+      },
+      {
+        "created_at": "2023-04-05T20:08:59.000Z",
+        "title": "I think I’m not alone that Mastodon is giving me the ick",
+        "url": "https://andy-bell.co.uk/i-think-im-not-alone-that-mastodon-is-giving-me-the-ick/",
+        "points": 36,
+        "comments": 54,
+        "id": "35459735"
+      },
+      {
+        "created_at": "2023-04-27T17:54:59.000Z",
+        "title": "Some Bluesky, Twitter and Mastodon predictions for 6 months time",
+        "url": "https://andy-bell.co.uk/some-bluesky-twitter-and-mastodon-predictions-for-6-months-time/",
+        "points": 21,
+        "comments": 20,
+        "id": "35732038"
+      },
+      {
+        "created_at": "2023-04-22T21:05:34.000Z",
+        "title": "Why pay $8 for a checkmark when you can get one for for free?",
+        "url": "https://andy-bell.co.uk/why-pay-8-for-a-check-mark-when-you-can-get-one-for-for-free/",
+        "points": 11,
+        "comments": 6,
+        "id": "35670930"
+      }
+    ]
+  },
+  {
+    "url": "https://artlung.com",
+    "title": "",
+    "hn": [
+      {
+        "created_at": "2009-07-09T21:00:05.000Z",
+        "title": "The Invention of C++",
+        "url": "http://artlung.com/smorgasborg/Invention_of_Cplusplus.shtml",
+        "points": 60,
+        "comments": 15,
+        "id": "696632"
+      }
+    ]
+  },
+  {
+    "url": "https://beesbuzz.biz",
+    "title": "busybee",
+    "about": "https://beesbuzz.biz/about",
+    "feed": "https://beesbuzz.biz/feed",
+    "hn": [
+      {
+        "created_at": "2022-09-01T04:24:02.000Z",
+        "title": "Falsehoods programmers believe about email",
+        "url": "https://beesbuzz.biz/code/439-Falsehoods-programmers-believe-about-email",
+        "points": 375,
+        "comments": 352,
+        "id": "32671959"
+      },
+      {
+        "created_at": "2020-06-17T21:12:55.000Z",
+        "title": "Advice to Young Web Developers",
+        "url": "https://tumblr.beesbuzz.biz/post/621010836277837824/advice-to-young-web-developers",
+        "points": 266,
+        "comments": 318,
+        "id": "23556831"
+      },
+      {
+        "created_at": "2018-09-18T09:39:06.000Z",
+        "title": "Most use cases of ActivityPub would be better off as Atom or RSS feeds",
+        "url": "https://beesbuzz.biz/blog/2535-ActivityPub-hot-take",
+        "points": 176,
+        "comments": 49,
+        "id": "18013800"
+      },
+      {
+        "created_at": "2020-10-16T06:25:24.000Z",
+        "title": "Teageneration (or: why I don’t trust transporters) (2016)",
+        "url": "https://beesbuzz.biz/art/908-Teageneration-or-why-I-dont-trust-transporters",
+        "points": 22,
+        "comments": 11,
+        "id": "24798090"
+      },
+      {
+        "created_at": "2022-08-30T22:43:38.000Z",
+        "title": "Falsehoods programmers believe about email",
+        "url": "https://beesbuzz.biz/code/439-Falsehoods-programmers-believe-about-email",
+        "points": 22,
+        "comments": 2,
+        "id": "32656106"
+      }
+    ]
+  },
+  {
+    "url": "https://benbyford.com",
+    "title": "<Ben Byford>Portfolio</Ben Byford>",
+    "feed": "https://benbyford.com/experiments/rss",
+    "desc": "Portfolio and musings of Ben Byford. Podcaster of Machine Ethics and Ethical by Design Artificial Intelligence consultant. Computer games and web designer.",
+    "hn": [
+      {
+        "created_at": "2015-12-29T13:47:09.000Z",
+        "title": "Problems on the Blockchain",
+        "url": "http://benbyford.com/articles/problems-on-the-blockchain/",
+        "points": 33,
+        "comments": 30,
+        "id": "10806606"
+      }
+    ]
+  },
+  {
+    "url": "https://benjamincongdon.me",
+    "title": "Ben Congdon",
+    "feed": "https://benjamincongdon.me/blog/feed.xml",
+    "desc": "The personal website of Ben Congdon",
+    "hn": [
+      {
+        "created_at": "2019-11-15T15:13:52.000Z",
+        "title": "The Value in Go’s Simplicity",
+        "url": "https://benjamincongdon.me/blog/2019/11/11/The-Value-in-Gos-Simplicity/",
+        "points": 368,
+        "comments": 360,
+        "id": "21545425"
+      },
+      {
+        "created_at": "2020-10-30T16:07:28.000Z",
+        "title": "Goodbye IFTTT",
+        "url": "https://benjamincongdon.me/blog/2020/10/30/Goodbye-IFTTT/",
+        "points": 357,
+        "comments": 152,
+        "id": "24943685"
+      },
+      {
+        "created_at": "2020-05-25T15:36:05.000Z",
+        "title": "Solving the “Miracle Sudoku” in Prolog",
+        "url": "https://benjamincongdon.me/blog/2020/05/23/Solving-the-Miracle-Sudoku-in-Prolog/",
+        "points": 276,
+        "comments": 34,
+        "id": "23302102"
+      },
+      {
+        "created_at": "2021-08-18T14:42:12.000Z",
+        "title": "B-Trees: More Than I Thought I'd Want to Know",
+        "url": "https://benjamincongdon.me/blog/2021/08/17/B-Trees-More-Than-I-Thought-Id-Want-to-Know/",
+        "points": 239,
+        "comments": 63,
+        "id": "28221612"
+      },
+      {
+        "created_at": "2022-07-24T16:12:36.000Z",
+        "title": "In Praise of Stacked PRs",
+        "url": "https://benjamincongdon.me/blog/2022/07/17/In-Praise-of-Stacked-PRs/",
+        "points": 225,
+        "comments": 228,
+        "id": "32214809"
+      },
+      {
+        "created_at": "2018-03-30T17:07:21.000Z",
+        "title": "Python Idioms in Rust",
+        "url": "http://benjamincongdon.me/blog/2018/03/23/Python-Idioms-in-Rust/",
+        "points": 182,
+        "comments": 78,
+        "id": "16717852"
+      },
+      {
+        "created_at": "2022-06-23T04:27:09.000Z",
+        "title": "Mental Model: Difficult Problems vs. Hard Work",
+        "url": "https://benjamincongdon.me/blog/2022/06/22/Mental-Model-Difficult-Problems-vs.-Hard-Work/",
+        "points": 162,
+        "comments": 45,
+        "id": "31845144"
+      },
+      {
+        "created_at": "2023-04-15T21:31:00.000Z",
+        "title": "The Soul of an Old Machine",
+        "url": "https://benjamincongdon.me/blog/2023/04/15/The-Soul-of-an-Old-Machine/",
+        "points": 54,
+        "comments": 54,
+        "id": "35584736"
+      },
+      {
+        "created_at": "2023-02-19T16:38:55.000Z",
+        "title": "On Prompt Engineering",
+        "url": "https://benjamincongdon.me/blog/2023/02/18/On-Prompt-Engineering/",
+        "points": 10,
+        "comments": 0,
+        "id": "34859089"
+      },
+      {
+        "created_at": "2020-07-13T14:07:28.000Z",
+        "title": "Building a DIY Pen Plotter: MidTbot",
+        "url": "https://benjamincongdon.me/blog/2020/07/12/Building-a-DIY-Pen-Plotter-midTbot/",
+        "points": 10,
+        "comments": 0,
+        "id": "23820926"
+      }
+    ]
+  },
+  {
+    "url": "https://benrobertson.io",
+    "title": "Home | Ben Robertson",
+    "desc": "I'm Ben Robertson, an indie hacker and customer success leader.",
+    "hn": [
+      {
+        "created_at": "2018-12-25T19:31:47.000Z",
+        "title": "Designing web page layouts for screen readers",
+        "url": "https://benrobertson.io/accessibility/designing-layouts-for-screen-readers",
+        "points": 137,
+        "comments": 28,
+        "id": "18758847"
+      }
+    ]
+  },
+  {
+    "url": "https://bits.com",
+    "title": "Bits.com",
+    "hn": [
+      {
+        "created_at": "2021-12-14T11:53:58.000Z",
+        "title": "SQL: The difference between WHERE and HAVING",
+        "url": "https://sql-bits.com/the-difference-between-where-and-having/",
+        "points": 117,
+        "comments": 132,
+        "id": "29550683"
+      },
+      {
+        "created_at": "2012-12-12T19:42:40.000Z",
+        "title": "Why Im Quitting My Job and Leaving San Francisco",
+        "url": "http://future-bits.com/quitting-and-leaving",
+        "points": 80,
+        "comments": 84,
+        "id": "4912022"
+      },
+      {
+        "created_at": "2012-10-09T16:27:08.000Z",
+        "title": "Stanley Kubrick held his own camera, so why shouldnt you?",
+        "url": "http://future-bits.com/stanley-kubrick-held-his-own-camera",
+        "points": 70,
+        "comments": 43,
+        "id": "4632424"
+      },
+      {
+        "created_at": "2010-01-06T20:50:12.000Z",
+        "title": "[60fps] Framerates do matter",
+        "url": "http://www.significant-bits.com/framerates-do-matter",
+        "points": 36,
+        "comments": 18,
+        "id": "1035718"
+      },
+      {
+        "created_at": "2021-02-12T05:07:03.000Z",
+        "title": "Apple redirects Google Safe Browsing traffic through proxy servers in iOS 14.5",
+        "url": "https://the8-bit.com/apple-proxies-google-safe-browsing-privacy/",
+        "points": 391,
+        "comments": 264,
+        "id": "26110928"
+      },
+      {
+        "created_at": "2017-09-30T18:41:07.000Z",
+        "title": "Git, Graphs and Software Engineering",
+        "url": "http://third-bit.com/2017/09/30/git-graphs-and-engineering.html",
+        "points": 110,
+        "comments": 38,
+        "id": "15374341"
+      }
+    ]
+  },
+  {
+    "url": "https://blakewatson.com",
+    "title": "blakewatson.com",
+    "feed": "https://blakewatson.com/journal/category/microblog/feed",
+    "hn": [
+      {
+        "created_at": "2017-07-07T05:50:29.000Z",
+        "title": "Why I deleted my Facebook account",
+        "url": "https://www.blakewatson.com/journal/why-i-left-facebook/",
+        "points": 438,
+        "comments": 308,
+        "id": "14716368"
+      },
+      {
+        "created_at": "2022-11-06T23:31:28.000Z",
+        "title": "Almost monospaced: the perfect fonts for writing",
+        "url": "https://blakewatson.com/journal/almost-monospaced-the-perfect-fonts-for-writing/",
+        "points": 394,
+        "comments": 171,
+        "id": "33498799"
+      },
+      {
+        "created_at": "2018-12-31T06:26:25.000Z",
+        "title": "Writing and coding by voice with Talon",
+        "url": "https://www.blakewatson.com/journal/writing-and-coding-by-voice-with-talon/",
+        "points": 98,
+        "comments": 28,
+        "id": "18793378"
+      }
+    ]
+  },
+  {
+    "url": "https://boffosocko.com",
+    "title": "Chris Aldrich | BoffoSocko",
+    "keywords": "chris aldrich,christopher aldrich,biomedical engineer,information theory,mathematics,molecular biology",
+    "desc": "A digital commonplace book on education, IndieWeb, mathematics, information theory, biology, history, economics, humanities, note taking & related topics.",
+    "hn": [
+      {
+        "created_at": "2017-07-12T13:37:55.000Z",
+        "title": "The Facebook Algorithm Mom Problem",
+        "url": "http://boffosocko.com/2017/07/11/the-facebook-algorithm-mom-problem/",
+        "points": 738,
+        "comments": 301,
+        "id": "14752392"
+      }
+    ]
+  },
+  {
+    "url": "https://brainbaking.com",
+    "title": "Brain Baking | Freshly Baked Thoughts ",
+    "about": "https://brainbaking.com/about",
+    "feed": "https://brainbaking.com/index.xml",
+    "desc": "Brain Baking | Freshly Baked Thoughts",
+    "hn": [
+      {
+        "created_at": "2022-04-29T00:35:14.000Z",
+        "title": "Cool things people do with their blogs",
+        "url": "https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/",
+        "points": 246,
+        "comments": 32,
+        "id": "31199973"
+      }
+    ]
+  },
+  {
+    "url": "https://bryanbraun.com",
+    "title": " Bryan Braun - Frontend Developer",
+    "feed": "https://www.bryanbraun.com/rss.xml",
+    "keywords": "Bryan Braun, Personal Blog, Web Developer",
+    "desc": "Making things and sharing what I learn.",
+    "hn": [
+      {
+        "created_at": "2022-07-16T18:09:00.000Z",
+        "title": "Scratch is a big deal",
+        "url": "https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal/",
+        "points": 1017,
+        "comments": 296,
+        "id": "32120445"
+      },
+      {
+        "created_at": "2021-10-11T08:18:44.000Z",
+        "title": "I keep making things out of checkboxes",
+        "url": "https://www.bryanbraun.com/2021/09/21/i-keep-making-things-out-of-checkboxes/",
+        "points": 725,
+        "comments": 111,
+        "id": "28826018"
+      },
+      {
+        "created_at": "2023-03-05T17:10:55.000Z",
+        "title": "After Dark Screensavers in CSS",
+        "url": "https://www.bryanbraun.com/after-dark-css/",
+        "points": 555,
+        "comments": 106,
+        "id": "35031545"
+      },
+      {
+        "created_at": "2021-07-30T11:06:18.000Z",
+        "title": "Berkeley Systems “After Dark” screensavers recreated in CSS",
+        "url": "https://www.bryanbraun.com/after-dark-css/",
+        "points": 461,
+        "comments": 149,
+        "id": "28006679"
+      },
+      {
+        "created_at": "2021-09-11T06:16:35.000Z",
+        "title": "Checkboxland",
+        "url": "https://www.bryanbraun.com/checkboxland/",
+        "points": 284,
+        "comments": 39,
+        "id": "28489791"
+      },
+      {
+        "created_at": "2021-09-09T13:25:58.000Z",
+        "title": "Show HN: A webcam made out of HTML checkboxes",
+        "url": "https://www.bryanbraun.com/checkboxland/docs/demos/webcam-test/",
+        "points": 202,
+        "comments": 41,
+        "id": "28469399"
+      },
+      {
+        "created_at": "2021-10-09T03:13:48.000Z",
+        "title": "After Dark (90's screensavers) in CSS",
+        "url": "https://www.bryanbraun.com/after-dark-css/#",
+        "points": 155,
+        "comments": 26,
+        "id": "28806699"
+      },
+      {
+        "created_at": "2014-03-16T01:55:09.000Z",
+        "title": "How I rebuilt \"Flying Toasters\" using only CSS animations",
+        "url": "http://bryanbraun.com/2014/03/15/how-i-rebuilt-flying-toasters-using-only-css-animations",
+        "points": 97,
+        "comments": 31,
+        "id": "7407447"
+      },
+      {
+        "created_at": "2013-11-12T12:41:13.000Z",
+        "title": "If Gmail were built with Drupal",
+        "url": "http://bryanbraun.com/2013/11/09/if-gmail-were-built-with-drupal",
+        "points": 85,
+        "comments": 95,
+        "id": "6717406"
+      },
+      {
+        "created_at": "2021-08-19T15:06:52.000Z",
+        "title": "Breaking down a ripple animation in JavaScript",
+        "url": "https://www.bryanbraun.com/2021/04/15/ripple-animation-in-javascript/",
+        "points": 68,
+        "comments": 43,
+        "id": "28234779"
+      },
+      {
+        "created_at": "2017-05-27T07:28:56.000Z",
+        "title": "After Dark in CSS",
+        "url": "https://www.bryanbraun.com/after-dark-css/",
+        "points": 29,
+        "comments": 1,
+        "id": "14429271"
+      },
+      {
+        "created_at": "2019-12-07T16:12:58.000Z",
+        "title": "Using the URL to build database-free web apps",
+        "url": "https://www.bryanbraun.com/2019/12/07/using-the-url-to-build-database-free-web-apps/",
+        "points": 18,
+        "comments": 8,
+        "id": "21730977"
+      },
+      {
+        "created_at": "2019-09-23T20:07:18.000Z",
+        "title": "Web-dev nirvana, and why I needed to let go of React to reach it",
+        "url": "https://www.bryanbraun.com/2019/09/11/web-dev-nirvana-and-why-I-needed-to-let-go-of-reactjs-to-reach-it/",
+        "points": 12,
+        "comments": 14,
+        "id": "21053022"
+      }
+    ]
+  },
+  {
+    "url": "https://brycewray.com",
+    "title": "BryceWray.com",
+    "feed": "https://brycewray.com/index.xml",
+    "desc": "Bryce Wray’s website | Observations, opinions, geekiness",
+    "hn": [
+      {
+        "created_at": "2022-10-22T14:55:35.000Z",
+        "title": "Tailwind CSS v3.2: revisiting my “feature creep” warning",
+        "url": "https://www.brycewray.com/posts/2022/10/tailwind-css-v3-2-revisiting-feature-creep-warning/",
+        "points": 110,
+        "comments": 133,
+        "id": "33298806"
+      },
+      {
+        "created_at": "2022-04-02T16:53:32.000Z",
+        "title": "How to make “localhost” slightly less local",
+        "url": "https://www.brycewray.com/posts/2022/04/let-all-your-devices-see-your-site/",
+        "points": 48,
+        "comments": 43,
+        "id": "30889663"
+      },
+      {
+        "created_at": "2022-10-22T16:11:06.000Z",
+        "title": "Speaking Up for Sass (2021)",
+        "url": "https://www.brycewray.com/posts/2021/04/speaking-up-for-sass/",
+        "points": 43,
+        "comments": 23,
+        "id": "33299506"
+      }
+    ]
+  },
+  {
+    "url": "https://caolan.uk",
+    "title": "Caolan McMahon",
+    "hn": [
+      {
+        "created_at": "2022-05-29T13:10:03.000Z",
+        "title": "Serving Markdown Direct from Apache",
+        "url": "https://caolan.uk/notes/2022-05-13_serving_markdown_direct_from_apache.cm",
+        "points": 34,
+        "comments": 1,
+        "id": "31548866"
+      }
+    ]
+  },
+  {
+    "url": "https://cathydutton.co.uk",
+    "title": "Cheshire based Designer and Front end developer - Cathy Dutton",
+    "keywords": "Interaction Design, UX, User experience, Service design, CSS, Sass, PostCSS, Front End Developer",
+    "desc": "An Interaction, Experience and Service Designer, based in Warrington, Cheshire. Specialising in CSS, UX, Accessibility and inclusive design.}",
+    "hn": [
+      {
+        "created_at": "2019-04-25T22:54:21.000Z",
+        "title": "Stepping Away from Sass",
+        "url": "https://cathydutton.co.uk/posts/why-i-stopped-using-sass/",
+        "points": 211,
+        "comments": 155,
+        "id": "19753282"
+      }
+    ]
+  },
+  {
+    "url": "https://chasem.co",
+    "title": "Chase McCoy",
+    "feed": "https://chasem.co/feed.xml",
+    "desc": "Chase McCoy explores, builds, & writes about the web.",
+    "hn": [
+      {
+        "created_at": "2023-03-24T20:13:30.000Z",
+        "title": "Reasons the banking crisis isn’t a repeat of 2008",
+        "url": "https://www.chase.com/personal/investments/learning-and-insights/article/tmt-march-twenty-four-twenty-three",
+        "points": 155,
+        "comments": 413,
+        "id": "35294802"
+      },
+      {
+        "created_at": "2019-03-12T19:13:12.000Z",
+        "title": "System requirements",
+        "url": "https://www.chase.com/digital/resources/privacy-security/security/system-requirements",
+        "points": 43,
+        "comments": 33,
+        "id": "19371877"
+      }
+    ]
+  },
+  {
+    "url": "https://chenhuijing.com",
+    "title": "Chen Hui Jing",
+    "feed": "https://chenhuijing.com/feed.xml",
+    "desc": "The chronicles of a self-taught designer and developer.",
+    "hn": [
+      {
+        "created_at": "2016-07-05T22:39:40.000Z",
+        "title": "How well do you know CSS display?",
+        "url": "https://www.chenhuijing.com/blog/how-well-do-you-know-display/#=%B2",
+        "points": 166,
+        "comments": 46,
+        "id": "12040019"
+      },
+      {
+        "created_at": "2020-04-24T13:28:10.000Z",
+        "title": "CSS for Internationalisation",
+        "url": "https://www.chenhuijing.com/blog/css-for-i18n/",
+        "points": 165,
+        "comments": 37,
+        "id": "22967701"
+      },
+      {
+        "created_at": "2018-06-06T10:09:01.000Z",
+        "title": "Math and front-end",
+        "url": "https://www.chenhuijing.com/blog/math-and-front-end/#%F0%9F%8F%80",
+        "points": 113,
+        "comments": 20,
+        "id": "17245758"
+      },
+      {
+        "created_at": "2016-12-30T12:16:31.000Z",
+        "title": "East Asian character emojis – “the fuller” story",
+        "url": "https://www.chenhuijing.com/blog/east-asian-character-emojis/#%F0%9F%92%BB",
+        "points": 71,
+        "comments": 33,
+        "id": "13284005"
+      },
+      {
+        "created_at": "2019-07-18T08:56:01.000Z",
+        "title": "Recreating the Fool's Mate Chess Move with CSS Grid",
+        "url": "https://www.chenhuijing.com/blog/recreating-the-fools-mate-chess-move-with-css-grid/",
+        "points": 25,
+        "comments": 2,
+        "id": "20468008"
+      },
+      {
+        "created_at": "2023-04-12T23:37:23.000Z",
+        "title": "East Asian character emojis ㊗ 🈶 🈯 🈳 (2016)",
+        "url": "https://chenhuijing.com/blog/east-asian-character-emojis/",
+        "points": 19,
+        "comments": 9,
+        "id": "35548641"
+      },
+      {
+        "created_at": "2020-03-14T01:51:51.000Z",
+        "title": "Understanding Positioning in CSS",
+        "url": "https://www.chenhuijing.com/blog/understanding-positioning-in-css/",
+        "points": 11,
+        "comments": 0,
+        "id": "22572509"
+      }
+    ]
+  },
+  {
+    "url": "https://christiantietze.de",
+    "title": "Latest Blog Posts • Christian Tietze",
+    "feed": "https://christiantietze.de/feed.atom",
+    "desc": "Blog and portfolio of Christian Tietze: developer of macOS and iOS apps, writer of programming books, and consultant of amazing devs.",
+    "hn": [
+      {
+        "created_at": "2021-02-03T09:16:24.000Z",
+        "title": "Atkinson Hyperlegible Font",
+        "url": "https://christiantietze.de/posts/2021/01/hyperlegible-font/",
+        "points": 293,
+        "comments": 86,
+        "id": "26011945"
+      },
+      {
+        "created_at": "2022-03-04T10:43:16.000Z",
+        "title": "What's the problem with old but excellent Mac apps?",
+        "url": "https://christiantietze.de/posts/2022/03/half-assed-mac-apps/",
+        "points": 89,
+        "comments": 141,
+        "id": "30552973"
+      }
+    ]
+  },
+  {
+    "url": "https://christopherkade.com",
+    "title": "Christopher Kade - Frontend Engineer",
+    "desc": "Portfolio website of Christopher Kade, a Frontend Engineer from Paris",
+    "hn": [
+      {
+        "created_at": "2023-01-05T19:47:50.000Z",
+        "title": "Goodbye TypeScript, hello native typing for JavaScript",
+        "url": "https://christopherkade.com/posts/javascript-typing",
+        "points": 55,
+        "comments": 28,
+        "id": "34265468"
+      }
+    ]
+  },
+  {
+    "url": "https://cprimozic.net",
+    "title": "Casey Primozic's Homepage",
+    "feed": "https://cprimozic.b-cdn.net/rss.xml",
+    "keywords": "Casey Primozic, Ameo, AmeoBea",
+    "desc": "The homepage of Casey Primozic / Ameo",
+    "hn": [
+      {
+        "created_at": "2023-01-16T10:32:12.000Z",
+        "title": "Reverse engineering a neural network's clever solution to binary addition",
+        "url": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/",
+        "points": 562,
+        "comments": 151,
+        "id": "34399142"
+      },
+      {
+        "created_at": "2021-12-31T09:06:33.000Z",
+        "title": "Self-Hosting Dozens of Web Applications and Services on a Single Server",
+        "url": "https://cprimozic.net/blog/my-selfhosted-websites-architecture/",
+        "points": 511,
+        "comments": 279,
+        "id": "29746223"
+      },
+      {
+        "created_at": "2021-07-04T19:53:02.000Z",
+        "title": "Speeding Up the Webcola Graph Viz Library with Rust and WebAssembly",
+        "url": "https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/",
+        "points": 218,
+        "comments": 25,
+        "id": "27732136"
+      },
+      {
+        "created_at": "2022-01-05T08:05:08.000Z",
+        "title": "My Evaluation of SvelteKit for Full-Stack Web App Development",
+        "url": "https://cprimozic.net/blog/trying-out-sveltekit/",
+        "points": 194,
+        "comments": 125,
+        "id": "29806385"
+      },
+      {
+        "created_at": "2023-05-20T10:00:36.000Z",
+        "title": "Building a Signal Analyzer with Modern Web Tech",
+        "url": "https://cprimozic.net/blog/building-a-signal-analyzer-with-modern-web-tech/",
+        "points": 138,
+        "comments": 30,
+        "id": "36010600"
+      },
+      {
+        "created_at": "2021-10-24T07:46:59.000Z",
+        "title": "Habits I've developed for fast and efficient programming",
+        "url": "https://cprimozic.net/blog/programming-speed-strategies/",
+        "points": 108,
+        "comments": 102,
+        "id": "28975714"
+      },
+      {
+        "created_at": "2022-04-03T08:46:23.000Z",
+        "title": "Exploring Neural Networks Visually in the Browser",
+        "url": "https://cprimozic.net/blog/neural-network-experiments-and-visualizations/",
+        "points": 84,
+        "comments": 8,
+        "id": "30895478"
+      },
+      {
+        "created_at": "2022-08-14T08:42:59.000Z",
+        "title": "Logic Through the Lens of Neural Networks",
+        "url": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/",
+        "points": 11,
+        "comments": 3,
+        "id": "32457604"
+      }
+    ]
+  },
+  {
+    "url": "https://dillonshook.com",
+    "title": "Dillon Shook",
+    "feed": "https://dillonshook.com/rss.xml",
+    "desc": "Autodidact, Photographer, Zero One Infinity Advocate",
+    "hn": [
+      {
+        "created_at": "2022-09-15T12:59:28.000Z",
+        "title": "What it takes to make a game by yourself",
+        "url": "https://dillonshook.com/what-it-takes-to-make-a-game-by-yourself/",
+        "points": 350,
+        "comments": 161,
+        "id": "32851196"
+      },
+      {
+        "created_at": "2020-04-27T14:06:58.000Z",
+        "title": "A Critique of React Hooks",
+        "url": "https://dillonshook.com/a-critique-of-react-hooks/",
+        "points": 247,
+        "comments": 290,
+        "id": "22995928"
+      },
+      {
+        "created_at": "2020-05-07T13:20:07.000Z",
+        "title": "A Critique of React Hooks Addendum",
+        "url": "https://dillonshook.com/a-critique-of-react-hooks-addendum/",
+        "points": 73,
+        "comments": 50,
+        "id": "23102639"
+      },
+      {
+        "created_at": "2021-06-09T23:01:33.000Z",
+        "title": "How Hard is your Email to Say? (2020)",
+        "url": "https://dillonshook.com/how-hard-is-your-email-to-say/",
+        "points": 39,
+        "comments": 79,
+        "id": "27454467"
+      }
+    ]
+  },
+  {
+    "url": "https://dwayne.xyz",
+    "title": "Dwayne.xyz",
+    "about": "https://dwayne.xyz/about",
+    "feed": "https://dwayne.xyz/rss",
+    "desc": "Dwayne's Website",
+    "hn": [
+      {
+        "created_at": "2020-10-30T01:55:13.000Z",
+        "title": "Getting Audio Visualizations Working with Web Audio API",
+        "url": "https://dwayne.xyz/post/audio-visualizations-web-audio-api",
+        "points": 53,
+        "comments": 15,
+        "id": "24938292"
+      }
+    ]
+  },
+  {
+    "url": "https://eli.li",
+    "title": "Oatmeal",
+    "about": "https://eli.li/about",
+    "desc": "The latest entries posted on Oatmeal",
+    "hn": [
+      {
+        "created_at": "2023-02-22T16:03:34.000Z",
+        "title": "Connecting a 1980s Pinball Machine to the Internet",
+        "url": "https://eli.lipsitz.net/posts/internet-connected-pinball/",
+        "points": 137,
+        "comments": 50,
+        "id": "34897668"
+      }
+    ]
+  },
+  {
+    "url": "https://ericportis.com",
+    "title": "ericportis.com",
+    "hn": [
+      {
+        "created_at": "2020-08-20T23:57:13.000Z",
+        "title": "Scalable Bitmaps (2013)",
+        "url": "https://ericportis.com/posts/2013/scalables/",
+        "points": 26,
+        "comments": 4,
+        "id": "24230411"
+      },
+      {
+        "created_at": "2022-04-17T16:14:21.000Z",
+        "title": "Srcset and Sizes (2014)",
+        "url": "https://ericportis.com/posts/2014/srcset-sizes/",
+        "points": 10,
+        "comments": 2,
+        "id": "31061916"
+      },
+      {
+        "created_at": "2021-08-11T12:11:31.000Z",
+        "title": "Srcset and Sizes (2014)",
+        "url": "https://ericportis.com/posts/2014/srcset-sizes/",
+        "points": 10,
+        "comments": 1,
+        "id": "28141025"
+      }
+    ]
+  },
+  {
+    "url": "https://ericwbailey.design",
+    "title": "\n  \n    Eric Bailey – Inclusive design advocate, writer, developer, and speaker\n  \n",
+    "feed": "https://ericwbailey.design/feed/feed.xml",
+    "desc": "Inclusive design advocate, writer, developer, and speaker",
+    "hn": [
+      {
+        "created_at": "2021-09-09T12:22:44.000Z",
+        "title": "What they don’t tell you when you translate your app",
+        "url": "https://ericwbailey.design/writing/what-they-dont-tell-you-when-you-translate-your-app/",
+        "points": 173,
+        "comments": 230,
+        "id": "28468853"
+      },
+      {
+        "created_at": "2021-04-07T23:46:02.000Z",
+        "title": "I love my not-smart TV",
+        "url": "https://ericwbailey.design/writing/i-love-my-not-smart-tv/",
+        "points": 50,
+        "comments": 48,
+        "id": "26733126"
+      },
+      {
+        "created_at": "2022-04-09T20:18:06.000Z",
+        "title": "Ham Biscuit on (2021)",
+        "url": "https://ericwbailey.design/writing/ham-biscuit-on/",
+        "points": 47,
+        "comments": 21,
+        "id": "30971626"
+      },
+      {
+        "created_at": "2021-10-27T08:26:18.000Z",
+        "title": "Spear phishing with Slackbot for fun and profit",
+        "url": "https://ericwbailey.design/writing/spear-phishing-with-slackbot-for-fun-and-profit/",
+        "points": 45,
+        "comments": 27,
+        "id": "29010779"
+      },
+      {
+        "created_at": "2021-11-16T20:06:21.000Z",
+        "title": "CSS Is an Interface",
+        "url": "https://ericwbailey.design/writing/your-css-is-an-interface/",
+        "points": 31,
+        "comments": 18,
+        "id": "29245750"
+      }
+    ]
+  },
+  {
+    "url": "https://florimondmanca.com",
+    "title": "Florimond Manca",
+    "hn": [
+      {
+        "created_at": "2018-09-23T11:43:33.000Z",
+        "title": "A practical usage of ChainMap in Python",
+        "url": "https://blog.florimondmanca.com/a-practical-usage-of-chainmap-in-python",
+        "points": 63,
+        "comments": 15,
+        "id": "18050620"
+      }
+    ]
+  },
+  {
+    "url": "https://georgeho.org",
+    "title": "Hello! I’m George (a.k.a. eigenfoo) | George Ho",
+    "feed": "https://georgeho.org/feed.xml",
+    "keywords": "bayes,cancer,crossword,data,dataset,deep-learning,life-update,link-bulletin,machine-learning,mathematics,natural-language-processing,open-source,probabilistic-programming,productivity,pymc,python,quant-finance,r,reinforcement-learning,stan,statistics,streaming,talks,typography,visidata,",
+    "desc": "I’m interested in natural language processing, Bayesian modelling, and coffee. Sometimes, but not always, in that order.",
+    "hn": [
+      {
+        "created_at": "2022-09-18T12:53:20.000Z",
+        "title": "Merriam-Webster and Unstructured Data Processing",
+        "url": "https://www.georgeho.org/webster-unstructured-data/",
+        "points": 32,
+        "comments": 3,
+        "id": "32887128"
+      }
+    ]
+  },
+  {
+    "url": "https://geshan.com.np",
+    "title": "Geshan's Blog",
+    "keywords": "",
+    "desc": "A blog about software engineering, devops and web development covering topics like php, javascript, docker, microservices etc.",
+    "hn": [
+      {
+        "created_at": "2019-03-27T02:45:04.000Z",
+        "title": "Application-Level Logging Best Practices",
+        "url": "https://geshan.com.np/blog/2019/03/follow-these-logging-best-practices-to-get-the-most-out-of-application-level-logging-slides/",
+        "points": 191,
+        "comments": 63,
+        "id": "19497788"
+      },
+      {
+        "created_at": "2017-06-07T14:12:06.000Z",
+        "title": "Software Companies Tech Competency Matrix",
+        "url": "https://geshan.com.np/blog/2017/06/software-companies-tech-competency-matrix/",
+        "points": 130,
+        "comments": 70,
+        "id": "14506563"
+      },
+      {
+        "created_at": "2018-12-14T11:03:58.000Z",
+        "title": "You Can Do It in SQL, Stop Writing Extra Code for That",
+        "url": "https://geshan.com.np/blog/2018/12/you-can-do-it-in-sql/",
+        "points": 76,
+        "comments": 46,
+        "id": "18679957"
+      },
+      {
+        "created_at": "2018-12-19T17:46:48.000Z",
+        "title": "Ways Docker Changed the Way Software Engineers Work in Past Half Decade",
+        "url": "https://geshan.com.np/blog/2018/12/4-ways-docker-changed-the-way-software-engineers-work-in-past-half-decade/",
+        "points": 33,
+        "comments": 3,
+        "id": "18717587"
+      },
+      {
+        "created_at": "2018-12-23T20:09:45.000Z",
+        "title": "How to Do a Zero Downtime Database (DB) Migration (Schema Change) with Example",
+        "url": "https://geshan.com.np/blog/2018/05/how-to-do-a-zero-downtime-database-db-migration-schema-change-with-a-practical-example/",
+        "points": 10,
+        "comments": 0,
+        "id": "18748038"
+      }
+    ]
+  },
+  {
+    "url": "https://gilest.org",
+    "title": "Giles Turnbull's website",
+    "feed": "https://gilest.org/feed/index.xml",
+    "hn": [
+      {
+        "created_at": "2021-01-28T16:18:47.000Z",
+        "title": "How to Be Clear",
+        "url": "https://gilest.org/2021/how-to-be-clear/",
+        "points": 195,
+        "comments": 56,
+        "id": "25944236"
+      }
+    ]
+  },
+  {
+    "url": "https://goodlookingdesign.co.uk",
+    "title": "Good Looking Design | Freelance Graphic Designer Brighton - Good Looking Design",
+    "desc": "Specialising in branding, user interface and user experience design. I help businesses grow and develop their on and offline identities.",
+    "hn": [
+      {
+        "created_at": "2022-02-12T05:46:31.000Z",
+        "title": "Adobe XD, where did it go wrong?",
+        "url": "https://www.goodlookingdesign.co.uk/blog/adobe-xd-where-did-it-go-wrong/",
+        "points": 166,
+        "comments": 189,
+        "id": "30310319"
+      }
+    ]
+  },
+  {
+    "url": "https://hiddedevries.nl",
+    "title": "Welcome to hiddedevries.nl!",
+    "desc": "Hidde's web development and web accessibility consultancy.",
+    "hn": [
+      {
+        "created_at": "2020-12-02T08:17:28.000Z",
+        "title": "It’s good for users that HTML, CSS and JS are separate languages",
+        "url": "https://hiddedevries.nl/en/blog/2020-11-25-why-its-good-for-users-that-html-css-and-js-are-separate-languages/",
+        "points": 63,
+        "comments": 92,
+        "id": "25274271"
+      },
+      {
+        "created_at": "2015-07-04T15:52:20.000Z",
+        "title": "What kind of Web Components do we need?",
+        "url": "https://hiddedevries.nl/en/blog/2015-07-02-what-kind-of-web-components-do-we-need",
+        "points": 40,
+        "comments": 14,
+        "id": "9830486"
+      }
+    ]
+  },
+  {
+    "url": "https://jamesdoc.com",
+    "title": "James Doc",
+    "now": "https://jamesdoc.com/now",
+    "feed": "https://jamesdoc.com/blog/feed.xml",
+    "desc": "Head of Technology at Vixen Labs | Living in London | Sitting at the intersection of Christianity and Technology",
+    "hn": [
+      {
+        "created_at": "2013-04-24T11:36:45.000Z",
+        "title": "Jamendo launches new Creative Commons music API with a $2500 contest",
+        "url": "http://developer.jamendo.com/contest?hn",
+        "points": 27,
+        "comments": 3,
+        "id": "5600902"
+      },
+      {
+        "created_at": "2011-04-19T12:37:07.000Z",
+        "title": "Jamendo reaches 300k CC-licensed tracks, releases free mobile apps",
+        "url": "http://blog.jamendo.com/2011/04/18/300000-free-tracks-in-your-pocket/",
+        "points": 21,
+        "comments": 7,
+        "id": "2462416"
+      }
+    ]
+  },
+  {
+    "url": "https://jaredwhite.com",
+    "title": "Jared White: Expressively publishing on the open web since 1996",
+    "about": "https://jaredwhite.com/about",
+    "now": "https://jaredwhite.com/now",
+    "feed": "https://jaredwhite.com/feed.xml",
+    "desc": "Expressively publishing on the open web since 1996. Entranced by Portland, Oregon since 2017.",
+    "hn": [
+      {
+        "created_at": "2009-08-11T17:13:10.000Z",
+        "title": "Secrets of the TechStars method for winning the pitch and getting the girl",
+        "url": "http://blog.jedwhite.com/2009/08/secrets-of-techstars-method-for-winning.html",
+        "points": 18,
+        "comments": 16,
+        "id": "755704"
+      },
+      {
+        "created_at": "2010-01-27T23:03:55.000Z",
+        "title": "Why the iPad is a killer for sales presentations and pitching",
+        "url": "http://blog.jedwhite.com/2010/01/why-ipad-is-going-to-be-killer-tool-for.html",
+        "points": 18,
+        "comments": 11,
+        "id": "1082268"
+      },
+      {
+        "created_at": "2009-05-11T21:59:09.000Z",
+        "title": "Why isn't there more investment in new media startups?",
+        "url": "http://blog.jedwhite.com/2009/05/why-isnt-there-more-investment-in-new.html",
+        "points": 10,
+        "comments": 10,
+        "id": "604421"
+      }
+    ]
+  },
+  {
+    "url": "https://jarv.is",
+    "title": "Jake Jarvis – Front-End Web Developer in Boston, MA",
+    "feed": "https://jarv.is/feed.atom",
+    "desc": "Hi there! I'm a frontend web developer based in Boston, Massachusetts specializing in the JAMstack, modern JavaScript frameworks, and progressive web apps.",
+    "hn": [
+      {
+        "created_at": "2021-09-11T19:44:59.000Z",
+        "title": "Does Cloudflare's 1.1.1.1 DNS Block Archive.is? (2019)",
+        "url": "https://jarv.is/notes/cloudflare-dns-archive-is-blocked/",
+        "points": 181,
+        "comments": 116,
+        "id": "28495204"
+      },
+      {
+        "created_at": "2019-06-10T13:45:09.000Z",
+        "title": "How to Automatically Backup a Linux VPS to a Separate Cloud Storage Service",
+        "url": "https://jarv.is/notes/how-to-backup-linux-server/",
+        "points": 164,
+        "comments": 86,
+        "id": "20146648"
+      }
+    ]
+  },
+  {
+    "url": "https://jmtd.net",
+    "title": "Jonathan Dowland",
+    "hn": [
+      {
+        "created_at": "2015-04-23T21:18:01.000Z",
+        "title": "What happens if you remove randomness from Doom?",
+        "url": "http://jmtd.net/log/deterministic_doom/",
+        "points": 450,
+        "comments": 102,
+        "id": "9429889"
+      },
+      {
+        "created_at": "2021-11-05T16:14:34.000Z",
+        "title": "Things I would like to 3D print",
+        "url": "https://jmtd.net/log/3d_print_list/",
+        "points": 124,
+        "comments": 138,
+        "id": "29121318"
+      },
+      {
+        "created_at": "2022-10-10T10:48:40.000Z",
+        "title": "LaTeX Makes Me Angry",
+        "url": "https://jmtd.net/log/latex_writing/",
+        "points": 67,
+        "comments": 100,
+        "id": "33149857"
+      },
+      {
+        "created_at": "2009-04-25T20:27:01.000Z",
+        "title": "My first attempt at hacking on Linux: a story",
+        "url": "http://jmtd.net/log/dm9601/",
+        "points": 30,
+        "comments": 1,
+        "id": "579277"
+      }
+    ]
+  },
+  {
+    "url": "https://johnnyreilly.com",
+    "title": "johnnyreilly | johnnyreilly",
+    "about": "https://johnnyreilly.com/about",
+    "feed": "https://johnnyreilly.com/rss.xml",
+    "desc": "The blog of John Reilly ❤️🌻",
+    "hn": [
+      {
+        "created_at": "2016-11-13T08:45:02.000Z",
+        "title": "My Subconscious Is a Better Developer Than I Am",
+        "url": "http://blog.johnnyreilly.com/2016/11/my-subconscious-is-better-developer.html",
+        "points": 206,
+        "comments": 116,
+        "id": "12942461"
+      },
+      {
+        "created_at": "2023-01-15T14:00:32.000Z",
+        "title": "How I ruined my SEO",
+        "url": "https://johnnyreilly.com/2023/01/15/how-i-ruined-my-seo",
+        "points": 125,
+        "comments": 92,
+        "id": "34389421"
+      }
+    ]
+  },
+  {
+    "url": "https://joshuakeel.com",
+    "title": "Joshua Keel",
+    "about": "https://joshuakeel.com/about",
+    "now": "https://joshuakeel.com/now",
+    "hn": [
+      {
+        "created_at": "2011-10-03T03:35:07.000Z",
+        "title": "A response to Node.js is cancer - The Diagnosis",
+        "url": "http://joshuakehn.com/2011/10/3/Diagnosis-No-Cancer.html",
+        "points": 75,
+        "comments": 54,
+        "id": "3064932"
+      }
+    ]
+  },
+  {
+    "url": "https://karenying.com",
+    "title": "karenying.com",
+    "desc": "Personal / portfolio site of Karen Ying.",
+    "hn": [
+      {
+        "created_at": "2020-12-12T18:03:08.000Z",
+        "title": "GitHub Dark Mode is too Dark",
+        "url": "https://blog.karenying.com/posts/github-darkmode-sucks",
+        "points": 380,
+        "comments": 195,
+        "id": "25400139"
+      }
+    ]
+  },
+  {
+    "url": "https://kevq.uk",
+    "title": "Kev Quirk",
+    "about": "https://kevq.uk/about",
+    "desc": "Kev Quirk: ",
+    "hn": [
+      {
+        "created_at": "2019-08-27T18:35:22.000Z",
+        "title": "Please Add RSS Support to Your Site",
+        "url": "https://kevq.uk/please-add-rss-support-to-your-site",
+        "points": 904,
+        "comments": 295,
+        "id": "20813021"
+      },
+      {
+        "created_at": "2020-06-12T01:26:11.000Z",
+        "title": "Is Dark Mode Such a Good Idea?",
+        "url": "https://kevq.uk/is-dark-mode-such-a-good-idea/",
+        "points": 442,
+        "comments": 537,
+        "id": "23495052"
+      },
+      {
+        "created_at": "2018-08-04T12:10:01.000Z",
+        "title": "How Does Mastodon Work?",
+        "url": "https://kevq.uk/how-does-mastodon-work/",
+        "points": 389,
+        "comments": 175,
+        "id": "17686537"
+      },
+      {
+        "created_at": "2021-10-21T14:39:20.000Z",
+        "title": "Forget Twitter Threads; Write a Blog Post Instead",
+        "url": "https://kevq.uk/forget-twitter-threads-write-a-blog-post-instead/",
+        "points": 341,
+        "comments": 139,
+        "id": "28945112"
+      },
+      {
+        "created_at": "2018-11-03T13:54:13.000Z",
+        "title": "Why I'm Ditching Android",
+        "url": "https://kevq.uk/why-im-ditching-android/",
+        "points": 269,
+        "comments": 250,
+        "id": "18370159"
+      },
+      {
+        "created_at": "2019-01-19T22:05:06.000Z",
+        "title": "I Nearly Lost All of My Data",
+        "url": "https://kevq.uk/i-nearly-lost-all-of-my-data/",
+        "points": 233,
+        "comments": 255,
+        "id": "18949484"
+      },
+      {
+        "created_at": "2020-01-25T15:54:20.000Z",
+        "title": "Why Lobste.rs Is Better Than Hacker News",
+        "url": "https://kevq.uk/why-lobste-rs-is-better-than-hacker-news/",
+        "points": 118,
+        "comments": 165,
+        "id": "22146746"
+      },
+      {
+        "created_at": "2022-05-26T14:39:02.000Z",
+        "title": "Is DuckDuckGo, DuckDuckDone?",
+        "url": "https://kevq.uk/is-duckduckgo-duckduckdone/",
+        "points": 65,
+        "comments": 96,
+        "id": "31518873"
+      },
+      {
+        "created_at": "2022-03-05T19:30:37.000Z",
+        "title": "I replied to a sponsored content email",
+        "url": "https://kevq.uk/what-happened-when-i-replied-to-a-sponsored-content-email/",
+        "points": 51,
+        "comments": 23,
+        "id": "30571022"
+      },
+      {
+        "created_at": "2020-11-28T13:54:06.000Z",
+        "title": "Synology vs. Nextcloud – Which Is Better for a Home Server?",
+        "url": "https://kevq.uk/synology-vs-nextcloud-which-is-better-for-a-home-server/",
+        "points": 40,
+        "comments": 8,
+        "id": "25237509"
+      },
+      {
+        "created_at": "2020-07-01T06:17:16.000Z",
+        "title": "Email Is Not Broken",
+        "url": "https://kevq.uk/email-is-not-broken/",
+        "points": 33,
+        "comments": 12,
+        "id": "23698324"
+      },
+      {
+        "created_at": "2019-02-22T17:46:02.000Z",
+        "title": "Privacy vs. “I Have Nothing to Hide”",
+        "url": "https://kevq.uk/privacy-vs-i-have-nothing-to-hide/",
+        "points": 33,
+        "comments": 7,
+        "id": "19227309"
+      },
+      {
+        "created_at": "2020-08-31T16:34:12.000Z",
+        "title": "Domain Squatters Are the Scum of the Earth",
+        "url": "https://kevq.uk/domain-squatters-are-the-scum-of-the-earth/",
+        "points": 25,
+        "comments": 24,
+        "id": "24333086"
+      },
+      {
+        "created_at": "2022-01-21T17:25:06.000Z",
+        "title": "I Broke My MacBook User Profile by Deleting a Single Folder",
+        "url": "https://kevq.uk/i-broke-my-apple-profile-by-deleting-a-folder",
+        "points": 19,
+        "comments": 6,
+        "id": "30026717"
+      },
+      {
+        "created_at": "2020-06-08T13:01:27.000Z",
+        "title": "Centralisation and Mastodon",
+        "url": "https://kevq.uk/centralisation-and-mastodon/",
+        "points": 17,
+        "comments": 10,
+        "id": "23456099"
+      },
+      {
+        "created_at": "2019-10-12T15:41:40.000Z",
+        "title": "Why You Shouldn't Use Facebook",
+        "url": "https://kevq.uk/why-you-shouldnt-use-facebook",
+        "points": 12,
+        "comments": 4,
+        "id": "21233980"
+      },
+      {
+        "created_at": "2019-09-25T15:48:42.000Z",
+        "title": "How Browser Fingerprinting Works",
+        "url": "https://kevq.uk/how-browser-fingerprinting-works",
+        "points": 11,
+        "comments": 1,
+        "id": "21071895"
+      },
+      {
+        "created_at": "2022-02-19T00:19:49.000Z",
+        "title": "What’s the Alternative to Firefox?",
+        "url": "https://kevq.uk/whats-the-alternative-to-firefox/",
+        "points": 9,
+        "comments": 5,
+        "id": "30393064"
+      }
+    ]
+  },
+  {
+    "url": "https://kilianvalkhof.com",
+    "title": "Kilian Valkhof",
+    "desc": "Front-end & user experience developer",
+    "hn": [
+      {
+        "created_at": "2019-04-12T14:53:20.000Z",
+        "title": "What design tools get wrong",
+        "url": "https://kilianvalkhof.com/2019/design/what-design-tools-get-wrong/",
+        "points": 199,
+        "comments": 79,
+        "id": "19645268"
+      },
+      {
+        "created_at": "2017-01-19T09:10:50.000Z",
+        "title": "Things I learned creating my own Messenger chatbot",
+        "url": "https://kilianvalkhof.com/2017/chatbots/6-things-i-learned-creating-my-own-messenger-chatbot/",
+        "points": 195,
+        "comments": 18,
+        "id": "13434275"
+      },
+      {
+        "created_at": "2022-10-11T21:29:27.000Z",
+        "title": "When going somewhere does a thing: on links and buttons",
+        "url": "https://kilianvalkhof.com/2022/css-html/when-going-somewhere-does-a-thing-on-links-and-buttons/",
+        "points": 190,
+        "comments": 166,
+        "id": "33169469"
+      },
+      {
+        "created_at": "2021-04-05T13:48:08.000Z",
+        "title": "Prescriptive software is better than descriptive software",
+        "url": "https://kilianvalkhof.com/2021/web/prescriptive-software-is-better-than-descriptive-software/",
+        "points": 170,
+        "comments": 110,
+        "id": "26698898"
+      },
+      {
+        "created_at": "2010-07-26T12:40:54.000Z",
+        "title": " I just released F.lux for Ubuntu (fades your screens at night)",
+        "url": "http://kilianvalkhof.com/2010/linux/flux-for-ubuntu/",
+        "points": 91,
+        "comments": 46,
+        "id": "1547830"
+      },
+      {
+        "created_at": "2020-01-06T11:08:23.000Z",
+        "title": "Using easing for more than just CSS transitions",
+        "url": "https://kilianvalkhof.com/2020/css-html/using-easing-for-more-than-just-css-transitions/",
+        "points": 82,
+        "comments": 16,
+        "id": "21968221"
+      },
+      {
+        "created_at": "2010-03-03T12:30:22.000Z",
+        "title": "CSS3 loading spinners without images",
+        "url": "http://kilianvalkhof.com/2010/css-xhtml/css3-loading-spinners-without-images/",
+        "points": 58,
+        "comments": 19,
+        "id": "1163936"
+      },
+      {
+        "created_at": "2010-02-08T11:51:24.000Z",
+        "title": "Dear HN: I wrote an SVG charting library. What do you think?",
+        "url": "http://kilianvalkhof.com/2010/design/grafico-javascript-charting-library/",
+        "points": 52,
+        "comments": 26,
+        "id": "1109537"
+      },
+      {
+        "created_at": "2011-05-23T12:10:55.000Z",
+        "title": "Annoying.js: How to be an asshole",
+        "url": "http://kilianvalkhof.com/2011/javascript/annoying-js-how-to-be-an-asshole/",
+        "points": 52,
+        "comments": 10,
+        "id": "2575687"
+      },
+      {
+        "created_at": "2020-02-17T11:46:59.000Z",
+        "title": "How I built my own browser",
+        "url": "https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/",
+        "points": 50,
+        "comments": 48,
+        "id": "22347009"
+      },
+      {
+        "created_at": "2010-08-23T12:58:46.000Z",
+        "title": "The case of the disappearing favicon",
+        "url": "http://kilianvalkhof.com/2010/javascript/the-case-of-the-disappearing-favicon/",
+        "points": 39,
+        "comments": 10,
+        "id": "1626632"
+      },
+      {
+        "created_at": "2008-12-28T14:15:57.000Z",
+        "title": "SenCSs - CSS framework that doesn’t provide a layout system (just everything else)",
+        "url": "http://sencss.kilianvalkhof.com/",
+        "points": 38,
+        "comments": 10,
+        "id": "411923"
+      },
+      {
+        "created_at": "2010-04-05T12:03:14.000Z",
+        "title": "A fast, simple list filter with jQuery",
+        "url": "http://kilianvalkhof.com/2010/javascript/how-to-build-a-fast-simple-list-filter-with-jquery/",
+        "points": 37,
+        "comments": 6,
+        "id": "1241713"
+      },
+      {
+        "created_at": "2010-03-24T10:29:35.000Z",
+        "title": "Dear HN: I wrote a cross-platform GUI image compressor",
+        "url": "http://kilianvalkhof.com/2010/web/trimage-image-compressor/",
+        "points": 27,
+        "comments": 11,
+        "id": "1215379"
+      },
+      {
+        "created_at": "2020-02-10T15:27:34.000Z",
+        "title": "I built my own web browser",
+        "url": "https://kilianvalkhof.com/2020/design/how-i-built-my-own-browser/",
+        "points": 19,
+        "comments": 0,
+        "id": "22289892"
+      },
+      {
+        "created_at": "2010-09-26T13:53:20.000Z",
+        "title": "The Geek's Guide to Love",
+        "url": "http://kilianvalkhof.com/2007/life/the-geeks-guide-to-love/",
+        "points": 7,
+        "comments": 6,
+        "id": "1729138"
+      }
+    ]
+  },
+  {
+    "url": "https://librarian.dev",
+    "title": "Mikael Jergefelt - Librarian & Web Developer",
+    "desc": "Personal website of Mikael Jergefelt, medical librarian and web developer.",
+    "hn": [
+      {
+        "created_at": "2023-03-29T01:11:18.000Z",
+        "title": "Show HN: Customizable, embeddable Chat GPT based on your own documents",
+        "url": "https://libraria.dev/",
+        "points": 271,
+        "comments": 117,
+        "id": "35350662"
+      }
+    ]
+  },
+  {
+    "url": "https://linus.dev",
+    "title": "Home — Linus Groh",
+    "feed": "https://linus.dev/feed.xml",
+    "desc": "I'm a self-taught developer interested in many things! These days most of my open source work is related to SerenityOS in one way or another, where I'm a maintainer and help building its very own JavaScript engine and web browser :^)",
+    "hn": [
+      {
+        "created_at": "2023-01-13T15:03:17.000Z",
+        "title": "Road to Working on SerenityOS and Ladybird Full-Time",
+        "url": "https://linus.dev/posts/road-to-working-on-serenityos-and-ladybird-full-time/",
+        "points": 47,
+        "comments": 2,
+        "id": "34368666"
+      },
+      {
+        "created_at": "2022-05-12T20:16:49.000Z",
+        "title": "How to Build a Standalone GUI Application for SerenityOS",
+        "url": "https://linus.dev/posts/how-to-build-a-standalone-gui-application-for-serenityos/",
+        "points": 40,
+        "comments": 3,
+        "id": "31359658"
+      },
+      {
+        "created_at": "2021-08-22T15:51:48.000Z",
+        "title": "My Journey with SerenityOS, So Far",
+        "url": "https://linus.dev/posts/my-journey-with-serenityos/",
+        "points": 14,
+        "comments": 2,
+        "id": "28266452"
+      },
+      {
+        "created_at": "2022-12-31T16:00:43.000Z",
+        "title": "Ladybird Browser: Year in Review (2022)",
+        "url": "https://linus.dev/posts/ladybird-browser-year-in-review-2022/",
+        "points": 10,
+        "comments": 0,
+        "id": "34197594"
+      },
+      {
+        "created_at": "2023-05-11T08:50:26.000Z",
+        "title": "Bcachefs – A New COW Filesystem",
+        "url": "https://lore.kernel.org/lkml/20230509165657.1735798-1-kent.overstreet@linux.dev/T/#mf171fd06ffa420fe1bcf0f49a2b44a361ca6ac44",
+        "points": 292,
+        "comments": 237,
+        "id": "35899527"
+      },
+      {
+        "created_at": "2008-09-29T18:56:20.000Z",
+        "title": "Everybody's Free (To Learn a Powerful Editor)",
+        "url": "http://groups.google.com/group/comp.os.linux.development.apps/browse_thread/thread/0832db4a2a180e4b",
+        "points": 19,
+        "comments": 4,
+        "id": "318656"
+      },
+      {
+        "created_at": "2013-08-15T22:36:10.000Z",
+        "title": "Debian Linux Release (16.08.1993), tomorrow is the 20th birthday",
+        "url": "http://groups.google.com/group/comp.os.linux.development/msg/a32d4e2ef3bcdcc6",
+        "points": 11,
+        "comments": 1,
+        "id": "6221028"
+      }
+    ]
+  },
+  {
+    "url": "https://loige.co",
+    "title": "Luciano Mammino \"Loige\" - FullStack & Cloud developer, fighter, butterfly maker!",
+    "about": "https://loige.co/about",
+    "feed": "https://loige.co/rss.xml",
+    "desc": "The website of Luciano Mammino a.k.a. Loige: FullStack & Cloud developer, fighter, butterfly maker - Blog, page 1 of 7",
+    "hn": [
+      {
+        "created_at": "2016-08-15T19:18:36.000Z",
+        "title": "Extracting data from Wikipedia using curl, grep, cut and other bash commands",
+        "url": "http://loige.co/extracting-data-from-wikipedia-using-curl-grep-cut-and-other-bash-commands/",
+        "points": 218,
+        "comments": 70,
+        "id": "12292723"
+      },
+      {
+        "created_at": "2019-01-21T03:32:45.000Z",
+        "title": "JavaScript iterator patterns",
+        "url": "https://loige.co/javascript-iterator-patterns",
+        "points": 104,
+        "comments": 31,
+        "id": "18957421"
+      },
+      {
+        "created_at": "2021-03-28T19:43:55.000Z",
+        "title": "Where to go to learn Rust in 2021",
+        "url": "https://loige.co/where-to-go-to-learn-rust-in-2021/",
+        "points": 66,
+        "comments": 13,
+        "id": "26613625"
+      },
+      {
+        "created_at": "2021-04-13T19:04:07.000Z",
+        "title": "Rust shenanigans: return type polymorphism",
+        "url": "https://loige.co/rust-shenanigans-return-type-polymorphism/",
+        "points": 45,
+        "comments": 8,
+        "id": "26797409"
+      },
+      {
+        "created_at": "2020-10-28T08:56:03.000Z",
+        "title": "Emerging JavaScript pattern: multiple return values",
+        "url": "https://loige.co/emerging-javascript-pattern-multiple-return-values",
+        "points": 29,
+        "comments": 20,
+        "id": "24916683"
+      },
+      {
+        "created_at": "2022-04-26T17:38:09.000Z",
+        "title": "My suggestions for rocking the AWS Solution Architect Professional certification",
+        "url": "https://loige.co/aws-solution-architect-professional-exam-notes-tips/",
+        "points": 12,
+        "comments": 0,
+        "id": "31170521"
+      }
+    ]
+  },
+  {
+    "url": "https://lukeb.co.uk",
+    "title": "Hey, I'm Luke! // Luke Bonaccorsi - Web Developer",
+    "feed": "https://lukeb.co.uk/rss.xml",
+    "desc": "Hi, I'm Luke! I'm a self-taught web developer/software engineer with expertise in building scalable, performant websites using HTML, CSS and JavaScript",
+    "hn": [
+      {
+        "created_at": "2018-01-02T10:18:00.000Z",
+        "title": "HTTPS with a Custom Domain on GitHub Pages",
+        "url": "https://lukeb.co.uk/2018/01/02/HTTPS-With-A-Custom-Domain-On-GitHub-Pages/",
+        "points": 3,
+        "comments": 8,
+        "id": "16051029"
+      }
+    ]
+  },
+  {
+    "url": "https://matthiasott.com",
+    "title": "Matthias Ott – User Experience Designer",
+    "about": "https://matthiasott.com/about",
+    "feed": "https://matthiasott.com/links/rss",
+    "hn": [
+      {
+        "created_at": "2020-01-27T04:33:56.000Z",
+        "title": "Into the Personal-Website-Verse (2019)",
+        "url": "https://matthiasott.com/articles/into-the-personal-website-verse",
+        "points": 239,
+        "comments": 203,
+        "id": "22156868"
+      }
+    ]
+  },
+  {
+    "url": "https://meiert.com",
+    "title": "Jens Oliver Meiert · Engineering Lead und Autor · Minimierung und Optimierung von HTML und CSS",
+    "desc": "Ich bin Jens Oliver Meiert, und ich bin ein Engineering Lead und Autor. Ich trage seit langer Zeit zum Handwerk der Frontend-Entwicklung bei; ich habe 18 Bücher und Büchlein geschrieben; und ich mag, vieles auszuprobieren. Verfolge meine Arbeit auf meiert.com.",
+    "hn": [
+      {
+        "created_at": "2020-12-21T19:09:01.000Z",
+        "title": "Ignore AMP",
+        "url": "https://meiert.com/en/blog/ignore-amp/",
+        "points": 426,
+        "comments": 156,
+        "id": "25498235"
+      },
+      {
+        "created_at": "2020-08-27T14:45:51.000Z",
+        "title": "A Short Guide to Minimal Web Development (2018)",
+        "url": "https://meiert.com/en/blog/minimal-web-development/",
+        "points": 277,
+        "comments": 83,
+        "id": "24294171"
+      },
+      {
+        "created_at": "2017-06-26T19:12:34.000Z",
+        "title": "70% Repetition in Style Sheets: Data on How We Fail at CSS Optimization",
+        "url": "https://meiert.com/en/blog/70-percent-css-repetition/",
+        "points": 111,
+        "comments": 50,
+        "id": "14639414"
+      },
+      {
+        "created_at": "2011-10-07T08:16:12.000Z",
+        "title": "CSS Properties Index",
+        "url": "http://meiert.com/en/indices/css-properties/",
+        "points": 39,
+        "comments": 2,
+        "id": "3083110"
+      }
+    ]
+  },
+  {
+    "url": "https://micahwalter.com",
+    "title": "Micah Walter",
+    "desc": "I write about how I rebooted my career, rewired my brain, and found happiness in suburbia. | Solutions Architecture @ AWS | Things my 3yo said.",
+    "hn": [
+      {
+        "created_at": "2022-12-25T04:32:24.000Z",
+        "title": "How much I’ve spent so far running my own Mastodon server on AWS",
+        "url": "https://www.micahwalter.com/how-much-ive-spent-so-far-running-my-own-mastodon-server-on-aws/",
+        "points": 188,
+        "comments": 141,
+        "id": "34124285"
+      }
+    ]
+  },
+  {
+    "url": "https://mijndertstuij.nl",
+    "title": "Mijndert Stuij",
+    "feed": "https://mijndertstuij.nl/feed.xml",
+    "hn": [
+      {
+        "created_at": "2013-03-30T12:44:04.000Z",
+        "title": "How I Fired myself: about loss, mistakes and getting your shit together",
+        "url": "http://mijndertstuij.nl/2013/03/how-i-fired-myself/",
+        "points": 10,
+        "comments": 5,
+        "id": "5465235"
+      }
+    ]
+  },
+  {
+    "url": "https://miriamsuzanne.com",
+    "title": "Miriam Eric Suzanne",
+    "feed": "https://www.miriamsuzanne.com/feed.xml",
+    "desc": "writing & speaking & music & theater & cetera",
+    "hn": [
+      {
+        "created_at": "2022-07-07T10:27:16.000Z",
+        "title": "Body Margin 8px",
+        "url": "https://www.miriamsuzanne.com/2022/07/04/body-margin-8px/?ref=heydesigner",
+        "points": 177,
+        "comments": 34,
+        "id": "32012171"
+      }
+    ]
+  },
+  {
+    "url": "https://mxb.at",
+    "title": "Max Böck",
+    "feed": "https://mxb.at/feed.xml",
+    "desc": "Max Böck is a professional front-end developer based in Vienna, Austria.",
+    "hn": [
+      {
+        "created_at": "2017-08-23T12:31:31.000Z",
+        "title": "Offline-Friendly Forms",
+        "url": "https://mxb.at/blog/offline-forms/",
+        "points": 236,
+        "comments": 63,
+        "id": "15080924"
+      },
+      {
+        "created_at": "2017-07-12T13:58:33.000Z",
+        "title": "Turn your website into a Progressive Web App",
+        "url": "https://mxb.at/blog/how-to-turn-your-website-into-a-pwa/",
+        "points": 142,
+        "comments": 63,
+        "id": "14752542"
+      }
+    ]
+  },
+  {
+    "url": "https://nicolas-hoizey.com",
+    "title": "Nicolas Hoizey, passionate about the Web and photography",
+    "desc": "This is the personnal website of Nicolas Hoizey, passionate about the Web and photography, among many other interests.",
+    "hn": [
+      {
+        "created_at": "2020-05-19T08:48:19.000Z",
+        "title": "Jamstack is fast only if you make it so",
+        "url": "https://nicolas-hoizey.com/articles/2020/05/05/jamstack-is-fast-only-if-you-make-it-so/",
+        "points": 11,
+        "comments": 0,
+        "id": "23232748"
+      }
+    ]
+  },
+  {
+    "url": "https://notes.volution.ro",
+    "title": "Volution Notes",
+    "feed": "https://notes.volution.ro/index.xml",
+    "desc": "Notes on various subjects, mostly regarding IT technology and security.",
+    "hn": [
+      {
+        "created_at": "2022-03-02T15:46:55.000Z",
+        "title": "Single binary executable packages",
+        "url": "https://notes.volution.ro/v1/2022/01/notes/fbf3f06c/",
+        "points": 177,
+        "comments": 180,
+        "id": "30528602"
+      },
+      {
+        "created_at": "2022-09-05T22:01:35.000Z",
+        "title": "Static site hosting hurdles",
+        "url": "https://notes.volution.ro/v1/2022/09/notes/b08118d8/",
+        "points": 144,
+        "comments": 175,
+        "id": "32730020"
+      },
+      {
+        "created_at": "2023-03-10T14:57:54.000Z",
+        "title": "Privatizing our digital identities",
+        "url": "https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/",
+        "points": 122,
+        "comments": 106,
+        "id": "35095063"
+      },
+      {
+        "created_at": "2022-07-29T20:34:23.000Z",
+        "title": "The many flavors of hashing",
+        "url": "https://notes.volution.ro/v1/2022/07/notes/1290a79c/",
+        "points": 100,
+        "comments": 13,
+        "id": "32281459"
+      },
+      {
+        "created_at": "2023-02-06T07:32:38.000Z",
+        "title": "Binary to text encoding – state of the art and missed opportunities",
+        "url": "https://notes.volution.ro/v1/2023/02/notes/0a9aaa3a/",
+        "points": 42,
+        "comments": 14,
+        "id": "34674427"
+      }
+    ]
+  },
+  {
+    "url": "https://notlaura.com",
+    "title": "Lara Schenck | Lover of programming, maker of monsters",
+    "desc": "Software developer in Pittsburgh, PA who loves CSS and WordPress, creates cute monsters, and writes about programming.",
+    "hn": [
+      {
+        "created_at": "2019-02-20T01:45:52.000Z",
+        "title": "Writing CSS Algorithms",
+        "url": "https://notlaura.com/writing-css-algorithms/",
+        "points": 66,
+        "comments": 38,
+        "id": "19204866"
+      }
+    ]
+  },
+  {
+    "url": "https://omarish.com",
+    "title": "Omar Bohsali",
+    "feed": "https://omarish.com/feed.xml",
+    "hn": [
+      {
+        "created_at": "2012-08-09T17:08:15.000Z",
+        "title": "App.net Contributions break $300k",
+        "url": "http://omarish.com/App_net-latest.png",
+        "points": 16,
+        "comments": 0,
+        "id": "4362022"
+      }
+    ]
+  },
+  {
+    "url": "https://paulj.me",
+    "title": "Paul Jacobson's links – Where you can find me on the Web",
+    "desc": "Paul's Links 🔗 📨 Contact me Personal Site Mastodon Pixelfed GitHub LinkedIn Tumblr YouTube Twitter Backup Mastodon profile - Vivaldi Social .",
+    "hn": [
+      {
+        "created_at": "2021-04-23T16:45:22.000Z",
+        "title": "So You Want to Be a Video Communications App Developer",
+        "url": "https://pauli.medium.com/so-you-want-to-be-a-video-communications-app-developer-22c8727456f5",
+        "points": 16,
+        "comments": 1,
+        "id": "26916576"
+      }
+    ]
+  },
+  {
+    "url": "https://paulrobertlloyd.com",
+    "title": "Paul Robert Lloyd",
+    "feed": "https://paulrobertlloyd.com/feed.xml",
+    "desc": "an independent designer, writer and occasional speaker based in Brighton, England.",
+    "hn": [
+      {
+        "created_at": "2023-06-12T17:59:34.000Z",
+        "title": "The continuing tragedy of CSS",
+        "url": "https://paulrobertlloyd.com/2023/162/a1/css_day/",
+        "points": 113,
+        "comments": 134,
+        "id": "36298038"
+      }
+    ]
+  },
+  {
+    "url": "https://preslav.me",
+    "title": "Preslav Rachev",
+    "about": "https://preslav.me/about",
+    "feed": "https://preslav.me/index.xml",
+    "desc": "I am a software engineer with a decade-long experience developing software using Java, Go, and Elixir.",
+    "hn": [
+      {
+        "created_at": "2020-09-07T00:07:39.000Z",
+        "title": "Elixir Is Erlang, not Ruby",
+        "url": "https://preslav.me/2020/09/06/elixir-is-not-ruby-elixir-is-erlang/",
+        "points": 414,
+        "comments": 293,
+        "id": "24395695"
+      },
+      {
+        "created_at": "2022-08-09T15:01:20.000Z",
+        "title": "The problem with Go’s default HTTP handlers",
+        "url": "https://preslav.me/2022/08/09/i-dont-like-golang-default-http-handlers/",
+        "points": 192,
+        "comments": 94,
+        "id": "32398969"
+      },
+      {
+        "created_at": "2020-12-04T18:46:43.000Z",
+        "title": "The Myth of Code Coverage",
+        "url": "https://preslav.me/2020/12/03/the-myth-of-code-coverage/",
+        "points": 87,
+        "comments": 111,
+        "id": "25306071"
+      },
+      {
+        "created_at": "2020-11-16T11:30:24.000Z",
+        "title": "Farewell, macOS",
+        "url": "https://preslav.me/2020/11/16/farewell-macos-ubuntu/",
+        "points": 43,
+        "comments": 35,
+        "id": "25110502"
+      },
+      {
+        "created_at": "2020-11-19T06:27:17.000Z",
+        "title": "Elixir Community Voices: Lars Wikman",
+        "url": "https://preslav.me/2020/11/19/elixir-community-voices-lars-wikman/",
+        "points": 25,
+        "comments": 1,
+        "id": "25146798"
+      },
+      {
+        "created_at": "2020-12-11T12:23:22.000Z",
+        "title": "My Journey with Elixir and Flow-Based Programming",
+        "url": "https://preslav.me/2020/12/10/elixir-community-voices-allan-macgregor/",
+        "points": 11,
+        "comments": 0,
+        "id": "25384954"
+      },
+      {
+        "created_at": "2021-04-23T22:06:47.000Z",
+        "title": "Between Go and Elixir",
+        "url": "https://preslav.me/2021/04/23/between-golang-and-elixir/",
+        "points": 8,
+        "comments": 8,
+        "id": "26919760"
+      }
+    ]
+  },
+  {
+    "url": "https://qmacro.org",
+    "title": "DJ Adams | DJ Adams",
+    "about": "https://qmacro.org/about",
+    "feed": "https://qmacro.org/feed.xml",
+    "desc": "Hello Hello, my name is DJ and this is my website. I'm a Developer Advocate at SAP. You can find out more about me in the About Me page....",
+    "hn": [
+      {
+        "created_at": "2021-02-03T11:17:03.000Z",
+        "title": "Fzf – the basics part 1 – layout",
+        "url": "https://qmacro.org/autodidactics/2021/02/02/fzf-the-basics-1-layout/",
+        "points": 136,
+        "comments": 38,
+        "id": "26012632"
+      },
+      {
+        "created_at": "2020-11-10T09:30:04.000Z",
+        "title": "The myriad meanings of pwd in Unix systems",
+        "url": "https://qmacro.org/2020/11/08/the-meaning-of-pwd-in-unix-systems/",
+        "points": 69,
+        "comments": 64,
+        "id": "25044131"
+      },
+      {
+        "created_at": "2021-09-04T10:13:40.000Z",
+        "title": "Exploring fff part 1 – main",
+        "url": "https://qmacro.org/autodidactics/2021/09/03/exploring-fff-part-1-main/",
+        "points": 57,
+        "comments": 4,
+        "id": "28413725"
+      },
+      {
+        "created_at": "2020-11-03T12:55:04.000Z",
+        "title": "“Computer Unit” – A PDP-11/34 at my school (1979)",
+        "url": "https://qmacro.org/2020/11/03/computer-unit-1979/",
+        "points": 36,
+        "comments": 7,
+        "id": "24979179"
+      }
+    ]
+  },
+  {
+    "url": "https://ramonh.dev",
+    "title": "\n    \n  Ramón Huidobro | DevRel, Developer Education and OSS\n\n",
+    "feed": "https://ramonh.dev/blog/feed.xml",
+    "desc": "DevRel, Developer Education and OSS",
+    "hn": [
+      {
+        "created_at": "2020-05-13T12:01:14.000Z",
+        "title": "White hat social engineering: How to become an admin of a system",
+        "url": "https://ramon.dev/business/2020/05/11/become-an-admin.html",
+        "points": 125,
+        "comments": 36,
+        "id": "23165942"
+      }
+    ]
+  },
+  {
+    "url": "https://raymii.org",
+    "title": "Raymii.org",
+    "hn": [
+      {
+        "created_at": "2023-06-15T20:42:34.000Z",
+        "title": "My 24 year old HP Jornada can do things an iPhone still can't do",
+        "url": "https://raymii.org/s/blog/My_24_year_old_HP_Jornada_can_do_things_your_modern_iPhone_still_cant_do.html",
+        "points": 981,
+        "comments": 1152,
+        "id": "36346254"
+      },
+      {
+        "created_at": "2021-07-10T21:01:49.000Z",
+        "title": "Using IceWM and a Raspberry Pi as my main PC, sharing my theme, config and some",
+        "url": "https://raymii.org/s/blog/Using_IceWM_and_sharing_my_config_and_tips_tricks.html",
+        "points": 268,
+        "comments": 180,
+        "id": "27796443"
+      },
+      {
+        "created_at": "2021-01-02T11:53:39.000Z",
+        "title": "Lets talk about changelogs (how I loathe 'bugfixes and performance improvements)",
+        "url": "https://raymii.org/s/blog/Rant_Lets_talk_about_changelogs.html",
+        "points": 241,
+        "comments": 120,
+        "id": "25612176"
+      },
+      {
+        "created_at": "2020-10-21T08:30:28.000Z",
+        "title": "I enforced the AGPL on my code",
+        "url": "https://raymii.org/s/blog/I_enforced_the_AGPL_on_my_code_heres_how_it_went.html",
+        "points": 215,
+        "comments": 145,
+        "id": "24845878"
+      },
+      {
+        "created_at": "2013-11-19T20:15:21.000Z",
+        "title": "DigitalOcean Sucks. Use DigitalOcean",
+        "url": "https://raymii.org/s/articles/Digital_Ocean_Sucks._Use_Digital_Ocean.html",
+        "points": 200,
+        "comments": 186,
+        "id": "6764102"
+      },
+      {
+        "created_at": "2020-12-27T13:04:16.000Z",
+        "title": "Bash HTTP Monitoring Dashboard",
+        "url": "https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html",
+        "points": 161,
+        "comments": 26,
+        "id": "25550732"
+      },
+      {
+        "created_at": "2023-04-22T01:53:22.000Z",
+        "title": "Boot to Vim, Vim as Pid 1 (2014)",
+        "url": "https://raymii.org/s/blog/Vim_as_PID_1_Boot_to_Vim.html",
+        "points": 155,
+        "comments": 88,
+        "id": "35662571"
+      },
+      {
+        "created_at": "2021-11-02T17:08:32.000Z",
+        "title": "The Common Desktop Environment (CDE) in 2021",
+        "url": "https://raymii.org/s/blog/The_Common_Desktop_Environment_CDE_is_still_developed_in_2021.html",
+        "points": 149,
+        "comments": 186,
+        "id": "29084122"
+      },
+      {
+        "created_at": "2021-12-25T20:53:30.000Z",
+        "title": "Selling my own GPL software, part 1: a lot of hurdles",
+        "url": "https://raymii.org/s/blog/Selling_GPL_Software_part_1_lots_of_hurdles.html",
+        "points": 147,
+        "comments": 76,
+        "id": "29686862"
+      },
+      {
+        "created_at": "2023-04-16T16:26:32.000Z",
+        "title": "OpenVMS 9.2 for x86: Auto boot, licenses, PAKs, networking and SSH",
+        "url": "https://raymii.org/s/blog/OpenVMS_9.2_for_x86_Getting_Started_part_2.html",
+        "points": 134,
+        "comments": 88,
+        "id": "35591453"
+      },
+      {
+        "created_at": "2023-04-09T20:43:47.000Z",
+        "title": "OpenVMS 9.2 for x86 is finally available for hobbyists",
+        "url": "https://raymii.org/s/blog/OpenVMS_9.2_for_x86_is_finally_available_for_hobbyists.html",
+        "points": 128,
+        "comments": 48,
+        "id": "35506304"
+      },
+      {
+        "created_at": "2012-07-15T19:34:50.000Z",
+        "title": "Small Linux PCs overview ",
+        "url": "http://raymii.org/cms/p_Small_Linux_PCs_overview",
+        "points": 121,
+        "comments": 36,
+        "id": "4247828"
+      },
+      {
+        "created_at": "2021-04-09T05:54:20.000Z",
+        "title": "VNC client running on a coffee machine",
+        "url": "https://raymii.org/s/blog/MS_Teams_on_a_Coffee_Machine_or_Framebuffer_VNC_Client.html",
+        "points": 119,
+        "comments": 22,
+        "id": "26747132"
+      },
+      {
+        "created_at": "2023-02-18T05:54:50.000Z",
+        "title": "Named Booleans prevent C++ bugs and save you time",
+        "url": "https://raymii.org/s/blog/Named_Booleans_prevent_bugs.html",
+        "points": 112,
+        "comments": 164,
+        "id": "34844334"
+      },
+      {
+        "created_at": "2022-02-28T00:21:01.000Z",
+        "title": "I enforced the AGPL on my code (2020)",
+        "url": "https://raymii.org/s/blog/I_enforced_the_AGPL_on_my_code_heres_how_it_went.html",
+        "points": 72,
+        "comments": 97,
+        "id": "30494456"
+      },
+      {
+        "created_at": "2015-03-21T14:38:04.000Z",
+        "title": "How I got a valid SSL certificate for my ISP's main domain",
+        "url": "https://raymii.org/s/blog/How_I_got_a_valid_SSL_certificate_for_my_ISPs_main_website.html",
+        "points": 68,
+        "comments": 62,
+        "id": "9242825"
+      },
+      {
+        "created_at": "2013-08-31T19:09:11.000Z",
+        "title": "Set up your own truly secure, encrypted and shared file synchronization",
+        "url": "https://raymii.org/s/articles/Set_up_your_own_truly_secure_encrypted_shared_storage_aka_Dropbox_clone.html",
+        "points": 64,
+        "comments": 23,
+        "id": "6307745"
+      },
+      {
+        "created_at": "2020-08-01T01:58:09.000Z",
+        "title": "Ubuntu Snap auto updates broke my development setup, can't turn them off",
+        "url": "https://raymii.org/s/blog/Ubuntu_Snap_auto_updates_broke_my_development_setup.html",
+        "points": 57,
+        "comments": 35,
+        "id": "24016662"
+      },
+      {
+        "created_at": "2022-05-28T21:18:24.000Z",
+        "title": "Using a Windows Mobile 2003 PDA (HP iPAQ h4350) in 2022, including WhatsApp",
+        "url": "https://raymii.org/s/blog/Using_a_Windows_Mobile_2003_PDA_hp_ipaq_in_2022_including_whatsapp.html",
+        "points": 53,
+        "comments": 7,
+        "id": "31543957"
+      },
+      {
+        "created_at": "2020-11-04T13:55:43.000Z",
+        "title": "Installing OpenVMS 8.4 Alpha inside AXPbox with networking",
+        "url": "https://raymii.org/s/tutorials/Installing_OpenVMS_8.4_Alpha_in_AXPbox_with_networking.html",
+        "points": 50,
+        "comments": 8,
+        "id": "24989050"
+      }
+    ]
+  },
+  {
+    "url": "https://rbardini.com",
+    "title": "rbardini.com",
+    "feed": "https://rbardini.com/rss.xml",
+    "hn": [
+      {
+        "created_at": "2021-10-19T13:19:49.000Z",
+        "title": "Show HN: Readini – Bilingual Books with Audio",
+        "url": "https://readini.com",
+        "points": 18,
+        "comments": 5,
+        "id": "28917758"
+      }
+    ]
+  },
+  {
+    "url": "https://ronaldsvilcins.com",
+    "title": "Ronalds Vilciņš",
+    "about": "https://ronaldsvilcins.com/about",
+    "desc": "Personal website and blog of Ronalds Vilciņš",
+    "hn": [
+      {
+        "created_at": "2021-03-25T14:30:56.000Z",
+        "title": "Programming quotes",
+        "url": "https://www.ronaldsvilcins.com/2020/12/10/programming-quotes/",
+        "points": 98,
+        "comments": 55,
+        "id": "26580746"
+      },
+      {
+        "created_at": "2020-03-26T09:48:19.000Z",
+        "title": "RSS feeds for your Github releases, tags and activity",
+        "url": "https://www.ronaldsvilcins.com/2020/03/26/rss-feeds-for-your-github-releases-tags-and-activity/",
+        "points": 51,
+        "comments": 23,
+        "id": "22691965"
+      }
+    ]
+  },
+  {
+    "url": "https://roytang.net",
+    "title": " · roytang.net",
+    "about": "https://roytang.net/about",
+    "keywords": "",
+    "desc": "Roy Tang's blog. Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart. Randomly amazed.",
+    "hn": [
+      {
+        "created_at": "2010-03-19T14:41:49.000Z",
+        "title": "Spanner: Google’s next Massive Storage and Computation infrastructure",
+        "url": "http://www.royans.net/arch/spanner-googles-next-massive-storage-and-computation-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=spanner-googles-next-massive-storage-and-computation-infrastructure",
+        "points": 49,
+        "comments": 4,
+        "id": "1204218"
+      },
+      {
+        "created_at": "2010-03-07T18:13:46.000Z",
+        "title": "The Reddit problem: Learning from mistakes",
+        "url": "http://www.royans.net/arch/reddit-learning-from-mistakes",
+        "points": 12,
+        "comments": 2,
+        "id": "1173734"
+      }
+    ]
+  },
+  {
+    "url": "https://saurish.com",
+    "title": "Saurish Srivastava",
+    "about": "https://saurish.com/about",
+    "desc": "Undergraduate at Princeton interested in computer science, mathematics, and philosophy. Engrossed with the details.",
+    "hn": [
+      {
+        "created_at": "2022-02-10T17:09:38.000Z",
+        "title": "Attacking an Ethereum L2 with Unbridled Optimism",
+        "url": "https://www.saurik.com/optimism.html",
+        "points": 267,
+        "comments": 150,
+        "id": "30289240"
+      },
+      {
+        "created_at": "2017-02-24T19:52:15.000Z",
+        "title": "When “Dumb Pipes” Get Too Smart",
+        "url": "http://www.saurik.com/id/14",
+        "points": 257,
+        "comments": 58,
+        "id": "13727134"
+      },
+      {
+        "created_at": "2013-04-30T21:24:52.000Z",
+        "title": "Exploiting a Bug in Google's Glass",
+        "url": "http://www.saurik.com/id/16",
+        "points": 165,
+        "comments": 31,
+        "id": "5634961"
+      },
+      {
+        "created_at": "2014-07-14T00:50:36.000Z",
+        "title": "Competition vs. Community",
+        "url": "http://www.saurik.com/id/20",
+        "points": 139,
+        "comments": 27,
+        "id": "8029107"
+      },
+      {
+        "created_at": "2013-07-26T14:44:45.000Z",
+        "title": "Android Bug Superior to Master Key",
+        "url": "http://www.saurik.com/id/18",
+        "points": 107,
+        "comments": 21,
+        "id": "6108469"
+      },
+      {
+        "created_at": "2013-07-21T12:51:05.000Z",
+        "title": "Exploit (and Fix) Android \"Master Key\"",
+        "url": "http://www.saurik.com/id/17",
+        "points": 81,
+        "comments": 2,
+        "id": "6078623"
+      },
+      {
+        "created_at": "2013-11-02T02:27:33.000Z",
+        "title": "Yet Another Android Master Key Bug",
+        "url": "http://www.saurik.com/id/19",
+        "points": 58,
+        "comments": 13,
+        "id": "6657856"
+      },
+      {
+        "created_at": "2009-03-17T17:05:32.000Z",
+        "title": "Write an Internet search engine with 200 lines of Ruby code",
+        "url": "http://blog.saush.com/2009/03/write-an-internet-search-engine-with-200-lines-of-ruby-code/",
+        "points": 35,
+        "comments": 6,
+        "id": "520132"
+      },
+      {
+        "created_at": "2009-09-15T23:42:30.000Z",
+        "title": "Caching Apple's Signature Server",
+        "url": "http://www.saurik.com/id/12",
+        "points": 27,
+        "comments": 8,
+        "id": "824995"
+      },
+      {
+        "created_at": "2008-11-10T22:32:12.000Z",
+        "title": "Debian ported to the android-powered T Mobile G1",
+        "url": "http://www.saurik.com/id/10",
+        "points": 24,
+        "comments": 3,
+        "id": "359849"
+      },
+      {
+        "created_at": "2008-04-04T09:30:07.000Z",
+        "title": "IPhone Applications in Python",
+        "url": "http://www.saurik.com/id/5",
+        "points": 21,
+        "comments": 7,
+        "id": "154651"
+      },
+      {
+        "created_at": "2012-07-12T18:26:16.000Z",
+        "title": "How CloudFlare's injected preloader accidentally locks up WebKit",
+        "url": "http://www.saurik.com/id/14",
+        "points": 14,
+        "comments": 5,
+        "id": "4235893"
+      },
+      {
+        "created_at": "2009-05-05T03:38:03.000Z",
+        "title": "Erlang Factory 2009 (Erlang Con) writeup",
+        "url": "http://www.sauria.com/blog/2009/05/04/erlang-factory-2009/",
+        "points": 12,
+        "comments": 0,
+        "id": "593561"
+      }
+    ]
+  },
+  {
+    "url": "https://scottohara.me",
+    "title": "Scott O'Hara - Accessibility engineer, UX developer and designer | scottohara.me",
+    "about": "https://scottohara.me/about",
+    "feed": "https://scottohara.me/feed.xml",
+    "desc": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone.\n",
+    "hn": [
+      {
+        "created_at": "2022-01-23T16:16:23.000Z",
+        "title": "Div Divisiveness",
+        "url": "https://www.scottohara.me/blog/2022/01/20/divisive.html",
+        "points": 55,
+        "comments": 16,
+        "id": "30047311"
+      }
+    ]
+  },
+  {
+    "url": "https://seldo.com",
+    "title": "Seldo.com",
+    "about": "https://seldo.com/about",
+    "feed": "https://seldo.com/rss.xml",
+    "desc": "Personal website for Laurie Voss, aka @seldo",
+    "hn": [
+      {
+        "created_at": "2011-06-15T16:23:03.000Z",
+        "title": "ORM is an anti-pattern",
+        "url": "http://seldo.com/weblog/2011/06/15/orm_is_an_antipattern",
+        "points": 282,
+        "comments": 193,
+        "id": "2657745"
+      },
+      {
+        "created_at": "2016-06-10T06:12:01.000Z",
+        "title": "People suck at technical interviews (2014)",
+        "url": "http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews",
+        "points": 265,
+        "comments": 302,
+        "id": "11874584"
+      },
+      {
+        "created_at": "2011-09-17T09:15:11.000Z",
+        "title": "ORM is an anti-pattern",
+        "url": "http://seldo.com/weblog/2011/08/11/orm_is_an_antipattern",
+        "points": 229,
+        "comments": 128,
+        "id": "3007615"
+      },
+      {
+        "created_at": "2014-08-27T15:51:46.000Z",
+        "title": "People suck at technical interviews",
+        "url": "http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews",
+        "points": 214,
+        "comments": 173,
+        "id": "8232746"
+      },
+      {
+        "created_at": "2022-01-06T04:43:48.000Z",
+        "title": "Crypto: The Good, the Bad and the Ugly",
+        "url": "https://seldo.com/posts/crypto-the-good-the-bad-and-the-ugly/",
+        "points": 190,
+        "comments": 304,
+        "id": "29819492"
+      },
+      {
+        "created_at": "2023-02-14T21:26:39.000Z",
+        "title": "The case for frameworks",
+        "url": "https://seldo.com/posts/the_case_for_frameworks",
+        "points": 154,
+        "comments": 88,
+        "id": "34796277"
+      },
+      {
+        "created_at": "2010-07-12T23:56:30.000Z",
+        "title": "In defence of SQL",
+        "url": "http://seldo.com/weblog/2010/07/12/in_defence_of_sql",
+        "points": 125,
+        "comments": 126,
+        "id": "1509870"
+      },
+      {
+        "created_at": "2011-10-05T19:04:49.000Z",
+        "title": "PHP needs to die. What will replace it?",
+        "url": "http://seldo.com/weblog/2011/08/11/php_needs_to_die_what_will_replace_it",
+        "points": 95,
+        "comments": 151,
+        "id": "3077031"
+      },
+      {
+        "created_at": "2019-06-12T08:32:46.000Z",
+        "title": "What not to do when giving technical interviews (2014)",
+        "url": "http://seldo.com/weblog/2014/08/26/you_suck_at_technical_interviews",
+        "points": 69,
+        "comments": 174,
+        "id": "20162777"
+      },
+      {
+        "created_at": "2008-07-29T03:12:11.000Z",
+        "title": "Google Knol is Evil",
+        "url": "http://www.seldo.com/weblog/2008/07/28/google_knol_is_evil",
+        "points": 61,
+        "comments": 45,
+        "id": "259977"
+      },
+      {
+        "created_at": "2016-06-10T20:25:26.000Z",
+        "title": "ORM is an anti-pattern (2011)",
+        "url": "http://seldo.com/weblog/2011/08/11/orm_is_an_antipattern",
+        "points": 58,
+        "comments": 47,
+        "id": "11879720"
+      },
+      {
+        "created_at": "2010-08-29T20:14:11.000Z",
+        "title": "Arrington is completely wrong about women in technology",
+        "url": "http://seldo.com/weblog/2010/08/29/arrington_is_completely_wrong_about_women_in_technology",
+        "points": 54,
+        "comments": 62,
+        "id": "1644425"
+      },
+      {
+        "created_at": "2008-11-20T05:18:11.000Z",
+        "title": "HTTP Conversation Codes",
+        "url": "http://www.seldo.com/weblog/2008/11/19/http_conversation_codes",
+        "points": 50,
+        "comments": 4,
+        "id": "370350"
+      },
+      {
+        "created_at": "2010-09-27T19:19:13.000Z",
+        "title": "PHP needs to die. What will replace it?",
+        "url": "http://seldo.com/weblog/2010/09/27/php_needs_to_die_what_will_replace_it",
+        "points": 46,
+        "comments": 93,
+        "id": "1732968"
+      },
+      {
+        "created_at": "2009-01-12T18:39:35.000Z",
+        "title": "Microsoft is not a web company",
+        "url": "http://www.seldo.com/weblog/2009/01/11/microsoft_is_not_a_web_company",
+        "points": 45,
+        "comments": 32,
+        "id": "430878"
+      },
+      {
+        "created_at": "2012-12-22T22:44:18.000Z",
+        "title": "Blue-collar knowledge workers will save the economy",
+        "url": "http://seldo.com/weblog/2012/08/30/software_developers_can_save_the_economy",
+        "points": 44,
+        "comments": 54,
+        "id": "4957744"
+      },
+      {
+        "created_at": "2009-05-06T02:20:41.000Z",
+        "title": "Ten Things Twitter is Not",
+        "url": "http://seldo.com/weblog/2009/05/05/ten_things_twitter_is_not",
+        "points": 37,
+        "comments": 25,
+        "id": "595065"
+      },
+      {
+        "created_at": "2010-11-03T10:21:29.000Z",
+        "title": "Why I really, really hate Instagram",
+        "url": "http://seldo.com/weblog/2010/11/03/why_i_really_really_hate_instagram",
+        "points": 31,
+        "comments": 37,
+        "id": "1864351"
+      },
+      {
+        "created_at": "2009-11-18T18:33:53.000Z",
+        "title": "Three easy ways to fix the App Store. And one really, really hard way.",
+        "url": "http://seldo.com/weblog/2009/11/17/three_easy_ways_to_fix_the_app_store_and_one_really_really_hard_way",
+        "points": 21,
+        "comments": 22,
+        "id": "948775"
+      },
+      {
+        "created_at": "2010-01-15T18:34:01.000Z",
+        "title": "Are spot instances killing the performance of Amazon EC2?",
+        "url": "http://seldo.com/weblog/2010/01/15/are_spot_instances_killing_the_performance_of_amazon_ec2",
+        "points": 15,
+        "comments": 4,
+        "id": "1055507"
+      }
+    ]
+  },
+  {
+    "url": "https://shime.sh",
+    "title": " Hrvoje Šimić (Shime) ",
+    "feed": "https://shime.sh/feed.xml",
+    "desc": "I'm a part-time freelance web developer and a part-time indie maker of Ciklus and Kuote.",
+    "hn": [
+      {
+        "created_at": "2020-03-08T11:24:26.000Z",
+        "title": "Do whatever you can't stop thinking about",
+        "url": "https://shime.sh/do-whatever-you-can%27t-stop-thinking-about",
+        "points": 516,
+        "comments": 219,
+        "id": "22517505"
+      }
+    ]
+  },
+  {
+    "url": "https://silvestar.codes",
+    "title": "My home ✣ S.Bistrović",
+    "feed": "https://silvestar.codes/rss.xml",
+    "desc": "Silvestar is building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.",
+    "hn": [
+      {
+        "created_at": "2021-08-02T12:32:22.000Z",
+        "title": "My rant about React",
+        "url": "https://www.silvestar.codes/articles/you-don-t-need-react-for-building-websites/",
+        "points": 60,
+        "comments": 74,
+        "id": "28035705"
+      },
+      {
+        "created_at": "2023-03-24T10:32:29.000Z",
+        "title": "Page builders might not be a good idea",
+        "url": "https://www.silvestar.codes/articles/page-builders-might-not-be-a-good-idea/",
+        "points": 39,
+        "comments": 57,
+        "id": "35287253"
+      },
+      {
+        "created_at": "2019-08-27T06:31:15.000Z",
+        "title": "Show HN: Code Line Daily",
+        "url": "https://cld.silvestar.codes/",
+        "points": 17,
+        "comments": 2,
+        "id": "20806819"
+      }
+    ]
+  },
+  {
+    "url": "https://snarfed.org",
+    "title": "snarfed.org | Ryan Barrett's blog",
+    "about": "https://snarfed.org/about",
+    "feed": "https://snarfed.org/feed",
+    "hn": [
+      {
+        "created_at": "2023-03-30T09:35:36.000Z",
+        "title": "The Twitter API is now effectively unmaintained",
+        "url": "https://snarfed.org/the-twitter-api-is-now-effectively-unmaintained",
+        "points": 432,
+        "comments": 526,
+        "id": "35370152"
+      },
+      {
+        "created_at": "2022-10-20T00:21:26.000Z",
+        "title": "We're Drowning",
+        "url": "https://snarfed.org/2022-03-10_were-drowning-software-dependencies",
+        "points": 187,
+        "comments": 157,
+        "id": "33269443"
+      },
+      {
+        "created_at": "2010-04-28T07:43:06.000Z",
+        "title": "Gmail vs Pine",
+        "url": "http://snarfed.org/space/gmail_vs_pine",
+        "points": 79,
+        "comments": 37,
+        "id": "1301007"
+      },
+      {
+        "created_at": "2023-05-27T19:12:07.000Z",
+        "title": "Translating/bridging across multiple protocols and identities (via federation)",
+        "url": "https://snarfed.org/2023-05-26_50328",
+        "points": 32,
+        "comments": 3,
+        "id": "36097344"
+      },
+      {
+        "created_at": "2010-10-17T02:27:37.000Z",
+        "title": "Under the covers of the App Engine Datastore",
+        "url": "http://snarfed.org/datastore_talk.html",
+        "points": 15,
+        "comments": 1,
+        "id": "1799449"
+      }
+    ]
+  },
+  {
+    "url": "https://spacetime.dev",
+    "title": "home :: spacetime.dev",
+    "feed": "https://spacetime.dev/feed.xml",
+    "hn": [
+      {
+        "created_at": "2022-02-18T17:49:36.000Z",
+        "title": "Plausibly deniable encryption (2020)",
+        "url": "https://spacetime.dev/plausibly-deniable-encryption",
+        "points": 229,
+        "comments": 142,
+        "id": "30388812"
+      }
+    ]
+  },
+  {
+    "url": "https://splitbrain.org",
+    "title": "Welcome [splitbrain.org]",
+    "keywords": "blog,blogs,development,dokuwiki,opensource,php,programming,software,web2.0,wiki",
+    "hn": [
+      {
+        "created_at": "2020-11-20T07:57:52.000Z",
+        "title": "Cheap Router Table and Lift",
+        "url": "https://www.splitbrain.org/blog/2020-11/17-cheap_router_table_lift",
+        "points": 104,
+        "comments": 51,
+        "id": "25158232"
+      },
+      {
+        "created_at": "2008-06-26T23:27:26.000Z",
+        "title": "Google: we're having scaling issues, please stop distributing your FF extension",
+        "url": "http://www.splitbrain.org/blog/2008-06/25-google_public_relations",
+        "points": 99,
+        "comments": 19,
+        "id": "229243"
+      },
+      {
+        "created_at": "2011-06-19T02:29:06.000Z",
+        "title": "Command line git pull requests",
+        "url": "http://www.splitbrain.org/blog/2011-06/19-automate_github_pull_requests",
+        "points": 73,
+        "comments": 1,
+        "id": "2670021"
+      }
+    ]
+  },
+  {
+    "url": "https://stefanjudis.com",
+    "title": "Developer, writer and speaker | Stefan Judis Web Development",
+    "feed": "https://www.stefanjudis.com/rss.xml",
+    "desc": "I love building things for the web. And I love writing sharing things about the web.",
+    "hn": [
+      {
+        "created_at": "2020-07-08T07:58:43.000Z",
+        "title": "Git commit accepts several message flags (-m) to allow multiline commits",
+        "url": "https://www.stefanjudis.com/today-i-learned/git-commit-accepts-several-message-flags-m-to-allow-multiline-commits/",
+        "points": 339,
+        "comments": 152,
+        "id": "23767866"
+      },
+      {
+        "created_at": "2020-11-20T09:18:57.000Z",
+        "title": "How to force yourself to leave the computer using the leave command",
+        "url": "https://www.stefanjudis.com/today-i-learned/how-to-force-yourself-to-leave-the-computer-using-the-leave-command/",
+        "points": 77,
+        "comments": 32,
+        "id": "25158739"
+      },
+      {
+        "created_at": "2020-10-26T09:07:11.000Z",
+        "title": "Say goodbye to resource-caching across sites and domains",
+        "url": "https://www.stefanjudis.com/notes/say-goodbye-to-resource-caching-across-sites-and-domains/",
+        "points": 74,
+        "comments": 79,
+        "id": "24894135"
+      },
+      {
+        "created_at": "2023-05-29T18:56:20.000Z",
+        "title": "I don't need to clean up my desktop and downloads folders in macOS (2021)",
+        "url": "https://www.stefanjudis.com/blog/why-i-dont-need-to-clean-up-my-desktop-and-downloads-folder-in-macos/",
+        "points": 62,
+        "comments": 74,
+        "id": "36116777"
+      },
+      {
+        "created_at": "2021-12-05T11:59:21.000Z",
+        "title": "Highlights of the HTTP Archive Web Almanac 2021",
+        "url": "https://www.stefanjudis.com/blog/highlights-from-the-web-almanac-2021/",
+        "points": 29,
+        "comments": 6,
+        "id": "29448629"
+      },
+      {
+        "created_at": "2022-07-05T18:50:22.000Z",
+        "title": "Suffix Aliases (-S) in Zsh",
+        "url": "https://www.stefanjudis.com/today-i-learned/suffix-aliases-in-zsh/",
+        "points": 22,
+        "comments": 2,
+        "id": "31992185"
+      }
+    ]
+  },
+  {
+    "url": "https://steverydz.com",
+    "title": "Photographer in Nottingham, UK | Steve Rydz",
+    "about": "https://steverydz.com/about",
+    "hn": [
+      {
+        "created_at": "2013-11-19T20:59:04.000Z",
+        "title": "Keeping a debugging journal",
+        "url": "http://steverydz.com/2013/11/19/keeping-a-debugging-journal/",
+        "points": 55,
+        "comments": 26,
+        "id": "6764421"
+      },
+      {
+        "created_at": "2023-03-05T09:35:21.000Z",
+        "title": "They say that gear doesn’t matter, but it does",
+        "url": "https://steverydz.com/2023/03/05/they-say-that-gear-doesnt-matter-but-it-does/",
+        "points": 22,
+        "comments": 47,
+        "id": "35028154"
+      },
+      {
+        "created_at": "2022-07-26T19:18:58.000Z",
+        "title": "Stop giving code examples in TypeScript",
+        "url": "https://steverydz.com/2022/07/26/stop-giving-code-examples-in-typescript/",
+        "points": 5,
+        "comments": 12,
+        "id": "32242692"
+      }
+    ]
+  },
+  {
+    "url": "https://takeonrules.com",
+    "title": "Home // Take on Rules",
+    "feed": "https://takeonrules.com/index.xml",
+    "keywords": "emacs",
+    "desc": "Jeremy Friesen&rsquo;s personal blog, with a focus on table-top role-playing games.",
+    "hn": [
+      {
+        "created_at": "2020-10-18T21:37:30.000Z",
+        "title": "I Chose Emacs as My New Text Editor",
+        "url": "https://takeonrules.com/2020/10/18/why-i-chose-emacs-as-my-new-text-editor/",
+        "points": 10,
+        "comments": 1,
+        "id": "24821312"
+      }
+    ]
+  },
+  {
+    "url": "https://tcmorris.net",
+    "title": "Hello, I'm Thomas - mozzy.dev",
+    "feed": "https://mozzy.dev/feed.xml",
+    "hn": [
+      {
+        "created_at": "2010-11-07T21:13:12.000Z",
+        "title": "Reverse.jar",
+        "url": "http://blog.tmorris.net/reversejar/",
+        "points": 50,
+        "comments": 39,
+        "id": "1880334"
+      },
+      {
+        "created_at": "2011-03-06T00:33:25.000Z",
+        "title": "Understanding Practical API Design, Static Typing, and Functional Programming ",
+        "url": "http://blog.tmorris.net/understanding-practical-api-design-static-typing-and-functional-programming/",
+        "points": 48,
+        "comments": 26,
+        "id": "2292978"
+      },
+      {
+        "created_at": "2010-02-24T12:48:21.000Z",
+        "title": "Why are there no big applications written using functional languages?",
+        "url": "http://blog.tmorris.net/why-are-there-no-big-applications-written-using-functional-languages/",
+        "points": 15,
+        "comments": 29,
+        "id": "1147837"
+      },
+      {
+        "created_at": "2010-11-24T01:27:12.000Z",
+        "title": "Dear Java library guy",
+        "url": "http://blog.tmorris.net/dear-java-library-guy/?utm_source=twitterfeed&utm_medium=twitter",
+        "points": 15,
+        "comments": 8,
+        "id": "1936126"
+      },
+      {
+        "created_at": "2011-08-18T11:40:29.000Z",
+        "title": "Java 7",
+        "url": "http://blog.tmorris.net/java-7/?utm_source=twitterfeed&utm_medium=twitter",
+        "points": 14,
+        "comments": 4,
+        "id": "2898829"
+      },
+      {
+        "created_at": "2008-06-03T18:39:48.000Z",
+        "title": "What you call integration testing, I call sloppy programming",
+        "url": "http://blog.tmorris.net/what-you-call-integration-testing-i-call-sloppy-programming/",
+        "points": 5,
+        "comments": 5,
+        "id": "208189"
+      }
+    ]
+  },
+  {
+    "url": "https://timseverien.com",
+    "title": "Tim Severien - Front end webdeveloper and technical writer",
+    "feed": "https://timseverien.com/feed.xml",
+    "desc": "Front end webdeveloper and technical writer",
+    "hn": [
+      {
+        "created_at": "2023-04-05T19:07:27.000Z",
+        "title": "Telemetry in Front-End Tools",
+        "url": "https://telemetry.timseverien.com/",
+        "points": 130,
+        "comments": 141,
+        "id": "35458974"
+      }
+    ]
+  },
+  {
+    "url": "https://trovster.com",
+    "title": "Trevor Morris",
+    "about": "https://www.trovster.com/about",
+    "desc": "My name is Trevor Morris & I am a movie-loving, bike-riding, full-stack web developer from the UK. I love writing HTML, CSS & JavaScript. Laravel & Tailwind are my frameworks of choice.",
+    "hn": [
+      {
+        "created_at": "2009-05-13T04:12:17.000Z",
+        "title": "Cheat Code: a jQuery Plugin",
+        "url": "http://www.trovster.com/lab/plugins/cheat-code/",
+        "points": 22,
+        "comments": 4,
+        "id": "606506"
+      }
+    ]
+  },
+  {
+    "url": "https://tylergaw.com",
+    "title": "Tyler Gaw is a Designer & Engineer in New York City, USA",
+    "about": "https://tylergaw.com/about",
+    "feed": "https://tylergaw.com/rss.xml",
+    "desc": "A personal website. Since 2006",
+    "hn": [
+      {
+        "created_at": "2014-09-28T08:29:33.000Z",
+        "title": "Building OS X Apps with JavaScript",
+        "url": "http://tylergaw.com/articles/building-osx-apps-with-js",
+        "points": 166,
+        "comments": 60,
+        "id": "8379247"
+      },
+      {
+        "created_at": "2017-01-05T22:18:50.000Z",
+        "title": "Show HN: ColorMe",
+        "url": "https://tylergaw.com/articles/introducing-colorme",
+        "points": 103,
+        "comments": 18,
+        "id": "13331968"
+      },
+      {
+        "created_at": "2020-04-28T13:41:34.000Z",
+        "title": "Guide to Making 3D Maps with Satellite Imagery in R",
+        "url": "https://www.tylermw.com/a-step-by-step-guide-to-making-3d-maps-with-satellite-imagery-in-r/",
+        "points": 232,
+        "comments": 29,
+        "id": "23006834"
+      },
+      {
+        "created_at": "2018-05-14T13:25:41.000Z",
+        "title": "Show HN: A raytracer to shade topographic maps in R",
+        "url": "http://tylermw.com/throwing-shade/",
+        "points": 198,
+        "comments": 47,
+        "id": "17065264"
+      },
+      {
+        "created_at": "2017-05-02T21:31:55.000Z",
+        "title": "Soma Water Filters Are Worthless",
+        "url": "http://tylermw.com/soma-water-filters-are-worthless-how-i-used-r-to-win-an-argument-with-my-wife/",
+        "points": 149,
+        "comments": 102,
+        "id": "14250810"
+      },
+      {
+        "created_at": "2018-06-29T12:23:12.000Z",
+        "title": "Show HN: A raytracer to shade topographic maps in R, Part 2",
+        "url": "http://www.tylermw.com/making-beautiful-maps/",
+        "points": 76,
+        "comments": 13,
+        "id": "17424061"
+      },
+      {
+        "created_at": "2018-08-06T12:35:26.000Z",
+        "title": "Show HN: A raytracer to shade and visualize topographic maps in R, part 3",
+        "url": "http://www.tylermw.com/3d-maps-with-rayshader/",
+        "points": 42,
+        "comments": 5,
+        "id": "17697046"
+      }
+    ]
+  },
+  {
+    "url": "https://uglyduck.ca",
+    "title": "UX Designer Corner",
+    "hn": [
+      {
+        "created_at": "2020-07-10T09:21:27.000Z",
+        "title": "Blog Anonymously",
+        "url": "https://uglyduck.ca/blog-anonymously/",
+        "points": 210,
+        "comments": 460,
+        "id": "23789621"
+      },
+      {
+        "created_at": "2019-10-30T12:43:09.000Z",
+        "title": "Simple Does Not Mean Ugly",
+        "url": "https://uglyduck.ca/simple-does-not-mean-ugly/",
+        "points": 170,
+        "comments": 127,
+        "id": "21397041"
+      },
+      {
+        "created_at": "2020-05-20T01:12:06.000Z",
+        "title": "Better Box Shadows (CSS)",
+        "url": "https://uglyduck.ca/better-box-shadows/",
+        "points": 143,
+        "comments": 59,
+        "id": "23242296"
+      },
+      {
+        "created_at": "2021-10-29T03:20:15.000Z",
+        "title": "Setting Up 1.1.1.1 for Families on a Pi-Hole",
+        "url": "https://uglyduck.ca/pihole-cloudflare/",
+        "points": 80,
+        "comments": 75,
+        "id": "29034807"
+      },
+      {
+        "created_at": "2021-08-13T18:29:17.000Z",
+        "title": "Stuffing an SSD Inside the Raspberry Pi 400",
+        "url": "https://uglyduck.ca/pi-400-internal-ssd/",
+        "points": 36,
+        "comments": 6,
+        "id": "28172497"
+      },
+      {
+        "created_at": "2020-05-27T18:08:40.000Z",
+        "title": "Dear Google, I’m Blocking You from My Website",
+        "url": "https://uglyduck.ca/dear-google-im-blocking-you-from-my-website/",
+        "points": 5,
+        "comments": 6,
+        "id": "23327337"
+      }
+    ]
+  },
+  {
+    "url": "https://visitmy.website",
+    "title": "Harsh Browns",
+    "about": "https://visitmy.website/about",
+    "now": "https://visitmy.website/now",
+    "feed": "https://visitmy.website/feed.xml",
+    "desc": "Steve Messer's website. Product manager. Web enthusiast, working in the open. Black Country boy living in London, UK.",
+    "hn": [
+      {
+        "created_at": "2020-07-15T07:15:48.000Z",
+        "title": "This Website Is Killing the Planet",
+        "url": "https://visitmy.website/2020/07/13/this-website-is-killing-the-planet/",
+        "points": 34,
+        "comments": 15,
+        "id": "23842225"
+      }
+    ]
+  },
+  {
+    "url": "https://whynot.fail",
+    "title": "WhyNot.Fail - Why not fail?",
+    "feed": "https://whynot.fail/index.xml",
+    "desc": "Cause when you fail, somebody has to laugh at you",
+    "hn": [
+      {
+        "created_at": "2020-04-09T22:43:57.000Z",
+        "title": "Let's Encrypt the house – how I use LE for my internal homelab setup",
+        "url": "https://whynot.fail/homelab/lets-encrypt-the-house/",
+        "points": 11,
+        "comments": 3,
+        "id": "22827970"
+      }
+    ]
+  },
+  {
+    "url": "https://www.jvt.me",
+    "title": "Jamie Tanna | Software Engineer",
+    "feed": "https://www.jvt.me/feed.xml?atom",
+    "desc": "",
+    "hn": [
+      {
+        "created_at": "2020-09-02T12:01:00.000Z",
+        "title": "Why I Actively Discourage Online Tooling like jwt.io and Online JSON Validators",
+        "url": "https://www.jvt.me/posts/2020/09/01/against-online-tooling/",
+        "points": 202,
+        "comments": 165,
+        "id": "24352360"
+      },
+      {
+        "created_at": "2022-05-08T09:40:59.000Z",
+        "title": "Lessons learned from the recent job hunt",
+        "url": "https://www.jvt.me/posts/2022/05/02/lessons-learned-job-hunt/",
+        "points": 194,
+        "comments": 305,
+        "id": "31302572"
+      },
+      {
+        "created_at": "2022-10-12T06:04:42.000Z",
+        "title": "Lessons learned since posting my salary history publicly",
+        "url": "https://www.jvt.me/posts/2022/09/21/year-later-salary-history/",
+        "points": 128,
+        "comments": 162,
+        "id": "33173450"
+      },
+      {
+        "created_at": "2022-08-17T09:57:02.000Z",
+        "title": "Learning a new language, or how I gained familiarity with Go",
+        "url": "https://www.jvt.me/posts/2022/08/12/learning-new-language-go/",
+        "points": 117,
+        "comments": 56,
+        "id": "32494244"
+      },
+      {
+        "created_at": "2020-03-09T00:07:06.000Z",
+        "title": "Google confirms microformats are still a supported metadata format for content",
+        "url": "https://www.jvt.me/posts/2020/03/02/google-microformats-support/",
+        "points": 102,
+        "comments": 40,
+        "id": "22521666"
+      },
+      {
+        "created_at": "2023-02-09T21:29:40.000Z",
+        "title": "My Salary History",
+        "url": "https://www.jvt.me/salary/",
+        "points": 93,
+        "comments": 159,
+        "id": "34731790"
+      },
+      {
+        "created_at": "2020-09-01T14:26:58.000Z",
+        "title": "Why I Actively Discourage Online Tooling Like Jwt.io and Online JSON Validators",
+        "url": "https://www.jvt.me/posts/2020/09/01/against-online-tooling/",
+        "points": 11,
+        "comments": 6,
+        "id": "24342063"
+      }
+    ]
+  },
+  {
+    "url": "https://zachleat.com",
+    "title": "zachleat.com",
+    "desc": "Zach Leatherman (zachleat)",
+    "hn": [
+      {
+        "created_at": "2023-03-27T20:47:19.000Z",
+        "title": "Defaulting on Single Page Applications",
+        "url": "https://www.zachleat.com/web/single-page-applications/",
+        "points": 122,
+        "comments": 123,
+        "id": "35332314"
+      },
+      {
+        "created_at": "2022-01-25T23:14:47.000Z",
+        "title": "Trailing slashes on URLs: Contentious or settled?",
+        "url": "https://www.zachleat.com/web/trailing-slash/",
+        "points": 95,
+        "comments": 70,
+        "id": "30079487"
+      },
+      {
+        "created_at": "2016-07-17T19:15:08.000Z",
+        "title": "A Comprehensive Guide to Font Loading Strategies",
+        "url": "https://www.zachleat.com/web/comprehensive-webfonts/",
+        "points": 67,
+        "comments": 2,
+        "id": "12111336"
+      },
+      {
+        "created_at": "2018-09-12T05:56:15.000Z",
+        "title": "Font Loading Checklist",
+        "url": "https://www.zachleat.com/web/font-checklist/",
+        "points": 23,
+        "comments": 8,
+        "id": "17965863"
+      },
+      {
+        "created_at": "2011-01-13T05:43:24.000Z",
+        "title": "BigText Makes Text Big, a Typography jQuery Plugin",
+        "url": "http://www.zachleat.com/web/2011/01/11/bigtext-makes-text-big/",
+        "points": 14,
+        "comments": 1,
+        "id": "2098982"
+      },
+      {
+        "created_at": "2021-10-20T17:25:10.000Z",
+        "title": "The Art of Deception, Lighthouse score edition",
+        "url": "https://www.zachleat.com/web/lighthouse-deception/",
+        "points": 11,
+        "comments": 1,
+        "id": "28933346"
+      }
+    ]
   }
 ]
