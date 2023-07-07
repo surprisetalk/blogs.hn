@@ -12,7 +12,7 @@ from a URL. But feel free to manually add/edit information to `blogs.json`!
 1. Run the script:
 
 ```bash
-npm i axios cheerio
+npm init -y && npm i axios cheerio
 node fetch.js "https://taylor.town" "https://gwern.net"
 ```
 
