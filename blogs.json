@@ -25496,6 +25496,30 @@
     ]
   },
   {
+    "url": "https://sanyamkapoor.com",
+    "title": "About | Sanyam Kapoor",
+    "keywords": "",
+    "desc": "I do normal science.",
+    "hn": [
+      {
+        "created_at": "2018-11-15T07:48:33.000Z",
+        "title": "The magic of Automatic Differentiation",
+        "url": "https://www.sanyamkapoor.com/machine-learning/autograd-magic/",
+        "points": 23,
+        "comments": 0,
+        "id": "18457603"
+      },
+      {
+        "created_at": "2017-12-04T23:42:44.000Z",
+        "title": "The Beauty of Bayesian Learning [with Demo]",
+        "url": "https://www.sanyamkapoor.com/machine-learning/the-beauty-of-bayesian-learning/",
+        "points": 12,
+        "comments": 0,
+        "id": "15848600"
+      }
+    ]
+  },
+  {
     "url": "https://abhiraj.co",
     "title": "Hi, I'm Abhiraj",
     "desc": "I make stuff on the web and write blogs about it",
