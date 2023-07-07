@@ -6630,8 +6630,10 @@
   },
   {
     "url": "https://chris.sears.io",
-    "title": "",
-    "about": "https://chris.sears.io/about"
+    "title": "Chris Sears - /home/csears",
+    "about": "https://chris.sears.io/about",
+    "feed": "https://chris.sears.io/rss.xml",
+    "desc": "Looking for feedback and collaborators on some startup ideas. See https://chris.sears.io/projects or join me on Discord at https://discord.gg/8ZxQrrkaTT"
   },
   {
     "url": "https://chrisfrew.in",
