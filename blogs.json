@@ -28860,5 +28860,13 @@
     "title": "Evan Pratten",
     "feed": "https://ewpratten.com/rss.xml",
     "desc": "Evan Pratten is a software developer, amateur radio operator, and more. This is his website."
+  },
+  {
+    "url": "https://nkantar.com",
+    "title": "Nik Kantar",
+    "about": "https://nkantar.com/about",
+    "now": "https://nkantar.com/now",
+    "feed": "https://nkantar.com/blog/feed",
+    "desc": "Pythonista, SoCal Python + PyBeach organizer, Instil engineer, motorcyclist, bicyclist, zoo dad, Katie’s even taller half, he/him…"
   }
 ]
