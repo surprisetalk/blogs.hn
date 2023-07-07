@@ -6,6 +6,9 @@ okay too, but remember that the community is mostly folks from
 
 ## Adding Blogs
 
+This repo comes with a helper script `fetch.js` to automatically grab blog info
+from a URL. But feel free to manually add/edit information to `blogs.json`!
+
 1. Run the script:
 
 ```bash
