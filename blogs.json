@@ -24984,5 +24984,11 @@
         "id": "21795216"
       }
     ]
+  },
+  {
+    "url": "https://jaykmody.com",
+    "title": "Jay Mody",
+    "feed": "https://jaykmody.com/feed.xml",
+    "desc": "Neural networks, computers, programming.",
   }
 ]
