@@ -24940,5 +24940,21 @@
     "url": "https://ztoz.blog",
     "title": "ℤ→ℤ",
     "feed": "https://ztoz.blog/index.xml"
+  },
+  {
+    "url": "https://jeff.glass",
+    "title": "Jeff Glass",
+    "feed": "https://jeff.glass/index.xml",
+    "desc": "Python on the Web, focusing on PyScript and Pyodide. Occassionally microcontrollers, LEDs, and Amateur Radio",
+    "hn": [
+      {
+        "created_at": "2019-12-15T08:55:27.000Z",
+        "title": "Setting Up an Electronics Lab",
+        "url": "https://jeff.glass/2019/12/01/electronics-lab-tools/",
+        "points": 35,
+        "comments": 14,
+        "id": "21795216"
+      }
+    ]
   }
 ]
