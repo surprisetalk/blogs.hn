@@ -25462,5 +25462,37 @@
         "id": "4052209"
       }
     ]
+  },
+  {
+    "url": "https://zdimension.fr",
+    "title": "zdimension",
+    "desc": "adventures in computational madness",
+    "feed": "https://zdimension.fr/rss/",
+    "hn": [
+      {
+        "created_at": "2022-08-18T04:55:08.000Z",
+        "title": "Running Rust on Logic Gates",
+        "url": "https://zdimension.fr/crabs-all-the-way-down/",
+        "points": 142,
+        "comments": 26,
+        "id": "32505466"
+      },
+      {
+        "created_at": "2022-08-18T10:40:44.000Z",
+        "title": "How I learned to stop worrying and love macros",
+        "url": "https://zdimension.fr/how-i-learned-to-stop-worrying-and-love-macros/",
+        "points": 140,
+        "comments": 52,
+        "id": "32507659"
+      },
+      {
+        "created_at": "2022-08-17T18:05:19.000Z",
+        "title": "Show HN: Crabs All the Way Down – Running Rust on Logic Gates",
+        "url": "https://zdimension.fr/crabs-all-the-way-down/",
+        "points": 34,
+        "comments": 2,
+        "id": "32499703"
+      }
+    ]
   }
 ]
