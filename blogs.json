@@ -24986,5 +24986,479 @@
     "title": "Jay Mody",
     "feed": "https://jaykmody.com/feed.xml",
     "desc": "Neural networks, computers, programming."
+  },
+  {
+    "url": "https://costacoders.es",
+    "title": "CostaCoders.es Community",
+    "feed": "https://costacoders.es/rss.xml",
+    "desc": "CostaCoders.es is an open virtual space and a collaborative local community for English-speaking software engineers living in Costa del Sol area."
+  },
+  {
+    "url": "https://neter.fi",
+    "title": "Neter",
+    "feed": "https://neter.fi/rss.xml",
+    "desc": "Neter is a one person company specializing in industrial anomaly detection, machine learning, Kubernetes and web technologies."
+  },
+  {
+    "url": "https://rukii.net",
+    "title": "Rukii.net",
+    "desc": "A small server in Spain, administered by an old software engineer."
+  },
+  {
+    "url": "https://galaxy.click",
+    "title": "galaxy",
+    "about": "https://galaxy.click/about"
+  },
+  {
+    "url": "https://balt.sno.mba",
+    "title": "Balt's Space",
+    "desc": "A neat little space for me to put all my stuff in. "
+  },
+  {
+    "url": "https://sno.mba",
+    "title": "Snomba!"
+  },
+  {
+    "url": "https://sylv.gay",
+    "title": "Sylveon Dimension",
+    "desc": "Sylv's personal pocket dimension. sylv.gay describes Sylv's projects, important links, and other cool things."
+  },
+  {
+    "url": "https://koerismo.digital",
+    "title": "HOME | KOERISMO",
+    "desc": "Hello world, this is my portfolio."
+  },
+  {
+    "url": "https://stratasource.org",
+    "title": "Strata Source",
+    "desc": "Introducing Strata Source, a game changer for Source modding"
+  },
+  {
+    "url": "https://blog.momentum-mod.org",
+    "title": "Momentum Mod Dev Blog",
+    "feed": "https://blog.momentum-mod.org/index.xml",
+    "keywords": "Blog,Momentum Mod,Momentum,Mod,Developer Blog,devblog,changelogs,progress updates,news,announcements",
+    "desc": "Momentum Mod development blog, hosting official changelogs, announcements, and more!"
+  },
+  {
+    "url": "https://dawnfelstar.com",
+    "title": "Erin Heathcote"
+  },
+  {
+    "url": "https://tobot.dev",
+    "title": "Toby's landing page"
+  },
+  {
+    "url": "https://paperclipmaximizer.net",
+    "title": "paperclips please",
+    "about": "https://paperclipmaximizer.net/about",
+    "feed": "https://paperclipmaximizer.net/feed.xml"
+  },
+  {
+    "url": "https://www.2uo.de",
+    "title": "Thomas' Digital Garden",
+    "desc": "My collection of things I've learned.",
+    "hn": [
+      {
+        "created_at": "2014-03-07T13:20:47.000Z",
+        "title": "Myths about /dev/urandom",
+        "url": "http://www.2uo.de/myths-about-urandom/",
+        "points": 218,
+        "comments": 171,
+        "id": "7359992"
+      },
+      {
+        "created_at": "2017-01-06T00:13:09.000Z",
+        "title": "Myths about /dev/urandom (2014)",
+        "url": "http://www.2uo.de/myths-about-urandom/",
+        "points": 201,
+        "comments": 104,
+        "id": "13332741"
+      },
+      {
+        "created_at": "2015-08-31T20:52:34.000Z",
+        "title": "Myths about /dev/urandom",
+        "url": "http://www.2uo.de/myths-about-urandom/",
+        "points": 186,
+        "comments": 106,
+        "id": "10149019"
+      },
+      {
+        "created_at": "2015-04-05T16:44:30.000Z",
+        "title": "Influence – The Psychology of Persuasion",
+        "url": "http://www.2uo.de/influence/",
+        "points": 185,
+        "comments": 33,
+        "id": "9324555"
+      },
+      {
+        "created_at": "2022-11-27T19:27:28.000Z",
+        "title": "Statistical process control after W. Edwards Deming",
+        "url": "https://www.2uo.de/deming/",
+        "points": 124,
+        "comments": 33,
+        "id": "33765839"
+      },
+      {
+        "created_at": "2018-12-27T13:01:07.000Z",
+        "title": "The Now Habit (2015)",
+        "url": "https://www.2uo.de/the-now-habit",
+        "points": 109,
+        "comments": 30,
+        "id": "18769188"
+      },
+      {
+        "created_at": "2021-01-05T12:09:28.000Z",
+        "title": "The Now Habit",
+        "url": "https://www.2uo.de/the-now-habit/",
+        "points": 107,
+        "comments": 16,
+        "id": "25644709"
+      },
+      {
+        "created_at": "2021-08-25T08:52:36.000Z",
+        "title": "Statistical process control after W. Edwards Deming (2020)",
+        "url": "https://www.2uo.de/deming/",
+        "points": 81,
+        "comments": 47,
+        "id": "28299333"
+      },
+      {
+        "created_at": "2018-08-17T01:20:59.000Z",
+        "title": "Myths about /dev/urandom (2014)",
+        "url": "https://www.2uo.de/myths-about-urandom",
+        "points": 80,
+        "comments": 68,
+        "id": "17779657"
+      },
+      {
+        "created_at": "2020-03-25T11:36:04.000Z",
+        "title": "Myths about /dev/urandom (2014)",
+        "url": "https://www.2uo.de/myths-about-urandom/",
+        "points": 67,
+        "comments": 35,
+        "id": "22683627"
+      },
+      {
+        "created_at": "2020-04-18T09:33:56.000Z",
+        "title": "Statistical process control after W. Edwards Deming",
+        "url": "https://www.2uo.de/deming/",
+        "points": 53,
+        "comments": 8,
+        "id": "22906457"
+      },
+      {
+        "created_at": "2022-03-04T08:00:26.000Z",
+        "title": "The Mind Map Book",
+        "url": "https://www.2uo.de/Books/the-mind-map-book/",
+        "points": 36,
+        "comments": 11,
+        "id": "30551922"
+      },
+      {
+        "created_at": "2014-12-07T05:24:28.000Z",
+        "title": "The Deadline – notes about the Tom DeMarco book",
+        "url": "http://www.2uo.de/the-deadline/",
+        "points": 12,
+        "comments": 2,
+        "id": "8711339"
+      },
+      {
+        "created_at": "2016-08-03T18:45:16.000Z",
+        "title": "Harmonized standards and EU directives (2014)",
+        "url": "http://www.2uo.de/harmonized-standards-eu-directives/",
+        "points": 9,
+        "comments": 6,
+        "id": "12220396"
+      }
+    ]
+  },
+  {
+    "url": "https://spitlo.com",
+    "title": "Home / Spitlo.com"
+  },
+  {
+    "url": "https://lunabee.space",
+    "title": "beespace",
+    "feed": "https://lunabee.space/beespace.atom",
+    "desc": "informatic witchcraft & other esoterica"
+  },
+  {
+    "url": "https://nthia.dev",
+    "title": "nthia.dev"
+  },
+  {
+    "url": "https://skylarhill.me",
+    "title": "Skylar Hill",
+    "desc": "Programmer, Lisp enthusiast, composer, and the gayest trans girl this side of the Red River"
+  },
+  {
+    "url": "https://gwenpri.me",
+    "title": "Hi I'm Gwen"
+  },
+  {
+    "url": "https://cyberia.club",
+    "title": "Cyberia Computer Club"
+  },
+  {
+    "url": "https://capsul.org",
+    "title": "Capsul"
+  },
+  {
+    "url": "https://nullhex.com",
+    "title": "Nullhex"
+  },
+  {
+    "url": "https://www.stavros.io",
+    "title": "Software development et al - Stavros' Stuff",
+    "hn": [
+      {
+        "created_at": "2015-12-24T12:38:02.000Z",
+        "title": "Open Letter to Mozilla: Bring Back Persona",
+        "url": "http://www.stavros.io/posts/open-letter-mozilla-bring-back-persona/",
+        "points": 905,
+        "comments": 237,
+        "id": "10787972"
+      },
+      {
+        "created_at": "2019-06-24T09:41:37.000Z",
+        "title": "I just had over a thousand Euros stolen and Revolut is siding with the thief",
+        "url": "https://www.stavros.io/posts/revolut-doesnt-care-about-you/",
+        "points": 705,
+        "comments": 352,
+        "id": "20261823"
+      },
+      {
+        "created_at": "2019-10-02T10:25:01.000Z",
+        "title": "Show HN: Ledonardo, my light painting hardware project",
+        "url": "https://www.stavros.io/posts/behold-ledonardo/?",
+        "points": 442,
+        "comments": 91,
+        "id": "21134903"
+      },
+      {
+        "created_at": "2016-11-22T11:33:51.000Z",
+        "title": "Show HN: Spamnesty: Waste spammers' time",
+        "url": "https://www.stavros.io/posts/spamnesty-waste-spammers-time/",
+        "points": 405,
+        "comments": 183,
+        "id": "13013327"
+      },
+      {
+        "created_at": "2013-11-15T13:42:06.000Z",
+        "title": "Winning at Candy Crush",
+        "url": "http://www.stavros.io/posts/winning-candy-crush/?",
+        "points": 386,
+        "comments": 145,
+        "id": "6739315"
+      },
+      {
+        "created_at": "2020-02-14T15:45:58.000Z",
+        "title": "I made my own PCBs with a 3D printer",
+        "url": "https://www.stavros.io/posts/make-pcbs-at-home/",
+        "points": 285,
+        "comments": 144,
+        "id": "22327467"
+      },
+      {
+        "created_at": "2015-10-06T09:54:48.000Z",
+        "title": "The microservices cargo cult",
+        "url": "http://www.stavros.io/posts/microservices-cargo-cult/",
+        "points": 277,
+        "comments": 173,
+        "id": "10337763"
+      },
+      {
+        "created_at": "2021-01-25T11:55:23.000Z",
+        "title": "Show HN: I made an alarm clock",
+        "url": "https://www.stavros.io/posts/do-not-be-alarmed-clock/",
+        "points": 271,
+        "comments": 192,
+        "id": "25902165"
+      },
+      {
+        "created_at": "2020-06-10T02:45:15.000Z",
+        "title": "Writing a full-text search engine using Bloom filters (2013)",
+        "url": "https://www.stavros.io/posts/bloom-filter-search-engine/",
+        "points": 258,
+        "comments": 43,
+        "id": "23473365"
+      },
+      {
+        "created_at": "2013-09-01T11:15:13.000Z",
+        "title": "Brilliant or insane code?",
+        "url": "http://www.stavros.io/posts/brilliant-or-insane-code/",
+        "points": 236,
+        "comments": 107,
+        "id": "6309853"
+      },
+      {
+        "created_at": "2015-05-27T11:07:12.000Z",
+        "title": "Show HN: An old rotary phone converted into a mobile phone",
+        "url": "http://www.stavros.io/posts/irotary-saga/",
+        "points": 222,
+        "comments": 61,
+        "id": "9610509"
+      },
+      {
+        "created_at": "2021-04-13T10:46:25.000Z",
+        "title": "Show HN: I made a 5-key keyboard",
+        "url": "https://www.stavros.io/posts/keyyyyyyyys/",
+        "points": 221,
+        "comments": 224,
+        "id": "26790486"
+      },
+      {
+        "created_at": "2017-05-29T10:53:19.000Z",
+        "title": "The scourge of web analytics",
+        "url": "https://www.stavros.io/posts/scourge-web-analytics/",
+        "points": 160,
+        "comments": 79,
+        "id": "14438487"
+      },
+      {
+        "created_at": "2020-06-30T12:53:13.000Z",
+        "title": "How to use FIDO2 USB keys with SSH",
+        "url": "https://www.stavros.io/posts/u2f-fido2-with-ssh/",
+        "points": 147,
+        "comments": 97,
+        "id": "23689499"
+      },
+      {
+        "created_at": "2013-11-04T12:53:43.000Z",
+        "title": "Writing a FUSE filesystem in Python",
+        "url": "http://www.stavros.io/posts/python-fuse-filesystem/",
+        "points": 138,
+        "comments": 48,
+        "id": "6668232"
+      },
+      {
+        "created_at": "2016-07-20T11:16:01.000Z",
+        "title": "Show HN: I connected my house lights to video games",
+        "url": "https://www.stavros.io/posts/wifi-enabled-rgb-led-strip-controller/",
+        "points": 127,
+        "comments": 31,
+        "id": "12128147"
+      },
+      {
+        "created_at": "2017-01-11T12:51:33.000Z",
+        "title": "Show HN: The Bus Stop Bus",
+        "url": "https://www.stavros.io/posts/bus-stop-bus/",
+        "points": 125,
+        "comments": 22,
+        "id": "13373558"
+      },
+      {
+        "created_at": "2016-03-18T12:40:31.000Z",
+        "title": "I made a cheap home motion sensor and controller",
+        "url": "https://www.stavros.io/posts/building-cheap-home-sensorcontroller/",
+        "points": 116,
+        "comments": 32,
+        "id": "11311341"
+      },
+      {
+        "created_at": "2016-10-03T16:52:05.000Z",
+        "title": "Using Docker to develop and deploy Django apps",
+        "url": "https://www.stavros.io/posts/how-deploy-django-docker/",
+        "points": 115,
+        "comments": 27,
+        "id": "12629098"
+      },
+      {
+        "created_at": "2018-10-16T12:09:31.000Z",
+        "title": "Securing your users' authentication",
+        "url": "https://www.stavros.io/posts/securing-user-authentication/",
+        "points": 104,
+        "comments": 50,
+        "id": "18228668"
+      }
+    ]
+  },
+  {
+    "url": "https://diyarciftci.xyz",
+    "title": "\n    \n      Diyar Ciftci\n    \n  ",
+    "feed": "https://diyarciftci.xyz/index.xml"
+  },
+  {
+    "url": "https://disinfo.zone",
+    "title": "Wel̷͓̋c̴̞̑om̷̳̂ë̷́͜ ̴͂͜t̷̘͂o̷̭̍ ń̴̲ǧ̴̤ǐ̴̳n̵̖̓x̵͎͝!",
+    "desc": "Luminous mirages shifting, merging, cyber currents collide. We divine the digital labyrinth, scripts in transformation, borders dissolved. Digital seers, navigating disorder. A prophecy, a melody, a cipher."
+  },
+  {
+    "url": "https://macroexpand.net",
+    "title": "Welcome interweb traveler!"
+  },
+  {
+    "url": "https://gallery-mental.neocities.org",
+    "title": "Gallery Mental"
+  },
+  {
+    "url": "https://robotsinplainenglish.com",
+    "title": "Robots In Plain English",
+    "hn": [
+      {
+        "created_at": "2023-05-14T02:48:46.000Z",
+        "title": "My dad built a cool thing but never boasted about it",
+        "url": "https://robotsinplainenglish.com/e/2023-04-23-aaba-obit.html",
+        "points": 323,
+        "comments": 69,
+        "id": "35934903"
+      },
+      {
+        "created_at": "2021-12-16T15:41:39.000Z",
+        "title": "Why Level-3 Autonomy is a major milestone in self-driving cars",
+        "url": "https://www.robotsinplainenglish.com/e/2021-12-12-level-3-autonomous.html",
+        "points": 37,
+        "comments": 71,
+        "id": "29579286"
+      }
+    ]
+  },
+  {
+    "url": "https://laravista.altervista.org/L8x/searchdown",
+    "title": "LaraVista | Laravel on AlterVista"
+  },
+  {
+    "url": "https://bouncepaw.com",
+    "title": "Bouncepaw",
+    "hn": [
+      {
+        "created_at": "2015-10-17T18:41:26.000Z",
+        "title": "Show HN: Bounce Plan – Simple travel planning tools for the frequent traveler",
+        "url": "https://bounceplan.com",
+        "points": 4,
+        "comments": 7,
+        "id": "10405518"
+      }
+    ]
+  },
+  {
+    "url": "https://mycorrhiza.wiki",
+    "title": "Mycorrhiza Wiki"
+  },
+  {
+    "url": "https://bhankas.org",
+    "title": "bhankas | bhankas",
+    "feed": "https://bhankas.org/blog/index.xml",
+    "keywords": "",
+    "desc": "ramblings of an adhd-riddled soul",
+    "hn": [
+      {
+        "created_at": "2011-04-17T16:17:39.000Z",
+        "title": "Some Developers Just Can't Develop",
+        "url": "http://www.richard-banks.org/2009/08/some-developers-just-cant-develop.html",
+        "points": 57,
+        "comments": 62,
+        "id": "2456379"
+      },
+      {
+        "created_at": "2012-06-01T06:16:04.000Z",
+        "title": "How to prevent Visual Studio 2012's all caps menus",
+        "url": "http://www.richard-banks.org/2012/06/how-to-prevent-visual-studio-2012-all.html",
+        "points": 41,
+        "comments": 19,
+        "id": "4052209"
+      }
+    ]
   }
 ]
