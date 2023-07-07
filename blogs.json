@@ -20689,7 +20689,7 @@
         "comments": 0,
         "id": "33894011"
       },
-        {
+      {
         "created_at": "2022-07-30T15:00:26.000Z",
         "title": "Improving Accessibility with Design Tokens",
         "url": "http://solomon.io/why-im-done-with-social-media-buttons/",
@@ -20697,14 +20697,14 @@
         "comments": 0,
         "id": "32289352"
       },
-        {
+      {
         "created_at": "2019-10-25T06:55:38.000Z",
         "title": "Better Markdown in VS Code",
         "url": "https://solomon.io/better-markdown-visual-studio-code/",
         "points": 3,
         "comments": 0,
         "id": "21353721"
-      },    
+      },
       {
         "created_at": "2014-02-13T17:37:44.000Z",
         "title": "Why I'm Done With Social Media Buttons",
@@ -24989,6 +24989,6 @@
     "url": "https://jaykmody.com",
     "title": "Jay Mody",
     "feed": "https://jaykmody.com/feed.xml",
-    "desc": "Neural networks, computers, programming.",
+    "desc": "Neural networks, computers, programming."
   }
 ]
