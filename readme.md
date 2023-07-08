@@ -59,6 +59,7 @@ node fetch.js "https://taylor.town" "https://gwern.net"
 ]
 ```
 
-3. Append to
+3. Add to
    [blogs.json](https://github.com/surprisetalk/blogs.hn/blob/main/blogs.json)
-   in a pull request.
+   in a pull request. To prevent merge conflicts, please don't append to the top
+   or bottom!
