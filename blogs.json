@@ -28868,5 +28868,171 @@
     "now": "https://nkantar.com/now",
     "feed": "https://nkantar.com/blog/feed",
     "desc": "Pythonista, SoCal Python + PyBeach organizer, Instil engineer, motorcyclist, bicyclist, zoo dad, Katie’s even taller half, he/him…"
+  },
+  {
+    "url": "https://lemire.me/blog/",
+    "title": "Daniel Lemire's blog – Daniel Lemire is a computer science professor at the Data Science Laboratory of the Université du Québec (TÉLUQ) in Montreal. His research is focused on software performance and data engineering. He is a techno-optimist and a free-speech advocate.",
+    "hn": [
+      {
+        "created_at": "2019-12-20T00:46:45.000Z",
+        "title": "Xor Filters: Faster and Smaller Than Bloom Filters",
+        "url": "https://lemire.me/blog/2019/12/19/xor-filters-faster-and-smaller-than-bloom-filters/",
+        "points": 457,
+        "comments": 81,
+        "id": "21840821"
+      },
+      {
+        "created_at": "2016-10-14T16:36:19.000Z",
+        "title": "Intel will add deep-learning instructions to its processors",
+        "url": "http://lemire.me/blog/2016/10/14/intel-will-add-deep-learning-instructions-to-its-processors/",
+        "points": 389,
+        "comments": 125,
+        "id": "12709220"
+      },
+      {
+        "created_at": "2021-01-06T17:06:39.000Z",
+        "title": "Memory access on the Apple M1 processor",
+        "url": "https://lemire.me/blog/2021/01/06/memory-access-on-the-apple-m1-processor/",
+        "points": 372,
+        "comments": 260,
+        "id": "25659615"
+      },
+      {
+        "created_at": "2021-01-01T18:05:01.000Z",
+        "title": "Peer-reviewed papers are getting increasingly boring",
+        "url": "https://lemire.me/blog/2021/01/01/peer-reviewed-papers-are-getting-increasingly-boring/",
+        "points": 364,
+        "comments": 204,
+        "id": "25605156"
+      },
+      {
+        "created_at": "2014-12-30T16:14:37.000Z",
+        "title": "How to Learn Efficiently",
+        "url": "http://lemire.me/blog/archives/2014/12/30/how-to-learn-efficiently/",
+        "points": 336,
+        "comments": 69,
+        "id": "8815148"
+      },
+      {
+        "created_at": "2021-11-02T22:34:21.000Z",
+        "title": "Stop spending so much time being trolled by billionaire corps",
+        "url": "https://lemire.me/blog/2021/11/02/stop-spending-so-much-time-being-trolled-by-billionaire-corporations/",
+        "points": 291,
+        "comments": 166,
+        "id": "29088418"
+      },
+      {
+        "created_at": "2021-10-03T15:26:52.000Z",
+        "title": "Word-Aligned Bloom Filters",
+        "url": "https://lemire.me/blog/2021/10/03/word-aligned-bloom-filters/",
+        "points": 276,
+        "comments": 77,
+        "id": "28737910"
+      },
+      {
+        "created_at": "2020-10-20T16:15:05.000Z",
+        "title": "Fast UTF-8 validation",
+        "url": "https://lemire.me/blog/2020/10/20/ridiculously-fast-unicode-utf-8-validation/",
+        "points": 266,
+        "comments": 84,
+        "id": "24839113"
+      },
+      {
+        "created_at": "2020-04-01T03:27:13.000Z",
+        "title": "Simdjson 0.3: Faster JSON parser",
+        "url": "https://lemire.me/blog/2020/03/31/we-released-simdjson-0-3-the-fastest-json-parser-in-the-world-is-even-better/",
+        "points": 258,
+        "comments": 63,
+        "id": "22745351"
+      },
+      {
+        "created_at": "2020-12-13T18:34:16.000Z",
+        "title": "ARM MacBook vs. Intel MacBook: A SIMD Benchmark",
+        "url": "https://lemire.me/blog/2020/12/13/arm-macbook-vs-intel-macbook-a-simd-benchmark/",
+        "points": 256,
+        "comments": 212,
+        "id": "25408853"
+      },
+      {
+        "created_at": "2022-07-08T21:55:56.000Z",
+        "title": "Go generics are not bad",
+        "url": "https://lemire.me/blog/2022/07/08/go-generics-are-not-bad/",
+        "points": 232,
+        "comments": 286,
+        "id": "32027855"
+      },
+      {
+        "created_at": "2022-12-07T09:59:09.000Z",
+        "title": "Fast midpoint between two integers without overflow",
+        "url": "https://lemire.me/blog/2022/12/06/fast-midpoint-between-two-integers-without-overflow/",
+        "points": 230,
+        "comments": 214,
+        "id": "33892564"
+      },
+      {
+        "created_at": "2021-03-18T00:19:26.000Z",
+        "title": "Apple’s M1 processor and the full 128-bit integer product",
+        "url": "https://lemire.me/blog/2021/03/17/apples-m1-processor-and-the-full-128-bit-integer-product/",
+        "points": 230,
+        "comments": 174,
+        "id": "26498431"
+      },
+      {
+        "created_at": "2014-05-27T11:05:30.000Z",
+        "title": "You shouldn’t use a spreadsheet for important work",
+        "url": "http://lemire.me/blog/archives/2014/05/23/you-shouldnt-use-a-spreadsheet-for-important-work-i-mean-it/",
+        "points": 228,
+        "comments": 195,
+        "id": "7803830"
+      },
+      {
+        "created_at": "2023-07-02T14:50:46.000Z",
+        "title": "Parsing time stamps faster with SIMD instructions",
+        "url": "https://lemire.me/blog/2023/07/01/parsing-time-stamps-faster-with-simd-instructions/",
+        "points": 224,
+        "comments": 103,
+        "id": "36561974"
+      },
+      {
+        "created_at": "2018-01-17T21:04:08.000Z",
+        "title": "Fast base64 encoding and decoding",
+        "url": "https://lemire.me/blog/2018/01/17/ridiculously-fast-base64-encoding-and-decoding/",
+        "points": 210,
+        "comments": 77,
+        "id": "16171806"
+      },
+      {
+        "created_at": "2017-01-20T19:24:14.000Z",
+        "title": "How quickly can you remove spaces from a string?",
+        "url": "http://lemire.me/blog/2017/01/20/how-quickly-can-you-remove-spaces-from-a-string/",
+        "points": 201,
+        "comments": 108,
+        "id": "13446294"
+      },
+      {
+        "created_at": "2017-02-28T23:47:14.000Z",
+        "title": "How many floating-point numbers are in the interval [0,1]?",
+        "url": "http://lemire.me/blog/2017/02/28/how-many-floating-point-numbers-are-in-the-interval-01/",
+        "points": 200,
+        "comments": 153,
+        "id": "13759458"
+      },
+      {
+        "created_at": "2019-02-08T16:46:30.000Z",
+        "title": "Faster remainders when the divisor is a constant: beating compilers & libdivide",
+        "url": "https://lemire.me/blog/2019/02/08/faster-remainders-when-the-divisor-is-a-constant-beating-compilers-and-libdivide/",
+        "points": 197,
+        "comments": 32,
+        "id": "19116020"
+      },
+      {
+        "created_at": "2022-10-10T23:31:37.000Z",
+        "title": "Science is the belief in the ignorance of experts (2020)",
+        "url": "https://lemire.me/blog/2020/07/12/science-is-the-belief-in-the-ignorance-of-experts/",
+        "points": 196,
+        "comments": 137,
+        "id": "33157609"
+      }
+    ]
   }
 ]
