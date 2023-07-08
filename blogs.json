@@ -29036,6 +29036,12 @@
     ]
   },
   {
+    "url": "https://domwillia.ms",
+    "title": "Dom Williams",
+    "feed": "https://domwillia.ms/index.xml",
+    "desc": "Personal blog about Rust, gamedev, and other programmery joys."
+  },
+  {
     "url": "https://ruky.me",
     "title": "Rukshan's Brain on The Web",
     "feed": "https://ruky.me/feed",
