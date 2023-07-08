@@ -29540,5 +29540,173 @@
         "id": "29376191"
       }
     ]
+  },
+  {
+    "url": "https://martinheinz.dev",
+    "title": "Martin Heinz | Personal Website & Blog",
+    "feed": "https://martinheinz.dev/rss",
+    "desc": "Martin Heinz's personal website & blog",
+    "hn": [
+      {
+        "created_at": "2020-06-02T02:08:36.000Z",
+        "title": "Guide to Python Debugging",
+        "url": "https://martinheinz.dev/blog/24",
+        "points": 501,
+        "comments": 148,
+        "id": "23386537"
+      },
+      {
+        "created_at": "2021-07-08T03:32:29.000Z",
+        "title": "Functools – The Power of Higher-Order Functions in Python",
+        "url": "https://martinheinz.dev/blog/52",
+        "points": 229,
+        "comments": 164,
+        "id": "27768211"
+      },
+      {
+        "created_at": "2020-01-14T01:29:52.000Z",
+        "title": "Making Python Programs Blazingly Fast",
+        "url": "https://martinheinz.dev/blog/13",
+        "points": 223,
+        "comments": 215,
+        "id": "22040899"
+      },
+      {
+        "created_at": "2023-04-04T14:14:11.000Z",
+        "title": "Make your CLI demos a breeze with zero stress and zero mistakes",
+        "url": "https://martinheinz.dev/blog/94",
+        "points": 109,
+        "comments": 23,
+        "id": "35439958"
+      },
+      {
+        "created_at": "2021-08-08T06:37:18.000Z",
+        "title": "The unknown features of Python's `operator` module",
+        "url": "https://martinheinz.dev/blog/54",
+        "points": 88,
+        "comments": 56,
+        "id": "28104674"
+      },
+      {
+        "created_at": "2019-12-06T20:53:03.000Z",
+        "title": "Setup for Your Next Golang Project",
+        "url": "https://martinheinz.dev/blog/5",
+        "points": 88,
+        "comments": 52,
+        "id": "21725869"
+      },
+      {
+        "created_at": "2022-02-14T13:28:34.000Z",
+        "title": "Upcoming Python features brought to you by Python Enhancement Proposals",
+        "url": "https://martinheinz.dev/blog/67",
+        "points": 80,
+        "comments": 79,
+        "id": "30331734"
+      },
+      {
+        "created_at": "2022-12-15T10:12:40.000Z",
+        "title": "Python Magic Methods You Haven't Heard About",
+        "url": "https://martinheinz.dev/blog/87",
+        "points": 49,
+        "comments": 0,
+        "id": "33997454"
+      },
+      {
+        "created_at": "2020-12-01T22:41:49.000Z",
+        "title": "Networking Tools Every Developer Needs to Know",
+        "url": "https://martinheinz.dev/blog/38",
+        "points": 44,
+        "comments": 8,
+        "id": "25271029"
+      },
+      {
+        "created_at": "2023-05-15T16:17:01.000Z",
+        "title": "Real Multithreading Is Coming to Python",
+        "url": "https://martinheinz.dev/blog/97",
+        "points": 43,
+        "comments": 4,
+        "id": "35950618"
+      },
+      {
+        "created_at": "2023-05-09T20:57:24.000Z",
+        "title": "Python's Missing Batteries: Essential Libraries You're Missing Out On",
+        "url": "https://martinheinz.dev/blog/96",
+        "points": 36,
+        "comments": 6,
+        "id": "35880286"
+      },
+      {
+        "created_at": "2023-03-07T15:44:15.000Z",
+        "title": "I Will Never Use Alpine Linux Ever Again",
+        "url": "https://martinheinz.dev/blog/92",
+        "points": 34,
+        "comments": 30,
+        "id": "35056594"
+      },
+      {
+        "created_at": "2022-05-14T20:04:13.000Z",
+        "title": "End to end monitoring with minimal effort",
+        "url": "https://martinheinz.dev/blog/72",
+        "points": 33,
+        "comments": 8,
+        "id": "31381804"
+      },
+      {
+        "created_at": "2023-07-04T14:14:04.000Z",
+        "title": "Goodbye Etcd, Hello PostgreSQL: Running Kubernetes with an SQL Database",
+        "url": "https://martinheinz.dev/blog/100",
+        "points": 31,
+        "comments": 17,
+        "id": "36586991"
+      },
+      {
+        "created_at": "2019-12-10T18:16:50.000Z",
+        "title": "Going Serverless with OpenFaaS and Golang – Building Optimized Templates",
+        "url": "https://martinheinz.dev/blog/11",
+        "points": 31,
+        "comments": 2,
+        "id": "21755099"
+      },
+      {
+        "created_at": "2022-04-05T17:30:33.000Z",
+        "title": "Python F-Strings Are More Powerful Than You Might Think",
+        "url": "https://martinheinz.dev/blog/70",
+        "points": 29,
+        "comments": 1,
+        "id": "30922050"
+      },
+      {
+        "created_at": "2022-10-24T00:59:29.000Z",
+        "title": "Python CLI Tricks That Don't Require Any Code Whatsoever",
+        "url": "https://martinheinz.dev/blog/83",
+        "points": 24,
+        "comments": 3,
+        "id": "33311868"
+      },
+      {
+        "created_at": "2022-08-16T08:27:24.000Z",
+        "title": "Should You Be Using Python’s Walrus Operator? (Yes. and Here’s Why)",
+        "url": "https://martinheinz.dev/blog/79",
+        "points": 23,
+        "comments": 7,
+        "id": "32480514"
+      },
+      {
+        "created_at": "2023-06-06T14:05:06.000Z",
+        "title": "The Right Way to Run Shell Commands from Python",
+        "url": "https://martinheinz.dev/blog/98",
+        "points": 19,
+        "comments": 11,
+        "id": "36212970"
+      },
+      {
+        "created_at": "2022-07-20T13:49:13.000Z",
+        "title": "It’s Time to Say Goodbye to These Obsolete Python Libraries",
+        "url": "https://martinheinz.dev/blog/77",
+        "points": 19,
+        "comments": 1,
+        "id": "32165747"
+      }
+    ]
   }
 ]
