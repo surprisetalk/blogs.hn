@@ -29036,6 +29036,166 @@
     ]
   },
   {
+    "url": "https://evertpot.com/",
+    "title": "Evert Pot",
+    "desc": "Personal blog of Evert Pot",
+    "feed": "https://evertpot.com/atom.xml",
+    "hn": [
+      {
+        "created_at": "2020-12-03T01:02:48.000Z",
+        "title": "HTTP/2 Push is dead",
+        "url": "https://evertpot.com/http-2-push-is-dead/",
+        "points": 354,
+        "comments": 168,
+        "id": "25283971"
+      },
+      {
+        "created_at": "2021-05-12T23:35:09.000Z",
+        "title": "JWT should not be your default for sessions",
+        "url": "https://evertpot.com/jwt-is-a-bad-default/",
+        "points": 335,
+        "comments": 230,
+        "id": "27136539"
+      },
+      {
+        "created_at": "2018-08-03T20:28:47.000Z",
+        "title": "Firefox removes RSS support",
+        "url": "https://evertpot.com/firefox-rss/",
+        "points": 265,
+        "comments": 231,
+        "id": "17683357"
+      },
+      {
+        "created_at": "2016-06-16T12:39:15.000Z",
+        "title": "PHP Sucks",
+        "url": "https://evertpot.com/PHP-Sucks/",
+        "points": 253,
+        "comments": 281,
+        "id": "11915671"
+      },
+      {
+        "created_at": "2018-02-19T13:31:34.000Z",
+        "title": "Google's CardDAV server isn't standards compliant (2014)",
+        "url": "https://evertpot.com/google-carddav-issues/",
+        "points": 240,
+        "comments": 62,
+        "id": "16412730"
+      },
+      {
+        "created_at": "2014-06-07T03:19:34.000Z",
+        "title": "HTTP/1.1 just got a major update",
+        "url": "http://evertpot.com/http-11-updated/",
+        "points": 231,
+        "comments": 73,
+        "id": "7861152"
+      },
+      {
+        "created_at": "2019-01-03T16:37:14.000Z",
+        "title": "One Year in San Francisco as a Software Engineer",
+        "url": "https://evertpot.com/a-look-back-at-sf/",
+        "points": 220,
+        "comments": 263,
+        "id": "18816385"
+      },
+      {
+        "created_at": "2022-01-29T19:37:34.000Z",
+        "title": "Request bodies in GET requests",
+        "url": "https://evertpot.com/get-request-bodies/",
+        "points": 219,
+        "comments": 151,
+        "id": "30129631"
+      },
+      {
+        "created_at": "2020-01-02T17:56:24.000Z",
+        "title": "Performance Testing HTTP/1.1 vs. HTTP/2 vs. HTTP/2 and Server Push for REST APIs",
+        "url": "https://evertpot.com/h2-parallelism/",
+        "points": 198,
+        "comments": 71,
+        "id": "21937799"
+      },
+      {
+        "created_at": "2015-03-02T21:17:09.000Z",
+        "title": "Dropbox starts using POST, and why this is poor API design",
+        "url": "http://evertpot.com/dropbox-post-api/",
+        "points": 154,
+        "comments": 48,
+        "id": "9134382"
+      },
+      {
+        "created_at": "2016-03-23T03:40:37.000Z",
+        "title": "Package managers should be immutable, distributed and decentralized",
+        "url": "https://evertpot.com/npm-revoke-breaks-the-build/",
+        "points": 137,
+        "comments": 61,
+        "id": "11341990"
+      },
+      {
+        "created_at": "2022-11-01T20:18:03.000Z",
+        "title": "Taking a Look at Mastodon",
+        "url": "https://evertpot.com/hello-mastodon/",
+        "points": 131,
+        "comments": 135,
+        "id": "33426897"
+      },
+      {
+        "created_at": "2019-06-11T21:17:56.000Z",
+        "title": "Browser tabs are probably the wrong metaphor",
+        "url": "https://evertpot.com/tabs-are-the-wrong-abstraction/",
+        "points": 117,
+        "comments": 173,
+        "id": "20159629"
+      },
+      {
+        "created_at": "2020-05-29T19:46:01.000Z",
+        "title": "ECMAScript 4: The Missing Version",
+        "url": "https://evertpot.com/ecmascript-4-the-missing-version/",
+        "points": 117,
+        "comments": 45,
+        "id": "23354637"
+      },
+      {
+        "created_at": "2023-03-30T19:13:42.000Z",
+        "title": "Switching to Fedora from Ubuntu",
+        "url": "https://evertpot.com/switching-to-fedora/",
+        "points": 77,
+        "comments": 137,
+        "id": "35377584"
+      },
+      {
+        "created_at": "2022-09-02T21:46:06.000Z",
+        "title": "Ubuntu bungled the Firefox Snap package transition",
+        "url": "https://evertpot.com/firefox-ubuntu-snap/",
+        "points": 45,
+        "comments": 14,
+        "id": "32696070"
+      },
+      {
+        "created_at": "2013-11-20T03:17:28.000Z",
+        "title": "If you care about privacy, don't use OS X mail",
+        "url": "http://evertpot.com/if-you-care-about-privacy-dont-use-osx-mail",
+        "points": 24,
+        "comments": 20,
+        "id": "6766078"
+      },
+      {
+        "created_at": "2020-02-12T01:09:57.000Z",
+        "title": "Use a:visited in your CSS stylesheet",
+        "url": "https://evertpot.com/visited-links/",
+        "points": 18,
+        "comments": 6,
+        "id": "22304759"
+      },
+      {
+        "created_at": "2014-01-22T19:41:03.000Z",
+        "title": "Google Code hosting is dead",
+        "url": "http://evertpot.com/google-code-is-dead/",
+        "points": 15,
+        "comments": 2,
+        "id": "7104856"
+      }
+    ]
+  },
+  {
     "url": "https://simonwillison.net/",
     "title": "Simon Willison’s Weblog",
     "hn": [
