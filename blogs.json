@@ -29365,8 +29365,11 @@
         "points": 18,
         "comments": 0,
         "id": "29376191"
-      },
-          "url": "https://martinheinz.dev",
+      }
+    ]
+  },
+  {
+    "url": "https://martinheinz.dev",
     "title": "Martin Heinz | Personal Website & Blog",
     "feed": "https://martinheinz.dev/rss",
     "desc": "Martin Heinz's personal website & blog",
@@ -29530,6 +29533,7 @@
         "points": 19,
         "comments": 1,
         "id": "32165747"
+      }
     ]
   }
 ]
