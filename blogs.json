@@ -29036,7 +29036,337 @@
     ]
   },
   {
-    "url": "https://martinheinz.dev",
+    "url": "https://simonwillison.net/",
+    "title": "Simon Willison’s Weblog",
+    "hn": [
+      {
+        "created_at": "2023-02-15T15:14:15.000Z",
+        "title": "Bing: “I will not harm you unless you harm me first”",
+        "url": "https://simonwillison.net/2023/Feb/15/bing/",
+        "points": 3363,
+        "comments": 1676,
+        "id": "34804874"
+      },
+      {
+        "created_at": "2022-08-29T02:03:19.000Z",
+        "title": "Stable Diffusion is a big deal",
+        "url": "https://simonwillison.net/2022/Aug/29/stable-diffusion/",
+        "points": 874,
+        "comments": 473,
+        "id": "32634074"
+      },
+      {
+        "created_at": "2023-03-11T19:19:19.000Z",
+        "title": "Large language models are having their Stable Diffusion moment",
+        "url": "https://simonwillison.net/2023/Mar/11/llama/",
+        "points": 811,
+        "comments": 369,
+        "id": "35111646"
+      },
+      {
+        "created_at": "2022-06-21T13:59:36.000Z",
+        "title": "One-liner for running queries against CSV files with SQLite",
+        "url": "https://til.simonwillison.net/sqlite/one-line-csv-operations",
+        "points": 747,
+        "comments": 127,
+        "id": "31824030"
+      },
+      {
+        "created_at": "2023-03-31T04:45:55.000Z",
+        "title": "AI-enhanced development makes me more ambitious with my projects",
+        "url": "https://simonwillison.net/2023/Mar/27/ai-enhanced-development/",
+        "points": 702,
+        "comments": 505,
+        "id": "35382698"
+      },
+      {
+        "created_at": "2021-03-05T01:08:49.000Z",
+        "title": "Open source projects should run office hours",
+        "url": "https://simonwillison.net/2021/Feb/19/office-hours/",
+        "points": 620,
+        "comments": 266,
+        "id": "26351053"
+      },
+      {
+        "created_at": "2023-06-29T02:15:16.000Z",
+        "title": "CLI tools hidden in the Python standard library",
+        "url": "https://til.simonwillison.net/python/stdlib-cli-tools",
+        "points": 548,
+        "comments": 154,
+        "id": "36515531"
+      },
+      {
+        "created_at": "2023-04-07T16:48:31.000Z",
+        "title": "We need to tell people ChatGPT will lie to them, not debate linguistics",
+        "url": "https://simonwillison.net/2023/Apr/7/chatgpt-lies/",
+        "points": 546,
+        "comments": 457,
+        "id": "35483823"
+      },
+      {
+        "created_at": "2023-05-13T15:11:11.000Z",
+        "title": "Prompt injection explained, with video, slides, and a transcript",
+        "url": "https://simonwillison.net/2023/May/2/prompt-injection-explained/",
+        "points": 508,
+        "comments": 175,
+        "id": "35929122"
+      },
+      {
+        "created_at": "2020-10-02T05:43:25.000Z",
+        "title": "Escaping strings in Bash using !:q",
+        "url": "https://til.simonwillison.net/til/til/bash_escaping-a-string.md",
+        "points": 482,
+        "comments": 81,
+        "id": "24659282"
+      },
+      {
+        "created_at": "2020-10-09T18:35:42.000Z",
+        "title": "Git scraping: track changes over time by scraping to a Git repository",
+        "url": "https://simonwillison.net/2020/Oct/9/git-scraping/",
+        "points": 471,
+        "comments": 95,
+        "id": "24732943"
+      },
+      {
+        "created_at": "2023-04-14T17:37:24.000Z",
+        "title": "Prompt injection: what’s the worst that can happen?",
+        "url": "https://simonwillison.net/2023/Apr/14/worst-that-can-happen/",
+        "points": 462,
+        "comments": 203,
+        "id": "35572290"
+      },
+      {
+        "created_at": "2020-11-14T04:07:15.000Z",
+        "title": "Personal Data Warehouses: Reclaiming Your Data",
+        "url": "https://simonwillison.net/2020/Nov/14/personal-data-warehouses/",
+        "points": 436,
+        "comments": 59,
+        "id": "25090218"
+      },
+      {
+        "created_at": "2023-06-08T20:40:30.000Z",
+        "title": "Understanding GPT tokenizers",
+        "url": "https://simonwillison.net/2023/Jun/8/gpt-tokenizers/",
+        "points": 432,
+        "comments": 130,
+        "id": "36248633"
+      },
+      {
+        "created_at": "2023-03-31T18:21:07.000Z",
+        "title": "Could you train a ChatGPT-beating model for $85k and run it in a browser?",
+        "url": "https://simonwillison.net/2023/Mar/17/beat-chatgpt-in-a-browser/",
+        "points": 430,
+        "comments": 169,
+        "id": "35391115"
+      },
+      {
+        "created_at": "2017-10-17T14:01:22.000Z",
+        "title": "How to set up continuous deployment using free hosted tools",
+        "url": "https://simonwillison.net/2017/Oct/17/free-continuous-deployment/",
+        "points": 411,
+        "comments": 88,
+        "id": "15490935"
+      },
+      {
+        "created_at": "2021-07-21T14:55:46.000Z",
+        "title": "It doesn't take much public creativity to stand out as a job candidate",
+        "url": "https://simonwillison.net/2021/Jul/17/standing-out/",
+        "points": 386,
+        "comments": 374,
+        "id": "27907151"
+      },
+      {
+        "created_at": "2022-07-09T15:53:35.000Z",
+        "title": "Using GPT-3 to explain how code works",
+        "url": "https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/",
+        "points": 385,
+        "comments": 147,
+        "id": "32036224"
+      },
+      {
+        "created_at": "2023-05-27T20:19:41.000Z",
+        "title": "Lawyer cites fake cases invented by ChatGPT, judge is not amused",
+        "url": "https://simonwillison.net/2023/May/27/lawyer-chatgpt/",
+        "points": 347,
+        "comments": 306,
+        "id": "36097900"
+      },
+      {
+        "created_at": "2022-11-06T17:57:08.000Z",
+        "title": "What to blog about",
+        "url": "https://simonwillison.net/2022/Nov/6/what-to-blog-about/",
+        "points": 333,
+        "comments": 90,
+        "id": "33495295"
+      }
+    ]
+  },
+  {
+    "url": "https://til.simonwillison.net/",
+    "title": "Simon Willison: TIL",
+    "feed": "https://til.simonwillison.net/tils/feed.atom",
+    "hn": [
+      {
+        "created_at": "2022-06-21T13:59:36.000Z",
+        "title": "One-liner for running queries against CSV files with SQLite",
+        "url": "https://til.simonwillison.net/sqlite/one-line-csv-operations",
+        "points": 747,
+        "comments": 127,
+        "id": "31824030"
+      },
+      {
+        "created_at": "2023-06-29T02:15:16.000Z",
+        "title": "CLI tools hidden in the Python standard library",
+        "url": "https://til.simonwillison.net/python/stdlib-cli-tools",
+        "points": 548,
+        "comments": 154,
+        "id": "36515531"
+      },
+      {
+        "created_at": "2020-10-02T05:43:25.000Z",
+        "title": "Escaping strings in Bash using !:q",
+        "url": "https://til.simonwillison.net/til/til/bash_escaping-a-string.md",
+        "points": 482,
+        "comments": 81,
+        "id": "24659282"
+      },
+      {
+        "created_at": "2021-08-01T14:59:52.000Z",
+        "title": "Extracting Objects Recursively with Jq",
+        "url": "https://til.simonwillison.net/jq/extracting-objects-recursively",
+        "points": 268,
+        "comments": 71,
+        "id": "28026712"
+      },
+      {
+        "created_at": "2023-03-11T04:32:22.000Z",
+        "title": "Running LLaMA 7B on a 64GB M2 MacBook Pro with Llama.cpp",
+        "url": "https://til.simonwillison.net/llms/llama-7b-m2",
+        "points": 225,
+        "comments": 76,
+        "id": "35105364"
+      },
+      {
+        "created_at": "2022-01-05T16:35:08.000Z",
+        "title": "Problems once solved by a metaclass can be solved by __init_subclass__",
+        "url": "https://til.simonwillison.net/python/init-subclass",
+        "points": 211,
+        "comments": 124,
+        "id": "29811154"
+      },
+      {
+        "created_at": "2023-02-18T18:44:57.000Z",
+        "title": "Sips: Scriptable Image Processing System",
+        "url": "https://til.simonwillison.net/macos/sips",
+        "points": 192,
+        "comments": 32,
+        "id": "34849734"
+      },
+      {
+        "created_at": "2023-03-23T23:12:08.000Z",
+        "title": "How to read Hacker News threads with most recent comments first",
+        "url": "https://til.simonwillison.net/hacker-news/recent-comments",
+        "points": 130,
+        "comments": 24,
+        "id": "35282815"
+      },
+      {
+        "created_at": "2021-05-29T10:27:35.000Z",
+        "title": "Finding CSV files that start with a BOM using ripgrep",
+        "url": "https://til.simonwillison.net/bash/finding-bom-csv-files-with-ripgrep",
+        "points": 119,
+        "comments": 54,
+        "id": "27324265"
+      },
+      {
+        "created_at": "2023-01-01T16:45:56.000Z",
+        "title": "Querying the GitHub archive with the ClickHouse playground",
+        "url": "https://til.simonwillison.net/clickhouse/github-explorer",
+        "points": 116,
+        "comments": 13,
+        "id": "34207883"
+      },
+      {
+        "created_at": "2021-12-20T04:59:22.000Z",
+        "title": "Annotated explanation of David Beazley's dataklasses",
+        "url": "https://til.simonwillison.net/python/annotated-dataklasses",
+        "points": 108,
+        "comments": 16,
+        "id": "29621716"
+      },
+      {
+        "created_at": "2022-07-28T16:56:50.000Z",
+        "title": "Struct Endianness in Python",
+        "url": "https://til.simonwillison.net/python/struct-endianness",
+        "points": 75,
+        "comments": 7,
+        "id": "32267008"
+      },
+      {
+        "created_at": "2023-04-13T03:26:33.000Z",
+        "title": "Running Dolly 2.0 on Paperspace",
+        "url": "https://til.simonwillison.net/llms/dolly-2",
+        "points": 73,
+        "comments": 13,
+        "id": "35550530"
+      },
+      {
+        "created_at": "2022-07-15T06:12:15.000Z",
+        "title": "Freezing Requirements with Pip-Tools",
+        "url": "https://til.simonwillison.net/python/pip-tools",
+        "points": 55,
+        "comments": 57,
+        "id": "32105129"
+      },
+      {
+        "created_at": "2021-11-07T10:22:37.000Z",
+        "title": "Annotated code for a demo of WebSocket chat in Deno Deploy",
+        "url": "https://til.simonwillison.net/deno/annotated-deno-deploy-demo",
+        "points": 51,
+        "comments": 3,
+        "id": "29138078"
+      },
+      {
+        "created_at": "2022-03-24T20:58:58.000Z",
+        "title": "Extracting web page content using Readability.js and shot-scraper",
+        "url": "https://til.simonwillison.net/shot-scraper/readability",
+        "points": 39,
+        "comments": 5,
+        "id": "30795254"
+      },
+      {
+        "created_at": "2023-04-04T06:48:21.000Z",
+        "title": "Reading thermometer temperatures over time from a video",
+        "url": "https://til.simonwillison.net/googlecloud/video-frame-ocr",
+        "points": 31,
+        "comments": 18,
+        "id": "35435979"
+      },
+      {
+        "created_at": "2023-05-01T06:19:28.000Z",
+        "title": "Expanding ChatGPT Code Interpreter with Python Packages, Deno and Lua",
+        "url": "https://til.simonwillison.net/llms/code-interpreter-expansions",
+        "points": 29,
+        "comments": 3,
+        "id": "35769599"
+      },
+      {
+        "created_at": "2022-04-04T18:49:36.000Z",
+        "title": "Enabling WAL mode for SQLite database files",
+        "url": "https://til.simonwillison.net/sqlite/enabling-wal-mode",
+        "points": 28,
+        "comments": 1,
+        "id": "30910562"
+      },
+      {
+        "created_at": "2021-11-29T03:54:24.000Z",
+        "title": "Publishing a Web Component to npm",
+        "url": "https://til.simonwillison.net/npm/publish-web-component",
+        "points": 18,
+        "comments": 0,
+        "id": "29376191"
+      },
+          "url": "https://martinheinz.dev",
     "title": "Martin Heinz | Personal Website & Blog",
     "feed": "https://martinheinz.dev/rss",
     "desc": "Martin Heinz's personal website & blog",
@@ -29200,7 +29530,6 @@
         "points": 19,
         "comments": 1,
         "id": "32165747"
-      }
     ]
   }
 ]
