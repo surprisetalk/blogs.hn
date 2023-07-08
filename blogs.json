@@ -29034,5 +29034,78 @@
         "id": "33157609"
       }
     ]
+  },
+  {
+    "url": "https://cprimozic.net",
+    "title": "Casey Primozic's Technical Blog",
+    "feed": "https://cprimozic.b-cdn.net/rss.xml",
+    "keywords": "Casey Primozic, Ameo, AmeoBea",
+    "desc": "The technical blog of Casey Primozic / Ameo",
+    "hn": [
+      {
+        "created_at": "2023-01-16T10:32:12.000Z",
+        "title": "Reverse engineering a neural network's clever solution to binary addition",
+        "url": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/",
+        "points": 562,
+        "comments": 151,
+        "id": "34399142"
+      },
+      {
+        "created_at": "2021-12-31T09:06:33.000Z",
+        "title": "Self-Hosting Dozens of Web Applications and Services on a Single Server",
+        "url": "https://cprimozic.net/blog/my-selfhosted-websites-architecture/",
+        "points": 511,
+        "comments": 279,
+        "id": "29746223"
+      },
+      {
+        "created_at": "2021-07-04T19:53:02.000Z",
+        "title": "Speeding Up the Webcola Graph Viz Library with Rust and WebAssembly",
+        "url": "https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/",
+        "points": 218,
+        "comments": 25,
+        "id": "27732136"
+      },
+      {
+        "created_at": "2022-01-05T08:05:08.000Z",
+        "title": "My Evaluation of SvelteKit for Full-Stack Web App Development",
+        "url": "https://cprimozic.net/blog/trying-out-sveltekit/",
+        "points": 194,
+        "comments": 125,
+        "id": "29806385"
+      },
+      {
+        "created_at": "2023-05-20T10:00:36.000Z",
+        "title": "Building a Signal Analyzer with Modern Web Tech",
+        "url": "https://cprimozic.net/blog/building-a-signal-analyzer-with-modern-web-tech/",
+        "points": 138,
+        "comments": 30,
+        "id": "36010600"
+      },
+      {
+        "created_at": "2021-10-24T07:46:59.000Z",
+        "title": "Habits I've developed for fast and efficient programming",
+        "url": "https://cprimozic.net/blog/programming-speed-strategies/",
+        "points": 108,
+        "comments": 102,
+        "id": "28975714"
+      },
+      {
+        "created_at": "2022-04-03T08:46:23.000Z",
+        "title": "Exploring Neural Networks Visually in the Browser",
+        "url": "https://cprimozic.net/blog/neural-network-experiments-and-visualizations/",
+        "points": 84,
+        "comments": 8,
+        "id": "30895478"
+      },
+      {
+        "created_at": "2022-08-14T08:42:59.000Z",
+        "title": "Logic Through the Lens of Neural Networks",
+        "url": "https://cprimozic.net/blog/boolean-logic-with-neural-networks/",
+        "points": 11,
+        "comments": 3,
+        "id": "32457604"
+      }
+    ]
   }
 ]
