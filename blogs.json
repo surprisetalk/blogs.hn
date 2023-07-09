@@ -82,6 +82,22 @@
     ]
   },
   {
+    "url": "https://x0axz.com",
+    "title": "x0axz's Blog",
+    "about": "https://x0axz.com/about.html",
+    "desc": "This blog delves into machine intelligence, focusing on novel systems and algorithms, and provides comprehensive documentation with visuals and interactivity.",
+    "hn": [
+      {
+        "created_at": "2023-06-27T04:01:10.000Z",
+        "title": "Show HN: An Interactive Guide to Teach Derivatives and Backpropagation",
+        "url": "https://x0axz.com/blog/autograd.html",
+        "points": 119,
+        "comments": 9,
+        "id": "36488735"
+      }
+    ]
+  },
+  {
     "url": "https://0xbro.red",
     "title": "0xbro",
     "desc": "0xbro personal site and blog related to everything that surrounds ethical hacking, penetration testing, AppSec, CTFs, and other various cybersecurity stuff."
