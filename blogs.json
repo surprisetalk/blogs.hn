@@ -29375,6 +29375,12 @@
     ]
   },
   {
+    "url": "https://eieio.games",
+    "title": "eieio.games | eieio writes about games",
+    "feed": "https://eieio.games/feed.xml",
+    "desc": "A blog about learning to build games"
+  },
+  {
     "url": "https://til.simonwillison.net/",
     "title": "Simon Willison: TIL",
     "feed": "https://til.simonwillison.net/tils/feed.atom",
