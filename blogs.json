@@ -19702,6 +19702,12 @@
     "desc": "Jekyll Twitter Bootstrap is a Jekyll theme based on Twitter Bootstrap for easy customization by leveraging the Bootstrap framework for styling and layout.\n"
   },
   {
+    "url": "https://blog.artegoser.ru",
+    "title": "artegoser",
+    "feed": "https://blog.artegoser.ru/rss.xml",
+    "desc": "My personal blog about everything I do."
+  },
+  {
     "url": "https://seirdy.one",
     "title": "Seirdy's Home",
     "desc": "My personal IndieWeb site. I write about and develop software to promote user autonomy. Topics include accessibility, security, privacy, and software freedom.",
