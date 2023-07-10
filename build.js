@@ -33,10 +33,10 @@ for (const blog of blogs) {
     .replace(/^https?:\/\//, "")
     .replace(/[^A-Za-z0-9]/g, c => `<wbr/>${c}`);
   index += `<div class="blog">`;
-  index += `<h2><a href="${blog.url}" target="_blank">${link}</a></h2>`;
+  index += `<h2><a href="${blog.url}">${link}</a></h2>`;
   const linkTitles = ["about", "now", "feed", "news"];
   const links = [blog.about, blog.now, blog.feed, blog.news]
-    .map((x, i) => x && `<a href=${x} target="_blank">${linkTitles[i]}</a>`)
+    .map((x, i) => x && `<a href=${x}>${linkTitles[i]}</a>`)
     .filter(x => x)
     .join(" • ");
 
@@ -49,9 +49,9 @@ for (const blog of blogs) {
       index += `
         <tr>
           <td>${points}</td>
-          <td><a href="https://news.ycombinator.com/item?id=${id}" target="_blank">${comments}</a></td>
+          <td><a href="https://news.ycombinator.com/item?id=${id}">${comments}</a></td>
           <td>${created_at.slice(0, 4)}</td>
-          <td><a href="${url}" target="_blank">${title}</a></td>
+          <td><a href="${url}">${title}</a></td>
         </tr>
       `;
     index += `</table>`;
@@ -69,6 +69,13 @@ index += `
       main.parentNode.replaceChild(temp, main);
     }
     const x = document.getElementById('shuffle').style.display = 'initial';
+
+    const openLinksInNewTab = window.location.search.substring(1).split("&").includes("newTab"); 
+    const anchorTarget = openLinksInNewTab ? "_blank" : "_self";
+    const links = document.getElementById("index").getElementsByTagName("a");
+    for (let i = 0; i < links.length; i++) {
+        links[i].target = anchorTarget;
+    }
   </script>
 `;
 
