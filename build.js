@@ -69,6 +69,13 @@ index += `
       main.parentNode.replaceChild(temp, main);
     }
     const x = document.getElementById('shuffle').style.display = 'initial';
+
+    const openLinksInNewTab = window.location.search.substring(1).split("&").includes("newTab"); 
+    const anchorTarget = openLinksInNewTab ? "_blank" : "_self";
+    const links = document.getElementById("index").getElementsByTagName("a");
+    for (let i = 0; i < links.length; i++) {
+        links[i].target = anchorTarget;
+    }
   </script>
 `;
 
