@@ -19708,6 +19708,13 @@
     "desc": "My personal blog about everything I do."
   },
   {
+    "url": "https://antoniosbarotsis.github.io/",
+    "title": "Tony's Portfolio",
+    "about": "https://antoniosbarotsis.github.io/about",
+    "feed": "https://antoniosbarotsis.github.io/index.xml",
+    "desc": "Antonios Barotsis Portfolio Website"
+  },
+  {
     "url": "https://seirdy.one",
     "title": "Seirdy's Home",
     "desc": "My personal IndieWeb site. I write about and develop software to promote user autonomy. Topics include accessibility, security, privacy, and software freedom.",
