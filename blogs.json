@@ -29577,6 +29577,12 @@
     ]
   },
   {
+    "url": "https://www.zufallsheld.de/",
+    "title": "zufallsheld",
+    "feed": "https://www.zufallsheld.de/feeds/all.atom.xml",
+    "desc": "a tech blog",
+  },
+  {
     "url": "https://martinheinz.dev",
     "title": "Martin Heinz | Personal Website & Blog",
     "feed": "https://martinheinz.dev/rss",
