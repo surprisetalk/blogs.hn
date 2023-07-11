@@ -26585,15 +26585,15 @@
     ]
   },
   {
-    "url": "https://ericwbailey.design",
+    "url": "https://ericwbailey.website",
     "title": "\n  \n    Eric Bailey – Inclusive design advocate, writer, developer, and speaker\n  \n",
-    "feed": "https://ericwbailey.design/feed/feed.xml",
+    "feed": "https://ericwbailey.website/feed/feed.xml",
     "desc": "Inclusive design advocate, writer, developer, and speaker",
     "hn": [
       {
         "created_at": "2021-09-09T12:22:44.000Z",
         "title": "What they don’t tell you when you translate your app",
-        "url": "https://ericwbailey.design/writing/what-they-dont-tell-you-when-you-translate-your-app/",
+        "url": "https://ericwbailey.website/published/what-they-dont-tell-you-when-you-translate-your-app/",
         "points": 173,
         "comments": 230,
         "id": "28468853"
@@ -26601,7 +26601,7 @@
       {
         "created_at": "2021-04-07T23:46:02.000Z",
         "title": "I love my not-smart TV",
-        "url": "https://ericwbailey.design/writing/i-love-my-not-smart-tv/",
+        "url": "https://ericwbailey.website/published/i-love-my-not-smart-tv/",
         "points": 50,
         "comments": 48,
         "id": "26733126"
@@ -26609,7 +26609,7 @@
       {
         "created_at": "2022-04-09T20:18:06.000Z",
         "title": "Ham Biscuit on (2021)",
-        "url": "https://ericwbailey.design/writing/ham-biscuit-on/",
+        "url": "https://ericwbailey.website/published/ham-biscuit-on/",
         "points": 47,
         "comments": 21,
         "id": "30971626"
@@ -26617,7 +26617,7 @@
       {
         "created_at": "2021-10-27T08:26:18.000Z",
         "title": "Spear phishing with Slackbot for fun and profit",
-        "url": "https://ericwbailey.design/writing/spear-phishing-with-slackbot-for-fun-and-profit/",
+        "url": "https://ericwbailey.website/published/spear-phishing-with-slackbot-for-fun-and-profit/",
         "points": 45,
         "comments": 27,
         "id": "29010779"
@@ -26625,7 +26625,7 @@
       {
         "created_at": "2021-11-16T20:06:21.000Z",
         "title": "CSS Is an Interface",
-        "url": "https://ericwbailey.design/writing/your-css-is-an-interface/",
+        "url": "https://ericwbailey.website/published/your-css-is-an-interface/",
         "points": 31,
         "comments": 18,
         "id": "29245750"
