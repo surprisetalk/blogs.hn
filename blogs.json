@@ -29580,7 +29580,15 @@
     "url": "https://www.zufallsheld.de/",
     "title": "zufallsheld",
     "feed": "https://www.zufallsheld.de/feeds/all.atom.xml",
-    "desc": "a tech blog",
+    "desc": "a tech blog"
+  },
+  {
+    "url": "https://ttntm.me",
+    "title": "Tom's Homepage - ttntm.me",
+    "about": "https://ttntm.me/about",
+    "now": "https://ttntm.me/now",
+    "feed": "https://ttntm.me/feed.xml",
+    "desc": "Tom's blog about web development, IT and related topics."
   },
   {
     "url": "https://martinheinz.dev",
