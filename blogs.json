@@ -98,6 +98,39 @@
     ]
   },
   {
+    "url": "https://vitovan.com",
+    "title": "Vito Van",
+    "feed": "https://vitovan.com/rss.xml",
+    "about": "https://vitovan.com/about.html",
+    "desc": "Life sucks, right?",
+    "hn": [
+      {
+        "created_at": "2016-08-24T11:23:25",
+        "title": "Dinosaur and Lisp",
+        "url": "http://vito.sdf.org/dino.html",
+        "points": 237,
+        "comments": 95,
+        "id": "12351187"
+      },      
+      {
+        "created_at": "2023-06-05T15:31:33",
+        "title": "Porting Lisp Game to the Web",
+        "url": "https://vitovan.com/porting.html",
+        "points": 3,
+        "comments": 0,
+        "id": "36197723"
+      },
+      {
+        "created_at": "2023-02-20T15:27:57",
+        "title": "[flagged] Jack's Ass",
+        "url": "https://vitovan.com/jack.html",
+        "points": 66,
+        "comments": 24,
+        "id": "34868979"
+      }
+    ]
+  },  
+  {
     "url": "https://0xbro.red",
     "title": "0xbro",
     "desc": "0xbro personal site and blog related to everything that surrounds ethical hacking, penetration testing, AppSec, CTFs, and other various cybersecurity stuff."
