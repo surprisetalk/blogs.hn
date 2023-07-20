@@ -4306,6 +4306,12 @@
     ]
   },
   {
+    "url": "https://andrewnolan.dev/blogs",
+    "title": "Andrew Nolan's Blog",
+    "feed": "https://andrewnolan.dev/rss.xml",
+    "desc": "Talking about educational technology and other things I find fun!"
+  },
+  {
     "url": "https://blog.marcua.net",
     "title": "N=1 (marcua’s blog)",
     "feed": "https://blog.marcua.net/feed.xml",
