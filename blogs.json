@@ -98,6 +98,63 @@
     ]
   },
   {
+    "url": "https://pankajtanwar.in",
+    "title": "Pankaj Tanwar - CS Engineer, writer & creator.",
+    "about": "https://pankajtanwar.in/about",
+    "feed": "https://pankajtanwar.in/feed.xml",
+    "desc": "Pankaj Tanwar : A self-taught developer, writer & creator who loves to read, write and learn about tech.",
+    "hn": [
+      {
+        "created_at": "2021-10-25T09:30:12.000Z",
+        "title": "Show HN: I built a fake VS Code to browse live cricket score in office",
+        "url": "https://cric-code.pankajtanwar.in/",
+        "points": 674,
+        "comments": 209,
+        "id": "28985936"
+      },
+      {
+        "created_at": "2021-09-07T08:05:47.000Z",
+        "title": "The Basics of Apache Kafka",
+        "url": "https://www.pankajtanwar.in/blog/the-basics-you-need-to-know-about-kafka-graphic-explanation-ahead",
+        "points": 81,
+        "comments": 11,
+        "id": "28442230"
+      },
+      {
+        "created_at": "2021-08-19T05:28:11.000Z",
+        "title": "How database indexing works internally",
+        "url": "https://blog.pankajtanwar.in/how-database-indexing-actually-works-internally",
+        "points": 70,
+        "comments": 24,
+        "id": "28230641"
+      },
+      {
+        "created_at": "2021-09-01T13:54:29.000Z",
+        "title": "Prevent duplicate cron job running",
+        "url": "https://www.pankajtanwar.in/blog/prevent-duplicate-cron-job-running",
+        "points": 24,
+        "comments": 45,
+        "id": "28379835"
+      },
+      {
+        "created_at": "2022-02-12T23:41:16.000Z",
+        "title": "Show HN: I built a tool convert any image to ASCII Art",
+        "url": "https://asciiart.pankajtanwar.in/",
+        "points": 15,
+        "comments": 2,
+        "id": "30317512"
+      },
+      {
+        "created_at": "2021-09-22T11:12:03.000Z",
+        "title": "Client Side Load Balancing",
+        "url": "https://pankajtanwar.in/blog/system-design-is-client-side-load-balancing-a-good-idea",
+        "points": 11,
+        "comments": 0,
+        "id": "28615060"
+      }
+    ]
+  },
+  {
     "url": "https://vitovan.com",
     "title": "Vito Van",
     "feed": "https://vitovan.com/rss.xml",
