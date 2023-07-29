@@ -168,7 +168,7 @@
         "points": 237,
         "comments": 95,
         "id": "12351187"
-      },      
+      },
       {
         "created_at": "2023-06-05T15:31:33",
         "title": "Porting Lisp Game to the Web",
@@ -186,7 +186,13 @@
         "id": "34868979"
       }
     ]
-  },  
+  },
+  {
+    "url": "https://philipphagenlocher.de",
+    "title": "Hallöchen!",
+    "desc": "A personal blog by Philipp Hagenlocher, mainly about software and related topics.",
+    "feed": "https://philipphagenlocher.de/index.xml"
+  },
   {
     "url": "https://0xbro.red",
     "title": "0xbro",
