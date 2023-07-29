@@ -3029,6 +3029,14 @@
     "desc": "A personal blog about functional programming, category theory, chess, physics and linux topics"
   },
   {
+    "url": "https://miguelpimentel.do",
+    "title": "Miguel Pimentel",
+    "about": "https://miguelpimentel.do/about",
+    "now": "https://miguelpimentel.do/now",
+    "feed": "https://miguelpimentel.do/posts/index.xml",
+    "desc": "Dilligence. Constant practice. Personal Growth."
+  },
+  {
     "url": "https://beza1e1.tuxen.de",
     "title": "Andreas Zwinkau",
     "hn": [
