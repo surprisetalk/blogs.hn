@@ -9902,6 +9902,12 @@
     ]
   },
   {
+    "url": "https://rafibayer.github.io/",
+    "title": "Rafi's Blog",
+    "about": "https://rafibayer.github.io/about/",
+    "desc": "A blog about various programming topics, mostly focused on Rust and languages."
+  },
+  {
     "url": "https://fbrs.io",
     "title": "FBRS"
   },
