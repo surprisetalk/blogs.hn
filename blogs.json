@@ -193,11 +193,11 @@
     "desc": "A personal blog by Philipp Hagenlocher, mainly about software and related topics.",
     "feed": "https://philipphagenlocher.de/index.xml"
   },
-   {
+  {
     "url": "https://blog.myr.sh",
     "title": "brian's blog",
     "about": "https://blog.myr.sh",
-    "desc": "This is a small space on the internet that i post topics like programming, linux, mathematics and some random stuff.",
+    "desc": "This is a small space on the internet that i post topics like programming, linux, mathematics and some random stuff."
   },
   {
     "url": "https://0xbro.red",
