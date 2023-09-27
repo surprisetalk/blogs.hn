@@ -155,6 +155,23 @@
     ]
   },
   {
+    "url": "https://timharek.no",
+    "title": "Tim Hårek",
+    "about": "https://timharek.no/about",
+    "feed": "https://timharek.no/feed.xml",
+    "desc": "Technologist from Norway that cares about creating solutions that respects people in terms of privacy, security and user experience.",
+    "hn": [
+      {
+        "created_at": "2022-12-08T04:06:36.000Z",
+        "title": "You don't need live chat on your website",
+        "url": "https://timharek.no/blog/you-dont-need-chat-on-your-site/",
+        "points": 517,
+        "comments": 226,
+        "id": "33904017"
+      }
+    ]
+  },
+  {
     "url": "https://vitovan.com",
     "title": "Vito Van",
     "feed": "https://vitovan.com/rss.xml",
