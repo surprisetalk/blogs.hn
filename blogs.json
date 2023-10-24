@@ -10362,9 +10362,23 @@
     ]
   },
   {
-    "url": "https://gaseri.org",
-    "title": "GASERI",
-    "desc": "Group for Apps and Services on Exascale Research Infrastructure is a research, development, and teaching unit at FIDIT, UniRi."
+    "url": "https://group.miletic.net/en/blog/",
+    "title": "GASERI Blog",
+    "about": "https://group.miletic.net/en/",
+    "now": "https://group.miletic.net/",
+    "feed": "https://group.miletic.net/feed_rss_created.xml",
+    "keywords": "academia, computational chemistry, supercomputing, scientific software, open source, gromacs, cp2k, latex, markdown, mkdocs",
+    "desc": "Group for Apps and Services on Exascale Research Infrastructure is a research, development, and teaching unit at FIDIT + MedRi.",
+    "hn": [
+      {
+        "created_at": "2022-02-25T11:01:41Z",
+        "title": "Don't Use RAR",
+        "url": "https://group.miletic.net/en/blog/2022-02-24-dont-use-rar/",
+        "points": 209,
+        "comments": 209,
+        "id": "30465933"
+      }
+    ]
   },
   {
     "url": "https://gavinhoward.com",
