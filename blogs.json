@@ -29923,5 +29923,21 @@
         "id": "32165747"
       }
     ]
+  },
+  {
+    "url": "https://leonid.shevtsov.me",
+    "title": "Leonid Shevtsov - software architect and blogger",
+    "feed": "https://leonid.shevtsov.me/index.xml",
+    "desc": "🇺🇦 Ukrainian. Systems architect at Railsware. Open source enthusiast. Blog, talk, projects list. Ласкаво прошу!",
+    "hn": [
+      {
+        "created_at": "2023-05-18T18:43:40Z",
+        "title": "UUIDs are obsolete in the age of Docker",
+        "url": "https://leonid.shevtsov.me/post/uuids-are-obsolete/",
+        "points": 20,
+        "comments": 38,
+        "id": "35992325"
+      }
+    ]
   }
 ]
