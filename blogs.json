@@ -29576,6 +29576,12 @@
     "desc": "A blog about learning to build games"
   },
   {
+    "url": "https://ksbrooksjr.com/",
+    "title": "Home Page | Personal website of Keith Brooks",
+    "feed": "https://ksbrooksjr.com/rss.xml",
+    "desc": "This is the home page of Keith Brooks."
+  },
+  {
     "url": "https://til.simonwillison.net/",
     "title": "Simon Willison: TIL",
     "feed": "https://til.simonwillison.net/tils/feed.atom",
