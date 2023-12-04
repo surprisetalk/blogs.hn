@@ -22250,6 +22250,7 @@
   {
     "url": "https://thecodist.com",
     "title": "The Codist",
+    "feed": "https://thecodist.com/rss/"
     "desc": "Four Decades Of Learning, Experiences, And Adventures",
     "hn": [
       {
