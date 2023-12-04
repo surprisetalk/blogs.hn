@@ -13556,6 +13556,7 @@
   {
     "url": "https://leadership.garden",
     "title": "Leadership Garden",
+    "feed": "https://leadership.garden/feed/",
     "desc": "Your guide to engineering leadership",
     "hn": [
       {
@@ -22250,7 +22251,7 @@
   {
     "url": "https://thecodist.com",
     "title": "The Codist",
-    "feed": "https://thecodist.com/rss/"
+    "feed": "https://thecodist.com/rss/",
     "desc": "Four Decades Of Learning, Experiences, And Adventures",
     "hn": [
       {
