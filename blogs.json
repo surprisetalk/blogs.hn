@@ -214,6 +214,7 @@
     "url": "https://blog.myr.sh",
     "title": "brian's blog",
     "about": "https://blog.myr.sh",
+    "feed": "https://blog.myr.sh/feed.xml",
     "desc": "This is a small space on the internet that i post topics like programming, linux, mathematics and some random stuff."
   },
   {
