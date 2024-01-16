@@ -27677,6 +27677,13 @@
     "desc": "Tom's blog about web development, IT and related topics."
   },
   {
+    "url": "https://encapsulate.me",
+    "title": "Justin Higgins | Fun Internet Stuff",
+    "feed": "https:///encapsulate.me/rss.xml",
+    "now": "https://encapsulate.me/now",
+    "desc": "Justin Higgins' writings, ideas and Spicy Internet Fun"
+  },
+  {
     "url": "https://martinheinz.dev",
     "title": "Martin Heinz | Personal Website & Blog",
     "feed": "https://martinheinz.dev/rss",
