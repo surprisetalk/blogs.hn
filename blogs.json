@@ -4292,6 +4292,21 @@
     ]
   },
   {
+    "url": "https://justsujay.github.io",
+    "title": "Sujay's Feed",
+    "feed": "https://justsujay.github.io/index.xml",
+    "keywords": "Machine Learning, Data Science, Life, Reading, Writing, Exploration",
+    "hn": [
+      {
+        "title": "Ask HN: What are you reading these days?",
+        "url": "https://news.ycombinator.com/item?id=38237730",
+        "points": 112,
+        "comments": 281,
+        "id": "38237730"
+      }
+    ]
+  },
+  {
     "url": "https://blog.metaobject.com",
     "title": "metablog",
     "hn": [
