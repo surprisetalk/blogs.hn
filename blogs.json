@@ -11791,6 +11791,14 @@
     ]
   },
   {
+    "url": "https://diogoferreira.pt",
+    "title": "Diogo Ferreira",
+    "desc": "Just my personal blog, with a focus on technology.",
+    "about": "https://diogoferreira.pt/about",
+    "feed": "https://feedly.com/i/subscription/feed/https://diogoferreira.pt/rss/",
+    "keywords": "home automation, linux, tips, technology, 3d printing, diy"
+  },
+  {
     "url": "https://joisig.com",
     "title": "Posts | joisig gone awol",
     "feed": "https://joisig.com/feed.xml",
