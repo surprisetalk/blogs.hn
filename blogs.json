@@ -27732,6 +27732,19 @@
     "desc": "Justin Higgins' writings, ideas and Spicy Internet Fun"
   },
   {
+    "url": "https://blog.searchmysite.net",
+    "title": "Blog for searchmysite.net",
+    "feed": "https://blog.searchmysite.net/index.xml",
+    "desc": "Blog for searchmysite.net - the open source search engine and search as a service for user-submitted personal and independent websites"
+  },
+  {
+    "url": "https://michael-lewis.com/",
+    "title": "Michael I Lewis",
+    "about": "https://michael-lewis.com/about/",
+    "feed": "https://michael-lewis.com/posts/index.xml",
+    "desc": "Michael I Lewis personal website"
+  },
+  {
     "url": "https://martinheinz.dev",
     "title": "Martin Heinz | Personal Website & Blog",
     "feed": "https://martinheinz.dev/rss",
