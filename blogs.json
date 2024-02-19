@@ -27934,5 +27934,22 @@
     "desc": "Curating the most interesting news across AI, energy, crypto, and beyond.",
     "about": "https://twitter.com/pongolopod",
     "keywords": "AI, Energy, Crypto, Newsletter, Orangutans, Technology, Innovation, Sustainability, Blockchain, Renewable Energy, Cryptocurrency Trends, Futuristic Insights"
+  },
+  {
+    "url": "https://saeedesmaili.com",
+    "title": "Saeed Esmaili",
+    "feed": "https://saeedesmaili.com/posts/rss.xml",
+    "keywords": "data, data science, developer productivity, data analysis",
+    "desc": "I'm a data scientist based in Amsterdam, currently working at Spotify. I work on projects aimed at enhancing the productivity and experience of developers, using research and data analysis to inform our platform strategies.",
+    "hn": [
+      {
+        "created_at": "2023-07-06T14:47:58Z",
+        "title": "Demystifying Text Data with the Unstructured Python Library",
+        "url": "https://saeedesmaili.com/demystifying-text-data-with-the-unstructured-python-library/",
+        "points": 141,
+        "comments": 22,
+        "id": "36616799"
+      }
+    ]
   }
 ]
