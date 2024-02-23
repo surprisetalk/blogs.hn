@@ -15086,8 +15086,10 @@
   },
   {
     "url": "https://nelson.cloud",
-    "title": "Nelson Figueroa",
-    "feed": "https://nelson.cloud/index.xml"
+    "title": "Nelson Figueroa - Software Engineer",
+    "feed": "https://nelson.cloud/index.xml",
+    "desc": "A blog where I share things I learn in subjects like programming, cloud infrastructure, and cybersecurity among others.",
+    "keywords": "software, cybersecurity, programming, cloud, infrastructure, devops, ruby, ruby on rails, amazon web services, kubernetes, docker"
   },
   {
     "url": "https://nestenius.se",
