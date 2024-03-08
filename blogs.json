@@ -10290,6 +10290,13 @@
     "feed": "https://www.science.org/blogs/pipeline/feed"
   },
   {
+    "url": "https://massimo-nazaria.github.io/",
+    "title": "Massimo Nazaria | Blog",
+    "about": "https://massimo-nazaria.github.io/about.html",
+    "feed": "https://massimo-nazaria.github.io/feed.xml",
+    "desc": "Programming best practices plus random stuff I find interesting."
+  },
+  {
     "url": "https://hacdias.com",
     "title": "Henrique Dias",
     "feed": "https://hacdias.com/feed.xml",
