@@ -19785,45 +19785,29 @@
     "keywords": "meta",
     "desc": "I'm a multidisciplinary designer that has been writing, tinkering and publishing online since 2009. Occasionally I have conversations with interesting people.",
     "hn": [
-      {
-        "created_at": "2022-07-12T08:20:12.000Z",
-        "title": "A Children's Story Written and Illustrated by AI",
-        "url": "http://solomon.io/why-im-done-with-social-media-buttons/",
-        "points": 2,
-        "comments": 0,
-        "id": "33894011"
-      },
-      {
-        "created_at": "2022-07-30T15:00:26.000Z",
-        "title": "Improving Accessibility with Design Tokens",
-        "url": "http://solomon.io/why-im-done-with-social-media-buttons/",
-        "points": 1,
-        "comments": 0,
-        "id": "32289352"
-      },
-      {
-        "created_at": "2019-10-25T06:55:38.000Z",
-        "title": "Better Markdown in VS Code",
-        "url": "https://solomon.io/better-markdown-visual-studio-code/",
-        "points": 3,
-        "comments": 0,
-        "id": "21353721"
-      },
-      {
-        "created_at": "2014-02-13T17:37:44.000Z",
-        "title": "Why I'm Done With Social Media Buttons",
-        "url": "http://solomon.io/why-im-done-with-social-media-buttons/",
-        "points": 143,
-        "comments": 99,
-        "id": "7232738"
+         {
+        "created_at": "2024-02-02T17:37:44.000Z",
+        "title": "Designer News is Dead",
+        "url": "https://solomon.io/designer-news-is-dead/",
+        "points": 160,
+        "comments": 48,
+        "id": "39236777"
       },
       {
         "created_at": "2014-06-01T15:32:09.000Z",
         "title": "Websites are for Humans",
         "url": "http://solomon.io/websites-humans/",
-        "points": 14,
+        "points": 18,
         "comments": 2,
         "id": "7829475"
+      },
+      {
+        "created_at": "2014-02-13T17:37:44.000Z",
+        "title": "Why I'm Done With Social Media Buttons",
+        "url": "http://solomon.io/why-im-done-with-social-media-buttons/",
+        "points": 159,
+        "comments": 99,
+        "id": "7232738"
       }
     ]
   },
