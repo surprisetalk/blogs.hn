@@ -146,6 +146,12 @@
     ]
   },
   {
+    "url": "https://osc.garden",
+    "title": "Personal blog for data science, psychology, automation and whatever might inspire me.",
+    "feed": "https://osc.garden/atom.xml",
+    "keywords": "blog,python,data science,data visualization,psychology,automation,programming"
+  },
+  {
     "url": "https://x0axz.com",
     "title": "x0axz's Blog",
     "about": "https://x0axz.com/about.html",
