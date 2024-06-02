@@ -27947,7 +27947,17 @@
     "title": "Tom's Blog",
     "feed": "https://gagor.pro/index.xml",
     "keywords": "Blog,Technical,Automation,DevOps,Cloud,Linux,Leadership",
-    "desc": "Linux configuration, Automation, Security - Sysadmin/DevOps blog"
+    "desc": "Linux configuration, Automation, Security - Sysadmin/DevOps blog",
+    "hn": [
+      {
+        "created_at": "2024-04-27T19:09:00Z",
+        "title": "How I stopped worrying and loved Makefiles",
+        "url": "https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/",
+        "points": 227,
+        "comments": 140,
+        "id": "40182555"
+      }
+    ]
   },
   {
     "url": "https://saeedesmaili.com",
