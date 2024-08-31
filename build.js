@@ -17,7 +17,6 @@ for (const blog of blogs) {
   blog.title = (blog.title || "").trim();
   blog.desc = (blog.desc || "").trim();
   if (!blog.url) continue;
-  if (blog.title && blog.title === blog.desc) console.log(blog.title);
   if (
     3 >
     0 +
@@ -90,6 +89,7 @@ const about = `
     <p><a href="/">blogs.hn</a> is a directory of tech sites, primarily sourced from <a href="https://news.ycombinator.com">HackerNews</a>.</p>
     <p>To submit/update a blog, <a href="https://github.com/surprisetalk/blogs.hn/blob/main/blogs.json">edit blogs.json in a pull-request</a>.</p>
     <p>If you like sites with RSS feeds, consider checking out <a href="https://ooh.directory">ooh.directory</a>. If you don't have an RSS reader, I highly recommend <a href="https://reederapp.com">Reeder 5</a>.</p>
+    <p>You can import all the RSS feeds via <a href="/blogs.hn.opml" download>this OPML file</a>.</p>
     <p>And if you aren't already, <em>you should</em> <a href="https://www.benkuhn.net/writing/">write things on the internet</a>. All you need is <a href="https://github.com/surprisetalk/worstpress">worstpress</a> and some markdown files! You can <a href="mailto:hello@taylor.town">email me</a> if you need help getting started.</p>
     <p>Every blog is a window into a skull. Don't be afraid to ask questions and kindle friendships! Remember to be kind, courteous, and succinct.</p>
     <p>Thanks for stopping by.</p>
@@ -102,3 +102,30 @@ fs.writeFileSync(
   "./dist/about.html",
   template.replace("{{body}}", `<main id="about">${about}</main>`)
 );
+
+const escxml = unsafe => {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+      default: return c;
+    }
+  });
+};
+fs.writeFileSync(
+  "./dist/blogs.hn.opml",
+  `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>blogs.hn</title>
+  </head>
+  <body>
+${blogs.filter(blog => blog.title && blog.feed && blog.url).map(blog => `<outline type="rss" text="${escxml(blog.title.trim())}" title="${escxml(blog.title.trim())}" htmlUrl="${blog.url.trim()}" xmlUrl="${blog.feed.trim()}" />`.replace(/\s+/gi, " ")).join('\n')}
+  </body>
+</opml>`,
+  "utf-8"
+);
+

@@ -60,10 +60,12 @@ body {
 }
 header {
   padding: 1rem 2rem;
-  display: grid;
+  display: flex;
   gap: 0.5rem;
-  grid-template-columns: auto 1fr auto auto auto;
   align-items: baseline;
+}
+header > a:first-child {
+  margin-right: auto;
 }
 main {
   margin: 2rem 2rem 12rem;
