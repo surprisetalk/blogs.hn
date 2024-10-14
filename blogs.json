@@ -18068,6 +18068,14 @@
     "desc": "Read writing from Radu Zaharia on Medium. Still planning that trip to the Moon. Every day, Radu Zaharia and thousands of other voices read, write, and share important stories on Medium."
   },
   {
+    "url": "https://aitorres.com",
+    "title": "andrés ignacio torres",
+    "feed": "https://aitorres.com/feed/feed.xml",
+    "about": "https://aitorres.com/about/",
+    "keywords": "software, engineering, code, literature, books, programming",
+    "desc": "A software engineer rambling about code, literature and everything in between."
+  },
+  {
     "url": "https://raesene.github.io",
     "title": "Raesene's Ramblings",
     "feed": "https://raesene.github.io/feed.xml"
