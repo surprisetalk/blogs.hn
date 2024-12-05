@@ -19805,7 +19805,7 @@
     "keywords": "meta",
     "desc": "I'm a multidisciplinary designer that has been writing, tinkering and publishing online since 2009. Occasionally I have conversations with interesting people.",
     "hn": [
-         {
+      {
         "created_at": "2024-02-02T17:37:44.000Z",
         "title": "Designer News is Dead",
         "url": "https://solomon.io/designer-news-is-dead/",
@@ -27730,6 +27730,92 @@
     "title": "zufallsheld",
     "feed": "https://www.zufallsheld.de/feeds/all.atom.xml",
     "desc": "a tech blog"
+  },
+  {
+    "url": "https://www.todepond.com",
+    "title": "Todepond dot com",
+    "feed": "https://www.todepond.com/feed",
+    "hn": [
+      {
+        "created_at": "2023-11-22T13:02:26Z",
+        "title": "Are analytics good?",
+        "url": "https://www.todepond.com/wikiblogarden/social-media/analytics/",
+        "points": 87,
+        "comments": 42,
+        "id": "38378595"
+      },
+      {
+        "created_at": "2023-11-22T14:35:14Z",
+        "title": "Minification Is Evil",
+        "url": "https://www.todepond.com/wikiblogarden/better-computing/worse-computing/minification/",
+        "points": 46,
+        "comments": 89,
+        "id": "38379731"
+      },
+      {
+        "created_at": "2024-03-03T13:30:27Z",
+        "title": "AI Is Bad/Good Actually",
+        "url": "https://www.todepond.com/wikiblogarden/better-computing/worse-computing/artificial-intelligence/bad/good/",
+        "points": 28,
+        "comments": 45,
+        "id": "39580724"
+      },
+      {
+        "created_at": "2024-08-22T16:37:35Z",
+        "title": "Arroost: Unblocking Creation with Friends",
+        "url": "https://www.todepond.com/report/arroost/",
+        "points": 17,
+        "comments": 0,
+        "id": "41322001"
+      },
+      {
+        "created_at": "2024-01-28T16:31:10Z",
+        "title": "Just",
+        "url": "https://www.todepond.com/wikiblogarden/better-computing/just/",
+        "points": 13,
+        "comments": 8,
+        "id": "39167219"
+      },
+      {
+        "created_at": "2024-07-05T16:59:25Z",
+        "title": "I went to an algorave",
+        "url": "https://www.todepond.com/wikiblogarden/scrappy-fiddles/sharing/normalising/live/",
+        "points": 12,
+        "comments": 0,
+        "id": "40884313"
+      },
+      {
+        "created_at": "2024-01-31T16:16:01Z",
+        "title": "I don't like the word \"Just\"",
+        "url": "https://www.todepond.com/wikiblogarden/better-computing/just/",
+        "points": 3,
+        "comments": 5,
+        "id": "39205542"
+      }
+    ]
+  },
+  {
+    "url": "https://www.curiositry.com",
+    "title": "Curiositry writes & builds things",
+    "desc": "I craft code + content for the web, and write about software and amateur neuroscience. This is where you can find my whole eclectic collection of projects.",
+    "hn": [
+      {
+        "created_at": "2021-10-24T03:09:46Z",
+        "title": "Blog.txt",
+        "url": "https://www.curiositry.com/blog.txt",
+        "points": 35,
+        "comments": 25,
+        "id": "28974592"
+      },
+      {
+        "created_at": "2023-11-14T00:40:42Z",
+        "title": "Blog.txt",
+        "url": "https://www.curiositry.com/blog.txt",
+        "points": 9,
+        "comments": 5,
+        "id": "38257323"
+      }
+    ]
   },
   {
     "url": "https://ttntm.me",
