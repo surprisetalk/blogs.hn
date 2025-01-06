@@ -611,6 +611,22 @@
       }
     ]
   },
+    {
+    "url": "https://vale.rocks",
+    "title": "Vale.Rocks",
+    "feed": "https://vale.rocks/posts/feed.xml",
+    "desc": "The personal website of Declan Chidlow, known mononymously as Vale, containing my thoughts, musings, and otherwise unhinged ramblings.",
+    "hn": [
+      {
+        "created_at": "2024-05-01T11:13:56Z",
+        "title": "JPEG XL and Google's War Against It",
+        "url": "https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it",
+        "points": 77,
+        "comments": 35,
+        "id": "40221765"
+      }
+    ]
+  },
   {
     "url": "https://SeanKilleen.com",
     "feed": "https://seankilleen.com/feed.xml",
