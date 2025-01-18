@@ -15879,6 +15879,13 @@
     ]
   },
   {
+    "url": "https://blog.cavelab.dev",
+    "title": "Cavelab blog — Stories from the Cavelab",
+    "feed": "https://blog.cavelab.dev/index.xml",
+    "keywords": "linux, homelab, electronics",
+    "desc": "Stories from the Cavelab"
+  },
+  {
     "url": "https://notesbylex.com",
     "title": "Notes by Lex",
     "hn": [
