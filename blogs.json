@@ -386,6 +386,14 @@
     ]
   },
   {
+    "url": "https://ricos.site",
+    "title": "Home - Hi there 👋🏻 I am Rico. A programmer, traveler, photographer...",
+    "now": "https://ricos.site/now",
+    "feed": "https://ricos.site/feed.xml",
+    "keywords": "programming, traveling, photography, writing, newsletter, booknotes, travel stories, life, live and learn, quotes, trebeljahr, trebeljahr.com, ricotrebeljahr.com, ricotrebeljahr.de, ricos.site, Rico Trebeljahr, philosophy, Rico's Site, Rico's Blog, Rico's Writing, Rico's Work, Rico's Life, www.trebeljahr.com, ricos.blog, ricos.garden, ricos.wiki, wiki, blog",
+    "desc": "ricos.site - a website about the things Rico Trebeljahr does, reads and thinks about. The topics can vary widely, \nfrom programming, bio-chemistry, the brain, investing, physics, philosophy to photography, traveling and back..."
+  },
+  {
     "url": "https://56k-modem.online",
     "title": "56k-modem",
     "feed": "https://56k-modem.online/rss",
@@ -611,7 +619,7 @@
       }
     ]
   },
-    {
+  {
     "url": "https://vale.rocks",
     "title": "Vale.Rocks",
     "feed": "https://vale.rocks/posts/feed.xml",
