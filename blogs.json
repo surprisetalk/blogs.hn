@@ -20896,59 +20896,9 @@
   {
     "url": "https://taoofmac.com",
     "title": "Tao of Mac",
-    "feed": "https://taoofmac.com/feed",
-    "keywords": "12, 2023, 3d printing, 3dprinting, a-shell, agi, ai, apple, apple silicon, apps, ar, architecture, arm, art, autogpt, beta, bloat, books, build, chatgpt, coimbra, computing, copilot, development, directx, dualup, electron, emulation, enterprise, esim, ethernet, fedora, fountain, future, gaming, garden, gnome, godot, gpt, hack, hardware, harnesses, home automation, installation, ios, ipad, ipados, javascript, layoffs, lg, life, llm, m2, mac, macos, mail.app, maintenance, mathematics, mckinsey, metal, microsoft, mini, mission control, monitors, msbuild, msgfiler, networking, news, nintendo, nostalgia, notes, olympics, open source, openai, opinion, palace, performance, personal, photo, photography, plug-ins, policy, porto, portugal, pro, productivity, proxmox, pwa, python, rdp, retrobrighting, rss, safari, serralves, shareholder, sonoma, sqlite, stage manager, switch, task switching, ted lasso, tools, totk, travel, truphone, ux, value, ventura, venue, vim, vision pro, vmware, vr, wasm, watchos, web, weekend, weekly, windows, wine, wwdc, zelda",
-    "desc": "Keeping Things Simple",
-    "hn": [
-      {
-        "created_at": "2016-03-07T18:57:52.000Z",
-        "title": "Python Patterns (2013)",
-        "url": "https://taoofmac.com/space/blog/2013/08/11/2300",
-        "points": 165,
-        "comments": 45,
-        "id": "11240729"
-      },
-      {
-        "created_at": "2021-03-20T22:14:16.000Z",
-        "title": "Building My Own Yahoo Pipes",
-        "url": "https://taoofmac.com/space/blog/2021/03/20/1945",
-        "points": 116,
-        "comments": 15,
-        "id": "26526436"
-      },
-      {
-        "created_at": "2021-08-12T07:14:27.000Z",
-        "title": "1Password Alternatives",
-        "url": "https://taoofmac.com/space/apps/1password",
-        "points": 23,
-        "comments": 7,
-        "id": "28153041"
-      },
-      {
-        "created_at": "2021-03-21T10:09:22.000Z",
-        "title": "Building my own Yahoo Pipes",
-        "url": "https://taoofmac.com/space/blog/2021/03/20/1945",
-        "points": 18,
-        "comments": 1,
-        "id": "26529364"
-      },
-      {
-        "created_at": "2022-10-01T12:02:36.000Z",
-        "title": "The Eleventh Commandment (2004)",
-        "url": "https://taoofmac.com/space/blog/2004/04/24#the-ten-commandments",
-        "points": 15,
-        "comments": 6,
-        "id": "33045956"
-      },
-      {
-        "created_at": "2023-07-09T19:35:14.000Z",
-        "title": "A Fediverse Update",
-        "url": "https://taoofmac.com/space/blog/2023/07/09/1800",
-        "points": 7,
-        "comments": 5,
-        "id": "36658058"
-      }
-    ]
+    "feed": "https://taoofmac.com/atom.xml",
+    "keywords": "3dprinting, a-shell, agi, ai, apple, architecture, arm, books,development, emulation, enterprise, fedora, gaming, godot, hardware, home automation, ios, ipad, ipados, macos, microsoft, networking, open source, photography, portugal, proxmox, python, rdp, vim, zelda",
+    "desc": "Keeping Things Simple"
   },
   {
     "url": "https://tashian.com",
