@@ -146,6 +146,32 @@
     ]
   },
   {
+      "url": "https://emulationonline.com",
+      "title": "Emulators and Retro System Deep-dives",
+      "feed": "https://www.emulationonline.com/index.xml",
+      "keywords": "emulators,emulation,reverse-engineering,retrocomputing,6502",
+      "about": "https://www.emulationonline.com/about",
+      "desc": "Blog about building emulators for classic systems, and how those systems work.",
+      "hn": [
+          {
+            "created_at": "2025-03-30T01:34:10 1743298450",
+            "title": "6502 as a Service",
+            "url": "https://www.emulationonline.com/systems/chiplab/6502-lab-available/",
+            "points": 12,
+            "comments": 4,
+            "id": "43520428"
+          },
+          {
+            "created_at": "2025-01-03T06:48:59 1735886939",
+            "title": "Chip-8 Emulation Introduction",
+            "url": "https://www.emulationonline.com/systems/chip8/intro/",
+            "points": 29,
+            "comments": 6,
+            "id": "42583204"
+          }
+      ]
+  },
+  {
     "url": "https://osc.garden",
     "title": "Personal blog for data science, psychology, automation and whatever might inspire me.",
     "feed": "https://osc.garden/atom.xml",
