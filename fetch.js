@@ -1,4 +1,3 @@
-const fetch = require("node-fetch");
 const axios = require("axios");
 const cheerio = require("cheerio");
 
@@ -21,7 +20,7 @@ const links = process.argv.slice(2);
         if (url.pathname === "/now") now = url.href;
         if (
           url.pathname.match(
-            /(\/index.xml|\/rss\.xml|\/feed\.xml|\/rss|\/feed|\.atom)$/
+            /(\/index.xml|\/rss\.xml|\/feed\.xml|\/rss|\/feed|\.atom)$/,
           )
         )
           feed = url.href;
@@ -32,11 +31,11 @@ const links = process.argv.slice(2);
           `https://hn.algolia.com/api/v1/search` +
             `?tags=story` +
             `&restrictSearchableAttributes=url` +
-            `&query=${encodeURIComponent(link.replace(/^https?:\/\//, ""))}`
+            `&query=${encodeURIComponent(link.replace(/^https?:\/\//, ""))}`,
         );
         const data = await alg.json();
         hn = data?.hits
-          ?.map(hit => ({
+          ?.map((hit) => ({
             created_at: hit.created_at,
             title: hit.title,
             url: hit.url,
@@ -44,7 +43,7 @@ const links = process.argv.slice(2);
             comments: hit.num_comments,
             id: hit.objectID,
           }))
-          ?.filter(hit => hit.points >= 10 || hit.comments >= 5);
+          ?.filter((hit) => hit.points >= 10 || hit.comments >= 5);
         if (!hn.length) hn = undefined;
       } catch (err) {
         console.error(`Error: ${err}`);
