@@ -23420,6 +23420,13 @@
     "desc": "This is my website, there are many like it, but this one is mine."
   },
   {
+    "url": "https://devintheshell.com",
+    "title": "dev.in.the.shell",
+    "about": "https://devintheshell.com/about",
+    "feed": "https://devintheshell.com/rss.xml",
+    "desc": "Yet another dev blog"
+  },
+  {
     "url": "https://jeff.glass",
     "title": "Jeff Glass",
     "feed": "https://jeff.glass/index.xml",
