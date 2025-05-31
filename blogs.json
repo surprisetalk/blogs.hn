@@ -37138,6 +37138,23 @@
     "desc": "Michael I Lewis personal website"
   },
   {
+    "url": "https://harrisonbroadbent.com",
+    "title": "Personal Website · Harrison Broadbent",
+    "about": "https://harrisonbroadbent.com/about",
+    "now": "https://harrisonbroadbent.com/now",
+    "desc": "My personal website.",
+    "hn": [
+      {
+        "created_at": "2025-03-11T02:49:23Z",
+        "title": "Cool native HTML elements you should already be using",
+        "url": "https://harrisonbroadbent.com/blog/cool-native-html-elements/",
+        "points": 75,
+        "comments": 12,
+        "id": "43328680"
+      }
+    ]
+  },
+  {
     "url": "https://martinheinz.dev",
     "title": "Martin Heinz | Personal Website & Blog",
     "feed": "https://martinheinz.dev/rss",
