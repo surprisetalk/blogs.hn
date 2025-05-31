@@ -202,6 +202,31 @@
     "keywords": "blog,python,data science,data visualization,psychology,automation,programming"
   },
   {
+    "url": "https://nabraj.com",
+    "title": "Nabraj NT",
+    "about": "https://nabraj.com",
+    "feed": "https://nabraj.com/rss.xml",
+    "desc": "NT's blog | Ramblings on tech and random topics.",
+    "hn": [
+      {
+        "created_at": "2025-02-15T18:21:10Z",
+        "title": "Basketball has evolved into a game of calculated decision-making",
+        "url": "https://nabraj.com/blog/basketball-solved-sport/",
+        "points": 126,
+        "comments": 261,
+        "id": "43060769"
+      },
+      {
+        "created_at": "2025-05-11T16:43:26Z",
+        "title": "Why is boarding a plane still a mess?",
+        "url": "https://nabraj.com/blog/boarding-methods/",
+        "points": 8,
+        "comments": 11,
+        "id": "43954986"
+      }
+    ]
+  },
+  {
     "url": "https://x0axz.com",
     "title": "x0axz's Blog",
     "about": "https://x0axz.com/about.html",
