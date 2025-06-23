@@ -37348,6 +37348,54 @@
     ]
   },
   {
+    "url": "https://bookofjoe.com",
+    "title": "bookofjoe",
+    "feed": "https://www.bookofjoe.com/index.rdf",
+    "desc": "World's most popular blogging anesthesiologist.",
+    "hn": [
+      {
+        "created_at": "2019-04-19T16:25:37Z",
+        "title": "1980 Atari 800 ad: “It will never become obsolete”",
+        "url": "https://www.bookofjoe.com/2014/07/1980-atari-800-ad-it-will-never-become-obsolete.html",
+        "points": 148,
+        "comments": 175,
+        "id": "19700803"
+      },
+      {
+        "created_at": "2019-03-07T22:35:01Z",
+        "title": "Why do old books smell? [video]",
+        "url": "https://www.bookofjoe.com/2019/03/why-do-old-books-smell.html",
+        "points": 79,
+        "comments": 17,
+        "id": "19333277"
+      },
+      {
+        "created_at": "2025-06-14T14:53:32Z",
+        "title": "Tetrachromatic Vision",
+        "url": "https://www.bookofjoe.com/2025/05/my-entry-32.html",
+        "points": 47,
+        "comments": 38,
+        "id": "44276765"
+      },
+      {
+        "created_at": "2023-07-16T20:19:07Z",
+        "title": "Japan's 'Evaporated People'",
+        "url": "https://www.bookofjoe.com/2023/07/japans-evaporated-people.html",
+        "points": 29,
+        "comments": 14,
+        "id": "36751031"
+      },
+      {
+        "created_at": "2023-11-04T15:56:21Z",
+        "title": "Michael Moore was once the youngest elected official in the U.S.",
+        "url": "https://www.bookofjoe.com/2011/09/michael-moore-was-once-the-youngest-elected-official-in-the-us.html",
+        "points": 2,
+        "comments": 8,
+        "id": "38142213"
+      }
+    ]
+  },
+  {
     "url": "https://leonid.shevtsov.me",
     "title": "Leonid Shevtsov - software architect and blogger",
     "feed": "https://leonid.shevtsov.me/index.xml",
