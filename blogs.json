@@ -1644,6 +1644,13 @@
     ]
   },
   {
+    "url": "https://peterspath.net/",
+    "title": "Peter's Path",
+    "about": "https://peterspath.net/about/",
+    "feed": "https://peterspath.net/rss.xml",
+    "desc": "Peter's Path is my personal endeavour to live a life of purpose through hiking, reading, and embracing the beauty of nature, faith, and ideas.",
+  },
+  {
     "url": "https://alexwlchan.net",
     "title": "alexwlchan",
     "desc": "Alex Chan's personal blog",
