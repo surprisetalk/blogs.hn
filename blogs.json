@@ -37443,6 +37443,39 @@
     ]
   },
   {
+    "url": "https://marnetto.net",
+    "title": "Annali da Samarcanda",
+    "feed": "https://marnetto.net/assets/index/rss.xml",
+    "desc": "Alberto Marnetto's technical blog",
+    "keywords": "retrocomputing,reverse engineering"
+    "hn": [
+      {
+        "created_at": "2025-08-13T12:42:00.000Z",
+        "title": "SuperSight: A graphical enhancement mod for Brøderbund's “Stunts”",
+        "url": "https://marnetto.net/2025/02/20/broderbund-stunts-1",
+        "points": 189,
+        "comments": 24,
+        "id": "44887744"
+      },
+      {
+        "created_at": "2025-01-1300:19:31.000Z",
+        "title": "Windows 95 and a Case of Font Drag and Drop",
+        "url": "https://marnetto.net/2025/01/12/2025-01-12-windows-95-fonts",
+        "points": 3,
+        "comments": 0,
+        "id": "42678524"
+      },
+      {
+        "created_at": "2024-12-03T13:44:59.000Z",
+        "title": "Tweaking Stunt Island's 30-year-old 3D engine",
+        "url": "https://marnetto.net/2024/11/20/tweaking-stunt-island",
+        "points": 209,
+        "comments": 47,
+        "id": "35438068"
+      },
+    ]
+  },  
+  {
     "url": "https://saeedesmaili.com",
     "title": "Saeed Esmaili",
     "feed": "https://saeedesmaili.com/posts/rss.xml",
