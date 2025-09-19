@@ -8,7 +8,7 @@ const template = fs.readFileSync("./template.html", "utf-8");
 
 const blogs = require("./blogs.json");
 
-const sum = xs => (xs || []).reduce((a, b) => a + b, 0);
+const sum = (xs) => (xs || []).reduce((a, b) => a + b, 0);
 blogs.sort(() => Math.random() - 0.5);
 // blogs.sort((a, b) => (sum(b?.hn?.map(x => x.points + x.comments)) || 0) - (sum(a?.hn?.map(x => x.points + x.comments)) || 0));
 
@@ -30,16 +30,16 @@ for (const blog of blogs) {
     continue;
   const link = blog.url
     .replace(/^https?:\/\//, "")
-    .replace(/[^A-Za-z0-9]/g, c => `<wbr/>${c}`);
+    .replace(/[^A-Za-z0-9]/g, (c) => `<wbr/>${c}`);
   index += `<div class="blog">`;
   index += `<h2><a href="${blog.url}">${link}</a></h2>`;
   const linkTitles = ["about", "now", "feed", "news"];
   const links = [blog.about, blog.now, blog.feed, blog.news]
     .map((x, i) => x && `<a href=${x}>${linkTitles[i]}</a>`)
-    .filter(x => x)
+    .filter((x) => x)
     .join(" • ");
 
-  const title_ = [blog.title, links].filter(x => x).join(` • `);
+  const title_ = [blog.title, links].filter((x) => x).join(` • `);
   if (title_) index += `<p><strong>${title_}</strong></p>`;
   if (blog.desc) index += `<p class="small"><em>${blog.desc}</em></p>`;
   if (blog.hn) {
@@ -80,7 +80,7 @@ index += `
 
 fs.writeFileSync(
   "./dist/index.html",
-  template.replace("{{body}}", `<main id="index">${index}</main>`)
+  template.replace("{{body}}", `<main id="index">${index}</main>`),
 );
 
 const about = `
@@ -100,18 +100,24 @@ const about = `
 
 fs.writeFileSync(
   "./dist/about.html",
-  template.replace("{{body}}", `<main id="about">${about}</main>`)
+  template.replace("{{body}}", `<main id="about">${about}</main>`),
 );
 
-const escxml = unsafe => {
+const escxml = (unsafe) => {
   return unsafe.replace(/[<>&'"]/g, (c) => {
     switch (c) {
-      case '<': return '&lt;';
-      case '>': return '&gt;';
-      case '&': return '&amp;';
-      case '\'': return '&apos;';
-      case '"': return '&quot;';
-      default: return c;
+      case "<":
+        return "&lt;";
+      case ">":
+        return "&gt;";
+      case "&":
+        return "&amp;";
+      case "'":
+        return "&apos;";
+      case '"':
+        return "&quot;";
+      default:
+        return c;
     }
   });
 };
@@ -123,9 +129,22 @@ fs.writeFileSync(
     <title>blogs.hn</title>
   </head>
   <body>
-${blogs.filter(blog => blog.title && blog.feed && blog.url).map(blog => `<outline type="rss" text="${escxml(blog.title.trim())}" title="${escxml(blog.title.trim())}" htmlUrl="${blog.url.trim()}" xmlUrl="${blog.feed.trim()}" />`.replace(/\s+/gi, " ")).join('\n')}
+${blogs
+  .filter((blog) => blog.title && blog.feed && blog.url)
+  .map((blog) =>
+    `<outline type="rss" text="${escxml(blog.title.trim())}" title="${escxml(blog.title.trim())}" htmlUrl="${blog.url.trim()}" xmlUrl="${blog.feed.trim()}" />`.replace(
+      /\s+/gi,
+      " ",
+    ),
+  )
+  .join("\n")}
   </body>
 </opml>`,
-  "utf-8"
+  "utf-8",
 );
 
+fs.writeFileSync(
+  "./dist/_headers",
+  ["/*.opml", "  Content-Type: text/xml"].join("\n"),
+  "utf-8",
+);

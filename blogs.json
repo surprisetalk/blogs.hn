@@ -1648,7 +1648,7 @@
     "title": "Peter's Path",
     "about": "https://peterspath.net/about/",
     "feed": "https://peterspath.net/rss.xml",
-    "desc": "Peter's Path is my personal endeavour to live a life of purpose through hiking, reading, and embracing the beauty of nature, faith, and ideas.",
+    "desc": "Peter's Path is my personal endeavour to live a life of purpose through hiking, reading, and embracing the beauty of nature, faith, and ideas."
   },
   {
     "url": "https://alexwlchan.net",
@@ -37447,7 +37447,7 @@
     "title": "Annali da Samarcanda",
     "feed": "https://marnetto.net/assets/index/rss.xml",
     "desc": "Alberto Marnetto's technical blog",
-    "keywords": "retrocomputing,reverse engineering"
+    "keywords": "retrocomputing,reverse engineering",
     "hn": [
       {
         "created_at": "2025-08-13T12:42:00.000Z",
@@ -37472,9 +37472,9 @@
         "points": 209,
         "comments": 47,
         "id": "35438068"
-      },
+      }
     ]
-  },  
+  },
   {
     "url": "https://saeedesmaili.com",
     "title": "Saeed Esmaili",
