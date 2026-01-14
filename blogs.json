@@ -5224,6 +5224,22 @@
     ]
   },
   {
+    "url": "https://logdahl.net",
+    "title": "logdahl.net",
+    "feed": "https://logdahl.net/rss.xml",
+    "desc": "Olle's Web Ventures",
+    "hn": [
+      {
+        "created_at": "2025-05-20T15:57:01Z",
+        "title": "GPU-Driven Clustered Forward Renderer",
+        "url": "https://logdahl.net/p/gpu-driven",
+        "points": 116,
+        "comments": 28,
+        "id": "44043045"
+      }
+    ]
+  },
+  {
     "url": "https://blog.jessewalling.com",
     "title": "Jesse’s Window | Presenting insights into my current passions - including but not limited to software development, cyber security, system administration, cryptocurrency, and art.",
     "feed": "https://blog.jessewalling.com/feed.xml",
