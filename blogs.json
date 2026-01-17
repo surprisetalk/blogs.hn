@@ -30949,17 +30949,9 @@
     ]
   },
   {
-    "url": "https://xtao.org",
-    "title": "TAO",
+    "url": "https://btao.org",
+    "title": "Tao Bojlén",
     "hn": [
-      {
-        "created_at": "2021-10-03T17:57:19Z",
-        "title": "Removing my site from Google search",
-        "url": "https://www.btao.org/2021/10/03/removing-from-google/",
-        "points": 215,
-        "comments": 109,
-        "id": "28739081"
-      },
       {
         "created_at": "2020-10-03T18:51:42Z",
         "title": "A web of trust for NPM",
