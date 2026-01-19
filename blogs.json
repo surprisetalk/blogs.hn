@@ -33253,7 +33253,7 @@
     "feed": "https://paperclipmaximizer.net/feed.xml"
   },
   {
-    "url": "https://www.2uo.de",
+    "url": "https://2uo.de",
     "title": "Thomas' Digital Garden",
     "desc": "My collection of things I've learned.",
     "hn": [
@@ -33405,172 +33405,6 @@
   {
     "url": "https://nullhex.com",
     "title": "Nullhex"
-  },
-  {
-    "url": "https://www.stavros.io",
-    "title": "Software development et al - Stavros' Stuff",
-    "hn": [
-      {
-        "created_at": "2015-12-24T12:38:02Z",
-        "title": "Open Letter to Mozilla: Bring Back Persona",
-        "url": "http://www.stavros.io/posts/open-letter-mozilla-bring-back-persona/",
-        "points": 905,
-        "comments": 237,
-        "id": "10787972"
-      },
-      {
-        "created_at": "2019-06-24T09:41:37Z",
-        "title": "I just had over a thousand Euros stolen and Revolut is siding with the thief",
-        "url": "https://www.stavros.io/posts/revolut-doesnt-care-about-you/",
-        "points": 705,
-        "comments": 352,
-        "id": "20261823"
-      },
-      {
-        "created_at": "2019-10-02T10:25:01Z",
-        "title": "Show HN: Ledonardo, my light painting hardware project",
-        "url": "https://www.stavros.io/posts/behold-ledonardo/?",
-        "points": 442,
-        "comments": 91,
-        "id": "21134903"
-      },
-      {
-        "created_at": "2013-11-15T13:42:06Z",
-        "title": "Winning at Candy Crush",
-        "url": "http://www.stavros.io/posts/winning-candy-crush/?",
-        "points": 409,
-        "comments": 144,
-        "id": "6739315"
-      },
-      {
-        "created_at": "2025-10-09T08:53:30Z",
-        "title": "Why is everything so scalable?",
-        "url": "https://www.stavros.io/posts/why-is-everything-so-scalable/",
-        "points": 408,
-        "comments": 370,
-        "id": "45525168"
-      },
-      {
-        "created_at": "2016-11-22T11:33:51Z",
-        "title": "Show HN: Spamnesty: Waste spammers' time",
-        "url": "https://www.stavros.io/posts/spamnesty-waste-spammers-time/",
-        "points": 405,
-        "comments": 183,
-        "id": "13013327"
-      },
-      {
-        "created_at": "2020-02-14T15:45:58Z",
-        "title": "I made my own PCBs with a 3D printer",
-        "url": "https://www.stavros.io/posts/make-pcbs-at-home/",
-        "points": 285,
-        "comments": 144,
-        "id": "22327467"
-      },
-      {
-        "created_at": "2015-10-06T09:54:48Z",
-        "title": "The microservices cargo cult",
-        "url": "http://www.stavros.io/posts/microservices-cargo-cult/",
-        "points": 277,
-        "comments": 173,
-        "id": "10337763"
-      },
-      {
-        "created_at": "2021-01-25T11:55:23Z",
-        "title": "Show HN: I made an alarm clock",
-        "url": "https://www.stavros.io/posts/do-not-be-alarmed-clock/",
-        "points": 271,
-        "comments": 192,
-        "id": "25902165"
-      },
-      {
-        "created_at": "2020-06-10T02:45:15Z",
-        "title": "Writing a full-text search engine using Bloom filters (2013)",
-        "url": "https://www.stavros.io/posts/bloom-filter-search-engine/",
-        "points": 258,
-        "comments": 44,
-        "id": "23473365"
-      },
-      {
-        "created_at": "2013-09-01T11:15:13Z",
-        "title": "Brilliant or insane code?",
-        "url": "http://www.stavros.io/posts/brilliant-or-insane-code/",
-        "points": 250,
-        "comments": 107,
-        "id": "6309853"
-      },
-      {
-        "created_at": "2015-05-27T11:07:12Z",
-        "title": "Show HN: An old rotary phone converted into a mobile phone",
-        "url": "http://www.stavros.io/posts/irotary-saga/",
-        "points": 222,
-        "comments": 61,
-        "id": "9610509"
-      },
-      {
-        "created_at": "2021-04-13T10:46:25Z",
-        "title": "Show HN: I made a 5-key keyboard",
-        "url": "https://www.stavros.io/posts/keyyyyyyyys/",
-        "points": 221,
-        "comments": 224,
-        "id": "26790486"
-      },
-      {
-        "created_at": "2025-11-12T09:37:41Z",
-        "title": "I converted a rotary phone into a meeting handset",
-        "url": "https://www.stavros.io/posts/i-converted-a-rotary-phone-into-a-meeting-handset/",
-        "points": 167,
-        "comments": 70,
-        "id": "45898185"
-      },
-      {
-        "created_at": "2017-05-29T10:53:19Z",
-        "title": "The scourge of web analytics",
-        "url": "https://www.stavros.io/posts/scourge-web-analytics/",
-        "points": 160,
-        "comments": 79,
-        "id": "14438487"
-      },
-      {
-        "created_at": "2025-10-09T15:31:38Z",
-        "title": "I made a small LED panel",
-        "url": "https://www.stavros.io/posts/really-small-led-panel/",
-        "points": 154,
-        "comments": 81,
-        "id": "45529120"
-      },
-      {
-        "created_at": "2020-06-30T12:53:13Z",
-        "title": "How to use FIDO2 USB keys with SSH",
-        "url": "https://www.stavros.io/posts/u2f-fido2-with-ssh/",
-        "points": 147,
-        "comments": 97,
-        "id": "23689499"
-      },
-      {
-        "created_at": "2013-11-04T12:53:43Z",
-        "title": "Writing a FUSE filesystem in Python",
-        "url": "http://www.stavros.io/posts/python-fuse-filesystem/",
-        "points": 142,
-        "comments": 48,
-        "id": "6668232"
-      },
-      {
-        "created_at": "2016-07-20T11:16:01Z",
-        "title": "Show HN: I connected my house lights to video games",
-        "url": "https://www.stavros.io/posts/wifi-enabled-rgb-led-strip-controller/",
-        "points": 127,
-        "comments": 31,
-        "id": "12128147"
-      },
-      {
-        "created_at": "2017-01-11T12:51:33Z",
-        "title": "Show HN: The Bus Stop Bus",
-        "url": "https://www.stavros.io/posts/bus-stop-bus/",
-        "points": 125,
-        "comments": 22,
-        "id": "13373558"
-      }
-    ]
   },
   {
     "url": "https://diyarciftci.xyz",
@@ -37595,7 +37429,7 @@
     ]
   },
   {
-    "url": "https://www.jvt.me",
+    "url": "https://jvt.me",
     "title": "Jamie Tanna | Software Engineer",
     "feed": "https://www.jvt.me/feed.xml?atom",
     "desc": "",
@@ -38643,7 +38477,7 @@
     ]
   },
   {
-    "url": "https://www.zufallsheld.de/",
+    "url": "https://zufallsheld.de/",
     "title": "zufallsheld",
     "feed": "https://www.zufallsheld.de/feeds/all.atom.xml",
     "desc": "a tech blog",
@@ -38667,7 +38501,7 @@
     ]
   },
   {
-    "url": "https://www.todepond.com",
+    "url": "https://todepond.com",
     "title": "Todepond dot com",
     "feed": "https://www.todepond.com/feed",
     "hn": [
@@ -38738,7 +38572,7 @@
     ]
   },
   {
-    "url": "https://www.curiositry.com",
+    "url": "https://curiositry.com",
     "title": "Curiositry writes & builds things",
     "desc": "I craft code + content for the web, and write about software and amateur neuroscience. This is where you can find my whole eclectic collection of projects.",
     "hn": [
@@ -50250,125 +50084,6 @@
     ]
   },
   {
-    "url": "https://jvt.me",
-    "title": "Jamie Tanna | Software Engineer",
-    "feed": "https://jvt.me/feed.xml",
-    "hn": [
-      {
-        "created_at": "2025-01-27T20:33:43Z",
-        "title": "Go 1.24's go tool is one of the best additions to the ecosystem in years",
-        "url": "https://www.jvt.me/posts/2025/01/27/go-tools-124/",
-        "points": 290,
-        "comments": 194,
-        "id": "42845323"
-      },
-      {
-        "created_at": "2020-09-02T12:01:00Z",
-        "title": "Why I Actively Discourage Online Tooling like jwt.io and Online JSON Validators",
-        "url": "https://www.jvt.me/posts/2020/09/01/against-online-tooling/",
-        "points": 202,
-        "comments": 164,
-        "id": "24352360"
-      },
-      {
-        "created_at": "2022-05-08T09:40:59Z",
-        "title": "Lessons learned from the recent job hunt",
-        "url": "https://www.jvt.me/posts/2022/05/02/lessons-learned-job-hunt/",
-        "points": 194,
-        "comments": 305,
-        "id": "31302572"
-      },
-      {
-        "created_at": "2024-04-12T10:35:48Z",
-        "title": "Why I recommend Renovate over any other dependency update tools",
-        "url": "https://www.jvt.me/posts/2024/04/12/use-renovate/",
-        "points": 185,
-        "comments": 73,
-        "id": "40011111"
-      },
-      {
-        "created_at": "2022-10-12T06:04:42Z",
-        "title": "Lessons learned since posting my salary history publicly",
-        "url": "https://www.jvt.me/posts/2022/09/21/year-later-salary-history/",
-        "points": 128,
-        "comments": 162,
-        "id": "33173450"
-      },
-      {
-        "created_at": "2024-07-12T20:42:25Z",
-        "title": "Things I know about Git commits",
-        "url": "https://www.jvt.me/posts/2024/07/12/things-know-commits/",
-        "points": 118,
-        "comments": 101,
-        "id": "40949229"
-      },
-      {
-        "created_at": "2022-08-17T09:57:02Z",
-        "title": "Learning a new language, or how I gained familiarity with Go",
-        "url": "https://www.jvt.me/posts/2022/08/12/learning-new-language-go/",
-        "points": 117,
-        "comments": 56,
-        "id": "32494244"
-      },
-      {
-        "created_at": "2020-03-09T00:07:06Z",
-        "title": "Google confirms microformats are still a supported metadata format for content",
-        "url": "https://www.jvt.me/posts/2020/03/02/google-microformats-support/",
-        "points": 102,
-        "comments": 40,
-        "id": "22521666"
-      },
-      {
-        "created_at": "2023-02-09T21:29:40Z",
-        "title": "My Salary History",
-        "url": "https://www.jvt.me/salary/",
-        "points": 93,
-        "comments": 159,
-        "id": "34731790"
-      },
-      {
-        "created_at": "2024-02-26T14:41:05Z",
-        "title": "Job Titles Are Bullshit",
-        "url": "https://www.jvt.me/posts/2024/02/26/job-titles-bullshit/",
-        "points": 47,
-        "comments": 46,
-        "id": "39511732"
-      },
-      {
-        "created_at": "2024-08-27T06:36:17Z",
-        "title": "You're not mature enough to release your first version as v1",
-        "url": "https://www.jvt.me/posts/2024/08/26/v0/",
-        "points": 18,
-        "comments": 15,
-        "id": "41365048"
-      },
-      {
-        "created_at": "2025-02-25T04:26:10Z",
-        "title": "Some useful SQL(ite) tips I've learned",
-        "url": "https://www.jvt.me/posts/2024/12/05/sql-tidbits/",
-        "points": 13,
-        "comments": 0,
-        "id": "43168172"
-      },
-      {
-        "created_at": "2020-09-01T14:26:58Z",
-        "title": "Why I Actively Discourage Online Tooling Like Jwt.io and Online JSON Validators",
-        "url": "https://www.jvt.me/posts/2020/09/01/against-online-tooling/",
-        "points": 11,
-        "comments": 6,
-        "id": "24342063"
-      },
-      {
-        "created_at": "2018-12-11T09:11:19Z",
-        "title": "Unit Testing Your TYK (TYKJS) Middleware",
-        "url": "https://u.jvt.me/2zUEUvN",
-        "points": 11,
-        "comments": 0,
-        "id": "18654061"
-      }
-    ]
-  },
-  {
     "url": "https://jzhao.xyz",
     "title": "jzhao.xyz",
     "feed": "https://jzhao.xyz/index.xml",
@@ -60926,14 +60641,14 @@
     ]
   },
   {
-    "url": "https://www.absurd.wtf",
+    "url": "https://absurd.wtf",
     "title": "Absurd",
     "feed": "https://www.absurd.wtf/rss.xml",
     "keywords": "linux, unix, slackware, distribution, blog",
     "desc": "Everything is absurd."
   },
   {
-    "url": "https://www.adambourg.com",
+    "url": "https://adambourg.com",
     "title": "Adam’s Rambling Blog | Ramblings from an ADHD brain that sometimes feature something about software",
     "about": "https://www.adambourg.com/about",
     "feed": "https://www.adambourg.com/feed.xml",
@@ -60990,486 +60705,38 @@
     ]
   },
   {
-    "url": "https://www.adammelnyk.ca",
+    "url": "https://adammelnyk.ca",
     "title": "Adam Melnyk",
     "feed": "https://adammelnyk.ca/index.xml",
     "keywords": "personal,website,blog,goa,hugo,developer",
     "desc": "Adam's webpage"
   },
   {
-    "url": "https://www.aizk.sh",
-    "title": "Aizk's Site",
-    "desc": "Civil Engineer and Software Developer",
-    "hn": [
-      {
-        "created_at": "2025-03-25T06:09:11Z",
-        "title": "Reflecting on WikiTok",
-        "url": "https://www.aizk.sh/posts/reflecting-on-wikitok",
-        "points": 158,
-        "comments": 46,
-        "id": "43468491"
-      }
-    ]
-  },
-  {
-    "url": "https://www.anders.co",
-    "title": "Anders Ramsay - Designing and Building Digital Products",
-    "about": "https://www.anders.co/about",
-    "desc": "Anders Ramsay's personal site, where he writes about designing and building digital products.",
-    "hn": [
-      {
-        "created_at": "2009-12-01T17:53:46Z",
-        "title": "Asterisk vs. FreeSWITCH",
-        "url": "http://www.anders.com/cms/266",
-        "points": 8,
-        "comments": 9,
-        "id": "970213"
-      }
-    ]
-  },
-  {
-    "url": "https://www.andrelgomes.com",
-    "title": "Andre L Gomes Blog",
-    "about": "https://www.andrelgomes.com/about",
-    "feed": "https://www.andrelgomes.com/feed.xml",
-    "desc": "Andre Gomes Personal Blog"
-  },
-  {
-    "url": "https://www.argpar.se",
-    "title": "Argparse",
-    "desc": "A site about how to become a better programmer and personal thoughts that Jonathan has.",
-    "hn": [
-      {
-        "created_at": "2019-06-21T15:26:19Z",
-        "title": "Remember Rust with Anki",
-        "url": "https://www.argpar.se/posts/programming/remembering-rust-with-anki/",
-        "points": 77,
-        "comments": 34,
-        "id": "20243335"
-      },
-      {
-        "created_at": "2024-12-18T17:20:12Z",
-        "title": "Efficient German Language Learning: Is Anki the Answer?",
-        "url": "https://www.argpar.se/posts/misc/efficient-german-language-learning-is-anki-the-answer",
-        "points": 56,
-        "comments": 93,
-        "id": "42452527"
-      }
-    ]
-  },
-  {
-    "url": "https://www.arm64.ca",
+    "url": "https://arm64.ca",
     "title": "Adam's Blag",
     "feed": "https://www.arm64.ca/index.xml"
   },
   {
-    "url": "https://www.arulpugazh.com",
-    "title": "Arul Pugazhendi - Machine Learning Engineer, Full Stack developer, and founder",
-    "about": "https://www.arulpugazh.com/about",
-    "feed": "https://www.arulpugazh.com/arulpugazh.com/feed.xml",
-    "desc": "I'm Arul, a software engineer and entrepreneur based in Edmonton, Canada. I'm the founder of Tensorhub Solutions Inc., where we develop technologies that transform traditional software solutions with AI "
-  },
-  {
-    "url": "https://www.arunkant.com",
-    "title": "From first principles",
-    "feed": "https://www.arunkant.com/feed.xml"
-  },
-  {
-    "url": "https://www.awanderingmind.blog",
-    "title": "awanderingmind - Home",
-    "feed": "https://www.awanderingmind.blog/rss.xml",
-    "keywords": "awanderingmind,blog",
-    "desc": "A blog containing essays, of varying cogency, about various things that my mind have wandered to.",
-    "hn": [
-      {
-        "created_at": "2021-11-26T12:35:15Z",
-        "title": "Kropotkin's 'The Conquest of Bread'",
-        "url": "https://www.awanderingmind.blog/posts/2021-10-30-book-review-conquest-of-bread.html",
-        "points": 193,
-        "comments": 113,
-        "id": "29349688"
-      },
-      {
-        "created_at": "2022-08-09T18:08:40Z",
-        "title": "The state of South Africa, 28ish years post-apartheid",
-        "url": "https://www.awanderingmind.blog/posts/2022-07-30-state-of-south-africa.html",
-        "points": 140,
-        "comments": 191,
-        "id": "32401564"
-      },
-      {
-        "created_at": "2025-05-19T07:40:24Z",
-        "title": "What does the end of mathematics look like?",
-        "url": "https://www.awanderingmind.blog/posts/2025-05-18-what-does-the-end-of-mathematics-look-like.html",
-        "points": 62,
-        "comments": 86,
-        "id": "44027379"
-      },
-      {
-        "created_at": "2022-12-25T18:18:51Z",
-        "title": "Geometric Algebra and Classical Mechanics",
-        "url": "https://www.awanderingmind.blog/posts/2022-12-25-introduction-to-geometric-algebra.html",
-        "points": 27,
-        "comments": 1,
-        "id": "34129624"
-      }
-    ]
-  },
-  {
-    "url": "https://www.bemben.co.uk",
+    "url": "https://bemben.co.uk",
     "title": "damian bemben",
     "feed": "https://www.bemben.co.uk/rss.xml",
     "desc": "A small template website, containing a few different projects."
   },
   {
-    "url": "https://www.benbyford.com",
-    "title": "<Ben Byford>Portfolio</Ben Byford>",
-    "feed": "https://www.benbyford.com/experiments/rss",
-    "desc": "Portfolio and musings of Ben Byford. Podcaster of Machine Ethics and Ethical by Design Artificial Intelligence consultant. Computer games and web designer."
-  },
-  {
-    "url": "https://www.blakeburch.com",
-    "title": "Home | Blake Burch",
-    "about": "https://www.blakeburch.com/about",
-    "now": "https://www.blakeburch.com/now",
-    "desc": "Get in touch with Blake Burch for projects related to data strategy or AI."
-  },
-  {
-    "url": "https://www.bramadams.dev",
-    "title": "Bram Adams",
-    "desc": "Bram Adams (@bramses) is building Your Commonbase, a self organizing scrapbook.",
-    "hn": [
-      {
-        "created_at": "2022-05-28T00:16:17Z",
-        "title": "Investing in lighting did great things for my mental and physical health",
-        "url": "https://www.bramadams.dev/projects/invest-in-lights",
-        "points": 272,
-        "comments": 226,
-        "id": "31536414"
-      },
-      {
-        "created_at": "2024-04-28T21:57:00Z",
-        "title": "Personal computing paves the way for personal library science",
-        "url": "https://www.bramadams.dev/issue-55/",
-        "points": 193,
-        "comments": 51,
-        "id": "40192359"
-      },
-      {
-        "created_at": "2022-04-12T22:43:56Z",
-        "title": "A few things to try with DALL·E",
-        "url": "https://www.bramadams.dev/projects/dalle-tricks",
-        "points": 162,
-        "comments": 127,
-        "id": "31009129"
-      },
-      {
-        "created_at": "2022-07-26T04:14:19Z",
-        "title": "The Danger of Journaling Is Introspection",
-        "url": "https://www.bramadams.dev/projects/the-danger-of-journaling-is-introspection",
-        "points": 108,
-        "comments": 56,
-        "id": "32234172"
-      },
-      {
-        "created_at": "2022-05-17T17:44:08Z",
-        "title": "King George and Tsar Nicolas Looked a Lot Alike",
-        "url": "https://www.bramadams.dev/projects/cousins-or-dating",
-        "points": 106,
-        "comments": 76,
-        "id": "31414044"
-      },
-      {
-        "created_at": "2025-06-09T00:04:28Z",
-        "title": "Software is about promises",
-        "url": "https://www.bramadams.dev/software-is-about-promises/",
-        "points": 90,
-        "comments": 22,
-        "id": "44220287"
-      },
-      {
-        "created_at": "2022-06-21T01:38:55Z",
-        "title": "Editing Means Writing Less",
-        "url": "https://www.bramadams.dev/projects/editing-means-writing-less",
-        "points": 24,
-        "comments": 20,
-        "id": "31818767"
-      },
-      {
-        "created_at": "2022-05-23T18:12:43Z",
-        "title": "The Factoid Leveling Experience",
-        "url": "https://www.bramadams.dev/projects/isolated-facts-leveling-up",
-        "points": 14,
-        "comments": 2,
-        "id": "31482836"
-      }
-    ]
-  },
-  {
-    "url": "https://www.brycewray.com",
-    "title": "BryceWray.com",
-    "feed": "https://www.brycewray.com/index.xml",
-    "desc": "Bryce Wray’s website | Observations, opinions, geekiness",
-    "hn": [
-      {
-        "created_at": "2023-12-05T14:24:52Z",
-        "title": "Firefox on the brink?",
-        "url": "https://www.brycewray.com/posts/2023/11/firefox-brink/",
-        "points": 661,
-        "comments": 805,
-        "id": "38531104"
-      },
-      {
-        "created_at": "2022-10-22T14:55:35Z",
-        "title": "Tailwind CSS v3.2: revisiting my “feature creep” warning",
-        "url": "https://www.brycewray.com/posts/2022/10/tailwind-css-v3-2-revisiting-feature-creep-warning/",
-        "points": 110,
-        "comments": 133,
-        "id": "33298806"
-      },
-      {
-        "created_at": "2022-04-02T16:53:32Z",
-        "title": "How to make “localhost” slightly less local",
-        "url": "https://www.brycewray.com/posts/2022/04/let-all-your-devices-see-your-site/",
-        "points": 48,
-        "comments": 44,
-        "id": "30889663"
-      },
-      {
-        "created_at": "2022-10-22T16:11:06Z",
-        "title": "Speaking Up for Sass (2021)",
-        "url": "https://www.brycewray.com/posts/2021/04/speaking-up-for-sass/",
-        "points": 43,
-        "comments": 23,
-        "id": "33299506"
-      },
-      {
-        "created_at": "2023-12-28T09:00:40Z",
-        "title": "Some of the future is now for CSS",
-        "url": "https://www.brycewray.com/posts/2023/02/some-future-now-css/",
-        "points": 29,
-        "comments": 3,
-        "id": "38791480"
-      }
-    ]
-  },
-  {
-    "url": "https://www.brzozowski.io",
+    "url": "https://brzozowski.io",
     "title": "Jakub Brzozowski",
     "feed": "https://www.brzozowski.io/feed.xml",
     "keywords": "Cybersecurity and research blog, others, post-exploitation, web-applications",
     "desc": "My personal security blog"
   },
   {
-    "url": "https://www.cannonade.net",
-    "title": "The Patrick O'Brian Mapping Project",
-    "keywords": "Development,Google,Maps,Atlas,Patrick O'Brian,World War Two",
-    "desc": "To accurately map the progress of Jack Aubrey and Stephen Maturin over the course of the 21 novels by Patrick O'Brian.",
-    "hn": [
-      {
-        "created_at": "2013-04-21T23:16:35Z",
-        "title": "Show HN: Four months of indie game dev",
-        "url": "http://www.cannonade.net/blog.php?id=1587",
-        "points": 66,
-        "comments": 25,
-        "id": "5586890"
-      }
-    ]
-  },
-  {
-    "url": "https://www.cenullum.com",
-    "title": "Cenker Cennet - Game Developer",
-    "feed": "https://www.cenullum.com/rss.xml",
-    "keywords": "game developer, indie games, pixel art, game development, cenker cennet, cenullum",
-    "desc": "Cenker Cennet - Indie Game Developer, Pixel Artist"
-  },
-  {
-    "url": "https://www.cesardelsolar.com",
-    "title": "César Del Solar's website | César Del Solar, Maker of Things",
-    "feed": "https://www.cesardelsolar.com/index.xml",
-    "desc": "My website where I write about tech and Scrabble and things"
-  },
-  {
-    "url": "https://www.chrisbako.com",
-    "title": "My Small EcoFriendly Blog",
-    "feed": "https://www.chrisbako.com/rss.xml",
-    "desc": "Why are you sharing my blog? lol",
-    "hn": [
-      {
-        "created_at": "2025-12-04T18:55:06Z",
-        "title": "Who Hooked Up a Laptop to a 1930s Dance Hall Machine?",
-        "url": "https://www.chrisbako.com/posts/2025-12-04-speelkok-museam",
-        "points": 58,
-        "comments": 12,
-        "id": "46151363"
-      }
-    ]
-  },
-  {
-    "url": "https://www.chrisbako.nyc",
+    "url": "https://chrisbako.nyc",
     "title": "My Small EcoFriendly Blog",
     "feed": "https://www.chrisbako.nyc/rss.xml",
     "desc": "Why are you sharing my blog? lol"
   },
   {
-    "url": "https://www.coryzue.com",
-    "title": "Cory Zue | Full-Stack Developer, Maker of Products, and Solopreneur",
-    "feed": "https://www.coryzue.com/feed.xml",
-    "keywords": "cory zue, solopreneur, entrepreneur, entrepreneurship, sabbatical, developer, cto, dimagi",
-    "desc": "Cory Zue is a software developer, aspiring entrepreneur, and occasional blogger. He's currently working at Dimagi and launching projects on the side. | Cory Zue",
-    "hn": [
-      {
-        "created_at": "2023-10-27T13:00:54Z",
-        "title": "The slow death of authenticity in an attention economy",
-        "url": "https://www.coryzue.com/writing/authenticity-and-engagement/",
-        "points": 469,
-        "comments": 333,
-        "id": "38037851"
-      },
-      {
-        "created_at": "2022-12-13T07:47:06Z",
-        "title": "Farewell, Building in Public",
-        "url": "https://www.coryzue.com/writing/building-in-private/",
-        "points": 324,
-        "comments": 114,
-        "id": "33965966"
-      },
-      {
-        "created_at": "2025-01-14T13:21:28Z",
-        "title": "Using coding skills to make passive income",
-        "url": "https://www.coryzue.com/writing/solopreneur/",
-        "points": 259,
-        "comments": 141,
-        "id": "42696822"
-      },
-      {
-        "created_at": "2025-01-31T16:46:15Z",
-        "title": "How to Train an AI Image Model on Yourself",
-        "url": "https://www.coryzue.com/writing/make-ai-pictures-of-yourself/",
-        "points": 207,
-        "comments": 42,
-        "id": "42889236"
-      },
-      {
-        "created_at": "2020-12-10T11:47:17Z",
-        "title": "Lessons from Running a Sale That Earned 3 Month's Profit in a Week",
-        "url": "https://www.coryzue.com/writing/black-friday/",
-        "points": 186,
-        "comments": 42,
-        "id": "25372636"
-      },
-      {
-        "created_at": "2020-12-29T13:30:14Z",
-        "title": "Show HN: Four years of profitable side-projects",
-        "url": "https://www.coryzue.com/open/",
-        "points": 145,
-        "comments": 33,
-        "id": "25569562"
-      },
-      {
-        "created_at": "2022-01-05T21:20:49Z",
-        "title": "Coming Clean",
-        "url": "https://www.coryzue.com/writing/coming-clean/",
-        "points": 37,
-        "comments": 50,
-        "id": "29815093"
-      },
-      {
-        "created_at": "2020-12-30T17:18:46Z",
-        "title": "Riding the Indie Business Rollercoaster My 2020 year in review",
-        "url": "https://www.coryzue.com/writing/2020/",
-        "points": 32,
-        "comments": 5,
-        "id": "25583543"
-      },
-      {
-        "created_at": "2024-11-25T12:56:12Z",
-        "title": "Adding Bluesky-powered comments to any website in five minutes",
-        "url": "https://www.coryzue.com/writing/bluesky-comments/",
-        "points": 17,
-        "comments": 1,
-        "id": "42235887"
-      },
-      {
-        "created_at": "2025-01-09T13:47:09Z",
-        "title": "Headspace Is Perishable",
-        "url": "https://www.coryzue.com/writing/headspace/",
-        "points": 11,
-        "comments": 0,
-        "id": "42645405"
-      }
-    ]
-  },
-  {
-    "url": "https://www.cweagans.net",
-    "title": "Cameron Eagans • Full-stack software engineer and technical leader",
-    "about": "https://www.cweagans.net/about",
-    "desc": "Experienced full-stack software engineer and technical leader based just outside of Boise.",
-    "hn": [
-      {
-        "created_at": "2023-09-19T16:15:36Z",
-        "title": "Application-specific terminals",
-        "url": "https://www.cweagans.net/2023/09/application-specific-terminals/",
-        "points": 49,
-        "comments": 46,
-        "id": "37572145"
-      }
-    ]
-  },
-  {
-    "url": "https://www.danesparza.net",
-    "title": "The Blog of Dan Esparza",
-    "feed": "https://www.danesparza.net/index.xml",
-    "keywords": "Blog,Portfolio,PaperMod",
-    "desc": "The Blog of Dan Esparza"
-  },
-  {
-    "url": "https://www.daniellowengrub.com",
-    "about": "https://www.daniellowengrub.com/about",
-    "hn": [
-      {
-        "created_at": "2019-12-01T13:58:46Z",
-        "title": "How Radar Works",
-        "url": "https://www.daniellowengrub.com/blog/2019/10/26/radar",
-        "points": 242,
-        "comments": 58,
-        "id": "21675498"
-      },
-      {
-        "created_at": "2025-05-29T17:15:45Z",
-        "title": "Quantum Computing and the Hidden Subgroup Problem",
-        "url": "https://www.daniellowengrub.com/blog/2025/04/23/hidden-subgroup",
-        "points": 40,
-        "comments": 12,
-        "id": "44128089"
-      }
-    ]
-  },
-  {
-    "url": "https://www.danstroot.com",
-    "title": "Dan Stroot · Blog",
-    "about": "https://www.danstroot.com/about",
-    "feed": "https://www.danstroot.com/feed.xml",
-    "keywords": "CIO Blog,Code Snippets",
-    "desc": "I love building things. Made in California. Family man, technologist and Hacker News aficionado. Eternally curious."
-  },
-  {
-    "url": "https://www.daviddegner.com",
-    "title": "Boston Photographer - David Degner",
-    "desc": "Boston-based photographer working with editorial, commercial, and portrait clients. My style blends traditional photojournalism with innovative techniques.",
-    "hn": [
-      {
-        "created_at": "2024-02-19T05:46:31Z",
-        "title": "Capturing Avian Perspectives: Pigeon photography",
-        "url": "https://www.daviddegner.com/blog/a-birds-eye-view/",
-        "points": 71,
-        "comments": 17,
-        "id": "39426569"
-      }
-    ]
-  },
-  {
-    "url": "https://www.davidtran.me",
+    "url": "https://davidtran.me",
     "title": "David Tran’s Blog | Co-founder of Flow Club, software engineer, and runner from San Francisco, CA",
     "about": "https://www.davidtran.me/about",
     "desc": "David Tran is a software engineer, entrepreneur, and runner living in San Francisco, CA. He is the co-founder of Flow Club. Previously, he co-founded Upbeat and Crowdbooster. Before that, he studied computer science at Stanford University.",
@@ -61485,29 +60752,7 @@
     ]
   },
   {
-    "url": "https://www.dcaulfield.com",
-    "title": "DCaulfield",
-    "hn": [
-      {
-        "created_at": "2023-06-09T15:50:09Z",
-        "title": "Onboarding Antipatterns",
-        "url": "https://www.dcaulfield.com/onboarding-antipatterns",
-        "points": 68,
-        "comments": 32,
-        "id": "36259679"
-      },
-      {
-        "created_at": "2020-07-18T16:50:01Z",
-        "title": "Team Improvement Techniques",
-        "url": "http://www.dcaulfield.com/team-improvement-techniques/",
-        "points": 49,
-        "comments": 8,
-        "id": "23882701"
-      }
-    ]
-  },
-  {
-    "url": "https://www.deadf00d.com",
+    "url": "https://deadf00d.com",
     "title": "deadf00d - Maurice-Michel Didelot Blog",
     "hn": [
       {
@@ -61537,7 +60782,7 @@
     ]
   },
   {
-    "url": "https://www.denialof.services",
+    "url": "https://denialof.services",
     "title": "Denial of Services",
     "feed": "https://www.denialof.services/rss.xml",
     "desc": "If this site goes down for any reason, you have to avenge me.",
@@ -61553,7 +60798,7 @@
     ]
   },
   {
-    "url": "https://www.dgt.is",
+    "url": "https://dgt.is",
     "title": "Jono's Corner",
     "feed": "https://www.dgt.is/feed/feed.xml",
     "desc": "thoughts, talks, docs and unpopular opinions",
@@ -61569,240 +60814,7 @@
     ]
   },
   {
-    "url": "https://www.dodgycoder.net",
-    "title": "Dodgy Coder",
-    "hn": [
-      {
-        "created_at": "2012-02-11T12:54:13Z",
-        "title": "Coding tricks of game developers",
-        "url": "http://www.dodgycoder.net/2012/02/coding-tricks-of-game-developers.html",
-        "points": 241,
-        "comments": 65,
-        "id": "3579159"
-      },
-      {
-        "created_at": "2013-02-20T05:10:33Z",
-        "title": "Google's fiber leeching caper",
-        "url": "http://www.dodgycoder.net/2013/02/googles-fiber-leeching-caper.html",
-        "points": 167,
-        "comments": 100,
-        "id": "5249086"
-      },
-      {
-        "created_at": "2015-05-02T12:45:01Z",
-        "title": "Taking control of a 36 year old NASA spacecraft using GNU radio",
-        "url": "http://www.dodgycoder.net/2015/05/taking-control-of-36-year-old-nasa.html",
-        "points": 116,
-        "comments": 7,
-        "id": "9476853"
-      },
-      {
-        "created_at": "2012-05-06T06:11:17Z",
-        "title": "Why was .NET called .NET?",
-        "url": "http://www.dodgycoder.net/2012/05/why-was-net-called-net.html",
-        "points": 92,
-        "comments": 72,
-        "id": "3934316"
-      },
-      {
-        "created_at": "2012-09-08T14:06:06Z",
-        "title": "Q&A With Nine Great Programmers",
-        "url": "http://www.dodgycoder.net/2012/09/q-with-nine-great-programmers.html",
-        "points": 81,
-        "comments": 21,
-        "id": "4492941"
-      },
-      {
-        "created_at": "2012-07-21T10:21:40Z",
-        "title": "Old school developers - achieving a lot with little",
-        "url": "http://www.dodgycoder.net/2012/07/old-school-developers-achieving-lot.html",
-        "points": 80,
-        "comments": 40,
-        "id": "4274464"
-      },
-      {
-        "created_at": "2011-11-13T06:53:34Z",
-        "title": "Why do Programmers get paid less than Project Managers or Business Analysts?",
-        "url": "http://www.dodgycoder.net/2011/11/why-do-programmers-get-paid-less-than.html",
-        "points": 73,
-        "comments": 71,
-        "id": "3230202"
-      },
-      {
-        "created_at": "2012-03-03T12:12:07Z",
-        "title": "The \"Spanish Theory\"of software project management",
-        "url": "http://www.dodgycoder.net/2012/03/every-software-project-ive-worked-on.html",
-        "points": 71,
-        "comments": 51,
-        "id": "3660005"
-      },
-      {
-        "created_at": "2013-07-05T13:24:12Z",
-        "title": "Programming Trends on StackOverflow",
-        "url": "http://www.dodgycoder.net/p/programming-trends.html",
-        "points": 58,
-        "comments": 58,
-        "id": "5994744"
-      },
-      {
-        "created_at": "2012-11-04T13:35:00Z",
-        "title": "The decline of PCs and the rise of smartphones and tablets was predicted in 1993",
-        "url": "http://www.dodgycoder.net/2012/11/the-slow-decline-of-pcs-and-fast-rise.html",
-        "points": 53,
-        "comments": 69,
-        "id": "4739732"
-      },
-      {
-        "created_at": "2011-11-27T10:52:29Z",
-        "title": "\"Yoda Conditions\", \"Pokémon Exception Handling\"and other programming classics",
-        "url": "http://www.dodgycoder.net/2011/11/yoda-conditions-pokemon-exception.html",
-        "points": 21,
-        "comments": 5,
-        "id": "3282199"
-      },
-      {
-        "created_at": "2024-10-06T04:57:14Z",
-        "title": "Bill Atkinson, developer of MacPaint, on the art of developing software",
-        "url": "https://www.dodgycoder.net/2024/10/the-art-of-developing-software.html",
-        "points": 10,
-        "comments": 1,
-        "id": "41754862"
-      }
-    ]
-  },
-  {
-    "url": "https://www.dylanla.com",
-    "title": "Dylan La Com",
-    "feed": "https://www.dylanla.com/rss.xml"
-  },
-  {
-    "url": "https://www.ecliptik.com",
-    "title": "micheal@ecliptik.com | Professional Website of Micheal Waltz",
-    "about": "https://www.ecliptik.com/about",
-    "feed": "https://www.ecliptik.com/feed.xml",
-    "keywords": "cloud aws gcp kubernetes containers docker blog devops sre professional",
-    "desc": "Professional website of Micheal Waltz including contact information, skills, and blog posts"
-  },
-  {
-    "url": "https://www.ElijahLynn.net",
-    "title": "All posts | ElijahLynn.net",
-    "feed": "https://www.elijahlynn.net/rss.xml",
-    "keywords": "blog, gatsby, javascript, react",
-    "desc": "Blog of Elijah Lynn: Technology, Life Lessons, Music, Portland"
-  },
-  {
-    "url": "https://www.emgoto.com",
-    "title": "Emma Goto",
-    "feed": "https://www.emgoto.com/rss",
-    "desc": "I'm Emma, a Japanese-Australian software engineer living in Tokyo. Here I write about hiking in Japan, programming, books and anything else that piques my interest.",
-    "hn": [
-      {
-        "created_at": "2025-04-22T19:04:34Z",
-        "title": "Mt Ontake",
-        "url": "https://www.emgoto.com/mt-ontake/",
-        "points": 27,
-        "comments": 1,
-        "id": "43765227"
-      }
-    ]
-  },
-  {
-    "url": "https://www.evalapply.org",
-    "title": "Hi, I'm Aditya Athalye. I make, learn, teach here.",
-    "feed": "https://www.evalapply.org/index.xml",
-    "keywords": "indie software,B2B Micro SaaS,systems thinking,technology leadership,architecture,software design,functional programming,clojure,devops,shell scripting,web development,databases,sqlite,writing,blogging,coaching",
-    "desc": "Out here, I strive to \"learn generously\". My software specialties include \"Full-systems\"B2B SaaS development, and Functional Programming (especially Clojure). I also help software nerds write for fun, and burnout-free career growth.",
-    "hn": [
-      {
-        "created_at": "2025-02-24T09:53:00Z",
-        "title": "Why and How I use “Org Mode” for my writing and more (2022)",
-        "url": "https://www.evalapply.org/posts/why-and-how-i-use-org-mode/index.html",
-        "points": 217,
-        "comments": 64,
-        "id": "43157672"
-      },
-      {
-        "created_at": "2025-09-03T17:47:50Z",
-        "title": "Poor man's bitemporal data system in SQLite and Clojure",
-        "url": "https://www.evalapply.org/posts/poor-mans-time-oriented-data-system/index.html",
-        "points": 172,
-        "comments": 54,
-        "id": "45118585"
-      },
-      {
-        "created_at": "2025-05-20T13:15:52Z",
-        "title": "Clojuring the web application stack: Meditation One",
-        "url": "https://www.evalapply.org/posts/clojure-web-app-from-scratch/index.html",
-        "points": 165,
-        "comments": 37,
-        "id": "44041255"
-      },
-      {
-        "created_at": "2023-02-28T10:34:06Z",
-        "title": "Why and how I use Org Mode for my writing and more",
-        "url": "https://www.evalapply.org/posts/why-and-how-i-use-org-mode/index.html",
-        "points": 164,
-        "comments": 159,
-        "id": "34967802"
-      },
-      {
-        "created_at": "2024-02-24T10:25:13Z",
-        "title": "How to think about software quality (2022)",
-        "url": "https://www.evalapply.org/posts/how-to-not-die-by-a-thousand-cuts/index.html",
-        "points": 154,
-        "comments": 66,
-        "id": "39490543"
-      },
-      {
-        "created_at": "2023-07-19T20:06:29Z",
-        "title": "Cold restart whole system after total outage",
-        "url": "https://www.evalapply.org/posts/cold-restart-total-outage/index.html",
-        "points": 132,
-        "comments": 105,
-        "id": "36792421"
-      },
-      {
-        "created_at": "2025-04-09T19:44:50Z",
-        "title": "Keeping it Old-Tool: REPL habits of a grug-brained Clojure programmer",
-        "url": "https://www.evalapply.org/posts/demo-clojure-workflow-scicloj/index.html",
-        "points": 82,
-        "comments": 4,
-        "id": "43636860"
-      },
-      {
-        "created_at": "2025-09-11T05:31:47Z",
-        "title": "A Clojure View of \"Mars Rover\"",
-        "url": "https://www.evalapply.org/posts/clojure-mars-rover/index.html",
-        "points": 25,
-        "comments": 1,
-        "id": "45208145"
-      },
-      {
-        "created_at": "2025-07-26T17:30:21Z",
-        "title": "Poor man's bitemporal data system in SQLite and Clojure",
-        "url": "https://www.evalapply.org/posts/poor-mans-time-oriented-data-system/index.html",
-        "points": 15,
-        "comments": 2,
-        "id": "44695670"
-      }
-    ]
-  },
-  {
-    "url": "https://www.fabiandietrich.com",
-    "title": "Blog | fabiandietrich.com",
-    "hn": [
-      {
-        "created_at": "2022-04-01T13:42:38Z",
-        "title": "Shutting Down My Baby",
-        "url": "https://www.fabiandietrich.com/blog/shutting-down-my-baby.html",
-        "points": 45,
-        "comments": 33,
-        "id": "30877970"
-      }
-    ]
-  },
-  {
-    "url": "https://www.fmjlang.co.uk",
+    "url": "https://fmjlang.co.uk",
     "title": ":UGAH179",
     "hn": [
       {
@@ -61824,248 +60836,7 @@
     ]
   },
   {
-    "url": "https://www.georgesaines.com",
-    "title": "Stuff George Writes",
-    "about": "https://www.georgesaines.com/about",
-    "hn": [
-      {
-        "created_at": "2011-07-31T20:44:21Z",
-        "title": "I Want To Unsubscribe, Not \"Manage My Preferences\"",
-        "url": "http://www.georgesaines.com/?p=484",
-        "points": 259,
-        "comments": 116,
-        "id": "2829523"
-      },
-      {
-        "created_at": "2011-12-09T04:01:23Z",
-        "title": "It's Insanely Hard to Make a Kick-Ass iPhone App",
-        "url": "http://www.georgesaines.com/?p=513",
-        "points": 137,
-        "comments": 90,
-        "id": "3332484"
-      },
-      {
-        "created_at": "2011-04-13T02:22:12Z",
-        "title": "Another Way to View the \"Decline\"of HN",
-        "url": "http://www.georgesaines.com/",
-        "points": 122,
-        "comments": 140,
-        "id": "2440432"
-      },
-      {
-        "created_at": "2013-04-07T21:34:23Z",
-        "title": "Quit Your Job Now, Before It's Too Late",
-        "url": "http://www.georgesaines.com/?p=785",
-        "points": 83,
-        "comments": 74,
-        "id": "5508878"
-      },
-      {
-        "created_at": "2024-10-10T23:04:04Z",
-        "title": "Is population density the reason Americans can't discuss politics?",
-        "url": "https://www.georgesaines.com/blog/2024/10/10/is-population-density-the-reason-americans-cant-discuss-politics",
-        "points": 75,
-        "comments": 265,
-        "id": "41804460"
-      },
-      {
-        "created_at": "2021-09-13T13:59:07Z",
-        "title": "Why I’m Not an Angel Investor",
-        "url": "https://www.georgesaines.com/blog/2021/9/10/why-im-not-an-angel-investor",
-        "points": 63,
-        "comments": 51,
-        "id": "28511572"
-      },
-      {
-        "created_at": "2011-08-21T17:15:09Z",
-        "title": "Sivers is Right: Customer Service is the New Marketing",
-        "url": "http://www.georgesaines.com/?p=495",
-        "points": 26,
-        "comments": 2,
-        "id": "2909621"
-      },
-      {
-        "created_at": "2011-04-06T01:06:19Z",
-        "title": "Why Recessions Suck More Than Expansions Rock",
-        "url": "http://www.georgesaines.com/?p=424",
-        "points": 15,
-        "comments": 6,
-        "id": "2413490"
-      }
-    ]
-  },
-  {
-    "url": "https://www.grepular.com",
-    "title": "Mike Cardwell - Grepular",
-    "feed": "https://www.grepular.com/rss",
-    "keywords": "Security, Privacy, Technology, Developer, Hacker, Programmer",
-    "desc": "Mike Cardwell's Tech Blog. Security, privacy, and technology",
-    "hn": [
-      {
-        "created_at": "2025-07-22T18:58:23Z",
-        "title": "Fun with gzip bombs and email clients",
-        "url": "https://www.grepular.com/Fun_with_Gzip_Bombs_and_Email_Clients",
-        "points": 155,
-        "comments": 50,
-        "id": "44651536"
-      },
-      {
-        "created_at": "2025-07-09T17:26:50Z",
-        "title": "Evolution Mail Users Easily Trackable",
-        "url": "https://www.grepular.com/Evolution_Mail_Users_Easily_Trackable",
-        "points": 114,
-        "comments": 66,
-        "id": "44512684"
-      },
-      {
-        "created_at": "2021-10-10T15:13:39Z",
-        "title": "Keybase Browser Extension Insecure",
-        "url": "https://www.grepular.com/Keybase_Browser_Extension_Insecure",
-        "points": 69,
-        "comments": 33,
-        "id": "28819025"
-      },
-      {
-        "created_at": "2017-07-06T18:09:02Z",
-        "title": "Lavabit Security Misconfiguration",
-        "url": "https://www.grepular.com/Lavabit_Security_Misconfiguration",
-        "points": 67,
-        "comments": 16,
-        "id": "14712471"
-      },
-      {
-        "created_at": "2024-01-14T19:40:35Z",
-        "title": "Skiff: Various Privacy Failures",
-        "url": "https://www.grepular.com/Skiff_Emails_Various_Privacy_Failures",
-        "points": 60,
-        "comments": 25,
-        "id": "38993680"
-      },
-      {
-        "created_at": "2025-06-08T15:49:59Z",
-        "title": "Nginx Restic Back End",
-        "url": "https://www.grepular.com/Nginx_Restic_Backend",
-        "points": 48,
-        "comments": 7,
-        "id": "44217693"
-      },
-      {
-        "created_at": "2021-05-14T17:12:41Z",
-        "title": "Sandbox Rust Development with Rust Analyzer (2020)",
-        "url": "https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer",
-        "points": 27,
-        "comments": 2,
-        "id": "27156770"
-      },
-      {
-        "created_at": "2025-07-18T19:26:35Z",
-        "title": "Evolution Mail Users Easily Trackable Part 2",
-        "url": "https://www.grepular.com/Evolution%20Mail%20Users%20Easily%20Trackable%20Part%202",
-        "points": 26,
-        "comments": 11,
-        "id": "44608814"
-      }
-    ]
-  },
-  {
-    "url": "https://www.hackyexperiments.com",
-    "title": "Hacky Experiments",
-    "about": "https://www.hackyexperiments.com/about",
-    "keywords": "experiments,coding,projects,open source",
-    "desc": "An open source playground for my coding experiments, side projects, and technical explorations."
-  },
-  {
-    "url": "https://www.hgarrett.me",
-    "title": "Home | Henry Garrett",
-    "about": "https://henrys-newsletter-ee170b.beehiiv.com/about",
-    "keywords": "business, artificial intelligence, technology",
-    "desc": "The place I process what is happening. Usually technology related, but no promises."
-  },
-  {
-    "url": "https://www.imkylelambert.com",
-    "title": "Kyle Lambert | Designer, Maker, Writer",
-    "feed": "https://www.imkylelambert.com/articles/rss.xml",
-    "desc": "I design interfaces, experiences, businesses, and write about it here. Currently creating developer ecosystems at Webflow."
-  },
-  {
-    "url": "https://www.immibis.com",
-    "title": "blog :: immibis",
-    "hn": [
-      {
-        "created_at": "2025-10-06T14:47:45Z",
-        "title": "Why do we need MAC addresses?",
-        "url": "https://www.immibis.com/blog/why-mac-address",
-        "points": 38,
-        "comments": 71,
-        "id": "45492019"
-      }
-    ]
-  },
-  {
-    "url": "https://www.jacobedawson.com",
-    "title": "Jacob E. Dawson",
-    "about": "https://www.jacobedawson.com/about",
-    "feed": "https://jacobedawson.com/feed.xml",
-    "desc": "Thoughts, stories, and ideas from Jacob E. Dawson"
-  },
-  {
-    "url": "https://www.jamieonkeys.dev",
-    "title": "jamieonkeys: front-end Web developer in Edinburgh, Scotland",
-    "feed": "https://www.jamieonkeys.dev/feed.xml",
-    "desc": "A blog by Edinburgh Web developer, musician and Scots leid enthusiast Jamie Smith.",
-    "hn": [
-      {
-        "created_at": "2022-04-01T10:58:24Z",
-        "title": "My macOS keyboard shortcuts",
-        "url": "https://www.jamieonkeys.dev/posts/keyboard-shortcuts/",
-        "points": 213,
-        "comments": 195,
-        "id": "30876934"
-      }
-    ]
-  },
-  {
-    "url": "https://www.jasonthorsness.com",
-    "title": "Jason Thorsness",
-    "feed": "https://www.jasonthorsness.com/rss.xml?v=0",
-    "desc": "Jason Thorsness's Personal Site",
-    "hn": [
-      {
-        "created_at": "2025-04-30T01:26:31Z",
-        "title": "You Wouldn't Download a Hacker News",
-        "url": "https://www.jasonthorsness.com/25",
-        "points": 458,
-        "comments": 227,
-        "id": "43840193"
-      },
-      {
-        "created_at": "2025-01-26T22:03:39Z",
-        "title": "Show HN: DeepSeek My User Agent",
-        "url": "https://www.jasonthorsness.com/20",
-        "points": 360,
-        "comments": 142,
-        "id": "42834648"
-      },
-      {
-        "created_at": "2025-05-13T12:59:06Z",
-        "title": "Tower Defense: Cache Control",
-        "url": "https://www.jasonthorsness.com/26",
-        "points": 68,
-        "comments": 26,
-        "id": "43972449"
-      },
-      {
-        "created_at": "2024-08-19T14:25:12Z",
-        "title": "SQL ♥ WebAssembly",
-        "url": "https://www.jasonthorsness.com/12",
-        "points": 13,
-        "comments": 5,
-        "id": "41291321"
-      }
-    ]
-  },
-  {
-    "url": "https://www.jerry.wtf",
+    "url": "https://jerry.wtf",
     "title": "Jerry Liu",
     "feed": "https://www.jerry.wtf/posts/index.xml",
     "desc": "Product, poetry, and philosophy ponderings",
@@ -62081,118 +60852,13 @@
     ]
   },
   {
-    "url": "https://www.johngerace.com",
+    "url": "https://johngerace.com",
     "title": "John Gerace - John Gerace",
     "feed": "https://www.johngerace.com/feed.xml",
     "desc": "Software engineer, writer, translator, dad, worrywart"
   },
   {
-    "url": "https://www.jonahgoode.com",
-    "title": "Jonah Goode's Blog",
-    "feed": "https://www.jonahgoode.com/rss",
-    "desc": "Technology, Life Philosophy, and more."
-  },
-  {
-    "url": "https://www.josecasanova.com",
-    "title": "Jose Casanova",
-    "desc": "I'm a founder and growth engineer who loves building and scaling meaningful products.",
-    "hn": [
-      {
-        "created_at": "2014-01-22T20:54:02Z",
-        "title": "How I “hacked” Kayak and booked a cheaper flight",
-        "url": "http://www.josecasanova.com/blog/how-i-hacked-kayak-and-booked-a-cheaper-flight/",
-        "points": 218,
-        "comments": 119,
-        "id": "7105307"
-      }
-    ]
-  },
-  {
-    "url": "https://www.june.kim",
-    "title": "June Kim",
-    "about": "https://www.june.kim/about",
-    "feed": "https://www.june.kim/feed.xml",
-    "desc": "Thoughts on software, life, and everything",
-    "hn": [
-      {
-        "created_at": "2025-06-13T01:25:05Z",
-        "title": "Would You Hire a Calculator?",
-        "url": "https://www.june.kim/would-you-hire-a-calculator",
-        "points": 8,
-        "comments": 11,
-        "id": "44264891"
-      }
-    ]
-  },
-  {
-    "url": "https://www.justinmklam.com",
-    "title": "justinmklam | blog",
-    "about": "https://www.justinmklam.com/about",
-    "feed": "https://www.justinmklam.com/index.xml",
-    "desc": "justinmklam | blog"
-  },
-  {
-    "url": "https://www.kai-wolf.me",
-    "title": "Kai Wolf - Software Development for your Business",
-    "feed": "https://www.kai-wolf.me/feed.xml",
-    "desc": "Software Consulting und Entwicklung aus einer Hand mit State-of-the-art digitalen Lösungen für Ihr Unternehmen."
-  },
-  {
-    "url": "https://www.kirillso.com",
-    "title": "Home | Kirill So",
-    "feed": "https://www.kirillso.com/rss.xml",
-    "desc": "Kirill So - growth product manager, vibe coder, founder & occasional writer. Exploring diverse disciplines and cultivating a beginner's mind."
-  },
-  {
-    "url": "https://www.kleemans.ch",
-    "title": "kleemans.ch",
-    "about": "https://www.kleemans.ch/about",
-    "feed": "https://www.kleemans.ch/rss.xml",
-    "hn": [
-      {
-        "created_at": "2016-04-15T04:48:45Z",
-        "title": "Show HN: Draw a map and let it be colored – Four color theorem demo",
-        "url": "https://www.kleemans.ch/four-color-theorem-map-solver",
-        "points": 48,
-        "comments": 10,
-        "id": "11502244"
-      }
-    ]
-  },
-  {
-    "url": "https://www.kulman.sk",
-    "title": "Igor Kulman",
-    "feed": "https://www.kulman.sk/index.xml",
-    "desc": "Igor Kulman - blog o technológiách, LEGO, mechanických hodinkách a cestovaní"
-  },
-  {
-    "url": "https://www.lazarakisd.com",
-    "title": "Dimitris' Digital Portfolio & Blog",
-    "about": "https://www.lazarakisd.com/about",
-    "feed": "https://www.lazarakisd.com/index.xml",
-    "keywords": "Blog, Portfolio, pentesting, security",
-    "desc": "My online portfolio and blog, where I share insights and experiences through articles."
-  },
-  {
-    "url": "https://www.leandrosf.com",
-    "title": "Leandro Ferreira",
-    "feed": "https://www.leandrosf.com/index.xml"
-  },
-  {
-    "url": "https://www.malgregator.com",
-    "title": "malgregator",
-    "feed": "https://malgregator.com/index.xml",
-    "desc": "DevOps, Security, Whatever"
-  },
-  {
-    "url": "https://www.matsimitsu.com",
-    "title": "Home - Matsimitsu.com",
-    "about": "https://www.matsimitsu.com/about",
-    "now": "https://www.matsimitsu.com/now",
-    "desc": "Welcome to the personal website of Robert Beekman"
-  },
-  {
-    "url": "https://www.mattcrampton.com",
+    "url": "https://mattcrampton.com",
     "title": "MattCrampton.com",
     "feed": "https://www.mattcrampton.com/feed.xml",
     "desc": "A blog about software development, startups, camping and beards",
@@ -62208,83 +60874,7 @@
     ]
   },
   {
-    "url": "https://www.mattsayar.com",
-    "title": "mattsayar.com",
-    "feed": "https://mattsayar.com/feed.xml"
-  },
-  {
-    "url": "https://www.maxdaten.io",
-    "title": "Jan-Philip Loos | maxdaten.io",
-    "feed": "https://www.maxdaten.io/rss.xml",
-    "keywords": "Jan-Philip Loos, DevOps Consultant, Cloud Infrastructure, Kubernetes Expert, Google Cloud Platform, Infrastructure as Code, Software Architecture, DevOps Automation, Freelance Consultant, Hamburg Developer, NixOS, Terraform, CI/CD Optimization, Secret Management, System Architecture",
-    "desc": "DevOps consultant and software engineer specializing in cloud infrastructure, Kubernetes, and modern development workflows. Helping businesses build scalable, secure systems."
-  },
-  {
-    "url": "https://www.mgaudet.ca",
-    "title": "Matthew Gaudet",
-    "about": "https://www.mgaudet.ca/about",
-    "hn": [
-      {
-        "created_at": "2022-08-10T07:19:46Z",
-        "title": "Faster Ruby: Thoughts from the outside",
-        "url": "https://www.mgaudet.ca/technical/2022/8/9/faster-ruby-thoughts-from-the-outside",
-        "points": 242,
-        "comments": 139,
-        "id": "32408716"
-      },
-      {
-        "created_at": "2025-05-28T16:46:55Z",
-        "title": "Exploring a Language Runtime with Bpftrace",
-        "url": "https://www.mgaudet.ca/technical/2025/5/28/exploring-a-language-runtime-with-bpftrace",
-        "points": 29,
-        "comments": 3,
-        "id": "44117937"
-      },
-      {
-        "created_at": "2025-09-10T21:25:37Z",
-        "title": "An Inline Cache Isn't Just a Cache",
-        "url": "https://www.mgaudet.ca/technical/2018/6/5/an-inline-cache-isnt-just-a-cache",
-        "points": 15,
-        "comments": 1,
-        "id": "45204003"
-      },
-      {
-        "created_at": "2024-10-29T04:21:12Z",
-        "title": "Before you can have Smalltalk, you must first defeat capitalism?",
-        "url": "https://www.mgaudet.ca/blog/2024/10/28/before-you-can-have-smalltalk-you-must-first-defeat-capitalism",
-        "points": 14,
-        "comments": 11,
-        "id": "41979340"
-      }
-    ]
-  },
-  {
-    "url": "https://www.middleendian.com",
-    "title": "middle endian » we're #010",
-    "hn": [
-      {
-        "created_at": "2021-10-29T20:55:28Z",
-        "title": "3½ years on my custom emperor mattress – a retrospective",
-        "url": "https://www.middleendian.com/emperor_retrospective",
-        "points": 235,
-        "comments": 152,
-        "id": "29043420"
-      }
-    ]
-  },
-  {
-    "url": "https://www.mikajovicic.com",
-    "title": "Personal site • Milovan Jovičić, Product Designer",
-    "feed": "https://www.mikajovicic.com/feed.xml"
-  },
-  {
-    "url": "https://www.mikejohnson.dev",
-    "title": "Mike Johnson - Tech Lead",
-    "now": "https://www.mikejohnson.dev/now",
-    "feed": "https://www.mikejohnson.dev/feed.xml"
-  },
-  {
-    "url": "https://www.mooreds.com",
+    "url": "https://mooreds.com",
     "title": "Moore Consulting  ",
     "hn": [
       {
@@ -62426,283 +61016,13 @@
     ]
   },
   {
-    "url": "https://www.more-magic.net",
-    "title": "Recent posts | More magic",
-    "feed": "https://www.more-magic.net/feed.atom",
-    "hn": [
-      {
-        "created_at": "2024-12-17T12:18:05Z",
-        "title": "Crunch – a Scheme compiler with a minimal runtime",
-        "url": "https://www.more-magic.net/posts/crunch.html",
-        "points": 190,
-        "comments": 71,
-        "id": "42440767"
-      },
-      {
-        "created_at": "2022-11-04T01:31:51Z",
-        "title": "Clojure from a Schemer's perspective (2021)",
-        "url": "https://www.more-magic.net/posts/thoughts-on-clojure.html",
-        "points": 168,
-        "comments": 66,
-        "id": "33460587"
-      },
-      {
-        "created_at": "2021-03-05T13:01:57Z",
-        "title": "Clojure from a Schemer's Perspective",
-        "url": "https://www.more-magic.net/posts/thoughts-on-clojure.html",
-        "points": 149,
-        "comments": 85,
-        "id": "26356367"
-      },
-      {
-        "created_at": "2014-03-31T02:07:01Z",
-        "title": "Chicken Scheme internals: the garbage collector",
-        "url": "http://www.more-magic.net/posts/internals-gc.html",
-        "points": 112,
-        "comments": 25,
-        "id": "7499101"
-      },
-      {
-        "created_at": "2019-03-18T18:38:55Z",
-        "title": "Chicken Scheme internals: the garbage collector (2014)",
-        "url": "https://www.more-magic.net/posts/internals-gc.html",
-        "points": 94,
-        "comments": 8,
-        "id": "19423806"
-      },
-      {
-        "created_at": "2016-10-19T22:44:53Z",
-        "title": "CHICKEN internals: the garbage collector",
-        "url": "http://www.more-magic.net/posts/internals-gc.html",
-        "points": 68,
-        "comments": 9,
-        "id": "12748364"
-      },
-      {
-        "created_at": "2015-08-19T20:50:12Z",
-        "title": "Chicken Scheme Internals: Data Representation",
-        "url": "http://www.more-magic.net/posts/internals-data-representation.html",
-        "points": 56,
-        "comments": 0,
-        "id": "10088388"
-      },
-      {
-        "created_at": "2016-02-14T03:46:58Z",
-        "title": "Let's add a statistical profiler to Chicken Scheme",
-        "url": "http://www.more-magic.net/posts/statistical-profiling.html",
-        "points": 48,
-        "comments": 3,
-        "id": "11097044"
-      },
-      {
-        "created_at": "2023-06-28T08:44:02Z",
-        "title": "Adding weak references to CHICKEN",
-        "url": "https://www.more-magic.net/posts/weak-references.html",
-        "points": 30,
-        "comments": 1,
-        "id": "36503924"
-      },
-      {
-        "created_at": "2024-11-15T12:42:03Z",
-        "title": "Clojure from a Schemer's Perspective (2021)",
-        "url": "https://www.more-magic.net/posts/thoughts-on-clojure.html",
-        "points": 14,
-        "comments": 0,
-        "id": "42146374"
-      }
-    ]
-  },
-  {
-    "url": "https://www.natemeyvis.com",
-    "title": "Nate Meyvis",
-    "desc": "I am an itinerant software engineer who likes to raise children, read, and memorize things.  If you're not sure whether you should email me, you .        ...",
-    "hn": [
-      {
-        "created_at": "2022-02-22T13:18:33Z",
-        "title": "On Anki's Database",
-        "url": "https://www.natemeyvis.com/writing/on-ankis-database-structure/",
-        "points": 178,
-        "comments": 48,
-        "id": "30427549"
-      },
-      {
-        "created_at": "2022-06-23T23:58:09Z",
-        "title": "A common trap for people entering programming jobs",
-        "url": "https://www.natemeyvis.com/a-common-trap-for-people-entering-programming-jobs.html",
-        "points": 145,
-        "comments": 169,
-        "id": "31856512"
-      },
-      {
-        "created_at": "2025-12-24T16:04:12Z",
-        "title": "Kitchen optimizations",
-        "url": "https://www.natemeyvis.com/kitchen-optimizations/",
-        "points": 96,
-        "comments": 236,
-        "id": "46376704"
-      },
-      {
-        "created_at": "2026-01-02T15:10:53Z",
-        "title": "Yearly analytics on my spaced repetition results",
-        "url": "https://www.natemeyvis.com/i-did-301432-flashcard-reviews-in-2025/",
-        "points": 51,
-        "comments": 76,
-        "id": "46465493"
-      },
-      {
-        "created_at": "2025-10-27T11:52:33Z",
-        "title": "On Having a Data Object",
-        "url": "https://www.natemeyvis.com/on-having-a-data-object/",
-        "points": 40,
-        "comments": 16,
-        "id": "45719919"
-      },
-      {
-        "created_at": "2026-01-05T20:45:22Z",
-        "title": "Reasons I did 301,432 flashcard reviews in 2025",
-        "url": "https://www.natemeyvis.com/22-reasons-i-did-301432-flashcard-reviews-in-2025/",
-        "points": 3,
-        "comments": 6,
-        "id": "46504692"
-      }
-    ]
-  },
-  {
-    "url": "https://www.neilgrogan.com",
-    "title": "Neil Grogan",
-    "about": "https://www.neilgrogan.com/about",
-    "feed": "https://www.neilgrogan.com/index.xml"
-  },
-  {
-    "url": "https://www.nhatcher.com",
-    "title": "Nicolás Hatcher ",
-    "feed": "https://www.nhatcher.com/index.xml",
-    "desc": "Software developer by trade, physicist by soul",
-    "hn": [
-      {
-        "created_at": "2025-06-13T15:14:20Z",
-        "title": "The Hat, the Spectre and SAT Solvers (2024)",
-        "url": "https://www.nhatcher.com/post/on-hats-and-sats/",
-        "points": 108,
-        "comments": 12,
-        "id": "44269289"
-      }
-    ]
-  },
-  {
-    "url": "https://www.nicchan.me",
-    "title": "Nic Chan",
-    "feed": "https://www.nicchan.me/feed.xml",
-    "desc": "Nic Chan is a front-end web developer who specializes in design systems, accessibility and Shopify.",
-    "hn": [
-      {
-        "created_at": "2025-12-08T08:57:19Z",
-        "title": "The fuck off contact page",
-        "url": "https://www.nicchan.me/blog/the-f-off-contact-page/",
-        "points": 494,
-        "comments": 199,
-        "id": "46189994"
-      },
-      {
-        "created_at": "2025-09-08T13:17:44Z",
-        "title": "Exploring Grid-Aware Websites",
-        "url": "https://www.nicchan.me/blog/exploring-grid-aware-websites/",
-        "points": 22,
-        "comments": 13,
-        "id": "45167887"
-      },
-      {
-        "created_at": "2024-09-26T18:08:21Z",
-        "title": "OS-themed site: no JavaScript, accessible and mobile-first",
-        "url": "https://www.nicchan.me/",
-        "points": 15,
-        "comments": 4,
-        "id": "41661372"
-      }
-    ]
-  },
-  {
-    "url": "https://www.nickolinger.com",
-    "title": "Nick Olinger's blog | Software Engineer",
-    "about": "https://www.nickolinger.com/about",
-    "feed": "https://nickolinger.com/rss.xml",
-    "desc": "A blog about software engineering"
-  },
-  {
-    "url": "https://www.nxn.se",
+    "url": "https://nxn.se",
     "title": "nxn | Valentine Svensson | Substack",
     "feed": "https://www.nxn.se/feed",
     "desc": "What do you mean 'heterogeneity'? Click to read nxn, by Valentine Svensson, a Substack publication with hundreds of subscribers."
   },
   {
-    "url": "https://www.oliveremberton.com",
-    "title": "Oliver Emberton",
-    "about": "https://www.oliveremberton.com/about",
-    "keywords": "Oliver Emberton,AI,life,technology,Silktide,writing",
-    "desc": "Thoughts on AI, life, and building things that matter. By Oliver Emberton, founder-CEO of Silktide."
-  },
-  {
-    "url": "https://www.orawalters.com",
-    "title": "Ora G. Walters",
-    "feed": "https://www.orawalters.com/index.xml",
-    "desc": "Ora G. Walters is a skilled broadcast technical director and motion designer with a passion for live event production and video broadcasting."
-  },
-  {
-    "url": "https://www.pankajtanwar.in",
-    "title": "Pankaj Tanwar - CS Engineer, writer & creator.",
-    "about": "https://www.pankajtanwar.in/about",
-    "feed": "https://pankajtanwar.in/feed.xml",
-    "desc": "Pankaj Tanwar : A self-taught developer, writer & creator who loves to read, write and learn about tech.",
-    "hn": [
-      {
-        "created_at": "2021-09-07T08:05:47Z",
-        "title": "The Basics of Apache Kafka",
-        "url": "https://www.pankajtanwar.in/blog/the-basics-you-need-to-know-about-kafka-graphic-explanation-ahead",
-        "points": 81,
-        "comments": 11,
-        "id": "28442230"
-      },
-      {
-        "created_at": "2024-07-28T06:07:21Z",
-        "title": "Show HN: Turning my 10y old tablet into digital photo frame",
-        "url": "https://www.pankajtanwar.in/blog/i-turned-my-10-year-old-tablet-into-a-digital-photo-frame-displaying-google-photos-album",
-        "points": 26,
-        "comments": 7,
-        "id": "41091511"
-      },
-      {
-        "created_at": "2021-09-01T13:54:29Z",
-        "title": "Prevent duplicate cron job running",
-        "url": "https://www.pankajtanwar.in/blog/prevent-duplicate-cron-job-running",
-        "points": 24,
-        "comments": 45,
-        "id": "28379835"
-      },
-      {
-        "created_at": "2025-01-19T06:34:32Z",
-        "title": "Unlink vs. DEL – A deep dive into how it works internally in Redis",
-        "url": "https://www.pankajtanwar.in/blog/unlink-vs-del-a-deep-dive-into-how-it-works-internally-in-redis",
-        "points": 20,
-        "comments": 12,
-        "id": "42754345"
-      },
-      {
-        "created_at": "2024-12-26T16:32:20Z",
-        "title": "Building a tiny load balancing service using PID Controllers",
-        "url": "https://www.pankajtanwar.in/blog/building-a-tiny-load-balancing-service-using-pid-controllers",
-        "points": 12,
-        "comments": 2,
-        "id": "42516088"
-      }
-    ]
-  },
-  {
-    "url": "https://www.pashynskykh.com",
-    "title": "Vladyslav Pashynskykh",
-    "feed": "https://www.pashynskykh.com/index.xml"
-  },
-  {
-    "url": "https://www.pcloadletter.dev",
+    "url": "https://pcloadletter.dev",
     "title": "pcloadletter",
     "feed": "https://www.pcloadletter.dev/feed/feed.xml",
     "desc": "What the **** does that mean?",
@@ -62790,7 +61110,7 @@
     ]
   },
   {
-    "url": "https://www.pesfandiar.com",
+    "url": "https://pesfandiar.com",
     "title": "Welcome! - Pooya Esfandiar",
     "desc": "Pooya Esfandiar's Home Page",
     "hn": [
@@ -62805,54 +61125,7 @@
     ]
   },
   {
-    "url": "https://www.philipithomas.com",
-    "title": "Philip I. Thomas",
-    "desc": "I build at the intersection of math, business, and software. I work on the engineering team at Chroma. I write about crafting digital tools at Contraption Company.",
-    "hn": [
-      {
-        "created_at": "2022-12-21T19:20:16Z",
-        "title": "Personal newsletters as a calmer alternative to social networks",
-        "url": "https://www.philipithomas.com/posts/why-i-built-postcard-a-calmer-alternative-to-social-networks",
-        "points": 173,
-        "comments": 72,
-        "id": "34085127"
-      },
-      {
-        "created_at": "2013-02-22T00:34:28Z",
-        "title": "Exploring the Abandoned Macy's Midwest Headquarters",
-        "url": "http://www.philipithomas.com/macys-building/",
-        "points": 144,
-        "comments": 57,
-        "id": "5261711"
-      },
-      {
-        "created_at": "2014-05-22T18:07:45Z",
-        "title": "The commando scientist billionaire who died fighting terrorists",
-        "url": "https://www.philipithomas.com/life-of-danny-lewin/",
-        "points": 61,
-        "comments": 49,
-        "id": "7785256"
-      },
-      {
-        "created_at": "2014-09-29T16:38:55Z",
-        "title": "Take a Vacation to Read",
-        "url": "https://www.philipithomas.com/reading-vacation/",
-        "points": 17,
-        "comments": 1,
-        "id": "8383675"
-      },
-      {
-        "created_at": "2014-06-04T23:22:23Z",
-        "title": "Facts about the military empire of switzerland",
-        "url": "https://www.philipithomas.com/switzerland/",
-        "points": 10,
-        "comments": 2,
-        "id": "7849121"
-      }
-    ]
-  },
-  {
-    "url": "https://www.philipzucker.com",
+    "url": "https://philipzucker.com",
     "title": "Hey There Buddo! | Hot Leaves in a Cold Worlds.",
     "feed": "https://www.philipzucker.com/feed.xml",
     "desc": "A blog about life, programming, math, logic, and physics.",
@@ -63020,7 +61293,7 @@
     ]
   },
   {
-    "url": "https://www.pixelbox.com",
+    "url": "https://pixelbox.com",
     "title": "Pixelbox Design Laboratory",
     "about": "https://www.pixelbox.com/about",
     "desc": "This is the online notebook of creative technologist Tomasz (Tomek) Zemla.",
@@ -63036,90 +61309,14 @@
     ]
   },
   {
-    "url": "https://www.planetjones.net",
-    "title": "Jonathan Jones homepage: planetjones.net",
-    "feed": "https://www.planetjones.net/index.xml",
-    "hn": [
-      {
-        "created_at": "2023-06-11T11:35:40Z",
-        "title": "A trip to the internet in 1996 with The Rough Guide 2.0",
-        "url": "https://www.planetjones.net/blog/10-06-2023/a-trip-to-the-internet-in-1996-with-the-rough-guide-2.0.html",
-        "points": 68,
-        "comments": 25,
-        "id": "36280393"
-      }
-    ]
-  },
-  {
-    "url": "https://www.potluria.com",
-    "title": "alec potluri",
-    "feed": "https://www.potluria.com/rss.xml",
-    "desc": "alec potluri"
-  },
-  {
-    "url": "https://www.preetamnath.com",
-    "title": "Preetam Nath | Welcome to my corner on the Internet",
-    "desc": "Personal website and blog of Preetam Nath. I write about building SaaS businesses and living a good life. Thanks for visiting and say hi on Twitter if you like my stuff!",
-    "hn": [
-      {
-        "created_at": "2020-08-09T05:10:48Z",
-        "title": "Fire your bad customers",
-        "url": "https://www.preetamnath.com/blog/fire-your-bad-customers",
-        "points": 393,
-        "comments": 273,
-        "id": "24097420"
-      },
-      {
-        "created_at": "2020-08-24T14:47:40Z",
-        "title": "Making money building Shopify micro-SaaS apps",
-        "url": "https://www.preetamnath.com/blog/building-your-first-micro-saas-app-on-shopify",
-        "points": 247,
-        "comments": 63,
-        "id": "24261192"
-      },
-      {
-        "created_at": "2020-10-11T05:35:13Z",
-        "title": "Why you should write",
-        "url": "https://www.preetamnath.com/blog/why-you-should-write",
-        "points": 231,
-        "comments": 79,
-        "id": "24743944"
-      },
-      {
-        "created_at": "2020-07-04T20:00:20Z",
-        "title": "How I grew my Shopify micro-SaaS",
-        "url": "https://www.preetamnath.com/blog/grow-shopify-micro-saas-to-25k-mrr-in-14-months",
-        "points": 139,
-        "comments": 55,
-        "id": "23734539"
-      },
-      {
-        "created_at": "2020-09-13T04:12:09Z",
-        "title": "Together vs. Alone: Thoughts on building a team",
-        "url": "https://www.preetamnath.com/blog/building-a-team",
-        "points": 74,
-        "comments": 8,
-        "id": "24458258"
-      },
-      {
-        "created_at": "2020-11-22T05:40:54Z",
-        "title": "Build a Minimum Loveable Product",
-        "url": "https://www.preetamnath.com/micro-saas/minimum-loveable-product-micro-saas",
-        "points": 48,
-        "comments": 26,
-        "id": "25175220"
-      }
-    ]
-  },
-  {
-    "url": "https://www.rkowalewski.de",
+    "url": "https://rkowalewski.de",
     "title": "Home | Roger Kowalewski",
     "feed": "https://www.rkowalewski.de/index.xml",
     "keywords": "abstractart,diy,hosting,openbsd,",
     "desc": "Roger Kowalewski's Blog"
   },
   {
-    "url": "https://www.rlvision.com",
+    "url": "https://rlvision.com",
     "title": "RL Vision - Independent PC Software Developer since 1998",
     "feed": "https://www.rlvision.com/rss.xml",
     "hn": [
@@ -63134,202 +61331,13 @@
     ]
   },
   {
-    "url": "https://www.rohanmenon.com",
-    "title": "Rohan Menon",
-    "feed": "https://www.rohanmenon.com/index.xml",
-    "desc": "I’m a second year PhD student in [Signal Kinetics](https://www.media.mit.edu/groups/signal-kinetics/overview/) at the [MIT Media Lab](https://www.media.mit.edu/), focusing on wireless sensing and communication. I love working on projects involving electronics, software and design."
-  },
-  {
-    "url": "https://www.rosshartshorn.net",
-    "title": "Website of Ross Hartshorn",
-    "hn": [
-      {
-        "created_at": "2021-01-18T23:15:13Z",
-        "title": "I think the Dakotas are already at herd immunity",
-        "url": "https://www.rosshartshorn.net/stuffrossthinksabout/dakota_immunity/",
-        "points": 19,
-        "comments": 30,
-        "id": "25827910"
-      }
-    ]
-  },
-  {
-    "url": "https://www.rxjourney.net",
-    "hn": [
-      {
-        "created_at": "2025-06-26T10:36:01Z",
-        "title": "A Few Thoughts on Extraterrestrial Intelligence",
-        "url": "https://www.rxjourney.net/a-few-thoughts-on-extraterrestrial-intelligence",
-        "points": 19,
-        "comments": 6,
-        "id": "44386021"
-      }
-    ]
-  },
-  {
-    "url": "https://www.ryancompton.net",
-    "title": "Ryan Compton | Ryan Compton personal blog.",
-    "feed": "https://www.ryancompton.net/feed.xml",
-    "desc": "Ryan Compton personal blog."
-  },
-  {
-    "url": "https://www.sammcalilly.com",
+    "url": "https://sammcalilly.com",
     "title": "writing | this is sam mcalilly’s blog",
     "feed": "https://www.sammcalilly.com/feed.xml",
     "desc": "this is sam mcalilly’s blog"
   },
   {
-    "url": "https://www.sciencemadness.org",
-    "title": "Welcome to Sciencemadness Dot Org",
-    "hn": [
-      {
-        "created_at": "2020-05-15T14:36:25Z",
-        "title": "Ignition: An Informal History of Liquid Rocket Propellants (1972) [pdf]",
-        "url": "http://www.sciencemadness.org/library/books/ignition.pdf",
-        "points": 143,
-        "comments": 52,
-        "id": "23192651"
-      },
-      {
-        "created_at": "2023-07-04T22:38:49Z",
-        "title": "Life after detonation (2012)",
-        "url": "http://www.sciencemadness.org/talk/viewthread.php?tid=22554",
-        "points": 88,
-        "comments": 32,
-        "id": "36593407"
-      }
-    ]
-  },
-  {
-    "url": "https://www.scottrlarson.com",
-    "title": "Scott Larson",
-    "feed": "http://scottrlarson.com/index.xml",
-    "desc": "I am the Computer Troubleshooter. I offer computer repair, data recovery and information technology services to the public of Santa Rosa, California and it's surrounding areas.   ",
-    "hn": [
-      {
-        "created_at": "2025-10-16T01:00:17Z",
-        "title": "Retiring Windows 10 and Microsoft's move towards a surveillance state",
-        "url": "https://www.scottrlarson.com/publications/publication-windows-move-towards-surveillance/",
-        "points": 550,
-        "comments": 492,
-        "id": "45600338"
-      },
-      {
-        "created_at": "2024-12-29T19:11:43Z",
-        "title": "Are PC hardware companies driving technology into restricted closed ecosystems?",
-        "url": "https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/",
-        "points": 209,
-        "comments": 156,
-        "id": "42542138"
-      },
-      {
-        "created_at": "2025-08-24T20:22:26Z",
-        "title": "Looking back at my transition from Windows to Linux",
-        "url": "https://www.scottrlarson.com/publications/publication-looking-back-windows-to-linux/",
-        "points": 126,
-        "comments": 225,
-        "id": "45007437"
-      },
-      {
-        "created_at": "2022-03-13T19:10:14Z",
-        "title": "My transition from Windows to Linux in an anti-customer age",
-        "url": "https://www.scottrlarson.com/publications/publication-transition-windows-to-linux/",
-        "points": 85,
-        "comments": 168,
-        "id": "30664681"
-      }
-    ]
-  },
-  {
-    "url": "https://www.senthilgandhi.com",
-    "title": "All posts | senthil's blog",
-    "feed": "https://www.senthilgandhi.com/rss.xml",
-    "desc": "forked from gatsby starter blog"
-  },
-  {
-    "url": "https://www.shdon.com",
-    "title": "shdon.com",
-    "about": "https://www.shdon.com/about",
-    "desc": "Welcome to Steven Don's website of freeware and source code",
-    "hn": [
-      {
-        "created_at": "2012-11-17T01:47:50Z",
-        "title": "Solve my puzzle, win $100",
-        "url": "http://www.shdon.com/blog/2012/11/17/puzzle",
-        "points": 8,
-        "comments": 7,
-        "id": "4796801"
-      }
-    ]
-  },
-  {
-    "url": "https://www.silvestar.codes",
-    "title": "Home ✣ S.Bistrović",
-    "feed": "https://www.silvestar.codes/rss.xml",
-    "desc": "I'm building modern, performant, and SEO-optimized websites since 2012 using the best coding practices to deliver the best experience for every user.",
-    "hn": [
-      {
-        "created_at": "2021-08-02T12:32:22Z",
-        "title": "My rant about React",
-        "url": "https://www.silvestar.codes/articles/you-don-t-need-react-for-building-websites/",
-        "points": 60,
-        "comments": 74,
-        "id": "28035705"
-      },
-      {
-        "created_at": "2023-03-24T10:32:29Z",
-        "title": "Page builders might not be a good idea",
-        "url": "https://www.silvestar.codes/articles/page-builders-might-not-be-a-good-idea/",
-        "points": 39,
-        "comments": 57,
-        "id": "35287253"
-      }
-    ]
-  },
-  {
-    "url": "https://www.simonam.dev",
-    "title": "All posts | Simon's Blog",
-    "about": "https://www.simonam.dev/about",
-    "feed": "https://www.simonam.dev/rss.xml",
-    "desc": "Simon-grade thoughts. Usually about tech, UX or some combination."
-  },
-  {
-    "url": "https://www.skeptrune.com",
-    "hn": [
-      {
-        "created_at": "2025-08-01T16:59:51Z",
-        "title": "I couldn't submit a PR, so I got hired and fixed it myself",
-        "url": "https://www.skeptrune.com/posts/doing-the-little-things/",
-        "points": 328,
-        "comments": 216,
-        "id": "44759417"
-      },
-      {
-        "created_at": "2025-05-28T15:13:38Z",
-        "title": "LLM codegen go brrr – Parallelization with Git worktrees and tmux",
-        "url": "https://www.skeptrune.com/posts/git-worktrees-agents-and-tmux/",
-        "points": 156,
-        "comments": 73,
-        "id": "44116872"
-      },
-      {
-        "created_at": "2025-09-28T23:33:34Z",
-        "title": "Use the Accept Header to Serve Markdown Instead of HTML to LLMs",
-        "url": "https://www.skeptrune.com/posts/use-the-accept-header-to-serve-markdown-instead-of-html-to-llms/",
-        "points": 74,
-        "comments": 61,
-        "id": "45409001"
-      }
-    ]
-  },
-  {
-    "url": "https://www.skruban.com",
-    "title": "About • Ruban",
-    "feed": "https://www.skruban.com/rss.xml",
-    "desc": "Ruban's personal website"
-  },
-  {
-    "url": "https://www.softwaredesign.ing",
+    "url": "https://softwaredesign.ing",
     "title": "Prakhar Gupta",
     "desc": "Software Engineer, LITM",
     "hn": [
@@ -63352,85 +61360,13 @@
     ]
   },
   {
-    "url": "https://www.spencerharston.com",
-    "title": "Spencer Harston",
-    "about": "https://www.spencerharston.com/about",
-    "now": "https://www.spencerharston.com/now",
-    "feed": "https://www.spencerharston.com/feed.xml",
-    "desc": "The personal website of Spencer Harston"
-  },
-  {
-    "url": "https://www.stratha.us",
+    "url": "https://stratha.us",
     "title": "johann philipp strathausen",
     "feed": "https://www.stratha.us/rss.xml",
     "desc": "philipp strathausen - berlin based senior full stack developer specializing in react, typescript, node.js, and postgres. building open source side projects and writing about software development."
   },
   {
-    "url": "https://www.tglyn.ch",
-    "title": "Home - Tom Lynch",
-    "hn": [
-      {
-        "created_at": "2021-04-28T16:00:03Z",
-        "title": "Who won the Amstel Gold Race? Human error in photo-finishes",
-        "url": "https://www.tglyn.ch/blog/amstel_gold/",
-        "points": 504,
-        "comments": 192,
-        "id": "26970854"
-      }
-    ]
-  },
-  {
-    "url": "https://www.thebacklog.net",
-    "title": "The b(ack)log",
-    "feed": "https://www.thebacklog.net/rss.xml",
-    "desc": "A collection of writing, projects, thoughts, experiments and other things."
-  },
-  {
-    "url": "https://www.therror.com",
-    "title": "Portada (therror)",
-    "feed": "https://www.therror.com/feed"
-  },
-  {
-    "url": "https://www.thomas-huehn.com",
-    "title": "Thomas Hühn",
-    "feed": "https://www.thomas-huehn.com/feed.xml",
-    "hn": [
-      {
-        "created_at": "2024-01-15T06:44:34Z",
-        "title": "Venice's Secret Service",
-        "url": "https://www.thomas-huehn.com/2024/01/venices-secret-service/",
-        "points": 166,
-        "comments": 36,
-        "id": "38998055"
-      },
-      {
-        "created_at": "2025-02-17T16:09:47Z",
-        "title": "Open source projects could sell SBOM fragments",
-        "url": "https://www.thomas-huehn.com/open-source-projects-could-sell-sbom-fragments/",
-        "points": 113,
-        "comments": 62,
-        "id": "43080378"
-      },
-      {
-        "created_at": "2024-04-23T07:25:49Z",
-        "title": "The Deadline (2014)",
-        "url": "https://www.thomas-huehn.com/2014/12/the-deadline/",
-        "points": 28,
-        "comments": 2,
-        "id": "40129444"
-      },
-      {
-        "created_at": "2025-11-15T04:06:09Z",
-        "title": "Statistical Process Control According to W. Edwards Deming",
-        "url": "https://www.thomas-huehn.com/deming/",
-        "points": 16,
-        "comments": 0,
-        "id": "45934978"
-      }
-    ]
-  },
-  {
-    "url": "https://www.thoughtmerchants.com",
+    "url": "https://thoughtmerchants.com",
     "title": "Thought Merchants",
     "about": "https://www.thoughtmerchants.com/about",
     "desc": "People. Process. Product.",
@@ -63446,96 +61382,7 @@
     ]
   },
   {
-    "url": "https://www.tyleo.com",
-    "title": "tyleo.com",
-    "feed": "https://www.tyleo.com/rss.xml",
-    "desc": "Tyler Wolf Leonhardt's website.",
-    "hn": [
-      {
-        "created_at": "2024-11-24T02:19:45Z",
-        "title": "Frosted glass from games to the web",
-        "url": "https://www.tyleo.com/html-glass.html",
-        "points": 791,
-        "comments": 192,
-        "id": "42225481"
-      },
-      {
-        "created_at": "2025-04-29T01:40:18Z",
-        "title": "Show HN: Rad Type - Can we make gamepad typing fast?",
-        "url": "https://www.tyleo.com/projects/rad-type",
-        "points": 42,
-        "comments": 37,
-        "id": "43827945"
-      },
-      {
-        "created_at": "2024-09-07T18:06:33Z",
-        "title": "The First Idiot Principle",
-        "url": "https://www.tyleo.com/blog/the-first-idiot-principle/index.html",
-        "points": 25,
-        "comments": 4,
-        "id": "41475350"
-      }
-    ]
-  },
-  {
-    "url": "https://www.unsungnovelty.org",
-    "title": "unsungNovelty",
-    "feed": "https://www.unsungnovelty.org/index.xml",
-    "desc": "unsungNovelty section - Data, Information accessibility and Security. "
-  },
-  {
-    "url": "https://www.usebox.net",
-    "title": "Welcome - usebox.net",
-    "desc": "Welcome: this is jjm's home at usebox.net.",
-    "hn": [
-      {
-        "created_at": "2014-12-16T07:11:25Z",
-        "title": "Post mortem of my one game a month",
-        "url": "http://www.usebox.net/jjm/one-game-a-month/",
-        "points": 273,
-        "comments": 65,
-        "id": "8756157"
-      },
-      {
-        "created_at": "2019-01-06T03:43:23Z",
-        "title": "DAN64, an AVR based 8-bit microcomputer",
-        "url": "https://www.usebox.net/jjm/dan64/",
-        "points": 84,
-        "comments": 20,
-        "id": "18836431"
-      },
-      {
-        "created_at": "2015-04-06T16:37:14Z",
-        "title": "Show HN: An AVR based 8-bit Microcomputer",
-        "url": "http://www.usebox.net/jjm/dan64/",
-        "points": 43,
-        "comments": 5,
-        "id": "9329016"
-      },
-      {
-        "created_at": "2025-11-03T17:25:49Z",
-        "title": "Learning a Bit of VGA",
-        "url": "https://www.usebox.net/jjm/blog/learning-a-bit-of-vga/",
-        "points": 10,
-        "comments": 3,
-        "id": "45801630"
-      }
-    ]
-  },
-  {
-    "url": "https://www.varyvoda.com",
-    "title": "Igor Varyvoda's Website",
-    "feed": "https://www.varyvoda.com/index.xml",
-    "keywords": "blog,developer,personal",
-    "desc": "Sensible marketing blog by Igor Varyvoda."
-  },
-  {
-    "url": "https://www.williamivy.com",
-    "title": "William Ivy - Portfolio",
-    "feed": "https://www.williamivy.com/index.xml"
-  },
-  {
-    "url": "https://www.xmsxmx.com",
+    "url": "https://xmsxmx.com",
     "title": "-Xms -Xmx     ",
     "desc": "Brain Dumps",
     "hn": [
@@ -63550,7 +61397,7 @@
     ]
   },
   {
-    "url": "https://www.ziritione.org",
+    "url": "https://ziritione.org",
     "title": "Ziritione: Luis Peralta's home | Luis Peralta",
     "feed": "https://www.ziritione.org/index.xml",
     "desc": "Luis Peralta home."
@@ -63623,21 +61470,6 @@
         "points": 30,
         "comments": 65,
         "id": "45460329"
-      }
-    ]
-  },
-  {
-    "url": "https://xmsxmx.com",
-    "title": "-Xms -Xmx     ",
-    "desc": "Brain Dumps",
-    "hn": [
-      {
-        "created_at": "2020-05-26T21:21:16Z",
-        "title": "Why would one choose GCP over other cloud providers?",
-        "url": "http://www.xmsxmx.com/gcp-advantages-benefits-over-aws-azure/",
-        "points": 6,
-        "comments": 6,
-        "id": "23316543"
       }
     ]
   },
@@ -64138,12 +61970,6 @@
     "title": "Hello from Dmytro Zharii | Dmytro Zharii",
     "feed": "https://blog.zharii.com/blog/rss.xml",
     "desc": "Description will go into a meta tag in <head />"
-  },
-  {
-    "url": "https://ziritione.org",
-    "title": "Ziritione: Luis Peralta's home | Luis Peralta",
-    "feed": "https://ziritione.org/index.xml",
-    "desc": "Luis Peralta home."
   },
   {
     "url": "https://zubspace.com",
