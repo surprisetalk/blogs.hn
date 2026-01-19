@@ -1,10 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>blogs.hn</title>
     <meta charset="UTF-8" />
-    <meta name="author" content="Taylor Troesh" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>blogs.hn</title>
+    <meta name="author" content="Taylor Troesh" />
+    <meta name="description" content="A tiny tech blog directory." />
+    <meta property="og:title" content="blogs.hn" />
+    <meta property="og:description" content="A tiny tech blog directory." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://blogs.hn" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="blogs.hn" />
+    <meta name="twitter:description" content="A tiny tech blog directory." />
+
     <meta name="color-scheme" content="light dark" />
 
     <!-- fixes notch on dark mode -->
@@ -27,7 +37,9 @@
       <a href="/about">about</a>
       <a href="https://github.com/surprisetalk/blogs.hn">src</a>
       <a href="/blogs.hn.opml" download>opml</a>
-      <a id="shuffle" style="display: none" href="#" onclick="shuffle()">shuf</a>
+      <a id="shuffle" style="display: none" href="#" onclick="shuffle()"
+        >shuf</a
+      >
     </header>
     {{body}}
   </body>
