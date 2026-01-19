@@ -1966,7 +1966,7 @@
     "url": "https://alicegg.tech",
     "title": "Alice GG",
     "feed": "https://alicegg.tech/feed.xml",
-    "desc": "Alice Girard Guittard, Software Engineer and Co-Founder at <a href='https://tsukumogami.software\\'>Tsukumogami Software</a>, passionate about Software, DevOps and Information Security. ",
+    "desc": "Alice Girard Guittard, Software Engineer and Co-Founder at <a href='https://tsukumogami.software\\'>Tsukumogami Software</a>, passionate about Software, DevOps and Information Security.",
     "hn": [
       {
         "created_at": "2023-02-06T12:02:58Z",
@@ -2173,7 +2173,7 @@
     "url": "https://allaboutcoding.ghinda.com",
     "title": "All about coding",
     "feed": "https://allaboutcoding.ghinda.com/rss.xml",
-    "desc": "I write here quick thoughts, ideas, tips, and learnings about programming, programmers, and building software.  Most of my focus is on Ruby, Rails, Hotwire and everything about web applications ",
+    "desc": "I write here quick thoughts, ideas, tips, and learnings about programming, programmers, and building software.  Most of my focus is on Ruby, Rails, Hotwire and everything about web applications",
     "hn": [
       {
         "created_at": "2025-03-21T09:43:16Z",
@@ -3035,7 +3035,7 @@
       },
       {
         "created_at": "2014-02-17T22:44:08Z",
-        "title": "TCP/IP over audio ",
+        "title": "TCP/IP over audio",
         "url": "http://www.anfractuosity.com/projects/ultrasound-networking/",
         "points": 137,
         "comments": 67,
@@ -3140,7 +3140,7 @@
   },
   {
     "url": "https://anisse.astier.eu",
-    "title": "Linux Engineer's random thoughts ",
+    "title": "Linux Engineer's random thoughts",
     "keywords": "",
     "desc": "In which I babble about pet projects and rant about stuff I like. Linux engineer by day, I probably play too much video games on my occasional free time.",
     "hn": [
@@ -3507,7 +3507,7 @@
   },
   {
     "url": "https://atomic14.com",
-    "title": "atomic14 | atomic14   ",
+    "title": "atomic14 | atomic14",
     "feed": "https://atomic14.com/feed.xml",
     "desc": "",
     "hn": [
@@ -3941,7 +3941,7 @@
   },
   {
     "url": "https://ayende.com",
-    "title": "Ayende @ Rahien     ",
+    "title": "Ayende @ Rahien",
     "hn": [
       {
         "created_at": "2014-10-20T11:01:40Z",
@@ -4769,7 +4769,7 @@
   },
   {
     "url": "https://bhupalsapkota.com",
-    "title": "Bhupal's Personal Web Page    ",
+    "title": "Bhupal's Personal Web Page",
     "desc": "Unraveling art, science, and commerce behind technology.      Passionate about web/mobile programming, writing, and growing an online business. Please stop by!",
     "hn": [
       {
@@ -5338,7 +5338,7 @@
     "hn": [
       {
         "created_at": "2010-11-06T23:53:08Z",
-        "title": "Oracle is the Borg: Enterprise Software Development Will Be Assimilated ",
+        "title": "Oracle is the Borg: Enterprise Software Development Will Be Assimilated",
         "url": "http://blog.herlein.com/2010/11/oracle-is-the-borg-enterprise-software-development-will-be-assimilated/",
         "points": 51,
         "comments": 34,
@@ -5394,7 +5394,7 @@
       },
       {
         "created_at": "2010-11-07T22:35:43Z",
-        "title": "Ubuntu - Brave New World? Or Jumping off a Cliff? ",
+        "title": "Ubuntu - Brave New World? Or Jumping off a Cliff?",
         "url": "http://blog.herlein.com/2010/11/ubuntu-brave-new-world-or-jumping-off-a-cliff/",
         "points": 8,
         "comments": 12,
@@ -6030,7 +6030,7 @@
     "url": "https://blog.lawrencejones.dev",
     "title": "Lawrence Jones",
     "feed": "https://blog.lawrencejones.dev/feed.xml",
-    "desc": "Building reliable infrastructure for GoCardless, a fast-growing fintech based in London. Focused on tackling infrastructure problems with a software engineering mindset. ",
+    "desc": "Building reliable infrastructure for GoCardless, a fast-growing fintech based in London. Focused on tackling infrastructure problems with a software engineering mindset.",
     "hn": [
       {
         "created_at": "2022-08-31T10:35:15Z",
@@ -6115,7 +6115,7 @@
     "url": "https://blog.lohr.dev",
     "title": "Michi's Blog",
     "feed": "https://blog.lohr.dev/rss.xml",
-    "desc": "Passionate about software development and architecture, web and cloud technologies, as well as game development. ",
+    "desc": "Passionate about software development and architecture, web and cloud technologies, as well as game development.",
     "hn": [
       {
         "created_at": "2025-03-29T09:05:33Z",
@@ -6719,7 +6719,7 @@
   },
   {
     "url": "https://blog.rmendes.net",
-    "title": "rMdes - a place to write and think freely    ",
+    "title": "rMdes - a place to write and think freely",
     "feed": "https://blog.rmendes.net/feed.xml",
     "desc": ""
   },
@@ -7138,7 +7138,7 @@
     "hn": [
       {
         "created_at": "2014-04-28T06:16:20Z",
-        "title": "SSH Kung Fu ",
+        "title": "SSH Kung Fu",
         "url": "http://blog.tjll.net/ssh-kung-fu/",
         "points": 487,
         "comments": 130,
@@ -7195,7 +7195,7 @@
       {
         "created_at": "2014-10-23T09:05:43Z",
         "title": "Kippo Honeypot Video Gallery",
-        "url": "http://blog.tjll.net/kippo-honeypot-video-gallery/ ",
+        "url": "http://blog.tjll.net/kippo-honeypot-video-gallery/",
         "points": 58,
         "comments": 17,
         "id": "8497283"
@@ -7302,7 +7302,7 @@
   },
   {
     "url": "https://blog.varunramesh.net",
-    "title": "Varun Ramesh's Blog ",
+    "title": "Varun Ramesh's Blog",
     "feed": "https://blog.varunramesh.net/rss.xml",
     "desc": "Updates on projects and musings about technology.",
     "hn": [
@@ -8336,7 +8336,7 @@
       },
       {
         "created_at": "2011-07-23T06:19:33Z",
-        "title": "Mastering Gamification by Gabe Zichermann [video] ",
+        "title": "Mastering Gamification by Gabe Zichermann [video]",
         "url": "http://brajeshwar.com/2011/video-mastering-gamification-by-gabe-zichermann/",
         "points": 12,
         "comments": 0,
@@ -8430,7 +8430,7 @@
   },
   {
     "url": "https://bsid.io",
-    "title": "Siddhartha Bariker🚀               ",
+    "title": "Siddhartha Bariker🚀",
     "feed": "https://bsid.io/index.xml",
     "keywords": "B Siddhartha, Siddhartha Bariker, Siddhartha, B Siddhartha, Belgaum",
     "desc": "Software Engineering, Distributed Systems, DevOps, IoT",
@@ -8782,7 +8782,7 @@
   },
   {
     "url": "https://captnemo.in",
-    "title": "Abhay Rana · aka Nemo        ",
+    "title": "Abhay Rana · aka Nemo",
     "keywords": "captnemo, abhay rana, sdslabs, piratecoders, iit roorkee, abhayumt, abhay bir singh rana",
     "hn": [
       {
@@ -9434,7 +9434,7 @@
       },
       {
         "created_at": "2012-05-07T17:45:36Z",
-        "title": "Why Use Postgres - Part 2 ",
+        "title": "Why Use Postgres - Part 2",
         "url": "http://craigkerstiens.com/2012/05/07/why-postgres-part-2/",
         "points": 145,
         "comments": 69,
@@ -9444,7 +9444,7 @@
   },
   {
     "url": "https://craigmod.com",
-    "title": "Craig Mod — Writer + Photographer ",
+    "title": "Craig Mod — Writer + Photographer",
     "about": "https://craigmod.com/about",
     "feed": "https://craigmod.com/index.xml",
     "desc": "The homepage of author and photographer Craig Mod — long walks across Japan, pizza toast, books, photography, literature, and more.",
@@ -9626,12 +9626,12 @@
   },
   {
     "url": "https://crisis40.com",
-    "title": "caso grave de crisis de los 40        ",
+    "title": "caso grave de crisis de los 40",
     "feed": "https://crisis40.com/posts/index.xml"
   },
   {
     "url": "https://crooked.ink",
-    "title": "Crooked Ink  - Stories about weird stuff               ",
+    "title": "Crooked Ink  - Stories about weird stuff",
     "about": "https://crooked.ink/about",
     "feed": "https://crooked.ink/index.xml",
     "keywords": "creative writing, blog, weird fiction, short stories",
@@ -10088,7 +10088,7 @@
   },
   {
     "url": "https://danielmiessler.com",
-    "title": "Unsupervised Learning ",
+    "title": "Unsupervised Learning",
     "keywords": "artificial intelligence, cybersecurity, technology",
     "desc": "Unsupervised Learning is a Security, AI, and Meaning-focused newsletter & podcast that looks at how best to thrive as humans in a post-AI world. It combines original ideas, analysis, and mental models to bring not just the news, but why it matters and how to respond.",
     "hn": [
@@ -10525,7 +10525,7 @@
   },
   {
     "url": "https://davepeck.org",
-    "title": "Dave Peck   ",
+    "title": "Dave Peck",
     "desc": "Dave Peck's blog, home to discussions of software development, music, and other nerdery",
     "hn": [
       {
@@ -11401,7 +11401,7 @@
   },
   {
     "url": "https://divan.dev",
-    "title": "divan's blog ·  divan's blog   ",
+    "title": "divan's blog ·  divan's blog",
     "feed": "https://divan.dev/index.xml",
     "hn": [
       {
@@ -11494,7 +11494,7 @@
     "title": "Domenico Luciani",
     "about": "https://domenicoluciani.com/about",
     "feed": "https://domenicoluciani.com/feed.xml",
-    "desc": "Passionate programmer, experienced Extreme Programmer, Senior Agile Software Engineer @ VMware, remote worker from Spain, Open Source enthusiast, and avid learner with a focus on software craftsmanship, and IT security. ",
+    "desc": "Passionate programmer, experienced Extreme Programmer, Senior Agile Software Engineer @ VMware, remote worker from Spain, Open Source enthusiast, and avid learner with a focus on software craftsmanship, and IT security.",
     "hn": [
       {
         "created_at": "2016-08-29T10:41:04Z",
@@ -11742,8 +11742,8 @@
   },
   {
     "url": "https://duncanlock.net",
-    "title": "Duncan Locks personal site · duncan­lock­.net   ",
-    "desc": "Duncan Locks personal site. Includes my blog, colitis resources, SCD recipes, portfolio and CV/Resume. ",
+    "title": "Duncan Locks personal site · duncan­lock­.net",
+    "desc": "Duncan Locks personal site. Includes my blog, colitis resources, SCD recipes, portfolio and CV/Resume.",
     "hn": [
       {
         "created_at": "2022-04-07T13:53:36Z",
@@ -12504,7 +12504,7 @@
   },
   {
     "url": "https://everttimberg.io",
-    "title": "Evert Timberg ",
+    "title": "Evert Timberg",
     "feed": "https://everttimberg.io/index.xml",
     "desc": "Evert Timberg, Software developer and architect in Toronto"
   },
@@ -12773,7 +12773,7 @@
   },
   {
     "url": "https://faingezicht.com",
-    "title": "AF · Avy Faingezicht ",
+    "title": "AF · Avy Faingezicht",
     "hn": [
       {
         "created_at": "2021-10-09T07:54:13Z",
@@ -13371,7 +13371,7 @@
     "url": "https://gaganpreet.in",
     "title": "Gaganpreet Arora",
     "feed": "https://gaganpreet.in/index.xml",
-    "desc": "Hi, I am Gaganpreet, a software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops.   ",
+    "desc": "Hi, I am Gaganpreet, a software engineer based in the Netherlands. I have extensive experience on the backend, and with scalability, security and devops.",
     "hn": [
       {
         "created_at": "2021-10-26T21:51:58Z",
@@ -13885,7 +13885,7 @@
   },
   {
     "url": "https://ghinda.com",
-    "title": "Lucian Ghinda - personal website        ",
+    "title": "Lucian Ghinda - personal website",
     "hn": [
       {
         "created_at": "2025-03-21T09:43:16Z",
@@ -14226,7 +14226,7 @@
   },
   {
     "url": "https://gregraiz.com",
-    "title": "Greg's Half Ideas   ",
+    "title": "Greg's Half Ideas",
     "feed": "https://gregraiz.com/feed.xml",
     "desc": "A basic blog from Greg Raiz on startups, entrepenourship and technology",
     "hn": [
@@ -14339,7 +14339,7 @@
   },
   {
     "url": "https://hashrust.com",
-    "title": "HashRust - experience the joy of Rust ",
+    "title": "HashRust - experience the joy of Rust",
     "feed": "https://hashrust.com/rss.xml",
     "desc": "HashRust is a blog about the Rust Language.",
     "hn": [
@@ -14518,9 +14518,9 @@
   },
   {
     "url": "https://honeypot.net",
-    "title": "Honeypot.net |               Kirk Strauser          ",
+    "title": "Honeypot.net |               Kirk Strauser",
     "feed": "https://honeypot.net/index.xml",
-    "desc": "Extracting chaos from order       ",
+    "desc": "Extracting chaos from order",
     "hn": [
       {
         "created_at": "2021-02-28T20:38:48Z",
@@ -14651,7 +14651,7 @@
   },
   {
     "url": "https://hypertexthero.com",
-    "title": "Hypertexthero   ",
+    "title": "Hypertexthero",
     "feed": "https://hypertexthero.com/index.xml",
     "hn": [
       {
@@ -14762,7 +14762,7 @@
   },
   {
     "url": "https://ilearnt.com",
-    "title": "I Learnt        ",
+    "title": "I Learnt",
     "feed": "https://ilearnt.com/rss.xml",
     "hn": [
       {
@@ -14999,7 +14999,7 @@
       },
       {
         "created_at": "2012-05-03T09:03:10.000Z",
-        "title": "JS performance: try / catch versus checking for undefined ",
+        "title": "JS performance: try / catch versus checking for undefined",
         "url": "http://jsperf.com/try-catch-error-perf/3",
         "points": 42,
         "comments": 26,
@@ -15015,7 +15015,7 @@
       },
       {
         "created_at": "2011-04-28T00:09:58.000Z",
-        "title": "JQuery.fn.each vs. jQuery.fn.quickEach  ",
+        "title": "JQuery.fn.each vs. jQuery.fn.quickEach",
         "url": "http://jsperf.com/jquery-each-vs-quickeach#run",
         "points": 32,
         "comments": 11,
@@ -16105,7 +16105,7 @@
   },
   {
     "url": "https://jiby.tech",
-    "title": "Jiby's toolbox - Jb Doyon's personal website ",
+    "title": "Jiby's toolbox - Jb Doyon's personal website",
     "about": "https://jiby.tech/about",
     "feed": "https://jiby.tech/index.xml",
     "hn": [
@@ -16480,7 +16480,7 @@
   },
   {
     "url": "https://jonandnic.com",
-    "title": "jonandnic dot com - you never know just how you look through other people's eyes ",
+    "title": "jonandnic dot com - you never know just how you look through other people's eyes",
     "feed": "http://www.jonandnic.com/feed",
     "desc": "they won't see us waving from such great heights",
     "hn": [
@@ -16580,7 +16580,7 @@
   },
   {
     "url": "https://josh.works",
-    "title": "Josh Thompson · Solving Problems        ",
+    "title": "Josh Thompson · Solving Problems",
     "about": "https://josh.works/about",
     "feed": "https://josh.works/feed.xml",
     "desc": "I'm Josh. I give myself permission to put whatever I want on this website.",
@@ -17220,7 +17220,7 @@
     "url": "https://kevinlondon.com",
     "title": "Kevin London's blog",
     "feed": "https://kevinlondon.com/feed.xml",
-    "desc": "Software Engineer at Snapchat. Ex-Amazon. M.S. in Computer Science from Georgia Tech. Views are my own and not representative of my employer. ",
+    "desc": "Software Engineer at Snapchat. Ex-Amazon. M.S. in Computer Science from Georgia Tech. Views are my own and not representative of my employer.",
     "hn": [
       {
         "created_at": "2015-05-09T22:13:07Z",
@@ -17558,7 +17558,7 @@
       },
       {
         "created_at": "2013-12-12T17:10:11Z",
-        "title": "Why Lean Startup sucks for startups. ",
+        "title": "Why Lean Startup sucks for startups.",
         "url": "http://klinger.io/post/69794653694/why-lean-startup-sucks-for-startups",
         "points": 14,
         "comments": 1,
@@ -17608,7 +17608,7 @@
   },
   {
     "url": "https://ktkaufman03.github.io",
-    "title": "Kai Kaufman's tech blog        ",
+    "title": "Kai Kaufman's tech blog",
     "feed": "https://ktkaufman03.github.io/feed.xml",
     "desc": "The ramblings of a cybersecurity student and software (reverse) engineer.",
     "hn": [
@@ -17790,7 +17790,7 @@
       },
       {
         "created_at": "2010-01-22T08:13:10Z",
-        "title": "JavaScript grid editor: I want to be Excel. Updated ",
+        "title": "JavaScript grid editor: I want to be Excel. Updated",
         "url": "http://roberto.open-lab.com/2010/01/18/javascript-grid-editor-i-want-to-be-excel",
         "points": 42,
         "comments": 7,
@@ -17973,7 +17973,7 @@
   },
   {
     "url": "https://law.gmnz.xyz",
-    "title": "Law Gimenez             ",
+    "title": "Law Gimenez",
     "feed": "https://law.gmnz.xyz/feed.xml",
     "desc": "",
     "hn": [
@@ -18803,7 +18803,7 @@
   },
   {
     "url": "https://m10k.eu",
-    "title": "Blog · m10k        ",
+    "title": "Blog · m10k",
     "feed": "https://m10k.eu/feed.xml"
   },
   {
@@ -20715,7 +20715,7 @@
   },
   {
     "url": "https://morling.dev",
-    "title": "Gunnar Morling - Random Musings on All Things Software Engineering ",
+    "title": "Gunnar Morling - Random Musings on All Things Software Engineering",
     "feed": "https://morling.dev/blog/index.xml",
     "hn": [
       {
@@ -21151,10 +21151,10 @@
   },
   {
     "url": "https://muhammadraza.me",
-    "title": "Muhammad | Personal Blog where I write about things I learn or discover. ",
+    "title": "Muhammad | Personal Blog where I write about things I learn or discover.",
     "feed": "https://muhammadraza.me/feed.xml",
     "keywords": "github, theme, free, download, SEO, blog, web, javascript, programming, stackoverflow, python",
-    "desc": "Personal Blog where I write about things I learn or discover. ",
+    "desc": "Personal Blog where I write about things I learn or discover.",
     "hn": [
       {
         "created_at": "2021-05-03T11:01:13Z",
@@ -21330,7 +21330,7 @@
   },
   {
     "url": "https://nadh.in",
-    "title": "Kailash Nadh / Personal homepage - Developer, Tinkerer, Absurdist ",
+    "title": "Kailash Nadh / Personal homepage - Developer, Tinkerer, Absurdist",
     "feed": "https://nadh.in/index.xml",
     "desc": "Developer, Tinkerer, Absurdist",
     "hn": [
@@ -21784,7 +21784,7 @@
       },
       {
         "created_at": "2011-02-18T12:52:22Z",
-        "title": "My Company Is Using OCaml for web development. Why? ",
+        "title": "My Company Is Using OCaml for web development. Why?",
         "url": "http://www.nicollet.net/2011/02/objective-caml-web-programming/",
         "points": 65,
         "comments": 66,
@@ -22892,7 +22892,7 @@
   },
   {
     "url": "https://olivergilan.com",
-    "title": "Oliver Gilan ",
+    "title": "Oliver Gilan",
     "feed": "https://olivergilan.com/blog/rss.xml",
     "desc": "A public slice of my personal journal"
   },
@@ -23320,7 +23320,7 @@
   },
   {
     "url": "https://outofthecomfortzone.frantzmiccoli.com",
-    "title": "Out Of The Comfort Zone      ",
+    "title": "Out Of The Comfort Zone",
     "feed": "https://outofthecomfortzone.frantzmiccoli.com/feed.xml",
     "desc": "All Posts               02 Jul 2023 » A Battle in Ukraine Can Change API Terms            29 Apr 2023 » Society & Generative Models: Who Will Teach the Teachers            21 Apr 2023 » Society & Generative Models: a Contemporary Paperclip Maximizer            28 Mar 2023 » Society & Generative Models: the AI Train            07 Mar 2023 » Society & Generative M...",
     "hn": [
@@ -24017,7 +24017,7 @@
   },
   {
     "url": "https://pawelurbanek.com",
-    "title": "Rails, PostgreSQL Performance Audit and Tuning Consultant for Hire ",
+    "title": "Rails, PostgreSQL Performance Audit and Tuning Consultant for Hire",
     "feed": "https://pawelurbanek.com/feed.xml",
     "keywords": "Ruby on Rails, JavaScript, full stack, consultant, web development, remote developer, startup, performance, optimization, blogger, blog, blogging, SEO, audit, tuning",
     "desc": "Paweł Urbanek - Full Stack Ruby on Rails web developer and consultant, specializing in performance tuning. Experienced in building scalable APIs for startups and refactoring legacy codebases. Blogging about web development related topics.",
@@ -25571,7 +25571,7 @@
     "url": "https://ratherlabs.com",
     "title": "Blockchain Software Development & Engineering Company USA",
     "about": "https://ratherlabs.com/about",
-    "keywords": "blockchain app development, blockchain smart contracts, web3 development,web3 smart contract developers, software factory, software development, software projects, staff augmentation ",
+    "keywords": "blockchain app development, blockchain smart contracts, web3 development,web3 smart contract developers, software factory, software development, software projects, staff augmentation",
     "desc": "Rather Labs is the best blockchain technology company in USA specializing in blockchain app & s/w development, smart contracts and decentralized finance."
   },
   {
@@ -26286,7 +26286,7 @@
     "url": "https://sal.dev",
     "title": "Salvatore's Blog",
     "feed": "https://sal.dev/feed.xml",
-    "desc": "It works on my computer. ",
+    "desc": "It works on my computer.",
     "hn": [
       {
         "created_at": "2022-06-16T19:03:15Z",
@@ -26921,7 +26921,7 @@
   },
   {
     "url": "https://shumaylov.ee",
-    "title": "Georg Šumailov               ",
+    "title": "Georg Šumailov",
     "feed": "https://shumaylov.ee/index.xml",
     "keywords": "",
     "desc": ""
@@ -27055,7 +27055,7 @@
     "url": "https://sin-ack.github.io",
     "title": "sin-ack's writings",
     "feed": "https://sin-ack.github.io/index.xml",
-    "keywords": "self  blog ",
+    "keywords": "self  blog",
     "desc": "Self-important monologues.",
     "hn": [
       {
@@ -27654,7 +27654,7 @@
     "url": "https://sonnet.io",
     "title": "Rafal Pastuszak",
     "feed": "https://sonnet.io/feed.xml",
-    "desc": "Rafał Pastuszak is an experienced startup consultant specialised in web, mobile, emerging technologies and human-centred design. Click to find out more. ",
+    "desc": "Rafał Pastuszak is an experienced startup consultant specialised in web, mobile, emerging technologies and human-centred design. Click to find out more.",
     "hn": [
       {
         "created_at": "2024-01-04T16:49:30Z",
@@ -27842,7 +27842,7 @@
   },
   {
     "url": "https://sources.werd.io",
-    "title": "Ben Werdmuller: Sources     ",
+    "title": "Ben Werdmuller: Sources",
     "about": "https://jacky.wtf/about"
   },
   {
@@ -27851,7 +27851,7 @@
   },
   {
     "url": "https://spacedimp.com",
-    "title": "Spacedimp ",
+    "title": "Spacedimp",
     "hn": [
       {
         "created_at": "2023-06-06T06:06:26Z",
@@ -29147,7 +29147,7 @@
   },
   {
     "url": "https://tashian.com",
-    "title": "Carl Tashian               ",
+    "title": "Carl Tashian",
     "feed": "https://tashian.com/articles/index.xml",
     "desc": "Carl Tashian is a San Francisco-based software engineer and writer.",
     "hn": [
@@ -29211,7 +29211,7 @@
   },
   {
     "url": "https://tbolt.space",
-    "title": "tbolt - UI Design & Programming    ",
+    "title": "tbolt - UI Design & Programming",
     "about": "https://tbolt.space/about",
     "feed": "https://tbolt.space/feed",
     "desc": "This is tbolt's weblog about ui design, computer programming, and other related topics",
@@ -29401,7 +29401,7 @@
       },
       {
         "created_at": "2013-01-26T14:29:28Z",
-        "title": "How Hotel Reservations Work ",
+        "title": "How Hotel Reservations Work",
         "url": "http://thecodist.com/article/how_hotel_reservations_work",
         "points": 172,
         "comments": 45,
@@ -29499,7 +29499,7 @@
   },
   {
     "url": "https://thedarkside.frantzmiccoli.com",
-    "title": "The Dark Side      ",
+    "title": "The Dark Side",
     "feed": "https://thedarkside.frantzmiccoli.com/feed.xml",
     "desc": "All Posts               12 Feb 2023 » Optimizing a Toy Model Using Gradient Descent and JAX            16 May 2021 » Monorepo in a Nanoteam            16 Jul 2020 » LAHC: a must for your software engineering toolbox            01 Apr 2020 » Using Twilio to Make a Call Forwarding and Voice Messaging System            07 Jan 2020 » Using git bisect for regression ...",
     "hn": [
@@ -30025,7 +30025,7 @@
   },
   {
     "url": "https://toast.al",
-    "title": "Functional Front-End & Feelings | toastal   ",
+    "title": "Functional Front-End & Feelings | toastal",
     "keywords": "toastal",
     "desc": "The website & weblog of toastal"
   },
@@ -31509,7 +31509,7 @@
   },
   {
     "url": "https://whackylabs.com",
-    "title": "Whacky Labs · apps and games        ",
+    "title": "Whacky Labs · apps and games",
     "desc": "Making apps and games"
   },
   {
@@ -32606,7 +32606,7 @@
       },
       {
         "created_at": "2012-04-06T12:15:19Z",
-        "title": "Learn Haskell Fast and Hard ",
+        "title": "Learn Haskell Fast and Hard",
         "url": "http://yannesposito.com/Scratch/en/blog/Haskell-the-Hard-Way/",
         "points": 29,
         "comments": 1,
@@ -32614,7 +32614,7 @@
       },
       {
         "created_at": "2012-06-15T15:08:34Z",
-        "title": "Haskell opengl mandelbrot ",
+        "title": "Haskell opengl mandelbrot",
         "url": "http://yannesposito.com/Scratch/en/blog/Haskell-OpenGL-Mandelbrot/",
         "points": 21,
         "comments": 2,
@@ -33408,7 +33408,7 @@
   },
   {
     "url": "https://diyarciftci.xyz",
-    "title": "Diyar Ciftci        ",
+    "title": "Diyar Ciftci",
     "feed": "https://diyarciftci.xyz/index.xml"
   },
   {
@@ -33672,9 +33672,9 @@
   },
   {
     "url": "https://alexdelorenzo.dev",
-    "title": "Alex DeLorenzo - Software Engineer ",
+    "title": "Alex DeLorenzo - Software Engineer",
     "feed": "https://alexdelorenzo.dev/feed.xml",
-    "desc": "Articles, blog and software by Alex DeLorenzo. Check out Alex's software, articles and open source contributions here. ",
+    "desc": "Articles, blog and software by Alex DeLorenzo. Check out Alex's software, articles and open source contributions here.",
     "hn": [
       {
         "created_at": "2020-06-29T02:27:39Z",
@@ -34217,7 +34217,7 @@
   },
   {
     "url": "https://brainbaking.com",
-    "title": "Brain Baking | Freshly Baked Thoughts ",
+    "title": "Brain Baking | Freshly Baked Thoughts",
     "about": "https://brainbaking.com/about",
     "feed": "https://brainbaking.com/index.xml",
     "desc": "Brain Baking | Freshly Baked Thoughts",
@@ -35056,7 +35056,7 @@
   },
   {
     "url": "https://ericwbailey.website",
-    "title": "Eric Bailey – Inclusive design advocate, writer, developer, and speaker    ",
+    "title": "Eric Bailey – Inclusive design advocate, writer, developer, and speaker",
     "feed": "https://ericwbailey.website/feed/feed.xml",
     "desc": "Inclusive design advocate, writer, developer, and speaker",
     "hn": [
@@ -35455,7 +35455,7 @@
     "url": "https://kevq.uk",
     "title": "Kev Quirk",
     "about": "https://kevq.uk/about",
-    "desc": "Kev Quirk: ",
+    "desc": "Kev Quirk:",
     "hn": [
       {
         "created_at": "2019-08-27T18:35:22Z",
@@ -36359,7 +36359,7 @@
   },
   {
     "url": "https://ramonh.dev",
-    "title": "Ramón Huidobro | DevRel, Developer Education and OSS  ",
+    "title": "Ramón Huidobro | DevRel, Developer Education and OSS",
     "feed": "https://ramonh.dev/blog/feed.xml",
     "desc": "DevRel, Developer Education and OSS",
     "hn": [
@@ -36483,7 +36483,7 @@
       },
       {
         "created_at": "2012-07-15T19:34:50Z",
-        "title": "Small Linux PCs overview ",
+        "title": "Small Linux PCs overview",
         "url": "http://raymii.org/cms/p_Small_Linux_PCs_overview",
         "points": 122,
         "comments": 35,
@@ -36705,7 +36705,7 @@
     "title": "Scott O'Hara - Accessibility engineer, UX developer and designer | scottohara.me",
     "about": "https://scottohara.me/about",
     "feed": "https://scottohara.me/feed.xml",
-    "desc": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone. ",
+    "desc": "Scott O'Hara is a designer and developer based outside of Boston MA. He writes code and cares a ton about building great, accessible user experiences for everyone.",
     "hn": [
       {
         "created_at": "2022-01-23T16:16:23Z",
@@ -36888,7 +36888,7 @@
   },
   {
     "url": "https://shime.sh",
-    "title": "Hrvoje Šimić (Shime) ",
+    "title": "Hrvoje Šimić (Shime)",
     "feed": "https://shime.sh/feed.xml",
     "desc": "I'm a part-time freelance web developer and a part-time indie maker of Ciklus and Kuote.",
     "hn": [
@@ -37187,7 +37187,7 @@
       },
       {
         "created_at": "2011-03-06T00:33:25Z",
-        "title": "Understanding Practical API Design, Static Typing, and Functional Programming ",
+        "title": "Understanding Practical API Design, Static Typing, and Functional Programming",
         "url": "http://blog.tmorris.net/understanding-practical-api-design-static-typing-and-functional-programming/",
         "points": 48,
         "comments": 26,
@@ -39665,7 +39665,7 @@
       },
       {
         "created_at": "2011-07-14T13:24:23Z",
-        "title": "Design patterns explained in Javascript ",
+        "title": "Design patterns explained in Javascript",
         "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/",
         "points": 175,
         "comments": 33,
@@ -40333,7 +40333,7 @@
   },
   {
     "url": "https://ananth.cc",
-    "title": "Ananth's Space    ",
+    "title": "Ananth's Space",
     "about": "https://ananth.cc/about"
   },
   {
@@ -41398,7 +41398,7 @@
   },
   {
     "url": "https://blog.atomic14.com",
-    "title": "atomic14 | atomic14   ",
+    "title": "atomic14 | atomic14",
     "feed": "https://blog.atomic14.com/feed.xml"
   },
   {
@@ -41587,7 +41587,7 @@
   },
   {
     "url": "https://blog.miloslavhomer.cz",
-    "title": "Miloslav Homer                                                    - Miloslav Homer                      ",
+    "title": "Miloslav Homer                                                    - Miloslav Homer",
     "feed": "https://blog.miloslavhomer.cz/rss",
     "hn": [
       {
@@ -41667,7 +41667,7 @@
   },
   {
     "url": "https://blog.pluggedpotato.com",
-    "title": "Plugged Potato Blog   ",
+    "title": "Plugged Potato Blog",
     "feed": "https://blog.pluggedpotato.com/feed.xml",
     "desc": "A menace to myself mostly, everyone else too sometimes. Welcome to my blog!"
   },
@@ -42277,7 +42277,7 @@
   },
   {
     "url": "https://brtkwr.com",
-    "title": "brtkwr.com ",
+    "title": "brtkwr.com",
     "feed": "https://brtkwr.com/index.xml",
     "keywords": "artificial intelligence,distributed consensus,agent based modelling,network science and vegan food",
     "desc": "random interests"
@@ -42558,7 +42558,7 @@
   },
   {
     "url": "https://carefulwords.com",
-    "title": "Careful Words     ",
+    "title": "Careful Words",
     "desc": "Careful Words, a more inspired thesaurus",
     "hn": [
       {
@@ -42656,7 +42656,7 @@
   },
   {
     "url": "https://cauenapier.com",
-    "title": "cauenapier     ",
+    "title": "cauenapier",
     "about": "https://cauenapier.com/about",
     "feed": "https://www.cauenapier.com/feeds/feed.xml"
   },
@@ -43082,7 +43082,7 @@
   },
   {
     "url": "https://code.sgo.to",
-    "title": "· sgo.to        ",
+    "title": "· sgo.to",
     "feed": "https://code.sgo.to/rss.xml",
     "hn": [
       {
@@ -43282,7 +43282,7 @@
   },
   {
     "url": "https://crowfunder.github.io",
-    "title": "Crowfunder's Blog ",
+    "title": "Crowfunder's Blog",
     "feed": "https://crowfunder.github.io/feed.xml",
     "desc": "My personal archive for depositing inexplicable ideas. I do not take responsibility for anything here that transgresses moral and/or professional norms. Have a good read!",
     "hn": [
@@ -43686,7 +43686,7 @@
   },
   {
     "url": "https://danielms.site",
-    "title": "Daniel Michaels ",
+    "title": "Daniel Michaels",
     "feed": "https://danielms.site/index.xml",
     "desc": "I build things and drink coffee."
   },
@@ -43912,7 +43912,7 @@
   },
   {
     "url": "https://davidfrancoeur.com",
-    "title": "daddykotex's blog - ",
+    "title": "daddykotex's blog -",
     "feed": "https://davidfrancoeur.com/rss.xml"
   },
   {
@@ -44152,14 +44152,14 @@
   },
   {
     "url": "https://denner.co",
-    "title": "Andy's Thoughts   ",
+    "title": "Andy's Thoughts",
     "about": "https://denner.co/about",
     "feed": "https://denner.co/feed.xml",
     "desc": "it's like /dev/null but with more content"
   },
   {
     "url": "https://denv.it",
-    "title": "Denys Vitali ",
+    "title": "Denys Vitali",
     "feed": "https://denv.it/index.xml",
     "desc": "<my name>@denv.it",
     "hn": [
@@ -44779,7 +44779,7 @@
   },
   {
     "url": "https://douglascuthbertson.com",
-    "title": "Doug's Place   ",
+    "title": "Doug's Place",
     "feed": "https://douglascuthbertson.com/index.xml#top",
     "desc": "This is my soapbox for thoughts on programming, project planning, sketching, drawing, kempo, and any other topic that may suit my fancy."
   },
@@ -45253,7 +45253,7 @@
   },
   {
     "url": "https://embedding-shapes.github.io",
-    "title": "embedding-shapes     ",
+    "title": "embedding-shapes",
     "hn": [
       {
         "created_at": "2026-01-16T14:37:49Z",
@@ -45290,7 +45290,7 @@
   },
   {
     "url": "https://epan.land",
-    "title": "what's up 🗒️ 💻 ",
+    "title": "what's up 🗒️ 💻",
     "about": "https://epan.land/about",
     "hn": [
       {
@@ -45556,7 +45556,7 @@
   },
   {
     "url": "https://fev.al",
-    "title": "Charles Féval   ",
+    "title": "Charles Féval",
     "feed": "https://fev.al/feed.xml",
     "desc": "Developer in Vancouver BC. Principal Engineer at Microsoft.",
     "hn": [
@@ -45847,7 +45847,7 @@
   },
   {
     "url": "https://finnvolkel.com",
-    "title": "Finn Völkel · Programming, Algorithms, Graph Theory and other stuff        ",
+    "title": "Finn Völkel · Programming, Algorithms, Graph Theory and other stuff",
     "feed": "https://finnvolkel.com/feed.xml",
     "hn": [
       {
@@ -45868,7 +45868,7 @@
   },
   {
     "url": "https://flamedfury.com",
-    "title": "fLaMEd fury  ",
+    "title": "fLaMEd fury",
     "feed": "https://flamedfury.com/feed.xml",
     "desc": "What's going on Internet?",
     "hn": [
@@ -45992,7 +45992,7 @@
   {
     "url": "https://fnune.com",
     "title": "Fausto's personal blog",
-    "desc": "I am a web developer based in Berlin. I work for Pulumi, where we create developer tools for companies shipping to the cloud. I have a focus on front-end web development, but I'm trying to become a generalist. ",
+    "desc": "I am a web developer based in Berlin. I work for Pulumi, where we create developer tools for companies shipping to the cloud. I have a focus on front-end web development, but I'm trying to become a generalist.",
     "hn": [
       {
         "created_at": "2025-07-24T20:35:04Z",
@@ -46153,7 +46153,7 @@
   },
   {
     "url": "https://friggeri.net",
-    "title": "friggeri.net  ",
+    "title": "friggeri.net",
     "feed": "https://friggeri.net/rss.xml",
     "hn": [
       {
@@ -46166,7 +46166,7 @@
       },
       {
         "created_at": "2009-03-12T13:03:32Z",
-        "title": "JQuery gestures ",
+        "title": "JQuery gestures",
         "url": "http://random.friggeri.net/jquery-gestures/",
         "points": 69,
         "comments": 25,
@@ -46582,7 +46582,7 @@
   },
   {
     "url": "https://gregfjohnson.com",
-    "title": "gregfjohnson.com ",
+    "title": "gregfjohnson.com",
     "hn": [
       {
         "created_at": "2020-12-14T01:18:32Z",
@@ -46596,7 +46596,7 @@
   },
   {
     "url": "https://gren.dev",
-    "title": "Gren ",
+    "title": "Gren",
     "feed": "https://gren.dev/index.xml"
   },
   {
@@ -46836,7 +46836,7 @@
       },
       {
         "created_at": "2012-07-24T14:50:51Z",
-        "title": "'with' gets better with python 3.1 ",
+        "title": "'with' gets better with python 3.1",
         "url": "http://h3manth.com/content/statements-get-better-python-31",
         "points": 22,
         "comments": 29,
@@ -46852,7 +46852,7 @@
       },
       {
         "created_at": "2010-05-01T17:55:10Z",
-        "title": "Google waves embedded ",
+        "title": "Google waves embedded",
         "url": "http://www.h3manth.com/content/embedding-google-wave",
         "points": 10,
         "comments": 12,
@@ -46862,7 +46862,7 @@
   },
   {
     "url": "https://hackpravj.com",
-    "title": "Pravendra Singh ",
+    "title": "Pravendra Singh",
     "desc": "Occasional thoughts about problem-solving, working at startup or in general, random (sidenote: maybe not (or so I tell myself)) observations, or anything I find worth revisiting. Mostly for myself, sometimes useful for others. Have you seen this page where I ramble about myself?",
     "hn": [
       {
@@ -47240,7 +47240,7 @@
       },
       {
         "created_at": "2010-11-06T23:53:08Z",
-        "title": "Oracle is the Borg: Enterprise Software Development Will Be Assimilated ",
+        "title": "Oracle is the Borg: Enterprise Software Development Will Be Assimilated",
         "url": "http://blog.herlein.com/2010/11/oracle-is-the-borg-enterprise-software-development-will-be-assimilated/",
         "points": 51,
         "comments": 34,
@@ -47296,7 +47296,7 @@
       },
       {
         "created_at": "2010-11-07T22:35:43Z",
-        "title": "Ubuntu - Brave New World? Or Jumping off a Cliff? ",
+        "title": "Ubuntu - Brave New World? Or Jumping off a Cliff?",
         "url": "http://blog.herlein.com/2010/11/ubuntu-brave-new-world-or-jumping-off-a-cliff/",
         "points": 8,
         "comments": 12,
@@ -47333,7 +47333,7 @@
   },
   {
     "url": "https://hodovi.cc",
-    "title": "Adin Hodovic | Infrastructure Engineer            ",
+    "title": "Adin Hodovic | Infrastructure Engineer",
     "feed": "https://hodovi.cc/blog/feed",
     "desc": "Deep knowledge and passion within automation & devops. I also enjoy building applications with django and APIs with DRF."
   },
@@ -47566,7 +47566,7 @@
   },
   {
     "url": "https://ideasofhakki.com",
-    "title": "Ideas of Hakki | Hakkı Rıza Küçük’s Personal Blog ",
+    "title": "Ideas of Hakki | Hakkı Rıza Küçük’s Personal Blog",
     "feed": "https://ideasofhakki.com/rss.xml",
     "desc": "Ideas of Hakki is Hakki's personal blog where he talks about technology, philosophy and Blender 3D"
   },
@@ -48198,7 +48198,7 @@
     "url": "https://isomorphism.xyz",
     "title": "Agnishom  Chattopadhyay",
     "keywords": "academic-website, haskell, programming, theory, computer-science",
-    "desc": "A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. ",
+    "desc": "A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.",
     "hn": [
       {
         "created_at": "2025-04-03T11:12:56Z",
@@ -48794,7 +48794,7 @@
   },
   {
     "url": "https://jefftk.com",
-    "title": "Jeff Kaufman     ",
+    "title": "Jeff Kaufman",
     "about": "https://jefftk.com/about",
     "hn": [
       {
@@ -49240,7 +49240,7 @@
   },
   {
     "url": "https://jndjs.dev",
-    "title": "Je note donc je suis — Accueil ",
+    "title": "Je note donc je suis — Accueil",
     "feed": "https://jndjs.dev/feed.xml",
     "desc": "Accueil — Un jardin numérique en chantier perpétuel made in Bruxelles"
   },
@@ -49691,7 +49691,7 @@
   },
   {
     "url": "https://joshmcarthur.com",
-    "title": "Notes: Josh McArthur   ",
+    "title": "Notes: Josh McArthur",
     "about": "https://joshmcarthur.com/about",
     "desc": "Technically-oriented blog covering all kinds of web and mobile development with a focus on Ruby on Rails",
     "hn": [
@@ -50030,7 +50030,7 @@
     "url": "https://justinmiller.io",
     "title": "./jm",
     "feed": "https://justinmiller.io/index.xml",
-    "desc": "Maker, programmer, photographer, and traveler in Portland, Oregon, USA. ",
+    "desc": "Maker, programmer, photographer, and traveler in Portland, Oregon, USA.",
     "hn": [
       {
         "created_at": "2019-11-02T22:33:33Z",
@@ -50332,7 +50332,7 @@
   },
   {
     "url": "https://kanishk.io",
-    "title": "Kanishk Singh - Runes of Undocumented Code ",
+    "title": "Kanishk Singh - Runes of Undocumented Code",
     "about": "https://kanishk.io/about",
     "feed": "https://kanishk.io/index.xml",
     "hn": [
@@ -50385,7 +50385,7 @@
   },
   {
     "url": "https://keloran.dev",
-    "title": "Keloran blog and random stuff   ",
+    "title": "Keloran blog and random stuff",
     "feed": "https://keloran.dev/index.xml"
   },
   {
@@ -51030,7 +51030,7 @@
   },
   {
     "url": "https://lincoln.swaine-moore.is",
-    "title": "Lincoln is...blue       ",
+    "title": "Lincoln is...blue",
     "desc": "Lincoln Swaine-Moore's site! Welcome! I'm not actually blue, but my name is.",
     "hn": [
       {
@@ -51358,10 +51358,10 @@
   },
   {
     "url": "https://maknee.github.io",
-    "title": "Henry Zhu ",
+    "title": "Henry Zhu",
     "feed": "https://maknee.github.io/feed.xml",
     "keywords": "systems, gpu, blog",
-    "desc": "Personal website for some random tidbits I work on ",
+    "desc": "Personal website for some random tidbits I work on",
     "hn": [
       {
         "created_at": "2025-04-17T12:50:37Z",
@@ -51638,7 +51638,7 @@
   },
   {
     "url": "https://martianwabbit.com",
-    "title": "David Díaz ",
+    "title": "David Díaz",
     "feed": "https://martianwabbit.com/feed.xml"
   },
   {
@@ -51925,7 +51925,7 @@
   },
   {
     "url": "https://matecha.net",
-    "title": "Matecha.net               ",
+    "title": "Matecha.net",
     "feed": "https://matecha.net/index.xml",
     "keywords": "andrew matecha, matecha, vancouver, music, software, web development",
     "desc": "music // code // pwnage"
@@ -52578,7 +52578,7 @@
   },
   {
     "url": "https://maxirwin.com",
-    "title": "Max Irwin     ",
+    "title": "Max Irwin",
     "feed": "https://maxirwin.com/feed.xml"
   },
   {
@@ -52830,7 +52830,7 @@
   },
   {
     "url": "https://michele.adduci.org",
-    "title": "Michele Adduci ",
+    "title": "Michele Adduci",
     "feed": "https://madduci.netlify.app/index.xml",
     "keywords": "blog,engineer,personal",
     "desc": "Michele Adduci - Personal Website"
@@ -53029,7 +53029,7 @@
   },
   {
     "url": "https://miloslavhomer.cz",
-    "title": "Miloslav Homer                                                    - Miloslav Homer                      ",
+    "title": "Miloslav Homer                                                    - Miloslav Homer",
     "feed": "https://miloslavhomer.cz/rss",
     "hn": [
       {
@@ -53088,7 +53088,7 @@
   },
   {
     "url": "https://misfra.me",
-    "title": "Misframe - Home     ",
+    "title": "Misframe - Home",
     "about": "https://misfra.me/about",
     "feed": "https://misfra.me/index.xml",
     "hn": [
@@ -53340,7 +53340,7 @@
   },
   {
     "url": "https://mou.dev",
-    "title": "moomou - (ﾉ≧∇≦)ﾉ ﾐ ┸┸ ",
+    "title": "moomou - (ﾉ≧∇≦)ﾉ ﾐ ┸┸",
     "feed": "https://mou.dev/index.xml",
     "hn": [
       {
@@ -53759,7 +53759,7 @@
   },
   {
     "url": "https://netbros.com",
-    "title": "Notes ",
+    "title": "Notes",
     "feed": "https://netbros.com/index.xml"
   },
   {
@@ -53816,7 +53816,7 @@
   },
   {
     "url": "https://nhatcher.com",
-    "title": "Nicolás Hatcher ",
+    "title": "Nicolás Hatcher",
     "feed": "https://nhatcher.com/index.xml",
     "desc": "Software developer by trade, physicist by soul",
     "hn": [
@@ -54920,7 +54920,7 @@
   },
   {
     "url": "https://paul.mou.dev",
-    "title": "moomou - (ﾉ≧∇≦)ﾉ ﾐ ┸┸ ",
+    "title": "moomou - (ﾉ≧∇≦)ﾉ ﾐ ┸┸",
     "feed": "https://paul.mou.dev/index.xml",
     "hn": [
       {
@@ -55273,7 +55273,7 @@
   },
   {
     "url": "https://rakhim.org",
-    "title": "Rakhim's homepage ",
+    "title": "Rakhim's homepage",
     "feed": "https://rakhim.org/index.xml",
     "desc": "Rakhim's homepage. I build open source projects and write about technology, programming, and life.",
     "hn": [
@@ -55668,7 +55668,7 @@
   },
   {
     "url": "https://Rjgonza.com",
-    "title": "Ramon Gonzalez  — Just My Blog               ",
+    "title": "Ramon Gonzalez  — Just My Blog",
     "feed": "https://rjgonza.com/posts/index.xml",
     "keywords": "blog, devops, development, programming, management, iex, exchanges, stock market",
     "desc": "A dad that is into technology and the U.S. stock market"
@@ -55722,7 +55722,7 @@
   },
   {
     "url": "https://rockoder.com",
-    "title": "rockoder ·         ",
+    "title": "rockoder ·",
     "hn": [
       {
         "created_at": "2017-08-28T08:14:21Z",
@@ -56046,7 +56046,7 @@
       },
       {
         "created_at": "2008-06-20T06:42:26Z",
-        "title": "Still Struggling with Social Networking ",
+        "title": "Still Struggling with Social Networking",
         "url": "http://www.russellbeattie.com/blog/still-struggling-with-social-networking",
         "points": 13,
         "comments": 3,
@@ -56070,7 +56070,7 @@
       },
       {
         "created_at": "2009-09-19T05:17:18Z",
-        "title": "Great Idea: Empirical User Experience Design Through Action Costs ",
+        "title": "Great Idea: Empirical User Experience Design Through Action Costs",
         "url": "http://www.russellbeattie.com/blog/empirical-user-experience-design-through-action-costs",
         "points": 7,
         "comments": 5,
@@ -56319,7 +56319,7 @@
   },
   {
     "url": "https://rz01.org",
-    "title": "rz01.org        ",
+    "title": "rz01.org",
     "about": "https://rz01.org/about",
     "feed": "https://rz01.org/index.xml",
     "hn": [
@@ -56817,7 +56817,7 @@
     "url": "https://scottrlarson.com",
     "title": "Scott Larson",
     "feed": "http://scottrlarson.com/index.xml",
-    "desc": "I am the Computer Troubleshooter. I offer computer repair, data recovery and information technology services to the public of Santa Rosa, California and it's surrounding areas.   ",
+    "desc": "I am the Computer Troubleshooter. I offer computer repair, data recovery and information technology services to the public of Santa Rosa, California and it's surrounding areas.",
     "hn": [
       {
         "created_at": "2025-10-16T01:00:17Z",
@@ -57488,7 +57488,7 @@
   },
   {
     "url": "https://sinusoid.es",
-    "title": "∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿ sinusoides     ",
+    "title": "∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿ sinusoides",
     "hn": [
       {
         "created_at": "2019-07-04T14:05:56Z",
@@ -57591,7 +57591,7 @@
   },
   {
     "url": "https://smagin.fyi",
-    "title": "SMAGIN      ",
+    "title": "SMAGIN",
     "feed": "https://smagin.fyi/index.xml",
     "hn": [
       {
@@ -58184,7 +58184,7 @@
   },
   {
     "url": "https://taro.codes",
-    "title": "Taro Codes    ",
+    "title": "Taro Codes",
     "hn": [
       {
         "created_at": "2023-09-27T16:31:51Z",
@@ -58533,7 +58533,7 @@
   },
   {
     "url": "https://theonlyblogever.com",
-    "title": "Home | The Only Blog Ever      ",
+    "title": "Home | The Only Blog Ever",
     "about": "https://theonlyblogever.com/about",
     "feed": "https://theonlyblogever.com/feed.xml",
     "desc": "This is my technical blog. Brendan's home on the Information Superhighway."
@@ -58692,7 +58692,7 @@
   },
   {
     "url": "https://thoughts.theden.sh",
-    "title": "thoughts ",
+    "title": "thoughts",
     "desc": "Denis Khoshaba's blog | theden.sh",
     "hn": [
       {
@@ -58728,7 +58728,7 @@
   },
   {
     "url": "https://tiniuc.com",
-    "title": "Alex Tiniuc ",
+    "title": "Alex Tiniuc",
     "hn": [
       {
         "created_at": "2024-10-04T11:00:33Z",
@@ -58755,7 +58755,7 @@
     "hn": [
       {
         "created_at": "2014-04-28T06:16:20Z",
-        "title": "SSH Kung Fu ",
+        "title": "SSH Kung Fu",
         "url": "http://blog.tjll.net/ssh-kung-fu/",
         "points": 487,
         "comments": 130,
@@ -58812,7 +58812,7 @@
       {
         "created_at": "2014-10-23T09:05:43Z",
         "title": "Kippo Honeypot Video Gallery",
-        "url": "http://blog.tjll.net/kippo-honeypot-video-gallery/ ",
+        "url": "http://blog.tjll.net/kippo-honeypot-video-gallery/",
         "points": 58,
         "comments": 17,
         "id": "8497283"
@@ -58900,7 +58900,7 @@
     "url": "https://tobiacavalli.com",
     "title": "Tobia Cavalli",
     "feed": "https://tobiacavalli.com/index.xml",
-    "desc": "My personal website            ",
+    "desc": "My personal website",
     "hn": [
       {
         "created_at": "2024-11-03T12:05:19Z",
@@ -59019,7 +59019,7 @@
   },
   {
     "url": "https://tookitaway.co.uk",
-    "title": "TookItAway ·         ",
+    "title": "TookItAway ·",
     "about": "https://tookitaway.co.uk/about",
     "feed": "https://tookitaway.co.uk/feed.xml"
   },
@@ -59170,7 +59170,7 @@
   },
   {
     "url": "https://tty4.dev",
-    "title": "tty4.dev | Home ",
+    "title": "tty4.dev | Home",
     "about": "https://tty4.dev/about",
     "feed": "https://tty4.dev/index.xml"
   },
@@ -59716,7 +59716,7 @@
   },
   {
     "url": "https://vasanthv.me",
-    "title": "Vasanth V /     Home   ",
+    "title": "Vasanth V /     Home",
     "now": "https://vasanthv.me/now",
     "feed": "https://vasanthv.me/feed.xml",
     "desc": "Hello, I am Vasanth. Welcome to my corner of the internet - a place where I write junk, chase random thoughts, and try to make sense of my chaotically organized brain. Keeping things simple & stupid."
@@ -59740,7 +59740,7 @@
     "title": "Venam's Blog — Patrick Louis (Lebanon)",
     "feed": "https://venam.net/blog/feed.xml",
     "keywords": "venam, deliberate, psychology, philosophy, unix, blog",
-    "desc": "A blog (by Patrick Louis in Lebanon) consisting of well researched articles about Unix, philosophy, and more. From deep dives to well-rounded overviews that remove mysticism, everything is easily explained in a consumable way. Every article tries to take a new point of view, to link ideas together, and to tackle topics that haven't been before. ",
+    "desc": "A blog (by Patrick Louis in Lebanon) consisting of well researched articles about Unix, philosophy, and more. From deep dives to well-rounded overviews that remove mysticism, everything is easily explained in a consumable way. Every article tries to take a new point of view, to link ideas together, and to tackle topics that haven't been before.",
     "hn": [
       {
         "created_at": "2025-11-27T16:55:30Z",
@@ -60170,7 +60170,7 @@
   },
   {
     "url": "https://vinayak.io",
-    "title": "Vinayak Mehta · (vortex_ape)   ",
+    "title": "Vinayak Mehta · (vortex_ape)",
     "about": "https://vinayak.io/about",
     "now": "https://vinayak.io/now",
     "feed": "https://vinayak.io/feed/rss.xml"
@@ -60301,7 +60301,7 @@
   },
   {
     "url": "https://waliddib.com",
-    "title": "Walid Dib   ",
+    "title": "Walid Dib",
     "desc": "Blog by Walid Dib featuring learning insights into game development with Godot, and building startups in the Middle East.",
     "hn": [
       {
@@ -60439,7 +60439,7 @@
   },
   {
     "url": "https://williamhuster.com",
-    "title": "William Huster 🍖 Home ",
+    "title": "William Huster 🍖 Home",
     "about": "https://williamhuster.com/about",
     "now": "https://williamhuster.com/now",
     "feed": "https://williamhuster.com/feed.xml",
@@ -60875,7 +60875,7 @@
   },
   {
     "url": "https://mooreds.com",
-    "title": "Moore Consulting  ",
+    "title": "Moore Consulting",
     "hn": [
       {
         "created_at": "2021-11-08T21:01:14Z",
@@ -61383,7 +61383,7 @@
   },
   {
     "url": "https://xmsxmx.com",
-    "title": "-Xms -Xmx     ",
+    "title": "-Xms -Xmx",
     "desc": "Brain Dumps",
     "hn": [
       {
@@ -61436,7 +61436,7 @@
   },
   {
     "url": "https://xlii.space",
-    "title": "xlii.space        ",
+    "title": "xlii.space",
     "feed": "https://xlii.space/index.xml",
     "hn": [
       {
