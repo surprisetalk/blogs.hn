@@ -24,6 +24,14 @@
         "id": "36984282"
       },
       {
+        "created_at": "2025-08-29T14:02:59Z",
+        "title": "Flunking my Anthropic interview again",
+        "url": "https://taylor.town/flunking-anthropic",
+        "points": 370,
+        "comments": 347,
+        "id": "45064284"
+      },
+      {
         "created_at": "2024-02-16T13:01:20Z",
         "title": "Clean your codebase with basic information theory",
         "url": "https://taylor.town/compress-code",
@@ -62,6 +70,14 @@
         "points": 180,
         "comments": 142,
         "id": "36371167"
+      },
+      {
+        "created_at": "2025-11-20T14:45:20Z",
+        "title": "210 IQ Is Not Enough",
+        "url": "https://taylor.town/iq-not-enough",
+        "points": 177,
+        "comments": 279,
+        "id": "45993073"
       },
       {
         "created_at": "2024-09-20T13:54:41Z",
@@ -128,6 +144,14 @@
         "id": "41819217"
       },
       {
+        "created_at": "2025-11-21T18:28:31Z",
+        "title": "How/why to sweep async tasks under a Postgres table",
+        "url": "https://taylor.town/pg-task",
+        "points": 102,
+        "comments": 38,
+        "id": "46007267"
+      },
+      {
         "created_at": "2023-07-20T11:52:46Z",
         "title": "Spoil your secret sauce",
         "url": "https://taylor.town/secret-sauce",
@@ -142,30 +166,6 @@
         "points": 93,
         "comments": 50,
         "id": "38431457"
-      },
-      {
-        "created_at": "2023-05-03T12:34:39Z",
-        "title": "Lifestyle design from first principles",
-        "url": "https://taylor.town/constructive-lifestyle-design",
-        "points": 73,
-        "comments": 65,
-        "id": "35801611"
-      },
-      {
-        "created_at": "2024-08-15T13:43:30Z",
-        "title": "Against the advice of my superintelligence",
-        "url": "https://taylor.town/my-superintelligence",
-        "points": 72,
-        "comments": 46,
-        "id": "41255975"
-      },
-      {
-        "created_at": "2024-12-19T13:59:47Z",
-        "title": "Santa Prefers Wealthy Sick Children (2023)",
-        "url": "https://taylor.town/santa-prefers",
-        "points": 66,
-        "comments": 27,
-        "id": "42461428"
       }
     ]
   },
@@ -223,6 +223,14 @@
         "points": 8,
         "comments": 11,
         "id": "43954986"
+      },
+      {
+        "created_at": "2025-08-18T15:14:11Z",
+        "title": "Show HN: Playing Piano with Prime Numbers",
+        "url": "https://nabraj.com/demo/prime-piano/",
+        "points": 8,
+        "comments": 5,
+        "id": "44941553"
       }
     ]
   },
@@ -425,6 +433,14 @@
     "desc": "Maps, Open Data, JavaScript and Python from Gavin Rehkemper",
     "hn": [
       {
+        "created_at": "2025-11-25T12:05:39Z",
+        "title": "Making Crash Bandicoot (2011)",
+        "url": "https://all-things-andy-gavin.com/video-games/making-crash/",
+        "points": 249,
+        "comments": 40,
+        "id": "46045039"
+      },
+      {
         "created_at": "2011-08-01T23:33:11Z",
         "title": "Game of Thrones CGI",
         "url": "http://all-things-andy-gavin.com/2011/07/29/game-of-thrones-cgi/",
@@ -601,6 +617,14 @@
         "points": 15,
         "comments": 6,
         "id": "42089146"
+      },
+      {
+        "created_at": "2025-12-05T22:20:26Z",
+        "title": "Rant: I Don't Need an Office. Let Me Work Remotely",
+        "url": "https://0xff.nu/remote-work/",
+        "points": 9,
+        "comments": 8,
+        "id": "46168132"
       }
     ]
   },
@@ -652,6 +676,14 @@
     "about": "https://c1.fi/about?lang=en",
     "desc": "The 512KB Club is an exclusive list of web pages weighing less than 512 kilobytes.",
     "hn": [
+      {
+        "created_at": "2025-11-04T16:04:18Z",
+        "title": "The 512KB Club",
+        "url": "https://512kb.club/",
+        "points": 161,
+        "comments": 90,
+        "id": "45812499"
+      },
       {
         "created_at": "2022-01-29T11:55:17Z",
         "title": "The 512KB Club",
@@ -765,6 +797,14 @@
         "points": 320,
         "comments": 169,
         "id": "24834965"
+      },
+      {
+        "created_at": "2025-11-06T22:09:29Z",
+        "title": "When did people favor composition over inheritance?",
+        "url": "https://www.sicpers.info/2025/11/when-did-people-favor-composition-over-inheritance/",
+        "points": 230,
+        "comments": 209,
+        "id": "45841095"
       },
       {
         "created_at": "2022-07-29T07:05:40Z",
@@ -901,14 +941,6 @@
         "points": 28,
         "comments": 11,
         "id": "29303689"
-      },
-      {
-        "created_at": "2016-12-15T11:18:09Z",
-        "title": "Answer: none of them",
-        "url": "http://www.sicpers.info/2016/12/answer-none-of-them/",
-        "points": 25,
-        "comments": 21,
-        "id": "13183828"
       }
     ]
   },
@@ -951,6 +983,14 @@
         "id": "42641109"
       },
       {
+        "created_at": "2025-12-02T05:27:18Z",
+        "title": "Frequently Asked Unicycling Questions",
+        "url": "https://vale.rocks/posts/unicycle-faq",
+        "points": 72,
+        "comments": 50,
+        "id": "46117900"
+      },
+      {
         "created_at": "2025-03-03T05:06:01Z",
         "title": "Everything Is Chrome (2023)",
         "url": "https://vale.rocks/posts/everything-is-chrome",
@@ -967,12 +1007,28 @@
         "id": "43911050"
       },
       {
-        "created_at": "2025-03-02T13:39:12Z",
-        "title": "Show HN: Search Engine Wrapper/Router",
-        "url": "https://search.vale.rocks",
-        "points": 1,
-        "comments": 6,
-        "id": "43230374"
+        "created_at": "2025-06-18T15:14:02Z",
+        "title": "JPEG XL and Google's War Against It (2024)",
+        "url": "https://vale.rocks/posts/jpeg-xl-and-googles-war-against-it",
+        "points": 26,
+        "comments": 9,
+        "id": "44310619"
+      },
+      {
+        "created_at": "2025-07-19T12:20:34Z",
+        "title": "Wishes Upon My Demise",
+        "url": "https://vale.rocks/posts/regarding-my-death",
+        "points": 18,
+        "comments": 4,
+        "id": "44614911"
+      },
+      {
+        "created_at": "2025-12-21T15:00:50Z",
+        "title": "You Can't Opt-Out of Accessibility",
+        "url": "https://vale.rocks/posts/accessibility-importance",
+        "points": 10,
+        "comments": 1,
+        "id": "46345293"
       }
     ]
   },
@@ -1148,12 +1204,28 @@
     "feed": "https://ache.one/en/rss.xml",
     "hn": [
       {
+        "created_at": "2025-07-24T13:16:29Z",
+        "title": "A valid HTML zip bomb",
+        "url": "https://ache.one/notes/html_zip_bomb",
+        "points": 145,
+        "comments": 37,
+        "id": "44670319"
+      },
+      {
         "created_at": "2024-11-26T11:42:18Z",
         "title": "I made a vanity VNC server (and I'm not the only one)",
         "url": "https://ache.one/articles/a-vanity-vnc-server",
         "points": 40,
         "comments": 4,
         "id": "42244837"
+      },
+      {
+        "created_at": "2025-07-23T17:36:48Z",
+        "title": "A valid HTML zip bomb",
+        "url": "https://ache.one/notes/html_zip_bomb",
+        "points": 12,
+        "comments": 3,
+        "id": "44661831"
       }
     ]
   },
@@ -1297,7 +1369,41 @@
   },
   {
     "url": "https://agentultra.com",
-    "title": "Agentultra"
+    "title": "Agentultra",
+    "hn": [
+      {
+        "created_at": "2025-06-18T12:32:06Z",
+        "title": "Why I Won't Use AI",
+        "url": "https://agentultra.com/blog/why-i-wont-use-ai/index.html",
+        "points": 65,
+        "comments": 51,
+        "id": "44309309"
+      },
+      {
+        "created_at": "2026-01-15T19:54:42Z",
+        "title": "How I learned everything I know about programming",
+        "url": "https://agentultra.com/blog/how-i-learned-everything-i-know/index.html",
+        "points": 65,
+        "comments": 45,
+        "id": "46638241"
+      },
+      {
+        "created_at": "2025-09-09T18:11:39Z",
+        "title": "Using Haskell in Production",
+        "url": "https://agentultra.com/blog/using-haskell-in-production/",
+        "points": 22,
+        "comments": 0,
+        "id": "45185995"
+      },
+      {
+        "created_at": "2025-06-18T04:27:17Z",
+        "title": "I Won't Use AI",
+        "url": "https://agentultra.com/blog/why-i-wont-use-ai/index.html",
+        "points": 15,
+        "comments": 1,
+        "id": "44306651"
+      }
+    ]
   },
   {
     "url": "https://ageofai.substack.com",
@@ -1316,6 +1422,14 @@
     "url": "https://ahalbert.com",
     "title": " ",
     "hn": [
+      {
+        "created_at": "2025-11-16T20:46:30Z",
+        "title": "The Pragmatic Programmer: 20th Anniversary Edition (2023)",
+        "url": "https://www.ahalbert.com/technology/2023/12/19/the_pragmatic_programmer.html",
+        "points": 219,
+        "comments": 62,
+        "id": "45948254"
+      },
       {
         "created_at": "2023-06-04T22:02:20Z",
         "title": "The culture map: How to navigate foreign cultures in business",
@@ -1422,6 +1536,14 @@
         "points": 12,
         "comments": 3,
         "id": "36602784"
+      },
+      {
+        "created_at": "2025-08-15T06:15:30Z",
+        "title": "What is GPG and why you should start using it",
+        "url": "https://akashrajpurohit.com/blog/what-is-gpg-and-why-you-should-start-using-it/",
+        "points": 9,
+        "comments": 5,
+        "id": "44909150"
       }
     ]
   },
@@ -1491,6 +1613,14 @@
         "points": 234,
         "comments": 97,
         "id": "37313493"
+      },
+      {
+        "created_at": "2025-10-03T13:37:34Z",
+        "title": "Who needs Git when you have 1M context windows?",
+        "url": "https://www.alexmolas.com/2025/07/28/unexpected-benefit-llm.html",
+        "points": 177,
+        "comments": 192,
+        "id": "45462877"
       },
       {
         "created_at": "2024-07-15T21:48:28Z",
@@ -1626,6 +1756,22 @@
     "url": "https://alexsci.com",
     "hn": [
       {
+        "created_at": "2025-12-07T03:26:01Z",
+        "title": "Discovering the indieweb with calm tech",
+        "url": "https://alexsci.com/blog/calm-tech-discover/",
+        "points": 229,
+        "comments": 21,
+        "id": "46178892"
+      },
+      {
+        "created_at": "2025-10-20T23:16:41Z",
+        "title": "Why UUIDs won't protect your secrets",
+        "url": "https://alexsci.com/blog/uuids-and-idor/",
+        "points": 75,
+        "comments": 59,
+        "id": "45650617"
+      },
+      {
         "created_at": "2023-06-11T13:04:34Z",
         "title": "HSTS preload adoption and challenges",
         "url": "https://alexsci.com/blog/hsts-adoption/",
@@ -1728,12 +1874,28 @@
         "id": "40571270"
       },
       {
+        "created_at": "2025-12-31T13:44:41Z",
+        "title": "When square pixels aren't square",
+        "url": "https://alexwlchan.net/2025/square-pixels/",
+        "points": 146,
+        "comments": 63,
+        "id": "46443988"
+      },
+      {
         "created_at": "2023-02-16T00:01:08Z",
         "title": "Cut the Cutesy Errors",
         "url": "https://alexwlchan.net/2022/no-cute/",
         "points": 107,
         "comments": 138,
         "id": "34812857"
+      },
+      {
+        "created_at": "2025-09-09T10:31:22Z",
+        "title": "Resizing images in Rust, now with EXIF orientation support",
+        "url": "https://alexwlchan.net/2025/create-thumbnail-is-exif-aware/",
+        "points": 78,
+        "comments": 32,
+        "id": "45180094"
       },
       {
         "created_at": "2025-05-12T07:31:21Z",
@@ -1760,6 +1922,22 @@
         "id": "41889155"
       },
       {
+        "created_at": "2025-11-22T07:50:44Z",
+        "title": "Can you take an ox to Oxford?",
+        "url": "https://alexwlchan.net/2025/ox-in-oxford/",
+        "points": 35,
+        "comments": 72,
+        "id": "46012980"
+      },
+      {
+        "created_at": "2025-10-22T13:15:39Z",
+        "title": "Doing my own syntax highlighting (finally)",
+        "url": "https://alexwlchan.net/2025/syntax-highlighting/",
+        "points": 31,
+        "comments": 7,
+        "id": "45668641"
+      },
+      {
         "created_at": "2024-11-04T08:41:22Z",
         "title": "Moving my website from Netlify to Caddy",
         "url": "https://alexwlchan.net/2024/netlify-to-caddy/",
@@ -1768,28 +1946,20 @@
         "id": "42039683"
       },
       {
-        "created_at": "2022-12-07T02:25:14Z",
-        "title": "Finding divisors of a number with Python (2019)",
-        "url": "https://alexwlchan.net/2019/07/finding-divisors-with-python/",
-        "points": 14,
-        "comments": 9,
-        "id": "33889982"
+        "created_at": "2025-09-15T06:51:06Z",
+        "title": "Linking to text fragments with a bookmarklet",
+        "url": "https://alexwlchan.net/2025/text-fragments-bookmarklet/",
+        "points": 28,
+        "comments": 8,
+        "id": "45246840"
       },
       {
-        "created_at": "2022-11-09T08:10:36Z",
-        "title": "“Fixing” the rules of division",
-        "url": "https://alexwlchan.net/2022/09/moomin-mathematics/",
-        "points": 13,
-        "comments": 10,
-        "id": "33528661"
-      },
-      {
-        "created_at": "2023-08-18T08:23:11Z",
-        "title": "Tag your infrastructure-as-code resources with a link to their definitions",
-        "url": "https://alexwlchan.net/2023/tag-iac-resources/",
-        "points": 10,
-        "comments": 0,
-        "id": "37172740"
+        "created_at": "2025-08-03T17:27:33Z",
+        "title": "Create space-saving clones on macOS with Python",
+        "url": "https://alexwlchan.net/2025/cloning-with-python/",
+        "points": 20,
+        "comments": 4,
+        "id": "44778149"
       }
     ]
   },
@@ -1838,6 +2008,14 @@
         "id": "39369828"
       },
       {
+        "created_at": "2025-07-29T18:36:51Z",
+        "title": "Playing with Open Source LLMs",
+        "url": "https://alicegg.tech//2025/07/29/open-source-llm.html",
+        "points": 90,
+        "comments": 52,
+        "id": "44726838"
+      },
+      {
         "created_at": "2023-09-24T13:24:43Z",
         "title": "Low Tech Crypto: Solitaire (2020)",
         "url": "https://alicegg.tech//2020/01/03/solitaire.html",
@@ -1852,6 +2030,14 @@
         "points": 54,
         "comments": 2,
         "id": "40220769"
+      },
+      {
+        "created_at": "2025-06-16T13:54:14Z",
+        "title": "Discord Considered Harmful",
+        "url": "https://alicegg.tech//2025/06/16/discord-harmful.html",
+        "points": 14,
+        "comments": 3,
+        "id": "44289514"
       }
     ]
   },
@@ -1907,6 +2093,14 @@
         "points": 296,
         "comments": 197,
         "id": "34841742"
+      },
+      {
+        "created_at": "2025-12-10T21:44:30Z",
+        "title": "Developing a food-safe finish for my wooden spoons",
+        "url": "https://alinpanaitiu.com/blog/developing-hardwax-oil/",
+        "points": 225,
+        "comments": 150,
+        "id": "46224303"
       },
       {
         "created_at": "2022-11-28T12:40:47Z",
@@ -2051,6 +2245,14 @@
         "id": "38056637"
       },
       {
+        "created_at": "2025-06-01T05:59:59Z",
+        "title": "Figma Slides Is a Beautiful Disaster",
+        "url": "https://allenpike.com/2025/figma-slides-beautiful-disaster",
+        "points": 422,
+        "comments": 244,
+        "id": "44148933"
+      },
+      {
         "created_at": "2023-08-03T14:54:02Z",
         "title": "Do something, so we can change it",
         "url": "https://allenpike.com/2023/do-something-so-we-can-change-it",
@@ -2073,6 +2275,14 @@
         "points": 185,
         "comments": 69,
         "id": "37724373"
+      },
+      {
+        "created_at": "2025-07-01T12:26:51Z",
+        "title": "Spending Too Much Money on a Coding Agent",
+        "url": "https://allenpike.com/2025/coding-agents",
+        "points": 155,
+        "comments": 177,
+        "id": "44433218"
       },
       {
         "created_at": "2013-12-24T21:27:07Z",
@@ -2139,6 +2349,14 @@
         "id": "43218825"
       },
       {
+        "created_at": "2025-12-01T10:51:16Z",
+        "title": "Why Is ChatGPT for Mac So Good?",
+        "url": "https://allenpike.com/2025/why-is-chatgpt-so-good-claude",
+        "points": 28,
+        "comments": 20,
+        "id": "46105896"
+      },
+      {
         "created_at": "2015-03-01T10:36:51Z",
         "title": "A JavaScript framework on every table – Allen Pike",
         "url": "http://www.allenpike.com/2015/javascript-framework-fatigue/",
@@ -2153,14 +2371,6 @@
         "points": 17,
         "comments": 0,
         "id": "29409734"
-      },
-      {
-        "created_at": "2015-11-25T15:15:49Z",
-        "title": "The worst app",
-        "url": "http://www.allenpike.com/2015/the-worst-app/",
-        "points": 15,
-        "comments": 3,
-        "id": "10627570"
       }
     ]
   },
@@ -2289,7 +2499,17 @@
   {
     "url": "https://anandchowdhary.com",
     "title": "Anand Chowdhary",
-    "about": "https://anandchowdhary.com/about"
+    "about": "https://anandchowdhary.com/about",
+    "hn": [
+      {
+        "created_at": "2025-12-06T18:53:57Z",
+        "title": "Running Claude Code in a loop to mirror human development practices",
+        "url": "https://anandchowdhary.com/blog/2025/running-claude-code-in-a-loop",
+        "points": 51,
+        "comments": 9,
+        "id": "46175662"
+      }
+    ]
   },
   {
     "url": "https://ananthmajumdar.substack.com",
@@ -2337,6 +2557,14 @@
         "id": "42150278"
       },
       {
+        "created_at": "2025-09-09T05:16:23Z",
+        "title": "YouTube is a mysterious monopoly",
+        "url": "https://anderegg.ca/2025/09/08/youtube-is-a-mysterious-monopoly",
+        "points": 370,
+        "comments": 478,
+        "id": "45177683"
+      },
+      {
         "created_at": "2024-02-02T21:56:41Z",
         "title": "Why isn't the <html> element 100% supported on caniuse.com?",
         "url": "https://anderegg.ca/2024/02/02/why-isnt-the-html-element-100-supported",
@@ -2367,6 +2595,14 @@
         "points": 66,
         "comments": 56,
         "id": "38657610"
+      },
+      {
+        "created_at": "2025-10-12T18:38:19Z",
+        "title": "Nielsen Norman Group on iOS 26 usability",
+        "url": "https://anderegg.ca/2025/10/12/nielsen-norman-group-on-ios-26-usability",
+        "points": 57,
+        "comments": 37,
+        "id": "45560593"
       },
       {
         "created_at": "2023-05-09T14:27:31Z",
@@ -2533,6 +2769,14 @@
         "points": 12,
         "comments": 0,
         "id": "36717967"
+      },
+      {
+        "created_at": "2025-12-05T12:53:05Z",
+        "title": "Turning 40",
+        "url": "https://andreabergia.com/blog/2025/12/turning-40/",
+        "points": 11,
+        "comments": 7,
+        "id": "46160613"
       }
     ]
   },
@@ -2638,6 +2882,30 @@
         "id": "38811572"
       },
       {
+        "created_at": "2025-08-26T11:12:56Z",
+        "title": "Reloading Classes in Python",
+        "url": "https://andrewpwheeler.com/2025/08/26/reloading-classes-in-python-and-shared-borders/",
+        "points": 31,
+        "comments": 6,
+        "id": "45024980"
+      },
+      {
+        "created_at": "2025-06-29T20:34:43Z",
+        "title": "Using DuckDB WASM and Cloudflare R2 to host and query big data (for almost free)",
+        "url": "https://andrewpwheeler.com/2025/06/29/using-duckdb-wasm-cloudflare-r2-to-host-and-query-big-data-for-almost-free/",
+        "points": 23,
+        "comments": 4,
+        "id": "44416216"
+      },
+      {
+        "created_at": "2025-11-22T16:53:06Z",
+        "title": "Advice for crime analyst to break into data science",
+        "url": "https://andrewpwheeler.com/2025/11/21/advice-for-crime-analyst-to-break-into-data-science/",
+        "points": 22,
+        "comments": 0,
+        "id": "46016104"
+      },
+      {
         "created_at": "2024-01-24T14:38:28Z",
         "title": "My Journey Submitting to Cran",
         "url": "https://andrewpwheeler.com/2022/07/22/my-journey-submitting-to-cran/",
@@ -2731,6 +2999,14 @@
     "desc": "Software Engineer",
     "hn": [
       {
+        "created_at": "2025-12-15T10:08:02Z",
+        "title": "Avoid UUID Version 4 Primary Keys in Postgres",
+        "url": "https://andyatkinson.com/avoid-uuid-version-4-primary-keys",
+        "points": 377,
+        "comments": 449,
+        "id": "46272487"
+      },
+      {
         "created_at": "2024-12-11T14:56:29Z",
         "title": "Django and Postgres for the Busy Rails Developer",
         "url": "https://andyatkinson.com/django-python-postgres-busy-rails-developer",
@@ -2803,6 +3079,14 @@
         "points": 54,
         "comments": 3,
         "id": "13251335"
+      },
+      {
+        "created_at": "2025-10-11T07:30:05Z",
+        "title": "Show HN: A large format XY scanning hyperspectral camera",
+        "url": "https://www.anfractuosity.com/projects/waverider/",
+        "points": 44,
+        "comments": 10,
+        "id": "45547346"
       },
       {
         "created_at": "2021-03-25T18:09:08Z",
@@ -3124,6 +3408,14 @@
     "desc": "I help entrepreneurs and business leaders calm their chaos and reduce burnout through intentional time management. Book a free consultation today!",
     "hn": [
       {
+        "created_at": "2025-09-17T15:25:24Z",
+        "title": "How to motivate yourself to do a thing you don't want to do",
+        "url": "https://ashleyjanssen.com/how-to-motivate-yourself-to-do-a-thing-you-dont-want-to-do/",
+        "points": 323,
+        "comments": 227,
+        "id": "45276987"
+      },
+      {
         "created_at": "2021-11-21T11:39:25Z",
         "title": "An introverts guide to increasing energy",
         "url": "https://ashleyjanssen.com/the-introverts-guide-to-increasing-energy/",
@@ -3259,6 +3551,14 @@
         "id": "36013571"
       },
       {
+        "created_at": "2025-10-29T14:12:50Z",
+        "title": "I made a 10¢ MCU Talk",
+        "url": "https://www.atomic14.com/2025/10/29/CH32V003-talking",
+        "points": 206,
+        "comments": 53,
+        "id": "45747112"
+      },
+      {
         "created_at": "2023-05-04T13:00:28Z",
         "title": "Hue Light Hack",
         "url": "https://www.atomic14.com/2023/05/04/hue-light-hacking.html",
@@ -3389,6 +3689,14 @@
     "desc": "I research the usability of dev tools and blog my adventures.",
     "hn": [
       {
+        "created_at": "2025-12-31T18:26:32Z",
+        "title": "I canceled my book deal",
+        "url": "https://austinhenley.com/blog/canceledbookdeal.html",
+        "points": 614,
+        "comments": 363,
+        "id": "46446815"
+      },
+      {
         "created_at": "2023-12-26T03:25:24Z",
         "title": "Challenging projects every programmer should try (2019)",
         "url": "https://austinhenley.com/blog/challengingprojects.html",
@@ -3509,6 +3817,14 @@
         "id": "36320746"
       },
       {
+        "created_at": "2025-06-03T22:13:01Z",
+        "title": "Mapping latitude and longitude to country, state, or city",
+        "url": "https://austinhenley.com/blog/coord2state.html",
+        "points": 115,
+        "comments": 48,
+        "id": "44175356"
+      },
+      {
         "created_at": "2022-05-13T15:25:58Z",
         "title": "Take my app ideas",
         "url": "https://austinhenley.com/blog/takemyappideas.html",
@@ -3531,22 +3847,6 @@
         "points": 84,
         "comments": 76,
         "id": "36388348"
-      },
-      {
-        "created_at": "2019-06-27T16:45:27Z",
-        "title": "Type inference has usability problems",
-        "url": "http://austinhenley.com/blog/typeinference.html",
-        "points": 80,
-        "comments": 95,
-        "id": "20296123"
-      },
-      {
-        "created_at": "2024-02-04T21:50:47Z",
-        "title": "The pain points of building a copilot",
-        "url": "https://austinhenley.com/blog/copilotpainpoints.html",
-        "points": 60,
-        "comments": 9,
-        "id": "39254869"
       }
     ]
   },
@@ -3962,6 +4262,14 @@
         "points": 34,
         "comments": 2,
         "id": "43763778"
+      },
+      {
+        "created_at": "2025-09-08T15:24:58Z",
+        "title": "A Look Back at Research from 1875",
+        "url": "https://bcmullins.github.io/research-from-1875/",
+        "points": 22,
+        "comments": 6,
+        "id": "45169477"
       }
     ]
   },
@@ -4159,6 +4467,14 @@
         "id": "40406194"
       },
       {
+        "created_at": "2025-08-10T22:35:03Z",
+        "title": "Compiling a Lisp: Lambda lifting",
+        "url": "https://bernsteinbear.com/blog/compiling-a-lisp-12/",
+        "points": 162,
+        "comments": 17,
+        "id": "44858892"
+      },
+      {
         "created_at": "2024-10-15T22:27:17Z",
         "title": "Damas-Hindley-Milner inference two ways",
         "url": "https://bernsteinbear.com/blog/type-inference/",
@@ -4223,6 +4539,14 @@
         "id": "24386826"
       },
       {
+        "created_at": "2025-12-17T01:26:14Z",
+        "title": "Introduction to Software Development Tooling (2024)",
+        "url": "https://bernsteinbear.com/isdt/",
+        "points": 123,
+        "comments": 20,
+        "id": "46297127"
+      },
+      {
         "created_at": "2024-03-17T13:05:23Z",
         "title": "How to mess with your roommate (2018)",
         "url": "https://bernsteinbear.com/blog/how-to-mess-with-your-roommate/",
@@ -4231,28 +4555,12 @@
         "id": "39734231"
       },
       {
-        "created_at": "2020-09-24T16:35:44Z",
-        "title": "Compiling a Lisp: Reader",
-        "url": "https://bernsteinbear.com/blog/compiling-a-lisp-6/",
-        "points": 115,
-        "comments": 27,
-        "id": "24580453"
-      },
-      {
-        "created_at": "2024-02-01T15:23:27Z",
-        "title": "Compiling a Lisp (2020)",
-        "url": "https://bernsteinbear.com/blog/compiling-a-lisp-0/",
-        "points": 114,
-        "comments": 32,
-        "id": "39216904"
-      },
-      {
-        "created_at": "2025-02-11T07:21:21Z",
-        "title": "Ways to generate SSA",
-        "url": "https://bernsteinbear.com/blog/ssa/",
-        "points": 110,
-        "comments": 35,
-        "id": "43009952"
+        "created_at": "2025-11-11T19:44:49Z",
+        "title": "A catalog of side effects",
+        "url": "https://bernsteinbear.com/blog/compiler-effects/",
+        "points": 120,
+        "comments": 8,
+        "id": "45891868"
       }
     ]
   },
@@ -4477,7 +4785,17 @@
   {
     "url": "https://bhupalsapkota.com",
     "title": "\n      Bhupal's Personal Web Page    ",
-    "desc": "Unraveling art, science, and commerce behind technology. \n    Passionate about web/mobile programming, writing, and growing an online business. Please stop by!"
+    "desc": "Unraveling art, science, and commerce behind technology. \n    Passionate about web/mobile programming, writing, and growing an online business. Please stop by!",
+    "hn": [
+      {
+        "created_at": "2025-11-11T10:54:20Z",
+        "title": "Raspberry Pi SSD Optimization",
+        "url": "https://bhupalsapkota.com/raspberry-pi-ssd-optimization/",
+        "points": 10,
+        "comments": 0,
+        "id": "45886013"
+      }
+    ]
   },
   {
     "url": "https://biggles.games",
@@ -5121,6 +5439,14 @@
     "desc": "Stuff I feel like blogging about.",
     "hn": [
       {
+        "created_at": "2025-11-19T11:18:59Z",
+        "title": "Learning to Boot from PXE",
+        "url": "https://blog.imraniqbal.org/learning-to-boot-from-pxe/",
+        "points": 97,
+        "comments": 42,
+        "id": "45978245"
+      },
+      {
         "created_at": "2024-01-24T03:55:19Z",
         "title": "WTF Ubiquiti",
         "url": "https://blog.imraniqbal.org/wtf-ubiquiti/",
@@ -5266,6 +5592,14 @@
         "id": "36686857"
       },
       {
+        "created_at": "2026-01-12T17:50:01Z",
+        "title": "There's a ridiculous amount of tech in a disposable vape",
+        "url": "https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html",
+        "points": 755,
+        "comments": 653,
+        "id": "46591810"
+      },
+      {
         "created_at": "2015-11-30T14:14:18Z",
         "title": "The secret message hidden in every HTTP/2 connection",
         "url": "http://blog.jgc.org/2015/11/the-secret-message-hidden-in-every.html",
@@ -5330,6 +5664,14 @@
         "id": "32069926"
       },
       {
+        "created_at": "2025-06-10T17:55:08Z",
+        "title": "Low-background Steel: content without AI contamination",
+        "url": "https://blog.jgc.org/2025/06/low-background-steel-content-without-ai.html",
+        "points": 408,
+        "comments": 269,
+        "id": "44239481"
+      },
+      {
         "created_at": "2015-04-10T13:53:25Z",
         "title": "One line you should add to every makefile",
         "url": "http://blog.jgc.org/2015/04/the-one-line-you-should-add-to-every.html",
@@ -5386,28 +5728,12 @@
         "id": "41434637"
       },
       {
-        "created_at": "2012-07-12T08:43:36Z",
-        "title": "Some things I've learnt about programming",
-        "url": "http://blog.jgc.org/2012/07/some-things-ive-learnt-about.html",
-        "points": 248,
-        "comments": 124,
-        "id": "4233647"
-      },
-      {
-        "created_at": "2021-11-09T01:18:56Z",
-        "title": "Making an old USB printer support Apple AirPrint using a Raspberry Pi",
-        "url": "https://blog.jgc.org/2021/11/making-old-usb-printer-support-apple.html",
-        "points": 248,
-        "comments": 104,
-        "id": "29156529"
-      },
-      {
-        "created_at": "2010-09-17T09:12:31Z",
-        "title": "A tale of two cultures",
-        "url": "http://blog.jgc.org/2010/09/tale-of-two-cultures.html",
-        "points": 242,
-        "comments": 45,
-        "id": "1700533"
+        "created_at": "2025-12-28T18:28:07Z",
+        "title": "If you care about security you might want to move the iPhone Camera app",
+        "url": "https://blog.jgc.org/2025/12/if-you-care-about-security-you-might.html",
+        "points": 260,
+        "comments": 163,
+        "id": "46413256"
       }
     ]
   },
@@ -5658,6 +5984,14 @@
         "id": "29185971"
       },
       {
+        "created_at": "2025-07-06T12:39:57Z",
+        "title": "Stop killing games and the industry response",
+        "url": "https://blog.kronis.dev/blog/stop-killing-games",
+        "points": 119,
+        "comments": 3,
+        "id": "44480284"
+      },
+      {
         "created_at": "2022-12-19T08:37:48Z",
         "title": "Moduliths: Because we need to scale, but we also cannot afford microservices",
         "url": "https://blog.kronis.dev/articles/modulith-because-we-need-to-scale-but-we-also-cannot-afford-micro-services",
@@ -5687,7 +6021,25 @@
     "url": "https://blog.kulman.sk",
     "title": "Igor Kulman",
     "feed": "https://blog.kulman.sk/index.xml",
-    "desc": "A personal blog"
+    "desc": "A personal blog",
+    "hn": [
+      {
+        "created_at": "2025-12-03T07:53:16Z",
+        "title": "Apple will not let me join the Developer Program – and will not say why",
+        "url": "https://blog.kulman.sk/apple-developer-program/",
+        "points": 98,
+        "comments": 44,
+        "id": "46131411"
+      },
+      {
+        "created_at": "2025-12-30T08:03:38Z",
+        "title": "Still using Firefox – but not because of its vision",
+        "url": "https://blog.kulman.sk/stuck-with-firefox/",
+        "points": 46,
+        "comments": 17,
+        "id": "46430716"
+      }
+    ]
   },
   {
     "url": "https://blog.lawrencejones.dev",
@@ -5935,7 +6287,7 @@
     "keywords": "blog,developer,personal,opensource,sideprojects",
     "hn": [
       {
-        "created_at": "2017-11-28T21:43:15.000Z",
+        "created_at": "2017-11-28T21:43:15Z",
         "title": "Chatbots need a personality",
         "url": "https://blog.myralabs.com/your-chatbot-needs-a-name-b8f92f337386",
         "points": 76,
@@ -6108,20 +6460,20 @@
         "id": "23176942"
       },
       {
+        "created_at": "2025-10-25T14:33:19Z",
+        "title": "UIs Are Not Pure Functions of the Model – React.js and Cocoa Side by Side (2018)",
+        "url": "https://blog.metaobject.com/2018/12/uis-are-not-pure-functions-of-model.html",
+        "points": 75,
+        "comments": 47,
+        "id": "45704216"
+      },
+      {
         "created_at": "2024-08-22T07:55:10Z",
         "title": "Objective-C is just, like, a leaky abstraction over C",
         "url": "https://blog.metaobject.com/2024/08/objective-c-is-just-like-leaky.html",
         "points": 74,
         "comments": 33,
         "id": "41317824"
-      },
-      {
-        "created_at": "2022-06-22T13:39:04Z",
-        "title": "Blackbird: A reference architecture for local-first connected mobile apps",
-        "url": "https://blog.metaobject.com/2022/06/blackbird-simple-reference-architecture.html",
-        "points": 71,
-        "comments": 7,
-        "id": "31835851"
       }
     ]
   },
@@ -6355,6 +6707,14 @@
         "points": 6,
         "comments": 6,
         "id": "34872909"
+      },
+      {
+        "created_at": "2025-10-16T07:57:29Z",
+        "title": "Why You Should Be Using Git Worktrees",
+        "url": "https://blog.randombits.host/why-you-should-be-using-git-worktrees/",
+        "points": 5,
+        "comments": 6,
+        "id": "45602635"
       }
     ]
   },
@@ -6808,6 +7168,22 @@
         "id": "32865497"
       },
       {
+        "created_at": "2025-09-12T15:32:11Z",
+        "title": "A beginner's guide to extending Emacs",
+        "url": "https://blog.tjll.net/a-beginners-guide-to-extending-emacs/",
+        "points": 151,
+        "comments": 17,
+        "id": "45223239"
+      },
+      {
+        "created_at": "2025-07-09T08:07:54Z",
+        "title": "Systemd has been a complete, utter, unmitigated success",
+        "url": "https://blog.tjll.net/the-systemd-revolution-has-been-a-success/",
+        "points": 106,
+        "comments": 113,
+        "id": "44507411"
+      },
+      {
         "created_at": "2022-09-06T15:17:19Z",
         "title": "One Year with the Framework Laptop and NixOS",
         "url": "https://blog.tjll.net/one-year-with-nixos-on-framework/",
@@ -6854,6 +7230,14 @@
         "points": 17,
         "comments": 0,
         "id": "32840367"
+      },
+      {
+        "created_at": "2025-07-08T19:30:30Z",
+        "title": "Systemd has been a complete, utter, unmitigated success",
+        "url": "https://blog.tjll.net/the-systemd-revolution-has-been-a-success/",
+        "points": 14,
+        "comments": 5,
+        "id": "44503216"
       }
     ]
   },
@@ -6950,7 +7334,17 @@
   {
     "url": "https://blog.vasi.li",
     "title": "Vasili's Blog",
-    "desc": ""
+    "desc": "",
+    "hn": [
+      {
+        "created_at": "2025-11-19T16:40:24Z",
+        "title": "Adventures in upgrading Proxmox",
+        "url": "https://blog.vasi.li/adventures-in-upgrading-proxmox/",
+        "points": 60,
+        "comments": 57,
+        "id": "45981666"
+      }
+    ]
   },
   {
     "url": "https://blog.vito.nyc",
@@ -7050,6 +7444,14 @@
     "feed": "https://blog.yossarian.net/feed.xml",
     "hn": [
       {
+        "created_at": "2025-11-21T14:50:36Z",
+        "title": "We should all be using dependency cooldowns",
+        "url": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns",
+        "points": 489,
+        "comments": 272,
+        "id": "46005111"
+      },
+      {
         "created_at": "2025-01-11T04:13:12Z",
         "title": "Be Aware of the Makefile Effect",
         "url": "https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect",
@@ -7080,6 +7482,22 @@
         "points": 298,
         "comments": 321,
         "id": "32537565"
+      },
+      {
+        "created_at": "2025-06-11T14:15:54Z",
+        "title": "Bypassing GitHub Actions policies in the dumbest way possible",
+        "url": "https://blog.yossarian.net/2025/06/11/github-actions-policies-dumb-bypass",
+        "points": 247,
+        "comments": 119,
+        "id": "44247881"
+      },
+      {
+        "created_at": "2025-09-22T14:34:11Z",
+        "title": "Dear GitHub: no YAML anchors, please",
+        "url": "https://blog.yossarian.net/2025/09/22/dear-github-no-yaml-anchors",
+        "points": 178,
+        "comments": 151,
+        "id": "45334032"
       },
       {
         "created_at": "2022-03-10T15:04:10Z",
@@ -7184,30 +7602,6 @@
         "points": 107,
         "comments": 93,
         "id": "34833229"
-      },
-      {
-        "created_at": "2020-12-17T08:13:13Z",
-        "title": "Static Calls in Linux 5.10",
-        "url": "https://blog.yossarian.net/2020/12/16/Static-calls-in-Linux-5-10",
-        "points": 98,
-        "comments": 20,
-        "id": "25453663"
-      },
-      {
-        "created_at": "2021-12-05T20:17:55Z",
-        "title": "Blockchains don't solve problems that are interesting to me",
-        "url": "https://blog.yossarian.net/2021/12/05/Blockchains-dont-solve-problems-that-are-interesting-to-me",
-        "points": 95,
-        "comments": 115,
-        "id": "29452739"
-      },
-      {
-        "created_at": "2023-05-21T14:25:25Z",
-        "title": "PGP signatures on PyPI: worse than useless",
-        "url": "https://blog.yossarian.net/2023/05/21/PGP-signatures-on-PyPI-worse-than-useless",
-        "points": 93,
-        "comments": 163,
-        "id": "36021172"
       }
     ]
   },
@@ -7236,6 +7630,14 @@
         "points": 391,
         "comments": 120,
         "id": "17314858"
+      },
+      {
+        "created_at": "2025-06-19T17:40:05Z",
+        "title": "Cataphract: Medieval-fantasy roleplaying wargame, in the Black-Sea C. 1300",
+        "url": "https://samsorensen.blot.im/cataphracts-design-diary-1",
+        "points": 188,
+        "comments": 49,
+        "id": "44320832"
       },
       {
         "created_at": "2015-08-17T20:04:25Z",
@@ -7393,12 +7795,28 @@
     "desc": "Personal website of Fernando Borretti.",
     "hn": [
       {
+        "created_at": "2025-08-31T13:49:01Z",
+        "title": "Notes on Managing ADHD",
+        "url": "https://borretti.me/article/notes-on-managing-adhd",
+        "points": 633,
+        "comments": 330,
+        "id": "45083134"
+      },
+      {
         "created_at": "2023-04-10T12:07:21Z",
         "title": "Effective Spaced Repetition",
         "url": "https://borretti.me/article/effective-spaced-repetition",
         "points": 561,
         "comments": 262,
         "id": "35511357"
+      },
+      {
+        "created_at": "2025-12-14T16:55:29Z",
+        "title": "Hashcards: A plain-text spaced repetition system",
+        "url": "https://borretti.me/article/hashcards-plain-text-spaced-repetition",
+        "points": 401,
+        "comments": 195,
+        "id": "46264492"
       },
       {
         "created_at": "2022-12-26T14:17:24Z",
@@ -7428,8 +7846,8 @@
         "created_at": "2025-05-22T05:24:56Z",
         "title": "You can choose tools that make you happy",
         "url": "https://borretti.me/article/you-can-choose-tools-that-make-you-happy",
-        "points": 251,
-        "comments": 82,
+        "points": 258,
+        "comments": 85,
         "id": "44059023"
       },
       {
@@ -7439,6 +7857,14 @@
         "points": 246,
         "comments": 86,
         "id": "32100880"
+      },
+      {
+        "created_at": "2025-12-21T12:57:44Z",
+        "title": "Coarse is better",
+        "url": "https://borretti.me/article/coarse-is-better",
+        "points": 216,
+        "comments": 115,
+        "id": "46344514"
       },
       {
         "created_at": "2023-02-08T11:42:29Z",
@@ -7455,6 +7881,14 @@
         "points": 211,
         "comments": 120,
         "id": "34168452"
+      },
+      {
+        "created_at": "2025-11-15T15:19:20Z",
+        "title": "Linux on the Fujitsu Lifebook U729",
+        "url": "https://borretti.me/article/linux-on-the-fujitsu-lifebook-u729",
+        "points": 207,
+        "comments": 168,
+        "id": "45937989"
       },
       {
         "created_at": "2022-12-19T22:27:53Z",
@@ -7479,6 +7913,14 @@
         "points": 155,
         "comments": 35,
         "id": "43419928"
+      },
+      {
+        "created_at": "2025-12-21T23:42:34Z",
+        "title": "I wish people were more public",
+        "url": "https://borretti.me/article/i-wish-people-were-more-public",
+        "points": 149,
+        "comments": 121,
+        "id": "46349808"
       },
       {
         "created_at": "2023-03-26T09:05:21Z",
@@ -7511,46 +7953,6 @@
         "points": 108,
         "comments": 22,
         "id": "42520632"
-      },
-      {
-        "created_at": "2023-05-30T20:22:11Z",
-        "title": "Language Pragmatics Engineering",
-        "url": "https://borretti.me/article/language-pragmatics",
-        "points": 106,
-        "comments": 26,
-        "id": "36130194"
-      },
-      {
-        "created_at": "2025-04-15T12:38:54Z",
-        "title": "Two Years of Rust",
-        "url": "https://borretti.me/article/two-years-of-rust",
-        "points": 88,
-        "comments": 67,
-        "id": "43691856"
-      },
-      {
-        "created_at": "2024-03-30T17:08:08Z",
-        "title": "Type Inference Was a Mistake",
-        "url": "https://borretti.me/article/type-inference-was-a-mistake",
-        "points": 83,
-        "comments": 128,
-        "id": "39876590"
-      },
-      {
-        "created_at": "2023-06-02T13:11:00Z",
-        "title": "Sketch of a Post-ORM",
-        "url": "https://borretti.me/article/sketch-post-orm",
-        "points": 83,
-        "comments": 80,
-        "id": "36164584"
-      },
-      {
-        "created_at": "2023-07-09T08:48:40Z",
-        "title": "Test Against Reality",
-        "url": "https://borretti.me/article/test-against-reality",
-        "points": 78,
-        "comments": 90,
-        "id": "36652816"
       }
     ]
   },
@@ -7561,6 +7963,14 @@
     "keywords": "programming, propotional fonts for coding, alien way of thinking",
     "desc": "Proportional fonts for coding?  No thank you",
     "hn": [
+      {
+        "created_at": "2025-08-25T04:23:29Z",
+        "title": "Ban me at the IP level if you don't like me",
+        "url": "https://boston.conman.org/2025/08/21.1",
+        "points": 599,
+        "comments": 485,
+        "id": "45010183"
+      },
       {
         "created_at": "2023-10-28T02:13:31Z",
         "title": "A small warning about UDP based protocols",
@@ -7592,6 +8002,14 @@
         "points": 157,
         "comments": 212,
         "id": "32969374"
+      },
+      {
+        "created_at": "2025-06-10T01:36:39Z",
+        "title": "Implementing DOES> in Forth, the entire reason I started this mess",
+        "url": "https://boston.conman.org/2025/06/09.1",
+        "points": 123,
+        "comments": 30,
+        "id": "44231594"
       },
       {
         "created_at": "2018-07-01T23:37:34Z",
@@ -7658,6 +8076,14 @@
         "id": "41346001"
       },
       {
+        "created_at": "2025-10-22T06:26:53Z",
+        "title": "The fix wasn't easy, or C precedence bites",
+        "url": "https://boston.conman.org/2025/10/20.1",
+        "points": 31,
+        "comments": 45,
+        "id": "45665515"
+      },
+      {
         "created_at": "2020-11-26T21:37:35Z",
         "title": "Notes from a Gibsonian Novel",
         "url": "http://boston.conman.org/2004/09/19.1",
@@ -7682,20 +8108,20 @@
         "id": "42253601"
       },
       {
+        "created_at": "2025-12-03T02:53:33Z",
+        "title": "Roko's Dancing Basilisk",
+        "url": "https://boston.conman.org/2025/12/02.1",
+        "points": 17,
+        "comments": 11,
+        "id": "46129766"
+      },
+      {
         "created_at": "2020-04-29T06:12:53Z",
         "title": "Managing TLS connections using Lua and Lua coroutines (2018)",
         "url": "http://boston.conman.org/2018/07/23.1",
         "points": 17,
         "comments": 1,
         "id": "23015968"
-      },
-      {
-        "created_at": "2018-03-11T20:49:39Z",
-        "title": "The Case of the Missing Core Files (2014)",
-        "url": "http://boston.conman.org/2014/03/05.1",
-        "points": 14,
-        "comments": 0,
-        "id": "16564691"
       }
     ]
   },
@@ -7796,7 +8222,7 @@
         "title": "Abusing AWS Lambda to make an Aussie search engine",
         "url": "https://boyter.org/posts/abusing-aws-to-make-a-search-engine/",
         "points": 129,
-        "comments": 28,
+        "comments": 29,
         "id": "28665395"
       },
       {
@@ -8443,6 +8869,14 @@
         "id": "43448432"
       },
       {
+        "created_at": "2025-11-26T17:00:23Z",
+        "title": "A Vibe Coded SaaS Killed My Team",
+        "url": "https://cendyne.dev/posts/2025-11-26-a-vibe-coded-saas-killed-my-team.html",
+        "points": 90,
+        "comments": 96,
+        "id": "46059582"
+      },
+      {
         "created_at": "2022-02-22T15:43:05Z",
         "title": "Do Not Recommend: User Provided Primary Keys",
         "url": "https://cendyne.dev/posts/2022-02-18-user-provided-primary-keys.html",
@@ -8465,6 +8899,14 @@
         "points": 46,
         "comments": 7,
         "id": "36115208"
+      },
+      {
+        "created_at": "2026-01-07T18:27:04Z",
+        "title": "Single Sign on for Furries",
+        "url": "https://cendyne.dev/posts/2025-08-15-single-sign-on-for-furries.html",
+        "points": 30,
+        "comments": 7,
+        "id": "46530378"
       },
       {
         "created_at": "2023-09-02T13:23:20Z",
@@ -8565,6 +9007,14 @@
     "title": "The Circus Scientist Site - Circus Scientist",
     "hn": [
       {
+        "created_at": "2025-12-29T20:29:26Z",
+        "title": "Google is dead. Where do we go now?",
+        "url": "https://www.circusscientist.com/2025/12/29/google-is-dead-where-do-we-go-now/",
+        "points": 1046,
+        "comments": 838,
+        "id": "46425198"
+      },
+      {
         "created_at": "2022-12-18T18:53:58Z",
         "title": "Ubuntu Snap update spoiled my World Cup Final",
         "url": "https://www.circusscientist.com/2022/12/18/ubuntu-snap-update-spoiled-the-world-cup/",
@@ -8579,6 +9029,14 @@
         "points": 14,
         "comments": 18,
         "id": "28218645"
+      },
+      {
+        "created_at": "2025-11-16T14:28:22Z",
+        "title": "The new Aider-CE fork of Aider is now official",
+        "url": "https://www.circusscientist.com/2025/11/16/the-new-aider-ce-fork-of-aider-ai-assistant-is-now-official/",
+        "points": 14,
+        "comments": 3,
+        "id": "45945379"
       }
     ]
   },
@@ -8819,7 +9277,17 @@
     "title": "Cookie Engineer's Portfolio (🍪🔧)",
     "feed": "https://cookie.engineer/weblog/feed.xml",
     "keywords": "Artificial Intelligence, Machine Learning, Automation Engineer, Software Engineer, Mad Scientist",
-    "desc": "Portfolio of Cookie Engineer and their Open Source projects"
+    "desc": "Portfolio of Cookie Engineer and their Open Source projects",
+    "hn": [
+      {
+        "created_at": "2025-12-30T18:08:37Z",
+        "title": "Show HN: I remade my website in the Sith Lord Theme and I hope it's fun",
+        "url": "https://cookie.engineer/index.html",
+        "points": 36,
+        "comments": 16,
+        "id": "46436128"
+      }
+    ]
   },
   {
     "url": "https://craigkerstiens.com",
@@ -9021,6 +9489,14 @@
         "id": "23738083"
       },
       {
+        "created_at": "2025-07-11T13:07:03Z",
+        "title": "Overtourism in Japan, and how it hurts small businesses",
+        "url": "https://craigmod.com/ridgeline/210/",
+        "points": 244,
+        "comments": 479,
+        "id": "44531707"
+      },
+      {
         "created_at": "2023-07-16T13:00:32Z",
         "title": "Electric bike, stupid love of my life",
         "url": "https://craigmod.com/essays/electric_bikes/",
@@ -9147,14 +9623,6 @@
         "points": 66,
         "comments": 3,
         "id": "1552952"
-      },
-      {
-        "created_at": "2020-07-07T11:37:22Z",
-        "title": "A Need to Walk (2014)",
-        "url": "https://craigmod.com/essays/a_need_to_walk/",
-        "points": 65,
-        "comments": 38,
-        "id": "23758106"
       }
     ]
   },
@@ -9542,6 +10010,14 @@
         "id": "38718314"
       },
       {
+        "created_at": "2025-07-27T23:24:01Z",
+        "title": "When circumvention is more popular than compliance",
+        "url": "https://www.da.vidbuchanan.co.uk/blog/compliance-vs-circumvention.html",
+        "points": 44,
+        "comments": 22,
+        "id": "44705627"
+      },
+      {
         "created_at": "2024-01-02T16:45:59Z",
         "title": "Text Editors Should Be Worse",
         "url": "https://www.da.vidbuchanan.co.uk/blog/annoying-text-editors.html",
@@ -9575,8 +10051,40 @@
         "title": "Using an 8K TV as a Monitor",
         "url": "https://daniel.lawrence.lu/blog/y2023m12d15/",
         "points": 562,
-        "comments": 535,
+        "comments": 536,
         "id": "41986048"
+      },
+      {
+        "created_at": "2025-08-23T16:09:21Z",
+        "title": "Line scan camera image processing for train photography",
+        "url": "https://daniel.lawrence.lu/blog/y2025m09d21/",
+        "points": 449,
+        "comments": 81,
+        "id": "44996938"
+      },
+      {
+        "created_at": "2025-12-25T14:20:29Z",
+        "title": "Asahi Linux with Sway on the MacBook Air M2 (2024)",
+        "url": "https://daniel.lawrence.lu/blog/2024-12-01-asahi-linux-with-sway-on-the-macbook-air-m2/",
+        "points": 263,
+        "comments": 318,
+        "id": "46384565"
+      },
+      {
+        "created_at": "2025-12-25T10:42:46Z",
+        "title": "Line scan camera image processing",
+        "url": "https://daniel.lawrence.lu/blog/2025-09-21-line-scan-camera-image-processing/",
+        "points": 69,
+        "comments": 4,
+        "id": "46383593"
+      },
+      {
+        "created_at": "2025-12-26T00:37:58Z",
+        "title": "Line Scan Camera Image Processing",
+        "url": "https://daniel.lawrence.lu/blog/2025-09-21-line-scan-camera-image-processing/",
+        "points": 30,
+        "comments": 2,
+        "id": "46388084"
       }
     ]
   },
@@ -9672,6 +10180,14 @@
         "id": "7252176"
       },
       {
+        "created_at": "2025-08-13T14:25:48Z",
+        "title": "I'm worried it might get bad",
+        "url": "https://danielmiessler.com/blog/im-worried-it-might-get-bad",
+        "points": 178,
+        "comments": 231,
+        "id": "44888874"
+      },
+      {
         "created_at": "2011-10-10T16:04:54Z",
         "title": "An lsof Primer",
         "url": "http://danielmiessler.com/study/lsof/",
@@ -9750,14 +10266,6 @@
         "points": 89,
         "comments": 6,
         "id": "3708772"
-      },
-      {
-        "created_at": "2016-10-16T20:58:20Z",
-        "title": "Machine Learning Is the New Statistics",
-        "url": "https://danielmiessler.com/blog/machine-learning-new-statistics/#gs.vG8Oa8A",
-        "points": 81,
-        "comments": 28,
-        "id": "12720908"
       }
     ]
   },
@@ -9769,7 +10277,7 @@
     "desc": "Code, opinions and some other geek-stuff",
     "hn": [
       {
-        "created_at": "2021-09-21T14:34:23.000Z",
+        "created_at": "2021-09-21T14:34:23Z",
         "title": "It's Always DNS. Filtering with PiHole and Podman",
         "url": "https://danielpeck.com/posts/its-always-dns/",
         "points": 2,
@@ -9942,6 +10450,14 @@
         "points": 15,
         "comments": 12,
         "id": "24624914"
+      },
+      {
+        "created_at": "2010-12-09T05:23:29Z",
+        "title": "Say Something Nice About Every Language You’ve Used",
+        "url": "http://blog.darevay.com/2010/12/say-something-nice-about-every-language-youve-used",
+        "points": 35,
+        "comments": 30,
+        "id": "1986173"
       }
     ]
   },
@@ -9957,6 +10473,14 @@
         "points": 15,
         "comments": 17,
         "id": "3539572"
+      },
+      {
+        "created_at": "2026-01-09T17:15:00Z",
+        "title": "Avoid aligning keys and values in source code unnecessarily",
+        "url": "https://www.databasesandlife.com/dont-align-struct-values/",
+        "points": 4,
+        "comments": 6,
+        "id": "46556161"
       }
     ]
   },
@@ -9972,6 +10496,14 @@
         "points": 224,
         "comments": 100,
         "id": "34242863"
+      },
+      {
+        "created_at": "2012-12-22T18:44:28Z",
+        "title": "Show HN: DataFart - easy command line graphing",
+        "url": "http://datafart.com",
+        "points": 114,
+        "comments": 63,
+        "id": "4957144"
       }
     ]
   },
@@ -10054,6 +10586,14 @@
         "id": "38811576"
       },
       {
+        "created_at": "2025-07-06T16:46:01Z",
+        "title": "Async Queue – One of my favorite programming interview questions",
+        "url": "https://davidgomes.com/async-queue-interview-ai/",
+        "points": 255,
+        "comments": 310,
+        "id": "44482194"
+      },
+      {
         "created_at": "2023-08-21T16:17:56Z",
         "title": "The broad set of computer science problems faced at cloud database companies",
         "url": "https://davidgomes.com/the-broad-set-of-computer-science-problems-faced-at-cloud-database-companies/",
@@ -10092,7 +10632,17 @@
     "title": "David Mohl",
     "feed": "https://david.coffee/index.xml",
     "keywords": "Blog,Portfolio",
-    "desc": "Welcome to David's blog. My thoughts on tech, apps and a lot of yak shaving."
+    "desc": "Welcome to David's blog. My thoughts on tech, apps and a lot of yak shaving.",
+    "hn": [
+      {
+        "created_at": "2025-11-16T17:39:43Z",
+        "title": "I finally understand Cloudflare Zero Trust tunnels",
+        "url": "https://david.coffee/cloudflare-zero-trust-tunnels",
+        "points": 311,
+        "comments": 107,
+        "id": "45946865"
+      }
+    ]
   },
   {
     "url": "https://davidvlijmincx.com",
@@ -10256,6 +10806,14 @@
         "id": "43420925"
       },
       {
+        "created_at": "2025-05-30T18:47:30Z",
+        "title": "What Is Racket Doing?",
+        "url": "https://defn.io/2025/05/30/racket-thread-stack-dumps/",
+        "points": 11,
+        "comments": 0,
+        "id": "44138926"
+      },
+      {
         "created_at": "2018-03-04T17:45:38Z",
         "title": "Web application from scratch, Part II",
         "url": "https://defn.io/2018/03/04/web-app-from-scratch-02/",
@@ -10358,6 +10916,14 @@
         "points": 16,
         "comments": 7,
         "id": "28185007"
+      },
+      {
+        "created_at": "2025-10-14T08:01:44Z",
+        "title": "What's the Deal with GitHub Spec Kit",
+        "url": "https://den.dev/blog/github-spec-kit/",
+        "points": 16,
+        "comments": 3,
+        "id": "45577377"
       },
       {
         "created_at": "2024-11-22T23:39:59Z",
@@ -11061,6 +11627,14 @@
     "title": "dcz's project map",
     "hn": [
       {
+        "created_at": "2025-10-12T21:51:45Z",
+        "title": "Free software hasn't won",
+        "url": "https://dorotac.eu/posts/fosswon/",
+        "points": 384,
+        "comments": 447,
+        "id": "45562286"
+      },
+      {
         "created_at": "2024-11-15T13:53:17Z",
         "title": "Libobscura",
         "url": "https://dorotac.eu/posts/libobscura/",
@@ -11162,6 +11736,22 @@
         "points": 222,
         "comments": 108,
         "id": "39333360"
+      },
+      {
+        "created_at": "2025-11-15T06:27:22Z",
+        "title": "Automating rootless Docker host updates with Ansible",
+        "url": "https://du.nkel.dev/blog/2025-11-15_docker-rootless-ansible/",
+        "points": 42,
+        "comments": 5,
+        "id": "45935482"
+      },
+      {
+        "created_at": "2026-01-16T06:46:29Z",
+        "title": "Local-only Marstek Venus e-battery integration with Home Assistant",
+        "url": "https://du.nkel.dev/blog/2026-01-11_marstek-battery-homeassistant/",
+        "points": 16,
+        "comments": 10,
+        "id": "46643699"
       }
     ]
   },
@@ -11223,6 +11813,14 @@
         "points": 18,
         "comments": 3,
         "id": "34169106"
+      },
+      {
+        "created_at": "2025-06-17T20:47:55Z",
+        "title": "Value-Null Antinatalism [pdf]",
+        "url": "https://dusted.dk/pages/thoughts/Value-Null_Antinatalism.pdf",
+        "points": 15,
+        "comments": 35,
+        "id": "44303783"
       }
     ]
   },
@@ -11374,7 +11972,17 @@
     "url": "https://e-dorigatti.github.io",
     "title": "Emilio’s Blog | My Ph.D. and other tech stuff",
     "feed": "https://e-dorigatti.github.io/feed.xml",
-    "desc": "My Ph.D. and other tech stuff"
+    "desc": "My Ph.D. and other tech stuff",
+    "hn": [
+      {
+        "created_at": "2025-08-04T04:55:11Z",
+        "title": "What is the average length of a queue of cars? (2023)",
+        "url": "https://e-dorigatti.github.io/math/2023/11/01/queue-length.html",
+        "points": 38,
+        "comments": 11,
+        "id": "44782229"
+      }
+    ]
   },
   {
     "url": "https://edbn.dev",
@@ -11576,12 +12184,28 @@
         "id": "41958550"
       },
       {
+        "created_at": "2025-10-12T16:46:11Z",
+        "title": "GitHub Copilot: Remote Code Execution via Prompt Injection (CVE-2025-53773)",
+        "url": "https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/",
+        "points": 128,
+        "comments": 18,
+        "id": "45559603"
+      },
+      {
         "created_at": "2023-12-21T01:38:10Z",
         "title": "OpenAI Begins Tackling ChatGPT Data Leak Vulnerability",
         "url": "https://embracethered.com/blog/posts/2023/openai-data-exfiltration-first-mitigations-implemented/",
         "points": 103,
         "comments": 73,
         "id": "38716075"
+      },
+      {
+        "created_at": "2025-08-12T23:47:42Z",
+        "title": "GitHub Copilot: Remote code execution via prompt injection (CVE-2025-53773)",
+        "url": "https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/",
+        "points": 15,
+        "comments": 2,
+        "id": "44883108"
       },
       {
         "created_at": "2023-05-14T15:10:54Z",
@@ -11595,7 +12219,17 @@
   },
   {
     "url": "https://emile.space",
-    "about": "https://emile.space/about"
+    "about": "https://emile.space/about",
+    "hn": [
+      {
+        "created_at": "2025-10-29T18:57:29Z",
+        "title": "Uv is the best thing to happen to the Python ecosystem in a decade",
+        "url": "https://emily.space/posts/251023-uv",
+        "points": 2214,
+        "comments": 1324,
+        "id": "45751400"
+      }
+    ]
   },
   {
     "url": "https://emphaticallystatic.org",
@@ -11803,6 +12437,14 @@
         "id": "43157672"
       },
       {
+        "created_at": "2025-09-03T17:47:50Z",
+        "title": "Poor man's bitemporal data system in SQLite and Clojure",
+        "url": "https://www.evalapply.org/posts/poor-mans-time-oriented-data-system/index.html",
+        "points": 172,
+        "comments": 54,
+        "id": "45118585"
+      },
+      {
         "created_at": "2025-05-20T13:15:52Z",
         "title": "Clojuring the web application stack: Meditation One",
         "url": "https://www.evalapply.org/posts/clojure-web-app-from-scratch/index.html",
@@ -11841,6 +12483,22 @@
         "points": 82,
         "comments": 4,
         "id": "43636860"
+      },
+      {
+        "created_at": "2025-09-11T05:31:47Z",
+        "title": "A Clojure View of \"Mars Rover\"",
+        "url": "https://www.evalapply.org/posts/clojure-mars-rover/index.html",
+        "points": 25,
+        "comments": 1,
+        "id": "45208145"
+      },
+      {
+        "created_at": "2025-07-26T17:30:21Z",
+        "title": "Poor man's bitemporal data system in SQLite and Clojure",
+        "url": "https://www.evalapply.org/posts/poor-mans-time-oriented-data-system/index.html",
+        "points": 15,
+        "comments": 2,
+        "id": "44695670"
       }
     ]
   },
@@ -12044,6 +12702,14 @@
         "points": 42,
         "comments": 32,
         "id": "25247499"
+      },
+      {
+        "created_at": "2025-07-03T20:31:17Z",
+        "title": "Just Ask for Generalization (2021)",
+        "url": "https://evjang.com/2021/10/23/generalization.html",
+        "points": 38,
+        "comments": 4,
+        "id": "44458914"
       },
       {
         "created_at": "2019-02-22T05:50:37Z",
@@ -12305,12 +12971,12 @@
         "id": "32086973"
       },
       {
-        "created_at": "2022-03-06T20:13:04Z",
-        "title": "Request Coalescing in Async Rust",
-        "url": "https://fasterthanli.me/articles/request-coalescing-in-async-rust",
-        "points": 142,
-        "comments": 38,
-        "id": "30580797"
+        "created_at": "2025-09-12T14:50:57Z",
+        "title": "Crates.io phishing attempt",
+        "url": "https://fasterthanli.me/articles/crates-io-phishing-attempt",
+        "points": 156,
+        "comments": 78,
+        "id": "45222772"
       }
     ]
   },
@@ -12559,6 +13225,14 @@
         "points": 61,
         "comments": 14,
         "id": "41229328"
+      },
+      {
+        "created_at": "2025-06-28T15:48:11Z",
+        "title": "First-Class Models: The Missing Productivity Revolution",
+        "url": "https://frest.substack.com/p/first-class-models-the-missing-productivity",
+        "points": 43,
+        "comments": 20,
+        "id": "44405565"
       }
     ]
   },
@@ -12728,7 +13402,17 @@
     "url": "https://gallant.dev",
     "title": "~gallant",
     "feed": "https://gallant.dev/feed.atom",
-    "desc": "Thoughts and Code"
+    "desc": "Thoughts and Code",
+    "hn": [
+      {
+        "created_at": "2019-04-05T00:03:42Z",
+        "title": "Dear Mozilla, please stop spamming",
+        "url": "https://palant.de/2019/04/03/dear-mozilla-please-stop-spamming/",
+        "points": 179,
+        "comments": 117,
+        "id": "19578366"
+      }
+    ]
   },
   {
     "url": "https://garden.bradwoods.io",
@@ -12760,6 +13444,30 @@
         "points": 183,
         "comments": 121,
         "id": "35985085"
+      },
+      {
+        "created_at": "2025-06-06T21:47:10Z",
+        "title": "Animate a mesh across a sphere's surface",
+        "url": "https://garden.bradwoods.io/notes/javascript/three-js/animate-a-mesh-on-a-spheres-surface",
+        "points": 157,
+        "comments": 15,
+        "id": "44205319"
+      },
+      {
+        "created_at": "2026-01-05T11:32:58Z",
+        "title": "Cigarette smoke effect using shaders",
+        "url": "https://garden.bradwoods.io/notes/javascript/three-js/shaders/shaders-103-smoke",
+        "points": 154,
+        "comments": 26,
+        "id": "46497589"
+      },
+      {
+        "created_at": "2025-06-27T05:27:25Z",
+        "title": "Brad Woods Digital Garden",
+        "url": "https://garden.bradwoods.io",
+        "points": 81,
+        "comments": 4,
+        "id": "44393920"
       },
       {
         "created_at": "2021-10-25T21:34:44Z",
@@ -13357,6 +14065,14 @@
         "id": "16197436"
       },
       {
+        "created_at": "2025-12-23T15:21:55Z",
+        "title": "Reverse Engineering a Mysterious UDP Stream in My Hotel (2016)",
+        "url": "https://www.gkbrk.com/hotel-music",
+        "points": 220,
+        "comments": 29,
+        "id": "46366010"
+      },
+      {
         "created_at": "2023-07-26T00:16:55Z",
         "title": "Caffeine Half-Life Calculator",
         "url": "https://www.gkbrk.com/wiki/caffeine-halflife/",
@@ -13403,6 +14119,30 @@
         "points": 207,
         "comments": 65,
         "id": "43301342"
+      },
+      {
+        "created_at": "2026-01-03T23:01:57Z",
+        "title": "The Riven Diffs – Seeing Riven (1997) Differently",
+        "url": "https://glthr.com/the-riven-diffs-1",
+        "points": 81,
+        "comments": 11,
+        "id": "46482642"
+      },
+      {
+        "created_at": "2025-12-27T09:52:03Z",
+        "title": "Formulaic Delimiters in the Iliad and the Odyssey",
+        "url": "https://glthr.com/formulaic-delimiters-in-the-iliad-and-the-odyssey",
+        "points": 30,
+        "comments": 13,
+        "id": "46400564"
+      },
+      {
+        "created_at": "2025-08-06T00:14:59Z",
+        "title": "Model Collapse and the Need for Human-Generated Training Data",
+        "url": "https://glthr.com/model-collapse-and-the-need-for-human-generated-training-data",
+        "points": 16,
+        "comments": 3,
+        "id": "44806136"
       }
     ]
   },
@@ -13595,7 +14335,17 @@
     "url": "https://hankruiger.com",
     "title": "Han",
     "about": "https://hankruiger.com/about",
-    "now": "https://hankruiger.com/now"
+    "now": "https://hankruiger.com/now",
+    "hn": [
+      {
+        "created_at": "2011-09-09T20:01:06Z",
+        "title": "Hiring advice for startups from Hackruiter (YC S10)",
+        "url": "http://www.hackruiter.com/advice",
+        "points": 95,
+        "comments": 22,
+        "id": "2979603"
+      }
+    ]
   },
   {
     "url": "https://hartr.net",
@@ -13654,8 +14404,8 @@
         "created_at": "2025-05-26T11:34:28Z",
         "title": "TIL: timeout in Bash scripts",
         "url": "https://heitorpb.github.io/bla/timeout/",
-        "points": 336,
-        "comments": 89,
+        "points": 357,
+        "comments": 97,
         "id": "44096395"
       }
     ]
@@ -13673,7 +14423,17 @@
   {
     "url": "https://her.esy.fun",
     "feed": "https://her.esy.fun/rss.xml",
-    "keywords": ""
+    "keywords": "",
+    "hn": [
+      {
+        "created_at": "2025-12-21T14:46:53Z",
+        "title": "How I protect my Forgejo instance from AI web crawlers",
+        "url": "https://her.esy.fun/posts/0031-how-i-protect-my-forgejo-instance-from-ai-web-crawlers/index.html",
+        "points": 189,
+        "comments": 98,
+        "id": "46345205"
+      }
+    ]
   },
   {
     "url": "https://herbertlui.net",
@@ -13851,6 +14611,14 @@
     "title": "Blog - Hugo Tunius",
     "feed": "https://hugotunius.se/feed.xml",
     "hn": [
+      {
+        "created_at": "2025-08-31T21:46:26Z",
+        "title": "We should have the ability to run any code we want on hardware we own",
+        "url": "https://hugotunius.se/2025/08/31/what-every-argument-about-sideloading-gets-wrong.html",
+        "points": 2071,
+        "comments": 1203,
+        "id": "45087396"
+      },
       {
         "created_at": "2020-11-01T21:06:39Z",
         "title": "Flutter Web: A Fractal of Bad Design",
@@ -14105,6 +14873,14 @@
     "title": "Imran Nazar: Articles and other writings",
     "feed": "https://imrannazar.com/rss.xml",
     "hn": [
+      {
+        "created_at": "2025-09-01T09:52:03Z",
+        "title": "De-Googling TOTP Authenticator Codes",
+        "url": "https://imrannazar.com/articles/degoogle-otp",
+        "points": 105,
+        "comments": 135,
+        "id": "45091202"
+      },
       {
         "created_at": "2011-11-12T18:30:53Z",
         "title": "Steganography with Brainfuck",
@@ -14395,6 +15171,14 @@
         "id": "33787218"
       },
       {
+        "created_at": "2025-06-18T12:59:58Z",
+        "title": "Homomorphically Encrypting CRDTs",
+        "url": "https://jakelazaroff.com/words/homomorphically-encrypted-crdts/",
+        "points": 277,
+        "comments": 74,
+        "id": "44309520"
+      },
+      {
         "created_at": "2023-10-17T14:45:16Z",
         "title": "Making CRDTs More Efficient",
         "url": "https://jakelazaroff.com/words/making-crdts-98-percent-more-efficient/",
@@ -14433,6 +15217,14 @@
         "points": 159,
         "comments": 23,
         "id": "37832432"
+      },
+      {
+        "created_at": "2025-10-02T19:10:47Z",
+        "title": "DHH Is Worse Than I Thought",
+        "url": "https://jakelazaroff.com/words/dhh-is-way-worse-than-i-thought/",
+        "points": 120,
+        "comments": 68,
+        "id": "45454026"
       },
       {
         "created_at": "2023-03-10T15:01:20Z",
@@ -14647,6 +15439,14 @@
     "desc": "James Brooks is a software developer, speaker and educator based in Newcastle-Under-Lyme, United Kingdom. Currently working at Laravel, creating epic developer tools using Vue.js, Inertia, Laravel & Tailwind.",
     "hn": [
       {
+        "created_at": "2025-12-10T10:03:56Z",
+        "title": "Getting into public speaking",
+        "url": "https://james.brooks.page/blog/getting-into-public-speaking",
+        "points": 164,
+        "comments": 48,
+        "id": "46216008"
+      },
+      {
         "created_at": "2024-10-09T07:23:54Z",
         "title": "Tweet.new",
         "url": "https://james.brooks.page/blog/tweet-new",
@@ -14806,12 +15606,28 @@
     "feed": "https://jamie.ideasasylum.com/feed.xml",
     "hn": [
       {
+        "created_at": "2025-10-15T14:04:13Z",
+        "title": "You are the scariest monster in the woods",
+        "url": "https://jamie.ideasasylum.com/2025/10/15/you-are-the-scariest-monster-in-the-woods",
+        "points": 222,
+        "comments": 388,
+        "id": "45592766"
+      },
+      {
         "created_at": "2024-06-23T01:39:33Z",
         "title": "The manager's unbearable lack of endorphins",
         "url": "https://jamie.ideasasylum.com/2024/06/21/the-manager-s-unbearable-lack-of-endorphins",
         "points": 91,
         "comments": 49,
         "id": "40763919"
+      },
+      {
+        "created_at": "2025-07-01T12:21:10Z",
+        "title": "We're all CTO now",
+        "url": "https://jamie.ideasasylum.com/2025/07/01/you%27re-all-cto-now",
+        "points": 84,
+        "comments": 105,
+        "id": "44433159"
       },
       {
         "created_at": "2024-11-03T21:18:32Z",
@@ -14903,6 +15719,14 @@
         "id": "34542064"
       },
       {
+        "created_at": "2026-01-07T02:37:09Z",
+        "title": "My Snapdragon Dev Kit was healthy and working fine until a Windows update failed",
+        "url": "https://jasoneckert.github.io/myblog/how-microsoft-killed-my-snapdragon-devkit/",
+        "points": 207,
+        "comments": 120,
+        "id": "46521860"
+      },
+      {
         "created_at": "2023-08-12T14:24:05Z",
         "title": "Fedora Asahi Remix first impressions",
         "url": "https://jasoneckert.github.io/myblog/fedora-asahi-remix/",
@@ -14988,6 +15812,14 @@
         "points": 35,
         "comments": 2,
         "id": "37703033"
+      },
+      {
+        "created_at": "2025-08-04T21:14:55Z",
+        "title": "Voice Controlled Swarms",
+        "url": "https://jasonfantl.com/posts/Voice-Controlled-Swarms/",
+        "points": 33,
+        "comments": 10,
+        "id": "44791444"
       }
     ]
   },
@@ -15379,6 +16211,14 @@
         "id": "25154300"
       },
       {
+        "created_at": "2025-12-08T08:02:08Z",
+        "title": "From Azure Functions to FreeBSD",
+        "url": "https://jmmv.dev/2025/12/from-azure-functions-to-freebsd.html",
+        "points": 133,
+        "comments": 29,
+        "id": "46189616"
+      },
+      {
         "created_at": "2025-05-13T12:10:23Z",
         "title": "Fast machines, slow machines (2023)",
         "url": "https://jmmv.dev/2023/06/fast-machines-slow-machines.html",
@@ -15489,6 +16329,14 @@
         "points": 22,
         "comments": 24,
         "id": "29333659"
+      },
+      {
+        "created_at": "2025-10-12T21:03:03Z",
+        "title": "Trusting builds with Bazel remote execution",
+        "url": "https://jmmv.dev/2025/09/bazel-remote-execution.html",
+        "points": 10,
+        "comments": 10,
+        "id": "45561888"
       }
     ]
   },
@@ -15716,6 +16564,14 @@
         "id": "34824115"
       },
       {
+        "created_at": "2025-07-07T17:50:14Z",
+        "title": "Why are there still 7 continents?",
+        "url": "https://jonpauluritis.com/articles/why-are-there-still-7-continents/",
+        "points": 33,
+        "comments": 20,
+        "id": "44492888"
+      },
+      {
         "created_at": "2022-02-05T16:54:35Z",
         "title": "Thunderstorms and Margaritas",
         "url": "https://jonpauluritis.com/articles/Thunderstorms-and-Margaritas/",
@@ -15729,7 +16585,17 @@
     "url": "https://jordemort.dev",
     "title": "Jordan Webb",
     "feed": "https://jordemort.dev/rss.xml",
-    "desc": "My portfolio & some occasional blogging"
+    "desc": "My portfolio & some occasional blogging",
+    "hn": [
+      {
+        "created_at": "2025-06-08T20:49:07Z",
+        "title": "Why Android can't use CDC Ethernet (2023)",
+        "url": "https://jordemort.dev/blog/why-android-cant-use-cdc-ethernet/",
+        "points": 348,
+        "comments": 136,
+        "id": "44219405"
+      }
+    ]
   },
   {
     "url": "https://joseferben.com",
@@ -15803,6 +16669,30 @@
         "points": 185,
         "comments": 55,
         "id": "30388074"
+      },
+      {
+        "created_at": "2025-08-11T16:11:50Z",
+        "title": "UI vs. API. vs. UAI",
+        "url": "https://www.joshbeckman.org/blog/practicing/ui-vs-api-vs-uai",
+        "points": 87,
+        "comments": 53,
+        "id": "44865916"
+      },
+      {
+        "created_at": "2025-11-11T17:41:45Z",
+        "title": "Contributing to open-source should be required, like jury duty",
+        "url": "https://www.joshbeckman.org/blog/practicing/contributing-to-opensource-should-be-required-like-jury-duty",
+        "points": 56,
+        "comments": 76,
+        "id": "45890370"
+      },
+      {
+        "created_at": "2025-07-13T15:37:22Z",
+        "title": "The Cost of Human-Centric Tools in LLM Workflows",
+        "url": "https://www.joshbeckman.org/blog/the-hidden-cost-of-humancentric-tools-in-llm-workflows",
+        "points": 3,
+        "comments": 6,
+        "id": "44551171"
       }
     ]
   },
@@ -15948,7 +16838,17 @@
     "title": "June Kim",
     "about": "https://june.kim/about",
     "feed": "https://www.june.kim/feed.xml",
-    "desc": "Thoughts on software, life, and everything"
+    "desc": "Thoughts on software, life, and everything",
+    "hn": [
+      {
+        "created_at": "2025-06-13T01:25:05Z",
+        "title": "Would You Hire a Calculator?",
+        "url": "https://www.june.kim/would-you-hire-a-calculator",
+        "points": 8,
+        "comments": 11,
+        "id": "44264891"
+      }
+    ]
   },
   {
     "url": "https://justinhj.github.io",
@@ -15957,7 +16857,7 @@
     "desc": "Justin is a British/Canadian software engineer at Treasure Data, functional programming, polyglot, Neovim and Emacs.",
     "hn": [
       {
-        "created_at": "2015-12-26T07:26:11.000Z",
+        "created_at": "2015-12-26T07:26:11Z",
         "title": "Show HN: GitHub Hovercard v0.3.3",
         "url": "https://justineo.github.io/github-hovercard/",
         "points": 40,
@@ -16324,6 +17224,14 @@
         "id": "30955795"
       },
       {
+        "created_at": "2025-08-24T21:44:40Z",
+        "title": "I Don't Like Imports",
+        "url": "https://kevincox.ca/2025/07/20/no-imports/",
+        "points": 13,
+        "comments": 2,
+        "id": "45008088"
+      },
+      {
         "created_at": "2022-05-15T19:14:05Z",
         "title": "Wrong by Default",
         "url": "https://kevincox.ca/2022/05/13/wrong-by-default/",
@@ -16423,6 +17331,14 @@
         "points": 16,
         "comments": 8,
         "id": "36450077"
+      },
+      {
+        "created_at": "2025-11-28T17:47:29Z",
+        "title": "Be Useful in Emergencies",
+        "url": "https://kg.dev/thoughts/emergencies",
+        "points": 10,
+        "comments": 0,
+        "id": "46080907"
       }
     ]
   },
@@ -16475,7 +17391,25 @@
   {
     "url": "https://kianbradley.com",
     "title": "Kian Bradley’s Blog",
-    "feed": "https://kianbradley.com/feed.xml"
+    "feed": "https://kianbradley.com/feed.xml",
+    "hn": [
+      {
+        "created_at": "2025-06-17T17:40:19Z",
+        "title": "Resurrecting a dead torrent tracker and finding 3M peers",
+        "url": "https://kianbradley.com/2025/06/15/resurrecting-a-dead-tracker.html",
+        "points": 655,
+        "comments": 203,
+        "id": "44301686"
+      },
+      {
+        "created_at": "2026-01-18T03:31:27Z",
+        "title": "TLS stripping on-device under Windows XP",
+        "url": "https://kianbradley.com/2024/01/14/tls-on-xp.html",
+        "points": 17,
+        "comments": 2,
+        "id": "46664576"
+      }
+    ]
   },
   {
     "url": "https://kinoshita.eti.br",
@@ -16622,6 +17556,14 @@
         "id": "4852896"
       },
       {
+        "created_at": "2025-06-27T12:33:03Z",
+        "title": "Creating a pan-European legal entity, the right way",
+        "url": "https://klinger.io/posts/eu-inc",
+        "points": 32,
+        "comments": 16,
+        "id": "44396299"
+      },
+      {
         "created_at": "2012-01-12T09:13:14Z",
         "title": "The unannounced updates to Facebooks social plugins",
         "url": "http://klinger.io/post/15672435659/the-unannounced-updates-to-facebooks-social-plugins",
@@ -16725,6 +17667,22 @@
     "feed": "https://www.kulman.sk/index.xml",
     "desc": "Igor Kulman - blog o technológiách, LEGO, mechanických hodinkách a občas aj cestovaní",
     "hn": [
+      {
+        "created_at": "2025-12-03T07:53:16Z",
+        "title": "Apple will not let me join the Developer Program – and will not say why",
+        "url": "https://blog.kulman.sk/apple-developer-program/",
+        "points": 98,
+        "comments": 44,
+        "id": "46131411"
+      },
+      {
+        "created_at": "2025-12-30T08:03:38Z",
+        "title": "Still using Firefox – but not because of its vision",
+        "url": "https://blog.kulman.sk/stuck-with-firefox/",
+        "points": 46,
+        "comments": 17,
+        "id": "46430716"
+      },
       {
         "created_at": "2012-11-06T12:13:24Z",
         "title": "Being a polyglot programmer",
@@ -16928,6 +17886,14 @@
     "feed": "https://lagomor.ph/posts/index.xml",
     "hn": [
       {
+        "created_at": "2026-01-09T01:39:52Z",
+        "title": "Logistics Is Dying; Or – Dude, Where's My Mail?",
+        "url": "https://lagomor.ph/2026/01/logistics-is-dying-or-dude-wheres-my-mail/",
+        "points": 66,
+        "comments": 60,
+        "id": "46549105"
+      },
+      {
         "created_at": "2025-03-11T18:30:47Z",
         "title": "Truth Functional Logic for Hackers",
         "url": "https://lagomor.ph/2025/02/truth-functional-logic-for-hackers-part-one/",
@@ -16943,6 +17909,14 @@
     "feed": "https://lambdaland.org/index.xml",
     "desc": "Ashton Wiersdorf # I am a PhD student at the University of Utah, where I started in August 2022. I graduated with my bachelor’s degree in computer science from Brigham Young University in April 2022.\nI am interested in researching and designing better programming languages. Programming languages are our interface to computation, and different programming languages shape how we think about solving problems with computation. I have done research around compilers and static analysis, and going forward I will be working on novel type systems to catch new kinds of errors and to make programming more intuitive for beginners.",
     "hn": [
+      {
+        "created_at": "2025-08-05T13:46:30Z",
+        "title": "Lack of intent is what makes reading LLM-generated text exhausting",
+        "url": "https://lambdaland.org/posts/2025-08-04_artifical_inanity/",
+        "points": 189,
+        "comments": 116,
+        "id": "44797917"
+      },
       {
         "created_at": "2022-11-08T18:53:16Z",
         "title": "Unix as a tool forge and how Emacs fits in Unix philosophy",
@@ -17040,7 +18014,17 @@
     "url": "https://law.gmnz.xyz",
     "title": "\n    \n    \n      Law Gimenez\n    \n    \n  ",
     "feed": "https://law.gmnz.xyz/feed.xml",
-    "desc": ""
+    "desc": "",
+    "hn": [
+      {
+        "created_at": "2025-12-11T03:50:04Z",
+        "title": "Vibe coding is mad depressing",
+        "url": "https://law.gmnz.xyz/vibe-coding-is-mad-depressing/",
+        "points": 263,
+        "comments": 159,
+        "id": "46227422"
+      }
+    ]
   },
   {
     "url": "https://leadership.garden",
@@ -17253,6 +18237,14 @@
         "points": 258,
         "comments": 133,
         "id": "36757798"
+      },
+      {
+        "created_at": "2025-07-09T08:07:23Z",
+        "title": "Parse, Don’t Validate – Some C Safety Tips",
+        "url": "https://www.lelanthran.com/chap13/content.html",
+        "points": 130,
+        "comments": 73,
+        "id": "44507405"
       }
     ]
   },
@@ -18352,6 +19344,14 @@
         "id": "42282717"
       },
       {
+        "created_at": "2025-09-18T11:43:41Z",
+        "title": "I uncovered an ACPI bug in my Dell Inspiron 5567. It was plaguing me for 8 years",
+        "url": "https://triangulatedexistence.mataroa.blog/blog/i-uncovered-an-acpi-bug-in-my-dell-inspiron-5667-it-was-plaguing-me-for-8-years/",
+        "points": 194,
+        "comments": 28,
+        "id": "45288440"
+      },
+      {
         "created_at": "2022-08-12T20:17:07Z",
         "title": "Intel 286 secrets: ICE mode and F1 0F 04",
         "url": "https://rep-lodsb.mataroa.blog/blog/intel-286-secrets-ice-mode-and-f1-0f-04/",
@@ -18392,6 +19392,14 @@
         "id": "42113296"
       },
       {
+        "created_at": "2026-01-14T05:38:08Z",
+        "title": "Bringing the Predators to Life in MAME",
+        "url": "https://lysiwyg.mataroa.blog/blog/bringing-the-predators-to-life-in-mame/",
+        "points": 74,
+        "comments": 17,
+        "id": "46612727"
+      },
+      {
         "created_at": "2024-06-16T09:28:15Z",
         "title": "The 286's internal registers (2022)",
         "url": "https://rep-lodsb.mataroa.blog/blog/the-286s-internal-registers/",
@@ -18406,22 +19414,6 @@
         "points": 71,
         "comments": 47,
         "id": "43945373"
-      },
-      {
-        "created_at": "2024-11-27T20:54:44Z",
-        "title": "Hackerrank was broken – but now it's harmful",
-        "url": "https://segfaulte.mataroa.blog/blog/hackerrank-was-broken-but-now-its-actually-harmful/",
-        "points": 59,
-        "comments": 67,
-        "id": "42259666"
-      },
-      {
-        "created_at": "2022-04-26T13:38:45Z",
-        "title": "Vectorization in OLAP Databases",
-        "url": "https://aneesh.mataroa.blog/blog/vectorization-in-olap-databases/",
-        "points": 48,
-        "comments": 18,
-        "id": "31167322"
       }
     ]
   },
@@ -18436,6 +19428,14 @@
         "points": 1033,
         "comments": 203,
         "id": "38886030"
+      },
+      {
+        "created_at": "2025-09-27T15:46:46Z",
+        "title": "Greenland is a beautiful nightmare",
+        "url": "https://matduggan.com/greenland-is-a-beautiful-nightmare/",
+        "points": 625,
+        "comments": 338,
+        "id": "45396754"
       },
       {
         "created_at": "2025-01-11T23:20:10Z",
@@ -18486,6 +19486,14 @@
         "id": "39996314"
       },
       {
+        "created_at": "2025-06-19T12:00:54Z",
+        "title": "What would a Kubernetes 2.0 look like",
+        "url": "https://matduggan.com/what-would-a-kubernetes-2-0-look-like/",
+        "points": 259,
+        "comments": 432,
+        "id": "44317825"
+      },
+      {
         "created_at": "2024-06-28T22:59:05Z",
         "title": "A Eulogy for DevOps",
         "url": "https://matduggan.com/a-eulogy-for-devops/",
@@ -18518,6 +19526,14 @@
         "id": "39714155"
       },
       {
+        "created_at": "2025-12-05T13:00:28Z",
+        "title": "Making RSS More Fun",
+        "url": "https://matduggan.com/making-rss-more-fun/",
+        "points": 224,
+        "comments": 104,
+        "id": "46160698"
+      },
+      {
         "created_at": "2023-12-04T13:01:43Z",
         "title": "Kubernetes Needs an LTS",
         "url": "https://matduggan.com/why-kubernetes-needs-an-lts/",
@@ -18532,6 +19548,14 @@
         "points": 212,
         "comments": 263,
         "id": "34642158"
+      },
+      {
+        "created_at": "2025-12-29T16:57:11Z",
+        "title": "The year of the 3D printed miniature and other lies we tell ourselves",
+        "url": "https://matduggan.com/the-year-of-the-3d-printed-miniature-and-other-lies-we-tell-ourselves/",
+        "points": 201,
+        "comments": 150,
+        "id": "46422574"
       },
       {
         "created_at": "2021-08-19T05:54:38Z",
@@ -18556,38 +19580,6 @@
         "points": 85,
         "comments": 155,
         "id": "38890948"
-      },
-      {
-        "created_at": "2021-12-04T10:57:01Z",
-        "title": "Coding for non-programmers: Why we need better GUI automation tools",
-        "url": "https://matduggan.com/why-we-need-better/",
-        "points": 75,
-        "comments": 43,
-        "id": "29440077"
-      },
-      {
-        "created_at": "2024-04-05T22:58:04Z",
-        "title": "Why Don't I Like Git More?",
-        "url": "https://matduggan.com/why-dont-i-like-git-more/",
-        "points": 57,
-        "comments": 41,
-        "id": "39948271"
-      },
-      {
-        "created_at": "2024-09-06T18:16:57Z",
-        "title": "Why Login Security Sucks",
-        "url": "https://matduggan.com/why-login-security-sucks/",
-        "points": 56,
-        "comments": 77,
-        "id": "41468486"
-      },
-      {
-        "created_at": "2023-08-04T13:40:46Z",
-        "title": "IPv6 Is A Disaster (but we can fix it)",
-        "url": "https://matduggan.com/ipv6-is-a-disaster-and-its-our-fault/",
-        "points": 43,
-        "comments": 96,
-        "id": "36999892"
       }
     ]
   },
@@ -18786,12 +19778,28 @@
         "id": "43752492"
       },
       {
+        "created_at": "2025-07-23T13:52:47Z",
+        "title": "Why Elixir? Common misconceptions",
+        "url": "https://matthewsinclair.com/blog/0181-why-elixir",
+        "points": 258,
+        "comments": 292,
+        "id": "44659251"
+      },
+      {
         "created_at": "2025-04-08T11:23:02Z",
         "title": "What if we taxed advertising?",
         "url": "https://matthewsinclair.com/blog/0177-what-if-we-taxed-advertising",
         "points": 101,
         "comments": 75,
         "id": "43620407"
+      },
+      {
+        "created_at": "2025-07-08T00:30:48Z",
+        "title": "Why Elixir? A Rebuttal to Common Misconceptions",
+        "url": "https://matthewsinclair.com/blog/0181-why-elixir",
+        "points": 13,
+        "comments": 5,
+        "id": "44495879"
       },
       {
         "created_at": "2025-04-28T14:38:15Z",
@@ -18888,6 +19896,14 @@
         "id": "12319406"
       },
       {
+        "created_at": "2025-05-31T06:25:19Z",
+        "title": "Gradients Are the New Intervals",
+        "url": "https://www.mattkeeter.com/blog/2025-05-14-gradients/",
+        "points": 147,
+        "comments": 69,
+        "id": "44142266"
+      },
+      {
         "created_at": "2024-11-06T09:07:17Z",
         "title": "3D Rotation Design",
         "url": "https://www.mattkeeter.com/projects/rotation/",
@@ -18958,14 +19974,6 @@
         "points": 67,
         "comments": 3,
         "id": "9982897"
-      },
-      {
-        "created_at": "2015-09-19T14:17:25Z",
-        "title": "2D Contouring in Haskell",
-        "url": "http://www.mattkeeter.com/projects/contours/",
-        "points": 53,
-        "comments": 3,
-        "id": "10244335"
       }
     ]
   },
@@ -18993,6 +20001,14 @@
         "id": "30968721"
       },
       {
+        "created_at": "2025-06-06T15:18:46Z",
+        "title": "Too Many Open Files",
+        "url": "https://mattrighetti.com/2025/06/04/too-many-files-open",
+        "points": 180,
+        "comments": 109,
+        "id": "44201762"
+      },
+      {
         "created_at": "2025-01-21T09:47:55Z",
         "title": "You probably don't need query builders",
         "url": "https://mattrighetti.com/2025/01/20/you-dont-need-sql-builders",
@@ -19007,6 +20023,14 @@
         "points": 107,
         "comments": 26,
         "id": "34897589"
+      },
+      {
+        "created_at": "2025-06-04T23:33:41Z",
+        "title": "Authentication with Axum",
+        "url": "https://mattrighetti.com/2025/05/03/authentication-with-axum",
+        "points": 81,
+        "comments": 32,
+        "id": "44186736"
       },
       {
         "created_at": "2023-10-28T04:47:08Z",
@@ -19125,6 +20149,14 @@
         "points": 403,
         "comments": 87,
         "id": "22080927"
+      },
+      {
+        "created_at": "2025-09-07T23:08:42Z",
+        "title": "Formatting code should be unnecessary",
+        "url": "https://maxleiter.com/blog/formatting",
+        "points": 354,
+        "comments": 476,
+        "id": "45163043"
       },
       {
         "created_at": "2024-06-11T00:28:25Z",
@@ -19259,6 +20291,14 @@
         "points": 91,
         "comments": 27,
         "id": "27005000"
+      },
+      {
+        "created_at": "2025-12-15T20:02:21Z",
+        "title": "Improving Emacs Screenshots",
+        "url": "https://mbork.pl/2025-12-15_Improving_Emacs_screenshots",
+        "points": 36,
+        "comments": 0,
+        "id": "46279715"
       },
       {
         "created_at": "2014-12-22T19:22:49Z",
@@ -19412,6 +20452,22 @@
         "id": "32408716"
       },
       {
+        "created_at": "2025-05-28T16:46:55Z",
+        "title": "Exploring a Language Runtime with Bpftrace",
+        "url": "https://www.mgaudet.ca/technical/2025/5/28/exploring-a-language-runtime-with-bpftrace",
+        "points": 29,
+        "comments": 3,
+        "id": "44117937"
+      },
+      {
+        "created_at": "2025-09-10T21:25:37Z",
+        "title": "An Inline Cache Isn't Just a Cache",
+        "url": "https://www.mgaudet.ca/technical/2018/6/5/an-inline-cache-isnt-just-a-cache",
+        "points": 15,
+        "comments": 1,
+        "id": "45204003"
+      },
+      {
         "created_at": "2024-10-29T04:21:12Z",
         "title": "Before you can have Smalltalk, you must first defeat capitalism?",
         "url": "https://www.mgaudet.ca/blog/2024/10/28/before-you-can-have-smalltalk-you-must-first-defeat-capitalism",
@@ -19559,6 +20615,14 @@
         "points": 24,
         "comments": 7,
         "id": "5117243"
+      },
+      {
+        "created_at": "2025-10-10T19:55:26Z",
+        "title": "No bullshit guide to statistics prerelease",
+        "url": "https://minireference.com/blog/nobsstats-prerelease/",
+        "points": 11,
+        "comments": 4,
+        "id": "45543069"
       }
     ]
   },
@@ -19677,6 +20741,14 @@
         "id": "20857917"
       },
       {
+        "created_at": "2025-09-08T18:57:36Z",
+        "title": "Checking if a JavaScript native function is monkey patched (2022)",
+        "url": "https://mmazzarolo.com/blog/2022-07-30-checking-if-a-javascript-native-function-was-monkey-patched/",
+        "points": 16,
+        "comments": 6,
+        "id": "45172330"
+      },
+      {
         "created_at": "2021-05-18T12:34:43Z",
         "title": "Open-sourcing Remotebear, a remote jobs aggregator built with Node.js and NextJS",
         "url": "https://mmazzarolo.com/blog/2021-05-01-open-sourcing-remotebear/",
@@ -19690,7 +20762,17 @@
     "url": "https://monroeclinton.com",
     "title": "Monroe Clinton",
     "feed": "https://monroeclinton.com/index.xml",
-    "desc": ""
+    "desc": "",
+    "hn": [
+      {
+        "created_at": "2025-06-18T07:58:18Z",
+        "title": "I counted all of the yurts in Mongolia using machine learning",
+        "url": "https://monroeclinton.com/counting-all-yurts-in-mongolia/",
+        "points": 250,
+        "comments": 97,
+        "id": "44307629"
+      }
+    ]
   },
   {
     "url": "https://morling.dev",
@@ -19738,6 +20820,22 @@
         "id": "35020781"
       },
       {
+        "created_at": "2025-12-01T12:07:33Z",
+        "title": "Idempotency keys for exactly-once processing",
+        "url": "https://www.morling.dev/blog/on-idempotency-keys/",
+        "points": 182,
+        "comments": 79,
+        "id": "46106411"
+      },
+      {
+        "created_at": "2025-11-20T13:26:08Z",
+        "title": "Building a Durable Execution Engine with SQLite",
+        "url": "https://www.morling.dev/blog/building-durable-execution-engine-with-sqlite/",
+        "points": 178,
+        "comments": 54,
+        "id": "45992316"
+      },
+      {
         "created_at": "2023-12-17T23:49:38Z",
         "title": "Tracking Java native memory with JDK flight recorder",
         "url": "https://www.morling.dev/blog/tracking-java-native-memory-with-jdk-flight-recorder/",
@@ -19768,6 +20866,14 @@
         "points": 112,
         "comments": 78,
         "id": "30234572"
+      },
+      {
+        "created_at": "2025-06-18T15:38:15Z",
+        "title": "Building agents using streaming SQL queries",
+        "url": "https://www.morling.dev/blog/this-ai-agent-should-have-been-sql-query/",
+        "points": 103,
+        "comments": 10,
+        "id": "44310834"
       },
       {
         "created_at": "2022-06-02T20:24:38Z",
@@ -19802,6 +20908,14 @@
         "id": "43503960"
       },
       {
+        "created_at": "2025-11-02T20:37:59Z",
+        "title": "\"You Don't Need Kafka, Just Use Postgres\" Considered Harmful",
+        "url": "https://www.morling.dev/blog/you-dont-need-kafka-just-use-postgres-considered-harmful/",
+        "points": 39,
+        "comments": 43,
+        "id": "45793216"
+      },
+      {
         "created_at": "2022-02-21T13:04:48Z",
         "title": "The JDK Flight Recorder File Format",
         "url": "https://www.morling.dev/blog/jdk-flight-recorder-file-format/",
@@ -19810,44 +20924,20 @@
         "id": "30415450"
       },
       {
+        "created_at": "2025-12-08T08:29:47Z",
+        "title": "You gotta push if you wanna pull",
+        "url": "https://www.morling.dev/blog/you-gotta-push-if-you-wanna-pull/",
+        "points": 27,
+        "comments": 8,
+        "id": "46189792"
+      },
+      {
         "created_at": "2025-03-23T13:27:46Z",
         "title": "The Synchrony Budget",
         "url": "https://www.morling.dev/blog/the-synchrony-budget/",
         "points": 19,
         "comments": 8,
         "id": "43452793"
-      },
-      {
-        "created_at": "2020-05-16T19:50:35Z",
-        "title": "Single Message Transformations – The Swiss Army Knife of Kafka Connect",
-        "url": "https://www.morling.dev/blog/single-message-transforms-swiss-army-knife-of-kafka-connect/",
-        "points": 19,
-        "comments": 0,
-        "id": "23206648"
-      },
-      {
-        "created_at": "2022-03-14T16:09:33Z",
-        "title": "The Code Review Pyramid",
-        "url": "https://www.morling.dev/blog/the-code-review-pyramid/",
-        "points": 16,
-        "comments": 4,
-        "id": "30674159"
-      },
-      {
-        "created_at": "2021-05-18T14:34:09Z",
-        "title": "Exploring ZooKeeper-Less Kafka",
-        "url": "https://www.morling.dev/blog/exploring-zookeeper-less-kafka/",
-        "points": 14,
-        "comments": 2,
-        "id": "27195093"
-      },
-      {
-        "created_at": "2020-07-29T15:57:40Z",
-        "title": "Show HN: I've built a Serverless search feature for my blog",
-        "url": "https://www.morling.dev/blog/how-i-built-a-serverless-search-for-my-blog/",
-        "points": 10,
-        "comments": 7,
-        "id": "23988180"
       }
     ]
   },
@@ -19879,6 +20969,14 @@
         "points": 68,
         "comments": 14,
         "id": "21721205"
+      },
+      {
+        "created_at": "2025-10-06T12:41:52Z",
+        "title": "AI and Home-Cooked Software",
+        "url": "https://mrkaran.dev/posts/ai-home-cooked-software/",
+        "points": 61,
+        "comments": 41,
+        "id": "45490737"
       },
       {
         "created_at": "2024-04-14T11:12:45Z",
@@ -19945,6 +21043,14 @@
         "id": "41347310"
       },
       {
+        "created_at": "2025-06-22T15:02:23Z",
+        "title": "Playing First Contact in Eclipse, a 3-Day Sci-Fi Larp",
+        "url": "https://mssv.net/2025/06/15/playing-first-contact-in-eclipse-a-spectacular-3-day-sci-fi-larp/",
+        "points": 69,
+        "comments": 6,
+        "id": "44347464"
+      },
+      {
         "created_at": "2020-08-02T13:08:59Z",
         "title": "What Alternate Reality Games Can Teach Us About QAnon",
         "url": "https://mssv.net/2020/08/02/what-args-can-teach-us-about-qanon/",
@@ -19957,7 +21063,7 @@
         "title": "Unauthorised AI Bots on Reddit Are Eroding Sociality",
         "url": "https://mssv.net/2025/04/27/unauthorised-ai-bots-on-r-changemyview-are-eroding-sociality/",
         "points": 48,
-        "comments": 44,
+        "comments": 43,
         "id": "43821600"
       },
       {
@@ -19983,6 +21089,14 @@
         "points": 23,
         "comments": 3,
         "id": "40891306"
+      },
+      {
+        "created_at": "2025-06-29T10:27:35Z",
+        "title": "Experimental Playgrounds",
+        "url": "https://mssv.net/2025/01/26/experimental-playgrounds/",
+        "points": 19,
+        "comments": 2,
+        "id": "44411894"
       },
       {
         "created_at": "2009-01-21T05:14:22Z",
@@ -20031,6 +21145,14 @@
         "id": "34197379"
       },
       {
+        "created_at": "2025-08-19T22:41:16Z",
+        "title": "How to Draw a Space Invader",
+        "url": "https://muffinman.io/blog/invaders/",
+        "points": 557,
+        "comments": 55,
+        "id": "44956915"
+      },
+      {
         "created_at": "2024-12-04T18:39:52Z",
         "title": "Native dual-range input",
         "url": "https://muffinman.io/blog/native-dual-range-input/",
@@ -20053,6 +21175,22 @@
         "points": 150,
         "comments": 27,
         "id": "43003052"
+      },
+      {
+        "created_at": "2025-07-08T21:33:50Z",
+        "title": "Monorail – Turn CSS animations into interactive SVG graphs",
+        "url": "https://muffinman.io/monorail/",
+        "points": 122,
+        "comments": 9,
+        "id": "44504250"
+      },
+      {
+        "created_at": "2025-06-09T06:31:23Z",
+        "title": "Show HN: I made CSS-only glitch effect",
+        "url": "https://muffinman.io/blog/css-image-glitch/",
+        "points": 50,
+        "comments": 15,
+        "id": "44221907"
       },
       {
         "created_at": "2025-03-02T22:41:00Z",
@@ -20104,12 +21242,28 @@
         "id": "36501364"
       },
       {
+        "created_at": "2025-11-09T19:26:29Z",
+        "title": "Building a CI/CD Pipeline Runner from Scratch in Python",
+        "url": "https://muhammadraza.me/2025/building-cicd-pipeline-runner-python/",
+        "points": 68,
+        "comments": 23,
+        "id": "45868357"
+      },
+      {
         "created_at": "2024-06-11T05:48:30Z",
         "title": "Understanding HTTP Server by Implementing in Python",
         "url": "https://muhammadraza.me/2024/building-http-server/",
         "points": 16,
         "comments": 2,
         "id": "40642865"
+      },
+      {
+        "created_at": "2025-10-28T21:05:18Z",
+        "title": "Understanding Docker Internals: Building a Container Runtime in Python",
+        "url": "https://muhammadraza.me/2024/building-container-runtime-python/",
+        "points": 12,
+        "comments": 0,
+        "id": "45739171"
       }
     ]
   },
@@ -20451,6 +21605,14 @@
         "id": "10639405"
       },
       {
+        "created_at": "2025-06-24T09:46:27Z",
+        "title": "Switching Pip to Uv in a Dockerized Flask / Django App",
+        "url": "https://nickjanetakis.com/blog/switching-pip-to-uv-in-a-dockerized-flask-or-django-app",
+        "points": 273,
+        "comments": 157,
+        "id": "44364406"
+      },
+      {
         "created_at": "2023-07-18T16:27:00Z",
         "title": "Payment systems while working at a pizza place",
         "url": "https://nickjanetakis.com/blog/what-i-learned-about-payment-systems-while-working-at-a-pizza-place",
@@ -20569,14 +21731,6 @@
         "points": 35,
         "comments": 38,
         "id": "42117826"
-      },
-      {
-        "created_at": "2019-01-29T17:40:04Z",
-        "title": "I Tried Linux as My Main Dev Environment but Was Forced Back to Windows",
-        "url": "https://nickjanetakis.com/blog/i-tried-linux-as-my-main-dev-environment-but-was-forced-back-to-windows",
-        "points": 31,
-        "comments": 55,
-        "id": "19028215"
       }
     ]
   },
@@ -20780,6 +21934,14 @@
         "points": 23,
         "comments": 3,
         "id": "39005810"
+      },
+      {
+        "created_at": "2025-12-18T22:41:52Z",
+        "title": "What's New in Ruby 4.0",
+        "url": "https://nithinbekal.com/posts/ruby-4-0/",
+        "points": 15,
+        "comments": 0,
+        "id": "46319843"
       }
     ]
   },
@@ -20964,6 +22126,14 @@
         "points": 31,
         "comments": 1,
         "id": "42751646"
+      },
+      {
+        "created_at": "2025-06-20T08:40:01Z",
+        "title": "Comparing Golang SQLite to C SQLite",
+        "url": "https://notes.billmill.org/blog/2024/09/Comparing_golang_sqlite_to_C_sqlite.html",
+        "points": 1,
+        "comments": 5,
+        "id": "44325735"
       }
     ]
   },
@@ -20986,7 +22156,7 @@
         "title": "A reawakening of systems programming meetups",
         "url": "https://notes.eatonphil.com/2024-07-07-systems-meetups.html",
         "points": 392,
-        "comments": 160,
+        "comments": 159,
         "id": "40897506"
       },
       {
@@ -21038,12 +22208,28 @@
         "id": "30973460"
       },
       {
+        "created_at": "2025-06-30T06:13:10Z",
+        "title": "Want to meet people, try charging them for it?",
+        "url": "https://notes.eatonphil.com/2025-06-28-want-to-meet-people-charge-them.html",
+        "points": 192,
+        "comments": 90,
+        "id": "44419986"
+      },
+      {
         "created_at": "2021-08-21T17:45:45Z",
         "title": "Parser generators vs. handwritten parsers: surveying major languages in 2021",
         "url": "https://notes.eatonphil.com/parser-generators-vs-handwritten-parsers-survey-2021.html",
         "points": 190,
         "comments": 145,
         "id": "28258945"
+      },
+      {
+        "created_at": "2025-11-04T09:02:49Z",
+        "title": "From web developer to database developer in 10 years",
+        "url": "https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html",
+        "points": 179,
+        "comments": 75,
+        "id": "45808863"
       },
       {
         "created_at": "2022-03-28T20:54:05Z",
@@ -21116,22 +22302,6 @@
         "points": 133,
         "comments": 29,
         "id": "29952516"
-      },
-      {
-        "created_at": "2021-12-05T16:47:47Z",
-        "title": "My Favorite Software Subreddits",
-        "url": "https://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
-        "points": 123,
-        "comments": 59,
-        "id": "29450583"
-      },
-      {
-        "created_at": "2019-10-12T15:23:32Z",
-        "title": "Interpreting Go",
-        "url": "http://notes.eatonphil.com/interpreting-go.html",
-        "points": 121,
-        "comments": 11,
-        "id": "21233837"
       }
     ]
   },
@@ -21275,6 +22445,14 @@
         "points": 32,
         "comments": 11,
         "id": "30046716"
+      },
+      {
+        "created_at": "2025-06-18T16:02:51Z",
+        "title": "ChatGPT is my static site generator",
+        "url": "https://notes.npilk.com/chatgpt-is-my-ssg",
+        "points": 17,
+        "comments": 37,
+        "id": "44311040"
       },
       {
         "created_at": "2022-04-30T14:34:44Z",
@@ -21515,6 +22693,14 @@
         "id": "42386025"
       },
       {
+        "created_at": "2025-07-21T15:20:49Z",
+        "title": "Covers as a way of learning music and code",
+        "url": "https://ntietz.com/blog/covers-as-a-way-of-learning/",
+        "points": 158,
+        "comments": 91,
+        "id": "44636240"
+      },
+      {
         "created_at": "2024-01-17T15:46:02Z",
         "title": "RSA is deceptively simple and fun",
         "url": "https://ntietz.com/blog/rsa-deceptively-simple/",
@@ -21569,14 +22755,6 @@
         "points": 116,
         "comments": 50,
         "id": "41972433"
-      },
-      {
-        "created_at": "2023-08-29T03:48:09Z",
-        "title": "Changing my relationship with GitHub Copilot",
-        "url": "https://ntietz.com/blog/changing-my-relationship-with-github-copilot/",
-        "points": 107,
-        "comments": 91,
-        "id": "37303357"
       }
     ]
   },
@@ -21589,6 +22767,30 @@
     "url": "https://nuxx.net",
     "title": "nuxx.net – Making, baking, and (un-)breaking things in Southeast Michigan.",
     "hn": [
+      {
+        "created_at": "2025-12-20T17:45:48Z",
+        "title": "OpenSCAD is kinda neat",
+        "url": "https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/",
+        "points": 327,
+        "comments": 253,
+        "id": "46337984"
+      },
+      {
+        "created_at": "2026-01-10T03:52:48Z",
+        "title": "OLED, Not for Me",
+        "url": "https://nuxx.net/blog/2026/01/09/oled-not-for-me/",
+        "points": 175,
+        "comments": 218,
+        "id": "46562583"
+      },
+      {
+        "created_at": "2025-10-14T14:18:14Z",
+        "title": "Wireshark 4.6.0 Supports macOS Pktap Metadata (PID, Process Name, etc.)",
+        "url": "https://nuxx.net/blog/2025/10/14/wireshark-4-6-0-supports-macos-pktap-metadata-pid-process-name-etc/",
+        "points": 135,
+        "comments": 22,
+        "id": "45580315"
+      },
       {
         "created_at": "2022-12-23T15:49:14Z",
         "title": "How Asus and a Microsoft Bug Almost Broke Remote Work",
@@ -21720,6 +22922,14 @@
         "id": "25098585"
       },
       {
+        "created_at": "2025-12-28T04:40:56Z",
+        "title": "C –> Java != Java –> LLM",
+        "url": "http://www.observationalhazard.com/2025/12/c-java-java-llm.html",
+        "points": 43,
+        "comments": 47,
+        "id": "46408510"
+      },
+      {
         "created_at": "2024-02-29T03:39:24Z",
         "title": "Put a date on your blog post (2014)",
         "url": "http://www.observationalhazard.com/2014/09/put-date-on-your-blog-post.html",
@@ -21760,6 +22970,30 @@
         "points": 512,
         "comments": 213,
         "id": "21848468"
+      },
+      {
+        "created_at": "2025-06-12T10:20:23Z",
+        "title": "Next.js 15.1 is unusable outside of Vercel",
+        "url": "https://omarabid.com/nextjs-vercel",
+        "points": 155,
+        "comments": 111,
+        "id": "44255911"
+      },
+      {
+        "created_at": "2025-06-17T09:53:21Z",
+        "title": "Claude Code feels like magic because it is iterative",
+        "url": "https://omarabid.com/claude-magic",
+        "points": 105,
+        "comments": 86,
+        "id": "44297349"
+      },
+      {
+        "created_at": "2026-01-10T13:09:03Z",
+        "title": "LLMs have burned Billions but couldn't build another Tailwind",
+        "url": "https://omarabid.com/tailwind-ai",
+        "points": 41,
+        "comments": 15,
+        "id": "46565409"
       },
       {
         "created_at": "2013-05-25T08:43:48Z",
@@ -21967,6 +23201,14 @@
     "desc": "Herman's blog",
     "hn": [
       {
+        "created_at": "2025-11-03T13:21:09Z",
+        "title": "Why Nextcloud feels slow to use",
+        "url": "https://ounapuu.ee/posts/2025/11/03/nextcloud-slow/",
+        "points": 457,
+        "comments": 350,
+        "id": "45798681"
+      },
+      {
         "created_at": "2022-01-10T07:42:35Z",
         "title": "I went back to using a ThinkPad from 2012",
         "url": "https://ounapuu.ee/posts/2022/01/09/why-i-went-back-to-using-a-thinkpad-from-2012/",
@@ -22029,6 +23271,22 @@
         "points": 222,
         "comments": 159,
         "id": "40701310"
+      },
+      {
+        "created_at": "2025-10-06T09:36:08Z",
+        "title": "Testing two 18 TB white label SATA hard drives from datablocks.dev",
+        "url": "https://ounapuu.ee/posts/2025/10/06/datablocks-white-label-drives/",
+        "points": 218,
+        "comments": 159,
+        "id": "45489497"
+      },
+      {
+        "created_at": "2025-10-14T07:28:15Z",
+        "title": "Comparing the power consumption of a 30 year old refrigerator to a new one",
+        "url": "https://ounapuu.ee/posts/2025/10/14/fridge-power-consumption/",
+        "points": 217,
+        "comments": 228,
+        "id": "45577181"
       },
       {
         "created_at": "2022-10-04T02:33:41Z",
@@ -22101,30 +23359,6 @@
         "points": 87,
         "comments": 77,
         "id": "35737613"
-      },
-      {
-        "created_at": "2022-09-26T06:44:08Z",
-        "title": "The minimum viable fan control script",
-        "url": "https://ounapuu.ee/posts/2022/09/26/minimum-viable-fan-control-script/",
-        "points": 51,
-        "comments": 30,
-        "id": "32980171"
-      },
-      {
-        "created_at": "2024-04-04T04:36:42Z",
-        "title": "How to take down production with a single Helm command",
-        "url": "https://ounapuu.ee/posts/2024/04/04/helm-rollbljat/",
-        "points": 44,
-        "comments": 16,
-        "id": "39926575"
-      },
-      {
-        "created_at": "2024-06-12T13:12:54Z",
-        "title": "How to save an old printer from the e-waste pile with a Raspberry Pi",
-        "url": "https://ounapuu.ee/posts/2024/06/12/save-old-printer/",
-        "points": 44,
-        "comments": 9,
-        "id": "40657753"
       }
     ]
   },
@@ -22454,6 +23688,14 @@
         "id": "6251491"
       },
       {
+        "created_at": "2025-08-01T15:19:43Z",
+        "title": "Fast (2019)",
+        "url": "https://patrickcollison.com/fast",
+        "points": 93,
+        "comments": 22,
+        "id": "44758132"
+      },
+      {
         "created_at": "2015-01-17T23:57:18Z",
         "title": "Silicon Valley History",
         "url": "http://patrickcollison.com/svhistory",
@@ -22498,7 +23740,7 @@
         "title": "Fast – Examples of people quickly accomplishing ambitious things together",
         "url": "https://patrickcollison.com/fast",
         "points": 13,
-        "comments": 2,
+        "comments": 1,
         "id": "21844301"
       },
       {
@@ -22506,7 +23748,7 @@
         "title": "Fast · Patrick Collison",
         "url": "https://patrickcollison.com/fast",
         "points": 12,
-        "comments": 3,
+        "comments": 5,
         "id": "21355237"
       },
       {
@@ -23449,6 +24691,14 @@
         "id": "37112432"
       },
       {
+        "created_at": "2025-06-20T23:39:26Z",
+        "title": "Verlet Integration and Cloth Physics Simulation (2022)",
+        "url": "https://pikuma.com/blog/verlet-integration-2d-cloth-physics-simulation",
+        "points": 42,
+        "comments": 12,
+        "id": "44333149"
+      },
+      {
         "created_at": "2023-02-05T21:46:34Z",
         "title": "Fundamental Math for Game Developers",
         "url": "https://pikuma.com/blog/math-for-game-developers",
@@ -23521,6 +24771,14 @@
         "id": "3478850"
       },
       {
+        "created_at": "2025-12-27T20:15:01Z",
+        "title": "How we lost communication to entertainment",
+        "url": "https://ploum.net/2025-12-15-communication-entertainment.html",
+        "points": 701,
+        "comments": 397,
+        "id": "46404848"
+      },
+      {
         "created_at": "2024-12-23T13:03:59Z",
         "title": "My Colleague Julius",
         "url": "https://ploum.net/2024-12-23-julius-en.html",
@@ -23561,6 +24819,14 @@
         "id": "36614788"
       },
       {
+        "created_at": "2025-12-19T17:01:56Z",
+        "title": "Prepare for That Stupid World",
+        "url": "https://ploum.net/2025-12-19-prepare-for-that-world.html",
+        "points": 175,
+        "comments": 96,
+        "id": "46328109"
+      },
+      {
         "created_at": "2025-03-29T19:45:46Z",
         "title": "The Candid Naivety of Geeks",
         "url": "https://ploum.net/2025-03-28-geeks-naivety.html",
@@ -23585,6 +24851,14 @@
         "id": "36456233"
       },
       {
+        "created_at": "2025-07-23T13:03:22Z",
+        "title": "20 years of Linux on the Desktop (part 4)",
+        "url": "https://ploum.net/2025-07-23-linux_desktop4.html",
+        "points": 122,
+        "comments": 102,
+        "id": "44658770"
+      },
+      {
         "created_at": "2023-03-13T17:46:01Z",
         "title": "Losing Signal",
         "url": "https://ploum.net/2023-03-09-losing-signal.html",
@@ -23607,6 +24881,14 @@
         "points": 71,
         "comments": 88,
         "id": "30096321"
+      },
+      {
+        "created_at": "2026-01-05T14:28:36Z",
+        "title": "How GitHub monopoly is destroying the open source ecosystem",
+        "url": "https://ploum.net/2026-01-05-unteaching_github.html",
+        "points": 71,
+        "comments": 26,
+        "id": "46499120"
       },
       {
         "created_at": "2021-02-04T18:18:09Z",
@@ -23639,38 +24921,6 @@
         "points": 35,
         "comments": 12,
         "id": "43320364"
-      },
-      {
-        "created_at": "2023-02-22T19:06:19Z",
-        "title": "We need to talk about your GitHub addiction",
-        "url": "https://ploum.net/2023-02-22-leaving-github.html",
-        "points": 24,
-        "comments": 17,
-        "id": "34900941"
-      },
-      {
-        "created_at": "2022-12-05T18:38:34Z",
-        "title": "Reinventing How We Use Computers",
-        "url": "https://ploum.net/2022-12-03-reinventing-how-we-use-computers.html",
-        "points": 24,
-        "comments": 11,
-        "id": "33869772"
-      },
-      {
-        "created_at": "2024-03-18T16:06:59Z",
-        "title": "A Society That Lost Focus",
-        "url": "https://ploum.net/2024-03-18-lost-focus.html",
-        "points": 23,
-        "comments": 14,
-        "id": "39746327"
-      },
-      {
-        "created_at": "2023-06-23T10:12:35Z",
-        "title": "How to Kill a Decentralised Network (Such as the Fediverse)",
-        "url": "https://ploum.net/2023-06-23-how-to-kill-decentralised-networks.html",
-        "points": 17,
-        "comments": 3,
-        "id": "36444876"
       }
     ]
   },
@@ -23710,6 +24960,14 @@
         "points": 95,
         "comments": 16,
         "id": "41434509"
+      },
+      {
+        "created_at": "2025-11-01T16:00:47Z",
+        "title": "Timing Wheels",
+        "url": "https://pncnmnp.github.io/blogs/timing-wheels.html",
+        "points": 51,
+        "comments": 3,
+        "id": "45782702"
       },
       {
         "created_at": "2024-04-29T01:11:19Z",
@@ -23806,6 +25064,14 @@
         "points": 1478,
         "comments": 108,
         "id": "21536789"
+      },
+      {
+        "created_at": "2025-12-20T00:16:13Z",
+        "title": "Build Your Own React",
+        "url": "https://pomb.us/build-your-own-react/",
+        "points": 187,
+        "comments": 22,
+        "id": "46332526"
       },
       {
         "created_at": "2019-11-15T11:36:49Z",
@@ -24078,7 +25344,17 @@
   {
     "url": "https://pv.wtf",
     "title": "PV;WTF",
-    "desc": "Articles by PV on tech, design and interesting things that interest him"
+    "desc": "Articles by PV on tech, design and interesting things that interest him",
+    "hn": [
+      {
+        "created_at": "2025-12-22T08:08:46Z",
+        "title": "Dancing around the rhythm space with Euclid",
+        "url": "https://pv.wtf/posts/euclidean-rhythms",
+        "points": 54,
+        "comments": 5,
+        "id": "46352191"
+      }
+    ]
   },
   {
     "url": "https://pythops.com",
@@ -24472,6 +25748,14 @@
     "desc": "RheingoldRiver's blog - MediaWiki development, Leaguepedia stories, and productivity hacks",
     "hn": [
       {
+        "created_at": "2025-10-26T06:03:24Z",
+        "title": "Gluing and framing a 9000-piece jigsaw",
+        "url": "https://river.me/blog/puzzle-glue-9000/",
+        "points": 72,
+        "comments": 47,
+        "id": "45709499"
+      },
+      {
         "created_at": "2023-11-04T16:37:54Z",
         "title": "Show HN: Pentominoes on Surfaces",
         "url": "https://pentominoes.river.me",
@@ -24556,12 +25840,28 @@
         "id": "34578324"
       },
       {
+        "created_at": "2026-01-16T10:57:38Z",
+        "title": "Why DuckDB is my first choice for data processing",
+        "url": "https://www.robinlinacre.com/recommend_duckdb/",
+        "points": 301,
+        "comments": 114,
+        "id": "46645176"
+      },
+      {
         "created_at": "2023-01-09T15:36:50Z",
         "title": "Demystifying Apache Arrow (2020)",
         "url": "https://www.robinlinacre.com/demystifying_arrow/",
         "points": 197,
         "comments": 47,
         "id": "34311468"
+      },
+      {
+        "created_at": "2025-06-30T19:38:50Z",
+        "title": "Building Accurate Address Matching Systems",
+        "url": "https://www.robinlinacre.com/address_matching/",
+        "points": 13,
+        "comments": 2,
+        "id": "44427042"
       }
     ]
   },
@@ -24790,12 +26090,28 @@
     "title": "Artem Golubin (rushter)",
     "hn": [
       {
+        "created_at": "2026-01-10T04:35:32Z",
+        "title": "Oh My Zsh adds bloat",
+        "url": "https://rushter.com/blog/zsh-shell/",
+        "points": 337,
+        "comments": 296,
+        "id": "46562790"
+      },
+      {
         "created_at": "2019-08-05T02:04:45Z",
         "title": "Memory Management in Python",
         "url": "https://rushter.com/blog/python-memory-managment/",
         "points": 265,
         "comments": 33,
         "id": "20610474"
+      },
+      {
+        "created_at": "2025-10-12T15:48:28Z",
+        "title": "How I'm using Helix editor",
+        "url": "https://rushter.com/blog/helix-editor/",
+        "points": 216,
+        "comments": 91,
+        "id": "45559076"
       },
       {
         "created_at": "2020-07-09T14:21:04Z",
@@ -24828,6 +26144,22 @@
         "points": 112,
         "comments": 45,
         "id": "17678758"
+      },
+      {
+        "created_at": "2025-12-14T19:32:40Z",
+        "title": "Hash tables in Go and advantage of self-hosted compilers",
+        "url": "https://rushter.com/blog/go-and-hashmaps/",
+        "points": 62,
+        "comments": 43,
+        "id": "46266003"
+      },
+      {
+        "created_at": "2026-01-04T16:45:31Z",
+        "title": "Recent Optimizations in Python's Reference Counting",
+        "url": "https://rushter.com/blog/python-refcount/",
+        "points": 24,
+        "comments": 7,
+        "id": "46489657"
       }
     ]
   },
@@ -24939,6 +26271,14 @@
     "desc": "",
     "hn": [
       {
+        "created_at": "2025-11-30T13:40:17Z",
+        "title": "Windows drive letters are not limited to A-Z",
+        "url": "https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/",
+        "points": 502,
+        "comments": 281,
+        "id": "46096556"
+      },
+      {
         "created_at": "2024-10-11T22:47:22Z",
         "title": "Every bug/quirk of the Windows resource compiler (rc.exe), probably",
         "url": "https://www.ryanliptak.com/blog/every-rc-exe-bug-quirk-probably/",
@@ -24963,6 +26303,14 @@
         "id": "28600050"
       },
       {
+        "created_at": "2025-06-27T00:27:26Z",
+        "title": "Slightly better named character reference tokenization than Chrome, Safari, FF",
+        "url": "https://www.ryanliptak.com/blog/better-named-character-reference-tokenization/",
+        "points": 64,
+        "comments": 9,
+        "id": "44392776"
+      },
+      {
         "created_at": "2023-10-21T11:38:03Z",
         "title": "Zig is now also a Windows resource compiler",
         "url": "https://www.ryanliptak.com/blog/zig-is-a-windows-resource-compiler/",
@@ -24984,6 +26332,14 @@
         "points": 45,
         "comments": 27,
         "id": "16671957"
+      },
+      {
+        "created_at": "2025-07-13T15:08:23Z",
+        "title": "Pixel Piranhas",
+        "url": "https://rybakov.com/blog/pixel_piranhas/",
+        "points": 39,
+        "comments": 13,
+        "id": "44550967"
       }
     ]
   },
@@ -25231,6 +26587,14 @@
         "id": "31955647"
       },
       {
+        "created_at": "2025-06-29T01:01:59Z",
+        "title": "The right thing for the wrong reasons: FLOSS doesn't imply security (2022)",
+        "url": "https://seirdy.one/posts/2022/02/02/floss-security/",
+        "points": 14,
+        "comments": 0,
+        "id": "44409503"
+      },
+      {
         "created_at": "2021-01-13T00:03:31Z",
         "title": "Becoming physically immune to brute-force attacks",
         "url": "https://seirdy.one/2021/01/12/password-strength.html",
@@ -25293,6 +26657,14 @@
         "points": 58,
         "comments": 98,
         "id": "29395610"
+      },
+      {
+        "created_at": "2020-10-23T19:08:28Z",
+        "title": "Show HN: Perfect Pitch Ear Training",
+        "url": "http://sergeykish.com/perfect-pitch-ear-training",
+        "points": 172,
+        "comments": 151,
+        "id": "24872754"
       }
     ]
   },
@@ -25524,6 +26896,14 @@
         "points": 13,
         "comments": 1,
         "id": "43577883"
+      },
+      {
+        "created_at": "2025-10-08T03:32:33Z",
+        "title": "Voyage of the Marigold – Author's Notes",
+        "url": "https://sheep.horse/2025/6/voyage_of_the_marigold_author%27s_notes.html",
+        "points": 13,
+        "comments": 0,
+        "id": "45511775"
       }
     ]
   },
@@ -25580,6 +26960,14 @@
         "points": 38,
         "comments": 14,
         "id": "42555953"
+      },
+      {
+        "created_at": "2025-10-24T13:44:27Z",
+        "title": "Show HN: The System Skill Pattern",
+        "url": "https://www.shruggingface.com/blog/the-system-skill-pattern",
+        "points": 11,
+        "comments": 2,
+        "id": "45694566"
       }
     ]
   },
@@ -25717,7 +27105,25 @@
     "url": "https://simonhartcher.com",
     "about": "https://simonhartcher.com/about",
     "feed": "https://simonhartcher.com/feed",
-    "desc": "The website of Simon Hartcher"
+    "desc": "The website of Simon Hartcher",
+    "hn": [
+      {
+        "created_at": "2025-09-22T13:03:10Z",
+        "title": "I'm spoiled by Apple Silicon but still love Framework",
+        "url": "https://simonhartcher.com/posts/2025-09-22-why-im-spoiled-by-apple-silicon-but-still-love-framework/",
+        "points": 406,
+        "comments": 525,
+        "id": "45332859"
+      },
+      {
+        "created_at": "2025-09-10T04:28:49Z",
+        "title": "Automate compile_flags for C/C++ projects on the Zig build system",
+        "url": "https://simonhartcher.com/posts/2025-09-08-announcing-compile-flagz/",
+        "points": 43,
+        "comments": 5,
+        "id": "45193291"
+      }
+    ]
   },
   {
     "url": "https://simonwjackson.io",
@@ -25878,6 +27284,14 @@
         "points": 53,
         "comments": 53,
         "id": "36776221"
+      },
+      {
+        "created_at": "2025-03-08T02:12:13Z",
+        "title": "Show HN: Open-Source DocumentAI with Ollama",
+        "url": "https://rlama.dev/",
+        "points": 295,
+        "comments": 33,
+        "id": "43296918"
       }
     ]
   },
@@ -26067,6 +27481,14 @@
         "id": "43340196"
       },
       {
+        "created_at": "2025-07-25T03:49:10Z",
+        "title": "Against the censorship of adult content by payment processors",
+        "url": "https://soatok.blog/2025/07/24/against-the-censorship-of-adult-content-by-payment-processors/",
+        "points": 255,
+        "comments": 250,
+        "id": "44679406"
+      },
+      {
         "created_at": "2025-02-01T03:21:35Z",
         "title": "Hell is overconfident developers writing encryption code",
         "url": "https://soatok.blog/2025/01/31/hell-is-overconfident-developers-writing-encryption-code/",
@@ -26171,6 +27593,22 @@
         "id": "26101781"
       },
       {
+        "created_at": "2025-07-31T22:19:54Z",
+        "title": "Age verification doesn't need to be a privacy footgun",
+        "url": "https://soatok.blog/2025/07/31/age-verification-doesnt-need-to-be-a-privacy-footgun/",
+        "points": 56,
+        "comments": 91,
+        "id": "44750817"
+      },
+      {
+        "created_at": "2026-01-04T22:07:39Z",
+        "title": "Everything You Need to Know About Email Encryption in 2026",
+        "url": "https://soatok.blog/2026/01/04/everything-you-need-to-know-about-email-encryption-in-2026/",
+        "points": 55,
+        "comments": 11,
+        "id": "46492810"
+      },
+      {
         "created_at": "2024-08-14T12:43:30Z",
         "title": "Security Issues in Matrix's Olm Library",
         "url": "https://soatok.blog/2024/08/14/security-issues-in-matrixs-olm-library/",
@@ -26185,30 +27623,6 @@
         "points": 48,
         "comments": 18,
         "id": "28289739"
-      },
-      {
-        "created_at": "2021-11-05T09:33:38Z",
-        "title": "Threema: Three Strikes, You’re Out",
-        "url": "https://soatok.blog/2021/11/05/threema-three-strikes-youre-out/",
-        "points": 48,
-        "comments": 15,
-        "id": "29117085"
-      },
-      {
-        "created_at": "2024-06-07T08:22:47Z",
-        "title": "Towards Federated Key Transparency",
-        "url": "https://soatok.blog/2024/06/06/towards-federated-key-transparency/",
-        "points": 47,
-        "comments": 19,
-        "id": "40606503"
-      },
-      {
-        "created_at": "2020-10-28T15:45:38Z",
-        "title": "Bizarre Design Choices in Zoom's End-to-End Encryption",
-        "url": "https://soatok.blog/2020/10/28/bizarre-design-choices-in-zooms-end-to-end-encryption/",
-        "points": 47,
-        "comments": 0,
-        "id": "24920125"
       }
     ]
   },
@@ -26344,6 +27758,14 @@
         "id": "38025073"
       },
       {
+        "created_at": "2025-06-30T11:02:55Z",
+        "title": "Show HN: New Ensō – first public beta",
+        "url": "https://untested.sonnet.io/notes/new-enso-first-public-beta/",
+        "points": 251,
+        "comments": 87,
+        "id": "44421776"
+      },
+      {
         "created_at": "2023-12-08T11:04:10Z",
         "title": "Shader Park Is Kinda Neat",
         "url": "https://untested.sonnet.io/Shader+Park+is+Kinda+Neat",
@@ -26408,6 +27830,14 @@
         "id": "35828091"
       },
       {
+        "created_at": "2025-07-25T11:05:33Z",
+        "title": "Show HN: 433 – How to make a font that says nothing",
+        "url": "https://untested.sonnet.io/notes/433-how-to-make-a-font-that-says-nothing/",
+        "points": 51,
+        "comments": 11,
+        "id": "44681836"
+      },
+      {
         "created_at": "2024-11-15T15:13:07Z",
         "title": "Gregglogger",
         "url": "https://untested.sonnet.io/notes/gregglogger/",
@@ -26454,6 +27884,22 @@
     "title": "Web, DevOps, & Cloud Expert | Sophia Willows",
     "hn": [
       {
+        "created_at": "2025-07-22T13:43:16Z",
+        "title": "TODOs aren't for doing",
+        "url": "https://sophiebits.com/2025/07/21/todos-arent-for-doing",
+        "points": 413,
+        "comments": 249,
+        "id": "44646801"
+      },
+      {
+        "created_at": "2025-08-23T21:13:39Z",
+        "title": "Materialized views are obviously useful",
+        "url": "https://sophiebits.com/2025/08/22/materialized-views-are-obviously-useful",
+        "points": 173,
+        "comments": 78,
+        "id": "44999194"
+      },
+      {
         "created_at": "2024-10-30T20:32:58Z",
         "title": "Everyone is wrong about that Slack flowchart",
         "url": "https://sophiebits.com/2024/10/30/everyone-is-wrong-about-that-slack-flowchart",
@@ -26468,6 +27914,14 @@
         "points": 98,
         "comments": 27,
         "id": "18596988"
+      },
+      {
+        "created_at": "2025-09-09T20:57:20Z",
+        "title": "I don't want AI agents controlling my laptop",
+        "url": "https://sophiebits.com/2025/09/09/ai-agents-security",
+        "points": 75,
+        "comments": 40,
+        "id": "45188982"
       }
     ]
   },
@@ -26556,12 +28010,44 @@
     "desc": "Read writing from Sedat Kapanoglu on Medium. Author of Street Coder (https://streetcoder.org) · Ex-Software Engineer at Microsoft · Founder of eksisozluk.com · Demoscene old-timer.",
     "hn": [
       {
+        "created_at": "2025-09-29T23:12:36Z",
+        "title": "Safe zero-copy operations in C#",
+        "url": "https://ssg.dev/safe-zero-copy-operations-in-c/",
+        "points": 221,
+        "comments": 74,
+        "id": "45420001"
+      },
+      {
+        "created_at": "2025-11-24T20:50:54Z",
+        "title": "Isn't WSL2 just a VM?",
+        "url": "https://ssg.dev/isnt-wsl2-just-a-vm/",
+        "points": 175,
+        "comments": 112,
+        "id": "46039140"
+      },
+      {
+        "created_at": "2025-10-24T23:53:27Z",
+        "title": "Vibe Coding in the 90s",
+        "url": "https://ssg.dev/vibe-coding-in-the-90s/",
+        "points": 88,
+        "comments": 36,
+        "id": "45700266"
+      },
+      {
         "created_at": "2024-04-16T08:39:04Z",
         "title": "IPv6 for the remotely interested",
         "url": "https://ssg.dev/ipv6-for-the-remotely-interested-af214dd06aa7?gi=79f1ddf22e27",
         "points": 63,
         "comments": 35,
         "id": "40049670"
+      },
+      {
+        "created_at": "2025-11-20T23:22:41Z",
+        "title": "Are cellular towers the next landlines?",
+        "url": "https://ssg.dev/are-cellular-towers-the-next-landlines/",
+        "points": 3,
+        "comments": 7,
+        "id": "45999274"
       }
     ]
   },
@@ -26628,6 +28114,14 @@
         "id": "6739315"
       },
       {
+        "created_at": "2025-10-09T08:53:30Z",
+        "title": "Why is everything so scalable?",
+        "url": "https://www.stavros.io/posts/why-is-everything-so-scalable/",
+        "points": 408,
+        "comments": 370,
+        "id": "45525168"
+      },
+      {
         "created_at": "2016-11-22T11:33:51Z",
         "title": "Show HN: Spamnesty: Waste spammers' time",
         "url": "https://www.stavros.io/posts/spamnesty-waste-spammers-time/",
@@ -26692,12 +28186,28 @@
         "id": "26790486"
       },
       {
+        "created_at": "2025-11-12T09:37:41Z",
+        "title": "I converted a rotary phone into a meeting handset",
+        "url": "https://www.stavros.io/posts/i-converted-a-rotary-phone-into-a-meeting-handset/",
+        "points": 167,
+        "comments": 70,
+        "id": "45898185"
+      },
+      {
         "created_at": "2017-05-29T10:53:19Z",
         "title": "The scourge of web analytics",
         "url": "https://www.stavros.io/posts/scourge-web-analytics/",
         "points": 160,
         "comments": 79,
         "id": "14438487"
+      },
+      {
+        "created_at": "2025-10-09T15:31:38Z",
+        "title": "I made a small LED panel",
+        "url": "https://www.stavros.io/posts/really-small-led-panel/",
+        "points": 154,
+        "comments": 81,
+        "id": "45529120"
       },
       {
         "created_at": "2020-06-30T12:53:13Z",
@@ -26714,30 +28224,6 @@
         "points": 144,
         "comments": 101,
         "id": "13764173"
-      },
-      {
-        "created_at": "2013-11-04T12:53:43Z",
-        "title": "Writing a FUSE filesystem in Python",
-        "url": "http://www.stavros.io/posts/python-fuse-filesystem/",
-        "points": 142,
-        "comments": 48,
-        "id": "6668232"
-      },
-      {
-        "created_at": "2016-07-20T11:16:01Z",
-        "title": "Show HN: I connected my house lights to video games",
-        "url": "https://www.stavros.io/posts/wifi-enabled-rgb-led-strip-controller/",
-        "points": 127,
-        "comments": 31,
-        "id": "12128147"
-      },
-      {
-        "created_at": "2017-01-11T12:51:33Z",
-        "title": "Show HN: The Bus Stop Bus",
-        "url": "https://www.stavros.io/posts/bus-stop-bus/",
-        "points": 125,
-        "comments": 22,
-        "id": "13373558"
       }
     ]
   },
@@ -26794,6 +28280,14 @@
         "points": 210,
         "comments": 102,
         "id": "32507596"
+      },
+      {
+        "created_at": "2025-06-04T01:29:59Z",
+        "title": "A manager is not your best friend",
+        "url": "https://staysaasy.com/management/2025/06/02/your-manager-is-not-your-best-friend.html",
+        "points": 200,
+        "comments": 120,
+        "id": "44176425"
       },
       {
         "created_at": "2020-12-13T12:16:38Z",
@@ -26871,7 +28365,7 @@
         "created_at": "2025-05-26T17:09:56Z",
         "title": "AI makes bad managers",
         "url": "https://staysaasy.com/management/2025/05/26/AI-management.html",
-        "points": 77,
+        "points": 81,
         "comments": 31,
         "id": "44099341"
       },
@@ -26898,14 +28392,6 @@
         "points": 54,
         "comments": 13,
         "id": "35259233"
-      },
-      {
-        "created_at": "2023-05-14T23:36:34Z",
-        "title": "Finding and Fostering Great Product Sense",
-        "url": "https://staysaasy.com/product/2023/05/14/product-sense.html",
-        "points": 52,
-        "comments": 18,
-        "id": "35942351"
       }
     ]
   },
@@ -26998,6 +28484,14 @@
     "url": "https://stribny.name",
     "title": "Petr Stribny",
     "hn": [
+      {
+        "created_at": "2025-05-29T14:44:33Z",
+        "title": "Show HN: I wrote a modern Command Line Handbook",
+        "url": "https://commandline.stribny.name/",
+        "points": 454,
+        "comments": 109,
+        "id": "44126612"
+      },
       {
         "created_at": "2021-06-14T17:17:50Z",
         "title": "Scaling Relational SQL Databases (2020)",
@@ -27097,6 +28591,14 @@
         "id": "43642123"
       },
       {
+        "created_at": "2026-01-07T12:54:43Z",
+        "title": "A4 Paper Stories",
+        "url": "https://susam.net/a4-paper-stories.html",
+        "points": 386,
+        "comments": 185,
+        "id": "46525888"
+      },
+      {
         "created_at": "2022-01-09T12:06:27Z",
         "title": "Simplicity of IRC",
         "url": "https://susam.net/maze/simplicity-of-irc.html",
@@ -27111,6 +28613,30 @@
         "points": 309,
         "comments": 166,
         "id": "43431068"
+      },
+      {
+        "created_at": "2025-12-13T20:19:53Z",
+        "title": "I fed 24 years of my blog posts to a Markov model",
+        "url": "https://susam.net/fed-24-years-of-posts-to-markov-model.html",
+        "points": 303,
+        "comments": 123,
+        "id": "46257607"
+      },
+      {
+        "created_at": "2025-08-19T07:33:09Z",
+        "title": "Prime Number Grid",
+        "url": "https://susam.net/primegrid.html",
+        "points": 296,
+        "comments": 96,
+        "id": "44949162"
+      },
+      {
+        "created_at": "2025-11-21T17:28:25Z",
+        "title": "Solving Fizz Buzz with Cosines",
+        "url": "https://susam.net/fizz-buzz-with-cosines.html",
+        "points": 215,
+        "comments": 65,
+        "id": "46006598"
       },
       {
         "created_at": "2022-12-17T12:50:21Z",
@@ -27201,44 +28727,12 @@
         "id": "39127897"
       },
       {
-        "created_at": "2024-03-13T08:10:33Z",
-        "title": "Simplicity of IRC (2022)",
-        "url": "https://susam.net/simplicity-of-irc.html",
-        "points": 107,
-        "comments": 70,
-        "id": "39689090"
-      },
-      {
-        "created_at": "2024-04-06T08:46:52Z",
-        "title": "Programming with DOS Debugger (2003)",
-        "url": "https://susam.net/programming-with-dos-debugger.html",
-        "points": 107,
-        "comments": 47,
-        "id": "39950989"
-      },
-      {
-        "created_at": "2022-08-02T23:01:05Z",
-        "title": "Simplicity of IRC",
-        "url": "https://susam.net/maze/wall/simplicity-of-irc.html",
-        "points": 96,
-        "comments": 79,
-        "id": "32325400"
-      },
-      {
-        "created_at": "2022-01-09T15:58:50Z",
-        "title": "FD 100",
-        "url": "https://susam.net/blog/fd-100.html",
-        "points": 95,
-        "comments": 28,
-        "id": "29864362"
-      },
-      {
-        "created_at": "2024-02-23T08:57:35Z",
-        "title": "Lisp Programming with Vim (2019)",
-        "url": "https://susam.net/lisp-in-vim.html",
-        "points": 94,
-        "comments": 17,
-        "id": "39478441"
+        "created_at": "2025-07-09T11:49:21Z",
+        "title": "Million Times Million",
+        "url": "https://susam.net/million-times-million.html",
+        "points": 111,
+        "comments": 95,
+        "id": "44508837"
       }
     ]
   },
@@ -27250,7 +28744,17 @@
   {
     "url": "https://swaits.com",
     "title": "swaits.com · Stephen Waits",
-    "desc": "Stephen Waits"
+    "desc": "Stephen Waits",
+    "hn": [
+      {
+        "created_at": "2025-08-27T01:10:56Z",
+        "title": "Game theory at work: When to talk and when to shut up (2024)",
+        "url": "https://swaits.com/game-theory-at-work-and-when-to-shutup/",
+        "points": 54,
+        "comments": 26,
+        "id": "45034303"
+      }
+    ]
   },
   {
     "url": "https://swilliams.io",
@@ -27589,6 +29093,14 @@
         "id": "39070730"
       },
       {
+        "created_at": "2025-06-04T11:50:59Z",
+        "title": "The Sky's the limit: AI automation on Mac",
+        "url": "https://taoofmac.com/space/blog/2025/06/03/2155",
+        "points": 123,
+        "comments": 71,
+        "id": "44179691"
+      },
+      {
         "created_at": "2021-03-20T22:14:16Z",
         "title": "Building My Own Yahoo Pipes",
         "url": "https://taoofmac.com/space/blog/2021/03/20/1945",
@@ -27715,14 +29227,6 @@
         "points": 23,
         "comments": 7,
         "id": "28153041"
-      },
-      {
-        "created_at": "2025-05-15T22:04:56Z",
-        "title": "The MiniBook X N150 \"netbook\"",
-        "url": "https://taoofmac.com/space/reviews/2025/05/15/2230",
-        "points": 18,
-        "comments": 13,
-        "id": "43999811"
       }
     ]
   },
@@ -27841,8 +29345,7 @@
     "url": "https://teddywarner.org",
     "title": "Teddy Warner",
     "feed": "https://teddywarner.org/feed.xml",
-    "desc": "Maker stuff, robotics, and writings on life.",
-    "hn": []
+    "desc": "Maker stuff, robotics, and writings on life."
   },
   {
     "url": "https://terhech.de",
@@ -28178,15 +29681,15 @@
     "desc": "Startups, Venture Capital, Private Equity, Mergers & Acquisitions News on the go.",
     "hn": [
       {
-        "created_at": "2022-04-09T12:15:25.000Z",
+        "created_at": "2022-04-09T12:15:25Z",
         "title": "MIT graduate students vote to unionize",
         "url": "https://thetech.com/2022/04/08/grad-students-unionize",
         "points": 638,
-        "comments": 378,
+        "comments": 379,
         "id": "30967375"
       },
       {
-        "created_at": "2021-04-29T21:04:18.000Z",
+        "created_at": "2021-04-29T21:04:18Z",
         "title": "The story BCG offered me $16k not to tell (2010)",
         "url": "https://thetech.com/2010/04/09/dubai-v130-n18",
         "points": 261,
@@ -28194,15 +29697,7 @@
         "id": "26986675"
       },
       {
-        "created_at": "2022-09-07T16:23:23.000Z",
-        "title": "The story BCG offered me $16,000 not to tell (2010)",
-        "url": "https://thetech.com/2010/04/09/dubai-v130-n18",
-        "points": 237,
-        "comments": 128,
-        "id": "32752678"
-      },
-      {
-        "created_at": "2016-07-08T19:53:14.000Z",
+        "created_at": "2016-07-08T19:53:14Z",
         "title": "Browsers' bid for relevance is turning them into time-bombs",
         "url": "https://thetech.com/2016/07/06/electronic-frontier-foundation",
         "points": 226,
@@ -28210,12 +29705,20 @@
         "id": "12058191"
       },
       {
-        "created_at": "2018-04-05T19:55:09.000Z",
-        "title": "MIT's student newspaper criticizes MIT's convenience-based ethics",
-        "url": "https://thetech.com/2018/04/05/editorial-mit-selective-moralizing",
-        "points": 218,
-        "comments": 137,
-        "id": "16768329"
+        "created_at": "2024-02-10T09:00:26Z",
+        "title": "Putting the pieces together: Meet Justin Yu ’25, Tetris world champion",
+        "url": "https://thetech.com/2024/02/08/justin-yu",
+        "points": 49,
+        "comments": 35,
+        "id": "39324697"
+      },
+      {
+        "created_at": "2024-07-28T22:47:28Z",
+        "title": "50th anniversary of Vannevar Bush's passing",
+        "url": "https://thetech.com/2024/07/11/anniversary-vannevar-bush-passing",
+        "points": 13,
+        "comments": 3,
+        "id": "41096561"
       }
     ]
   },
@@ -28739,12 +30242,28 @@
         "id": "26829973"
       },
       {
+        "created_at": "2025-06-08T14:51:27Z",
+        "title": "Rohde and Schwarz AMIQ Modulation Generator Teardown",
+        "url": "https://tomverbeure.github.io/2025/04/26/RS-AMIQ-Teardown-Analog-Deep-Dive.html",
+        "points": 68,
+        "comments": 26,
+        "id": "44217356"
+      },
+      {
         "created_at": "2021-04-26T14:11:38Z",
         "title": "A Hack to Update RAM Initialization Contents in Intel FPGA Bitstreams",
         "url": "https://tomverbeure.github.io/2021/04/25/Intel-FPGA-RAM-Bitstream-Patching.html",
         "points": 67,
         "comments": 15,
         "id": "26942664"
+      },
+      {
+        "created_at": "2025-10-27T10:17:24Z",
+        "title": "Inside an Isotemp OCXO107-10 Oven Controlled Crystal Oscillator",
+        "url": "https://tomverbeure.github.io/2025/10/26/Inside-an-Isotemp-OCXO107-10.html",
+        "points": 63,
+        "comments": 13,
+        "id": "45719250"
       },
       {
         "created_at": "2020-11-11T10:22:33Z",
@@ -28771,36 +30290,20 @@
         "id": "41285665"
       },
       {
-        "created_at": "2023-05-07T05:42:52Z",
-        "title": "Measuring the HP 11720A Pulse Modulator and Coax Cables",
-        "url": "https://tomverbeure.github.io/2023/05/06/HP-11720A-Pulse-Modulator.html",
-        "points": 32,
-        "comments": 1,
-        "id": "35848276"
+        "created_at": "2025-11-04T12:03:02Z",
+        "title": "Fixing LCD Screen Corruption of a Tektronix TDS220 Oscilloscope",
+        "url": "https://tomverbeure.github.io/2025/11/03/TDS220-LCD-Corruption-Fix.html",
+        "points": 48,
+        "comments": 5,
+        "id": "45809975"
       },
       {
-        "created_at": "2022-10-06T05:39:31Z",
-        "title": "Reusing the Sony CRT Module of an HP 16500A Logic Analyzer",
-        "url": "https://tomverbeure.github.io/2022/10/05/Sony-CHM-9001-00-CRT.html",
-        "points": 27,
+        "created_at": "2025-10-27T21:35:46Z",
+        "title": "Inside an Isotemp OCXO107-10 Oven Controlled Crystal Oscillator",
+        "url": "https://tomverbeure.github.io/2025/10/26/Inside-an-Isotemp-OCXO107-10.html",
+        "points": 45,
         "comments": 1,
-        "id": "33104750"
-      },
-      {
-        "created_at": "2022-11-26T18:43:05Z",
-        "title": "Logic Primitive Transformations with Yosys Techmap",
-        "url": "https://tomverbeure.github.io/2022/11/18/Primitive-Transformations-with-Yosys-Techmap.html",
-        "points": 23,
-        "comments": 1,
-        "id": "33755344"
-      },
-      {
-        "created_at": "2024-12-28T12:01:47Z",
-        "title": "Symbolic Reference and Hardware Models in Python",
-        "url": "https://tomverbeure.github.io/2024/12/27/A-Symbolic-HW-Model-in-Python.html",
-        "points": 22,
-        "comments": 0,
-        "id": "42530424"
+        "id": "45726597"
       }
     ]
   },
@@ -28944,8 +30447,8 @@
         "created_at": "2025-05-19T21:37:23Z",
         "title": "Have I Been Pwned 2.0",
         "url": "https://www.troyhunt.com/have-i-been-pwned-2-0-is-now-live/",
-        "points": 879,
-        "comments": 303,
+        "points": 880,
+        "comments": 305,
         "id": "44035158"
       },
       {
@@ -29013,6 +30516,14 @@
         "id": "15751344"
       },
       {
+        "created_at": "2025-11-06T20:20:23Z",
+        "title": "Two billion email addresses were exposed",
+        "url": "https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/",
+        "points": 634,
+        "comments": 449,
+        "id": "45839901"
+      },
+      {
         "created_at": "2017-09-14T09:19:58Z",
         "title": "Face ID, Touch ID, No ID, PINs and Pragmatic Security",
         "url": "https://www.troyhunt.com/face-id-touch-id-pins-no-id-and-pragmatic-security/",
@@ -29051,14 +30562,6 @@
         "points": 580,
         "comments": 285,
         "id": "17958178"
-      },
-      {
-        "created_at": "2021-04-06T09:29:34Z",
-        "title": "The Facebook phone numbers are now searchable in Have I Been Pwned",
-        "url": "https://www.troyhunt.com/the-facebook-phone-numbers-are-now-searchable-in-have-i-been-pwned/",
-        "points": 565,
-        "comments": 237,
-        "id": "26709848"
       }
     ]
   },
@@ -29364,6 +30867,14 @@
         "points": 43,
         "comments": 5,
         "id": "9329016"
+      },
+      {
+        "created_at": "2025-11-03T17:25:49Z",
+        "title": "Learning a Bit of VGA",
+        "url": "https://www.usebox.net/jjm/blog/learning-a-bit-of-vga/",
+        "points": 10,
+        "comments": 3,
+        "id": "45801630"
       }
     ]
   },
@@ -29613,6 +31124,14 @@
         "points": 29,
         "comments": 8,
         "id": "41649660"
+      },
+      {
+        "created_at": "2025-07-23T22:33:21Z",
+        "title": "You shouldn't need to write a scraper just to list the available electives",
+        "url": "https://varun.ch/posts/elective-list/",
+        "points": 12,
+        "comments": 1,
+        "id": "44664723"
       }
     ]
   },
@@ -29693,6 +31212,14 @@
         "points": 326,
         "comments": 316,
         "id": "27960865"
+      },
+      {
+        "created_at": "2025-07-19T19:27:50Z",
+        "title": "The borrowchecker is what I like the least about Rust",
+        "url": "https://viralinstruction.com/posts/borrowchecker/",
+        "points": 258,
+        "comments": 444,
+        "id": "44618535"
       },
       {
         "created_at": "2023-10-03T04:02:41Z",
@@ -29898,6 +31425,22 @@
     "title": "",
     "hn": [
       {
+        "created_at": "2026-01-15T18:42:46Z",
+        "title": "‘ELITE’: The Palantir app ICE uses to find neighborhoods to raid",
+        "url": "https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
+        "points": 437,
+        "comments": 371,
+        "id": "46637127"
+      },
+      {
+        "created_at": "2025-10-14T19:50:57Z",
+        "title": "Why the open social web matters now",
+        "url": "https://werd.io/why-the-open-social-web-matters-now/",
+        "points": 225,
+        "comments": 136,
+        "id": "45583999"
+      },
+      {
         "created_at": "2013-08-20T16:49:08Z",
         "title": "I just want to say \"fuck everything\", hold up my hands and walk away.",
         "url": "http://werd.io/entry/5213969abed7de1978b43b2d/government-the-last-great-gatekeeper-is-ripe-for-disruption",
@@ -29912,6 +31455,14 @@
         "points": 156,
         "comments": 225,
         "id": "37675422"
+      },
+      {
+        "created_at": "2025-08-19T14:14:44Z",
+        "title": "Why I'm all-in on Zen Browser",
+        "url": "https://werd.io/why-im-all-in-on-zen-browser/",
+        "points": 130,
+        "comments": 123,
+        "id": "44951799"
       },
       {
         "created_at": "2024-03-28T02:04:40Z",
@@ -29954,6 +31505,22 @@
         "id": "39545378"
       },
       {
+        "created_at": "2026-01-04T20:39:31Z",
+        "title": "Why RSS Matters",
+        "url": "https://werd.io/why-rss-matters/",
+        "points": 33,
+        "comments": 5,
+        "id": "46491943"
+      },
+      {
+        "created_at": "2025-12-05T17:24:51Z",
+        "title": "Trump administration orders enhanced vetting for applicants of H-1B visa",
+        "url": "https://werd.io/trump-administration-orders-enhanced-vetting-for-applicants-of-h-1b-visa/",
+        "points": 30,
+        "comments": 1,
+        "id": "46164350"
+      },
+      {
         "created_at": "2013-07-10T00:29:53Z",
         "title": "The IndieWeb as a minimum viable social web ecosystem",
         "url": "http://werd.io/entry/51dca7e2bed7de945debf707/the-indieweb-as-a-minimum-viable-social-web-ecosystem",
@@ -29978,6 +31545,22 @@
         "id": "31800727"
       },
       {
+        "created_at": "2025-10-17T13:47:03Z",
+        "title": "Europe Can't Defend Democracy on US Servers",
+        "url": "https://werd.io/europe-cant-defend-democracy-on-us-servers/",
+        "points": 17,
+        "comments": 1,
+        "id": "45616777"
+      },
+      {
+        "created_at": "2025-10-31T14:31:19Z",
+        "title": "There's no such thing as neutral technology",
+        "url": "https://werd.io/theres-no-such-thing-as-neutral-technology/",
+        "points": 15,
+        "comments": 5,
+        "id": "45772366"
+      },
+      {
         "created_at": "2025-03-01T15:39:18Z",
         "title": "GSA Eliminates 18F",
         "url": "https://werd.io/2025/gsa-eliminates-18f",
@@ -30000,62 +31583,6 @@
         "points": 14,
         "comments": 4,
         "id": "40303072"
-      },
-      {
-        "created_at": "2015-12-08T08:17:10Z",
-        "title": "Lessons learned building an open source business",
-        "url": "http://werd.io/2015/open-issues-lessons-learned-building-an-open-source-business",
-        "points": 14,
-        "comments": 2,
-        "id": "10695342"
-      },
-      {
-        "created_at": "2023-11-03T15:16:40Z",
-        "title": "Newsrooms don't need to cede control to social media",
-        "url": "https://werd.io/2023/no-newsrooms-dont-need-to-cede-control-to-social-media",
-        "points": 13,
-        "comments": 0,
-        "id": "38130072"
-      },
-      {
-        "created_at": "2015-11-08T00:30:36Z",
-        "title": "Lessons learned building an open source business",
-        "url": "http://werd.io/2015/open-issues-lessons-learned-building-an-open-source-business",
-        "points": 12,
-        "comments": 0,
-        "id": "10526820"
-      },
-      {
-        "created_at": "2022-10-21T21:28:34Z",
-        "title": "The End of Twitter",
-        "url": "https://werd.io/2022/the-end-of-twitter",
-        "points": 11,
-        "comments": 8,
-        "id": "33293237"
-      },
-      {
-        "created_at": "2024-12-13T03:31:32Z",
-        "title": "The open social web is the future of the internet. Here's why I'm excited",
-        "url": "https://werd.io/2024/the-open-social-web-is-the-future-of-the-internet",
-        "points": 11,
-        "comments": 2,
-        "id": "42405713"
-      },
-      {
-        "created_at": "2018-09-15T09:41:35Z",
-        "title": "Article 13 makes it official. It's time to embrace decentralization",
-        "url": "https://werd.io/2018/article-13-makes-it-official-its-time-to-embrace-decentralization",
-        "points": 11,
-        "comments": 0,
-        "id": "17993669"
-      },
-      {
-        "created_at": "2020-08-28T17:19:44Z",
-        "title": "The tech industry is culpable for Trump",
-        "url": "https://werd.io/2020/the-tech-industry-is-culpable-for-trump",
-        "points": 10,
-        "comments": 5,
-        "id": "24307451"
       }
     ]
   },
@@ -30102,6 +31629,14 @@
         "points": 32,
         "comments": 6,
         "id": "26375565"
+      },
+      {
+        "created_at": "2025-09-22T06:40:00Z",
+        "title": "Operating system decline and cultural death",
+        "url": "https://wheybags.com/blog/culturedeath.html",
+        "points": 23,
+        "comments": 24,
+        "id": "45329821"
       },
       {
         "created_at": "2020-10-17T22:14:17Z",
@@ -30490,6 +32025,14 @@
         "points": 459,
         "comments": 382,
         "id": "36259930"
+      },
+      {
+        "created_at": "2025-09-22T08:25:53Z",
+        "title": "Python-Style Kwargs in TypeScript",
+        "url": "https://xavd.id/blog/post/python-kwargs-in-typescript/",
+        "points": 13,
+        "comments": 29,
+        "id": "45330560"
       }
     ]
   },
@@ -30499,12 +32042,36 @@
     "desc": "Archmage of Infrastructure",
     "hn": [
       {
+        "created_at": "2026-01-03T00:15:47Z",
+        "title": "2026 will be my year of the Linux desktop",
+        "url": "https://xeiaso.net/notes/2026/year-linux-desktop/",
+        "points": 835,
+        "comments": 639,
+        "id": "46471199"
+      },
+      {
+        "created_at": "2025-09-09T15:11:26Z",
+        "title": "We all dodged a bullet",
+        "url": "https://xeiaso.net/notes/2025/we-dodged-a-bullet/",
+        "points": 830,
+        "comments": 484,
+        "id": "45183029"
+      },
+      {
         "created_at": "2023-11-10T04:04:10Z",
         "title": "Cursorless is alien magic from the future",
         "url": "https://xeiaso.net/notes/cursorless-alien-magic/",
         "points": 790,
         "comments": 337,
         "id": "38214915"
+      },
+      {
+        "created_at": "2025-11-12T23:35:41Z",
+        "title": "Valve is about to win the console generation",
+        "url": "https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/",
+        "points": 647,
+        "comments": 537,
+        "id": "45908464"
       },
       {
         "created_at": "2023-06-04T15:06:51Z",
@@ -30619,44 +32186,20 @@
         "id": "40437379"
       },
       {
+        "created_at": "2025-06-20T15:51:02Z",
+        "title": "Rolling the ladder up behind us",
+        "url": "https://xeiaso.net/blog/2025/rolling-ladder-behind-us/",
+        "points": 206,
+        "comments": 201,
+        "id": "44328894"
+      },
+      {
         "created_at": "2022-09-12T12:40:41Z",
         "title": "Serving a high-performance blog solely from memory, using Rust",
         "url": "https://xeiaso.net/talks/how-my-website-works",
         "points": 196,
         "comments": 130,
         "id": "32809239"
-      },
-      {
-        "created_at": "2025-01-08T07:07:15Z",
-        "title": "Today I learned that bash has hashmaps (2024)",
-        "url": "https://xeiaso.net/notes/2024/bash-hashmap/",
-        "points": 177,
-        "comments": 134,
-        "id": "42631815"
-      },
-      {
-        "created_at": "2024-05-21T19:01:59Z",
-        "title": "iTerm2 and AI Hype Overload",
-        "url": "https://xeiaso.net/notes/2024/ai-hype/",
-        "points": 175,
-        "comments": 307,
-        "id": "40432446"
-      },
-      {
-        "created_at": "2025-03-02T13:56:01Z",
-        "title": "Yoke: Infrastructure as code, but actually",
-        "url": "https://xeiaso.net/blog/2025/yoke-k8s/",
-        "points": 171,
-        "comments": 164,
-        "id": "43230510"
-      },
-      {
-        "created_at": "2023-06-25T04:12:58Z",
-        "title": "Time is not a synchronization primitive",
-        "url": "https://xeiaso.net/blog/nosleep",
-        "points": 168,
-        "comments": 104,
-        "id": "36465085"
       }
     ]
   },
@@ -30672,6 +32215,22 @@
         "points": 289,
         "comments": 86,
         "id": "35621425"
+      },
+      {
+        "created_at": "2025-08-19T16:22:01Z",
+        "title": "Emacs as your video-trimming tool",
+        "url": "https://xenodium.com/emacs-as-your-video-trimming-tool",
+        "points": 286,
+        "comments": 167,
+        "id": "44953316"
+      },
+      {
+        "created_at": "2025-10-12T20:37:16Z",
+        "title": "Emacs agent-shell (powered by ACP)",
+        "url": "https://xenodium.com/introducing-agent-shell",
+        "points": 233,
+        "comments": 46,
+        "id": "45561672"
       },
       {
         "created_at": "2023-03-21T23:35:31Z",
@@ -30754,6 +32313,22 @@
         "id": "26439932"
       },
       {
+        "created_at": "2025-10-20T20:25:29Z",
+        "title": "Emacs Time-Zones",
+        "url": "https://xenodium.com/emacs-time-zones-mode",
+        "points": 34,
+        "comments": 0,
+        "id": "45648846"
+      },
+      {
+        "created_at": "2025-11-24T20:30:59Z",
+        "title": "Using WhatsApp from Emacs",
+        "url": "https://xenodium.com/whatsapp-from-you-know-where",
+        "points": 31,
+        "comments": 0,
+        "id": "46038893"
+      },
+      {
         "created_at": "2021-03-01T18:18:51Z",
         "title": "Show HN: Frictionless habit-tracking on iOS (pokeable from your text editor too)",
         "url": "http://xenodium.com/frictionless-org-habits-on-ios",
@@ -30762,20 +32337,36 @@
         "id": "26306018"
       },
       {
+        "created_at": "2025-08-21T13:43:15Z",
+        "title": "Emacs Elevator Pitch",
+        "url": "https://xenodium.com/emacs-elevator-pitch",
+        "points": 25,
+        "comments": 0,
+        "id": "44972694"
+      },
+      {
+        "created_at": "2025-10-12T17:52:27Z",
+        "title": "Agent Shell 0.5 Improvements",
+        "url": "https://xenodium.com/agent-shell-0-5-improvements",
+        "points": 24,
+        "comments": 4,
+        "id": "45560218"
+      },
+      {
+        "created_at": "2025-06-21T09:31:58Z",
+        "title": "Emacs on macOS",
+        "url": "https://xenodium.com/awesome-emacs-on-macos",
+        "points": 22,
+        "comments": 0,
+        "id": "44336058"
+      },
+      {
         "created_at": "2024-01-14T19:43:46Z",
         "title": "A Cloudflare Workers primer: hello world",
         "url": "https://xenodium.com/a-cloudflare-workers-primer-hello-world/",
         "points": 18,
         "comments": 1,
         "id": "38993711"
-      },
-      {
-        "created_at": "2022-03-26T22:11:16Z",
-        "title": "Emacs DWIM: swiper vs. isearch vs. phi-search",
-        "url": "https://xenodium.com/emacs-dwim-swiper-vs-isearch-vs-phi-search/",
-        "points": 12,
-        "comments": 0,
-        "id": "30815828"
       }
     ]
   },
@@ -30817,6 +32408,14 @@
         "id": "37037520"
       },
       {
+        "created_at": "2025-07-14T14:42:54Z",
+        "title": "Strategies for Fast Lexers",
+        "url": "https://xnacly.me/posts/2025/fast-lexer-strategies/",
+        "points": 180,
+        "comments": 82,
+        "id": "44560871"
+      },
+      {
         "created_at": "2024-10-07T18:27:49Z",
         "title": "Fun with Go Iterators",
         "url": "https://xnacly.me/posts/2024/fun-with-iterators/",
@@ -30831,6 +32430,14 @@
         "points": 118,
         "comments": 70,
         "id": "43222344"
+      },
+      {
+        "created_at": "2025-11-21T13:30:36Z",
+        "title": "Building a Minimal Viable Armv7 Emulator from Scratch",
+        "url": "https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/",
+        "points": 75,
+        "comments": 21,
+        "id": "46004386"
       },
       {
         "created_at": "2024-12-18T23:33:14Z",
@@ -30849,6 +32456,14 @@
         "id": "38556069"
       },
       {
+        "created_at": "2026-01-07T17:22:18Z",
+        "title": "The Manchester Garbage Collector and purple-garden's runtime",
+        "url": "https://xnacly.me/posts/2026/manchester-garbage-collector/",
+        "points": 23,
+        "comments": 0,
+        "id": "46529240"
+      },
+      {
         "created_at": "2025-01-26T12:43:26Z",
         "title": "Highlighting Parts of Lua as Bash",
         "url": "https://xnacly.me/posts/2024/treesitter-neovim/",
@@ -30857,12 +32472,28 @@
         "id": "42829738"
       },
       {
+        "created_at": "2026-01-15T14:19:14Z",
+        "title": "Poking holes into bytecode with peephole optimisations",
+        "url": "https://xnacly.me/posts/2026/purple-garden-first-optimisations/",
+        "points": 20,
+        "comments": 5,
+        "id": "46632885"
+      },
+      {
         "created_at": "2024-11-06T09:54:21Z",
         "title": "Why I love Rust for tokenising and parsing",
         "url": "https://xnacly.me/posts/2024/rust-pldev/",
         "points": 16,
         "comments": 7,
         "id": "42058920"
+      },
+      {
+        "created_at": "2026-01-14T22:08:04Z",
+        "title": "Poking holes into bytecode with peephole optimisations",
+        "url": "https://xnacly.me/posts/2026/purple-garden-first-optimisations/",
+        "points": 14,
+        "comments": 0,
+        "id": "46624396"
       },
       {
         "created_at": "2024-03-20T12:08:14Z",
@@ -30923,6 +32554,14 @@
         "id": "40633003"
       },
       {
+        "created_at": "2025-06-21T00:21:25Z",
+        "title": "Learn you Galois fields for great good (2023)",
+        "url": "https://xorvoid.com/galois_fields_for_great_good_00.html",
+        "points": 154,
+        "comments": 30,
+        "id": "44333388"
+      },
+      {
         "created_at": "2023-05-28T00:15:42Z",
         "title": "ChatGPT: A Mental Model",
         "url": "https://xorvoid.com/chatgpt_a_mental_model.html",
@@ -30971,6 +32610,30 @@
     "url": "https://yakkomajuri.com",
     "title": "Sunday Afternoon",
     "hn": [
+      {
+        "created_at": "2025-11-28T16:54:56Z",
+        "title": "So you wanna build a local RAG?",
+        "url": "https://blog.yakkomajuri.com/blog/local-rag",
+        "points": 390,
+        "comments": 105,
+        "id": "46080364"
+      },
+      {
+        "created_at": "2026-01-17T18:29:00Z",
+        "title": "Raising money fucked me up",
+        "url": "https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up",
+        "points": 362,
+        "comments": 135,
+        "id": "46660543"
+      },
+      {
+        "created_at": "2025-11-03T16:35:44Z",
+        "title": "Why we migrated from Python to Node.js",
+        "url": "https://blog.yakkomajuri.com/blog/python-to-node",
+        "points": 229,
+        "comments": 281,
+        "id": "45800955"
+      },
       {
         "created_at": "2023-02-13T17:14:50Z",
         "title": "Pepper spray your officers",
@@ -31058,6 +32721,14 @@
     "feed": "https://yehudacohen.substack.com/feed",
     "desc": "There's this whole world of cloud to explore together. Let's go!",
     "hn": [
+      {
+        "created_at": "2025-07-21T12:44:59Z",
+        "title": "Developing with Kiro: Amazon's New Agentic IDE",
+        "url": "https://yehudacohen.substack.com/p/developing-with-kiro-amazons-new",
+        "points": 93,
+        "comments": 86,
+        "id": "44634469"
+      },
       {
         "created_at": "2022-09-02T23:01:06Z",
         "title": "What would make AWS even better",
@@ -31216,8 +32887,8 @@
         "created_at": "2025-05-20T14:29:00Z",
         "title": "OpenAI Codex hands-on review",
         "url": "https://zackproser.com/blog/openai-codex-review",
-        "points": 170,
-        "comments": 120,
+        "points": 171,
+        "comments": 121,
         "id": "44042070"
       },
       {
@@ -31378,6 +33049,14 @@
         "id": "32752383"
       },
       {
+        "created_at": "2025-10-31T12:11:03Z",
+        "title": "By the Power of Grayscale",
+        "url": "https://zserge.com/posts/grayskull/",
+        "points": 274,
+        "comments": 54,
+        "id": "45771151"
+      },
+      {
         "created_at": "2020-10-30T09:45:45Z",
         "title": "How to create minimal music with code in any programming language",
         "url": "https://zserge.com/posts/etude-in-c/",
@@ -31458,6 +33137,14 @@
         "id": "13592645"
       },
       {
+        "created_at": "2025-11-04T23:18:04Z",
+        "title": "Étude in C minor (2020)",
+        "url": "https://zserge.com/posts/etude-in-c/",
+        "points": 78,
+        "comments": 15,
+        "id": "45817027"
+      },
+      {
         "created_at": "2024-09-08T17:53:06Z",
         "title": "The Story Behind Fenster",
         "url": "https://zserge.com/posts/fenster/",
@@ -31480,22 +33167,6 @@
         "points": 67,
         "comments": 10,
         "id": "29078703"
-      },
-      {
-        "created_at": "2020-10-16T16:05:20Z",
-        "title": "Nokia Composer in 512 bytes of JavaScript",
-        "url": "https://zserge.com/posts/nokia/",
-        "points": 36,
-        "comments": 2,
-        "id": "24802153"
-      },
-      {
-        "created_at": "2012-08-10T13:00:03Z",
-        "title": "My minimalistic agile issue tracker",
-        "url": "http://zserge.com/blog/agile-issue-tracker.html",
-        "points": 28,
-        "comments": 13,
-        "id": "4365923"
       }
     ]
   },
@@ -31527,6 +33198,14 @@
         "points": 64,
         "comments": 10,
         "id": "41746539"
+      },
+      {
+        "created_at": "2025-06-11T23:20:03Z",
+        "title": "The Seymour Cray Era of Supercomputers",
+        "url": "https://ztoz.blog/posts/cray-era-supercomputers/",
+        "points": 49,
+        "comments": 13,
+        "id": "44252858"
       },
       {
         "created_at": "2024-12-27T08:01:13Z",
@@ -31849,6 +33528,14 @@
         "id": "6739315"
       },
       {
+        "created_at": "2025-10-09T08:53:30Z",
+        "title": "Why is everything so scalable?",
+        "url": "https://www.stavros.io/posts/why-is-everything-so-scalable/",
+        "points": 408,
+        "comments": 370,
+        "id": "45525168"
+      },
+      {
         "created_at": "2016-11-22T11:33:51Z",
         "title": "Show HN: Spamnesty: Waste spammers' time",
         "url": "https://www.stavros.io/posts/spamnesty-waste-spammers-time/",
@@ -31913,12 +33600,28 @@
         "id": "26790486"
       },
       {
+        "created_at": "2025-11-12T09:37:41Z",
+        "title": "I converted a rotary phone into a meeting handset",
+        "url": "https://www.stavros.io/posts/i-converted-a-rotary-phone-into-a-meeting-handset/",
+        "points": 167,
+        "comments": 70,
+        "id": "45898185"
+      },
+      {
         "created_at": "2017-05-29T10:53:19Z",
         "title": "The scourge of web analytics",
         "url": "https://www.stavros.io/posts/scourge-web-analytics/",
         "points": 160,
         "comments": 79,
         "id": "14438487"
+      },
+      {
+        "created_at": "2025-10-09T15:31:38Z",
+        "title": "I made a small LED panel",
+        "url": "https://www.stavros.io/posts/really-small-led-panel/",
+        "points": 154,
+        "comments": 81,
+        "id": "45529120"
       },
       {
         "created_at": "2020-06-30T12:53:13Z",
@@ -31951,30 +33654,6 @@
         "points": 125,
         "comments": 22,
         "id": "13373558"
-      },
-      {
-        "created_at": "2016-03-18T12:40:31Z",
-        "title": "I made a cheap home motion sensor and controller",
-        "url": "https://www.stavros.io/posts/building-cheap-home-sensorcontroller/",
-        "points": 116,
-        "comments": 32,
-        "id": "11311341"
-      },
-      {
-        "created_at": "2016-10-03T16:52:05Z",
-        "title": "Using Docker to develop and deploy Django apps",
-        "url": "https://www.stavros.io/posts/how-deploy-django-docker/",
-        "points": 115,
-        "comments": 27,
-        "id": "12629098"
-      },
-      {
-        "created_at": "2018-10-16T12:09:31Z",
-        "title": "Securing your users' authentication",
-        "url": "https://www.stavros.io/posts/securing-user-authentication/",
-        "points": 104,
-        "comments": 50,
-        "id": "18228668"
       }
     ]
   },
@@ -32009,6 +33688,14 @@
         "id": "35934903"
       },
       {
+        "created_at": "2026-01-03T04:53:20Z",
+        "title": "Revisiting the original Roomba and its simple architecture",
+        "url": "https://robotsinplainenglish.com/e/2025-12-27-roomba.html",
+        "points": 102,
+        "comments": 74,
+        "id": "46472930"
+      },
+      {
         "created_at": "2021-12-16T15:41:39Z",
         "title": "Why Level-3 Autonomy is a major milestone in self-driving cars",
         "url": "https://www.robotsinplainenglish.com/e/2021-12-12-level-3-autonomous.html",
@@ -32027,7 +33714,7 @@
     "title": "Bouncepaw",
     "hn": [
       {
-        "created_at": "2015-10-17T18:41:26.000Z",
+        "created_at": "2015-10-17T18:41:26Z",
         "title": "Show HN: Bounce Plan – Simple travel planning tools for the frequent traveler",
         "url": "https://bounceplan.com",
         "points": 4,
@@ -32588,6 +34275,14 @@
         "id": "31845144"
       },
       {
+        "created_at": "2025-12-13T03:17:18Z",
+        "title": "The Coming Need for Formal Specification",
+        "url": "https://benjamincongdon.me/blog/2025/12/12/The-Coming-Need-for-Formal-Specification/",
+        "points": 64,
+        "comments": 52,
+        "id": "46251667"
+      },
+      {
         "created_at": "2023-04-15T21:31:00Z",
         "title": "The Soul of an Old Machine",
         "url": "https://benjamincongdon.me/blog/2023/04/15/The-Soul-of-an-Old-Machine/",
@@ -32679,6 +34374,14 @@
         "points": 67,
         "comments": 16,
         "id": "8839338"
+      },
+      {
+        "created_at": "2025-09-19T20:05:48Z",
+        "title": "Time Spent on Hardening",
+        "url": "https://third-bit.com/2025/09/18/time-spent-on-hardening/",
+        "points": 57,
+        "comments": 17,
+        "id": "45305909"
       },
       {
         "created_at": "2021-01-15T16:24:13Z",
@@ -32785,6 +34488,14 @@
     "desc": "Brain Baking | Freshly Baked Thoughts",
     "hn": [
       {
+        "created_at": "2025-11-16T13:12:03Z",
+        "title": "The internet is no longer a safe haven",
+        "url": "https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/",
+        "points": 253,
+        "comments": 199,
+        "id": "45944870"
+      },
+      {
         "created_at": "2022-04-29T00:35:14Z",
         "title": "Cool things people do with their blogs",
         "url": "https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/",
@@ -32815,6 +34526,14 @@
         "points": 169,
         "comments": 73,
         "id": "39895184"
+      },
+      {
+        "created_at": "2025-11-16T10:21:07Z",
+        "title": "I don’t need a Steam Machine",
+        "url": "https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/",
+        "points": 145,
+        "comments": 272,
+        "id": "45943992"
       },
       {
         "created_at": "2024-02-18T09:00:45Z",
@@ -32873,12 +34592,28 @@
         "id": "37869269"
       },
       {
+        "created_at": "2025-05-28T16:45:02Z",
+        "title": "The Decline of Battery Life (2021)",
+        "url": "https://brainbaking.com/post/2021/07/the-decline-of-battery-life/",
+        "points": 21,
+        "comments": 31,
+        "id": "44117911"
+      },
+      {
         "created_at": "2024-12-22T13:14:53Z",
         "title": "How Bad Is Link Rot?",
         "url": "https://brainbaking.com/post/2024/12/how-bad-is-link-rot-at-brain-baking/",
         "points": 17,
         "comments": 6,
         "id": "42486094"
+      },
+      {
+        "created_at": "2025-11-30T13:20:54Z",
+        "title": "Why Are Software Engineers (Not) Engineers?",
+        "url": "https://brainbaking.com/post/2022/10/why-are-software-engineers-engineers/",
+        "points": 4,
+        "comments": 6,
+        "id": "46096420"
       }
     ]
   },
@@ -33078,6 +34813,14 @@
         "points": 34,
         "comments": 1,
         "id": "31548866"
+      },
+      {
+        "created_at": "2025-08-04T14:46:28Z",
+        "title": "Complex Iterators Are Slow",
+        "url": "https://caolan.uk/notes/2025-07-31_complex_iterators_are_slow.cm",
+        "points": 24,
+        "comments": 9,
+        "id": "44786553"
       }
     ]
   },
@@ -33352,6 +35095,14 @@
         "id": "28975714"
       },
       {
+        "created_at": "2025-11-04T07:22:46Z",
+        "title": "Reverse engineering a neural network's clever solution to binary addition (2023)",
+        "url": "https://cprimozic.net/blog/reverse-engineering-a-small-neural-network/",
+        "points": 87,
+        "comments": 16,
+        "id": "45808288"
+      },
+      {
         "created_at": "2022-04-03T08:46:23Z",
         "title": "Exploring Neural Networks Visually in the Browser",
         "url": "https://cprimozic.net/blog/neural-network-experiments-and-visualizations/",
@@ -33368,10 +35119,26 @@
         "id": "37897289"
       },
       {
+        "created_at": "2026-01-11T07:59:02Z",
+        "title": "A Unique Performance Optimization for a 3D Geometry Language",
+        "url": "https://cprimozic.net/notes/posts/persistent-expr-memo-optimization-for-geoscript/",
+        "points": 36,
+        "comments": 3,
+        "id": "46573566"
+      },
+      {
+        "created_at": "2025-11-28T15:40:49Z",
+        "title": "Generating 3D Meshes from Text",
+        "url": "https://cprimozic.net/notes/posts/generating-3d-meshes-from-text/",
+        "points": 33,
+        "comments": 2,
+        "id": "46079567"
+      },
+      {
         "created_at": "2025-05-26T22:14:24Z",
         "title": "Non-Pointless Software Projects for New Devs in the LLM Age",
         "url": "https://cprimozic.net/blog/non-pointless-software-projects-for-new-devs-in-the-llm-age/",
-        "points": 15,
+        "points": 17,
         "comments": 0,
         "id": "44102163"
       },
@@ -33422,6 +35189,14 @@
         "points": 116,
         "comments": 167,
         "id": "41869237"
+      },
+      {
+        "created_at": "2025-08-14T13:22:05Z",
+        "title": "Passion over Profits",
+        "url": "https://dillonshook.com/passion-over-profits/",
+        "points": 78,
+        "comments": 59,
+        "id": "44900084"
       },
       {
         "created_at": "2020-05-07T13:20:07Z",
@@ -33481,12 +35256,28 @@
         "id": "43027335"
       },
       {
+        "created_at": "2025-12-02T16:55:36Z",
+        "title": "Gundam is just the same as Jane Austen but happens to include giant mech suits",
+        "url": "https://eli.li/gundam-is-just-the-same-as-jane-austen-but-happens-to-include-giant-mech-suits",
+        "points": 244,
+        "comments": 188,
+        "id": "46123310"
+      },
+      {
         "created_at": "2023-02-22T16:03:34Z",
         "title": "Connecting a 1980s Pinball Machine to the Internet",
         "url": "https://eli.lipsitz.net/posts/internet-connected-pinball/",
         "points": 137,
         "comments": 50,
         "id": "34897668"
+      },
+      {
+        "created_at": "2025-08-27T16:24:13Z",
+        "title": "I'm working on implementing a programming language all my own",
+        "url": "https://eli.li/to-the-surprise-of-literally-no-one-im-working-on-implementing-a-programming-language-all-my-own",
+        "points": 89,
+        "comments": 49,
+        "id": "45041744"
       },
       {
         "created_at": "2024-12-01T17:05:16Z",
@@ -33559,12 +35350,28 @@
         "id": "33409501"
       },
       {
+        "created_at": "2025-07-02T16:59:02Z",
+        "title": "You Must Listen to RFC 2119",
+        "url": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/",
+        "points": 44,
+        "comments": 13,
+        "id": "44446080"
+      },
+      {
         "created_at": "2024-06-07T00:28:58Z",
         "title": "Workplace discrimination: another terrible thing Windows Recall might enable",
         "url": "https://ericwbailey.website/published/workplace-discrimination-another-terrible-thing-windows-recall-might-enable/",
         "points": 15,
         "comments": 1,
         "id": "40604056"
+      },
+      {
+        "created_at": "2025-07-02T00:20:51Z",
+        "title": "You MUST Listen to RFC 2119",
+        "url": "https://ericwbailey.website/published/you-must-listen-to-rfc-2119/",
+        "points": 10,
+        "comments": 1,
+        "id": "44439178"
       }
     ]
   },
@@ -34535,6 +36342,14 @@
         "id": "30528602"
       },
       {
+        "created_at": "2025-06-10T12:56:36Z",
+        "title": "The curious case of shell commands, or how \"this bug is required by POSIX\" (2021)",
+        "url": "https://notes.volution.ro/v1/2021/01/notes/502e747f/",
+        "points": 162,
+        "comments": 125,
+        "id": "44236241"
+      },
+      {
         "created_at": "2022-09-05T22:01:35Z",
         "title": "Static site hosting hurdles",
         "url": "https://notes.volution.ro/v1/2022/09/notes/b08118d8/",
@@ -34868,6 +36683,14 @@
         "id": "6764102"
       },
       {
+        "created_at": "2025-07-26T11:08:03Z",
+        "title": "Bringing a decade old bicycle navigator back to life with open source software",
+        "url": "https://raymii.org/s/blog/Bringing_a_Decade_Old_Bicycle_Navigator_Back_to_Life_with_Open_Source_Software_and_DOOM.html",
+        "points": 179,
+        "comments": 38,
+        "id": "44693129"
+      },
+      {
         "created_at": "2020-12-27T13:04:16Z",
         "title": "Bash HTTP Monitoring Dashboard",
         "url": "https://raymii.org/s/software/Bash_HTTP_Monitoring_Dashboard.html",
@@ -34898,6 +36721,14 @@
         "points": 147,
         "comments": 76,
         "id": "29686862"
+      },
+      {
+        "created_at": "2025-11-20T21:05:12Z",
+        "title": "Run Docker containers natively in Proxmox 9.1 (OCI images)",
+        "url": "https://raymii.org/s/tutorials/Finally_run_Docker_containers_natively_in_Proxmox_9.1.html",
+        "points": 147,
+        "comments": 47,
+        "id": "45997722"
       },
       {
         "created_at": "2023-04-16T16:26:32Z",
@@ -34970,22 +36801,6 @@
         "points": 72,
         "comments": 97,
         "id": "30494456"
-      },
-      {
-        "created_at": "2013-08-31T19:09:11Z",
-        "title": "Set up your own truly secure, encrypted and shared file synchronization",
-        "url": "https://raymii.org/s/articles/Set_up_your_own_truly_secure_encrypted_shared_storage_aka_Dropbox_clone.html",
-        "points": 69,
-        "comments": 23,
-        "id": "6307745"
-      },
-      {
-        "created_at": "2015-03-21T14:38:04Z",
-        "title": "How I got a valid SSL certificate for my ISP's main domain",
-        "url": "https://raymii.org/s/blog/How_I_got_a_valid_SSL_certificate_for_my_ISPs_main_website.html",
-        "points": 68,
-        "comments": 62,
-        "id": "9242825"
       }
     ]
   },
@@ -36011,6 +37826,14 @@
     "desc": "Zach Leatherman (zachleat)",
     "hn": [
       {
+        "created_at": "2025-07-25T17:36:25Z",
+        "title": "Never write your own date parsing library",
+        "url": "https://www.zachleat.com/web/adventures-in-date-parsing/",
+        "points": 265,
+        "comments": 321,
+        "id": "44685875"
+      },
+      {
         "created_at": "2023-03-27T20:47:19Z",
         "title": "Defaulting on Single Page Applications",
         "url": "https://www.zachleat.com/web/single-page-applications/",
@@ -36091,6 +37914,14 @@
         "id": "41084061"
       },
       {
+        "created_at": "2025-12-15T06:31:39Z",
+        "title": "Fuzix on a Raspberry Pi Pico",
+        "url": "https://ewpratten.com/blog/fuzix-pi-pico",
+        "points": 111,
+        "comments": 14,
+        "id": "46271115"
+      },
+      {
         "created_at": "2024-12-14T00:44:55Z",
         "title": "Coercing a Magic MIFARE credential into being an iPhone-compatible NFC tag",
         "url": "https://ewpratten.com/blog/iphone-mifare-magic",
@@ -36106,7 +37937,17 @@
     "about": "https://nkantar.com/about",
     "now": "https://nkantar.com/now",
     "feed": "https://nkantar.com/blog/feed",
-    "desc": "Pythonista, SoCal Python + PyBeach organizer, Instil engineer, motorcyclist, bicyclist, zoo dad, Katie’s even taller half, he/him…"
+    "desc": "Pythonista, SoCal Python + PyBeach organizer, Instil engineer, motorcyclist, bicyclist, zoo dad, Katie’s even taller half, he/him…",
+    "hn": [
+      {
+        "created_at": "2025-08-22T15:15:57Z",
+        "title": "Static sites with Python, uv, Caddy, and Docker",
+        "url": "https://nkantar.com/blog/2025/08/static-python-uv-caddy-docker/",
+        "points": 157,
+        "comments": 88,
+        "id": "44985653"
+      }
+    ]
   },
   {
     "url": "https://lemire.me/blog/",
@@ -36560,6 +38401,14 @@
         "id": "23354637"
       },
       {
+        "created_at": "2025-07-09T07:05:17Z",
+        "title": "Series of posts on HTTP status codes (2018)",
+        "url": "https://evertpot.com/http/",
+        "points": 84,
+        "comments": 12,
+        "id": "44507078"
+      },
+      {
         "created_at": "2023-03-30T19:13:42Z",
         "title": "Switching to Fedora from Ubuntu",
         "url": "https://evertpot.com/switching-to-fedora/",
@@ -36590,14 +38439,6 @@
         "points": 24,
         "comments": 20,
         "id": "6766078"
-      },
-      {
-        "created_at": "2020-02-12T01:09:57Z",
-        "title": "Use a:visited in your CSS stylesheet",
-        "url": "https://evertpot.com/visited-links/",
-        "points": 18,
-        "comments": 6,
-        "id": "22304759"
       }
     ]
   },
@@ -36662,6 +38503,22 @@
         "id": "42852866"
       },
       {
+        "created_at": "2025-06-08T07:38:37Z",
+        "title": "The last six months in LLMs, illustrated by pelicans on bicycles",
+        "url": "https://simonwillison.net/2025/Jun/6/six-months-in-llms/",
+        "points": 962,
+        "comments": 234,
+        "id": "44215352"
+      },
+      {
+        "created_at": "2025-12-31T23:54:46Z",
+        "title": "2025: The Year in LLMs",
+        "url": "https://simonwillison.net/2025/Dec/31/the-year-in-llms/",
+        "points": 940,
+        "comments": 599,
+        "id": "46449643"
+      },
+      {
         "created_at": "2024-09-30T02:58:02Z",
         "title": "NotebookLM's automatically generated podcasts are surprisingly effective",
         "url": "https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/",
@@ -36673,8 +38530,8 @@
         "created_at": "2025-05-22T01:13:50Z",
         "title": "Gemini Diffusion",
         "url": "https://simonwillison.net/2025/May/21/gemini-diffusion/",
-        "points": 885,
-        "comments": 242,
+        "points": 890,
+        "comments": 244,
         "id": "44057820"
       },
       {
@@ -36684,6 +38541,14 @@
         "points": 874,
         "comments": 471,
         "id": "32634074"
+      },
+      {
+        "created_at": "2025-12-18T14:52:11Z",
+        "title": "Your job is to deliver code you have proven to work",
+        "url": "https://simonwillison.net/2025/Dec/18/code-proven-to-work/",
+        "points": 859,
+        "comments": 658,
+        "id": "46313297"
       },
       {
         "created_at": "2023-03-11T19:19:19Z",
@@ -36702,6 +38567,22 @@
         "id": "31824030"
       },
       {
+        "created_at": "2025-10-17T17:40:21Z",
+        "title": "Claude Skills are awesome, maybe a bigger deal than MCP",
+        "url": "https://simonwillison.net/2025/Oct/16/claude-skills/",
+        "points": 738,
+        "comments": 370,
+        "id": "45619537"
+      },
+      {
+        "created_at": "2025-07-11T00:22:43Z",
+        "title": "Grok: Searching X for \"From:Elonmusk (Israel or Palestine or Hamas or Gaza)\"",
+        "url": "https://simonwillison.net/2025/Jul/11/grok-musk/",
+        "points": 734,
+        "comments": 546,
+        "id": "44527190"
+      },
+      {
         "created_at": "2023-03-31T04:45:55Z",
         "title": "AI-enhanced development makes me more ambitious with my projects",
         "url": "https://simonwillison.net/2023/Mar/27/ai-enhanced-development/",
@@ -36710,60 +38591,20 @@
         "id": "35382698"
       },
       {
+        "created_at": "2025-05-25T06:06:39Z",
+        "title": "Claude 4 System Card",
+        "url": "https://simonwillison.net/2025/May/25/claude-4-system-card/",
+        "points": 700,
+        "comments": 252,
+        "id": "44085920"
+      },
+      {
         "created_at": "2024-09-13T00:48:01Z",
         "title": "Notes on OpenAI's new o1 chain-of-thought models",
         "url": "https://simonwillison.net/2024/Sep/12/openai-o1/",
         "points": 699,
         "comments": 629,
         "id": "41527143"
-      },
-      {
-        "created_at": "2025-05-25T06:06:39Z",
-        "title": "Claude 4 System Card",
-        "url": "https://simonwillison.net/2025/May/25/claude-4-system-card/",
-        "points": 685,
-        "comments": 249,
-        "id": "44085920"
-      },
-      {
-        "created_at": "2023-10-23T13:42:12Z",
-        "title": "Embeddings: What they are and why they matter",
-        "url": "https://simonwillison.net/2023/Oct/23/embeddings/",
-        "points": 668,
-        "comments": 131,
-        "id": "37985489"
-      },
-      {
-        "created_at": "2024-10-23T20:52:13Z",
-        "title": "Everything I built with Claude Artifacts this week",
-        "url": "https://simonwillison.net/2024/Oct/21/claude-artifacts/",
-        "points": 637,
-        "comments": 465,
-        "id": "41929174"
-      },
-      {
-        "created_at": "2021-03-05T01:08:49Z",
-        "title": "Open source projects should run office hours",
-        "url": "https://simonwillison.net/2021/Feb/19/office-hours/",
-        "points": 620,
-        "comments": 266,
-        "id": "26351053"
-      },
-      {
-        "created_at": "2023-06-29T02:15:16Z",
-        "title": "CLI tools hidden in the Python standard library",
-        "url": "https://til.simonwillison.net/python/stdlib-cli-tools",
-        "points": 552,
-        "comments": 154,
-        "id": "36515531"
-      },
-      {
-        "created_at": "2023-04-07T16:48:31Z",
-        "title": "We need to tell people ChatGPT will lie to them, not debate linguistics",
-        "url": "https://simonwillison.net/2023/Apr/7/chatgpt-lies/",
-        "points": 546,
-        "comments": 457,
-        "id": "35483823"
       }
     ]
   },
@@ -36830,12 +38671,28 @@
         "id": "39696152"
       },
       {
+        "created_at": "2026-01-13T16:22:59Z",
+        "title": "Are two heads better than one?",
+        "url": "https://eieio.games/blog/two-heads-arent-better-than-one/",
+        "points": 210,
+        "comments": 72,
+        "id": "46603111"
+      },
+      {
         "created_at": "2023-07-09T12:08:25Z",
         "title": "Implementing Wordle in the Firefox address bar",
         "url": "https://eieio.games/nonsense/implementing-wordle-in-the-firefox-address-bar/",
         "points": 208,
         "comments": 19,
         "id": "36653798"
+      },
+      {
+        "created_at": "2025-07-12T10:56:24Z",
+        "title": "Running a million-board chess MMO in a single process",
+        "url": "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process/",
+        "points": 186,
+        "comments": 39,
+        "id": "44541088"
       },
       {
         "created_at": "2024-09-30T01:48:43Z",
@@ -36868,6 +38725,14 @@
         "points": 21,
         "comments": 2,
         "id": "42044908"
+      },
+      {
+        "created_at": "2025-06-25T16:23:06Z",
+        "title": "Running a million-board chess MMO in a single process",
+        "url": "https://eieio.games/blog/a-million-realtime-chess-boards-in-a-single-process/",
+        "points": 16,
+        "comments": 0,
+        "id": "44379051"
       }
     ]
   },
@@ -37057,6 +38922,14 @@
         "points": 45,
         "comments": 26,
         "id": "39465235"
+      },
+      {
+        "created_at": "2025-11-03T06:51:59Z",
+        "title": "Dynamically include files in GitLab-CI",
+        "url": "https://www.zufallsheld.de/2025/10/03/dynamic-gitlab-ci-includes/",
+        "points": 11,
+        "comments": 3,
+        "id": "45796476"
       }
     ]
   },
@@ -37080,6 +38953,14 @@
         "points": 46,
         "comments": 89,
         "id": "38379731"
+      },
+      {
+        "created_at": "2025-12-12T15:51:30Z",
+        "title": "We are not here to make code",
+        "url": "https://www.todepond.com/go/we-are-not-here-to-make-code/",
+        "points": 37,
+        "comments": 18,
+        "id": "46245264"
       },
       {
         "created_at": "2024-03-03T13:30:27Z",
@@ -37406,6 +39287,14 @@
         "points": 29,
         "comments": 14,
         "id": "36751031"
+      },
+      {
+        "created_at": "2025-07-02T13:48:11Z",
+        "title": "\"Swiss Cheese\" Failure Model",
+        "url": "https://www.bookofjoe.com/2025/07/swiss-cheese-failure-model.html",
+        "points": 19,
+        "comments": 10,
+        "id": "44443695"
       },
       {
         "created_at": "2023-11-04T15:56:21Z",
