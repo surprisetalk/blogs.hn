@@ -14004,6 +14004,22 @@
     "about": "https://gist.aviperl.me/about"
   },
   {
+    "url": "https://italianpoetry.it",
+    "title": "Italian Poetry",
+    "feed": "https://italianpoetry.it/poems/index.xml",
+    "desc": "Interactive Italian Poetry, for English speakers",
+    "hn": [
+      {
+        "created_at": "2023-10-15T10:37:13Z",
+        "title": "Show HN: \"Interactive\" Italian Poetry for English Speakers",
+        "url": "https://italianpoetry.it",
+        "points": 187,
+        "comments": 49,
+        "id": "37888606"
+      }
+    ]
+  },
+  {
     "url": "https://gkbrk.com",
     "title": "Gokberk Yaltirakli - Gokberk Yaltirakli",
     "feed": "https://www.gkbrk.com/feed.xml",
