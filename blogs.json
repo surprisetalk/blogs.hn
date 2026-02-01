@@ -52600,6 +52600,23 @@
     "feed": "https://maxirwin.com/feed.xml"
   },
   {
+    "url": "https://www.teotimepacreau.fr",
+    "title": "Developpement web et gestion de projet numérique à Nantes",
+    "feed": "https://www.teotimepacreau.fr/feed/feed.xml",
+    "keywords": "WebDevelopment, Design, Consulting",
+    "desc": "Site web personel de Téotime Pacreau : développement web, design, travail de consultant",
+    "hn": [
+      {
+        "created_at": "2025-06-01T12:08:15.000Z",
+        "title": "Bonnes pratiques pour générer un flux RSS",
+        "url": "https://www.teotimepacreau.fr/blog/bonnes-pratiques-pour-generer-un-flux-rss/",
+        "points": 2,
+        "comments": 3,
+        "id": "44337124"
+      }
+    ]
+  }
+  {
     "url": "https://mccormick.cx",
     "title": "Chris McCormick - independent software developer",
     "keywords": "Chris McCormick -     computer programming",
