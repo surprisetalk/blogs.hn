@@ -235,6 +235,13 @@
     ]
   },
   {
+    "url": "https://toninotes.cc",
+    "title": "Toni Notes",
+    "feed": "https://toninotes.cc/feed.xml",
+    "keywords": "publishing,creator workflows,writing,blogging,digital publishing",
+    "desc": "Practical digital publishing, creator workflows, and the systems behind sustainable online work."
+  },
+  {
     "url": "https://x0axz.com",
     "title": "x0axz's Blog",
     "about": "https://x0axz.com/about.html",
@@ -62022,4 +62029,3 @@
     ]
   }
 ]
-
