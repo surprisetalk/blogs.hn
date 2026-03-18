@@ -24482,6 +24482,12 @@
     "desc": "Thoughts on Tech, Digitization and Entrepreneurship with a strong focus on SaaS and Customer Experience"
   },
   {
+    "url": "https://toninotes.cc",
+    "title": "Toni Notes",
+    "feed": "https://toninotes.cc/feed.xml",
+    "desc": "Practical digital publishing, creator workflows, and the systems behind sustainable online work."
+  },
+  {
     "url": "https://phong.vn",
     "title": "Nguyễn Hữu Phong",
     "keywords": "Nguyễn Hữu Phong,Phong,Hữu Phong",
@@ -62020,12 +62026,6 @@
         "id": "26124917"
       }
     ]
-  },
-  {
-    "url": "https://toninotes.cc",
-    "title": "Toni Notes",
-    "feed": "https://toninotes.cc/feed.xml",
-    "desc": "Practical digital publishing, creator workflows, and the systems behind sustainable online work."
   }
 ]
 
