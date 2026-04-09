@@ -404,6 +404,30 @@
       }
     ]
   },
+   {
+    "url": "https://plantheflow.com",
+    "title": "Daniel Koprowski writing about engineering, leading teams, and protecting focus time to stay technical",
+    "feed": "https://plantheflow.com/blog/rss.xml",
+    "desc": "Writing about leading dev teams without becoming a manager: context switching, effective team process, and protecting time for actual coding.",
+    "hn": [
+      {
+        "created_at": "2026-02-23T20:37:01Z",
+        "title": "Three content-blocking tactics to avoid careless scrolling",
+        "url": "https://plantheflow.com/blog/three-content-blocking-tactics-to-avoid-careless-scrolling/",
+        "points": 1,
+        "comments": 0,
+        "id": "47128430"
+      },
+      {
+        "created_at": "2026-02-21T18:08:41Z",
+        "title": "The Cost of Knowledge Silos in Your Dev Team",
+        "url": "https://plantheflow.com/blog/knowledge-silos-cost/",
+        "points": 1,
+        "comments": 0,
+        "id": "47103125"
+      }
+    ]
+  },
   {
     "url": "https://philipphagenlocher.de",
     "title": "Hallöchen!",
