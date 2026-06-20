@@ -20931,6 +20931,127 @@
     ]
   },
   {
+    "url": "https://rednafi.com",
+    "title": "Redowan's Reflections",
+    "about": "https://rednafi.com/about/",
+    "feed": "https://rednafi.com/index.xml",
+    "desc": "Redowan Delowar writes about software engineering, platform work, distributed systems, resilience, and building reliable products.",
+    "hn": [
+      {
+        "created_at": "2024-06-20T19:55:17Z",
+        "title": "I kind of like rebasing",
+        "url": "https://rednafi.com/misc/on_rebasing/",
+        "points": 307,
+        "comments": 295,
+        "id": "40742628"
+      },
+      {
+        "created_at": "2023-11-06T05:58:00Z",
+        "title": "Oh my poor business logic",
+        "url": "https://rednafi.com/misc/oh_my_poor_business_logic/",
+        "points": 258,
+        "comments": 149,
+        "id": "38159363"
+      },
+      {
+        "created_at": "2025-05-25T07:41:07Z",
+        "title": "Dependency injection frameworks add confusion",
+        "url": "http://rednafi.com/go/di_frameworks_bleh/",
+        "points": 154,
+        "comments": 198,
+        "id": "44086235"
+      },
+      {
+        "created_at": "2024-04-10T22:51:47Z",
+        "title": "ETag and HTTP Caching",
+        "url": "https://rednafi.com/misc/etag_and_http_caching/",
+        "points": 152,
+        "comments": 89,
+        "id": "39996521"
+      },
+      {
+        "created_at": "2026-06-18T17:09:53Z",
+        "title": "Migrating from GNU Stow to Chezmoi",
+        "url": "https://rednafi.com/misc/chezmoi/",
+        "points": 141,
+        "comments": 138,
+        "id": "48588413"
+      },
+      {
+        "created_at": "2023-12-07T00:49:01Z",
+        "title": "The diminishing half-life of knowledge",
+        "url": "https://rednafi.com/zephyr/diminishing_half_life_of_knowledge/",
+        "points": 134,
+        "comments": 80,
+        "id": "38551512"
+      },
+      {
+        "created_at": "2026-03-04T09:00:56Z",
+        "title": "What canceled my Go context?",
+        "url": "https://rednafi.com/go/context-cancellation-cause/",
+        "points": 110,
+        "comments": 66,
+        "id": "47244882"
+      },
+      {
+        "created_at": "2023-12-27T05:46:03Z",
+        "title": "Reminiscing CGI Scripts",
+        "url": "https://rednafi.com/go/reminiscing_cgi_scripts/",
+        "points": 61,
+        "comments": 58,
+        "id": "38779443"
+      },
+      {
+        "created_at": "2025-11-02T10:17:22Z",
+        "title": "Revisiting Interface Segregation in Go",
+        "url": "https://rednafi.com/go/interface-segregation/",
+        "points": 60,
+        "comments": 67,
+        "id": "45789218"
+      },
+      {
+        "created_at": "2025-01-09T07:24:43Z",
+        "title": "Link Blog in a Static Site",
+        "url": "http://rednafi.com/misc/link_blog/",
+        "points": 56,
+        "comments": 17,
+        "id": "42642625"
+      },
+      {
+        "created_at": "2023-07-31T06:56:54Z",
+        "title": "Taming Conditionals with Bitmasks",
+        "url": "https://rednafi.com/python/tame_conditionals_with_bitmasks/",
+        "points": 26,
+        "comments": 0,
+        "id": "36939550"
+      },
+      {
+        "created_at": "2023-06-27T19:39:00Z",
+        "title": "Python Dependency Management Redux",
+        "url": "https://rednafi.com/python/dependency_management_redux/",
+        "points": 25,
+        "comments": 0,
+        "id": "36497642"
+      },
+      {
+        "created_at": "2024-07-20T12:26:42Z",
+        "title": "Dysfunctional Options Pattern in Go",
+        "url": "https://rednafi.com/go/dysfunctional_options_pattern/",
+        "points": 19,
+        "comments": 8,
+        "id": "41015991"
+      },
+      {
+        "created_at": "2023-12-16T22:15:12Z",
+        "title": "Banish state-mutating methods from data classes",
+        "url": "https://rednafi.com/python/dataclasses_and_methods/",
+        "points": 13,
+        "comments": 4,
+        "id": "38668254"
+      }
+    ]
+  },
+  {
     "url": "https://mrkaran.dev",
     "title": "Karan Sharma",
     "desc": "Old Man Yells at Cloud",
