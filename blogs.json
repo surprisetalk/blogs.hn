@@ -21018,22 +21018,6 @@
         "id": "42642625"
       },
       {
-        "created_at": "2023-07-31T06:56:54Z",
-        "title": "Taming Conditionals with Bitmasks",
-        "url": "https://rednafi.com/python/tame_conditionals_with_bitmasks/",
-        "points": 26,
-        "comments": 0,
-        "id": "36939550"
-      },
-      {
-        "created_at": "2023-06-27T19:39:00Z",
-        "title": "Python Dependency Management Redux",
-        "url": "https://rednafi.com/python/dependency_management_redux/",
-        "points": 25,
-        "comments": 0,
-        "id": "36497642"
-      },
-      {
         "created_at": "2024-07-20T12:26:42Z",
         "title": "Dysfunctional Options Pattern in Go",
         "url": "https://rednafi.com/go/dysfunctional_options_pattern/",
