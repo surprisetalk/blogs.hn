@@ -1,5 +1,13 @@
 [
   {
+    "url": "https://matthewblode.com",
+    "title": "Matthew Blode",
+    "about": "https://matthewblode.com/about",
+    "feed": "https://matthewblode.com/feed.xml",
+    "desc": "Essays on building products, shipping with AI, and developer craft from a Melbourne-based product engineer at Linktree.",
+    "hn": []
+  },
+  {
     "url": "https://taylor.town",
     "title": "Taylor Troesh",
     "about": "https://taylor.town/about",
