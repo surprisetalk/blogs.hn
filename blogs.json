@@ -60558,9 +60558,11 @@
     "desc": "Natural general intelligence. Some kind of artist. Co-Founder and CTO at ThinkNimble."
   },
   {
-    "url": "https://williamivy.com",
-    "title": "William Ivy - Portfolio",
-    "feed": "https://www.williamivy.com/index.xml"
+  "url": "https://www.williamivy.com/",
+  "title": "William Ivy - art x tech",
+  "feed": "https://www.williamivy.com/index.xml",
+  "keywords": "electronics,electron microscopy,home lab,lasers,software,sound synthesis,motion capture,radiation",
+  "desc": "Personal project site with original writeups on home-lab science, electronics, electron microscopy, radiation detection, lasers, software and sound synthesis."
   },
   {
     "url": "https://willmorrison.net",
