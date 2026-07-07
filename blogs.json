@@ -58319,6 +58319,12 @@
     "desc": "Software engineer writing about crafting developer tools and interesting problems."
   },
   {
+    "url": "https://blog.qligier.ch",
+    "title": "Quentin's blog",
+    "feed": "https://blog.qligier.ch/index.xml",
+    "desc": "Welcome to Quentin's blog, where I write about my interests, work and hobbies, sharing (hopefully) useful bits of my knowledge."
+  },
+  {
     "url": "https://tech.stonecharioteer.com",
     "title": "Stonecharioteer on Tech",
     "feed": "https://tech.stonecharioteer.com/index.xml",
