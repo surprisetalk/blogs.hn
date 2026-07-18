@@ -6305,6 +6305,13 @@
     "desc": "My personal tech blog, exploring predictable programming, next level automation, and the stabilisation of software as an engineering practice."
   },
   {
+    "url": "https://blog.merimerimeri.com",
+    "title": "Stephen Meriwether's Blog",
+    "about": "https://blog.merimerimeri.com/about/",
+    "feed": "https://blog.merimerimeri.com/feed.xml",
+    "desc": "A daily microblog: short notes on Apple, sports, engineering leadership, and building with LLMs and coding agents."
+  },
+  {
     "url": "https://blog.merzlabs.com",
     "title": "Merzlabs Blog",
     "feed": "https://blog.merzlabs.com/index.xml",
