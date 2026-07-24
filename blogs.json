@@ -9287,6 +9287,23 @@
     ]
   },
   {
+    "url": "https://coles.codes/",
+    "title": "coles.codes",
+    "about": "https://coles.codes/about",
+    "feed": "https://coles.codes/index.xml",
+    "desc": "Technical notes from Matt Coles in Melbourne, Australia on Python tools and AI agents, open-source LLMs, homelab, and cloud architecture with AWS CDK.",
+    "hn": [
+      {
+        "created_at": "2026-07-22T14:11:24Z",
+        "title": "Reviewing code you didn't write",
+        "url": "https://coles.codes/posts/reviewing-code-you-didnt-write",
+        "points": 15,
+        "comments": 4,
+        "id": "49007149"
+      }
+    ]
+  },
+  {
     "url": "https://colobu.com",
     "title": "",
     "about": "https://colobu.com/about",
