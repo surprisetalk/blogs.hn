@@ -31030,6 +31030,55 @@
     ]
   },
   {
+    "url": "https://david.alvarezrosa.com",
+    "title": "David Álvarez Rosa",
+    "about": "https://david.alvarezrosa.com/about/",
+    "feed": "https://david.alvarezrosa.com/index.xml",
+    "desc": "Hi! This is my personal site, where I share notes on software and self-hosting. You’ll learn how things work under the hood, and how to make them run fast, very fast.",
+    "hn": [
+      {
+        "created_at": "2026-03-24T12:52:04Z",
+        "title": "Optimizing a lock-free ring buffer",
+        "url": "https://david.alvarezrosa.com/posts/optimizing-a-lock-free-ring-buffer/",
+        "points": 104,
+        "comments": 95,
+        "id": "47501875"
+      },
+      {
+        "created_at": "2026-04-23T01:09:56Z",
+        "title": "Fundamental Theorem of Calculus",
+        "url": "https://david.alvarezrosa.com/posts/fundamental-theorem-of-calculus/",
+        "points": 62,
+        "comments": 66,
+        "id": "47871246"
+      },
+      {
+        "created_at": "2026-02-25T18:41:23Z",
+        "title": "Devirtualization and Static Polymorphism",
+        "url": "https://david.alvarezrosa.com/posts/devirtualization-and-static-polymorphism/",
+        "points": 53,
+        "comments": 42,
+        "id": "47155811"
+      },
+      {
+        "created_at": "2026-03-10T10:41:00Z",
+        "title": "Deriving Type Erasure",
+        "url": "https://david.alvarezrosa.com/posts/deriving-type-erasure/",
+        "points": 31,
+        "comments": 8,
+        "id": "47321469"
+      },
+      {
+        "created_at": "2026-06-26T16:45:53Z",
+        "title": "Tuning a Server for Benchmarking",
+        "url": "https://david.alvarezrosa.com/posts/tuning-a-server-for-benchmarking/",
+        "points": 10,
+        "comments": 0,
+        "id": "48688778"
+      }
+    ]
+  },
+  {
     "url": "https://uzpg.me",
     "title": "UZPG",
     "hn": [
