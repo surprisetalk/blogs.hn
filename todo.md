@@ -1,0 +1,2 @@
+- [ ] https://minifeed.net/blogs
+- [ ] https://bubbles.town
