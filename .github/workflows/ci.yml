@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  pull_request:
+    paths:
+      - blogs.json
+      - "**.ts"
+      - build.js
+      - template.html
+      - style.css
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno lint
+      - run: deno test --allow-read=blogs.json --allow-env=GITHUB_EVENT_NAME
+      - run: node build.js
