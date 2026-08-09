@@ -1,11 +1,20 @@
 [
   {
-    "url": "https://matthewblode.com",
+    "url": "https://blode.co",
     "title": "Matthew Blode",
-    "about": "https://matthewblode.com/about",
-    "feed": "https://matthewblode.com/feed.xml",
+    "about": "https://blode.co/about",
+    "feed": "https://blode.co/feed.xml",
     "desc": "Essays on building products, shipping with AI, and developer craft from a Melbourne-based product engineer at Linktree.",
-    "hn": []
+    "hn": [
+      {
+        "created_at": "2019-06-18T12:04:28Z",
+        "title": "Show HN: A Modern Hacker News Client",
+        "url": "https://blode.co/hn/",
+        "points": 14,
+        "comments": 0,
+        "id": "20212078"
+      }
+    ]
   },
   {
     "url": "https://taylor.town",
@@ -52496,21 +52505,6 @@
         "points": 12,
         "comments": 6,
         "id": "10037583"
-      }
-    ]
-  },
-  {
-    "url": "https://matthewblode.com",
-    "title": "Matthew Blode — Product Leader & Startup Founder",
-    "desc": "Product leader and engineer. Co-Head of LinkApps at Linktree. Two startup exits, Forbes 30 Under 30. Building tools for creators and SMBs.",
-    "hn": [
-      {
-        "created_at": "2019-06-18T12:04:28Z",
-        "title": "Show HN: A Modern Hacker News Client",
-        "url": "https://hn.matthewblode.com/",
-        "points": 14,
-        "comments": 0,
-        "id": "20212078"
       }
     ]
   },
