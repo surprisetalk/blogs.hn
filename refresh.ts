@@ -45,11 +45,16 @@ export const fnv1a = (s: string): number => {
 
 export const shardOf = (url: string): number => fnv1a(url) % CYCLE;
 
-const ENT: Record<string, string> = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'" };
+const ENT: Record<string, string> = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", hellip: "…",
+  mdash: "—", ndash: "–", lsquo: "‘", rsquo: "’", ldquo: "“",
+  rdquo: "”", laquo: "«", raquo: "»", middot: "·", bull: "•", deg: "°",
+  times: "×", copy: "©", reg: "®", trade: "™",
+};
 
 export const decodeEntities = (s: string): string =>
   s.replace(
-    /&(?:#x([0-9a-f]+)|#(\d+)|(amp|lt|gt|quot|apos));/gi,
+    new RegExp(`&(?:#x([0-9a-f]+)|#(\\d+)|(${Object.keys(ENT).join("|")}));`, "gi"),
     (_, hex, dec, name) =>
       name ? ENT[name.toLowerCase()] : cp(parseInt(hex ?? dec, hex ? 16 : 10)),
   );
@@ -72,7 +77,9 @@ export const clean = (s?: string): string | undefined => {
     .slice(0, 300)
     .replace(/[\ud800-\udbff]$/, "")
     .trim();
-  return !t || JUNK.test(t) ? undefined : t;
+  // Requires a letter, a digit, or an emoji: "..." and "…" are theme filler,
+  // but a wall of frogs is a real description.
+  return !t || JUNK.test(t) || !/[\p{L}\p{N}\p{So}]/u.test(t) ? undefined : t;
 };
 
 export type Link = { tag: string; href: URL; rel: string; type: string };
@@ -142,10 +149,10 @@ export const sameSite = (a: string, b: string): boolean => {
   return x === y || x.endsWith("." + y) || y.endsWith("." + x);
 };
 
-// panr authors a popular Hugo theme; ghost/svbtle are the host platforms.
+// panr authors a popular Hugo theme; ghost/svbtle/tumblr are host platforms.
 // Their links ride along in footers and get mistaken for the blog's author.
 const GH_DENY = new Set("about apps blog collections contact customer-stories enterprise events explore features join login marketplace notifications orgs panr pricing readme security settings site sponsors team topics trending".split(" "));
-const X_DENY = new Set("explore ghost hashtag home i intent login messages notifications panr privacy search settings share signup svbtle tos".split(" "));
+const X_DENY = new Set("explore ghost hashtag home i intent login messages notifications panr privacy search settings share signup svbtle tos tumblr".split(" "));
 // mastodon.* and mstdn.* hosts match by prefix; this list is the rest.
 const MASTO_HOSTS = new Set("fosstodon.org hachyderm.io infosec.exchange mas.to chaos.social indieweb.social techhub.social mathstodon.xyz sigmoid.social functional.cafe merveilles.town octodon.social social.coop scholar.social fediscience.org hci.social discuss.systems types.pl ruby.social phpc.social front-end.social social.tchncs.de tech.lgbt universeodon.com masto.ai c.im toot.community social.vivaldi.net metalhead.club social.linux.pizza mamot.fr norden.social troet.cafe det.social aus.social mastodonapp.uk tilde.zone vis.social peoplemaking.games gamedev.lgbt pawoo.net".split(" "));
 const isMastoInstance = (host: string): boolean =>
@@ -269,6 +276,13 @@ export const normalize = (blog: Blog): Blog => {
     const u = parse(raw);
     return !!u && sameSite(u.hostname, host);
   };
+  // extractPage only ever returns links whose host matches exactly, so
+  // anything looser is stale. It is how medium.com/about ends up filed
+  // under a dozen *.medium.com blogs.
+  const sameHost = (raw: string): boolean => {
+    const u = parse(raw);
+    return !!u && stripWww(u.hostname) === host;
+  };
   const feedOk = (raw: string): boolean => {
     const u = parse(raw);
     return !!u && canonUrl(raw) !== url &&
@@ -288,7 +302,7 @@ export const normalize = (blog: Blog): Blog => {
     const val = key === "title" || key === "desc" || key === "keywords"
       ? clean(raw)
       : key === "about" || key === "now"
-      ? (onSite(raw) ? raw : undefined)
+      ? (sameHost(raw) ? raw : undefined)
       : key === "feed"
       ? (feedOk(raw) ? raw : undefined)
       : canonSocial(key, raw, host);

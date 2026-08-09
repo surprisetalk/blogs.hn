@@ -166,6 +166,11 @@ Deno.test("clean: junk and markup", () => {
   assert(!/[\ud800-\udbff]$/.test(clean("x".repeat(299) + "🐸")!), "cap never splits a surrogate pair");
   assertEquals(clean("A blog powered by Hashnode"), undefined, "host boilerplate dropped");
   assertEquals(clean("ExampleSite description"), undefined, "theme boilerplate dropped");
+  assertEquals(clean("..."), undefined, "punctuation-only filler dropped");
+  assertEquals(clean("&hellip;"), undefined, "...even once decoded");
+  assertEquals(clean("🐸🐸🐸"), "🐸🐸🐸", "emoji are real content");
+  assertEquals(clean("Posts &mdash; defn.io"), "Posts — defn.io", "common entities decoded");
+  assertEquals(clean("Julio Merino&rsquo;s blog"), "Julio Merino’s blog");
   assertEquals(decodeEntities("&amp;lt;"), "&lt;", "no double decode (named)");
   assertEquals(decodeEntities("&#38;lt;"), "&lt;", "no double decode (numeric)");
 });
@@ -199,7 +204,9 @@ Deno.test("normalize: drops what it cannot attribute to the blog", () => {
     hn: [{ ...hn("1"), url: "https://foo.com/p" }],
   }, "boilerplate desc, off-site now, theme-author github, off-site story all dropped");
   assertEquals(Object.keys(normalize({ url: "https://a.com", hn: [], feed: "https://a.com" })), ["url"], "empty hn and self-referential feed dropped");
-  assertEquals(normalize({ url: "https://a.com", now: "https://blog.a.com/now" }).now, "https://blog.a.com/now", "subdomain counts as same site");
+  assertEquals(normalize({ url: "https://a.com", now: "https://www.a.com/now" }).now, "https://www.a.com/now", "www counts as the same host");
+  assertEquals(normalize({ url: "https://x.medium.com", about: "https://medium.com/about" }).about, undefined, "platform about page is not the author's");
+  assertEquals(normalize({ url: "https://a.com", hn: [{ ...hn("1"), url: "https://blog.a.com/p" }] }).hn?.length, 1, "stories may live on a subdomain");
   assertEquals(normalize({ url: "https://a.com", title: "Julia Evans", desc: "julia evans" }).desc, undefined, "desc echoing the title dropped");
   assertEquals(normalize({ url: "https://a.com", desc: "Julia Evans" }).desc, "Julia Evans", "desc kept when there is no title");
   assertEquals(normalize({ url: "https://gwern.net", feed: "https://gwern.substack.com/feed" }).feed, "https://gwern.substack.com/feed", "newsletter platform feed kept");
