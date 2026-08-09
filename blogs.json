@@ -2687,7 +2687,8 @@
   {
     "url": "https://amishbhadeshia.co.uk",
     "title": "Amish's Blog",
-    "feed": "https://amishbhadeshia.co.uk/index.xml"
+    "feed": "https://amishbhadeshia.co.uk/index.xml",
+    "about": "https://www.amishbhadeshia.co.uk/about/"
   },
   {
     "url": "https://amistrongeryet.substack.com",
@@ -3680,7 +3681,9 @@
         "comments": 35,
         "id": "48402744"
       }
-    ]
+    ],
+    "github": "https://github.com/arnorhs",
+    "bluesky": "https://bsky.app/profile/arnorhs.dev"
   },
   {
     "url": "https://artem.krylysov.com",
@@ -4668,7 +4671,11 @@
     "github": "https://github.com/bcmullins"
   },
   {
-    "url": "https://beckham.nz"
+    "url": "https://beckham.nz",
+    "title": "Home",
+    "desc": "Academic blog: generative models, diffusion, VAEs, and model-based optimisation, amongst other topics. ML researcher",
+    "feed": "https://beckham.nz/feed.xml",
+    "github": "https://github.com/christopher-beckham"
   },
   {
     "url": "https://ben.bolte.cc",
@@ -4685,7 +4692,9 @@
         "id": "39950812"
       }
     ],
-    "desc": "A blog about robotics, AI and the future"
+    "desc": "A blog about robotics, AI and the future",
+    "github": "https://github.com/codekansas",
+    "x": "https://x.com/benjamin_bolte"
   },
   {
     "url": "https://benbrougher.tech",
@@ -5410,7 +5419,8 @@
     "url": "https://blog.cetinich.net",
     "title": "Welcome to Brent Cetinich’s Blog! — Brent's Blog",
     "about": "https://blog.cetinich.net/about/",
-    "feed": "https://blog.cetinich.net/blog/atom.xml"
+    "feed": "https://blog.cetinich.net/blog/atom.xml",
+    "x": "https://x.com/CetinichBrent"
   },
   {
     "url": "https://blog.chand1012.dev",
@@ -5808,7 +5818,8 @@
         "id": "21995562"
       }
     ],
-    "title": "Index"
+    "title": "Index",
+    "github": "https://github.com/gnoack"
   },
   {
     "url": "https://blog.henrygressmann.de",
@@ -5887,7 +5898,8 @@
       }
     ],
     "desc": "Building tech, and teams that build tech. Software, cloud, electronics, whatever.",
-    "about": "https://blog.herlein.com/about/"
+    "about": "https://blog.herlein.com/about/",
+    "github": "https://github.com/gherlein"
   },
   {
     "url": "https://blog.hnnng.space",
@@ -7690,8 +7702,8 @@
         "created_at": "2026-08-08T14:32:33Z",
         "title": "“Code was never the hard part” is an insult to all programmers",
         "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-        "points": 585,
-        "comments": 365,
+        "points": 594,
+        "comments": 369,
         "id": "49222189"
       },
       {
@@ -8661,7 +8673,10 @@
         "id": "48254336"
       }
     ],
-    "about": "https://borretti.me/about/"
+    "about": "https://borretti.me/about/",
+    "github": "https://github.com/eudoxia0",
+    "bluesky": "https://bsky.app/profile/eudoxia.bsky.social",
+    "x": "https://x.com/zetalyrae"
   },
   {
     "url": "https://boston.conman.org",
@@ -11005,7 +11020,9 @@
         "id": "48971128"
       }
     ],
-    "about": "https://daniel.lawrence.lu/about"
+    "about": "https://daniel.lawrence.lu/about",
+    "github": "https://github.com/dllu",
+    "x": "https://x.com/dllu"
   },
   {
     "url": "https://danieljanus.substack.com",
@@ -12746,7 +12763,8 @@
         "comments": 4,
         "id": "1224379"
       }
-    ]
+    ],
+    "about": "https://www.dotcoma.it/about"
   },
   {
     "url": "https://dquach.com",
@@ -12776,7 +12794,8 @@
   {
     "url": "https://dskrzypiec.dev",
     "title": "DSkrzypiec Blog",
-    "about": "https://dskrzypiec.dev/about"
+    "about": "https://dskrzypiec.dev/about",
+    "github": "https://github.com/DSkrzypiec"
   },
   {
     "url": "https://du.nkel.dev",
@@ -12890,7 +12909,10 @@
         "comments": 35,
         "id": "44303783"
       }
-    ]
+    ],
+    "desc": "DusteDs personal website, geeky stuff found here.",
+    "github": "https://github.com/DusteDdk",
+    "x": "https://x.com/DusteDdk"
   },
   {
     "url": "https://dustin.lammiman.ca",
@@ -12981,7 +13003,8 @@
         "comments": 3,
         "id": "32344049"
       }
-    ]
+    ],
+    "github": "https://github.com/ganderzz"
   },
   {
     "url": "https://dystroy.org",
@@ -13145,7 +13168,11 @@
         "id": "43243075"
       }
     ],
-    "keywords": "ai,ansible,apple,automation,diy,electronics,finance,fun,hardware,iot,legacy,logbook,misc,music,network,photography,privacy,programming,repost,review,selfhost,short,studies,tutorial,"
+    "keywords": "ai,ansible,apple,automation,diy,electronics,finance,fun,hardware,iot,legacy,logbook,misc,music,network,photography,privacy,programming,repost,review,selfhost,short,studies,tutorial,",
+    "github": "https://github.com/eliseomartelli",
+    "bluesky": "https://bsky.app/profile/eliseomartelli.it",
+    "x": "https://x.com/eliseomartelli",
+    "mastodon": "https://mastodon.social/@eliseomartelli"
   },
   {
     "url": "https://eliza-ng.me",
@@ -13965,7 +13992,9 @@
     ],
     "desc": "Technology essays and photography by Avy Faingezicht, mostly about software engineering, AI, startups, economics, cities, books, and travel.",
     "about": "https://faingezicht.com/about/",
-    "feed": "https://faingezicht.com/atom.xml"
+    "feed": "https://faingezicht.com/atom.xml",
+    "github": "https://github.com/avyfain",
+    "x": "https://x.com/avyfain"
   },
   {
     "url": "https://falconius.com",
@@ -14609,7 +14638,9 @@
         "id": "19578366"
       }
     ],
-    "about": "https://gallant.dev/about/"
+    "about": "https://gallant.dev/about/",
+    "github": "https://github.com/agallant",
+    "bluesky": "https://bsky.app/profile/gallant.bsky.social"
   },
   {
     "url": "https://garden.bradwoods.io",
@@ -14706,7 +14737,8 @@
         "comments": 5,
         "id": "42904755"
       }
-    ]
+    ],
+    "x": "https://x.com/canva"
   },
   {
     "url": "https://garrickvanburen.com",
@@ -14720,7 +14752,11 @@
         "comments": 123,
         "id": "5031378"
       }
-    ]
+    ],
+    "desc": "Finding what's forgotten.",
+    "about": "https://garrickvanburen.com/about/",
+    "now": "https://garrickvanburen.com/now/",
+    "feed": "https://garrickvanburen.com/feed/"
   },
   {
     "url": "https://group.miletic.net/en/blog/",
@@ -16182,7 +16218,8 @@
     "about": "https://ihavea.quest/about",
     "desc": "FOSS developer, Arch Linux packager, and builder of kind",
     "keywords": "txtsd, kind, native Discord client, C++, Qt, FOSS, Free and Open Source Software, copyleft, Arch Linux, AUR, Prism Launcher, minecraft",
-    "feed": "https://ihavea.quest/index.xml"
+    "feed": "https://ihavea.quest/index.xml",
+    "github": "https://github.com/txtsd"
   },
   {
     "url": "https://ilearnt.com",
@@ -16400,7 +16437,9 @@
         "comments": 24,
         "id": "34656008"
       }
-    ]
+    ],
+    "github": "https://github.com/IanNorris",
+    "mastodon": "https://mas.to/@icStatic"
   },
   {
     "url": "https://insightfultroll.com",
@@ -17310,7 +17349,8 @@
     "about": "https://jcruz.eu/contact/",
     "feed": "https://jcruz.eu/posts/index.xml",
     "desc": "This is João Serote Cruz's internet home! Here you'll find thoughts about programming and philosophy.",
-    "keywords": "personal homepage,programming,linux,philosophy,essays"
+    "keywords": "personal homepage,programming,linux,philosophy,essays",
+    "github": "https://github.com/jrcruz"
   },
   {
     "url": "https://jdlm.info",
@@ -17972,7 +18012,9 @@
     "title": "John Mathews Blog",
     "about": "https://johnmathews.is/about",
     "feed": "https://johnmathews.is/feed.xml",
-    "desc": "A blog by John Mathews"
+    "desc": "A blog by John Mathews",
+    "github": "https://github.com/johnmathews",
+    "x": "https://x.com/johnmathews"
   },
   {
     "url": "https://johntellsall.com",
@@ -18004,7 +18046,9 @@
     "desc": "Just my personal blog, with a focus on technology.",
     "about": "https://diogoferreira.pt/about",
     "feed": "https://diogoferreira.pt/rss",
-    "keywords": "home automation, linux, tips, technology, 3d printing, diy"
+    "keywords": "home automation, linux, tips, technology, 3d printing, diy",
+    "github": "https://github.com/uzantonomon",
+    "x": "https://x.com/uzantonomon"
   },
   {
     "url": "https://joisig.com",
@@ -19312,7 +19356,10 @@
         "comments": 10,
         "id": "48743502"
       }
-    ]
+    ],
+    "now": "https://kulman.sk/now/",
+    "github": "https://github.com/igorkulman",
+    "mastodon": "https://hachyderm.io/@igorkulman"
   },
   {
     "url": "https://l-o-o-s-e-d.net",
@@ -19739,7 +19786,8 @@
         "id": "47757013"
       }
     ],
-    "about": "https://leadership.garden/about/"
+    "about": "https://leadership.garden/about/",
+    "github": "https://github.com/ochronus"
   },
   {
     "url": "https://learnandburn.ai",
@@ -19867,7 +19915,9 @@
       }
     ],
     "desc": "Learn Python, Regex, Linux, Scripting, Vim, Ebooks, Self-Publishing and Interesting Tech Nuggets.",
-    "feed": "https://learnbyexample.github.io/atom.xml"
+    "feed": "https://learnbyexample.github.io/atom.xml",
+    "github": "https://github.com/learnbyexample",
+    "x": "https://x.com/learn_byexample"
   },
   {
     "url": "https://leehauser.com",
@@ -20176,7 +20226,12 @@
         "comments": 0,
         "id": "28018258"
       }
-    ]
+    ],
+    "desc": "Software Development For People That Help People.",
+    "keywords": "swift,objective-c,ios,tvos,macos,apple,computer,software,development,apps,app store,PHP,JavaScript,CSS,HTML,Web Design",
+    "about": "https://littlegreenviper.com/about/",
+    "feed": "https://littlegreenviper.com/feed/",
+    "github": "https://github.com/LittleGreenViper"
   },
   {
     "url": "https://live.julik.nl",
@@ -20554,7 +20609,9 @@
     "feed": "https://luten.dev/feed.xml",
     "desc": "Eddy Luten’s personal blog with posts of dubious quality since 2006",
     "about": "https://luten.dev/about/",
-    "now": "https://luten.dev/now/"
+    "now": "https://luten.dev/now/",
+    "github": "https://github.com/EddyLuten",
+    "bluesky": "https://bsky.app/profile/luten.dev"
   },
   {
     "url": "https://lyte.dev",
@@ -20610,7 +20667,8 @@
     "title": "malgregator",
     "feed": "https://malgregator.com/index.xml",
     "desc": "DevOps, Security, Cryptography",
-    "about": "https://malgregator.com/about/"
+    "about": "https://malgregator.com/about/",
+    "github": "https://github.com/viralpoetry"
   },
   {
     "url": "https://malloc.dog",
@@ -20837,7 +20895,8 @@
   {
     "url": "https://marcelv.net",
     "title": "marcelv.net - elektronica, programmeren en 3d-printen",
-    "desc": "Ik maak apparaten met ge-3d-printe behuizingen, elektronica, Arduino en Raspberry Pi's, programmeer shell- en Greasemonkey-scripts en programmeer applicaties in C# en JavaScript."
+    "desc": "Ik maak apparaten met ge-3d-printe behuizingen, elektronica, Arduino en Raspberry Pi's, programmeer shell- en Greasemonkey-scripts en programmeer applicaties in C# en JavaScript.",
+    "github": "https://github.com/M4rc3lv"
   },
   {
     "url": "https://marcolabarile.me",
@@ -23192,7 +23251,10 @@
         "id": "48861515"
       }
     ],
-    "feed": "https://mssv.net/feed/"
+    "feed": "https://mssv.net/feed/",
+    "bluesky": "https://bsky.app/profile/adrianhon.bsky.social",
+    "x": "https://x.com/adrianhon",
+    "mastodon": "https://mastodon.social/@adrianhon"
   },
   {
     "url": "https://mteam88.github.io",
@@ -24716,7 +24778,10 @@
         "comments": 166,
         "id": "48798061"
       }
-    ]
+    ],
+    "desc": "A collection of notes by Lex Toumbourou.",
+    "github": "https://github.com/lextoumbourou",
+    "bluesky": "https://bsky.app/profile/notesbylex.com"
   },
   {
     "url": "https://nothingeasyaboutthis.com",
@@ -26043,7 +26108,9 @@
         "comments": 1,
         "id": "10611447"
       }
-    ]
+    ],
+    "github": "https://github.com/pc",
+    "x": "https://x.com/patrickc"
   },
   {
     "url": "https://patrickdap.com",
@@ -26152,7 +26219,8 @@
     "title": "Paul's page",
     "about": "https://paul.totterman.name/about",
     "feed": "https://paul.totterman.name/index.xml",
-    "desc": "My blog"
+    "desc": "My blog",
+    "github": "https://github.com/ptman"
   },
   {
     "url": "https://paulbridger.com",
@@ -26361,7 +26429,9 @@
       }
     ],
     "about": "https://paulstamatiou.com/about",
-    "feed": "https://paulstamatiou.com/posts.xml"
+    "feed": "https://paulstamatiou.com/posts.xml",
+    "x": "https://x.com/Stammy",
+    "mastodon": "https://mastodon.social/@stammy"
   },
   {
     "url": "https://paulw.tokyo",
@@ -27567,7 +27637,8 @@
         "comments": 3,
         "id": "48346371"
       }
-    ]
+    ],
+    "github": "https://github.com/PrashamTrivedi"
   },
   {
     "url": "https://prashantbarahi.com.np",
@@ -29516,7 +29587,8 @@
         "comments": 2,
         "id": "45694566"
       }
-    ]
+    ],
+    "x": "https://x.com/jakedahn"
   },
   {
     "url": "https://shufflingbytes.com",
@@ -30340,7 +30412,9 @@
         "comments": 9,
         "id": "34878685"
       }
-    ]
+    ],
+    "feed": "https://somethingdecent.co.uk/feed/",
+    "x": "https://x.com/SummitDecent"
   },
   {
     "url": "https://sonnet.io",
@@ -30538,13 +30612,15 @@
   {
     "url": "https://sources.werd.io",
     "title": "Ben Werdmuller: Sources",
-    "about": "https://jacky.wtf/about"
+    "about": "https://jacky.wtf/about",
+    "mastodon": "https://todon.eu/@jalcine"
   },
   {
     "url": "https://spaccapeli.com",
     "about": "https://spaccapeli.com/about",
     "title": "daniele spaccapeli",
-    "desc": "product builder writing about tech and tinkering on projects"
+    "desc": "product builder writing about tech and tinkering on projects",
+    "x": "https://x.com/dspaccapeli"
   },
   {
     "url": "https://spacedimp.com",
@@ -31093,7 +31169,8 @@
         "comments": 302,
         "id": "19604135"
       }
-    ]
+    ],
+    "x": "https://x.com/mfioretti_en"
   },
   {
     "url": "https://stork-search.net",
@@ -31672,7 +31749,8 @@
         "id": "32184031"
       }
     ],
-    "desc": "Writer, Founder, and Devtools Startup Advisor based in San Francisco."
+    "desc": "Writer, Founder, and Devtools Startup Advisor based in San Francisco.",
+    "github": "https://github.com/swyxio"
   },
   {
     "url": "https://synystron.substack.com",
@@ -32440,7 +32518,10 @@
         "id": "42803483"
       }
     ],
-    "desc": "Richard Li"
+    "desc": "Richard Li",
+    "bluesky": "https://bsky.app/profile/rdli.bsky.social",
+    "x": "https://x.com/rdli",
+    "mastodon": "https://mastodon.social/@rdli"
   },
   {
     "url": "https://thelisowe.com",
@@ -32952,7 +33033,8 @@
         "id": "25026227"
       }
     ],
-    "keywords": "advisory,adware,agents,ai,appsec,automation,aws,azure,banking,ci,claude-code,cli,containers,costs,debugging,declarative-infra,detection,dll-injection,docker,email,expect,fraud,freebsd,gcp,gcr,gcs,github-actions,gsuite,haskell,honeypot,iam,incident-response,investigation,javascript,k8s,llm,macos,malw"
+    "keywords": "advisory,adware,agents,ai,appsec,automation,aws,azure,banking,ci,claude-code,cli,containers,costs,debugging,declarative-infra,detection,dll-injection,docker,email,expect,fraud,freebsd,gcp,gcr,gcs,github-actions,gsuite,haskell,honeypot,iam,incident-response,investigation,javascript,k8s,llm,macos,malw",
+    "github": "https://github.com/gbrindisi"
   },
   {
     "url": "https://timdietrich.me",
@@ -33674,7 +33756,8 @@
       }
     ],
     "about": "https://tynan.com/about/",
-    "feed": "https://tynan.com/feed/"
+    "feed": "https://tynan.com/feed/",
+    "x": "https://x.com/tynan"
   },
   {
     "url": "https://udia.ca",
@@ -33745,7 +33828,17 @@
     "about": "https://unsungnovelty.org/about/",
     "now": "https://unsungnovelty.org/now/",
     "github": "https://github.com/unsungNovelty",
-    "x": "https://x.com/unsungNovelty"
+    "x": "https://x.com/unsungNovelty",
+    "hn": [
+      {
+        "created_at": "2026-07-28T13:01:09Z",
+        "title": "There are no fire alarms when it comes to privacy",
+        "url": "https://www.unsungnovelty.org/posts/07/2026/fire-alarms-privacy/",
+        "points": 12,
+        "comments": 0,
+        "id": "49083149"
+      }
+    ]
   },
   {
     "url": "https://uptointerpretation.com",
@@ -34136,6 +34229,14 @@
         "points": 12,
         "comments": 1,
         "id": "44664723"
+      },
+      {
+        "created_at": "2026-04-05T21:57:52Z",
+        "title": "My university uses prompt injection to catch cheaters",
+        "url": "https://varun.ch/til/prompt-injection-catch-cheaters/",
+        "points": 112,
+        "comments": 63,
+        "id": "47654317"
       }
     ],
     "desc": "Web developer and cybersecurity researcher.",
@@ -34169,6 +34270,14 @@
         "points": 54,
         "comments": 21,
         "id": "26048439"
+      },
+      {
+        "created_at": "2026-07-18T11:06:50Z",
+        "title": "Why do AI company logos look like buttholes? (2025)",
+        "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+        "points": 453,
+        "comments": 146,
+        "id": "48956924"
       }
     ],
     "desc": "Radek's personal website about learnings, challenges, software development, and much more.",
@@ -34210,7 +34319,8 @@
       }
     ],
     "about": "https://vikramoberoi.com/about/",
-    "feed": "https://vikramoberoi.com/index.xml"
+    "feed": "https://vikramoberoi.com/index.xml",
+    "x": "https://x.com/voberoi"
   },
   {
     "url": "https://vinitkumar.me",
@@ -34478,8 +34588,8 @@
         "created_at": "2026-01-15T18:42:46Z",
         "title": "‘ELITE’: The Palantir app ICE uses to find neighborhoods to raid",
         "url": "https://werd.io/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
-        "points": 437,
-        "comments": 371,
+        "points": 443,
+        "comments": 375,
         "id": "46637127"
       },
       {
@@ -34633,6 +34743,46 @@
         "points": 14,
         "comments": 4,
         "id": "40303072"
+      },
+      {
+        "created_at": "2026-07-20T14:21:47Z",
+        "title": "China’s open-weights AI strategy is winning",
+        "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+        "points": 1243,
+        "comments": 932,
+        "id": "48979269"
+      },
+      {
+        "created_at": "2026-07-23T13:49:28Z",
+        "title": "Private healthcare makes industries less innovative. It's time for change",
+        "url": "https://werd.io/private-healthcare-makes-industries-less-innovative-its-time-for-change/",
+        "points": 143,
+        "comments": 163,
+        "id": "49021571"
+      },
+      {
+        "created_at": "2026-06-23T19:13:10Z",
+        "title": "Signs you're a dangerous terrorist: using Signal, moving zines",
+        "url": "https://werd.io/signs-youre-a-dangerous-terrorist-using-signal-moving-zines/",
+        "points": 131,
+        "comments": 88,
+        "id": "48649884"
+      },
+      {
+        "created_at": "2026-02-18T20:12:12Z",
+        "title": "The political effects of X's feed algorithm",
+        "url": "https://werd.io/the-political-effects-of-xs-feed-algorithm/",
+        "points": 82,
+        "comments": 100,
+        "id": "47065728"
+      },
+      {
+        "created_at": "2026-06-24T15:28:04Z",
+        "title": "Journalism is rearranging the deckchairs. It needs to reinvent itself",
+        "url": "https://werd.io/journalism-is-rearranging-the-deckchairs-it-needs-to-reinvent-itself/",
+        "points": 50,
+        "comments": 64,
+        "id": "48661415"
       }
     ],
     "title": "Ben Werdmuller",
@@ -34652,14 +34802,16 @@
     "title": "Whacky Labs · apps and games",
     "desc": "Making apps and games",
     "about": "https://whackylabs.com/about/",
-    "feed": "https://whackylabs.com/atom.xml"
+    "feed": "https://whackylabs.com/atom.xml",
+    "github": "https://github.com/chunkyguy"
   },
   {
     "url": "https://whatibroke.com",
     "title": "What I Broke – Programming and Web Development – Let's take a look at what I've broken today",
     "desc": "Let's take a look at what I've broken today",
     "about": "https://whatibroke.com/about/",
-    "feed": "https://whatibroke.com/feed/"
+    "feed": "https://whatibroke.com/feed/",
+    "github": "https://github.com/Buzzology"
   },
   {
     "url": "https://wheybags.com",
@@ -34898,6 +35050,22 @@
         "points": 20,
         "comments": 4,
         "id": "919710"
+      },
+      {
+        "created_at": "2026-01-27T19:59:47Z",
+        "title": "How many chess games are possible?",
+        "url": "https://win-vector.com/2026/01/27/how-many-chess-games-are-possible/",
+        "points": 85,
+        "comments": 46,
+        "id": "46785598"
+      },
+      {
+        "created_at": "2026-02-19T18:40:35Z",
+        "title": "What Is a Centipawn Advantage?",
+        "url": "https://win-vector.com/2026/02/19/what-is-a-centipawn-advantage/",
+        "points": 69,
+        "comments": 32,
+        "id": "47077358"
       }
     ],
     "feed": "https://win-vector.com/feed/"
@@ -34929,7 +35097,8 @@
         "comments": 136,
         "id": "43440376"
       }
-    ]
+    ],
+    "feed": "https://wonger.dev/feed.xml"
   },
   {
     "url": "https://wyclif.substack.com",
@@ -35072,6 +35241,14 @@
         "points": 57,
         "comments": 40,
         "id": "27527619"
+      },
+      {
+        "created_at": "2026-04-04T09:04:19Z",
+        "title": "Some Unusual Trees",
+        "url": "https://thoughts.wyounas.com/p/some-unusual-trees",
+        "points": 289,
+        "comments": 87,
+        "id": "47637287"
       }
     ]
   },
@@ -35244,7 +35421,7 @@
       },
       {
         "created_at": "2024-05-22T04:36:11Z",
-        "title": "\"No way to prevent this\"say users of only language where this regularly happens",
+        "title": "\"No way to prevent this\" say users of only language where this regularly happens",
         "url": "https://xeiaso.net/shitposts/no-way-to-prevent-this/CVE-2024-4323/",
         "points": 208,
         "comments": 329,
@@ -35265,6 +35442,14 @@
         "points": 196,
         "comments": 130,
         "id": "32809239"
+      },
+      {
+        "created_at": "2026-05-07T23:02:11Z",
+        "title": "Maybe you shouldn't install new software for a bit",
+        "url": "https://xeiaso.net/blog/2026/abstain-from-install/",
+        "points": 854,
+        "comments": 470,
+        "id": "48056227"
       }
     ],
     "feed": "https://xeiaso.net/blog.rss",
@@ -35436,6 +35621,22 @@
         "points": 18,
         "comments": 1,
         "id": "38993711"
+      },
+      {
+        "created_at": "2026-06-22T21:21:08Z",
+        "title": "ytr: YouTube Radio for Emacs",
+        "url": "https://xenodium.com/ytr-youtube-radio-for-emacs",
+        "points": 145,
+        "comments": 10,
+        "id": "48636380"
+      },
+      {
+        "created_at": "2026-06-11T17:17:57Z",
+        "title": "Agent-Shell 0.55 Updates",
+        "url": "https://xenodium.com/agent-shell-0-55-updates",
+        "points": 62,
+        "comments": 0,
+        "id": "48493273"
       }
     ],
     "desc": "This is my blog",
@@ -35550,8 +35751,8 @@
         "created_at": "2026-01-15T14:19:14Z",
         "title": "Poking holes into bytecode with peephole optimisations",
         "url": "https://xnacly.me/posts/2026/purple-garden-first-optimisations/",
-        "points": 20,
-        "comments": 5,
+        "points": 26,
+        "comments": 6,
         "id": "46632885"
       },
       {
@@ -35566,8 +35767,8 @@
         "created_at": "2026-01-14T22:08:04Z",
         "title": "Poking holes into bytecode with peephole optimisations",
         "url": "https://xnacly.me/posts/2026/purple-garden-first-optimisations/",
-        "points": 14,
-        "comments": 0,
+        "points": 37,
+        "comments": 2,
         "id": "46624396"
       },
       {
@@ -35577,6 +35778,22 @@
         "points": 7,
         "comments": 11,
         "id": "39765341"
+      },
+      {
+        "created_at": "2026-03-25T16:04:21Z",
+        "title": "RSA and Python",
+        "url": "https://xnacly.me/posts/2023/rsa/",
+        "points": 26,
+        "comments": 13,
+        "id": "47519255"
+      },
+      {
+        "created_at": "2026-03-04T20:53:33Z",
+        "title": "Compiling Match Statements to Bytecode",
+        "url": "https://xnacly.me/posts/2026/compiling-match-statements-to-bytecode/",
+        "points": 22,
+        "comments": 5,
+        "id": "47253643"
       }
     ],
     "about": "https://xnacly.me/about/",
@@ -35662,6 +35879,14 @@
         "points": 12,
         "comments": 4,
         "id": "43867171"
+      },
+      {
+        "created_at": "2026-02-07T17:39:53Z",
+        "title": "SectorC: A C Compiler in 512 bytes (2023)",
+        "url": "https://xorvoid.com/sectorc.html",
+        "points": 381,
+        "comments": 79,
+        "id": "46925741"
       }
     ],
     "github": "https://github.com/xorvoid"
@@ -35677,6 +35902,30 @@
         "points": 143,
         "comments": 119,
         "id": "24673917"
+      },
+      {
+        "created_at": "2021-10-03T17:57:19Z",
+        "title": "Removing my site from Google search",
+        "url": "https://www.btao.org/2021/10/03/removing-from-google/",
+        "points": 215,
+        "comments": 109,
+        "id": "28739081"
+      },
+      {
+        "created_at": "2026-06-18T07:46:55Z",
+        "title": "The forge we deserve",
+        "url": "https://btao.org/posts/2026-05-09-the-forge-we-deserve/",
+        "points": 67,
+        "comments": 56,
+        "id": "48582147"
+      },
+      {
+        "created_at": "2026-02-28T13:35:54Z",
+        "title": "Everything Changes, and Nothing Changes",
+        "url": "https://btao.org/posts/2026-02-28-everything-changes-nothing-changes/",
+        "points": 34,
+        "comments": 26,
+        "id": "47195210"
       }
     ],
     "desc": "Software engineer.",
@@ -35707,8 +35956,8 @@
         "created_at": "2026-01-17T18:29:00Z",
         "title": "Raising money fucked me up",
         "url": "https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up",
-        "points": 362,
-        "comments": 135,
+        "points": 391,
+        "comments": 142,
         "id": "46660543"
       },
       {
@@ -35933,7 +36182,10 @@
     "title": "on.code && such",
     "desc": "Thoughts on Software Engineering",
     "about": "https://ylan.segal-family.com/about/",
-    "feed": "https://ylan.segal-family.com/atom.xml"
+    "feed": "https://ylan.segal-family.com/atom.xml",
+    "github": "https://github.com/ylansegal",
+    "bluesky": "https://bsky.app/profile/ylan.segal-family.com",
+    "mastodon": "https://mastodon.sdf.org/@ylansegal"
   },
   {
     "url": "https://yousefamar.com",
@@ -36094,7 +36346,8 @@
   {
     "url": "https://zck.org",
     "about": "https://zck.org/about",
-    "title": "zck.org"
+    "title": "zck.org",
+    "x": "https://x.com/zckzck"
   },
   {
     "url": "https://zef.studio",
@@ -36279,6 +36532,22 @@
         "points": 67,
         "comments": 10,
         "id": "29078703"
+      },
+      {
+        "created_at": "2026-03-17T10:39:55Z",
+        "title": "VisiCalc Reconstructed",
+        "url": "https://zserge.com/posts/visicalc/",
+        "points": 231,
+        "comments": 80,
+        "id": "47410871"
+      },
+      {
+        "created_at": "2026-07-31T05:16:45Z",
+        "title": "Let's make the worst Htmx",
+        "url": "https://zserge.com/posts/worst-htmx-ever/",
+        "points": 141,
+        "comments": 80,
+        "id": "49119270"
       }
     ],
     "about": "https://zserge.com/about/",
@@ -36329,9 +36598,18 @@
         "points": 25,
         "comments": 1,
         "id": "42520627"
+      },
+      {
+        "created_at": "2026-03-27T13:49:42Z",
+        "title": "Fibonacci's Composed Fractions",
+        "url": "https://ztoz.blog/posts/fibonacci-fractions/",
+        "points": 17,
+        "comments": 2,
+        "id": "47542640"
       }
     ],
-    "about": "https://ztoz.blog/about/"
+    "about": "https://ztoz.blog/about/",
+    "github": "https://github.com/jeffreystarr"
   },
   {
     "url": "https://mattmichie.com",
@@ -36340,7 +36618,17 @@
     "desc": "This is my website, there are many like it, but this one is mine.",
     "about": "https://mattmichie.com/about/",
     "github": "https://github.com/mmichie",
-    "x": "https://x.com/influx"
+    "x": "https://x.com/influx",
+    "hn": [
+      {
+        "created_at": "2026-07-11T23:31:29Z",
+        "title": "Using PowerShell over SSH, Twenty Years Later",
+        "url": "https://mattmichie.com/2026/07/11/powershell-over-ssh-twenty-years-later/",
+        "points": 25,
+        "comments": 14,
+        "id": "48876843"
+      }
+    ]
   },
   {
     "url": "https://devintheshell.com",
@@ -36588,6 +36876,14 @@
         "points": 9,
         "comments": 6,
         "id": "12220396"
+      },
+      {
+        "created_at": "2026-05-14T11:26:22Z",
+        "title": "Myths about /dev/urandom (2014)",
+        "url": "https://www.2uo.de/myths-about-urandom/",
+        "points": 89,
+        "comments": 50,
+        "id": "48133908"
       }
     ],
     "github": "https://github.com/th"
@@ -37111,7 +37407,14 @@
         "comments": 15,
         "id": "696632"
       }
-    ]
+    ],
+    "title": "ArtLung ~ Joe Crawford",
+    "desc": "ArtLung.com is the personal website of Joe Crawford, creative web developer",
+    "about": "https://artlung.com/about/",
+    "now": "https://artlung.com/now/",
+    "feed": "https://artlung.com/feed/",
+    "github": "https://github.com/artlung",
+    "mastodon": "https://xoxo.zone/@artlung"
   },
   {
     "url": "https://beesbuzz.biz",
@@ -37777,7 +38080,9 @@
         "id": "21053022"
       }
     ],
-    "about": "https://bryanbraun.com/about/"
+    "about": "https://bryanbraun.com/about/",
+    "github": "https://github.com/bryanbraun",
+    "x": "https://x.com/BryanEBraun"
   },
   {
     "url": "https://brycewray.com",
@@ -39406,7 +39711,8 @@
         "id": "34124285"
       }
     ],
-    "about": "https://micahwalter.com/about"
+    "about": "https://micahwalter.com/about",
+    "github": "https://github.com/micahwalter"
   },
   {
     "url": "https://mijndertstuij.nl",
@@ -39840,7 +40146,9 @@
         "comments": 5,
         "id": "41433285"
       }
-    ]
+    ],
+    "bluesky": "https://bsky.app/profile/qmacro.org",
+    "mastodon": "https://hachyderm.io/@qmacro"
   },
   {
     "url": "https://ramonh.dev",
@@ -40409,7 +40717,9 @@
         "comments": 195,
         "id": "48788361"
       }
-    ]
+    ],
+    "bluesky": "https://bsky.app/profile/seldo.com",
+    "mastodon": "https://alpaca.gold/@seldo"
   },
   {
     "url": "https://shime.sh",
@@ -42374,7 +42684,9 @@
         "comments": 12,
         "id": "43328680"
       }
-    ]
+    ],
+    "github": "https://github.com/harrison-broadbent",
+    "x": "https://x.com/hrrsnbbnt"
   },
   {
     "url": "https://martinheinz.dev",
@@ -42888,7 +43200,8 @@
         "comments": 55,
         "id": "44862414"
       }
-    ]
+    ],
+    "github": "https://github.com/aarol"
   },
   {
     "url": "https://aaron.axvigs.com",
@@ -43818,7 +44131,8 @@
         "comments": 34,
         "id": "48445702"
       }
-    ]
+    ],
+    "x": "https://x.com/heyfebin"
   },
   {
     "url": "https://aisahihu.me",
@@ -44250,7 +44564,9 @@
     "title": "Andre L Gomes Blog",
     "about": "https://andrelgomes.com/about",
     "feed": "https://andrelgomes.com/feed.xml",
-    "desc": "Andre Gomes Personal Blog"
+    "desc": "Andre Gomes Personal Blog",
+    "github": "https://github.com/andrelamontegomes",
+    "x": "https://x.com/andregomes426"
   },
   {
     "url": "https://andrew.gr",
@@ -44541,7 +44857,8 @@
     "title": "Asuka Wang",
     "about": "https://asukawang.com/about",
     "feed": "https://asukawang.com/blog/feed.xml",
-    "desc": "Asuka Wang's personal website"
+    "desc": "Asuka Wang's personal website",
+    "bluesky": "https://bsky.app/profile/asukawang.com"
   },
   {
     "url": "https://atha.io",
@@ -45617,7 +45934,8 @@
       }
     ],
     "about": "https://blog.happyfellow.dev/about/",
-    "feed": "https://blog.happyfellow.dev/feed/"
+    "feed": "https://blog.happyfellow.dev/feed/",
+    "x": "https://x.com/onehappyfellow"
   },
   {
     "url": "https://blog.henritel.com",
@@ -45713,7 +46031,8 @@
       }
     ],
     "about": "https://blog.matthewbrunelle.com/about/",
-    "feed": "https://blog.matthewbrunelle.com/rss/"
+    "feed": "https://blog.matthewbrunelle.com/rss/",
+    "github": "https://github.com/ciferkey"
   },
   {
     "url": "https://blog.maxg.io",
@@ -47425,7 +47744,8 @@
         "id": "48692310"
       }
     ],
-    "about": "https://chrismorgan.info/about"
+    "about": "https://chrismorgan.info/about",
+    "github": "https://github.com/chris-morgan"
   },
   {
     "url": "https://christopheradams.io",
@@ -47789,7 +48109,9 @@
         "comments": 11,
         "id": "46425716"
       }
-    ]
+    ],
+    "github": "https://github.com/cweagans",
+    "mastodon": "https://mas.to/@cweagans"
   },
   {
     "url": "https://cyberjunkie.in",
@@ -49063,7 +49385,9 @@
       }
     ],
     "about": "https://djharper.dev/about/",
-    "now": "https://djharper.dev/now/"
+    "now": "https://djharper.dev/now/",
+    "github": "https://github.com/djhworld",
+    "bluesky": "https://bsky.app/profile/djharper.dev"
   },
   {
     "url": "https://dmitry.gr",
@@ -50285,7 +50609,9 @@
         "comments": 4,
         "id": "41140538"
       }
-    ]
+    ],
+    "github": "https://github.com/cfe84",
+    "x": "https://x.com/cfe84"
   },
   {
     "url": "https://fh.cx",
@@ -50453,6 +50779,46 @@
         "points": 20,
         "comments": 1,
         "id": "46321604"
+      },
+      {
+        "created_at": "2026-03-27T14:40:47Z",
+        "title": "Interview: Nobonoko, Master of the Minimal Sequencer",
+        "url": "https://fi-le.net/nobo/",
+        "points": 60,
+        "comments": 5,
+        "id": "47543198"
+      },
+      {
+        "created_at": "2026-04-05T22:32:17Z",
+        "title": "The Harvard Library Passport",
+        "url": "https://fi-le.net/stamps/",
+        "points": 41,
+        "comments": 15,
+        "id": "47654629"
+      },
+      {
+        "created_at": "2026-05-05T22:41:08Z",
+        "title": "Printing Blogs",
+        "url": "https://fi-le.net/print/",
+        "points": 40,
+        "comments": 8,
+        "id": "48029732"
+      },
+      {
+        "created_at": "2026-07-10T04:52:34Z",
+        "title": "Counting ArXiv Delays",
+        "url": "https://fi-le.net/arxiv/",
+        "points": 39,
+        "comments": 14,
+        "id": "48855881"
+      },
+      {
+        "created_at": "2026-02-18T07:35:12Z",
+        "title": "Spell Checking a Year's Worth of Hacker News",
+        "url": "https://fi-le.net/spell/",
+        "points": 28,
+        "comments": 32,
+        "id": "47058308"
       }
     ]
   },
@@ -51632,7 +51998,9 @@
         "id": "25613187"
       }
     ],
-    "about": "https://hackpravj.com/about/"
+    "about": "https://hackpravj.com/about/",
+    "github": "https://github.com/pravj",
+    "x": "https://x.com/hackpravj"
   },
   {
     "url": "https://hackyexperiments.com",
@@ -52051,7 +52419,9 @@
       }
     ],
     "about": "https://henrikwarne.com/about/",
-    "feed": "https://henrikwarne.com/feed/"
+    "feed": "https://henrikwarne.com/feed/",
+    "github": "https://github.com/henrikw",
+    "bluesky": "https://bsky.app/profile/henrikwarne.bsky.social"
   },
   {
     "url": "https://herlein.com",
@@ -52406,7 +52776,10 @@
         "id": "30558651"
       }
     ],
-    "now": "https://iamvishnu.com/now"
+    "now": "https://iamvishnu.com/now",
+    "github": "https://github.com/vishnuharidas",
+    "bluesky": "https://bsky.app/profile/iamvishnu.com",
+    "x": "https://x.com/vishnuhx"
   },
   {
     "url": "https://ianreppel.org",
@@ -52776,7 +53149,25 @@
     "title": "ikesau.co",
     "feed": "https://ikesau.co/feed.xml",
     "desc": "The website of Ike Saunders",
-    "github": "https://github.com/ikesau"
+    "github": "https://github.com/ikesau",
+    "hn": [
+      {
+        "created_at": "2026-05-24T18:39:10Z",
+        "title": "Defeating Git Rigour Fatigue with Jujutsu",
+        "url": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
+        "points": 178,
+        "comments": 179,
+        "id": "48259861"
+      },
+      {
+        "created_at": "2026-05-04T15:26:18Z",
+        "title": "Dithering with CSS",
+        "url": "https://ikesau.co/blog/dithering-with-css/",
+        "points": 115,
+        "comments": 29,
+        "id": "48009879"
+      }
+    ]
   },
   {
     "url": "https://illya.sh",
@@ -52962,7 +53353,8 @@
       }
     ],
     "about": "https://interjectedfuture.com/about/",
-    "feed": "https://interjectedfuture.com/rss/"
+    "feed": "https://interjectedfuture.com/rss/",
+    "bluesky": "https://bsky.app/profile/did:plc:4yf2dz4a5hvjmui5gbgxclzx"
   },
   {
     "url": "https://inventcures.github.io",
@@ -53253,7 +53645,10 @@
     ],
     "desc": "Browse all published posts by year.",
     "about": "https://j11g.com/about",
-    "feed": "https://j11g.com/feed"
+    "feed": "https://j11g.com/feed",
+    "github": "https://github.com/jan-vandenberg",
+    "bluesky": "https://bsky.app/profile/janvandenberg.blog",
+    "x": "https://x.com/loginn"
   },
   {
     "url": "https://j3s.sh",
@@ -53472,6 +53867,22 @@
         "points": 606,
         "comments": 412,
         "id": "46305585"
+      },
+      {
+        "created_at": "2026-03-24T20:31:08Z",
+        "title": "Is anybody else bored of talking about AI?",
+        "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
+        "points": 746,
+        "comments": 527,
+        "id": "47508745"
+      },
+      {
+        "created_at": "2026-01-25T22:21:55Z",
+        "title": "Publish Your Work",
+        "url": "https://blog.jakesaunders.dev/you-should-publish-your-work/",
+        "points": 12,
+        "comments": 5,
+        "id": "46759107"
       }
     ]
   },
@@ -53540,6 +53951,14 @@
         "points": 1539,
         "comments": 197,
         "id": "44396518"
+      },
+      {
+        "created_at": "2026-07-10T12:05:57Z",
+        "title": "Show HN: Airline pilot's interactive guide to aviation radio",
+        "url": "https://jameshard.ing/posts/aviation-radio/",
+        "points": 3,
+        "comments": 8,
+        "id": "48858782"
       }
     ],
     "github": "https://github.com/jamesharding",
@@ -53589,6 +54008,14 @@
         "points": 4,
         "comments": 6,
         "id": "44176874"
+      },
+      {
+        "created_at": "2026-06-25T02:51:29Z",
+        "title": "The unbearable cheapness of open weight models",
+        "url": "https://jamesoclaire.com/2026/06/25/the-unbearable-cheapness-of-open-weight-models/",
+        "points": 203,
+        "comments": 186,
+        "id": "48668255"
       }
     ],
     "feed": "https://jamesoclaire.com/feed/"
@@ -53631,7 +54058,9 @@
     "title": "Jasdeep Singh",
     "about": "https://jasdeep-singh.com/about",
     "feed": "https://jasdeep-singh.com/writing/index.xml",
-    "desc": "I am a technology worker, film writer and translator based in Mohali, Punjab."
+    "desc": "I am a technology worker, film writer and translator based in Mohali, Punjab.",
+    "github": "https://github.com/jasdeep",
+    "x": "https://x.com/jasdeep"
   },
   {
     "url": "https://jasongi.com",
@@ -53935,9 +54364,27 @@
         "points": 145,
         "comments": 307,
         "id": "33485109"
+      },
+      {
+        "created_at": "2026-05-08T17:55:08Z",
+        "title": "AI is breaking two vulnerability cultures",
+        "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+        "points": 430,
+        "comments": 173,
+        "id": "48066524"
+      },
+      {
+        "created_at": "2026-07-04T17:52:36Z",
+        "title": "Verizon is about to break our Gizmo watches",
+        "url": "https://www.jefftk.com/p/verizon-is-about-to-break-our-watches",
+        "points": 154,
+        "comments": 120,
+        "id": "48787329"
       }
     ],
-    "feed": "https://jefftk.com/news.rss"
+    "feed": "https://jefftk.com/news.rss",
+    "bluesky": "https://bsky.app/profile/jefftk.com",
+    "mastodon": "https://mastodon.mit.edu/@jefftk"
   },
   {
     "url": "https://jeremymaslanko.com",
@@ -53967,8 +54414,8 @@
         "created_at": "2026-01-12T17:50:01Z",
         "title": "There's a ridiculous amount of tech in a disposable vape",
         "url": "https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html",
-        "points": 755,
-        "comments": 653,
+        "points": 758,
+        "comments": 654,
         "id": "46591810"
       },
       {
@@ -53992,7 +54439,7 @@
         "title": "Retrieving 1TB of data from a faulty drive with the help of woodworking tools",
         "url": "https://blog.jgc.org/2023/08/retrieving-1tb-of-data-from-faulty.html",
         "points": 535,
-        "comments": 186,
+        "comments": 185,
         "id": "37160783"
       },
       {
@@ -54021,7 +54468,7 @@
       },
       {
         "created_at": "2023-10-15T08:57:06Z",
-        "title": "\"Hacker News\"for retro computing and gaming",
+        "title": "\"Hacker News\" for retro computing and gaming",
         "url": "https://blog.jgc.org/2023/10/hacker-news-for-retro-computing-and.html",
         "points": 422,
         "comments": 122,
@@ -54053,7 +54500,7 @@
       },
       {
         "created_at": "2024-09-07T16:41:11Z",
-        "title": "Cracking an old ZIP file to help open source the ANC's \"Vula\"secret crypto code",
+        "title": "Cracking an old ZIP file to help open source the ANC's \"Vula\" secret crypto code",
         "url": "https://blog.jgc.org/2024/09/cracking-old-zip-file-to-help-open.html",
         "points": 316,
         "comments": 37,
@@ -54410,7 +54857,17 @@
     "title": "Jonas Devlieghere",
     "about": "https://jonasdevlieghere.com/about",
     "feed": "https://jonasdevlieghere.com/index.xml",
-    "github": "https://github.com/JDevlieghere"
+    "github": "https://github.com/JDevlieghere",
+    "hn": [
+      {
+        "created_at": "2026-06-06T17:16:12Z",
+        "title": "Adopting the Parallel DWARF linker in dsymutil",
+        "url": "https://jonasdevlieghere.com/post/dsymutil-parallel-linker/",
+        "points": 29,
+        "comments": 12,
+        "id": "48426956"
+      }
+    ]
   },
   {
     "url": "https://jonathanpagel.com",
@@ -54473,6 +54930,14 @@
         "points": 2,
         "comments": 7,
         "id": "46619947"
+      },
+      {
+        "created_at": "2026-06-09T21:19:11Z",
+        "title": "If Claude Fable stops helping you, you'll never know",
+        "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+        "points": 1036,
+        "comments": 501,
+        "id": "48467896"
       }
     ],
     "feed": "https://jonready.com/blog/feed.xml",
@@ -55010,7 +55475,9 @@
         "id": "40581746"
       }
     ],
-    "about": "https://jstrieb.github.io/about/"
+    "about": "https://jstrieb.github.io/about/",
+    "github": "https://github.com/jstrieb",
+    "x": "https://x.com/jacobstrieb"
   },
   {
     "url": "https://jugoetz.com",
@@ -55097,7 +55564,8 @@
       }
     ],
     "about": "https://justinmiller.io/about/",
-    "now": "https://justinmiller.io/now/"
+    "now": "https://justinmiller.io/now/",
+    "mastodon": "https://mastodon.social/@incanus.rss"
   },
   {
     "url": "https://justinmklam.com",
@@ -55562,7 +56030,8 @@
       }
     ],
     "about": "https://kennethfriedman.org/about/",
-    "feed": "https://kennethfriedman.org/rss"
+    "feed": "https://kennethfriedman.org/rss",
+    "x": "https://x.com/futurekennysf"
   },
   {
     "url": "https://kerrick.blog",
@@ -56198,7 +56667,9 @@
     "title": "Liel Villa Blog",
     "about": "https://lielvilla.com/about",
     "feed": "https://lielvilla.com/rss.xml",
-    "desc": "These are my thoughts about data, AI, building, and everything in between"
+    "desc": "These are my thoughts about data, AI, building, and everything in between",
+    "github": "https://github.com/lielv",
+    "x": "https://x.com/lielvilla"
   },
   {
     "url": "https://lik.ai",
@@ -57192,7 +57663,11 @@
     "title": "Matecha.net",
     "feed": "https://matecha.net/index.xml",
     "keywords": "andrew matecha, matecha, vancouver, music, software, web development",
-    "desc": "music // code // pwnage"
+    "desc": "music // code // pwnage",
+    "about": "https://matecha.net/about/",
+    "now": "https://matecha.net/now/",
+    "x": "https://x.com/amatecha",
+    "mastodon": "https://merveilles.town/@amatecha"
   },
   {
     "url": "https://matelsky.com",
@@ -58140,7 +58615,9 @@
         "comments": 313,
         "id": "47367568"
       }
-    ]
+    ],
+    "github": "https://github.com/medhir",
+    "bluesky": "https://bsky.app/profile/medhir.com"
   },
   {
     "url": "https://medv.io",
@@ -58193,7 +58670,8 @@
         "comments": 118,
         "id": "42408546"
       }
-    ]
+    ],
+    "github": "https://github.com/mfasold"
   },
   {
     "url": "https://mfranc.com",
@@ -58511,7 +58989,8 @@
     ],
     "desc": "Blog & Portfolio - Electronics & Embedded Systems Engineer",
     "about": "https://mikeayles.com/about",
-    "feed": "https://mikeayles.com/rss.xml"
+    "feed": "https://mikeayles.com/rss.xml",
+    "github": "https://github.com/MichaelAyles"
   },
   {
     "url": "https://mikejohnson.dev",
@@ -58972,7 +59451,8 @@
     "about": "https://mwunderling.com/about",
     "feed": "https://mwunderling.com/index.xml",
     "keywords": ", Home Auotmation, Self-Hosted, Fintech, Product Management, Finance, Payments",
-    "desc": "A resource blog for technology, finance *...and a few other things.*"
+    "desc": "A resource blog for technology, finance *...and a few other things.*",
+    "github": "https://github.com/mwunderling"
   },
   {
     "url": "https://nashkabbara.com",
@@ -59166,7 +59646,11 @@
         "comments": 24,
         "id": "32981383"
       }
-    ]
+    ],
+    "now": "https://navendu.me/now/",
+    "github": "https://github.com/pottekkat",
+    "x": "https://x.com/realPottekkat",
+    "mastodon": "https://floss.social/@pottekkat"
   },
   {
     "url": "https://nawaz.org",
@@ -59525,7 +60009,10 @@
         "comments": 10,
         "id": "27264514"
       }
-    ]
+    ],
+    "feed": "https://nezhar.com/feeds/all.atom.xml",
+    "github": "https://github.com/nezhar",
+    "x": "https://x.com/nez_har"
   },
   {
     "url": "https://nhatcher.com",
@@ -59595,7 +60082,9 @@
         "id": "46422009"
       }
     ],
-    "feed": "https://nickmonad.blog/atom.xml"
+    "feed": "https://nickmonad.blog/atom.xml",
+    "github": "https://github.com/nickmonad",
+    "x": "https://x.com/nickmonad"
   },
   {
     "url": "https://nickstambaugh.dev",
@@ -60159,7 +60648,8 @@
   {
     "url": "https://old.ribic.ba",
     "title": "Ribic's Programming and tech blog",
-    "feed": "https://old.ribic.ba/index.xml"
+    "feed": "https://old.ribic.ba/index.xml",
+    "github": "https://github.com/ribice"
   },
   {
     "url": "https://oliveremberton.com",
@@ -60574,7 +61064,9 @@
         "comments": 32,
         "id": "30061514"
       }
-    ]
+    ],
+    "feed": "https://p4bl0.net/feed/rss2",
+    "mastodon": "https://mamot.fr/@p4bl0"
   },
   {
     "url": "https://pa.rh.am",
@@ -60950,7 +61442,8 @@
     "url": "https://quasimorphic.com",
     "title": "Alán's blog",
     "feed": "https://quasimorphic.com/index.xml",
-    "about": "https://quasimorphic.com/about/"
+    "about": "https://quasimorphic.com/about/",
+    "github": "https://github.com/afermg"
   },
   {
     "url": "https://qwertyforce.dev",
@@ -61457,7 +61950,8 @@
         "comments": 8,
         "id": "48662007"
       }
-    ]
+    ],
+    "feed": "https://refactoringenglish.com/index.xml"
   },
   {
     "url": "https://reidburke.com",
@@ -61492,7 +61986,8 @@
     "title": "rfdavid | AI Machine Learning Graph Neural Networks",
     "feed": "https://rfdavid.com/feed.xml",
     "desc": "AI Machine Learning Graph Neural Networks",
-    "about": "https://rfdavid.com/about/"
+    "about": "https://rfdavid.com/about/",
+    "github": "https://github.com/rfdavid"
   },
   {
     "url": "https://rgoswami.me",
@@ -61585,7 +62080,9 @@
         "comments": 93,
         "id": "48231247"
       }
-    ]
+    ],
+    "feed": "https://rickcarlino.com/rss/feed.rss",
+    "github": "https://github.com/rickcarlino"
   },
   {
     "url": "https://ritog.github.io",
@@ -61928,7 +62425,10 @@
         "comments": 88,
         "id": "48367723"
       }
-    ]
+    ],
+    "about": "https://rory.codes/about/",
+    "github": "https://github.com/ruairidhflint",
+    "x": "https://x.com/MrRoryFlint"
   },
   {
     "url": "https://rounak.taptappers.club",
@@ -62939,7 +63439,9 @@
         "comments": 41,
         "id": "48984231"
       }
-    ]
+    ],
+    "github": "https://github.com/scottrlarson",
+    "x": "https://x.com/scottrlarson"
   },
   {
     "url": "https://scottyah.com",
@@ -63196,7 +63698,8 @@
     "url": "https://senthilgandhi.com",
     "title": "All posts | senthil's blog",
     "feed": "https://senthilgandhi.com/rss.xml",
-    "desc": "forked from gatsby starter blog"
+    "desc": "forked from gatsby starter blog",
+    "x": "https://x.com/senthil1"
   },
   {
     "url": "https://seridescent.com",
@@ -63228,7 +63731,8 @@
         "id": "44994515"
       }
     ],
-    "about": "https://sethops1.net/about/"
+    "about": "https://sethops1.net/about/",
+    "github": "https://github.com/shoenig"
   },
   {
     "url": "https://shafq.at",
@@ -63268,7 +63772,9 @@
         "comments": 40,
         "id": "36833851"
       }
-    ]
+    ],
+    "github": "https://github.com/shanev",
+    "x": "https://x.com/shan3v"
   },
   {
     "url": "https://sharats.me",
@@ -63331,7 +63837,8 @@
     "title": "sharpnife's blog",
     "feed": "https://sharpnife.github.io/feed.xml",
     "desc": "Welcome to my blog, here I’d be sharing all sorts of weird ideas, algorithms, solutions to various kinds of problems, life lessons and much more…!",
-    "about": "https://sharpnife.github.io/about/"
+    "about": "https://sharpnife.github.io/about/",
+    "github": "https://github.com/sharpnife"
   },
   {
     "url": "https://shashanktomar.com",
@@ -63636,7 +64143,8 @@
         "id": "38417163"
       }
     ],
-    "desc": "Simon Sarris: essays, projects, recipes, and other tidings."
+    "desc": "Simon Sarris: essays, projects, recipes, and other tidings.",
+    "x": "https://x.com/simonsarris"
   },
   {
     "url": "https://simonshine.dk",
@@ -64625,7 +65133,11 @@
         "comments": 2,
         "id": "38784039"
       }
-    ]
+    ],
+    "github": "https://github.com/KyleTryon",
+    "bluesky": "https://bsky.app/profile/techsquidtv.com",
+    "x": "https://x.com/techsquidtv",
+    "mastodon": "https://fosstodon.org/@techsquidtv"
   },
   {
     "url": "https://telkins.com",
@@ -64650,7 +65162,9 @@
     "title": "Tevon Strand-Brown",
     "about": "https://tevonsb.com/about",
     "feed": "https://tevonsb.com/rss.xml",
-    "desc": "Personal website and thoughts"
+    "desc": "Personal website and thoughts",
+    "github": "https://github.com/tevonsb",
+    "x": "https://x.com/strandbrown"
   },
   {
     "url": "https://tglyn.ch",
@@ -64664,7 +65178,9 @@
         "comments": 192,
         "id": "26970854"
       }
-    ]
+    ],
+    "about": "https://tglyn.ch/about/",
+    "github": "https://github.com/tomglynch"
   },
   {
     "url": "https://thangqt.com",
@@ -64986,7 +65502,9 @@
         "comments": 6,
         "id": "45751217"
       }
-    ]
+    ],
+    "github": "https://github.com/thinkhuman",
+    "mastodon": "https://fosstodon.org/@gill"
   },
   {
     "url": "https://thomas-huehn.com",
@@ -65451,7 +65969,8 @@
     "url": "https://tookitaway.co.uk",
     "title": "TookItAway ·",
     "about": "https://tookitaway.co.uk/about",
-    "feed": "https://tookitaway.co.uk/feed.xml"
+    "feed": "https://tookitaway.co.uk/feed.xml",
+    "x": "https://x.com/neongreenie"
   },
   {
     "url": "https://torh.net",
@@ -66103,7 +66622,9 @@
     "title": "Utkarsh Tiwari (UT | utk09)",
     "feed": "https://utk09.com/blogs/rss.xml",
     "keywords": "utkarsh tiwari, UT, utk09, TuplesEdu, Major League Hacking, MLH, youtuber, frontend development, data engineering, software engineering, tech blogging, technology, lifelong learning",
-    "desc": "Frontend Developer | Blogger | Major League Hacking (MLH) Coach | Data Engineer | YouTuber @TuplesEdu | MLH Technical Program Associate | Software Engineer"
+    "desc": "Frontend Developer | Blogger | Major League Hacking (MLH) Coach | Data Engineer | YouTuber @TuplesEdu | MLH Technical Program Associate | Software Engineer",
+    "github": "https://github.com/utk09",
+    "x": "https://x.com/utk0909"
   },
   {
     "url": "https://validark.dev",
@@ -66740,7 +67261,9 @@
     "title": "Vinayak Mehta · (vortex_ape)",
     "about": "https://vinayak.io/about",
     "now": "https://vinayak.io/now",
-    "feed": "https://vinayak.io/feed/rss.xml"
+    "feed": "https://vinayak.io/feed/rss.xml",
+    "github": "https://github.com/vinayak-mehta",
+    "x": "https://x.com/vortex_ape"
   },
   {
     "url": "https://vincent.bernat.ch",
@@ -67072,7 +67595,9 @@
         "comments": 92,
         "id": "45866697"
       }
-    ]
+    ],
+    "about": "https://willmorrison.net/about/",
+    "github": "https://github.com/will-morr"
   },
   {
     "url": "https://willness.dev",
@@ -67210,7 +67735,9 @@
         "comments": 4,
         "id": "44749115"
       }
-    ]
+    ],
+    "github": "https://github.com/wjgilmore",
+    "x": "https://x.com/wjgilmore"
   },
   {
     "url": "https://woile.dev",
@@ -67247,7 +67774,8 @@
         "id": "1901221"
       }
     ],
-    "feed": "https://wordloosed.com/feed.rss"
+    "feed": "https://wordloosed.com/feed.rss",
+    "github": "https://github.com/ggaughan"
   },
   {
     "url": "https://world-playground-deceit.net",
@@ -68081,7 +68609,8 @@
         "comments": 55,
         "id": "28673616"
       }
-    ]
+    ],
+    "github": "https://github.com/rlv-dan"
   },
   {
     "url": "https://sammcalilly.com",
@@ -68325,7 +68854,9 @@
     "title": "yeis.dev",
     "about": "https://yeis.dev/about",
     "feed": "https://yeis.dev/rss.xml",
-    "desc": "Ye's blog. He is writing some random words here about software development, text editors, keyboards and other geeky topics."
+    "desc": "Ye's blog. He is writing some random words here about software development, text editors, keyboards and other geeky topics.",
+    "github": "https://github.com/yeliu84",
+    "x": "https://x.com/yeliu84"
   },
   {
     "url": "https://yelinaung.com",
@@ -68688,7 +69219,9 @@
     ],
     "keywords": "engineering leadership,software engineering,engineering management,engineering systems thinking,engineering health",
     "about": "https://yusufaytas.com/about",
-    "feed": "https://yusufaytas.com/rss.xml"
+    "feed": "https://yusufaytas.com/rss.xml",
+    "github": "https://github.com/yusufaytas",
+    "x": "https://x.com/yusufaytas"
   },
   {
     "url": "https://yyhh.org",
@@ -68727,7 +69260,9 @@
         "comments": 1,
         "id": "41510220"
       }
-    ]
+    ],
+    "desc": "yyhh.org",
+    "feed": "https://yyhh.org/feeds/all.atom.xml"
   },
   {
     "url": "https://zach.sexy",
@@ -68740,7 +69275,9 @@
     "title": "Zack of All Trades",
     "feed": "http://zackofalltrades.com/index.xml",
     "desc": "The personal home page of Zack Williams",
-    "about": "https://zackofalltrades.com/about/"
+    "about": "https://zackofalltrades.com/about/",
+    "github": "https://github.com/zdw",
+    "x": "https://x.com/zdw"
   },
   {
     "url": "https://zacksiri.dev",
@@ -68800,7 +69337,8 @@
         "id": "42641307"
       }
     ],
-    "about": "https://zahlman.github.io/about"
+    "about": "https://zahlman.github.io/about",
+    "github": "https://github.com/zahlman"
   },
   {
     "url": "https://zansara.dev",
@@ -68910,7 +69448,9 @@
         "comments": 3,
         "id": "46068731"
       }
-    ]
+    ],
+    "github": "https://github.com/zayenz",
+    "x": "https://x.com/zayenz"
   },
   {
     "url": "https://zenadi.com",
