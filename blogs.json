@@ -265,22 +265,6 @@
     "feed": "https://toninotes.cc/feed.xml"
   },
   {
-    "url": "https://x0axz.com",
-    "title": "x0axz's Blog",
-    "desc": "This blog delves into machine intelligence, focusing on novel systems and algorithms, and provides comprehensive documentation with visuals and interactivity.",
-    "about": "https://x0axz.com/about.html",
-    "hn": [
-      {
-        "created_at": "2023-06-27T04:01:10Z",
-        "title": "Show HN: An Interactive Guide to Teach Derivatives and Backpropagation",
-        "url": "https://x0axz.com/blog/autograd.html",
-        "points": 119,
-        "comments": 9,
-        "id": "36488735"
-      }
-    ]
-  },
-  {
     "url": "https://pankajtanwar.in",
     "title": "Pankaj Tanwar - CS Engineer, writer & creator.",
     "desc": "Pankaj Tanwar : A self-taught developer, writer & creator who loves to read, write and learn about tech.",
@@ -476,13 +460,6 @@
     ]
   },
   {
-    "url": "https://blog.myr.sh",
-    "title": "brian's blog",
-    "desc": "This is a small space on the internet that i post topics like programming, linux, mathematics and some random stuff.",
-    "about": "https://blog.myr.sh",
-    "feed": "https://blog.myr.sh/feed.xml"
-  },
-  {
     "url": "https://0xbro.red",
     "title": "0xbro",
     "desc": "0xbro personal site and blog related to everything that surrounds ethical hacking, penetration testing, AppSec, CTFs, and other various cybersecurity stuff.",
@@ -498,13 +475,6 @@
     "about": "https://www.gavinr.com/about",
     "feed": "https://www.gavinr.com/feed",
     "github": "https://github.com/gavinr"
-  },
-  {
-    "url": "https://0xc0ffee.ca",
-    "title": "Coffee and Crashes blog · Coffee and Crashes blog",
-    "desc": "Alex's blog of tech tips and incomplete projects",
-    "about": "https://0xc0ffee.ca/about",
-    "feed": "https://0xc0ffee.ca/index.xml"
   },
   {
     "url": "https://0xfab1.net",
@@ -649,67 +619,6 @@
     "desc": "Just another WordPress.com weblog",
     "about": "https://123ash.wordpress.com/about/",
     "feed": "https://123ash.wordpress.com/feed/"
-  },
-  {
-    "url": "https://250kb.club",
-    "title": "The 250kb Club",
-    "desc": "An exclusive membership for web pages presenting themselves in no more than 250kb.",
-    "feed": "https://250kb.club/rss.xml",
-    "hn": [
-      {
-        "created_at": "2020-11-22T11:34:25Z",
-        "title": "250kb Club",
-        "url": "https://250kb.club",
-        "points": 40,
-        "comments": 51,
-        "id": "25176663"
-      }
-    ]
-  },
-  {
-    "url": "https://4async.com",
-    "title": "ipfans's Blog",
-    "about": "https://4async.com/about"
-  },
-  {
-    "url": "https://512kb.club",
-    "title": "512KB Club | A showcase of lightweight websites.",
-    "desc": "The 512KB Club is an exclusive list of web pages weighing less than 512 kilobytes.",
-    "feed": "https://512kb.club/feed.xml",
-    "hn": [
-      {
-        "created_at": "2025-11-04T16:04:18Z",
-        "title": "The 512KB Club",
-        "url": "https://512kb.club/",
-        "points": 161,
-        "comments": 90,
-        "id": "45812499"
-      },
-      {
-        "created_at": "2022-01-29T11:55:17Z",
-        "title": "The 512KB Club",
-        "url": "https://512kb.club/",
-        "points": 111,
-        "comments": 55,
-        "id": "30125633"
-      },
-      {
-        "created_at": "2020-12-16T23:57:14Z",
-        "title": "The 512KB Club",
-        "url": "https://512kb.club",
-        "points": 19,
-        "comments": 20,
-        "id": "25450451"
-      },
-      {
-        "created_at": "2021-11-25T17:42:46Z",
-        "title": "The 512KB Club",
-        "url": "https://512kb.club/",
-        "points": 10,
-        "comments": 1,
-        "id": "29343304"
-      }
-    ]
   },
   {
     "url": "https://ricos.site",
@@ -1409,9 +1318,6 @@
     ]
   },
   {
-    "url": "https://afterfibre.nsrc.org"
-  },
-  {
     "url": "https://agentlien.github.io",
     "title": "Agentlien - Graphics Programmer",
     "desc": "GitHub page of Agentlien, Graphics Programmer at Thunderful Development",
@@ -1473,10 +1379,6 @@
     "desc": "On generative AI and beyond.",
     "about": "https://ageofai.substack.com/about",
     "feed": "https://ageofai.substack.com/feed"
-  },
-  {
-    "url": "https://agi-today.com",
-    "keywords": "AGI"
   },
   {
     "url": "https://ahalbert.com",
@@ -2627,11 +2529,6 @@
     ]
   },
   {
-    "url": "https://amols.blog",
-    "desc": "Founder. Product + Engineering Leader. I blog about Product, Programming and SaaS.",
-    "feed": "https://amols.blog/rss.xml"
-  },
-  {
     "url": "https://anaeo.com",
     "title": "Anaeo - The Newsletter for Company Builders",
     "desc": "Relentlessly seeking the world's greatest ever business ideas, and bringing them to company builders like you.",
@@ -3197,22 +3094,6 @@
     "title": "Life in Progress – Tech. Mountains. Life. Other Stuff",
     "feed": "https://andyjohnson.uk/blog/feed/",
     "github": "https://github.com/andyjohnson0"
-  },
-  {
-    "url": "https://aneksteind.github.io",
-    "title": "To Be Determined - index",
-    "feed": "https://aneksteind.github.io/rss.xml",
-    "github": "https://github.com/aneksteind",
-    "hn": [
-      {
-        "created_at": "2025-03-27T00:23:06Z",
-        "title": "Matrix Profiles",
-        "url": "https://aneksteind.github.io/posts/2025-03-26.html",
-        "points": 11,
-        "comments": 1,
-        "id": "43489088"
-      }
-    ]
   },
   {
     "url": "https://anfractuosity.com",
@@ -4445,13 +4326,6 @@
     "github": "https://github.com/bartmika"
   },
   {
-    "url": "https://battesonb.github.io",
-    "title": "Byron’s Blog | A blog about web, software, computer science and related fields.",
-    "desc": "A blog about web, software, computer science and related fields.",
-    "feed": "https://battesonb.github.io/feed.xml",
-    "github": "https://github.com/battesonb"
-  },
-  {
     "url": "https://bbbhltz.codeberg.page",
     "title": "bbbhltz",
     "desc": "welcome to my blog",
@@ -5212,11 +5086,6 @@
     "feed": "https://blog.adrianistan.eu/rss.xml"
   },
   {
-    "url": "https://blog.allen0s.com",
-    "title": "Allen's Blog",
-    "feed": "https://blog.allen0s.com/rss.xml"
-  },
-  {
     "url": "https://blog.awaxman.com",
     "desc": "Adam Waxman's Blog",
     "feed": "https://blog.awaxman.com/feed.xml",
@@ -5541,21 +5410,6 @@
     ]
   },
   {
-    "url": "https://blog.dvsj.in",
-    "title": "Davis' Blog",
-    "desc": "Random, random stuff.",
-    "hn": [
-      {
-        "created_at": "2023-07-31T14:42:40Z",
-        "title": "What's Hashing? (2022)",
-        "url": "https://blog.dvsj.in/hashing/",
-        "points": 40,
-        "comments": 28,
-        "id": "36943317"
-      }
-    ]
-  },
-  {
     "url": "https://blog.eldrid.ge",
     "title": "Eldridge's Blog",
     "feed": "https://blog.eldrid.ge/post/index.xml",
@@ -5751,13 +5605,6 @@
     "title": "index — hukudo blog"
   },
   {
-    "url": "https://blog.ideotec.es",
-    "title": "The Ideotec Blog | The Ideotec Blog",
-    "desc": "The official blog of Ideotec, a company dedicated to free and open source software development in Kotlin, Flutter, TypeScript, and Rust",
-    "about": "https://blog.ideotec.es/about",
-    "feed": "https://blog.ideotec.es/index.xml"
-  },
-  {
     "url": "https://blog.imraniqbal.org",
     "title": "Imran's Blog · Stuff I feel like blogging about.",
     "desc": "Stuff I feel like blogging about.",
@@ -5905,12 +5752,6 @@
         "id": "44043045"
       }
     ]
-  },
-  {
-    "url": "https://blog.jessewalling.com",
-    "title": "Jesse’s Window | Presenting insights into my current passions - including but not limited to software development, cyber security, system administration, cryptocurrency, and art.",
-    "desc": "Presenting insights into my current passions - including but not limited to software development, cyber security, system administration, cryptocurrency, and art.",
-    "feed": "https://blog.jessewalling.com/feed.xml"
   },
   {
     "url": "https://blog.jgc.org",
@@ -6496,11 +6337,6 @@
     ]
   },
   {
-    "url": "https://blog.ledeniz.de",
-    "title": "thoughts of a deer",
-    "feed": "https://blog.ledeniz.de/index.xml"
-  },
-  {
     "url": "https://blog.lohr.dev",
     "title": "Michi's Blog",
     "desc": "Passionate about software development and architecture, web and cloud technologies, as well as game development.",
@@ -6873,10 +6709,6 @@
     "title": "Posts",
     "desc": "Dev notes",
     "feed": "https://blog.michalp.net/index.xml"
-  },
-  {
-    "url": "https://blog.mohdshahrim.com",
-    "title": "The Laksamana | Laksamana tulis apa yang Laksamana fikir"
   },
   {
     "url": "https://blog.nick.burns.io",
@@ -7322,175 +7154,6 @@
     ]
   },
   {
-    "url": "https://blog.scottlogic.com",
-    "title": "Scott Logic Blog",
-    "desc": "This blog shares Scott Logic's thoughts and ideas, covering topics across Tech, UX Design, Testing and Delivery.",
-    "feed": "https://blog.scottlogic.com/feed.xml",
-    "x": "https://x.com/Scott_Logic",
-    "hn": [
-      {
-        "created_at": "2023-05-04T19:33:12Z",
-        "title": "Re-implementing LangChain in 100 lines of code",
-        "url": "https://blog.scottlogic.com/2023/05/04/langchain-mini.html",
-        "points": 252,
-        "comments": 83,
-        "id": "35820931"
-      },
-      {
-        "created_at": "2020-10-09T09:31:44Z",
-        "title": "Down the ergonomic keyboard rabbit hole",
-        "url": "https://blog.scottlogic.com/2020/10/09/ergo-rabbit-hole.html",
-        "points": 251,
-        "comments": 184,
-        "id": "24728224"
-      },
-      {
-        "created_at": "2018-07-20T10:28:21Z",
-        "title": "The future of WebAssembly – A look at upcoming features and proposals",
-        "url": "https://blog.scottlogic.com/2018/07/20/wasm-future.html",
-        "points": 209,
-        "comments": 161,
-        "id": "17573820"
-      },
-      {
-        "created_at": "2020-05-02T07:01:44Z",
-        "title": "Show HN: Rendering One Million Datapoints with D3 and WebGL",
-        "url": "https://blog.scottlogic.com/2020/05/01/rendering-one-million-points-with-d3.html",
-        "points": 200,
-        "comments": 11,
-        "id": "23049930"
-      },
-      {
-        "created_at": "2023-12-03T15:11:29Z",
-        "title": "Build your own WebAssembly Compiler (2019)",
-        "url": "https://blog.scottlogic.com/2019/05/17/webassembly-compiler.html",
-        "points": 161,
-        "comments": 32,
-        "id": "38507594"
-      },
-      {
-        "created_at": "2022-06-20T09:42:25Z",
-        "title": "The State of WebAssembly 2022",
-        "url": "https://blog.scottlogic.com/2022/06/20/state-of-wasm-2022.html",
-        "points": 148,
-        "comments": 78,
-        "id": "31808227"
-      },
-      {
-        "created_at": "2022-01-21T09:14:10Z",
-        "title": "NoJS – Creating a calculator with only HTML and CSS",
-        "url": "https://blog.scottlogic.com/2022/01/20/noJS-making-a-calculator-in-pure-css-html.html",
-        "points": 138,
-        "comments": 42,
-        "id": "30021058"
-      },
-      {
-        "created_at": "2017-12-14T06:15:13Z",
-        "title": "Writing a CHIP-8 Emulator with Rust and WebAssembly",
-        "url": "http://blog.scottlogic.com/2017/12/13/chip8-emulator-webassembly-rust.html",
-        "points": 137,
-        "comments": 4,
-        "id": "15920305"
-      },
-      {
-        "created_at": "2024-10-14T05:44:17Z",
-        "title": "Exploring 120 years of timezones (2021)",
-        "url": "https://blog.scottlogic.com/2021/09/14/120-years-timezone.html",
-        "points": 95,
-        "comments": 33,
-        "id": "41834548"
-      },
-      {
-        "created_at": "2020-01-05T12:37:54Z",
-        "title": "Writing a Chip-8 Emulator with Rust and WebAssembly (2017)",
-        "url": "https://blog.scottlogic.com/2017/12/13/chip8-emulator-webassembly-rust.html",
-        "points": 93,
-        "comments": 13,
-        "id": "21961012"
-      },
-      {
-        "created_at": "2020-11-16T06:35:33Z",
-        "title": "Code generating a WebAssembly 6502 emulator from specifications",
-        "url": "https://blog.scottlogic.com/2020/08/26/codegen-6502-webassembly.html",
-        "points": 71,
-        "comments": 7,
-        "id": "25108781"
-      },
-      {
-        "created_at": "2018-09-21T05:02:28Z",
-        "title": "Building a Complex Financial Chart with D3 and d3fc",
-        "url": "https://blog.scottlogic.com/2018/09/21/d3-financial-chart.html",
-        "points": 59,
-        "comments": 7,
-        "id": "18037258"
-      },
-      {
-        "created_at": "2020-07-08T07:25:55Z",
-        "title": "Common accessibility problems, and how to fix them",
-        "url": "https://blog.scottlogic.com/2020/07/02/6-most-common-accessibility-problems.html",
-        "points": 55,
-        "comments": 12,
-        "id": "23767710"
-      },
-      {
-        "created_at": "2025-03-06T19:36:28Z",
-        "title": "LLMs Don't Know What They Don't Know–and That's a Problem",
-        "url": "https://blog.scottlogic.com/2025/03/06/llms-dont-know-what-they-dont-know-and-thats-a-problem.html",
-        "points": 54,
-        "comments": 49,
-        "id": "43284270"
-      },
-      {
-        "created_at": "2021-09-15T10:33:24Z",
-        "title": "Exploring 120 Years of Timezones",
-        "url": "https://blog.scottlogic.com/2021/09/14/120-years-timezone.html",
-        "points": 50,
-        "comments": 9,
-        "id": "28537438"
-      },
-      {
-        "created_at": "2021-12-08T09:05:21Z",
-        "title": "Creating personalised data stories with GPT-3",
-        "url": "https://blog.scottlogic.com/2021/12/08/narrative-dashboard.html",
-        "points": 47,
-        "comments": 16,
-        "id": "29482569"
-      },
-      {
-        "created_at": "2025-02-24T08:46:14Z",
-        "title": "AI's Biggest Flaw? The Blinking Cursor Problem",
-        "url": "https://blog.scottlogic.com/2025/02/21/ais-biggest-flaw-the-blinking-cursor-problem.html",
-        "points": 42,
-        "comments": 53,
-        "id": "43157185"
-      },
-      {
-        "created_at": "2021-09-01T09:37:11Z",
-        "title": "A primer on the OpenAI API – Part 1",
-        "url": "https://blog.scottlogic.com/2021/08/31/a-primer-on-the-openai-api-1.html",
-        "points": 39,
-        "comments": 3,
-        "id": "28377890"
-      },
-      {
-        "created_at": "2024-05-30T12:10:06Z",
-        "title": "Making a tic-tac-toe game with ‘randomness’ using pure HTML and CSS",
-        "url": "https://blog.scottlogic.com/2024/05/17/noJS-2-stochastic-boogaloo.html",
-        "points": 35,
-        "comments": 17,
-        "id": "40522744"
-      },
-      {
-        "created_at": "2020-07-11T08:52:54Z",
-        "title": "How to Write a Ray Tracer Intuitively",
-        "url": "https://blog.scottlogic.com/2020/03/10/raytracer-how-to.html",
-        "points": 35,
-        "comments": 2,
-        "id": "23800602"
-      }
-    ]
-  },
-  {
     "url": "https://blog.sebastiansastre.co",
     "title": "Sebastian Sastre",
     "feed": "https://blog.sebastiansastre.co/index.xml",
@@ -7734,13 +7397,16 @@
     ]
   },
   {
-    "url": "https://blog.uidrafter.com",
-    "title": "UI Drafter Blog",
+    "url": "https://ericfortis.com/blog",
+    "title": "Eric Fortis - Blog",
+    "desc": "Eric Fortis - Frontend Developer Blog",
+    "github": "https://github.com/ericfortis",
+    "x": "https://x.com/efortis",
     "hn": [
       {
         "created_at": "2020-12-26T21:06:31Z",
         "title": "Getting rid of NPM scripts",
-        "url": "https://blog.uidrafter.com/engineering/getting-rid-of-npm-scripts",
+        "url": "https://ericfortis.com/blog/getting-rid-of-npm-scripts",
         "points": 79,
         "comments": 57,
         "id": "25546460"
@@ -7748,7 +7414,7 @@
       {
         "created_at": "2021-04-16T22:01:52Z",
         "title": "Architecture of a desktop-like SPA",
-        "url": "https://blog.uidrafter.com/engineering/architecture-of-a-desktop-alike-spa",
+        "url": "https://ericfortis.com/blog/architecture-of-a-desktop-alike-spa",
         "points": 62,
         "comments": 27,
         "id": "26839535"
@@ -8122,94 +7788,6 @@
   {
     "url": "https://blog.zaqlabs.com",
     "title": "A Zillion Thoughts – Writings mostly on Web & Linux"
-  },
-  {
-    "url": "https://blot.im",
-    "title": "Blot – A blogging platform with no interface.",
-    "desc": "Turns a folder into a blog automatically. Use your favorite text-editor to write. Text and Markdown files, Word Documents, images, bookmarks and HTML in your folder become blog posts.",
-    "about": "https://blot.im/about",
-    "hn": [
-      {
-        "created_at": "2023-12-29T19:26:42Z",
-        "title": "Blot turns a folder into a website",
-        "url": "https://blot.im/how",
-        "points": 581,
-        "comments": 136,
-        "id": "38809145"
-      },
-      {
-        "created_at": "2018-06-14T20:01:20Z",
-        "title": "Blot – a blogging platform with no interface",
-        "url": "https://blot.im",
-        "points": 391,
-        "comments": 120,
-        "id": "17314858"
-      },
-      {
-        "created_at": "2025-06-19T17:40:05Z",
-        "title": "Cataphract: Medieval-fantasy roleplaying wargame, in the Black-Sea C. 1300",
-        "url": "https://samsorensen.blot.im/cataphracts-design-diary-1",
-        "points": 188,
-        "comments": 49,
-        "id": "44320832"
-      },
-      {
-        "created_at": "2015-08-17T20:04:25Z",
-        "title": "Typeset.js – A ty­po­graphic pre-proces­sor for HTML",
-        "url": "http://blot.im/typeset",
-        "points": 143,
-        "comments": 14,
-        "id": "10075728"
-      },
-      {
-        "created_at": "2023-03-30T17:16:30Z",
-        "title": "The Cambrian Period of AI",
-        "url": "https://lachlangray.blot.im/the-cambrian-period-of-ai",
-        "points": 113,
-        "comments": 63,
-        "id": "35376059"
-      },
-      {
-        "created_at": "2022-07-10T01:55:41Z",
-        "title": "Blot is a blogging platform with no interface. It turns a folder into a website",
-        "url": "https://blot.im/",
-        "points": 83,
-        "comments": 9,
-        "id": "32041158"
-      },
-      {
-        "created_at": "2014-08-15T18:34:55Z",
-        "title": "Show HN: Blot, a static blog powered by Dropbox",
-        "url": "https://blot.im/",
-        "points": 75,
-        "comments": 36,
-        "id": "8183498"
-      },
-      {
-        "created_at": "2015-08-18T08:04:39Z",
-        "title": "Blot – blogging from a Dropbox folder",
-        "url": "https://blot.im",
-        "points": 65,
-        "comments": 17,
-        "id": "10078031"
-      },
-      {
-        "created_at": "2019-06-11T17:21:53Z",
-        "title": "C64 Power C Tutorial",
-        "url": "http://64k.blot.im/power-c-tutorial-part-i-introduction",
-        "points": 64,
-        "comments": 22,
-        "id": "20157472"
-      },
-      {
-        "created_at": "2018-11-05T13:10:44Z",
-        "title": "TRE: A Regex Engine with Approximate Matching",
-        "url": "http://ducktape.blot.im/tre-a-regex-engine-with-approximate-matching",
-        "points": 58,
-        "comments": 11,
-        "id": "18382009"
-      }
-    ]
   },
   {
     "url": "https://bobbiechen.com",
@@ -9034,12 +8612,6 @@
     ]
   },
   {
-    "url": "https://bryanhogan.me",
-    "title": "Bryan's Blog",
-    "desc": "Hi I'm Bryan. I write on everything that interests me such as Productivity, Learning, Creating, Web Dev, Organisational System, Books, Games and more.",
-    "feed": "https://bryanhogan.me/rss"
-  },
-  {
     "url": "https://bsid.io",
     "title": "Siddhartha Bariker🚀",
     "desc": "Software Engineering, Distributed Systems, DevOps, IoT",
@@ -9092,109 +8664,6 @@
         "points": 172,
         "comments": 76,
         "id": "17505247"
-      }
-    ]
-  },
-  {
-    "url": "https://bt.ht",
-    "title": "~bt",
-    "now": "https://bt.ht/now",
-    "hn": [
-      {
-        "created_at": "2023-05-05T18:18:41Z",
-        "title": "The core problem with hamburger menus",
-        "url": "https://bt.ht/hamburgers/",
-        "points": 161,
-        "comments": 256,
-        "id": "35833163"
-      },
-      {
-        "created_at": "2023-03-03T21:29:02Z",
-        "title": "Why I stopped using an external monitor",
-        "url": "https://bt.ht/monitor/",
-        "points": 141,
-        "comments": 239,
-        "id": "35015277"
-      },
-      {
-        "created_at": "2023-09-26T12:15:59Z",
-        "title": "The X220 ThinkPad",
-        "url": "https://bt.ht/x220/",
-        "points": 136,
-        "comments": 138,
-        "id": "37658151"
-      },
-      {
-        "created_at": "2023-01-09T16:34:22Z",
-        "title": "My coffee maker just makes coffee",
-        "url": "https://bt.ht/one-thing/",
-        "points": 129,
-        "comments": 305,
-        "id": "34312243"
-      },
-      {
-        "created_at": "2022-12-23T18:26:18Z",
-        "title": "I want to suckless and you can too",
-        "url": "https://bt.ht/suckless/",
-        "points": 90,
-        "comments": 112,
-        "id": "34109049"
-      },
-      {
-        "created_at": "2023-07-16T19:00:43Z",
-        "title": "Shell Script RSS Publishing",
-        "url": "https://shinobi.bt.ht/",
-        "points": 89,
-        "comments": 16,
-        "id": "36750337"
-      },
-      {
-        "created_at": "2023-12-31T07:32:47Z",
-        "title": "The X220 ThinkPad is the best laptop",
-        "url": "https://bt.ht/posts/x220/",
-        "points": 86,
-        "comments": 141,
-        "id": "38822456"
-      },
-      {
-        "created_at": "2022-12-08T15:28:25Z",
-        "title": "Adventures in Creating a Minimal Alpine Linux Installer",
-        "url": "https://bt.ht/alpine/",
-        "points": 73,
-        "comments": 41,
-        "id": "33908848"
-      },
-      {
-        "created_at": "2023-12-30T13:05:00Z",
-        "title": "Switching Things over to Ikiwiki",
-        "url": "https://bt.ht/posts/Switching_Things_Over_to_ikiwiki/",
-        "points": 45,
-        "comments": 27,
-        "id": "38814990"
-      },
-      {
-        "created_at": "2023-03-07T19:36:09Z",
-        "title": "The Death of Personality (2017)",
-        "url": "https://bt.ht/death-of-personality/",
-        "points": 43,
-        "comments": 30,
-        "id": "35060071"
-      },
-      {
-        "created_at": "2023-03-16T08:40:35Z",
-        "title": "Stop Using Custom Web Fonts",
-        "url": "https://bt.ht/webfonts/",
-        "points": 18,
-        "comments": 22,
-        "id": "35179600"
-      },
-      {
-        "created_at": "2022-11-06T18:28:19Z",
-        "title": "Making Tables Responsive with Minimal CSS (2019)",
-        "url": "https://bt.ht/tables/",
-        "points": 18,
-        "comments": 0,
-        "id": "33495579"
       }
     ]
   },
@@ -9464,12 +8933,6 @@
         "id": "15202895"
       }
     ]
-  },
-  {
-    "url": "https://cboy.space",
-    "title": "cboy's space",
-    "desc": "everything about cboy",
-    "feed": "https://cboy.space/index.xml"
   },
   {
     "url": "https://cendyne.dev",
@@ -9904,12 +9367,6 @@
     "x": "https://x.com/HugoVTeixeira"
   },
   {
-    "url": "https://confessionsoftheprofessions.com",
-    "title": "Insights Into Jobs And Careers | Confessions of the Professions",
-    "desc": "Confess your stories! Share the details of a day in the life at your place of work! Whether you love or hate your job, share your story!",
-    "keywords": "confessions,professions,careers,jobs,workplace,work,boss,company,business,employee"
-  },
-  {
     "url": "https://cookie.engineer",
     "title": "Cookie Engineer's Portfolio (🍪🔧)",
     "desc": "Portfolio of Cookie Engineer and their Open Source projects",
@@ -10292,23 +9749,11 @@
     ]
   },
   {
-    "url": "https://crawlwalkrunbook.substack.com",
-    "title": "Crawl-Walk-Runbook | Chad Knight",
-    "desc": "A dad's caregiver journal and personal guide to operating a household. I'm documenting our family's choices and their outcomes over our first child's babyhood, and sharing my perspective on life as a fulltime caregiver.",
-    "about": "https://crawlwalkrunbook.substack.com/about",
-    "feed": "https://crawlwalkrunbook.substack.com/feed"
-  },
-  {
     "url": "https://cretezy.com",
     "title": "Cretezy - Technology & Programming",
     "desc": "Articles, projects, and videos about technology and programming.",
     "feed": "https://cretezy.com/rss.xml",
     "github": "https://github.com/cretezy"
-  },
-  {
-    "url": "https://crisis40.com",
-    "title": "caso grave de crisis de los 40",
-    "feed": "https://crisis40.com/posts/index.xml"
   },
   {
     "url": "https://crooked.ink",
@@ -10598,124 +10043,6 @@
         "points": 11,
         "comments": 2,
         "id": "24890753"
-      }
-    ]
-  },
-  {
-    "url": "https://da.vidbuchanan.co.uk",
-    "title": "[d@vidbuchanan.co.uk ~]$",
-    "hn": [
-      {
-        "created_at": "2024-07-17T16:41:38Z",
-        "title": "Jailbreaking RabbitOS",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html",
-        "points": 1089,
-        "comments": 265,
-        "id": "40987730"
-      },
-      {
-        "created_at": "2024-10-07T13:20:19Z",
-        "title": "Can you get root with only a cigarette lighter?",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html",
-        "points": 681,
-        "comments": 150,
-        "id": "41765716"
-      },
-      {
-        "created_at": "2023-03-09T14:29:57Z",
-        "title": "The Quest for Netflix on Asahi Linux",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/netflix-on-asahi.html",
-        "points": 662,
-        "comments": 280,
-        "id": "35081510"
-      },
-      {
-        "created_at": "2021-06-21T14:54:41Z",
-        "title": "PNG files can be animated via network latency",
-        "url": "https://www.da.vidbuchanan.co.uk/adamation/image.png",
-        "points": 511,
-        "comments": 106,
-        "id": "27579759"
-      },
-      {
-        "created_at": "2021-12-16T01:32:32Z",
-        "title": "PNG Parser Differential",
-        "url": "https://www.da.vidbuchanan.co.uk/widgets/pngdiff/",
-        "points": 506,
-        "comments": 53,
-        "id": "29573792"
-      },
-      {
-        "created_at": "2023-01-18T10:01:00Z",
-        "title": "Hello, PNG",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/hello-png.html",
-        "points": 268,
-        "comments": 155,
-        "id": "34425067"
-      },
-      {
-        "created_at": "2024-01-05T02:09:58Z",
-        "title": "SIMD in Pure Python",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/python-swar.html",
-        "points": 256,
-        "comments": 21,
-        "id": "38874885"
-      },
-      {
-        "created_at": "2023-03-18T12:58:23Z",
-        "title": "Exploiting aCropalypse: Recovering truncated PNGs",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/exploiting-acropalypse.html",
-        "points": 235,
-        "comments": 71,
-        "id": "35208721"
-      },
-      {
-        "created_at": "2023-09-13T04:57:41Z",
-        "title": "S32 Unix Clock",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/unix-clock.html",
-        "points": 151,
-        "comments": 15,
-        "id": "37492371"
-      },
-      {
-        "created_at": "2023-12-21T08:49:10Z",
-        "title": "Colliding Secure Hashes",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/colliding-secure-hashes.html",
-        "points": 89,
-        "comments": 25,
-        "id": "38718314"
-      },
-      {
-        "created_at": "2025-07-27T23:24:01Z",
-        "title": "When circumvention is more popular than compliance",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/compliance-vs-circumvention.html",
-        "points": 44,
-        "comments": 22,
-        "id": "44705627"
-      },
-      {
-        "created_at": "2024-01-02T16:45:59Z",
-        "title": "Text Editors Should Be Worse",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/annoying-text-editors.html",
-        "points": 14,
-        "comments": 13,
-        "id": "38843668"
-      },
-      {
-        "created_at": "2024-07-16T00:17:07Z",
-        "title": "Jailbreaking RabbitOS (The Hard Way)",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html",
-        "points": 10,
-        "comments": 0,
-        "id": "40972604"
-      },
-      {
-        "created_at": "2026-03-20T12:11:35Z",
-        "title": "Can you get root with only a cigarette lighter? (2024)",
-        "url": "https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html",
-        "points": 204,
-        "comments": 41,
-        "id": "47453462"
       }
     ]
   },
@@ -13143,57 +12470,6 @@
     "x": "https://x.com/ethan_mick"
   },
   {
-    "url": "https://ethicalads.io",
-    "title": "Developer Ad Network with privacy built in - EthicalAds",
-    "desc": "EthicalAds is a an ad network for developers that takes privacy seriously. We use powerful content targeting to match ads with the right audience without any user tracking.",
-    "about": "https://ethicalads.io/about/",
-    "feed": "https://www.ethicalads.io/feeds/all.atom.xml",
-    "github": "https://github.com/readthedocs",
-    "x": "https://x.com/ethicaladsio",
-    "hn": [
-      {
-        "created_at": "2021-07-28T18:30:11Z",
-        "title": "Invasive ad targeting is bad for journalism and other high-quality publishers",
-        "url": "https://www.ethicalads.io/blog/2021/05/how-invasive-ad-targeting-is-bad-for-journalism-and-other-high-quality-publishers/",
-        "points": 206,
-        "comments": 83,
-        "id": "27987650"
-      },
-      {
-        "created_at": "2022-08-30T14:24:54Z",
-        "title": "Show HN: EthicalAds – Privacy-first ad network for developers",
-        "url": "https://www.ethicalads.io",
-        "points": 189,
-        "comments": 74,
-        "id": "32650878"
-      },
-      {
-        "created_at": "2021-07-27T18:19:58Z",
-        "title": "Handling 100 Requests per Second with Python and Django",
-        "url": "https://www.ethicalads.io/blog/2021/07/handling-100-requests-per-second-with-python-django/",
-        "points": 50,
-        "comments": 58,
-        "id": "27975685"
-      },
-      {
-        "created_at": "2024-09-22T21:07:58Z",
-        "title": "Mozilla's privacy preserving ad attribution: The future or an oxymoron?",
-        "url": "https://www.ethicalads.io/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/",
-        "points": 26,
-        "comments": 11,
-        "id": "41620086"
-      },
-      {
-        "created_at": "2024-08-29T21:16:09Z",
-        "title": "Mozilla's privacy preserving ad attribution: The future or an oxymoron?",
-        "url": "https://www.ethicalads.io/blog/2024/08/mozillas-privacy-preserving-ad-attribution-the-future-or-an-oxymoron/",
-        "points": 10,
-        "comments": 0,
-        "id": "41395383"
-      }
-    ]
-  },
-  {
     "url": "https://etodd.io",
     "title": "Evan Todd",
     "about": "https://etodd.io/about/",
@@ -14043,86 +13319,6 @@
     "desc": "Read writing from Fred Grott on Medium. Flutter Cross Platform Mobile App Design https://keybase.io/fredgrott. Every day, Fred Grott and thousands of other voices read, write, and share important stories on Medium."
   },
   {
-    "url": "https://fredwu.me",
-    "title": "Fred Wu - Engineering, Design, Photography, Leadership",
-    "desc": "Located in Melbourne, Australia, I am a software developer and leader with a strong focus on code craftsmanship, business value and user experience.",
-    "feed": "https://fredwu.me/rss.xml",
-    "hn": [
-      {
-        "created_at": "2016-04-05T11:42:26Z",
-        "title": "Developers, Being Treated Poorly? You Are Not Alone",
-        "url": "http://fredwu.me/post/142289849178/developers-being-treated-poorly-you-are-not",
-        "points": 223,
-        "comments": 251,
-        "id": "11429590"
-      },
-      {
-        "created_at": "2011-08-17T12:58:57Z",
-        "title": "Open-sourcing A 200+ Hour Project - The Story Behind It",
-        "url": "http://fredwu.me/post/9036730472?e5d340e0",
-        "points": 122,
-        "comments": 12,
-        "id": "2895133"
-      },
-      {
-        "created_at": "2016-07-23T18:36:32Z",
-        "title": "I Accidentally Some Machine Learning – My Story of a Month of Learning Elixir",
-        "url": "http://fredwu.me/post/147855522498/i-accidentally-some-machine-learning-my-story-of",
-        "points": 102,
-        "comments": 44,
-        "id": "12150494"
-      },
-      {
-        "created_at": "2013-06-29T12:10:15Z",
-        "title": "The Future of Computing - An Interview with Yukihiro “Matz\" Matsumoto",
-        "url": "http://fredwu.me/post/54175219257/the-future-of-computing-the-future-of-computer-programmers",
-        "points": 94,
-        "comments": 25,
-        "id": "5962151"
-      },
-      {
-        "created_at": "2012-11-27T12:54:12Z",
-        "title": "An Interview with Yukihiro “Matz” Matsumoto",
-        "url": "http://fredwu.me/post/36493181321/an-interview-with-yukihiro-matz-matsumoto",
-        "points": 74,
-        "comments": 13,
-        "id": "4836894"
-      },
-      {
-        "created_at": "2012-01-26T05:44:41Z",
-        "title": "On Hiring: How Not to Annoy Developers",
-        "url": "http://fredwu.me/post/16510145575/on-hiring-how-not-to-annoy-developers",
-        "points": 45,
-        "comments": 37,
-        "id": "3513060"
-      },
-      {
-        "created_at": "2013-10-29T12:11:12Z",
-        "title": "On Hiring: Trial Week - Yay or Nay?",
-        "url": "http://fredwu.me/post/65426660472/on-hiring-trial-week-yay-or-nay",
-        "points": 22,
-        "comments": 45,
-        "id": "6633434"
-      },
-      {
-        "created_at": "2012-03-28T11:37:02Z",
-        "title": "Agile is not a Sham",
-        "url": "http://fredwu.me/post/20058808238/agile-is-not-a-sham",
-        "points": 16,
-        "comments": 0,
-        "id": "3765693"
-      },
-      {
-        "created_at": "2012-03-28T13:00:26Z",
-        "title": "Agile is not a Sham",
-        "url": "http://fredwu.me/post/20058808238/agile-is-not-a-sham-",
-        "points": 10,
-        "comments": 4,
-        "id": "3765965"
-      }
-    ]
-  },
-  {
     "url": "https://frest.substack.com",
     "title": "FREST Substack | Guyren Howe",
     "desc": "The substack for FREST: computing for everyone.",
@@ -14440,28 +13636,6 @@
         "points": 171,
         "comments": 123,
         "id": "5031378"
-      }
-    ]
-  },
-  {
-    "url": "https://group.miletic.net/en/blog",
-    "title": "GASERI Blog",
-    "desc": "Group for Apps and Services on Exascale Research Infrastructure is a research, development, and teaching unit at FIDIT + MedRi.",
-    "keywords": "academia, computational chemistry, supercomputing, scientific software, open source, gromacs, cp2k, latex, markdown, mkdocs",
-    "about": "https://group.miletic.net/en/",
-    "now": "https://group.miletic.net/",
-    "feed": "https://group.miletic.net/feed_rss_created.xml",
-    "github": "https://github.com/gaseri",
-    "x": "https://x.com/gaseri_org",
-    "mastodon": "https://mstdn.science/@gaseri",
-    "hn": [
-      {
-        "created_at": "2022-02-25T11:01:41Z",
-        "title": "Don't Use RAR",
-        "url": "https://group.miletic.net/en/blog/2022-02-24-dont-use-rar/",
-        "points": 209,
-        "comments": 209,
-        "id": "30465933"
       }
     ]
   },
@@ -15440,11 +14614,6 @@
     "desc": "I’m a python lover, Javascript Admirer, Thinker, Day Dreamer. Above all, An introvert with exception 😉 CEO, Founder of Dreamcatcher IT Apart from that I’m a passionate freelance web developer who loves to help others to find the best programmable solution to achieve their objectives. My programming"
   },
   {
-    "url": "https://hendriklammers.com",
-    "title": "Hendrik Lammers",
-    "desc": "Personal website of software developer Hendrik Lammers"
-  },
-  {
     "url": "https://her.esy.fun",
     "title": "Home",
     "desc": "Most recent articles",
@@ -15540,12 +14709,6 @@
         "id": "46996569"
       }
     ]
-  },
-  {
-    "url": "https://hipenguin.in",
-    "title": "Sonal's Blog 🎉",
-    "desc": "My personal journal where I write articles mostly related to Quality Analysis.",
-    "feed": "https://hipenguin.in/index.xml"
   },
   {
     "url": "https://hiteshyadav.substack.com",
@@ -15743,11 +14906,6 @@
     "keywords": "arquitectura cloud, platform engineering, Kubernetes, AWS, consultoría técnica, CTO, DevOps, plataforma interna",
     "about": "https://hvalls.dev/about",
     "github": "https://github.com/hvalls"
-  },
-  {
-    "url": "https://hyperific.bearblog.dev",
-    "title": "Hyperific's blog",
-    "desc": "Hi there 👋 My name is Daniel. Welcome to my little corner of the internet. I'm a computational biologist and I'm curious about how things work. I create and ..."
   },
   {
     "url": "https://hypertexthero.com",
@@ -16841,12 +15999,6 @@
     "title": "Javier Garmon",
     "feed": "https://javiergarmon.com/rss/",
     "x": "https://x.com/javiergarmon"
-  },
-  {
-    "url": "https://jcnoel.dev",
-    "title": "home - jcnoel",
-    "desc": "recording my thoughts and experiences with you",
-    "feed": "https://jcnoel.dev/feed/feed.xml"
   },
   {
     "url": "https://jcruz.eu",
@@ -19097,21 +18249,6 @@
     ]
   },
   {
-    "url": "https://law.gmnz.xyz",
-    "title": "Law Gimenez",
-    "feed": "https://law.gmnz.xyz/feed.xml",
-    "hn": [
-      {
-        "created_at": "2025-12-11T03:50:04Z",
-        "title": "Vibe coding is mad depressing",
-        "url": "https://law.gmnz.xyz/vibe-coding-is-mad-depressing/",
-        "points": 263,
-        "comments": 159,
-        "id": "46227422"
-      }
-    ]
-  },
-  {
     "url": "https://leadership.garden",
     "title": "Leadership Garden",
     "desc": "Your guide to engineering leadership",
@@ -20252,199 +19389,6 @@
         "points": 19,
         "comments": 17,
         "id": "4141675"
-      }
-    ]
-  },
-  {
-    "url": "https://mataroa.blog",
-    "title": "Mataroa — Blogging platform for minimalists",
-    "desc": "Blogging platform for minimalists.",
-    "keywords": "blog, blogging, platform, fast, simple, minimal",
-    "github": "https://github.com/mataroablog",
-    "hn": [
-      {
-        "created_at": "2023-10-30T14:15:07Z",
-        "title": "I accidentally saved my company half a million dollars",
-        "url": "https://ludic.mataroa.blog/blog/i-accidentally-saved-half-a-million-dollars/",
-        "points": 1076,
-        "comments": 458,
-        "id": "38069710"
-      },
-      {
-        "created_at": "2024-06-19T06:08:10Z",
-        "title": "Please don't mention AI again",
-        "url": "https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/",
-        "points": 968,
-        "comments": 563,
-        "id": "40725329"
-      },
-      {
-        "created_at": "2024-10-31T19:01:55Z",
-        "title": "Get me out of data hell",
-        "url": "https://ludic.mataroa.blog/blog/get-me-out-of-data-hell/",
-        "points": 698,
-        "comments": 299,
-        "id": "42010249"
-      },
-      {
-        "created_at": "2022-05-04T20:39:36Z",
-        "title": "IBM's Asshole Test",
-        "url": "https://johnpublic.mataroa.blog/blog/the-asshole-test/",
-        "points": 683,
-        "comments": 577,
-        "id": "31265554"
-      },
-      {
-        "created_at": "2023-02-27T11:43:16Z",
-        "title": "Most data work seems fundamentally worthless",
-        "url": "https://ludic.mataroa.blog/blog/most-data-work-seems-fundamentally-worthless/",
-        "points": 605,
-        "comments": 310,
-        "id": "34955309"
-      },
-      {
-        "created_at": "2022-04-03T13:15:56Z",
-        "title": "Mataroa blog – Naked blogging platform for minimalists",
-        "url": "https://mataroa.blog/",
-        "points": 532,
-        "comments": 153,
-        "id": "30896661"
-      },
-      {
-        "created_at": "2023-10-08T00:48:03Z",
-        "title": "Organization probably doesn't want to improve things",
-        "url": "https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/",
-        "points": 524,
-        "comments": 468,
-        "id": "37806870"
-      },
-      {
-        "created_at": "2024-03-07T03:42:47Z",
-        "title": "Leadership is a hell of a drug",
-        "url": "https://ludic.mataroa.blog/blog/leadership-is-a-hell-of-a-drug/",
-        "points": 385,
-        "comments": 258,
-        "id": "39624842"
-      },
-      {
-        "created_at": "2023-11-24T10:38:36Z",
-        "title": "The Failed Commodification of Technical Work",
-        "url": "https://ludic.mataroa.blog/blog/the-failed-commodification-of-technical-work/",
-        "points": 324,
-        "comments": 200,
-        "id": "38402515"
-      },
-      {
-        "created_at": "2023-11-01T07:40:07Z",
-        "title": "What the Goddamn Hell Is Going on in the Tech Industry?",
-        "url": "https://ludic.mataroa.blog/blog/what-the-goddamn-hell-is-going-on-in-the-tech-industry/",
-        "points": 256,
-        "comments": 234,
-        "id": "38095542"
-      },
-      {
-        "created_at": "2024-11-30T17:19:27Z",
-        "title": "You must read at least one book to ride",
-        "url": "https://ludic.mataroa.blog/blog/you-must-read-at-least-one-book-to-ride/",
-        "points": 245,
-        "comments": 149,
-        "id": "42282717"
-      },
-      {
-        "created_at": "2025-09-18T11:43:41Z",
-        "title": "I uncovered an ACPI bug in my Dell Inspiron 5567. It was plaguing me for 8 years",
-        "url": "https://triangulatedexistence.mataroa.blog/blog/i-uncovered-an-acpi-bug-in-my-dell-inspiron-5667-it-was-plaguing-me-for-8-years/",
-        "points": 194,
-        "comments": 28,
-        "id": "45288440"
-      },
-      {
-        "created_at": "2022-08-12T20:17:07Z",
-        "title": "Intel 286 secrets: ICE mode and F1 0F 04",
-        "url": "https://rep-lodsb.mataroa.blog/blog/intel-286-secrets-ice-mode-and-f1-0f-04/",
-        "points": 121,
-        "comments": 44,
-        "id": "32443389"
-      },
-      {
-        "created_at": "2024-04-25T04:37:39Z",
-        "title": "Most Tech Jobs Are Jokes and I Am Not Laughing",
-        "url": "https://ludic.mataroa.blog/blog/most-tech-jobs-are-jokes-and-i-am-not-laughing/",
-        "points": 108,
-        "comments": 88,
-        "id": "40153463"
-      },
-      {
-        "created_at": "2025-05-12T14:22:24Z",
-        "title": "The Audio Stack Is a Crime Scene",
-        "url": "https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-2-the-audio-stack-is-a-crime-scene/",
-        "points": 83,
-        "comments": 18,
-        "id": "43963288"
-      },
-      {
-        "created_at": "2024-03-01T03:56:14Z",
-        "title": "Flexible schemas are the mindkiller",
-        "url": "https://ludic.mataroa.blog/blog/flexible-schemas-are-the-mindkiller/",
-        "points": 79,
-        "comments": 64,
-        "id": "39558376"
-      },
-      {
-        "created_at": "2024-11-12T06:31:18Z",
-        "title": "I Will Always Be Angry About Software Engineering",
-        "url": "https://ludic.mataroa.blog/blog/why-i-will-always-be-angry-about-software-engineering/",
-        "points": 75,
-        "comments": 18,
-        "id": "42113296"
-      },
-      {
-        "created_at": "2026-01-14T05:38:08Z",
-        "title": "Bringing the Predators to Life in MAME",
-        "url": "https://lysiwyg.mataroa.blog/blog/bringing-the-predators-to-life-in-mame/",
-        "points": 76,
-        "comments": 18,
-        "id": "46612727"
-      },
-      {
-        "created_at": "2024-06-16T09:28:15Z",
-        "title": "The 286's internal registers (2022)",
-        "url": "https://rep-lodsb.mataroa.blog/blog/the-286s-internal-registers/",
-        "points": 73,
-        "comments": 17,
-        "id": "40695795"
-      },
-      {
-        "created_at": "2025-05-10T13:15:01Z",
-        "title": "I Want to Love Linux. It Doesn't Love Me Back",
-        "url": "https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/",
-        "points": 71,
-        "comments": 47,
-        "id": "43945373"
-      },
-      {
-        "created_at": "2026-07-19T01:29:19Z",
-        "title": "AI Mania Is Eviscerating Global Decision-Making",
-        "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
-        "points": 469,
-        "comments": 297,
-        "id": "48964185"
-      },
-      {
-        "created_at": "2026-02-25T18:25:57Z",
-        "title": "The Slow Death of the Power User",
-        "url": "https://fireborn.mataroa.blog/blog/the-slow-death-of-the-power-user/",
-        "points": 106,
-        "comments": 96,
-        "id": "47155548"
-      },
-      {
-        "created_at": "2026-07-18T08:14:05Z",
-        "title": "AI Mania Is Eviscerating Global Decision-Making",
-        "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
-        "points": 88,
-        "comments": 13,
-        "id": "48956153"
       }
     ]
   },
@@ -21674,22 +20618,6 @@
     "desc": "Personal site of Michael Honey, Australian web design guy"
   },
   {
-    "url": "https://miikavonbell.com",
-    "title": "Miika von Bell: Full-stack software developer",
-    "desc": "Full-stack software developer & technology consultant. Experience with freelancing, in-house development, and consulting across multiple industries in both public and private sector. Skills in containarized applications running in on-premise and in the cloud. Comfortable with many technologies such",
-    "feed": "https://miikavonbell.com/index.xml",
-    "hn": [
-      {
-        "created_at": "2021-08-20T13:24:17Z",
-        "title": "The End of Social Media",
-        "url": "https://miikavonbell.com/posts/end-of-social-media/",
-        "points": 119,
-        "comments": 112,
-        "id": "28245634"
-      }
-    ]
-  },
-  {
     "url": "https://mikenikles.com",
     "title": "www.mikenikles.com",
     "desc": "Content about developer experience, full-stack web development, tech careers, and whatever else crosses my mind.",
@@ -22808,12 +21736,6 @@
         "id": "46823485"
       }
     ]
-  },
-  {
-    "url": "https://nanotipsforvim.prose.sh",
-    "title": "Nano Tips for Vim",
-    "keywords": "blog, blogging, write, writing",
-    "feed": "https://nanotipsforvim.prose.sh/rss"
   },
   {
     "url": "https://nectarine.sh",
@@ -26986,31 +25908,6 @@
     "feed": "https://pseudofreedom.substack.com/feed"
   },
   {
-    "url": "https://ptimofeev.com",
-    "title": "Pavel Timofeev",
-    "desc": "Software development, startups, devops, cryptocurrencies and other technical stuff of my interest.",
-    "about": "https://ptimofeev.com/about",
-    "feed": "https://ptimofeev.com/feed.xml",
-    "hn": [
-      {
-        "created_at": "2020-06-23T15:34:52Z",
-        "title": "Go vs. Crystal Performance",
-        "url": "https://ptimofeev.com/go-vs-crystal-perfomance/",
-        "points": 197,
-        "comments": 160,
-        "id": "23615303"
-      },
-      {
-        "created_at": "2020-06-05T18:22:01Z",
-        "title": "Ruby vs. Crystal Performance",
-        "url": "https://ptimofeev.com/ruby-vs-crystal-performance/",
-        "points": 175,
-        "comments": 148,
-        "id": "23431941"
-      }
-    ]
-  },
-  {
     "url": "https://ptrdev.com",
     "title": "Peter Dev",
     "desc": "Web development tutorials and courses. PHP, Symfony, Javascript, Node.js, Vue, Nuxt.js, React, Laravel, Golang",
@@ -27050,10 +25947,6 @@
         "id": "46352191"
       }
     ]
-  },
-  {
-    "url": "https://pythops.com",
-    "desc": "pythops.com"
   },
   {
     "url": "https://qf0.github.io",
@@ -27100,12 +25993,6 @@
     "github": "https://github.com/qubyte",
     "bluesky": "https://bsky.app/profile/qubyte.codes",
     "mastodon": "https://sunny.garden/@aura"
-  },
-  {
-    "url": "https://queercat.github.io",
-    "title": "Portfolio",
-    "desc": "May Tusek's thoughtfully crafted portfolio page.",
-    "github": "https://github.com/queercat"
   },
   {
     "url": "https://questionableengineering.com",
@@ -27325,15 +26212,6 @@
         "id": "32039544"
       }
     ]
-  },
-  {
-    "url": "https://ratherlabs.com",
-    "title": "Blockchain Software Development & Engineering Company USA",
-    "desc": "Rather Labs is the best blockchain technology company in USA specializing in blockchain app & s/w development, smart contracts and decentralized finance.",
-    "keywords": "blockchain app development, blockchain smart contracts, web3 development,web3 smart contract developers, software factory, software development, software projects, staff augmentation",
-    "about": "https://ratherlabs.com/about",
-    "github": "https://github.com/rather-labs",
-    "x": "https://x.com/rather_labs"
   },
   {
     "url": "https://rebeccaskinner.net",
@@ -28161,13 +27039,6 @@
     "bluesky": "https://bsky.app/profile/samsartor.com"
   },
   {
-    "url": "https://samueldobbie.substack.com",
-    "title": "Samuel’s Substack | Samuel Dobbie",
-    "desc": "My personal Substack.",
-    "about": "https://samueldobbie.substack.com/about",
-    "feed": "https://samueldobbie.substack.com/feed"
-  },
-  {
     "url": "https://satisfice.com",
     "title": "Software Testing for Serious People - Satisfice, Inc.",
     "desc": "Software Testing for Serious People",
@@ -28207,11 +27078,6 @@
     ]
   },
   {
-    "url": "https://scaglio.bearblog.dev",
-    "title": "Happiness and Misadventures",
-    "desc": "A personal blog. It contains mostly rants, but there are some positive vibes, too."
-  },
-  {
     "url": "https://scastiel.dev",
     "title": "Sebastien Castiel · Developer, writer, indie hacker · 📍 Montreal, QC",
     "desc": "I’m an experienced developer who builds stuff and occasionally writes blog posts and books. My main area of expertise is the front-end (React, TypeScript, Next.js). 👋 I’m available for contract work!",
@@ -28244,10 +27110,6 @@
         "id": "36468185"
       }
     ]
-  },
-  {
-    "url": "https://seasonedtech.net",
-    "title": "Seasoned Tech"
   },
   {
     "url": "https://blog.artegoser.ru",
@@ -28580,10 +27442,6 @@
     ]
   },
   {
-    "url": "https://sforman.srht.site",
-    "title": "Heliotrope Pajamas"
-  },
-  {
     "url": "https://shadowfacts.net",
     "title": "Shadowfacts",
     "feed": "https://shadowfacts.net/feed.xml",
@@ -28808,11 +27666,6 @@
     ]
   },
   {
-    "url": "https://shumaylov.ee",
-    "title": "Georg Šumailov",
-    "feed": "https://shumaylov.ee/index.xml"
-  },
-  {
     "url": "https://shyamjos.com",
     "title": "Shyam Jos",
     "desc": "Hey I am Shyam Jos. Welcome to my personal blog, where I write about Linux, DevOps, Cloud and Automation.",
@@ -28823,12 +27676,6 @@
     "bluesky": "https://bsky.app/profile/shyamjos.com",
     "x": "https://x.com/shyamjose",
     "mastodon": "https://fosstodon.org/@shyamjos"
-  },
-  {
-    "url": "https://siddhantpyasi.com",
-    "desc": "Siddhant Pyasi's personal website.",
-    "now": "https://siddhantpyasi.com/now",
-    "feed": "https://siddhantpyasi.com/feed.xml"
   },
   {
     "url": "https://siddhesh.substack.com",
@@ -30285,21 +29132,6 @@
     ]
   },
   {
-    "url": "https://stork-search.net",
-    "title": "Stork Search - Impossibly Fast Web Search",
-    "desc": "Impossibly fast web search, built for static sites.",
-    "hn": [
-      {
-        "created_at": "2020-12-27T19:16:01Z",
-        "title": "Show HN: Stork: A customizable, WASM-powered full-text search plugin for the web",
-        "url": "https://stork-search.net",
-        "points": 137,
-        "comments": 33,
-        "id": "25553458"
-      }
-    ]
-  },
-  {
     "url": "https://strchr.com",
     "title": "strchr.com",
     "feed": "https://strchr.com/?feed=/",
@@ -30870,60 +29702,6 @@
     ]
   },
   {
-    "url": "https://t.me",
-    "title": "Telegram Messenger",
-    "hn": [
-      {
-        "created_at": "2021-09-03T00:59:50Z",
-        "title": "Pavel Durov: Most studies show humanity is now less free than several years ago",
-        "url": "https://t.me/durov/165",
-        "points": 124,
-        "comments": 133,
-        "id": "28399317"
-      },
-      {
-        "created_at": "2022-10-23T15:29:19Z",
-        "title": "Kiwifarms Dropped by Their ISP",
-        "url": "https://t.me/kiwifarms/68",
-        "points": 111,
-        "comments": 238,
-        "id": "33307711"
-      },
-      {
-        "created_at": "2020-08-05T13:39:10Z",
-        "title": "Pavel Durov on the TikTok Sale to U.S. company",
-        "url": "https://t.me/s/durov/123",
-        "points": 84,
-        "comments": 106,
-        "id": "24060603"
-      },
-      {
-        "created_at": "2024-05-08T18:39:00Z",
-        "title": "Telegram founder claims Signal has a US government backdoor",
-        "url": "https://t.me/durov/274",
-        "points": 83,
-        "comments": 58,
-        "id": "40301508"
-      },
-      {
-        "created_at": "2020-12-23T08:14:20Z",
-        "title": "Telegram's future plans",
-        "url": "https://t.me/s/durov/142",
-        "points": 39,
-        "comments": 17,
-        "id": "25515569"
-      },
-      {
-        "created_at": "2020-08-06T17:25:07Z",
-        "title": "Large Data Leaks at Intel",
-        "url": "https://t.me/exconfidential/590",
-        "points": 12,
-        "comments": 4,
-        "id": "24073178"
-      }
-    ]
-  },
-  {
     "url": "https://tabacof.github.io",
     "title": "Pedro Tabacof’s blog - Blog",
     "feed": "https://tabacof.github.io/index.xml",
@@ -31240,14 +30018,6 @@
     ]
   },
   {
-    "url": "https://techlatest.hashnode.dev",
-    "title": "Techlatest Blogs",
-    "desc": "Bringing the latest tech to grow your business. AWS, GCP & Azure registered partner and cloud solution provider on latest tech.",
-    "feed": "https://techlatest.hashnode.dev/rss.xml",
-    "github": "https://github.com/techlatest",
-    "x": "https://x.com/TechlatestNet"
-  },
-  {
     "url": "https://teddywarner.org",
     "title": "Teddy Warner",
     "desc": "Maker stuff, robotics, and writings on life.",
@@ -31302,22 +30072,6 @@
     "about": "https://theblackcat102.github.io/about",
     "feed": "https://theblackcat102.github.io/feed.xml",
     "github": "https://github.com/theblackcat102"
-  },
-  {
-    "url": "https://thecapegreek.com",
-    "title": "Nik Spyratos - The Cape Greek",
-    "desc": "Personal & Professional website of Nik Spyratos",
-    "feed": "https://www.thecapegreek.com/rss.xml",
-    "hn": [
-      {
-        "created_at": "2023-07-14T23:43:08Z",
-        "title": "Hardware Essentialism – Choose your own computing adventure",
-        "url": "https://thecapegreek.com/Writing/2023/07-14+Hardware+Essentialism+-+Choose+your+own+computing+adventure",
-        "points": 17,
-        "comments": 1,
-        "id": "36731477"
-      }
-    ]
   },
   {
     "url": "https://thecareerist.micro.blog",
@@ -31551,12 +30305,6 @@
     "about": "https://thelisowe.com/about",
     "github": "https://github.com/Mockapapella",
     "x": "https://x.com/Mockapapella"
-  },
-  {
-    "url": "https://themes.getnikola.com",
-    "title": "Themes for Nikola",
-    "desc": "This is the theme repository for Nikola, a static site and blog generator. To contribute a theme, head to the GitHub repository and check out the README.md file for instructions and requirements. To c",
-    "x": "https://x.com/GetNikola"
   },
   {
     "url": "https://thenewleafjournal.com",
@@ -32195,13 +30943,6 @@
     "github": "https://github.com/delbonis"
   },
   {
-    "url": "https://transcendloneliness.substack.com",
-    "title": "Pabalnok Vienišumą | Transcend Loneliness | Aurimas Aleksandras Nausėdas",
-    "desc": "Transcending loneliness and making it a superpower. Have been struggling with it since after school. Overcame, so will share stories of battling it, how I did it, ways, tips and science/medicine to seize it as a superhero in LT & EN and tell about me.",
-    "about": "https://transcendloneliness.substack.com/about",
-    "feed": "https://transcendloneliness.substack.com/feed"
-  },
-  {
     "url": "https://transistor-man.com",
     "title": "DK LABORATORIES",
     "desc": "Dane Kouttron's project portfolio - electronics, robotics, electric vehicles, hardware reverse engineering and engineering experiments.",
@@ -32714,13 +31455,6 @@
     "github": "https://github.com/umtksa"
   },
   {
-    "url": "https://umtksa.net",
-    "title": "Something like a blog",
-    "desc": "✅1️⃣「马到成功」因为我们英国365集团有一流的服务和丰厚的彩金礼包.,英国365集团成为最受玩家欢迎的快乐赚钱的娱乐在线平台,英国365集团共含有动作类、体育类、 益智类、 射击类等游戏可以选择,用智能手机即可下载享受游戏的乐趣。",
-    "keywords": "drawing,illustration,redditgetsdrawn,çizim,dog",
-    "feed": "https://umtksa.net/rss"
-  },
-  {
     "url": "https://unsungnovelty.org",
     "title": "unsungNovelty",
     "desc": "unsungNovelty section - Data, Information accessibility and Security.",
@@ -33195,10 +31929,6 @@
     "x": "https://x.com/bjorklundvictor"
   },
   {
-    "url": "https://viderationale.blog",
-    "title": "Vide Rationale"
-  },
-  {
     "url": "https://vijethph.github.io",
     "title": "Vijeth P H - Personal Project Portfolio",
     "desc": "Vijeth's Project Portfolio",
@@ -33356,10 +32086,6 @@
     ]
   },
   {
-    "url": "https://vonguard.net",
-    "title": "VonGuard Dot Net – Wildly out of control weirdo in the land of the digit"
-  },
-  {
     "url": "https://vstollen.me",
     "title": "Vincent Stollenwerk - Vincent's tech blog",
     "desc": "This is the personal website and blog of Vincent Stollenwerk. Vincent is a computer science student and musician from Germany.",
@@ -33462,11 +32188,6 @@
     "about": "https://web.navan.dev/about/",
     "feed": "https://web.navan.dev/feed.rss",
     "github": "https://github.com/swift-gopher"
-  },
-  {
-    "url": "https://weller.ml",
-    "title": "Joe Weller",
-    "desc": "Portfolio website of Joe Weller."
   },
   {
     "url": "https://wells.dev",
@@ -33776,10 +32497,6 @@
         "id": "36744114"
       }
     ]
-  },
-  {
-    "url": "https://whir.tech",
-    "title": "Whir.tech"
   },
   {
     "url": "https://willabides.com",
@@ -35584,13 +34301,6 @@
     ]
   },
   {
-    "url": "https://costacoders.es",
-    "title": "CostaCoders.es Community",
-    "desc": "CostaCoders.es is an open virtual space and a collaborative local community for English-speaking software engineers living in Costa del Sol area.",
-    "feed": "https://costacoders.es/rss.xml",
-    "x": "https://x.com/keskival"
-  },
-  {
     "url": "https://neter.fi",
     "title": "Neter",
     "desc": "Neter is a one person company specializing in industrial anomaly detection, machine learning, Kubernetes and web technologies.",
@@ -35600,12 +34310,6 @@
     "url": "https://rukii.net",
     "title": "Rukii.net",
     "desc": "A small server in Spain, administered by an old software engineer."
-  },
-  {
-    "url": "https://galaxy.click",
-    "title": "galaxy",
-    "desc": "play incremental games and more on galaxy.click, forever for free.",
-    "about": "https://galaxy.click/about"
   },
   {
     "url": "https://balt.sno.mba",
@@ -35630,22 +34334,6 @@
     "title": "HOME | KOERISMO",
     "desc": "Hello world, this is my portfolio.",
     "github": "https://github.com/koerismo"
-  },
-  {
-    "url": "https://stratasource.org",
-    "title": "Strata Source",
-    "desc": "Introducing Strata Source, a game changer for Source modding",
-    "github": "https://github.com/StrataSource",
-    "x": "https://x.com/StrataSource"
-  },
-  {
-    "url": "https://blog.momentum-mod.org",
-    "title": "Momentum Mod Dev Blog",
-    "desc": "Momentum Mod development blog, hosting official changelogs, announcements, and more!",
-    "keywords": "Blog,Momentum Mod,Momentum,Mod,Developer Blog,devblog,changelogs,progress updates,news,announcements",
-    "feed": "https://blog.momentum-mod.org/index.xml",
-    "github": "https://github.com/momentum-mod",
-    "x": "https://x.com/momentummod"
   },
   {
     "url": "https://dawnfelstar.com",
@@ -35809,11 +34497,6 @@
     "title": "nthia.dev"
   },
   {
-    "url": "https://skylarhill.me",
-    "title": "Skylar Hill",
-    "desc": "Programmer, Lisp enthusiast, composer, and the gayest trans girl this side of the Red River"
-  },
-  {
     "url": "https://gwenpri.me",
     "title": "Hi I'm Gwen",
     "mastodon": "https://www.librepunk.club/@gwenprime"
@@ -35821,16 +34504,6 @@
   {
     "url": "https://cyberia.club",
     "title": "Cyberia Computer Club"
-  },
-  {
-    "url": "https://capsul.org",
-    "title": "Capsul",
-    "desc": "Capsul Cloud Compute"
-  },
-  {
-    "url": "https://nullhex.com",
-    "title": "Nullhex",
-    "desc": "An email service for members of Cyberia"
   },
   {
     "url": "https://diyarciftci.xyz",
@@ -35841,10 +34514,6 @@
     "url": "https://disinfo.zone",
     "title": "Wel̷͓̋c̴̞̑om̷̳̂ë̷́͜ ̴͂͜t̷̘͂o̷̭̍ ń̴̲ǧ̴̤ǐ̴̳n̵̖̓x̵͎͝!",
     "desc": "Luminous mirages shifting, merging, cyber currents collide. We divine the digital labyrinth, scripts in transformation, borders dissolved. Digital seers, navigating disorder. A prophecy, a melody, a cipher."
-  },
-  {
-    "url": "https://macroexpand.net",
-    "title": "Welcome interweb traveler!"
   },
   {
     "url": "https://gallery-mental.neocities.org",
@@ -35883,21 +34552,6 @@
   {
     "url": "https://laravista.altervista.org/L8x/searchdown",
     "title": "LaraVista | Laravel on AlterVista"
-  },
-  {
-    "url": "https://mycorrhiza.wiki",
-    "title": "Mycorrhiza Wiki",
-    "desc": "Mycorrhiza Wiki is a free and open-source wiki engine for the independent web developed by Bouncepaw, who is assisted by numerous contributors. Use Mycorrhiza for personal wikis, digital gardens, commonplace books and wikis for small teams or communities.",
-    "hn": [
-      {
-        "created_at": "2024-06-09T05:07:06Z",
-        "title": "Betula – federated bookmarking software for the independent web",
-        "url": "https://betula.mycorrhiza.wiki/",
-        "points": 156,
-        "comments": 64,
-        "id": "40622189"
-      }
-    ]
   },
   {
     "url": "https://bhankas.org",
@@ -36078,21 +34732,6 @@
         "points": 174,
         "comments": 51,
         "id": "23673825"
-      }
-    ]
-  },
-  {
-    "url": "https://alispit.tel",
-    "title": "Polywork | Ali Spittel - Senior Developer Advocate, Amazon Web",
-    "desc": "View Ali Spittel's profile on Polywork, a new kind of professional network. Join the waitlist to create your own profile.",
-    "hn": [
-      {
-        "created_at": "2020-11-03T02:01:20Z",
-        "title": "Create a Git Diff in Markdown",
-        "url": "https://blog.alispit.tel/create-a-git-diff-in-markdown/",
-        "points": 18,
-        "comments": 0,
-        "id": "24975629"
       }
     ]
   },
@@ -41718,11 +40357,6 @@
     ]
   },
   {
-    "url": "https://abhis.blog",
-    "title": "Abhis.blog | Abhis.blog",
-    "feed": "https://abhis.blog/index.xml"
-  },
-  {
     "url": "https://abortretry.fail",
     "title": "Abort Retry Fail | Bradford Morgan White | Substack",
     "desc": "In Abort Retry Fail, I am attempting to chronicle the history of the computing industry. This is a goal that will likely not be completed within my lifetime. Click to read Abort Retry Fail, by Bradford Morgan White, a Substack publication.",
@@ -43333,22 +41967,6 @@
     "about": "https://bayardrandel.com/about"
   },
   {
-    "url": "https://bearingsonly.net",
-    "title": "Bearings Only",
-    "desc": "A submarine knife fight simulator by Carl Kolon.",
-    "keywords": "submarine, game, torpedo, target motion analysis, TMA, naval, bearings only",
-    "hn": [
-      {
-        "created_at": "2025-01-21T18:24:10Z",
-        "title": "Show HN: A submarine combat game in the browser",
-        "url": "https://bearingsonly.net/",
-        "points": 58,
-        "comments": 24,
-        "id": "42783545"
-      }
-    ]
-  },
-  {
     "url": "https://bendangelo.me",
     "title": "Bendangelo Blog | I build apps using Ruby on Rails and AI. Also am fluent in Mandarin Chinese.",
     "desc": "I build apps using Ruby on Rails and AI. Also am fluent in Mandarin Chinese.",
@@ -44211,13 +42829,6 @@
         "id": "40174921"
       }
     ]
-  },
-  {
-    "url": "https://blog.nndi.cloud",
-    "title": "NNDI Blog - NNDI Blog",
-    "feed": "https://blog.nndi.cloud/index.xml",
-    "github": "https://github.com/nndi-oss",
-    "x": "https://x.com/nndi_tech"
   },
   {
     "url": "https://blog.pluggedpotato.com",
@@ -45100,23 +43711,6 @@
     ]
   },
   {
-    "url": "https://bytexd.com",
-    "title": "ByteXD - Practical Linux, Web Dev & AI Tools Tutorials",
-    "desc": "Practical Linux, Web Dev & AI Tools Tutorials",
-    "feed": "https://bytexd.com/feed/",
-    "x": "https://x.com/ByteXD",
-    "hn": [
-      {
-        "created_at": "2021-01-03T20:35:44Z",
-        "title": "Look Up Unknown Phone Numbers Using Facebook Reset Password",
-        "url": "https://bytexd.com/look-up-unknown-phone-numbers/",
-        "points": 243,
-        "comments": 136,
-        "id": "25624982"
-      }
-    ]
-  },
-  {
     "url": "https://c0-0p.io",
     "title": "c0-0p.io",
     "feed": "https://c0-0p.io/blog/feed.xml"
@@ -45199,22 +43793,6 @@
         "points": 66,
         "comments": 25,
         "id": "5586890"
-      }
-    ]
-  },
-  {
-    "url": "https://carefulwords.com",
-    "title": "Careful Words",
-    "desc": "Careful Words, a more inspired thesaurus",
-    "x": "https://x.com/simonsarris",
-    "hn": [
-      {
-        "created_at": "2022-10-16T20:14:47Z",
-        "title": "Show HN: Carefulwords.com, a more inspiring thesaurus",
-        "url": "https://carefulwords.com/solitude",
-        "points": 258,
-        "comments": 53,
-        "id": "33226817"
       }
     ]
   },
@@ -46756,85 +45334,6 @@
     "feed": "https://davidfrancoeur.com/rss.xml"
   },
   {
-    "url": "https://davnicwil.com",
-    "title": "ALEXISTOGEL Situs Slot Online Terpercaya dengan Link Slot Gacor Hari Ini",
-    "desc": "ALEXISTOGEL menyuguhkan informasi situs slot online terpercaya dengan update link slot gacor hari ini yang ringan, jelas, dan mudah dipahami.",
-    "hn": [
-      {
-        "created_at": "2020-01-02T10:49:57Z",
-        "title": "Just Build the Product",
-        "url": "https://davnicwil.com/just-build-the-product/",
-        "points": 343,
-        "comments": 102,
-        "id": "21934358"
-      },
-      {
-        "created_at": "2022-01-03T20:11:14Z",
-        "title": "Tips for making writing more fun",
-        "url": "https://davnicwil.com/tips-for-making-writing-more-fun/",
-        "points": 242,
-        "comments": 64,
-        "id": "29786007"
-      },
-      {
-        "created_at": "2020-03-18T09:38:12Z",
-        "title": "When to Copy Ideas, When to Steal Ideas",
-        "url": "https://davnicwil.com/when-to-copy-ideas-when-to-steal-ideas/",
-        "points": 173,
-        "comments": 20,
-        "id": "22614949"
-      },
-      {
-        "created_at": "2020-09-28T09:23:36Z",
-        "title": "Do things that don't require scale",
-        "url": "https://davnicwil.com/do-things-that-dont-require-scale/",
-        "points": 156,
-        "comments": 43,
-        "id": "24614691"
-      },
-      {
-        "created_at": "2020-08-10T14:30:47Z",
-        "title": "If it's a nice problem to have, don't solve it now",
-        "url": "https://davnicwil.com/if-its-a-nice-problem-to-have-dont-solve-it-now",
-        "points": 144,
-        "comments": 69,
-        "id": "24109636"
-      },
-      {
-        "created_at": "2020-02-08T22:36:28Z",
-        "title": "Negative Feedback Is Positive",
-        "url": "https://davnicwil.com/negative-feedback-is-positive/",
-        "points": 94,
-        "comments": 46,
-        "id": "22279041"
-      },
-      {
-        "created_at": "2020-08-20T07:33:28Z",
-        "title": "Inline CSS works better in a component world",
-        "url": "https://davnicwil.com/inline-css-works-better-in-a-component-world/",
-        "points": 54,
-        "comments": 88,
-        "id": "24220801"
-      },
-      {
-        "created_at": "2019-07-22T20:54:42Z",
-        "title": "Zero to Startup in 10 weeks",
-        "url": "https://davnicwil.com/zero-to-startup-in-ten-weeks/",
-        "points": 46,
-        "comments": 16,
-        "id": "20502235"
-      },
-      {
-        "created_at": "2020-07-23T08:49:20Z",
-        "title": "AI writing code will make software engineers more valuable",
-        "url": "https://davnicwil.com/ai-writing-code-makes-software-engineers-more-valuable/",
-        "points": 43,
-        "comments": 47,
-        "id": "23925445"
-      }
-    ]
-  },
-  {
     "url": "https://dawidmakowski.com",
     "title": "Dawid Makowski - Personal Blog",
     "desc": "Offers expert insights on AI, technology, and startups. Leading tech projects, he shares knowledge on building APIs, e-commerce platforms, and AI-driven automation.",
@@ -46945,24 +45444,6 @@
     "title": "Doryan Dahon",
     "keywords": "Blog,Portfolio,PaperMod",
     "feed": "https://ddahon.com/index.xml"
-  },
-  {
-    "url": "https://dddiaz.com",
-    "title": "Daniel Diaz's Website",
-    "desc": "Daniel Diaz is a Staff Bioinformatics Engineer specializing in Genomics.",
-    "feed": "https://dddiaz.com/index.xml",
-    "github": "https://github.com/dddiaz",
-    "bluesky": "https://bsky.app/profile/dddiaz.com",
-    "hn": [
-      {
-        "created_at": "2023-05-17T17:25:06Z",
-        "title": "Updating my website from my iPad",
-        "url": "https://dddiaz.com/post/blog-from-ipad/",
-        "points": 37,
-        "comments": 44,
-        "id": "35978486"
-      }
-    ]
   },
   {
     "url": "https://de1ux.com",
@@ -47771,23 +46252,6 @@
     ]
   },
   {
-    "url": "https://drumpatterns.onether.com",
-    "title": "Drum Patterns",
-    "desc": "Free drum patterns and beat loops for many music genres, including Breakbeat, Electro Funk, Hip Hop, House, Miami Bass, R&B, Reggae, Techno and more.",
-    "keywords": "drum patterns, midi drum patterns, drum loop, beat loop, sequencer, ableton drum patterns, drum patterns cheatsheet, drumming patterns, drum programming, drum break, drum beat, drum machine, kick snare",
-    "about": "https://drumpatterns.onether.com/about",
-    "hn": [
-      {
-        "created_at": "2025-03-23T13:05:21Z",
-        "title": "Show HN: I built a website for sharing drum patterns",
-        "url": "http://drumpatterns.onether.com",
-        "points": 495,
-        "comments": 189,
-        "id": "43452629"
-      }
-    ]
-  },
-  {
     "url": "https://dsmurrell.com",
     "title": "Daniel Murrell - Product engineer, founder, explorer, and photographer.",
     "desc": "I'm Daniel, a product engineer and founder based in Cambridge, UK. Currently, my primary focus is co-founding Flow Myna together with my wife Bronwyn 🚀, where we develop a simple to use process mining product for small businesses. I also like to build other things 😅",
@@ -47974,12 +46438,6 @@
     "mastodon": "https://hachyderm.io/@EdThomas"
   },
   {
-    "url": "https://edita.co",
-    "title": "Edita - Create Stunning Video Ads Instantly",
-    "desc": "Create professional video ads in minutes with Edita. Choose from hundreds of templates for real estate, e-commerce, app launches and more. Customize and export easily.",
-    "x": "https://x.com/Lovable"
-  },
-  {
     "url": "https://edm115.dev",
     "title": "EDM115 - French dev/gamer/music producer",
     "desc": "Find all infos about EDM115, his projects, blog posts, ...",
@@ -48152,13 +46610,6 @@
         "id": "43765227"
       }
     ]
-  },
-  {
-    "url": "https://endlessqueue.com",
-    "title": "Endless Queue",
-    "desc": "A simple explorative journey through the fascinating world of computer science, cloud computing, and AI",
-    "keywords": "Endless Queue, AI, artificial intelligence, cloud computing, tech blog, AWS, computer science",
-    "feed": "https://endlessqueue.com/rss.xml"
   },
   {
     "url": "https://epan.land",
@@ -48368,30 +46819,6 @@
     "title": "ExpatCircle - Preparing you Today for the World of Tomorrow – Legally reduce taxes, build an international freedom lifestyle and have a backup plan.",
     "desc": "Preparing you Today for the World of Tomorrow – Legally reduce taxes, build an international freedom lifestyle and have a backup plan.",
     "feed": "https://expatcircle.com/cms/feed#new_tab"
-  },
-  {
-    "url": "https://explorabl.es",
-    "title": "Explorable Explanations",
-    "desc": "a hub for learning through play",
-    "x": "https://x.com/explorables",
-    "hn": [
-      {
-        "created_at": "2020-02-19T18:17:53Z",
-        "title": "Explorabl.es",
-        "url": "https://explorabl.es",
-        "points": 894,
-        "comments": 36,
-        "id": "22368323"
-      },
-      {
-        "created_at": "2017-09-24T19:42:45Z",
-        "title": "Explorable Explanations",
-        "url": "http://explorabl.es/",
-        "points": 11,
-        "comments": 0,
-        "id": "15326158"
-      }
-    ]
   },
   {
     "url": "https://fabiandietrich.com",
@@ -49229,22 +47656,6 @@
     ]
   },
   {
-    "url": "https://geekring.net",
-    "title": "geekring.net :: Let's webring like it's 1993!",
-    "desc": "Ring of geeky websites! Party like it's 1993!",
-    "keywords": "Retro, geekery, Webring, Oldschool",
-    "hn": [
-      {
-        "created_at": "2020-06-17T09:26:23Z",
-        "title": "Show HN: I am trying to start a webring for geeks",
-        "url": "https://geekring.net/",
-        "points": 235,
-        "comments": 89,
-        "id": "23549471"
-      }
-    ]
-  },
-  {
     "url": "https://geoffayers.substack.com",
     "title": "Of Scars and Surprise | Geoff Ayers | Substack",
     "desc": "Poetry, essays, and fiction written on the subjects of the good life, love, the Midwest, the US, Christian faith, and the hope that there really is meaning (*gestures wildly*) out there. Click to read Of Scars and Surprise, by Geoff Ayers, a Substack publication. Launched a year ago.",
@@ -49484,11 +47895,6 @@
         "id": "45773282"
       }
     ]
-  },
-  {
-    "url": "https://gomsilo.com",
-    "title": "Gomsilo",
-    "desc": "Gomsilo is a dutch holding company that invests and operates products in various industries."
   },
   {
     "url": "https://gowtham.dev",
@@ -50356,11 +48762,6 @@
     "desc": "A place between here and there",
     "feed": "https://hmmburger.com/feed.xml",
     "bluesky": "https://bsky.app/profile/hmmburger.com"
-  },
-  {
-    "url": "https://hnpwd.github.io",
-    "title": "HN Personal Websites Directory",
-    "github": "https://github.com/hnpwd"
   },
   {
     "url": "https://hodovi.cc",
@@ -53342,200 +51743,6 @@
     ]
   },
   {
-    "url": "https://kagi.com",
-    "title": "Kagi Search - A Premium Search Engine",
-    "desc": "Better search results with no ads. Welcome to Kagi (pronounced kah-gee), a paid search engine that gives power back to the user.",
-    "bluesky": "https://bsky.app/profile/kagi.com",
-    "x": "https://x.com/KagiHQ",
-    "mastodon": "https://mastodon.social/@KagiHQ",
-    "hn": [
-      {
-        "created_at": "2023-09-21T20:32:53Z",
-        "title": "Unlimited Kagi searches for $10 per month",
-        "url": "https://blog.kagi.com/unlimited-searches-for-10",
-        "points": 1748,
-        "comments": 942,
-        "id": "37603905"
-      },
-      {
-        "created_at": "2025-02-05T05:50:16Z",
-        "title": "Fair Pricing",
-        "url": "https://kagi.com/changelog#6155",
-        "points": 1134,
-        "comments": 498,
-        "id": "42944371"
-      },
-      {
-        "created_at": "2023-08-04T21:23:22Z",
-        "title": "Most promoted and blocked domains among Kagi Search users",
-        "url": "https://kagi.com/stats",
-        "points": 986,
-        "comments": 484,
-        "id": "37006082"
-      },
-      {
-        "created_at": "2025-09-30T15:09:00Z",
-        "title": "Kagi News",
-        "url": "https://blog.kagi.com/kagi-news",
-        "points": 942,
-        "comments": 440,
-        "id": "45426490"
-      },
-      {
-        "created_at": "2025-02-13T19:57:29Z",
-        "title": "Privacy Pass Authentication for Kagi Search",
-        "url": "https://blog.kagi.com/kagi-privacy-pass",
-        "points": 939,
-        "comments": 341,
-        "id": "43040521"
-      },
-      {
-        "created_at": "2024-03-05T16:50:00Z",
-        "title": "Kagi and Wolfram",
-        "url": "https://blog.kagi.com/kagi-wolfram",
-        "points": 810,
-        "comments": 332,
-        "id": "39606048"
-      },
-      {
-        "created_at": "2024-02-20T21:18:20Z",
-        "title": "Kagi Sidekick (alpha)",
-        "url": "https://sidekick.kagi.com/",
-        "points": 739,
-        "comments": 165,
-        "id": "39447041"
-      },
-      {
-        "created_at": "2023-09-07T15:22:26Z",
-        "title": "Kagi Small Web",
-        "url": "https://blog.kagi.com/small-web",
-        "points": 668,
-        "comments": 185,
-        "id": "37420281"
-      },
-      {
-        "created_at": "2025-11-13T19:03:26Z",
-        "title": "SlopStop: Community-driven AI slop detection in Kagi Search",
-        "url": "https://blog.kagi.com/slopstop",
-        "points": 589,
-        "comments": 264,
-        "id": "45919067"
-      },
-      {
-        "created_at": "2022-11-09T20:40:51Z",
-        "title": "The Age of PageRank Is Over",
-        "url": "https://blog.kagi.com/age-pagerank-over",
-        "points": 558,
-        "comments": 373,
-        "id": "33537513"
-      },
-      {
-        "created_at": "2025-06-09T04:38:32Z",
-        "title": "Kagi Reaches 50k Users",
-        "url": "https://kagi.com/stats?stat=members",
-        "points": 555,
-        "comments": 341,
-        "id": "44221450"
-      },
-      {
-        "created_at": "2024-09-04T18:35:53Z",
-        "title": "Kagi Assistant",
-        "url": "https://blog.kagi.com/announcing-assistant",
-        "points": 492,
-        "comments": 236,
-        "id": "41448985"
-      },
-      {
-        "created_at": "2025-04-18T04:12:21Z",
-        "title": "Kagi Assistant is now available to all users",
-        "url": "https://blog.kagi.com/assistant-for-all",
-        "points": 491,
-        "comments": 282,
-        "id": "43724941"
-      },
-      {
-        "created_at": "2023-02-03T19:13:28Z",
-        "title": "Universal Summarizer",
-        "url": "https://labs.kagi.com/ai/sum",
-        "points": 477,
-        "comments": 164,
-        "id": "34646389"
-      },
-      {
-        "created_at": "2026-01-09T12:54:48Z",
-        "title": "Kagi releases alpha version of Orion for Linux",
-        "url": "https://help.kagi.com/orion/misc/linux-status.html",
-        "points": 474,
-        "comments": 313,
-        "id": "46553343"
-      },
-      {
-        "created_at": "2025-11-25T16:21:24Z",
-        "title": "Orion 1.0",
-        "url": "https://blog.kagi.com/orion",
-        "points": 440,
-        "comments": 275,
-        "id": "46047350"
-      },
-      {
-        "created_at": "2023-12-08T05:03:50Z",
-        "title": "Kagi Search – Paywalled articles indicator and improved weather widget",
-        "url": "https://kagi.com/changelog",
-        "points": 421,
-        "comments": 254,
-        "id": "38565651"
-      },
-      {
-        "created_at": "2023-06-29T06:38:10Z",
-        "title": "Kagi raises $670k",
-        "url": "https://blog.kagi.com/safe-round",
-        "points": 408,
-        "comments": 359,
-        "id": "36517149"
-      },
-      {
-        "created_at": "2024-01-25T00:14:57Z",
-        "title": "Kagi search reached 20k paying members",
-        "url": "https://blog.kagi.com/celebrating-20k",
-        "points": 383,
-        "comments": 260,
-        "id": "39124497"
-      },
-      {
-        "created_at": "2025-03-27T22:39:51Z",
-        "title": "Most promoted and blocked domains on Kagi",
-        "url": "https://kagi.com/stats?stat=leaderboard",
-        "points": 379,
-        "comments": 182,
-        "id": "43499045"
-      },
-      {
-        "created_at": "2026-03-17T04:39:42Z",
-        "title": "Kagi Translate now supports LinkedIn Speak as an output language",
-        "url": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
-        "points": 1469,
-        "comments": 345,
-        "id": "47408703"
-      },
-      {
-        "created_at": "2026-03-17T09:53:53Z",
-        "title": "Kagi Small Web",
-        "url": "https://kagi.com/smallweb/",
-        "points": 795,
-        "comments": 210,
-        "id": "47410542"
-      },
-      {
-        "created_at": "2026-01-21T17:28:03Z",
-        "title": "Waiting for dawn in search: Search index, Google rulings and impact on Kagi",
-        "url": "https://blog.kagi.com/waiting-dawn-search",
-        "points": 485,
-        "comments": 258,
-        "id": "46708678"
-      }
-    ]
-  },
-  {
     "url": "https://kai-wolf.me",
     "title": "Kai Wolf - Software Development for your Business",
     "desc": "Software Consulting und Entwicklung aus einer Hand mit State-of-the-art digitalen Lösungen für Ihr Unternehmen.",
@@ -54265,60 +52472,6 @@
     "about": "https://liambeckman.com/about",
     "now": "https://liambeckman.com/now",
     "github": "https://github.com/lbeckman314"
-  },
-  {
-    "url": "https://library.sciencemadness.org",
-    "title": "Welcome to Sciencemadness Dot Org",
-    "hn": [
-      {
-        "created_at": "2022-07-09T15:39:51Z",
-        "title": "Ignition: An Informal History of Liquid Rocket Propellants (1972) [pdf]",
-        "url": "https://library.sciencemadness.org/library/books/ignition.pdf",
-        "points": 168,
-        "comments": 47,
-        "id": "32036054"
-      },
-      {
-        "created_at": "2019-08-18T09:08:23Z",
-        "title": "Ignition: An Informal History of Liquid Rocket Propellants (1972) [pdf]",
-        "url": "https://library.sciencemadness.org/library/books/ignition.pdf",
-        "points": 150,
-        "comments": 34,
-        "id": "20729115"
-      },
-      {
-        "created_at": "2015-12-05T23:54:35Z",
-        "title": "Ignition: An Informal History of Liquid Rocket Propellants (1972) [pdf]",
-        "url": "http://library.sciencemadness.org/library/books/ignition.pdf",
-        "points": 110,
-        "comments": 29,
-        "id": "10683778"
-      },
-      {
-        "created_at": "2017-09-02T11:14:51Z",
-        "title": "Ignition: An Informal History of Liquid Rocket Propellants (1972) [pdf]",
-        "url": "http://library.sciencemadness.org/library/books/ignition.pdf",
-        "points": 103,
-        "comments": 19,
-        "id": "15155394"
-      },
-      {
-        "created_at": "2014-10-30T12:33:06Z",
-        "title": "Excuse Me Sir, Would You Like to Buy a Kilo of Isopropyl Bromide? (1977) [pdf]",
-        "url": "http://library.sciencemadness.org/library/books/gergel_isopropyl_bromide.pdf",
-        "points": 89,
-        "comments": 6,
-        "id": "8532534"
-      },
-      {
-        "created_at": "2015-11-11T06:15:19Z",
-        "title": "Ignition: An Informal History of Liquid Rocket Propellants (1972) [pdf]",
-        "url": "http://library.sciencemadness.org/library/books/ignition.pdf",
-        "points": 19,
-        "comments": 2,
-        "id": "10545111"
-      }
-    ]
   },
   {
     "url": "https://lielvilla.com",
@@ -58406,22 +56559,6 @@
     ]
   },
   {
-    "url": "https://origamiusa.org",
-    "title": "OrigamiUSA",
-    "feed": "https://origamiusa.org/news/feed",
-    "x": "https://x.com/OrigamiUSA",
-    "hn": [
-      {
-        "created_at": "2025-06-22T22:00:00Z",
-        "title": "The Art of Hanakami, or Flower-Petal Folding",
-        "url": "https://origamiusa.org/thefold/article/art-hanakami-or-flower-petal-folding",
-        "points": 72,
-        "comments": 8,
-        "id": "44350655"
-      }
-    ]
-  },
-  {
     "url": "https://ouachitalabs.com",
     "title": "Ouachita Labs",
     "hn": [
@@ -58990,12 +57127,6 @@
     "feed": "https://quantumfaxmachine.com/blog/irresponsible-ai/feed"
   },
   {
-    "url": "https://quartz.jzhao.xyz",
-    "title": "Welcome to Quartz 4",
-    "desc": "Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites.",
-    "feed": "https://quartz.jzhao.xyz/index.xml"
-  },
-  {
     "url": "https://quasimorphic.com",
     "title": "Alán's blog",
     "about": "https://quasimorphic.com/about/",
@@ -59531,15 +57662,6 @@
     ]
   },
   {
-    "url": "https://resumematcher.fyi",
-    "title": "Resume Matcher - Free Open Source ATS Resume Scanner",
-    "desc": "Resume Matcher is a free, open-source tool that uses AI to compare your resume against job descriptions. Beat the ATS and land more interviews.",
-    "keywords": "resume matcher, ATS scanner, resume checker, job application, resume optimization, open source, AI resume, keyword matching, job search, career tools",
-    "about": "https://resumematcher.fyi/about",
-    "feed": "https://www.resumematcher.fyi/rss.xml",
-    "x": "https://x.com/resume_matcher"
-  },
-  {
     "url": "https://rfdavid.com",
     "title": "rfdavid | AI Machine Learning Graph Neural Networks",
     "desc": "AI Machine Learning Graph Neural Networks",
@@ -59731,7 +57853,7 @@
     "x": "https://x.com/RobinDeNeef"
   },
   {
-    "url": "https://rockoder.com",
+    "url": "https://www.rockoder.com",
     "title": "rockoder ·",
     "hn": [
       {
@@ -60034,111 +58156,6 @@
     "bluesky": "https://bsky.app/profile/run-the-data.bsky.social"
   },
   {
-    "url": "https://russellbeattie.com",
-    "title": "List of Sweepstakes Casinos (2026) – Best Picks & Bonuses",
-    "desc": "List of Sweepstakes Casinos 2026 — Insider Guide for US Readers Last updated: Looking for a legitimate, fun way to […]",
-    "about": "https://russellbeattie.com/about/",
-    "feed": "https://russellbeattie.com/feed/",
-    "hn": [
-      {
-        "created_at": "2022-10-28T07:21:00Z",
-        "title": "Why Is Markdown Popular?",
-        "url": "https://www.russellbeattie.com/notes/posts/why-is-markdown-popular.html",
-        "points": 107,
-        "comments": 175,
-        "id": "33368579"
-      },
-      {
-        "created_at": "2013-02-10T19:04:03Z",
-        "title": "Android tablets: It's the browser",
-        "url": "http://www.russellbeattie.com/blog/android-tablets-its-the-browser",
-        "points": 78,
-        "comments": 70,
-        "id": "5197387"
-      },
-      {
-        "created_at": "2009-11-22T07:58:22Z",
-        "title": "Android is splintering, just not how you think it is...",
-        "url": "http://www.russellbeattie.com/blog/android-is-splintering-just-not-how-you-think-it-is",
-        "points": 43,
-        "comments": 17,
-        "id": "955541"
-      },
-      {
-        "created_at": "2010-06-19T11:15:18Z",
-        "title": "WIMP UI paradigm won't scale down to touch UIs",
-        "url": "http://www.russellbeattie.com/blog/the-end-of-wimp-and-the-rise-of-touch",
-        "points": 33,
-        "comments": 16,
-        "id": "1444480"
-      },
-      {
-        "created_at": "2008-04-15T00:41:06Z",
-        "title": "Russell Beattie ends Mowser",
-        "url": "http://www.russellbeattie.com/blog/the-end-of-mowser",
-        "points": 33,
-        "comments": 14,
-        "id": "163653"
-      },
-      {
-        "created_at": "2008-02-25T06:49:36Z",
-        "title": "Nearly a million users, and no spam or trolls",
-        "url": "http://www.russellbeattie.com/blog/nearly-a-million-users-and-no-spam-or-trolls",
-        "points": 18,
-        "comments": 4,
-        "id": "122963"
-      },
-      {
-        "created_at": "2022-11-07T08:36:10Z",
-        "title": "H2G2 Is Still Relevant",
-        "url": "https://www.russellbeattie.com/notes/posts/h2g2-is-still-relevant.html",
-        "points": 13,
-        "comments": 10,
-        "id": "33502940"
-      },
-      {
-        "created_at": "2008-08-31T12:44:10Z",
-        "title": "When will local truly be on the web?",
-        "url": "http://www.russellbeattie.com/blog/when-will-local-truly-be-on-the-web",
-        "points": 13,
-        "comments": 9,
-        "id": "291339"
-      },
-      {
-        "created_at": "2008-06-20T06:42:26Z",
-        "title": "Still Struggling with Social Networking",
-        "url": "http://www.russellbeattie.com/blog/still-struggling-with-social-networking",
-        "points": 13,
-        "comments": 3,
-        "id": "222508"
-      },
-      {
-        "created_at": "2007-12-31T02:26:02Z",
-        "title": "My Year of Living Dangerously",
-        "url": "http://www.russellbeattie.com/blog/my-year-of-living-dangerously",
-        "points": 12,
-        "comments": 8,
-        "id": "93795"
-      },
-      {
-        "created_at": "2008-09-24T04:52:25Z",
-        "title": "The iPhone Crapp Store?",
-        "url": "http://www.russellbeattie.com/blog/the-iphone-crapp-store",
-        "points": 10,
-        "comments": 8,
-        "id": "313200"
-      },
-      {
-        "created_at": "2009-09-19T05:17:18Z",
-        "title": "Great Idea: Empirical User Experience Design Through Action Costs",
-        "url": "http://www.russellbeattie.com/blog/empirical-user-experience-design-through-action-costs",
-        "points": 7,
-        "comments": 5,
-        "id": "831676"
-      }
-    ]
-  },
-  {
     "url": "https://ruxu.dev",
     "title": "Blog | Roger Oriol",
     "desc": "Discussing topics on web development, data architecture, software architecture and much more.",
@@ -60387,13 +58404,6 @@
     "about": "https://sadman.ca/about",
     "feed": "https://sadman.ca/rss.xml",
     "github": "https://github.com/sadmanca"
-  },
-  {
-    "url": "https://sagrd.github.io",
-    "title": "Sagar Dhungel",
-    "desc": "Sagar Dhungel - A Data Science and Engineering Consultant.",
-    "feed": "https://sagrd.github.io/feed.xml",
-    "github": "https://github.com/sagrd"
   },
   {
     "url": "https://sahillavingia.com",
@@ -63759,12 +61769,6 @@
     "x": "https://x.com/urbanisierung"
   },
   {
-    "url": "https://umangis.me",
-    "title": "Umang's Blog",
-    "about": "https://umangis.me/about",
-    "feed": "https://blog.umangis.me/index.xml"
-  },
-  {
     "url": "https://undeleted.ronsor.com",
     "title": "About | Undeleted Files",
     "desc": "tar -cf /dev/null /var/lib/backup",
@@ -64134,13 +62138,6 @@
     "x": "https://x.com/igorvaryvoda"
   },
   {
-    "url": "https://vasanthv.me",
-    "title": "Vasanth V / Home",
-    "desc": "Hello, I am Vasanth. Welcome to my corner of the internet - a place where I write junk, chase random thoughts, and try to make sense of my chaotically organized brain. Keeping things simple & stupid.",
-    "now": "https://vasanthv.me/now",
-    "feed": "https://vasanthv.me/feed.xml"
-  },
-  {
     "url": "https://vasi.li",
     "title": "Vasili Sviridov : About Me",
     "github": "https://github.com/vsviridov",
@@ -64185,190 +62182,6 @@
         "points": 55,
         "comments": 3,
         "id": "38839724"
-      }
-    ]
-  },
-  {
-    "url": "https://vercel.app",
-    "title": "Vercel: Build and deploy the best web experiences with the AI Cloud",
-    "desc": "Vercel gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web.",
-    "about": "https://vercel.app/about",
-    "hn": [
-      {
-        "created_at": "2025-02-04T18:40:55Z",
-        "title": "WikiTok",
-        "url": "https://wikitok.vercel.app/",
-        "points": 1459,
-        "comments": 221,
-        "id": "42936723"
-      },
-      {
-        "created_at": "2021-09-20T16:58:45Z",
-        "title": "Show HN: 40k HN comments mentioning books, extracted using deep learning",
-        "url": "https://hacker-recommended-books.vercel.app/category/0/all-time/page/0/0",
-        "points": 1359,
-        "comments": 273,
-        "id": "28595967"
-      },
-      {
-        "created_at": "2025-01-01T14:12:15Z",
-        "title": "DOOM CAPTCHA",
-        "url": "https://doom-captcha.vercel.app/",
-        "points": 1316,
-        "comments": 270,
-        "id": "42566112"
-      },
-      {
-        "created_at": "2025-01-08T07:18:50Z",
-        "title": "Operating System in 1,000 Lines – Intro",
-        "url": "https://operating-system-in-1000-lines.vercel.app/en",
-        "points": 1060,
-        "comments": 121,
-        "id": "42631873"
-      },
-      {
-        "created_at": "2022-07-29T12:25:39Z",
-        "title": "How far can you go by train in 5h?",
-        "url": "https://chronotrains-eu.vercel.app/",
-        "points": 871,
-        "comments": 439,
-        "id": "32276017"
-      },
-      {
-        "created_at": "2022-05-01T05:41:20Z",
-        "title": "I accidentally loaned all my money to the US government",
-        "url": "https://beanlog.vercel.app/ibonds",
-        "points": 838,
-        "comments": 489,
-        "id": "31222506"
-      },
-      {
-        "created_at": "2025-10-01T14:48:31Z",
-        "title": "Show HN: Autism Simulator",
-        "url": "https://autism-simulator.vercel.app/",
-        "points": 779,
-        "comments": 857,
-        "id": "45438346"
-      },
-      {
-        "created_at": "2021-09-11T22:25:56Z",
-        "title": "My Room in 3D",
-        "url": "https://my-room-in-3d.vercel.app/",
-        "points": 716,
-        "comments": 131,
-        "id": "28496650"
-      },
-      {
-        "created_at": "2025-04-12T17:40:09Z",
-        "title": "Nice things with SVG",
-        "url": "https://fuma-nama.vercel.app/blog/svg-art",
-        "points": 575,
-        "comments": 107,
-        "id": "43666439"
-      },
-      {
-        "created_at": "2025-09-18T02:18:45Z",
-        "title": "Show HN: The text disappears when you screenshot it",
-        "url": "https://unscreenshottable.vercel.app/?text=Hello",
-        "points": 568,
-        "comments": 193,
-        "id": "45284311"
-      },
-      {
-        "created_at": "2022-07-24T18:50:58Z",
-        "title": "Show HN: Pipes puzzle (a.k.a. Net) on a hexagonal grid",
-        "url": "https://hexapipes.vercel.app/hexagonal/5/1",
-        "points": 537,
-        "comments": 161,
-        "id": "32216436"
-      },
-      {
-        "created_at": "2022-11-11T21:10:32Z",
-        "title": "Each visit to the page deteriorates the main image",
-        "url": "https://crowd-jpeg.vercel.app/",
-        "points": 465,
-        "comments": 134,
-        "id": "33566897"
-      },
-      {
-        "created_at": "2023-11-08T02:53:20Z",
-        "title": "Antidepressants or Tolkien",
-        "url": "https://antidepressantsortolkien.vercel.app/",
-        "points": 463,
-        "comments": 99,
-        "id": "38186190"
-      },
-      {
-        "created_at": "2024-04-14T19:03:58Z",
-        "title": "Show HN: I made a tool to clean and convert any webpage to Markdown",
-        "url": "https://markdowndown.vercel.app/",
-        "points": 441,
-        "comments": 99,
-        "id": "40033490"
-      },
-      {
-        "created_at": "2023-01-25T04:39:53Z",
-        "title": "Show HN: I “wrote” a kid's book with ChatGPT and Midjourney",
-        "url": "https://adventure-of-penelope.vercel.app/",
-        "points": 417,
-        "comments": 394,
-        "id": "34514480"
-      },
-      {
-        "created_at": "2023-01-30T08:32:17Z",
-        "title": "Over the past 21 months I’ve written a code editor from the ground up",
-        "url": "https://edita.vercel.app/blog/approach/",
-        "points": 410,
-        "comments": 136,
-        "id": "34577246"
-      },
-      {
-        "created_at": "2024-07-31T02:22:41Z",
-        "title": "`find` + `mkdir` is Turing complete",
-        "url": "https://ogiekako.vercel.app/blog/find_mkdir_tc",
-        "points": 391,
-        "comments": 99,
-        "id": "41115941"
-      },
-      {
-        "created_at": "2021-03-27T15:43:20Z",
-        "title": "Figma to React",
-        "url": "https://figma-to-react.vercel.app/",
-        "points": 359,
-        "comments": 116,
-        "id": "26603097"
-      },
-      {
-        "created_at": "2025-11-09T02:53:45Z",
-        "title": "Tabloid: The Clickbait Headline Programming Language",
-        "url": "https://tabloid.vercel.app/",
-        "points": 326,
-        "comments": 46,
-        "id": "45862470"
-      },
-      {
-        "created_at": "2021-08-14T05:17:41Z",
-        "title": "macOS in Svelte",
-        "url": "https://macos.vercel.app/",
-        "points": 309,
-        "comments": 143,
-        "id": "28178212"
-      },
-      {
-        "created_at": "2026-02-06T13:49:55Z",
-        "title": "Hackers (1995) Animated Experience",
-        "url": "https://hackers-1995.vercel.app/",
-        "points": 612,
-        "comments": 287,
-        "id": "46912800"
-      },
-      {
-        "created_at": "2026-07-06T23:06:31Z",
-        "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
-        "url": "https://ternlight-demo.vercel.app/",
-        "points": 326,
-        "comments": 70,
-        "id": "48811644"
       }
     ]
   },
@@ -65302,7 +63115,7 @@
     "github": "https://github.com/dambem"
   },
   {
-    "url": "https://brzozowski.io",
+    "url": "https://www.brzozowski.io",
     "title": "Jakub Brzozowski",
     "desc": "My personal security blog",
     "keywords": "Cybersecurity and research blog, others, post-exploitation, web-applications",
@@ -65345,7 +63158,7 @@
     ]
   },
   {
-    "url": "https://deadf00d.com",
+    "url": "https://www.deadf00d.com",
     "title": "deadf00d - Maurice-Michel Didelot Blog",
     "hn": [
       {
@@ -65463,7 +63276,7 @@
     "feed": "https://www.johngerace.com/feed.xml"
   },
   {
-    "url": "https://mattcrampton.com",
+    "url": "https://www.mattcrampton.com",
     "title": "MattCrampton.com",
     "desc": "A blog about software development, startups, camping and beards",
     "feed": "https://www.mattcrampton.com/feed.xml",
@@ -65475,180 +63288,6 @@
         "points": 185,
         "comments": 155,
         "id": "20700810"
-      }
-    ]
-  },
-  {
-    "url": "https://mooreds.com",
-    "title": "Moore Consulting",
-    "hn": [
-      {
-        "created_at": "2021-11-08T21:01:14Z",
-        "title": "Use forums rather than Slack/Discord to support developer community",
-        "url": "https://www.mooreds.com/wordpress/archives/3451",
-        "points": 1631,
-        "comments": 671,
-        "id": "29154216"
-      },
-      {
-        "created_at": "2025-02-22T23:55:57Z",
-        "title": "Ask for no, don't ask for yes (2022)",
-        "url": "https://www.mooreds.com/wordpress/archives/3518",
-        "points": 749,
-        "comments": 276,
-        "id": "43144611"
-      },
-      {
-        "created_at": "2025-08-20T02:00:11Z",
-        "title": "The value of hitting the HN front page",
-        "url": "https://www.mooreds.com/wordpress/archives/3530",
-        "points": 209,
-        "comments": 106,
-        "id": "44958020"
-      },
-      {
-        "created_at": "2019-07-20T10:25:28Z",
-        "title": "What senior engineers do: fix knowledge holes",
-        "url": "http://www.mooreds.com/wordpress/archives/3232",
-        "points": 198,
-        "comments": 110,
-        "id": "20485006"
-      },
-      {
-        "created_at": "2025-10-04T20:21:20Z",
-        "title": "Say Goodbye",
-        "url": "https://www.mooreds.com/wordpress/archives/3717",
-        "points": 151,
-        "comments": 106,
-        "id": "45476371"
-      },
-      {
-        "created_at": "2023-07-12T19:19:35Z",
-        "title": "Advice for finding a technical co-founder (2021)",
-        "url": "https://www.mooreds.com/wordpress/archives/3445",
-        "points": 59,
-        "comments": 47,
-        "id": "36700262"
-      },
-      {
-        "created_at": "2020-03-18T12:26:59Z",
-        "title": "Not delivering end-user value",
-        "url": "http://www.mooreds.com/wordpress/archives/3299",
-        "points": 59,
-        "comments": 33,
-        "id": "22615812"
-      },
-      {
-        "created_at": "2025-09-29T12:44:43Z",
-        "title": "Why are interviews harder than the job?",
-        "url": "https://www.mooreds.com/wordpress/archives/3702",
-        "points": 56,
-        "comments": 87,
-        "id": "45413030"
-      },
-      {
-        "created_at": "2020-03-08T04:40:47Z",
-        "title": "Consider a startup accountability email list",
-        "url": "http://www.mooreds.com/wordpress/archives/3324",
-        "points": 52,
-        "comments": 6,
-        "id": "22516383"
-      },
-      {
-        "created_at": "2018-03-03T13:21:44Z",
-        "title": "When is a senior engineer not a senior engineer?",
-        "url": "http://www.mooreds.com/wordpress/archives/2812",
-        "points": 48,
-        "comments": 41,
-        "id": "16509172"
-      },
-      {
-        "created_at": "2017-12-20T18:33:20Z",
-        "title": "Founding engineer or Founder/CTO?",
-        "url": "http://www.mooreds.com/wordpress/archives/2555",
-        "points": 47,
-        "comments": 15,
-        "id": "15972357"
-      },
-      {
-        "created_at": "2017-12-31T20:03:28Z",
-        "title": "Knowledge in software development: what’s your wood lot?",
-        "url": "http://www.mooreds.com/wordpress/archives/2592",
-        "points": 41,
-        "comments": 2,
-        "id": "16042551"
-      },
-      {
-        "created_at": "2023-11-15T00:54:24Z",
-        "title": "Small scale data migrations (2012)",
-        "url": "https://www.mooreds.com/wordpress/archives/876",
-        "points": 29,
-        "comments": 3,
-        "id": "38271998"
-      },
-      {
-        "created_at": "2023-12-18T14:27:13Z",
-        "title": "My \"getting paid for the work\" story (2018)",
-        "url": "https://www.mooreds.com/wordpress/archives/2650",
-        "points": 24,
-        "comments": 14,
-        "id": "38682941"
-      },
-      {
-        "created_at": "2021-11-09T09:54:12Z",
-        "title": "What I wish I had known when I was starting out as a developer (2020)",
-        "url": "https://www.mooreds.com/wordpress/archives/3376",
-        "points": 24,
-        "comments": 12,
-        "id": "29159617"
-      },
-      {
-        "created_at": "2024-09-09T11:52:13Z",
-        "title": "Don't Let That Content Go to Waste",
-        "url": "https://www.mooreds.com/wordpress/archives/3667",
-        "points": 22,
-        "comments": 10,
-        "id": "41487637"
-      },
-      {
-        "created_at": "2022-03-27T22:30:56Z",
-        "title": "Management is not leadership, leadership is not management",
-        "url": "https://www.mooreds.com/wordpress/archives/3516",
-        "points": 18,
-        "comments": 1,
-        "id": "30824809"
-      },
-      {
-        "created_at": "2026-04-26T03:12:04Z",
-        "title": "Meetings are forcing functions",
-        "url": "https://www.mooreds.com/wordpress/archives/3734",
-        "points": 198,
-        "comments": 117,
-        "id": "47906942"
-      },
-      {
-        "created_at": "2026-06-21T20:17:48Z",
-        "title": "Ask for no, don't ask for yes (2022)",
-        "url": "https://www.mooreds.com/wordpress/archives/3518",
-        "points": 194,
-        "comments": 91,
-        "id": "48622234"
-      },
-      {
-        "created_at": "2026-06-06T11:46:43Z",
-        "title": "AI Can't Care",
-        "url": "https://www.mooreds.com/wordpress/archives/3737",
-        "points": 37,
-        "comments": 8,
-        "id": "48423995"
-      },
-      {
-        "created_at": "2026-02-17T14:58:17Z",
-        "title": "Do you want to build a community where users search or hang? (2021)",
-        "url": "https://www.mooreds.com/wordpress/archives/3486",
-        "points": 20,
-        "comments": 5,
-        "id": "47048181"
       }
     ]
   },
@@ -65997,12 +63636,6 @@
         "id": "28673616"
       }
     ]
-  },
-  {
-    "url": "https://sammcalilly.com",
-    "title": "writing | this is sam mcalilly’s blog",
-    "desc": "this is sam mcalilly’s blog",
-    "feed": "https://www.sammcalilly.com/feed.xml"
   },
   {
     "url": "https://softwaredesign.ing",
@@ -66651,12 +64284,6 @@
         "id": "41510220"
       }
     ]
-  },
-  {
-    "url": "https://zach.sexy",
-    "title": "Zach Auten",
-    "desc": "Zach's blog",
-    "feed": "https://zach.sexy/feed/rss.xml"
   },
   {
     "url": "https://zackofalltrades.com",
