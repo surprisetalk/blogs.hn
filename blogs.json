@@ -731,7 +731,8 @@
         "id": "48736055"
       }
     ],
-    "bluesky": "https://bsky.app/profile/0xff.nu"
+    "bluesky": "https://bsky.app/profile/0xff.nu",
+    "mastodon": "https://merveilles.town/@hxii"
   },
   {
     "url": "https://0xzhangke.github.io",
@@ -5579,7 +5580,8 @@
     ],
     "about": "https://blog.daniemon.com/about/",
     "feed": "https://blog.daniemon.com/feed/",
-    "x": "https://x.com/ourmaninjapan"
+    "x": "https://x.com/ourmaninjapan",
+    "mastodon": "https://mastodon.cloud/@ourmaninjapan"
   },
   {
     "url": "https://blog.dannycastonguay.com",
@@ -5799,7 +5801,8 @@
     "feed": "https://blog.fponzi.me/rss.xml",
     "github": "https://github.com/FedericoPonzi",
     "bluesky": "https://bsky.app/profile/fponzi.me",
-    "x": "https://x.com/federico_ponzi"
+    "x": "https://x.com/federico_ponzi",
+    "mastodon": "https://discuss.systems/@federicoponzi"
   },
   {
     "url": "https://blog.gnoack.org",
@@ -6857,7 +6860,8 @@
     "desc": "My personal tech blog, exploring predictable programming, next level automation, and the stabilisation of software as an engineering practice.",
     "feed": "https://blog.martijnarts.com/rss/",
     "github": "https://github.com/martijnarts",
-    "x": "https://x.com/martijnawts"
+    "x": "https://x.com/martijnawts",
+    "mastodon": "https://mastodon.nl/@martijnarts"
   },
   {
     "url": "https://blog.merimerimeri.com",
@@ -7230,7 +7234,8 @@
       }
     ],
     "github": "https://github.com/akhenakh",
-    "bluesky": "https://bsky.app/profile/akhen.bsky.social"
+    "bluesky": "https://bsky.app/profile/akhen.bsky.social",
+    "mastodon": "https://c.im/@akhenakh"
   },
   {
     "url": "https://blog.ovalerio.net",
@@ -7720,8 +7725,8 @@
         "created_at": "2026-08-08T14:32:33Z",
         "title": "“Code was never the hard part” is an insult to all programmers",
         "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-        "points": 599,
-        "comments": 369,
+        "points": 602,
+        "comments": 371,
         "id": "49222189"
       },
       {
@@ -11696,7 +11701,8 @@
     "title": "Accueil | dbeley",
     "feed": "https://dbeley.ovh/index.xml",
     "desc": "Blog de David Beley",
-    "github": "https://github.com/dbeley"
+    "github": "https://github.com/dbeley",
+    "mastodon": "https://mamot.fr/@dbeley"
   },
   {
     "url": "https://deadcomputersociety.com",
@@ -12085,7 +12091,8 @@
     "feed": "https://developer.run/feed.rss",
     "github": "https://github.com/dmi3",
     "bluesky": "https://bsky.app/profile/dmi0x3.bsky.social",
-    "x": "https://x.com/dmi0x3"
+    "x": "https://x.com/dmi0x3",
+    "mastodon": "https://social.vivaldi.net/@dmi0x3"
   },
   {
     "url": "https://developermarkepear.com",
@@ -13106,7 +13113,8 @@
     ],
     "desc": "dystroy - about me",
     "github": "https://github.com/Canop",
-    "bluesky": "https://bsky.app/profile/dystroy.eurosky.social"
+    "bluesky": "https://bsky.app/profile/dystroy.eurosky.social",
+    "mastodon": "https://mastodon.dystroy.org/@dystroy"
   },
   {
     "url": "https://e-baumer.github.io",
@@ -17194,7 +17202,8 @@
     ],
     "desc": "Jamie’s blog about software, startups, and swimming (and other things that don’t alliterate).",
     "now": "https://jamie.ideasasylum.com/now",
-    "x": "https://x.com/ideasasylum"
+    "x": "https://x.com/ideasasylum",
+    "mastodon": "https://ruby.social/@jamie"
   },
   {
     "url": "https://jamiedumont.com",
@@ -20251,7 +20260,7 @@
         "title": "Software is about people, not code (2020)",
         "url": "https://letterstoanewdeveloper.com/2020/01/27/software-is-about-people-not-code/",
         "points": 49,
-        "comments": 62,
+        "comments": 64,
         "id": "49211437"
       }
     ],
@@ -22044,7 +22053,8 @@
     "feed": "https://max.engineer/feed.rss",
     "github": "https://github.com/maxim",
     "bluesky": "https://bsky.app/profile/max.engineer",
-    "x": "https://x.com/hakunin"
+    "x": "https://x.com/hakunin",
+    "mastodon": "https://ruby.social/@maxim"
   },
   {
     "url": "https://maximumeffort.substack.com",
@@ -36864,7 +36874,8 @@
   },
   {
     "url": "https://tobot.dev",
-    "title": "Toby's landing page"
+    "title": "Toby's landing page",
+    "github": "https://github.com/Toby222"
   },
   {
     "url": "https://paperclipmaximizer.net",
@@ -41141,7 +41152,10 @@
         "comments": 1,
         "id": "24821312"
       }
-    ]
+    ],
+    "about": "https://takeonrules.com/about/",
+    "github": "https://github.com/jeremyf",
+    "mastodon": "https://dice.camp/@takeonrules"
   },
   {
     "url": "https://tcmorris.net",
@@ -43134,7 +43148,8 @@
         "id": "47207619"
       }
     ],
-    "github": "https://github.com/AlbertoMarnetto"
+    "github": "https://github.com/AlbertoMarnetto",
+    "mastodon": "https://social.vivaldi.net/@amqx"
   },
   {
     "url": "https://saeedesmaili.com",
@@ -47509,7 +47524,8 @@
     "desc": "Cenker Cennet - Indie Game Developer, Pixel Artist",
     "github": "https://github.com/cenullum",
     "bluesky": "https://bsky.app/profile/cenullum.bsky.social",
-    "x": "https://x.com/cenullum"
+    "x": "https://x.com/cenullum",
+    "mastodon": "https://mastodon.gamedev.place/@cenullum"
   },
   {
     "url": "https://cesardelsolar.com",
@@ -48296,7 +48312,8 @@
     "feed": "https://dancocos.com/feed.xml",
     "desc": "Dan Cocos - Fractional CTO, tech leader Please feel free to email with potential opportunities.",
     "about": "https://dancocos.com/about/",
-    "github": "https://github.com/dancocos"
+    "github": "https://github.com/dancocos",
+    "mastodon": "https://discuss.systems/@dancocos"
   },
   {
     "url": "https://danesparza.net",
@@ -48458,7 +48475,8 @@
       }
     ],
     "bluesky": "https://bsky.app/profile/danielchooper.bsky.social",
-    "x": "https://x.com/danielchooper"
+    "x": "https://x.com/danielchooper",
+    "mastodon": "https://mastodon.gamedev.place/@danielchooper"
   },
   {
     "url": "https://danielfm.me",
@@ -49995,7 +50013,8 @@
     ],
     "feed": "https://duggan.ie/atom.xml",
     "github": "https://github.com/duggan",
-    "bluesky": "https://bsky.app/profile/duggan.ie"
+    "bluesky": "https://bsky.app/profile/duggan.ie",
+    "mastodon": "https://mastodon.ie/@duggan"
   },
   {
     "url": "https://dvliman.com",
@@ -60716,7 +60735,8 @@
     "feed": "https://notes.ghinda.com/feed.atom",
     "desc": "Short posts mostly about Ruby and Ruby on Rails. You can find me at : Linkedin, Mastodon, Twitter, Bluesky or for longer posts at allaboutcoding.ghinda.com. Check goodenoughtesting.com if you want to learn to write fewer tests and...",
     "bluesky": "https://bsky.app/profile/lucianghinda.com",
-    "x": "https://x.com/lucianghinda"
+    "x": "https://x.com/lucianghinda",
+    "mastodon": "https://ruby.social/@lucian"
   },
   {
     "url": "https://nullcathedral.com",
@@ -60783,7 +60803,8 @@
     "feed": "https://oberbrunner.com/rss.xml",
     "desc": "Musings on technology, science, music, art, and life.",
     "github": "https://github.com/garyo",
-    "x": "https://x.com/goberbrunner"
+    "x": "https://x.com/goberbrunner",
+    "mastodon": "https://mastodon.mit.edu/@oberbrunner"
   },
   {
     "url": "https://oisinmoran.com",
@@ -61220,7 +61241,8 @@
       }
     ],
     "github": "https://github.com/stared",
-    "x": "https://x.com/pmigdal"
+    "x": "https://x.com/pmigdal",
+    "mastodon": "https://mathstodon.xyz/@pmigdal"
   },
   {
     "url": "https://p4bl0.net",
@@ -66820,7 +66842,8 @@
         "id": "38956389"
       }
     ],
-    "github": "https://github.com/usmanity"
+    "github": "https://github.com/usmanity",
+    "mastodon": "https://mastodon.sdf.org/@usmanity"
   },
   {
     "url": "https://utk09.com",
@@ -67414,7 +67437,8 @@
     "feed": "https://vermaden.wordpress.com/feed/",
     "github": "https://github.com/vermaden",
     "bluesky": "https://bsky.app/profile/vermaden.bsky.social",
-    "x": "https://x.com/vermaden"
+    "x": "https://x.com/vermaden",
+    "mastodon": "https://mastodon.bsd.cafe/@vermaden"
   },
   {
     "url": "https://vexjoy.com",
@@ -68777,7 +68801,8 @@
     ],
     "about": "https://philipzucker.com/about/",
     "github": "https://github.com/philzook58",
-    "x": "https://x.com/sandmouth"
+    "x": "https://x.com/sandmouth",
+    "mastodon": "https://types.pl/@sandmouth"
   },
   {
     "url": "https://pixelbox.com",
