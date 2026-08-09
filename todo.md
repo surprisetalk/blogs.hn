@@ -1,3 +1,4 @@
 - [ ] https://minifeed.net/blogs
 - [ ] https://bubbles.town
-- [ ] blogs.hn: add closest major city for each blog.
+- [ ] add closest major city for each blog. grab from github?
+- [ ] do a manual quality pass

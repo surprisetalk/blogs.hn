@@ -23,10 +23,10 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
   {
     "url": "https://taylor.town",
     "title": "Taylor Troesh",
+    "desc": "🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸",
     "about": "https://taylor.town/about",
     "now": "https://taylor.town/now",
     "feed": "https://taylor.town/feed.xml",
-    "desc": "🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸🐸",
     "hn": [
       {
         "created_at": "2023-04-04T11:42:33.000Z",
@@ -41,10 +41,10 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
   {
     "url": "https://gwern.net",
     "title": "Essays · Gwern.net",
+    "desc": "Personal website of Gwern Branwen (writer, self-experimenter, and programmer): topics: psychology, statistics, technology, deep learning, anime. This index page is a categorized list of Gwern.net pages.",
+    "keywords": "meta",
     "about": "https://gwern.net/about",
     "feed": "https://gwern.substack.com/feed",
-    "keywords": "meta",
-    "desc": "Personal website of Gwern Branwen (writer, self-experimenter, and programmer): topics: psychology, statistics, technology, deep learning, anime. This index page is a categorized list of Gwern.net pages.",
     "hn": [
       {
         "created_at": "2019-01-21T12:08:15.000Z",
@@ -70,3 +70,12 @@ github/bluesky/x/mastodon profiles found on the blog's homepage or /about
 page) and updates
 HackerNews stories. It never overwrites existing values, so hand-curated edits
 are safe.
+
+Every write also normalizes the whole file: fields are sorted, text is
+trimmed, and anything that cannot be attributed to the blog is dropped
+(off-site /about and /now links, feeds belonging to somebody else, HackerNews
+stories pointing at another domain). Run it by hand with:
+
+```bash
+deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt
+```

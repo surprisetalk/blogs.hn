@@ -1,6 +1,7 @@
 // deno test --allow-read=blogs.json
 import {
   Blog,
+  canonUrl,
   clean,
   CYCLE,
   decodeEntities,
@@ -16,6 +17,7 @@ import {
   githubFromUrl,
   Hn,
   mergeHn,
+  normalize,
   sameSite,
   shardOf,
   stripWww,
@@ -161,8 +163,56 @@ Deno.test("clean: junk and markup", () => {
   assertEquals(clean("a < b > c"), "a b c", "stray angle brackets stripped");
   assertEquals(clean(""), undefined);
   assertEquals(clean("x".repeat(400))?.length, 300, "capped");
+  assert(!/[\ud800-\udbff]$/.test(clean("x".repeat(299) + "🐸")!), "cap never splits a surrogate pair");
+  assertEquals(clean("A blog powered by Hashnode"), undefined, "host boilerplate dropped");
+  assertEquals(clean("ExampleSite description"), undefined, "theme boilerplate dropped");
   assertEquals(decodeEntities("&amp;lt;"), "&lt;", "no double decode (named)");
   assertEquals(decodeEntities("&#38;lt;"), "&lt;", "no double decode (numeric)");
+});
+
+Deno.test("canonUrl", () => {
+  assertEquals(canonUrl("https://Foo.COM"), "https://foo.com", "host lowercased, no bare slash");
+  assertEquals(canonUrl("https://foo.com/"), "https://foo.com");
+  assertEquals(canonUrl("https://foo.com/blog/"), "https://foo.com/blog", "trailing slash dropped");
+  assertEquals(canonUrl("  https://foo.com/blog#x  "), "https://foo.com/blog", "trimmed, fragment dropped");
+  assertEquals(canonUrl("https://foo.com/f?format=xml"), "https://foo.com/f?format=xml", "query kept");
+});
+
+Deno.test("normalize: drops what it cannot attribute to the blog", () => {
+  const keep = normalize({
+    url: "https://Foo.com/",
+    title: " Foo  blog\t",
+    desc: "A blog powered by Hashnode",
+    about: "https://www.foo.com/about",
+    now: "https://elsewhere.com/now",
+    feed: "https://feeds.feedburner.com/foo",
+    github: "https://github.com/panr",
+    x: "https://twitter.com/Foo",
+    hn: [{ ...hn("1"), url: "https://foo.com/p" }, hn("2")],
+  });
+  assertEquals(keep, {
+    url: "https://foo.com",
+    title: "Foo blog",
+    about: "https://www.foo.com/about",
+    feed: "https://feeds.feedburner.com/foo",
+    x: "https://x.com/Foo",
+    hn: [{ ...hn("1"), url: "https://foo.com/p" }],
+  }, "boilerplate desc, off-site now, theme-author github, off-site story all dropped");
+  assertEquals(Object.keys(normalize({ url: "https://a.com", hn: [], feed: "https://a.com" })), ["url"], "empty hn and self-referential feed dropped");
+  assertEquals(normalize({ url: "https://a.com", now: "https://blog.a.com/now" }).now, "https://blog.a.com/now", "subdomain counts as same site");
+  assertEquals(normalize({ url: "https://a.com", title: "Julia Evans", desc: "julia evans" }).desc, undefined, "desc echoing the title dropped");
+  assertEquals(normalize({ url: "https://a.com", desc: "Julia Evans" }).desc, "Julia Evans", "desc kept when there is no title");
+  assertEquals(normalize({ url: "https://gwern.net", feed: "https://gwern.substack.com/feed" }).feed, "https://gwern.substack.com/feed", "newsletter platform feed kept");
+  assertEquals(normalize({ url: "https://a.com", feed: "https://somebodyelse.dev/rss.xml" }).feed, undefined, "unattributable feed dropped");
+  const hnTitle = normalize({ url: "https://example.com", hn: [{ ...hn("1"), title: "a  b\n c" }] }).hn![0].title;
+  assertEquals(hnTitle, "a b c", "story titles collapsed");
+});
+
+Deno.test("normalize: canonical key order and idempotence", () => {
+  const messy: Blog = { hn: [hn("1")], x: "https://x.com/foo", url: "https://example.com", desc: "d", title: "t" };
+  assertEquals(Object.keys(normalize(messy)), ["url", "title", "desc", "x", "hn"], "fields sorted");
+  const once = normalize(messy);
+  assertEquals(normalize(once), once, "normalize is a fixed point");
 });
 
 Deno.test("fnv1a vectors + sameSite", () => {
@@ -255,7 +305,7 @@ const isPr =
   Deno.env.get("GITHUB_EVENT_NAME") === "pull_request";
 
 Deno.test({ name: "blogs.json: byte-stable serialization", ignore: isPr }, () => {
-  const out = JSON.stringify(blogs, null, 2) + "\n";
+  const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
   if (out !== raw) {
     let i = 0;
     while (raw[i] === out[i]) i++;

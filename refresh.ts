@@ -56,7 +56,10 @@ export const decodeEntities = (s: string): string =>
 
 const cp = (n: number): string => (n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : "");
 
-const JUNK = /^(just a moment|attention required|access denied|checking your browser|please wait|verifying you are human|403 forbidden|404)/i;
+// Bot-blocks, plus unedited theme/host boilerplate that describes the
+// generator instead of the blog.
+const JUNK =
+  /^(just a moment|attention required|access denied|checking your browser|please wait|verifying you are human|403 forbidden|404|example domain|a blog powered by hashnode|examplesite description|description will go into a meta tag|a minimal, responsive and feature-rich jekyll theme|minimal hugo blog theme|jekyll twitter bootstrap is a jekyll theme|front page content this website is powered by gitlab pages|what.s a website description like you doing)/i;
 
 export const clean = (s?: string): string | undefined => {
   if (!s) return undefined;
@@ -67,6 +70,7 @@ export const clean = (s?: string): string | undefined => {
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, 300)
+    .replace(/[\ud800-\udbff]$/, "")
     .trim();
   return !t || JUNK.test(t) ? undefined : t;
 };
@@ -138,8 +142,10 @@ export const sameSite = (a: string, b: string): boolean => {
   return x === y || x.endsWith("." + y) || y.endsWith("." + x);
 };
 
-const GH_DENY = new Set("about apps blog collections contact customer-stories enterprise events explore features join login marketplace notifications orgs pricing readme security settings site sponsors team topics trending".split(" "));
-const X_DENY = new Set("explore hashtag home i intent login messages notifications privacy search settings share signup tos".split(" "));
+// panr authors a popular Hugo theme; ghost/svbtle are the host platforms.
+// Their links ride along in footers and get mistaken for the blog's author.
+const GH_DENY = new Set("about apps blog collections contact customer-stories enterprise events explore features join login marketplace notifications orgs panr pricing readme security settings site sponsors team topics trending".split(" "));
+const X_DENY = new Set("explore ghost hashtag home i intent login messages notifications panr privacy search settings share signup svbtle tos".split(" "));
 // mastodon.* and mstdn.* hosts match by prefix; this list is the rest.
 const MASTO_HOSTS = new Set("fosstodon.org hachyderm.io infosec.exchange mas.to chaos.social indieweb.social techhub.social mathstodon.xyz sigmoid.social functional.cafe merveilles.town octodon.social social.coop scholar.social fediscience.org hci.social discuss.systems types.pl ruby.social phpc.social front-end.social social.tchncs.de tech.lgbt universeodon.com masto.ai c.im toot.community social.vivaldi.net metalhead.club social.linux.pizza mamot.fr norden.social troet.cafe det.social aus.social mastodonapp.uk tilde.zone vis.social peoplemaking.games gamedev.lgbt pawoo.net".split(" "));
 const isMastoInstance = (host: string): boolean =>
@@ -219,6 +225,80 @@ export const extractSocials = (links: Link[], selfHost = "", html = ""): Socials
     x: one(found.x),
     mastodon: one(found.mastodon),
   };
+};
+
+// Platforms where a blog's feed legitimately lives off-site (a custom domain
+// fronting a newsletter). Everything else off-site is a build artifact, a
+// placeholder, or somebody else's blog.
+const FEED_HOSTS = "feedburner.com feedpress.me buttondown.email buttondown.com substack.com beehiiv.com ghost.io blogspot.com wordpress.com micro.blog bearblog.dev write.as tumblr.com".split(" ");
+
+const isFeedHost = (host: string): boolean =>
+  FEED_HOSTS.some((f) => host === f || host.endsWith("." + f));
+
+const KEYS = ["url", "title", "desc", "keywords", "about", "now", "feed", "github", "bluesky", "x", "mastodon", "hn"] as const;
+
+export const canonUrl = (raw: string): string => {
+  const u = new URL(raw.trim());
+  return (u.origin + u.pathname).replace(/\/+$/, "") + u.search;
+};
+
+// Round-trips a stored handle through the extractor so saved socials obey
+// the same rules as scraped ones. rel=me because a stored value is a claim.
+const canonSocial = (net: keyof Socials, raw: string, selfHost: string): string | undefined => {
+  try {
+    return extractSocials([{ tag: "a", href: new URL(raw), rel: "me", type: "" }], selfHost)[net];
+  } catch {
+    return undefined;
+  }
+};
+
+// The single gate every blog passes before it is written. Refresh fills
+// fields optimistically; this is what decides they are allowed to stay.
+export const normalize = (blog: Blog): Blog => {
+  const url = canonUrl(blog.url);
+  const host = stripWww(new URL(url).hostname);
+  const out: Blog = { url };
+  const parse = (raw: string): URL | undefined => {
+    try {
+      return new URL(raw);
+    } catch {
+      return undefined;
+    }
+  };
+  const onSite = (raw: string): boolean => {
+    const u = parse(raw);
+    return !!u && sameSite(u.hostname, host);
+  };
+  const feedOk = (raw: string): boolean => {
+    const u = parse(raw);
+    return !!u && canonUrl(raw) !== url &&
+      (sameSite(u.hostname, host) || isFeedHost(stripWww(u.hostname)));
+  };
+  for (const key of KEYS) {
+    if (key === "url") continue;
+    if (key === "hn") {
+      const hn = (blog.hn ?? [])
+        .filter((h) => onSite(h.url))
+        .map((h) => ({ ...h, title: h.title.replace(/\s+/g, " ").trim() }));
+      if (hn.length) out.hn = hn;
+      continue;
+    }
+    const raw = blog[key];
+    if (typeof raw !== "string") continue;
+    const val = key === "title" || key === "desc" || key === "keywords"
+      ? clean(raw)
+      : key === "about" || key === "now"
+      ? (onSite(raw) ? raw : undefined)
+      : key === "feed"
+      ? (feedOk(raw) ? raw : undefined)
+      : canonSocial(key, raw, host);
+    if (!val) continue;
+    // KEYS puts title first, so out.title is settled by now. A desc that only
+    // repeats it renders as the same line twice.
+    if (key === "desc" && val.toLowerCase() === out.title?.toLowerCase()) continue;
+    out[key] = val;
+  }
+  return out;
 };
 
 export const fetchHtml = async (url: string): Promise<string> => {
@@ -375,7 +455,7 @@ if (import.meta.main) {
       await enrich(blog, c);
       entries.push(blog);
     }
-    console.log(JSON.stringify(entries, null, 2));
+    console.log(JSON.stringify(entries.map(normalize), null, 2));
     summary(`${urls.length} urls: `);
     if (c.pageOk + c.hnOk === 0) Deno.exit(1);
   } else {
@@ -385,6 +465,11 @@ if (import.meta.main) {
     blogs.forEach((b, i) => {
       if (typeof b?.url !== "string")
         throw new Error(`blogs.json[${i}]: missing url: ${JSON.stringify(b)?.slice(0, 100)}`);
+      try {
+        new URL(b.url);
+      } catch {
+        throw new Error(`blogs.json[${i}]: unparseable url: ${JSON.stringify(b.url)}`);
+      }
     });
     const today = Math.floor(Date.now() / 86_400_000) % CYCLE;
     const targets = Deno.args.includes("--fmt")
@@ -398,7 +483,7 @@ if (import.meta.main) {
         `systemic failure (${c.pageOk}/${targets.length} pages, ${c.hnOk}/${targets.length} hn); ` +
           `refusing to write blogs.json`,
       );
-    const out = JSON.stringify(blogs, null, 2) + "\n";
+    const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
     if (out !== raw) await Deno.writeTextFile("blogs.json", out);
     summary(`${targets.length} blogs (shard ${today}/${CYCLE}): `);
   }
