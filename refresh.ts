@@ -145,43 +145,71 @@ const RELME_DENY = new Set("medium.com youtube.com threads.net tiktok.com instag
 
 export type Socials = { github?: string; bluesky?: string; x?: string; mastodon?: string };
 
-export const extractSocials = (links: Link[], selfHost = ""): Socials => {
-  const found: Record<keyof Socials, Map<string, string>> = {
-    github: new Map(),
-    bluesky: new Map(),
-    x: new Map(),
-    mastodon: new Map(),
+export const githubFromUrl = (url: string): string | undefined => {
+  const m = stripWww(new URL(url).hostname).match(
+    /^([a-z\d](?:[a-z\d-]*[a-z\d])?)\.github\.io$/,
+  );
+  return m ? `https://github.com/${m[1]}` : undefined;
+};
+
+const xHandle = (s?: string): string | undefined => {
+  if (!s) return undefined;
+  const h = s.trim()
+    .replace(/^https?:\/\/(www\.)?(twitter|x)\.com\//i, "")
+    .replace(/^@/, "")
+    .split(/[/?]/)[0];
+  return /^\w{1,15}$/.test(h) && !X_DENY.has(h.toLowerCase()) ? h : undefined;
+};
+
+// Candidates are tiered by author intent: rel="me" identity claims beat
+// twitter:creator/site meta, which beat plain anchors (could link anyone).
+// Within the winning tier, exactly one distinct profile must remain.
+type Tiers = { me: Map<string, string>; meta: Map<string, string>; plain: Map<string, string> };
+
+export const extractSocials = (links: Link[], selfHost = "", html = ""): Socials => {
+  const tiers = (): Tiers => ({ me: new Map(), meta: new Map(), plain: new Map() });
+  const found: Record<keyof Socials, Tiers> = {
+    github: tiers(),
+    bluesky: tiers(),
+    x: tiers(),
+    mastodon: tiers(),
   };
   for (const { href, rel } of links) {
+    const me = rel.split(/\s+/).includes("me");
     const host = stripWww(href.hostname);
     const path = href.pathname.replace(/\/$/, "");
     const seg = path.split("/").filter(Boolean);
+    const put = (net: keyof Socials, key: string, url: string) =>
+      found[net][me ? "me" : "plain"].set(key.toLowerCase(), url);
     if (
       host === "github.com" &&
       seg.length === 1 &&
       /^[a-z\d](?:[a-z\d-]*[a-z\d])?$/i.test(seg[0]) &&
       !GH_DENY.has(seg[0].toLowerCase())
     )
-      found.github.set(seg[0].toLowerCase(), `https://github.com/${seg[0]}`);
+      put("github", seg[0], `https://github.com/${seg[0]}`);
     if (
       (host === "x.com" || host === "twitter.com") &&
       seg.length === 1 &&
       /^\w{1,15}$/.test(seg[0]) &&
       !X_DENY.has(seg[0].toLowerCase())
     )
-      found.x.set(seg[0].toLowerCase(), `https://x.com/${seg[0]}`);
+      put("x", seg[0], `https://x.com/${seg[0]}`);
     if (host === "bsky.app" && seg.length === 2 && seg[0] === "profile")
-      found.bluesky.set(seg[1].toLowerCase(), `https://bsky.app/profile/${seg[1]}`);
-    if (
-      /^\/(@[^/]+|users\/[^/]+)$/.test(path) &&
-      host !== selfHost &&
-      ((rel.split(/\s+/).includes("me") && !RELME_DENY.has(host)) ||
-        MASTO_HOSTS.has(host))
-    )
-      found.mastodon.set(host + path.toLowerCase(), href.origin + path);
+      put("bluesky", seg[1], `https://bsky.app/profile/${seg[1]}`);
+    if (/^\/(@[^/]+|users\/[^/]+)$/.test(path) && host !== selfHost) {
+      if (me && !RELME_DENY.has(host))
+        found.mastodon.me.set(host + path.toLowerCase(), href.origin + path);
+      else if (!me && MASTO_HOSTS.has(host))
+        found.mastodon.plain.set(host + path.toLowerCase(), href.origin + path);
+    }
   }
-  const one = (m: Map<string, string>) =>
-    m.size === 1 ? m.values().next().value : undefined;
+  const creator = xHandle(extractMeta(html, "twitter:creator") ?? extractMeta(html, "twitter:site"));
+  if (creator) found.x.meta.set(creator.toLowerCase(), `https://x.com/${creator}`);
+  const one = (t: Tiers) => {
+    for (const m of [t.me, t.meta, t.plain])
+      if (m.size) return m.size === 1 ? m.values().next().value : undefined;
+  };
   return {
     github: one(found.github),
     bluesky: one(found.bluesky),
@@ -284,6 +312,7 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
     console.error(`${blog.url}: ${msg(err)}`);
   }
   const host = stripWww(new URL(blog.url).hostname);
+  c.filled += fillMissing(blog, { github: githubFromUrl(blog.url) });
   if (html !== undefined) {
     const links = extractLinks(html, blog.url);
     const own = links.filter((l) => stripWww(l.href.hostname) === host);
@@ -294,7 +323,7 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
       about: extractPage(own, "about"),
       now: extractPage(own, "now"),
       feed: extractFeed(links, own),
-      ...extractSocials(links, host),
+      ...extractSocials(links, host, html),
     });
   }
   // People often keep social links on /about instead of the homepage.
@@ -302,7 +331,7 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
     try {
       const aboutHtml = await fetchHtml(blog.about);
       c.filled += fillMissing(blog, {
-        ...extractSocials(extractLinks(aboutHtml, blog.about), host),
+        ...extractSocials(extractLinks(aboutHtml, blog.about), host, aboutHtml),
       });
     } catch (err) {
       console.error(`${blog.about}: ${msg(err)}`);

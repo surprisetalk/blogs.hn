@@ -13,6 +13,7 @@ import {
   extractTitle,
   fillMissing,
   fnv1a,
+  githubFromUrl,
   Hn,
   mergeHn,
   sameSite,
@@ -34,6 +35,7 @@ const HOMEPAGE = `<!doctype html>
 <title>Foo &amp; Bar &#8212; notes</title>
 <meta content="Systems &amp; stuff" name="description">
 <meta name="keywords" content="systems, programming">
+<meta name="twitter:creator" content="@foo">
 <link rel="alternate" type="application/atom+xml" href="/atom.xml">
 </head><body>
 <a href="/about/">about</a>
@@ -67,7 +69,7 @@ Deno.test("extractors on kitchen-sink homepage", () => {
   assertEquals(posts?.href.search, "?a=1&b=2", "entity-decoded href query");
   assert(!links.some((l) => l.href.hostname === "github.com" && l.href.pathname === "/ghost"), "commented-out link skipped");
   assert(!links.some((l) => l.href.pathname === "/spoof"), "data-href not treated as href");
-  const s = extractSocials(links, "example.com");
+  const s = extractSocials(links, "example.com", HOMEPAGE);
   assertEquals(s.github, "https://github.com/Foo", "github");
   assertEquals(s.x, "https://x.com/foo", "x");
   assertEquals(s.bluesky, "https://bsky.app/profile/foo.example.com", "bluesky");
@@ -105,6 +107,45 @@ Deno.test("socials: ambiguity and decoys", () => {
     BASE,
   );
   assertEquals(extractFeed(feedDecoy, []), undefined, "rel=alternate anchors ignored; only <link> counts");
+});
+
+Deno.test("socials: tier resolution", () => {
+  const meVsPlain = extractLinks(
+    `<a rel="me" href="https://github.com/author"></a>
+     <a href="https://github.com/friend"></a>
+     <a href="https://github.com/other"></a>`,
+    BASE,
+  );
+  assertEquals(extractSocials(meVsPlain).github, "https://github.com/author", "rel=me beats ambiguous anchors");
+  const twoMe = extractLinks(
+    `<a rel="me" href="https://github.com/one"></a><a rel="me" href="https://github.com/two"></a>`,
+    BASE,
+  );
+  assertEquals(extractSocials(twoMe).github, undefined, "two rel=me claims -> unset");
+  const metaOnly = `<meta name="twitter:creator" content="@bar">`;
+  assertEquals(extractSocials([], "", metaOnly).x, "https://x.com/bar", "twitter:creator meta alone");
+  const metaVsAnchors = extractLinks(
+    `<a href="https://x.com/alice"></a><a href="https://x.com/bob"></a>`,
+    BASE,
+  );
+  assertEquals(extractSocials(metaVsAnchors, "", metaOnly).x, "https://x.com/bar", "meta beats ambiguous anchors");
+  const meX = extractLinks(`<a rel="me" href="https://x.com/carol"></a>`, BASE);
+  assertEquals(extractSocials(meX, "", metaOnly).x, "https://x.com/carol", "rel=me beats meta");
+  assertEquals(extractSocials([], "", `<meta name="twitter:site" content="https://twitter.com/Baz">`).x, "https://x.com/Baz", "twitter:site url form");
+  assertEquals(extractSocials([], "", `<meta name="twitter:creator" content="@intent">`).x, undefined, "denylist applies to meta");
+  const meMasto = extractLinks(
+    `<a rel="me" href="https://weird.example/@foo"></a><a href="https://fosstodon.org/@foo"></a>`,
+    BASE,
+  );
+  assertEquals(extractSocials(meMasto).mastodon, "https://weird.example/@foo", "mastodon rel=me beats instance anchor");
+});
+
+Deno.test("githubFromUrl", () => {
+  assertEquals(githubFromUrl("https://foo.github.io"), "https://github.com/foo");
+  assertEquals(githubFromUrl("https://Foo-Bar.github.io/blog"), "https://github.com/foo-bar");
+  assertEquals(githubFromUrl("https://example.com"), undefined);
+  assertEquals(githubFromUrl("https://a.b.github.io"), undefined, "nested subdomain rejected");
+  assertEquals(githubFromUrl("https://github.io"), undefined);
 });
 
 Deno.test("clean: junk and markup", () => {
