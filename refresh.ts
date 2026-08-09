@@ -238,7 +238,7 @@ export const fetchHn = async (blogUrl: string): Promise<Hn[]> => {
       throw new Error(`hn.algolia.com: unexpected hit shape: ${JSON.stringify(hit).slice(0, 200)}`);
     hits.push({
       created_at: hit.created_at,
-      title: hit.title,
+      title: hit.title.trim(),
       url: hit.url,
       points: hit.points ?? 0,
       comments: hit.num_comments ?? 0,
