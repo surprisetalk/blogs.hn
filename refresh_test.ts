@@ -102,6 +102,12 @@ Deno.test("socials: ambiguity and decoys", () => {
   assertEquals(extractSocials(dupes).x, "https://x.com/foo", "twitter+x same user -> one match");
   const instance = extractLinks(`<a href="https://fosstodon.org/@foo"></a>`, BASE);
   assertEquals(extractSocials(instance).mastodon, "https://fosstodon.org/@foo", "known instance without rel=me");
+  const prefixed = extractLinks(`<a href="https://mastodon.gamedev.place/@foo"></a>`, BASE);
+  assertEquals(extractSocials(prefixed).mastodon, "https://mastodon.gamedev.place/@foo", "mastodon.* prefix rule");
+  const mstdn = extractLinks(`<a href="https://mstdn.io/@foo"></a>`, BASE);
+  assertEquals(extractSocials(mstdn).mastodon, "https://mstdn.io/@foo", "mstdn.* prefix rule");
+  const unknown = extractLinks(`<a href="https://randomsite.io/@foo"></a>`, BASE);
+  assertEquals(extractSocials(unknown).mastodon, undefined, "unknown host still needs rel=me");
   const feedDecoy = extractLinks(
     `<a rel="alternate" type="application/rss+xml" href="https://other.com/feed.xml"></a>`,
     BASE,

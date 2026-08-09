@@ -140,7 +140,10 @@ export const sameSite = (a: string, b: string): boolean => {
 
 const GH_DENY = new Set("about apps blog collections contact customer-stories enterprise events explore features join login marketplace notifications orgs pricing readme security settings site sponsors team topics trending".split(" "));
 const X_DENY = new Set("explore hashtag home i intent login messages notifications privacy search settings share signup tos".split(" "));
-const MASTO_HOSTS = new Set("mastodon.social mstdn.social fosstodon.org hachyderm.io infosec.exchange mas.to mastodon.online chaos.social indieweb.social techhub.social".split(" "));
+// mastodon.* and mstdn.* hosts match by prefix; this list is the rest.
+const MASTO_HOSTS = new Set("fosstodon.org hachyderm.io infosec.exchange mas.to chaos.social indieweb.social techhub.social mathstodon.xyz sigmoid.social functional.cafe merveilles.town octodon.social social.coop scholar.social fediscience.org hci.social discuss.systems types.pl ruby.social phpc.social front-end.social social.tchncs.de tech.lgbt universeodon.com masto.ai c.im toot.community social.vivaldi.net metalhead.club social.linux.pizza mamot.fr norden.social troet.cafe det.social aus.social mastodonapp.uk tilde.zone vis.social peoplemaking.games gamedev.lgbt pawoo.net".split(" "));
+const isMastoInstance = (host: string): boolean =>
+  MASTO_HOSTS.has(host) || /^(mastodon|mstdn)\./.test(host);
 const RELME_DENY = new Set("medium.com youtube.com threads.net tiktok.com instagram.com facebook.com linkedin.com twitch.tv twitter.com x.com bsky.app github.com".split(" "));
 
 export type Socials = { github?: string; bluesky?: string; x?: string; mastodon?: string };
@@ -200,7 +203,7 @@ export const extractSocials = (links: Link[], selfHost = "", html = ""): Socials
     if (/^\/(@[^/]+|users\/[^/]+)$/.test(path) && host !== selfHost) {
       if (me && !RELME_DENY.has(host))
         found.mastodon.me.set(host + path.toLowerCase(), href.origin + path);
-      else if (!me && MASTO_HOSTS.has(host))
+      else if (!me && isMastoInstance(host))
         found.mastodon.plain.set(host + path.toLowerCase(), href.origin + path);
     }
   }
