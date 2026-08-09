@@ -184,7 +184,10 @@
         "id": "47091071"
       }
     ],
-    "mastodon": "https://mastodon.social/@surprisetalk"
+    "mastodon": "https://mastodon.social/@surprisetalk",
+    "github": "https://github.com/surprisetalk",
+    "bluesky": "https://bsky.app/profile/taylor.town",
+    "x": "https://x.com/surprisetalk"
   },
   {
     "url": "https://emulationonline.com",
