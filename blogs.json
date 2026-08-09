@@ -65325,6 +65325,13 @@
     "feed": "https://www.chrisbako.nyc/rss.xml"
   },
   {
+    "url": "https://chris-besch.com",
+    "title": "Chris' Place",
+    "desc": "Into tinkering, sharing knowledge and experiences; mostly Open-Source tech and photography.",
+    "about": "https://chris-besch.com/about",
+    "feed": "https://chris-besch.com/rss.xml"
+  },
+  {
     "url": "https://davidtran.me",
     "title": "David Tran’s Blog | Co-founder of Flow Club, software engineer, and runner from San Francisco, CA",
     "desc": "David Tran is a software engineer, entrepreneur, and runner living in San Francisco, CA. He is the co-founder of Flow Club. Previously, he co-founded Upbeat and Crowdbooster. Before that, he studied computer science at Stanford University.",
