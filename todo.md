@@ -1,2 +1,3 @@
 - [ ] https://minifeed.net/blogs
 - [ ] https://bubbles.town
+- [ ] blogs.hn: add closest major city for each blog.

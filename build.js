@@ -6,11 +6,28 @@ process.execSync("cp style.css dist/style.css");
 
 const template = fs.readFileSync("./template.html", "utf-8");
 
+const esc = (unsafe) => {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case "<":
+        return "&lt;";
+      case ">":
+        return "&gt;";
+      case "&":
+        return "&amp;";
+      case "'":
+        return "&apos;";
+      case '"':
+        return "&quot;";
+      default:
+        return c;
+    }
+  });
+};
+
 const blogs = require("./blogs.json");
 
-const sum = (xs) => (xs || []).reduce((a, b) => a + b, 0);
 blogs.sort(() => Math.random() - 0.5);
-// blogs.sort((a, b) => (sum(b?.hn?.map(x => x.points + x.comments)) || 0) - (sum(a?.hn?.map(x => x.points + x.comments)) || 0));
 
 let index = "";
 for (const blog of blogs) {
@@ -30,27 +47,27 @@ for (const blog of blogs) {
     continue;
   const link = blog.url
     .replace(/^https?:\/\//, "")
-    .replace(/[^A-Za-z0-9]/g, (c) => `<wbr/>${c}`);
+    .replace(/[^A-Za-z0-9]/g, (c) => `<wbr/>${esc(c)}`);
   index += `<div class="blog">`;
-  index += `<h2><a href="${blog.url}">${link}</a></h2>`;
-  const linkTitles = ["about", "now", "feed", "news"];
-  const links = [blog.about, blog.now, blog.feed, blog.news]
-    .map((x, i) => x && `<a href=${x}>${linkTitles[i]}</a>`)
+  index += `<h2><a href="${esc(blog.url)}">${link}</a></h2>`;
+  const linkTitles = ["about", "now", "feed", "github", "bluesky", "x", "mastodon"];
+  const links = [blog.about, blog.now, blog.feed, blog.github, blog.bluesky, blog.x, blog.mastodon]
+    .map((x, i) => x && `<a href="${esc(x)}">${linkTitles[i]}</a>`)
     .filter((x) => x)
     .join(" • ");
 
-  const title_ = [blog.title, links].filter((x) => x).join(` • `);
+  const title_ = [esc(blog.title), links].filter((x) => x).join(` • `);
   if (title_) index += `<p><strong>${title_}</strong></p>`;
-  if (blog.desc) index += `<p class="small"><em>${blog.desc}</em></p>`;
+  if (blog.desc) index += `<p class="small"><em>${esc(blog.desc)}</em></p>`;
   if (blog.hn) {
     index += `<table>`;
     for (const { id, comments, created_at, points, url, title } of blog.hn)
       index += `
         <tr>
           <td>${points}</td>
-          <td><a href="https://news.ycombinator.com/item?id=${id}">${comments}</a></td>
-          <td>${created_at.slice(0, 4)}</td>
-          <td><a href="${url}">${title}</a></td>
+          <td><a href="https://news.ycombinator.com/item?id=${esc(id)}">${comments}</a></td>
+          <td>${esc(created_at.slice(0, 4))}</td>
+          <td><a href="${esc(url)}">${esc(title)}</a></td>
         </tr>
       `;
     index += `</table>`;
@@ -103,24 +120,6 @@ fs.writeFileSync(
   template.replace("{{body}}", `<main id="about">${about}</main>`),
 );
 
-const escxml = (unsafe) => {
-  return unsafe.replace(/[<>&'"]/g, (c) => {
-    switch (c) {
-      case "<":
-        return "&lt;";
-      case ">":
-        return "&gt;";
-      case "&":
-        return "&amp;";
-      case "'":
-        return "&apos;";
-      case '"':
-        return "&quot;";
-      default:
-        return c;
-    }
-  });
-};
 fs.writeFileSync(
   "./dist/blogs.hn.opml",
   `<?xml version="1.0" encoding="UTF-8"?>
@@ -132,7 +131,7 @@ fs.writeFileSync(
 ${blogs
   .filter((blog) => blog.title && blog.feed && blog.url)
   .map((blog) =>
-    `<outline type="rss" text="${escxml(blog.title.trim())}" title="${escxml(blog.title.trim())}" htmlUrl="${blog.url.trim()}" xmlUrl="${blog.feed.trim()}" />`.replace(
+    `<outline type="rss" text="${esc(blog.title.trim())}" title="${esc(blog.title.trim())}" htmlUrl="${esc(blog.url.trim())}" xmlUrl="${esc(blog.feed.trim())}" />`.replace(
       /\s+/gi,
       " ",
     ),

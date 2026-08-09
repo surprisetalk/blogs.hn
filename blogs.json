@@ -1,22 +1,5 @@
 [
   {
-    "url": "https://blode.co",
-    "title": "Matthew Blode",
-    "about": "https://blode.co/about",
-    "feed": "https://blode.co/feed.xml",
-    "desc": "Essays on building products, shipping with AI, and developer craft from a Melbourne-based product engineer at Linktree.",
-    "hn": [
-      {
-        "created_at": "2019-06-18T12:04:28Z",
-        "title": "Show HN: A Modern Hacker News Client",
-        "url": "https://blode.co/hn/",
-        "points": 14,
-        "comments": 0,
-        "id": "20212078"
-      }
-    ]
-  },
-  {
     "url": "https://taylor.town",
     "title": "Taylor Troesh",
     "about": "https://taylor.town/about",
@@ -421,7 +404,7 @@
       }
     ]
   },
-   {
+  {
     "url": "https://plantheflow.com",
     "title": "Daniel Koprowski writing about engineering, leading teams, and protecting focus time to stay technical",
     "feed": "https://plantheflow.com/blog/rss.xml",
@@ -706,7 +689,6 @@
     "url": "https://4async.com",
     "title": "ipfans's Blog",
     "about": "https://4async.com/about",
-    "desc": "",
     "hn": [
       {
         "created_at": "2012-10-08T17:36:34Z",
@@ -1156,9 +1138,7 @@
   },
   {
     "url": "https://aareet.com",
-    "title": "Aareet Mahadevan",
-    "keywords": "",
-    "desc": ""
+    "title": "Aareet Mahadevan"
   },
   {
     "url": "https://aaronbos.dev",
@@ -1382,8 +1362,7 @@
     ]
   },
   {
-    "url": "https://afterfibre.nsrc.org",
-    "title": ""
+    "url": "https://afterfibre.nsrc.org"
   },
   {
     "url": "https://agentlien.github.io",
@@ -1447,13 +1426,10 @@
   },
   {
     "url": "https://agi-today.com",
-    "title": "",
-    "keywords": "AGI",
-    "desc": ""
+    "keywords": "AGI"
   },
   {
     "url": "https://ahalbert.com",
-    "title": "",
     "hn": [
       {
         "created_at": "2025-11-16T20:46:30Z",
@@ -2451,14 +2427,12 @@
   {
     "url": "https://amerine.net",
     "title": "Mark Turner – i'm amerine on the internet",
-    "feed": "https://amerine.net/feed.xml",
-    "desc": ""
+    "feed": "https://amerine.net/feed.xml"
   },
   {
     "url": "https://amishbhadeshia.co.uk",
     "title": "Amish's Blog",
-    "feed": "https://amishbhadeshia.co.uk/index.xml",
-    "desc": ""
+    "feed": "https://amishbhadeshia.co.uk/index.xml"
   },
   {
     "url": "https://amistrongeryet.substack.com",
@@ -2555,7 +2529,6 @@
     "url": "https://anardil.net",
     "title": "A spot of sunlight",
     "feed": "https://anardil.net/feeds/rss.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2018-07-31T13:36:12Z",
@@ -2847,8 +2820,6 @@
     "url": "https://andrestc.com",
     "title": "andrestc.com · André Carvalho",
     "feed": "https://andrestc.com/index.xml",
-    "keywords": "",
-    "desc": "",
     "hn": [
       {
         "created_at": "2017-10-19T11:08:49Z",
@@ -3189,7 +3160,6 @@
   {
     "url": "https://anisse.astier.eu",
     "title": "Linux Engineer's random thoughts",
-    "keywords": "",
     "desc": "In which I babble about pet projects and rant about stuff I like. Linux engineer by day, I probably play too much video games on my occasional free time.",
     "hn": [
       {
@@ -3478,7 +3448,6 @@
     "url": "https://asindu.xyz",
     "title": "Asindu's Journal",
     "about": "https://asindu.xyz/about",
-    "desc": "",
     "hn": [
       {
         "created_at": "2024-12-07T10:10:39Z",
@@ -3557,7 +3526,6 @@
     "url": "https://atomic14.com",
     "title": "atomic14 | atomic14",
     "feed": "https://atomic14.com/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2022-07-17T18:19:08Z",
@@ -4167,7 +4135,6 @@
     "url": "https://b.agilob.net",
     "title": "Random Notes by agilob",
     "feed": "https://b.agilob.net/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2016-02-12T23:59:06Z",
@@ -4217,8 +4184,7 @@
     ]
   },
   {
-    "url": "https://bachmeil.github.io",
-    "title": ""
+    "url": "https://bachmeil.github.io"
   },
   {
     "url": "https://bala.sh",
@@ -4307,15 +4273,13 @@
     ]
   },
   {
-    "url": "https://beckham.nz",
-    "title": ""
+    "url": "https://beckham.nz"
   },
   {
     "url": "https://ben.bolte.cc",
     "title": "Hello | Ben's Blog",
     "about": "https://ben.bolte.cc/about",
     "feed": "https://ben.bolte.cc/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2024-04-06T07:58:13Z",
@@ -4981,7 +4945,6 @@
   },
   {
     "url": "https://blog.awaxman.com",
-    "title": "",
     "feed": "https://blog.awaxman.com/feed.xml",
     "desc": "Adam Waxman's Blog",
     "hn": [
@@ -5280,7 +5243,6 @@
     "url": "https://blog.eldrid.ge",
     "title": "Eldridge's Blog",
     "feed": "https://blog.eldrid.ge/post/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2020-01-14T17:46:42Z",
@@ -5296,7 +5258,6 @@
     "url": "https://blog.erethon.com",
     "title": "Erethon's Corner",
     "feed": "https://blog.erethon.com/index.xml",
-    "keywords": "",
     "desc": "Sharing my thoughts on Decentralization, Security and Operations.",
     "hn": [
       {
@@ -5382,7 +5343,6 @@
     "url": "https://blog.herlein.com",
     "title": "Greg Herlein",
     "feed": "https://blog.herlein.com/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2010-11-06T23:53:08Z",
@@ -5943,7 +5903,6 @@
   {
     "url": "https://blog.klungo.no",
     "title": "Daniel Skogly's blog",
-    "desc": "",
     "hn": [
       {
         "created_at": "2021-12-07T16:44:21Z",
@@ -6347,7 +6306,8 @@
         "url": "https://news.ycombinator.com/item?id=38237730",
         "points": 112,
         "comments": 281,
-        "id": "38237730"
+        "id": "38237730",
+        "created_at": "2023-11-12T06:02:08.000Z"
       }
     ]
   },
@@ -6520,8 +6480,7 @@
   {
     "url": "https://blog.michalp.net",
     "title": "Posts",
-    "feed": "https://blog.michalp.net/index.xml",
-    "desc": ""
+    "feed": "https://blog.michalp.net/index.xml"
   },
   {
     "url": "https://blog.mohdshahrim.com",
@@ -6529,7 +6488,6 @@
   },
   {
     "url": "https://blog.nick.burns.io",
-    "title": "",
     "feed": "https://blog.nick.burns.io/feed.xml"
   },
   {
@@ -6703,8 +6661,7 @@
   },
   {
     "url": "https://blog.pangalos.dev",
-    "title": "some.blog.or.whatever",
-    "desc": ""
+    "title": "some.blog.or.whatever"
   },
   {
     "url": "https://blog.peasley.me",
@@ -6775,8 +6732,7 @@
   {
     "url": "https://blog.rmendes.net",
     "title": "rMdes - a place to write and think freely",
-    "feed": "https://blog.rmendes.net/feed.xml",
-    "desc": ""
+    "feed": "https://blog.rmendes.net/feed.xml"
   },
   {
     "url": "https://blog.rmrubert.eu",
@@ -7139,7 +7095,6 @@
   {
     "url": "https://blog.skouf.com",
     "feed": "https://blog.skouf.com/index.xml",
-    "keywords": "",
     "desc": "The personal blog of Nik Skoufis"
   },
   {
@@ -7157,7 +7112,6 @@
     "url": "https://blog.tafkas.net",
     "title": "Tafkas Blog",
     "feed": "https://blog.tafkas.net/index.xml",
-    "keywords": "",
     "desc": "Christian Stade-Schuldt's personal blog"
   },
   {
@@ -7374,7 +7328,6 @@
   {
     "url": "https://blog.vasi.li",
     "title": "Vasili's Blog",
-    "desc": "",
     "hn": [
       {
         "created_at": "2025-11-19T16:40:24Z",
@@ -7460,8 +7413,7 @@
   {
     "url": "https://blog.whilenot.dev",
     "title": "wh!le / blog",
-    "feed": "https://blog.whilenot.dev/index.xml",
-    "desc": ""
+    "feed": "https://blog.whilenot.dev/index.xml"
   },
   {
     "url": "https://blog.winricklabs.com",
@@ -7789,7 +7741,6 @@
     "title": "FJL Boerman Blog",
     "about": "https://boerman.dev/about",
     "feed": "https://boerman.dev/index.xml",
-    "keywords": "",
     "desc": "A gathering of thoughts and personal projects",
     "hn": [
       {
@@ -7831,7 +7782,6 @@
   {
     "url": "https://borretti.me",
     "title": "Fernando Borretti",
-    "keywords": "",
     "desc": "Personal website of Fernando Borretti.",
     "hn": [
       {
@@ -8340,14 +8290,12 @@
     ]
   },
   {
-    "url": "https://bpev.me",
-    "title": ""
+    "url": "https://bpev.me"
   },
   {
     "url": "https://brajeshwar.com",
     "title": "Brajeshwar",
     "feed": "https://brajeshwar.com/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2011-12-20T15:21:50Z",
@@ -8635,8 +8583,7 @@
   },
   {
     "url": "https://buildingbetterteams.de",
-    "title": "Building Better Teams",
-    "desc": ""
+    "title": "Building Better Teams"
   },
   {
     "url": "https://bullrich.dev",
@@ -9006,8 +8953,7 @@
   },
   {
     "url": "https://christianadleta.com",
-    "title": "Christian Adleta",
-    "desc": ""
+    "title": "Christian Adleta"
   },
   {
     "url": "https://chriswales.uk",
@@ -9017,7 +8963,6 @@
   },
   {
     "url": "https://chtenb.dev",
-    "title": "",
     "hn": [
       {
         "created_at": "2025-04-26T17:52:09Z",
@@ -9248,8 +9193,7 @@
   },
   {
     "url": "https://codeleadmanage.com",
-    "title": "Code • Lead • Manage",
-    "desc": ""
+    "title": "Code • Lead • Manage"
   },
   {
     "url": "https://coders-home.de",
@@ -9314,7 +9258,6 @@
   },
   {
     "url": "https://colobu.com",
-    "title": "",
     "about": "https://colobu.com/about",
     "desc": "万物之始，大道至简，衍化至繁"
   },
@@ -9350,7 +9293,6 @@
     "url": "https://craigkerstiens.com",
     "title": "Craig Kerstiens - Craig Kerstiens",
     "feed": "https://craigkerstiens.com/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2019-03-13T19:36:46Z",
@@ -9836,14 +9778,15 @@
   },
   {
     "url": "https://d13v.com",
-    "title": "",
     "about": "https://d13v.com/about",
     "feed": "https://d13v.com/rss.xml"
   },
   {
-    "url": "https://dSebastien.net",
+    "url": "https://dsebastien.net",
     "title": "Sébastien Dubois",
-    "desc": "I write about knowledge management, software development, productivity, entrepreneurship, bootstrapping, management, and leadership.",
+    "about": "https://dsebastien.net/about",
+    "now": "https://dsebastien.net/now",
+    "desc": "Organize your thoughts, life & work ⚡ AI, Personal Organization, LifeOS, Obsidian.",
     "hn": [
       {
         "created_at": "2022-04-04T06:54:25Z",
@@ -10330,7 +10273,6 @@
     "url": "https://danielpecos.com",
     "title": "GeekWare - Daniel Pecos Martínez",
     "feed": "https://danielpecos.com/index.xml",
-    "keywords": "",
     "desc": "Code, opinions and some other geek-stuff",
     "hn": [
       {
@@ -11270,8 +11212,7 @@
   {
     "url": "https://devinprater.micro.blog",
     "title": "Devin Prater's blog",
-    "feed": "https://devinprater.micro.blog/feed.xml",
-    "desc": ""
+    "feed": "https://devinprater.micro.blog/feed.xml"
   },
   {
     "url": "https://devlog.hexops.com",
@@ -11610,8 +11551,6 @@
   {
     "url": "https://donatstudios.com",
     "title": "The Internet Home of Jesse Donat — Donat Studios",
-    "keywords": "",
-    "desc": "",
     "hn": [
       {
         "created_at": "2020-09-10T05:02:48Z",
@@ -11757,7 +11696,6 @@
   },
   {
     "url": "https://dquach.com",
-    "title": "",
     "hn": [
       {
         "created_at": "2023-04-23T23:29:03Z",
@@ -11923,21 +11861,18 @@
     "title": "Dustin Freeman"
   },
   {
-    "url": "https://dvdkon.ggu.cz",
-    "title": ""
+    "url": "https://dvdkon.ggu.cz"
   },
   {
     "url": "https://dylanfitzgerald.net",
     "title": "Dylan Fitzgerald",
-    "feed": "https://dylanfitzgerald.net/index.xml",
-    "desc": ""
+    "feed": "https://dylanfitzgerald.net/index.xml"
   },
   {
     "url": "https://dylanpaulus.com",
     "title": "Dylan Paulus",
     "about": "https://dylanpaulus.com/about",
     "feed": "https://dylanpaulus.com/rss.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2023-03-31T13:35:36Z",
@@ -12334,7 +12269,6 @@
     "url": "https://er4hn.info",
     "title": "er4hn",
     "feed": "https://er4hn.info/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2023-12-12T16:17:29Z",
@@ -12410,7 +12344,6 @@
     "url": "https://etodd.io",
     "title": "Evan Todd",
     "feed": "https://etodd.io/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2017-03-30T12:27:19Z",
@@ -12582,7 +12515,6 @@
   },
   {
     "url": "https://everything.delivery",
-    "title": "",
     "feed": "https://everything.delivery/index.xml"
   },
   {
@@ -13819,7 +13751,6 @@
     "url": "https://georgesaines.com",
     "title": "Stuff George Writes",
     "about": "https://georgesaines.com/about",
-    "desc": "",
     "hn": [
       {
         "created_at": "2011-07-31T20:44:21Z",
@@ -13990,7 +13921,6 @@
   {
     "url": "https://gigatexal.blog",
     "title": "Random musings on life, tech, and whatever else",
-    "desc": "",
     "hn": [
       {
         "created_at": "2023-06-16T21:28:05Z",
@@ -14072,7 +14002,6 @@
   },
   {
     "url": "https://gist.aviperl.me",
-    "title": "",
     "about": "https://gist.aviperl.me/about"
   },
   {
@@ -14234,8 +14163,7 @@
     "desc": "An attempt at unflinching, critical analysis of golf: the game, the architecture, and the culture."
   },
   {
-    "url": "https://goshacmd.com",
-    "title": ""
+    "url": "https://goshacmd.com"
   },
   {
     "url": "https://gotlou.srht.site",
@@ -14352,8 +14280,7 @@
   {
     "url": "https://gustavohidalgo.com",
     "title": "The Art of Living",
-    "feed": "https://gustavohidalgo.com/index.xml",
-    "desc": ""
+    "feed": "https://gustavohidalgo.com/index.xml"
   },
   {
     "url": "https://gusvanhorn.blogspot.com",
@@ -14361,11 +14288,11 @@
     "feed": "https://www.science.org/blogs/pipeline/feed"
   },
   {
-    "url": "https://massimo-nazaria.github.io/",
+    "url": "https://massimo-nazaria.github.io",
     "title": "Massimo Nazaria | Blog",
     "about": "https://massimo-nazaria.github.io/about.html",
     "feed": "https://massimo-nazaria.github.io/feed.xml",
-    "desc": "Programming best practices plus random stuff I find interesting.",
+    "desc": "Blog about software design and programming best practices plus random stuff I find interesting.",
     "hn": [
       {
         "created_at": "2024-04-19T10:21:24Z",
@@ -14499,7 +14426,6 @@
   {
     "url": "https://her.esy.fun",
     "feed": "https://her.esy.fun/rss.xml",
-    "keywords": "",
     "hn": [
       {
         "created_at": "2025-12-21T14:46:53Z",
@@ -15037,7 +14963,6 @@
   {
     "url": "https://inorris.com",
     "title": "Ian Norris",
-    "desc": "",
     "hn": [
       {
         "created_at": "2023-02-04T17:08:39Z",
@@ -15729,7 +15654,6 @@
     "url": "https://jankremer.eu",
     "title": "Jan Kremer",
     "feed": "https://jankremer.eu/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2023-11-15T09:32:33Z",
@@ -16542,14 +16466,13 @@
     "title": "Diogo Ferreira",
     "desc": "Just my personal blog, with a focus on technology.",
     "about": "https://diogoferreira.pt/about",
-    "feed": "https://feedly.com/i/subscription/feed/https://diogoferreira.pt/rss/",
+    "feed": "https://diogoferreira.pt/rss",
     "keywords": "home automation, linux, tips, technology, 3d printing, diy"
   },
   {
     "url": "https://joisig.com",
     "title": "Posts | joisig gone awol",
     "feed": "https://joisig.com/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2020-02-15T11:51:24Z",
@@ -16795,7 +16718,6 @@
     "url": "https://joshwithers.blog",
     "title": "Josh Withers",
     "feed": "https://joshwithers.blog/feed.xml",
-    "keywords": "",
     "desc": "Everything I find interesting or beautiful",
     "hn": [
       {
@@ -16919,8 +16841,7 @@
     ]
   },
   {
-    "url": "https://jv-la.com",
-    "title": ""
+    "url": "https://jv-la.com"
   },
   {
     "url": "https://jvns.ca",
@@ -17493,7 +17414,6 @@
     "url": "https://kleemans.ch",
     "about": "https://www.kleemans.ch/about",
     "feed": "https://www.kleemans.ch/rss.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2016-04-15T04:48:45Z",
@@ -18036,8 +17956,7 @@
     ]
   },
   {
-    "url": "https://landreville.blog",
-    "title": ""
+    "url": "https://landreville.blog"
   },
   {
     "url": "https://lanziani.com",
@@ -18066,7 +17985,6 @@
     "url": "https://law.gmnz.xyz",
     "title": "Law Gimenez",
     "feed": "https://law.gmnz.xyz/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2025-12-11T03:50:04Z",
@@ -18900,8 +18818,7 @@
   {
     "url": "https://maciej.litwiniuk.net",
     "title": "Maciej Litwiniuk",
-    "feed": "https://0180744d.maciej-litwiniuk-net.pages.dev/index.xml",
-    "desc": ""
+    "feed": "https://0180744d.maciej-litwiniuk-net.pages.dev/index.xml"
   },
   {
     "url": "https://madsbuch.com",
@@ -19097,8 +19014,7 @@
   {
     "url": "https://manas96.github.io",
     "title": "Manas Kale",
-    "feed": "https://www.manas96.github.io/index.xml",
-    "desc": ""
+    "feed": "https://www.manas96.github.io/index.xml"
   },
   {
     "url": "https://manuel.kiessling.net",
@@ -20358,7 +20274,6 @@
   {
     "url": "https://meetryanflowers.com",
     "title": "The Personal Website of Ryan Flowers",
-    "desc": "",
     "hn": [
       {
         "created_at": "2021-06-05T23:45:40Z",
@@ -20384,7 +20299,6 @@
   },
   {
     "url": "https://mergy.org",
-    "title": "",
     "hn": [
       {
         "created_at": "2012-12-06T05:49:50Z",
@@ -20471,7 +20385,6 @@
     "url": "https://mgaudet.ca",
     "title": "Matthew Gaudet",
     "about": "https://mgaudet.ca/about",
-    "desc": "",
     "hn": [
       {
         "created_at": "2022-08-10T07:19:46Z",
@@ -20538,6 +20451,7 @@
   {
     "url": "https://michael-lewis.com",
     "title": "Michael I Lewis",
+    "about": "https://michael-lewis.com/about/",
     "feed": "https://michael-lewis.com/posts/index.xml",
     "keywords": "developer,blog,indieweb",
     "desc": "Michael I Lewis's personal website"
@@ -20792,7 +20706,6 @@
     "url": "https://monroeclinton.com",
     "title": "Monroe Clinton",
     "feed": "https://monroeclinton.com/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2025-06-18T07:58:18Z",
@@ -21417,15 +21330,12 @@
     "url": "https://murphyslab.ca",
     "title": "Murphy's Lab",
     "about": "https://murphyslab.ca/about",
-    "feed": "https://murphyslab.ca/index.xml",
-    "desc": ""
+    "feed": "https://murphyslab.ca/index.xml"
   },
   {
     "url": "https://muscaw.dev",
     "title": "Muscaw",
-    "feed": "https://muscaw.dev/index.xml",
-    "keywords": "",
-    "desc": ""
+    "feed": "https://muscaw.dev/index.xml"
   },
   {
     "url": "https://mustafaakin.dev",
@@ -21684,7 +21594,6 @@
     "url": "https://neuroning.com",
     "title": "Neuroning : Neuroning",
     "feed": "https://neuroning.com/feed.atom",
-    "desc": "",
     "hn": [
       {
         "created_at": "2024-09-30T15:55:08Z",
@@ -22000,7 +21909,6 @@
     "url": "https://nikhilism.com",
     "title": "Nikhil's blog",
     "feed": "https://nikhilism.com/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2017-12-26T08:12:41Z",
@@ -22999,7 +22907,6 @@
   },
   {
     "url": "https://objective.st",
-    "title": "",
     "hn": [
       {
         "created_at": "2022-08-12T21:45:59Z",
@@ -23332,7 +23239,6 @@
     "url": "https://ounapuu.ee",
     "title": "./techtipsy — Herman's blog",
     "feed": "https://ounapuu.ee/index.xml",
-    "keywords": "",
     "desc": "Herman's blog",
     "hn": [
       {
@@ -23502,7 +23408,6 @@
     "title": "outcoldman",
     "about": "https://outcoldman.com/about",
     "feed": "https://www.outcoldman.com/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2021-05-20T13:25:10Z",
@@ -23555,7 +23460,6 @@
   },
   {
     "url": "https://padiracinnovation.org",
-    "title": "",
     "hn": [
       {
         "created_at": "2020-03-27T18:14:21Z",
@@ -24871,8 +24775,6 @@
   {
     "url": "https://planetjones.net",
     "title": "Planetjones.net > personal site of Jonathan Jones",
-    "keywords": "",
-    "desc": "",
     "hn": [
       {
         "created_at": "2023-06-11T11:35:40Z",
@@ -25464,7 +25366,6 @@
   {
     "url": "https://purpleidea.com",
     "title": "Welcome to purpleidea.com - https://purpleidea.com/",
-    "desc": "",
     "hn": [
       {
         "created_at": "2018-05-13T11:05:30Z",
@@ -26402,8 +26303,6 @@
   {
     "url": "https://ryanliptak.com",
     "title": "Ryan Liptak - ryanliptak.com",
-    "keywords": "",
-    "desc": "",
     "hn": [
       {
         "created_at": "2025-11-30T13:40:17Z",
@@ -26930,7 +26829,6 @@
     "url": "https://shahinrostami.com",
     "title": "Dr. Shahin Rostami - Beautiful Data Science",
     "feed": "https://shahinrostami.com/rss/feed.xml",
-    "keywords": "",
     "desc": "Beautiful Data Science",
     "hn": [
       {
@@ -27037,7 +26935,6 @@
     "url": "https://shivamrana.me",
     "title": "Playground",
     "feed": "https://shivamrana.me/feed.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2025-01-13T18:57:38Z",
@@ -27118,9 +27015,7 @@
   {
     "url": "https://shumaylov.ee",
     "title": "Georg Šumailov",
-    "feed": "https://shumaylov.ee/index.xml",
-    "keywords": "",
-    "desc": ""
+    "feed": "https://shumaylov.ee/index.xml"
   },
   {
     "url": "https://shyamjos.com",
@@ -27131,7 +27026,6 @@
   },
   {
     "url": "https://siddhantpyasi.com",
-    "title": "",
     "now": "https://siddhantpyasi.com/now",
     "feed": "https://siddhantpyasi.com/feed.xml",
     "desc": "Siddhant Pyasi's personal website."
@@ -29079,7 +28973,6 @@
     "url": "https://t-ravis.com",
     "title": "chia le pouf",
     "feed": "https://t-ravis.com/index.xml",
-    "desc": "",
     "hn": [
       {
         "created_at": "2022-03-30T14:52:09Z",
@@ -29739,7 +29632,6 @@
   },
   {
     "url": "https://thelisowe.com",
-    "title": "",
     "about": "https://thelisowe.com/about"
   },
   {
@@ -30545,7 +30437,6 @@
     "url": "https://troyhunt.com",
     "title": "Troy Hunt: Troy Hunt",
     "about": "https://troyhunt.com/about",
-    "desc": "",
     "hn": [
       {
         "created_at": "2024-02-23T10:26:01Z",
@@ -30925,7 +30816,6 @@
   },
   {
     "url": "https://umarniz.com",
-    "title": "",
     "feed": "https://umarniz.com/rss.xml"
   },
   {
@@ -30949,7 +30839,6 @@
     "url": "https://unsungnovelty.org",
     "title": "unsungNovelty",
     "feed": "https://www.unsungnovelty.org/index.xml",
-    "keywords": "",
     "desc": "unsungNovelty section - Data, Information accessibility and Security. "
   },
   {
@@ -31574,7 +31463,6 @@
   },
   {
     "url": "https://wdkwwdk.com",
-    "title": "",
     "about": "https://wdkwwdk.com/about",
     "hn": [
       {
@@ -31615,7 +31503,6 @@
   },
   {
     "url": "https://werd.io",
-    "title": "",
     "hn": [
       {
         "created_at": "2026-01-15T18:42:46Z",
@@ -31797,7 +31684,6 @@
   },
   {
     "url": "https://wheybags.com",
-    "title": "",
     "hn": [
       {
         "created_at": "2024-07-13T19:00:56Z",
@@ -31864,8 +31750,7 @@
   {
     "url": "https://willabides.com",
     "title": "WillAbides",
-    "feed": "https://willabides.com/index.xml",
-    "desc": ""
+    "feed": "https://willabides.com/index.xml"
   },
   {
     "url": "https://win-vector.com",
@@ -32840,7 +32725,6 @@
   {
     "url": "https://yannesposito.com",
     "feed": "https://yannesposito.com/rss.xml",
-    "keywords": "",
     "hn": [
       {
         "created_at": "2011-08-29T10:32:15Z",
@@ -33754,7 +33638,6 @@
     "url": "https://bhankas.org",
     "title": "bhankas | bhankas",
     "feed": "https://bhankas.org/blog/index.xml",
-    "keywords": "",
     "desc": "ramblings of an adhd-riddled soul",
     "hn": [
       {
@@ -33834,7 +33717,6 @@
   {
     "url": "https://sanyamkapoor.com",
     "title": "About | Sanyam Kapoor",
-    "keywords": "",
     "desc": "I do normal science.",
     "hn": [
       {
@@ -33920,7 +33802,6 @@
   },
   {
     "url": "https://alanwsmith.com",
-    "title": "",
     "hn": [
       {
         "created_at": "2016-02-12T21:11:17Z",
@@ -34125,7 +34006,6 @@
   },
   {
     "url": "https://artlung.com",
-    "title": "",
     "hn": [
       {
         "created_at": "2009-07-09T21:00:05Z",
@@ -35422,7 +35302,6 @@
   {
     "url": "https://geshan.com.np",
     "title": "Geshan's Blog",
-    "keywords": "",
     "desc": "A blog about software engineering, devops and web development covering topics like php, javascript, docker, microservices etc.",
     "hn": [
       {
@@ -36845,7 +36724,6 @@
     "url": "https://roytang.net",
     "title": "· roytang.net",
     "about": "https://roytang.net/about",
-    "keywords": "",
     "desc": "Roy Tang's blog. Programmer, engineer, scientist, critic, gamer, dreamer, and kid-at-heart. Randomly amazed.",
     "hn": [
       {
@@ -37710,7 +37588,6 @@
     "url": "https://jvt.me",
     "title": "Jamie Tanna | Software Engineer",
     "feed": "https://www.jvt.me/feed.xml?atom",
-    "desc": "",
     "hn": [
       {
         "created_at": "2025-01-27T20:33:43Z",
@@ -38904,13 +38781,6 @@
     ]
   },
   {
-    "url": "https://michael-lewis.com/",
-    "title": "Michael I Lewis",
-    "about": "https://michael-lewis.com/about/",
-    "feed": "https://michael-lewis.com/posts/index.xml",
-    "desc": "Michael I Lewis personal website"
-  },
-  {
     "url": "https://harrisonbroadbent.com",
     "title": "Personal Website · Harrison Broadbent",
     "about": "https://harrisonbroadbent.com/about",
@@ -39207,7 +39077,7 @@
         "id": "44887744"
       },
       {
-        "created_at": "2025-01-1300:19:31.000Z",
+        "created_at": "2025-01-13T00:19:31.000Z",
         "title": "Windows 95 and a Case of Font Drag and Drop",
         "url": "https://marnetto.net/2025/01/12/2025-01-12-windows-95-fonts",
         "points": 3,
@@ -42933,12 +42803,6 @@
     "desc": "Your local guide to Fort Kochi. Kochi Biennale, Food, Events, Heritage Walks, Art, Culture, Music, People, Cochin Carnival, Hotels, Homestays, Places of Fort Kochi & Mattancherry.Plan your visit today"
   },
   {
-    "url": "https://diogoferreira.pt/",
-    "title": "Diogo Ferreira",
-    "feed": "https://diogoferreira.pt/rss",
-    "about": "https://diogoferreira.pt/about"
-  },
-  {
     "url": "https://cauenapier.com",
     "title": "cauenapier",
     "about": "https://cauenapier.com/about",
@@ -45160,71 +45024,6 @@
         "points": 495,
         "comments": 189,
         "id": "43452629"
-      }
-    ]
-  },
-  {
-    "url": "https://dsebastien.net",
-    "title": "Sébastien Dubois",
-    "about": "https://dsebastien.net/about",
-    "now": "https://dsebastien.net/now",
-    "desc": "Organize your thoughts, life & work ⚡ AI, Personal Organization, LifeOS, Obsidian.",
-    "hn": [
-      {
-        "created_at": "2022-04-04T06:54:25Z",
-        "title": "25+ years of personal knowledge management",
-        "url": "https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management",
-        "points": 263,
-        "comments": 69,
-        "id": "30903940"
-      },
-      {
-        "created_at": "2022-11-21T11:23:16Z",
-        "title": "Why take and make notes",
-        "url": "https://dsebastien.net/blog/2022-11-16-why-take-notes",
-        "points": 85,
-        "comments": 49,
-        "id": "33691341"
-      },
-      {
-        "created_at": "2023-03-01T12:26:23Z",
-        "title": "Focus on things that don't change",
-        "url": "https://www.dsebastien.net/focus-on-things-that-dont-change/",
-        "points": 72,
-        "comments": 37,
-        "id": "34981594"
-      },
-      {
-        "created_at": "2022-08-04T07:33:49Z",
-        "title": "The Feynman Technique",
-        "url": "https://dsebastien.net/blog/2022-08-03-the-feynman-technique",
-        "points": 59,
-        "comments": 26,
-        "id": "32340216"
-      },
-      {
-        "created_at": "2022-04-06T15:00:51Z",
-        "title": "Startup failure stories: 20 months in, 2K hours spent and 200K € lost (2021)",
-        "url": "https://dsebastien.net/blog/2021-01-04-20-months-in-2k-hours-spent-and-200k-lost-a-story-about-resilience-and-the-sunk-cost-fallacy",
-        "points": 57,
-        "comments": 48,
-        "id": "30932770"
-      },
-      {
-        "created_at": "2023-07-27T05:38:52Z",
-        "title": "Team management tips: 10 ways to kill a team",
-        "url": "https://www.dsebastien.net/2020-08-20-10-ways-to-kill-a-team/",
-        "points": 19,
-        "comments": 3,
-        "id": "36889352"
-      },
-      {
-        "created_at": "2023-08-09T07:32:44Z",
-        "title": "Team management tips: 10 more ways to kill a team",
-        "url": "https://www.dsebastien.net/2020-08-26-10-more-ways-to-kill-a-team/",
-        "points": 14,
-        "comments": 5,
-        "id": "37059664"
       }
     ]
   },
@@ -48705,7 +48504,7 @@
   {
     "url": "https://ja.cob.land",
     "title": "ja.cob.land",
-    "feed": "feed:https://ja.cob.land/feed.xml",
+    "feed": "https://ja.cob.land/feed.xml",
     "hn": [
       {
         "created_at": "2022-04-08T11:57:32Z",
@@ -52009,22 +51808,6 @@
     "feed": "https://mashio.net/rss/rss.xml"
   },
   {
-    "url": "https://massimo-nazaria.github.io",
-    "title": "Massimo Nazaria - Blog",
-    "feed": "https://massimo-nazaria.github.io/feed.xml",
-    "desc": "Blog about software design and programming best practices plus random stuff I find interesting.",
-    "hn": [
-      {
-        "created_at": "2024-04-19T10:21:24Z",
-        "title": "Natural language processing in Bash (2023)",
-        "url": "https://massimo-nazaria.github.io/nlp.html",
-        "points": 88,
-        "comments": 13,
-        "id": "40085028"
-      }
-    ]
-  },
-  {
     "url": "https://masswerk.at",
     "title": "mass:werk <home>",
     "keywords": "mass:werk, masswerk.at, Norbert Landsteiner, N. Landsteiner, web-design, web-development, consulting, retro computing, computer history",
@@ -52505,6 +52288,23 @@
         "points": 12,
         "comments": 6,
         "id": "10037583"
+      }
+    ]
+  },
+  {
+    "url": "https://blode.co",
+    "title": "Matthew Blode",
+    "about": "https://blode.co/about",
+    "feed": "https://blode.co/feed.xml",
+    "desc": "Essays on building products, shipping with AI, and developer craft from a Melbourne-based product engineer at Linktree.",
+    "hn": [
+      {
+        "created_at": "2019-06-18T12:04:28Z",
+        "title": "Show HN: A Modern Hacker News Client",
+        "url": "https://blode.co/hn/",
+        "points": 14,
+        "comments": 0,
+        "id": "20212078"
       }
     ]
   },
@@ -60738,11 +60538,11 @@
     "desc": "Natural general intelligence. Some kind of artist. Co-Founder and CTO at ThinkNimble."
   },
   {
-  "url": "https://www.williamivy.com/",
-  "title": "William Ivy - art x tech",
-  "feed": "https://www.williamivy.com/index.xml",
-  "keywords": "electronics,electron microscopy,home lab,lasers,software,sound synthesis,motion capture,radiation",
-  "desc": "Personal project site with original writeups on home-lab science, electronics, electron microscopy, radiation detection, lasers, software and sound synthesis."
+    "url": "https://www.williamivy.com/",
+    "title": "William Ivy - art x tech",
+    "feed": "https://www.williamivy.com/index.xml",
+    "keywords": "electronics,electron microscopy,home lab,lasers,software,sound synthesis,motion capture,radiation",
+    "desc": "Personal project site with original writeups on home-lab science, electronics, electron microscopy, radiation detection, lasers, software and sound synthesis."
   },
   {
     "url": "https://willmorrison.net",

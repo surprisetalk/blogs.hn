@@ -6,14 +6,14 @@ okay too, but remember that the community is mostly folks from
 
 ## Adding Blogs
 
-This repo comes with a helper script `fetch.js` to automatically grab blog info
-from a URL. But feel free to manually add/edit information to `blogs.json`!
+This repo comes with a helper script `refresh.ts` to automatically grab blog
+info from a URL. But feel free to manually add/edit information to
+`blogs.json`!
 
-1. Run the script:
+1. Run the script ([deno](https://deno.com)):
 
 ```bash
-npm init -y && npm i axios cheerio
-node fetch.js "https://taylor.town" "https://gwern.net"
+deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
 ```
 
 2. Clean the output:
@@ -63,3 +63,9 @@ node fetch.js "https://taylor.town" "https://gwern.net"
    [blogs.json](https://github.com/surprisetalk/blogs.hn/blob/main/blogs.json)
    in a pull request. To prevent merge conflicts, please don't append to the top
    or bottom!
+
+A daily [workflow](.github/workflows/refresh.yml) refreshes a rotating subset
+of blogs: it fills in missing fields (title, desc, feed, about, now, and
+github/bluesky/x/mastodon profiles found on the blog's homepage) and updates
+HackerNews stories. It never overwrites existing values, so hand-curated edits
+are safe.
