@@ -471,7 +471,8 @@
       }
     ],
     "about": "https://plantheflow.com/about/",
-    "bluesky": "https://bsky.app/profile/danielkoprowski.com"
+    "bluesky": "https://bsky.app/profile/danielkoprowski.com",
+    "x": "https://x.com/Koprowski_it"
   },
   {
     "url": "https://philipphagenlocher.de",
@@ -1294,7 +1295,8 @@
     ],
     "desc": "Blogging about software and technology from a software engineer's perspective.",
     "github": "https://github.com/aaronmbos",
-    "bluesky": "https://bsky.app/profile/aaronmbos.bsky.social"
+    "bluesky": "https://bsky.app/profile/aaronmbos.bsky.social",
+    "x": "https://x.com/AaronMBos"
   },
   {
     "url": "https://aaroneiche.com",
@@ -1539,7 +1541,8 @@
         "comments": 5,
         "id": "28468346"
       }
-    ]
+    ],
+    "github": "https://github.com/agentlien"
   },
   {
     "url": "https://agentultra.com",
@@ -2208,7 +2211,8 @@
         "id": "46989879"
       }
     ],
-    "feed": "https://alexwlchan.net/atom.xml"
+    "feed": "https://alexwlchan.net/atom.xml",
+    "x": "https://x.com/alexwlchan"
   },
   {
     "url": "https://alfie.wtf",
@@ -2636,7 +2640,8 @@
     "desc": "Allen Pike writes about making nice software, building teams, and other tricky things.",
     "feed": "https://allenpike.com/feed/",
     "bluesky": "https://bsky.app/profile/allenpike.com",
-    "mastodon": "https://mastodon.social/@apike"
+    "mastodon": "https://mastodon.social/@apike",
+    "x": "https://x.com/apike"
   },
   {
     "url": "https://amadeuspagel.com",
@@ -3350,7 +3355,8 @@
         "comments": 1,
         "id": "43489088"
       }
-    ]
+    ],
+    "github": "https://github.com/aneksteind"
   },
   {
     "url": "https://anfractuosity.com",
@@ -3489,7 +3495,8 @@
       }
     ],
     "feed": "https://anisse.astier.eu/feed/",
-    "github": "https://github.com/anisse"
+    "github": "https://github.com/anisse",
+    "mastodon": "https://social.treehouse.systems/@Aissen"
   },
   {
     "url": "https://ankitag9.substack.com",
@@ -3659,7 +3666,8 @@
     "title": "appsec & stuff",
     "feed": "https://appsec.space/index.xml",
     "about": "https://appsec.space/about/",
-    "mastodon": "https://infosec.exchange/@himazawa"
+    "mastodon": "https://infosec.exchange/@himazawa",
+    "github": "https://github.com/himazawa"
   },
   {
     "url": "https://apurva-shukla.me",
@@ -3683,7 +3691,8 @@
       }
     ],
     "github": "https://github.com/arnorhs",
-    "bluesky": "https://bsky.app/profile/arnorhs.dev"
+    "bluesky": "https://bsky.app/profile/arnorhs.dev",
+    "x": "https://x.com/arnorhs"
   },
   {
     "url": "https://artem.krylysov.com",
@@ -3881,7 +3890,8 @@
     "title": "Alex’s blog",
     "feed": "https://atelfo.github.io/feed.xml",
     "desc": "Personal site for posts about my interests: the biotech industry, medicine, molecular biology, neuroscience, biorisk, science, consciousness, AI, innovation, decision making, philosophy, games, sci-fi, probability, and forecasting (among other things). I write to learn, mostly about biotech.",
-    "x": "https://x.com/atelfo"
+    "x": "https://x.com/atelfo",
+    "github": "https://github.com/atelfo"
   },
   {
     "url": "https://atomic14.com",
@@ -4576,7 +4586,8 @@
     "x": "https://x.com/ahnooie"
   },
   {
-    "url": "https://bachmeil.github.io"
+    "url": "https://bachmeil.github.io",
+    "github": "https://github.com/bachmeil"
   },
   {
     "url": "https://bala.sh",
@@ -4597,7 +4608,8 @@
     "url": "https://battesonb.github.io",
     "title": "Byron’s Blog | A blog about web, software, computer science and related fields.",
     "feed": "https://battesonb.github.io/feed.xml",
-    "desc": "A blog about web, software, computer science and related fields."
+    "desc": "A blog about web, software, computer science and related fields.",
+    "github": "https://github.com/battesonb"
   },
   {
     "url": "https://bbbhltz.codeberg.page",
@@ -5171,7 +5183,8 @@
         "comments": 42,
         "id": "26602450"
       }
-    ]
+    ],
+    "x": "https://x.com/azwinkau"
   },
   {
     "url": "https://bfontaine.net",
@@ -5700,7 +5713,8 @@
         "comments": 5,
         "id": "27685067"
       }
-    ]
+    ],
+    "x": "https://x.com/svbtle"
   },
   {
     "url": "https://blog.dvsj.in",
@@ -6399,7 +6413,8 @@
         "comments": 5,
         "id": "24354842"
       }
-    ]
+    ],
+    "x": "https://x.com/jonluca"
   },
   {
     "url": "https://blog.kaetemi.be",
@@ -6422,7 +6437,8 @@
         "comments": 208,
         "id": "47089907"
       }
-    ]
+    ],
+    "x": "https://x.com/ghost"
   },
   {
     "url": "https://blog.klungo.no",
@@ -6884,7 +6900,8 @@
         "id": "38237730",
         "created_at": "2023-11-12T06:02:08.000Z"
       }
-    ]
+    ],
+    "github": "https://github.com/justsujay"
   },
   {
     "url": "https://blog.metaobject.com",
@@ -7668,7 +7685,8 @@
         "comments": 2,
         "id": "23800602"
       }
-    ]
+    ],
+    "x": "https://x.com/Scott_Logic"
   },
   {
     "url": "https://blog.sebastiansastre.co",
@@ -7702,7 +7720,7 @@
         "created_at": "2026-08-08T14:32:33Z",
         "title": "“Code was never the hard part” is an insult to all programmers",
         "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
-        "points": 594,
+        "points": 599,
         "comments": 369,
         "id": "49222189"
       },
@@ -7774,7 +7792,8 @@
     "feed": "https://blog.tedivm.com/feed/",
     "github": "https://github.com/tedivm",
     "bluesky": "https://bsky.app/profile/tedivm.com",
-    "mastodon": "https://hachyderm.io/@tedivm"
+    "mastodon": "https://hachyderm.io/@tedivm",
+    "x": "https://x.com/tedivm"
   },
   {
     "url": "https://blog.thetrevor.tech",
@@ -7979,7 +7998,8 @@
         "comments": 90,
         "id": "35851114"
       }
-    ]
+    ],
+    "x": "https://x.com/varunprime"
   },
   {
     "url": "https://blog.vasi.li",
@@ -8293,7 +8313,8 @@
       }
     ],
     "github": "https://github.com/facutuesca",
-    "mastodon": "https://infosec.exchange/@yossarian"
+    "mastodon": "https://infosec.exchange/@yossarian",
+    "x": "https://x.com/8x5clPW2"
   },
   {
     "url": "https://blog.zaqlabs.com",
@@ -9391,7 +9412,8 @@
     "url": "https://bullrich.dev",
     "title": "Javier Bullrich",
     "feed": "https://bullrich.dev/feed.xml",
-    "github": "https://github.com/Bullrich"
+    "github": "https://github.com/Bullrich",
+    "x": "https://x.com/javierbullrich"
   },
   {
     "url": "https://burakku.com",
@@ -9526,7 +9548,8 @@
         "id": "32170353"
       }
     ],
-    "keywords": "Candace Stewart,portfolio,design,media studies,creative coding,designer,systems thinker,UX design,product design,algorithmic design,extended reality,WebXR,AR design,knowledge infrastructure,design theory,engineering psychology,Parsons School of Design,West Point"
+    "keywords": "Candace Stewart,portfolio,design,media studies,creative coding,designer,systems thinker,UX design,product design,algorithmic design,extended reality,WebXR,AR design,knowledge infrastructure,design theory,engineering psychology,Parsons School of Design,West Point",
+    "x": "https://x.com/candiikay"
   },
   {
     "url": "https://canolcer.com",
@@ -9760,7 +9783,8 @@
         "comments": 5,
         "id": "47234756"
       }
-    ]
+    ],
+    "x": "https://x.com/CendyneNaga"
   },
   {
     "url": "https://cesarbrun.xyz",
@@ -9784,7 +9808,8 @@
   {
     "url": "https://chrisgriffing.com",
     "title": "Chris Griffing",
-    "desc": "I like to make things and every once in a while I remember to blog about it. The topics a varied but often useful. Hopefully, you find something you are interested in."
+    "desc": "I like to make things and every once in a while I remember to blog about it. The topics a varied but often useful. Hopefully, you find something you are interested in.",
+    "x": "https://x.com/cmgriffing"
   },
   {
     "url": "https://chrishannah.me",
@@ -9990,7 +10015,8 @@
     "title": "Codakuma | iOS apps and more",
     "feed": "https://codakuma.com/feed.xml",
     "desc": "iOS apps and more",
-    "mastodon": "https://mstdn.social/@shaundon"
+    "mastodon": "https://mstdn.social/@shaundon",
+    "x": "https://x.com/shauneba"
   },
   {
     "url": "https://code.davidv.eu",
@@ -10346,7 +10372,8 @@
       }
     ],
     "about": "https://craigkerstiens.com/about/",
-    "bluesky": "https://bsky.app/profile/craigkerstiens.com"
+    "bluesky": "https://bsky.app/profile/craigkerstiens.com",
+    "x": "https://x.com/craigkerstiens"
   },
   {
     "url": "https://craigmod.com",
@@ -10681,7 +10708,8 @@
         "id": "30466687"
       }
     ],
-    "about": "https://cushychicken.github.io/about/"
+    "about": "https://cushychicken.github.io/about/",
+    "github": "https://github.com/cushychicken"
   },
   {
     "url": "https://cyberwarhead.com",
@@ -10760,7 +10788,8 @@
     ],
     "feed": "https://www.dsebastien.net/rss/",
     "github": "https://github.com/dsebastien",
-    "bluesky": "https://bsky.app/profile/dsebastien.net"
+    "bluesky": "https://bsky.app/profile/dsebastien.net",
+    "x": "https://x.com/dsebastien"
   },
   {
     "url": "https://da-data.blogspot.com",
@@ -11208,7 +11237,8 @@
       }
     ],
     "about": "https://danielmiessler.com/about/",
-    "github": "https://github.com/danielmiessler"
+    "github": "https://github.com/danielmiessler",
+    "x": "https://x.com/danielmiessler"
   },
   {
     "url": "https://danielpecos.com",
@@ -11226,7 +11256,8 @@
       }
     ],
     "github": "https://github.com/dpecos",
-    "mastodon": "https://mastodon.social/@dpecos"
+    "mastodon": "https://mastodon.social/@dpecos",
+    "x": "https://x.com/danielpecos"
   },
   {
     "url": "https://dannas.name",
@@ -11527,7 +11558,8 @@
     ],
     "about": "https://davepeck.org/about/",
     "feed": "https://davepeck.org/feed/master.xml",
-    "mastodon": "https://mastodon.davepeck.org/@davepeck"
+    "mastodon": "https://mastodon.davepeck.org/@davepeck",
+    "bluesky": "https://bsky.app/profile/davepeck.org"
   },
   {
     "url": "https://davidbuckley.ca",
@@ -12021,7 +12053,8 @@
         "comments": 24,
         "id": "23099181"
       }
-    ]
+    ],
+    "github": "https://github.com/denvaar"
   },
   {
     "url": "https://deskoftom.co.uk",
@@ -12404,7 +12437,8 @@
       }
     ],
     "feed": "https://dicioccio.fr/atom.xml",
-    "mastodon": "https://fosstodon.org/@lucasdicioccio"
+    "mastodon": "https://fosstodon.org/@lucasdicioccio",
+    "x": "https://x.com/lucasdicioccio"
   },
   {
     "url": "https://diffxweyl.wordpress.com",
@@ -12683,7 +12717,8 @@
     ],
     "about": "https://donatstudios.com/about",
     "feed": "https://donatstudios.com/feed.rss",
-    "github": "https://github.com/donatj"
+    "github": "https://github.com/donatj",
+    "x": "https://x.com/donatj"
   },
   {
     "url": "https://dorotac.eu",
@@ -12871,7 +12906,8 @@
     ],
     "feed": "https://duncanlock.net/feeds/all.rss.xml",
     "x": "https://x.com/duncanlock",
-    "mastodon": "https://cosocial.ca/@duncanlock"
+    "mastodon": "https://cosocial.ca/@duncanlock",
+    "github": "https://github.com/dflock"
   },
   {
     "url": "https://dusted.dk",
@@ -13004,7 +13040,8 @@
         "id": "32344049"
       }
     ],
-    "github": "https://github.com/ganderzz"
+    "github": "https://github.com/ganderzz",
+    "x": "https://x.com/DylanPaulus"
   },
   {
     "url": "https://dystroy.org",
@@ -13093,7 +13130,8 @@
         "id": "44782229"
       }
     ],
-    "about": "https://e-dorigatti.github.io/about/"
+    "about": "https://e-dorigatti.github.io/about/",
+    "github": "https://github.com/e-dorigatti"
   },
   {
     "url": "https://edbn.dev",
@@ -13447,7 +13485,8 @@
     "title": "Learn to build SaaS",
     "desc": "Learn to build SaaS. Learn the best technologies and techniques to launch your idea.",
     "about": "https://ethanmick.com/about/",
-    "feed": "https://ethanmick.com/rss/"
+    "feed": "https://ethanmick.com/rss/",
+    "x": "https://x.com/ethan_mick"
   },
   {
     "url": "https://ethicalads.io",
@@ -13959,7 +13998,8 @@
       }
     ],
     "github": "https://github.com/fab1an",
-    "mastodon": "https://mastodon.social/@fab1anz"
+    "mastodon": "https://mastodon.social/@fab1anz",
+    "x": "https://x.com/fabianzeindl"
   },
   {
     "url": "https://fabiobruna.nl",
@@ -14175,7 +14215,8 @@
     "url": "https://rafibayer.github.io/",
     "title": "Rafi's Blog",
     "about": "https://rafibayer.github.io/about/",
-    "desc": "A blog about various programming topics, mostly focused on Rust and languages."
+    "desc": "A blog about various programming topics, mostly focused on Rust and languages.",
+    "github": "https://github.com/rafibayer"
   },
   {
     "url": "https://fbrs.io",
@@ -14229,7 +14270,8 @@
       }
     ],
     "github": "https://github.com/jackeyjack1",
-    "mastodon": "https://indieweb.social/@accordionpolar"
+    "mastodon": "https://indieweb.social/@accordionpolar",
+    "x": "https://x.com/henkverlinde"
   },
   {
     "url": "https://forwardscattering.org",
@@ -15136,7 +15178,8 @@
         "id": "36565182"
       }
     ],
-    "feed": "https://www.georgeyw.com/rss/"
+    "feed": "https://www.georgeyw.com/rss/",
+    "x": "https://x.com/ghost"
   },
   {
     "url": "https://gero.dev",
@@ -15297,7 +15340,8 @@
       }
     ],
     "about": "https://italianpoetry.it/about/",
-    "mastodon": "https://zirk.us/@italianpoetry"
+    "mastodon": "https://zirk.us/@italianpoetry",
+    "x": "https://x.com/italian_poetry"
   },
   {
     "url": "https://gkbrk.com",
@@ -15545,7 +15589,8 @@
         "comments": 16,
         "id": "33933047"
       }
-    ]
+    ],
+    "x": "https://x.com/gregnavis"
   },
   {
     "url": "https://gregraiz.com",
@@ -15629,7 +15674,8 @@
         "comments": 13,
         "id": "40085028"
       }
-    ]
+    ],
+    "github": "https://github.com/massimo-nazaria"
   },
   {
     "url": "https://pcalv.es",
@@ -15779,7 +15825,8 @@
         "comments": 97,
         "id": "44096395"
       }
-    ]
+    ],
+    "github": "https://github.com/heitorpb"
   },
   {
     "url": "https://hellowasi.com",
@@ -15924,7 +15971,8 @@
       }
     ],
     "about": "https://honestmusings.wordpress.com/about/",
-    "feed": "https://honestmusings.wordpress.com/feed/"
+    "feed": "https://honestmusings.wordpress.com/feed/",
+    "x": "https://x.com/adnaanx"
   },
   {
     "url": "https://honeypot.net",
@@ -16079,7 +16127,8 @@
       }
     ],
     "desc": "Personal blog of Hugo Tunius. Developer, open source enthusiast, aspiring designer, and Hugo of all trades.",
-    "mastodon": "https://infosec.exchange/@k0nserv"
+    "mastodon": "https://infosec.exchange/@k0nserv",
+    "x": "https://x.com/K0nserv"
   },
   {
     "url": "https://hvalls.dev",
@@ -16135,7 +16184,8 @@
     "desc": "Hypertexthero’s no hero but plays one online, improvising music in real and virtual worlds",
     "keywords": "hypertexthero, music, sound, audio, play, video games, graphic design, photography, illustration, art.",
     "about": "https://hypertexthero.com/about/",
-    "github": "https://github.com/hypertexthero"
+    "github": "https://github.com/hypertexthero",
+    "x": "https://x.com/hypertexthero"
   },
   {
     "url": "https://iamnotarobot.substack.com",
@@ -16182,7 +16232,8 @@
     "url": "https://icinganalysis.github.io",
     "title": "Welcome",
     "desc": "“If you want to go somewhere, it’s best to find someone who has already been there” Robert Kiyosaki .aligncenter { text-align: center; } <img...",
-    "feed": "https://icinganalysis.github.io/https://icinganalysis.github.io/feeds/all.rss.xml"
+    "feed": "https://icinganalysis.github.io/https://icinganalysis.github.io/feeds/all.rss.xml",
+    "github": "https://github.com/icinganalysis"
   },
   {
     "url": "https://ides.dev",
@@ -16191,7 +16242,8 @@
     "about": "https://ides.dev/about/",
     "feed": "https://ides.dev/rss.xml",
     "bluesky": "https://bsky.app/profile/ides.dev",
-    "mastodon": "https://mastodon.social/@ides_dev"
+    "mastodon": "https://mastodon.social/@ides_dev",
+    "x": "https://x.com/ides_dev"
   },
   {
     "url": "https://ifelse.io",
@@ -16540,7 +16592,8 @@
       }
     ],
     "about": "https://www.jabperf.com/about/",
-    "feed": "https://www.jabperf.com/feed/"
+    "feed": "https://www.jabperf.com/feed/",
+    "x": "https://x.com/medawsonjr"
   },
   {
     "url": "https://jackriminton.com",
@@ -16894,7 +16947,8 @@
       }
     ],
     "about": "https://jakeseliger.com/about/",
-    "feed": "https://jakeseliger.com/feed/"
+    "feed": "https://jakeseliger.com/feed/",
+    "x": "https://x.com/seligerj"
   },
   {
     "url": "https://jakewallace.io",
@@ -17570,7 +17624,8 @@
     ],
     "about": "https://jerrynsh.com/about/",
     "now": "https://jerrynsh.com/now/",
-    "feed": "https://jerrynsh.com/rss/"
+    "feed": "https://jerrynsh.com/rss/",
+    "x": "https://x.com/jerrynsh"
   },
   {
     "url": "https://jesperreiche.com",
@@ -17881,7 +17936,8 @@
         "id": "48609438"
       }
     ],
-    "mastodon": "https://mastodon.online/@jmmv"
+    "mastodon": "https://mastodon.online/@jmmv",
+    "x": "https://x.com/jmmv"
   },
   {
     "url": "https://jmreiche.github.io",
@@ -18212,7 +18268,8 @@
         "comments": 8,
         "id": "24340634"
       }
-    ]
+    ],
+    "x": "https://x.com/josh_works"
   },
   {
     "url": "https://joshbaldwin.substack.com",
@@ -18448,7 +18505,8 @@
         "comments": 75,
         "id": "47096466"
       }
-    ]
+    ],
+    "x": "https://x.com/kimjune01"
   },
   {
     "url": "https://justinhj.github.io",
@@ -18659,7 +18717,8 @@
     "title": "Justin Cooney – Web Development Tips and Examples",
     "desc": "Web Development Tips and Examples",
     "about": "https://jwcooney.com/about/",
-    "feed": "https://jwcooney.com/feed/"
+    "feed": "https://jwcooney.com/feed/",
+    "x": "https://x.com/JWCooney"
   },
   {
     "url": "https://kajic.com",
@@ -19009,7 +19068,8 @@
         "id": "40365821"
       }
     ],
-    "desc": "Harry Khanna is an experienced business attorney who provides big law firm service at a price founders can afford."
+    "desc": "Harry Khanna is an experienced business attorney who provides big law firm service at a price founders can afford.",
+    "x": "https://x.com/hkhanna"
   },
   {
     "url": "https://khromov.se",
@@ -19316,7 +19376,8 @@
         "comments": 67,
         "id": "32714806"
       }
-    ]
+    ],
+    "github": "https://github.com/ktkaufman03"
   },
   {
     "url": "https://kulman.sk",
@@ -19671,7 +19732,8 @@
     "url": "https://landreville.blog",
     "title": "Landreville",
     "desc": "Landreville",
-    "feed": "https://landreville.blog/feed/"
+    "feed": "https://landreville.blog/feed/",
+    "x": "https://x.com/Landreville"
   },
   {
     "url": "https://lanziani.com",
@@ -20890,7 +20952,8 @@
     "title": "Many Possibilities - In the beginner's mind there are...",
     "desc": "Steve Song's writings on affordable access to communication, African telecommunications, open source, spectrum, and the middle way.",
     "about": "https://manypossibilities.net/about/",
-    "feed": "https://manypossibilities.net/feed/"
+    "feed": "https://manypossibilities.net/feed/",
+    "x": "https://x.com/stevesong"
   },
   {
     "url": "https://marcelv.net",
@@ -21929,7 +21992,8 @@
     "desc": "The eTales of Matt Simpson",
     "feed": "https://mattsimpson.ca/feed/",
     "github": "https://github.com/mattsimpson",
-    "mastodon": "https://infosec.exchange/@mattsimpson"
+    "mastodon": "https://infosec.exchange/@mattsimpson",
+    "x": "https://x.com/m_simpson"
   },
   {
     "url": "https://max.engineer",
@@ -22163,7 +22227,8 @@
       }
     ],
     "github": "https://github.com/rozenmd",
-    "bluesky": "https://bsky.app/profile/rozenmd.com"
+    "bluesky": "https://bsky.app/profile/rozenmd.com",
+    "x": "https://x.com/RozenMD"
   },
   {
     "url": "https://mbork.pl",
@@ -23098,7 +23163,8 @@
       }
     ],
     "feed": "https://mrkaran.dev/posts/atom.xml",
-    "github": "https://github.com/mr-karan"
+    "github": "https://github.com/mr-karan",
+    "x": "https://x.com/mrkaran_"
   },
   {
     "url": "https://mssv.net",
@@ -23261,7 +23327,8 @@
     "title": "mteam88's Writings",
     "about": "https://mteam88.github.io/about",
     "feed": "https://mteam88.github.io/rss.xml",
-    "desc": "I'm a MEV searcher, blockchain enthusiast, and CS student. I write about MEV, crypto, and leak too much alpha. I love visitors!"
+    "desc": "I'm a MEV searcher, blockchain enthusiast, and CS student. I write about MEV, crypto, and leak too much alpha. I love visitors!",
+    "github": "https://github.com/mteam88"
   },
   {
     "url": "https://muffinman.io",
@@ -23408,7 +23475,8 @@
         "comments": 3,
         "id": "48838173"
       }
-    ]
+    ],
+    "x": "https://x.com/muhammad_o7"
   },
   {
     "url": "https://murat.bio",
@@ -24212,7 +24280,8 @@
     "title": "Non-Human Party | Non-Human Party",
     "feed": "https://nonhuman.party/index.xml",
     "desc": "Creating a harmonious civilisation of intelligent agents",
-    "about": "https://nonhuman.party/about/"
+    "about": "https://nonhuman.party/about/",
+    "x": "https://x.com/OwenFM_"
   },
   {
     "url": "https://normal-people.com",
@@ -24228,7 +24297,8 @@
     "about": "https://notedwin.com/about",
     "desc": "Edwin Zamudio's Personal Website",
     "feed": "https://notedwin.com/rss.xml",
-    "github": "https://github.com/notedwin"
+    "github": "https://github.com/notedwin",
+    "x": "https://x.com/mu0xide"
   },
   {
     "url": "https://notes.alinpanaitiu.com",
@@ -25450,7 +25520,8 @@
     "title": "Syd Norpol",
     "about": "https://svbtle.com/about",
     "feed": "https://oo.svbtle.com/feed",
-    "desc": "Syd Norpol | ∞ "
+    "desc": "Syd Norpol | ∞ ",
+    "x": "https://x.com/svbtle"
   },
   {
     "url": "https://origami.kosmulski.org",
@@ -26538,7 +26609,8 @@
         "comments": 112,
         "id": "49165665"
       }
-    ]
+    ],
+    "github": "https://github.com/pedroth"
   },
   {
     "url": "https://pedtsr.ca",
@@ -26738,7 +26810,8 @@
       }
     ],
     "bluesky": "https://bsky.app/profile/zrail.net",
-    "mastodon": "https://hachyderm.io/@zrail"
+    "mastodon": "https://hachyderm.io/@zrail",
+    "x": "https://x.com/zrail"
   },
   {
     "url": "https://petercammeraat.net",
@@ -26923,7 +26996,8 @@
     "url": "https://philippzentner.com",
     "feed": "https://philippzentner.com/feed.xml",
     "desc": "Thoughts on Tech, Digitization and Entrepreneurship with a strong focus on SaaS and Customer Experience",
-    "title": "Philipp Zentner"
+    "title": "Philipp Zentner",
+    "x": "https://x.com/philippzentner"
   },
   {
     "url": "https://phong.vn",
@@ -27125,7 +27199,8 @@
       }
     ],
     "feed": "https://pikuma.com/feed",
-    "github": "https://github.com/protofarer"
+    "github": "https://github.com/protofarer",
+    "x": "https://x.com/pikuma"
   },
   {
     "url": "https://pirogove.blogspot.com",
@@ -27556,7 +27631,8 @@
         "id": "28839948"
       }
     ],
-    "github": "https://github.com/pomber"
+    "github": "https://github.com/pomber",
+    "x": "https://x.com/pomber"
   },
   {
     "url": "https://porkrind.org",
@@ -27620,7 +27696,8 @@
         "id": "37208248"
       }
     ],
-    "mastodon": "https://mastodon.cloud/@raf"
+    "mastodon": "https://mastodon.cloud/@raf",
+    "x": "https://x.com/rafalpast"
   },
   {
     "url": "https://prashamhtrivedi.in",
@@ -27798,7 +27875,8 @@
     "title": "Peter Dev",
     "desc": "Web development tutorials and courses. PHP, Symfony, Javascript, Node.js, Vue, Nuxt.js, React, Laravel, Golang",
     "now": "https://www.ptrdev.com/now/",
-    "feed": "https://www.ptrdev.com/rss/"
+    "feed": "https://www.ptrdev.com/rss/",
+    "x": "https://x.com/neokusp"
   },
   {
     "url": "https://purpleidea.com",
@@ -27849,7 +27927,8 @@
         "comments": 6,
         "id": "28765500"
       }
-    ]
+    ],
+    "github": "https://github.com/qf0"
   },
   {
     "url": "https://qsantos.fr",
@@ -27895,7 +27974,8 @@
   {
     "url": "https://queercat.github.io",
     "title": "Portfolio",
-    "desc": "May Tusek's thoughtfully crafted portfolio page."
+    "desc": "May Tusek's thoughtfully crafted portfolio page.",
+    "github": "https://github.com/queercat"
   },
   {
     "url": "https://questionableengineering.com",
@@ -27922,7 +28002,8 @@
     ],
     "desc": "Quinn Keast is a user experience & product designer. He solves interesting problems by putting people first—from product vision to the last 5%.",
     "github": "https://github.com/quinnkeast",
-    "bluesky": "https://bsky.app/profile/quinnkeast.com"
+    "bluesky": "https://bsky.app/profile/quinnkeast.com",
+    "x": "https://x.com/quinnkeast"
   },
   {
     "url": "https://quodsoler.com",
@@ -28257,7 +28338,8 @@
     "about": "https://riffraff.info/about/",
     "github": "https://github.com/riffraff",
     "bluesky": "https://bsky.app/profile/riffraff.info",
-    "mastodon": "https://mastodon.social/@riffraff"
+    "mastodon": "https://mastodon.social/@riffraff",
+    "x": "https://x.com/riffraff"
   },
   {
     "url": "https://rishigoomar.com",
@@ -28837,7 +28919,8 @@
         "id": "40204034"
       }
     ],
-    "desc": "About me"
+    "desc": "About me",
+    "x": "https://x.com/ryanbigg"
   },
   {
     "url": "https://ryanboddy.net",
@@ -29017,7 +29100,8 @@
         "comments": 1,
         "id": "36119732"
       }
-    ]
+    ],
+    "github": "https://github.com/save-buffer"
   },
   {
     "url": "https://scaglio.bearblog.dev",
@@ -29055,7 +29139,8 @@
         "id": "36468185"
       }
     ],
-    "github": "https://github.com/scastiel"
+    "github": "https://github.com/scastiel",
+    "x": "https://x.com/scastiel"
   },
   {
     "url": "https://seasonedtech.net",
@@ -29397,7 +29482,8 @@
       }
     ],
     "about": "https://serhack.me/about/",
-    "now": "https://serhack.me/now/"
+    "now": "https://serhack.me/now/",
+    "x": "https://x.com/serhack_"
   },
   {
     "url": "https://sforman.srht.site",
@@ -29450,7 +29536,8 @@
       }
     ],
     "about": "https://shahinrostami.com/about/",
-    "github": "https://github.com/shahinrostami"
+    "github": "https://github.com/shahinrostami",
+    "x": "https://x.com/ShahinRostami"
   },
   {
     "url": "https://shashanksthoughts.blogspot.com",
@@ -29753,7 +29840,8 @@
       }
     ],
     "title": "Simon Hartcher — Fractional CTO & Hands-on Engineering",
-    "github": "https://github.com/deevus"
+    "github": "https://github.com/deevus",
+    "x": "https://x.com/deevus"
   },
   {
     "url": "https://simonwjackson.io",
@@ -29808,7 +29896,8 @@
         "comments": 0,
         "id": "33266764"
       }
-    ]
+    ],
+    "github": "https://github.com/sin-ack"
   },
   {
     "url": "https://skife.org",
@@ -30299,7 +30388,8 @@
     ],
     "feed": "https://soatok.blog/feed/",
     "bluesky": "https://bsky.app/profile/ajlovesdinos.bsky.social",
-    "mastodon": "https://furry.engineer/@soatok"
+    "mastodon": "https://furry.engineer/@soatok",
+    "x": "https://x.com/SoatokDhole"
   },
   {
     "url": "https://soft-wa.re",
@@ -30559,7 +30649,8 @@
         "id": "26448887"
       }
     ],
-    "mastodon": "https://mastodon.cloud/@raf"
+    "mastodon": "https://mastodon.cloud/@raf",
+    "x": "https://x.com/rafalpast"
   },
   {
     "url": "https://sophiabits.com",
@@ -30607,7 +30698,8 @@
       }
     ],
     "feed": "https://sophiabits.com/feed.rss.xml",
-    "github": "https://github.com/sophiabits"
+    "github": "https://github.com/sophiabits",
+    "x": "https://x.com/sophiabits"
   },
   {
     "url": "https://sources.werd.io",
@@ -31750,7 +31842,8 @@
       }
     ],
     "desc": "Writer, Founder, and Devtools Startup Advisor based in San Francisco.",
-    "github": "https://github.com/swyxio"
+    "github": "https://github.com/swyxio",
+    "x": "https://x.com/swyx"
   },
   {
     "url": "https://synystron.substack.com",
@@ -31809,7 +31902,8 @@
         "comments": 12,
         "id": "33078543"
       }
-    ]
+    ],
+    "x": "https://x.com/abathur"
   },
   {
     "url": "https://t.me",
@@ -32112,7 +32206,8 @@
         "id": "48494270"
       }
     ],
-    "bluesky": "https://bsky.app/profile/rcarmo.bsky.social"
+    "bluesky": "https://bsky.app/profile/rcarmo.bsky.social",
+    "github": "https://github.com/rcarmo"
   },
   {
     "url": "https://tashian.com",
@@ -32273,14 +32368,16 @@
         "comments": 8,
         "id": "36681257"
       }
-    ]
+    ],
+    "github": "https://github.com/thatxliner"
   },
   {
     "url": "https://theblackcat102.github.io",
     "title": "Random Notes – Some random post of my study research and other random stuff",
     "about": "https://theblackcat102.github.io/about",
     "feed": "https://theblackcat102.github.io/feed.xml",
-    "desc": "Some random post of my study research and other random stuff"
+    "desc": "Some random post of my study research and other random stuff",
+    "github": "https://github.com/theblackcat102"
   },
   {
     "url": "https://thecapegreek.com",
@@ -32502,7 +32599,8 @@
     "title": "The House Carpenter | Singing \"Amazing Grace\"all the way to the Swiss banks",
     "desc": "Singing \"Amazing Grace\"all the way to the Swiss banks",
     "about": "https://thehousecarpenter.wordpress.com/about/",
-    "feed": "https://thehousecarpenter.wordpress.com/feed/"
+    "feed": "https://thehousecarpenter.wordpress.com/feed/",
+    "x": "https://x.com/Oaftoe"
   },
   {
     "url": "https://thelis.org",
@@ -32576,7 +32674,8 @@
         "id": "31447647"
       }
     ],
-    "about": "https://thenewleafjournal.com/about/"
+    "about": "https://thenewleafjournal.com/about/",
+    "x": "https://x.com/newleafjournal"
   },
   {
     "url": "https://thetechee.com",
@@ -32812,7 +32911,8 @@
     ],
     "feed": "https://thomashunter.name/feed.rss",
     "github": "https://github.com/tlhunter",
-    "mastodon": "https://mastodon.social/@tlhunter"
+    "mastodon": "https://mastodon.social/@tlhunter",
+    "x": "https://x.com/tlhunter"
   },
   {
     "url": "https://thomasvilhena.com",
@@ -32963,13 +33063,15 @@
     "about": "https://tiberriver256.github.io/about",
     "feed": "https://tiberriver256.github.io/feed.xml",
     "keywords": "PowerShell, Microsoft, Windows, Sysadmin, Scripting, Batch, Web Development",
-    "desc": "I do a lot of web development and PowerShell but my other interests include: DevOps, Personal Productivity, Family and Autism"
+    "desc": "I do a lot of web development and PowerShell but my other interests include: DevOps, Personal Productivity, Family and Autism",
+    "github": "https://github.com/tiberriver256"
   },
   {
     "url": "https://tidings.potato.horse",
     "title": "The (Medieval) Times",
     "about": "https://tidings.potato.horse/about",
-    "desc": "Your biased and hallucinated news source curated by a team of talented, dead writers"
+    "desc": "Your biased and hallucinated news source curated by a team of talented, dead writers",
+    "x": "https://x.com/rafalpast"
   },
   {
     "url": "https://tig.pt",
@@ -33095,7 +33197,8 @@
     "keywords": "tohya, saturnexplorers",
     "desc": "saturnexplorers official website. Also videogame reviews and more",
     "title": "Home - tohya.net",
-    "feed": "https://tohya.net/feed.rss"
+    "feed": "https://tohya.net/feed.rss",
+    "x": "https://x.com/saturnexplorers"
   },
   {
     "url": "https://tomasdiblik.cz",
@@ -33367,7 +33470,8 @@
     "about": "https://trevo.rs/about",
     "feed": "https://trevo.rs/feed.xml",
     "desc": "Trevor Stenson's personal website.",
-    "github": "https://github.com/trevorstenson"
+    "github": "https://github.com/trevorstenson",
+    "x": "https://x.com/trevorstenson"
   },
   {
     "url": "https://tricht.eu",
@@ -33590,14 +33694,16 @@
         "id": "40266412"
       }
     ],
-    "github": "https://github.com/tsak"
+    "github": "https://github.com/tsak",
+    "x": "https://x.com/__tsak__"
   },
   {
     "url": "https://tuesdaytriage.com",
     "title": "Tuesday Triage — weekly newsletter about things I read and things I learnt",
     "desc": "Every Tuesday I triage the Internet and send out the crème de la crème in a newsletter to cover you on all fronts: from mobile security to mixology. That usually involves going through thousands of articles, posts, tweets, videos, facts, and trivia and choosing a few dozens of the best ones, and then condensing them to a quote or two with some customary commentary.   Books I read and things I cook come as a bonus.",
     "about": "https://tuesdaytriage.com/about/",
-    "feed": "https://tuesdaytriage.com/feed.xml"
+    "feed": "https://tuesdaytriage.com/feed.xml",
+    "x": "https://x.com/valzevul"
   },
   {
     "url": "https://tylerneylon.com",
@@ -33805,13 +33911,15 @@
     "url": "https://umhau.github.io",
     "title": "Weird.",
     "about": "https://umhau.github.io/about",
-    "feed": "https://umhau.github.io/feed.xml"
+    "feed": "https://umhau.github.io/feed.xml",
+    "github": "https://github.com/umhau"
   },
   {
     "url": "https://umtksa.github.io",
     "title": "yo - random findings",
     "desc": "random findings",
-    "feed": "https://umtksa.github.io/atom.xml"
+    "feed": "https://umtksa.github.io/atom.xml",
+    "github": "https://github.com/umtksa"
   },
   {
     "url": "https://umtksa.net",
@@ -34426,7 +34534,8 @@
     "title": "Chào bảo",
     "about": "https://vjeran.crnjak.xyz/about",
     "feed": "https://vjeran.crnjak.xyz/atom.xml",
-    "github": "https://github.com/vjeranc"
+    "github": "https://github.com/vjeranc",
+    "x": "https://x.com/VjeranCrnjak"
   },
   {
     "url": "https://vladsiv.com",
@@ -34803,7 +34912,8 @@
     "desc": "Making apps and games",
     "about": "https://whackylabs.com/about/",
     "feed": "https://whackylabs.com/atom.xml",
-    "github": "https://github.com/chunkyguy"
+    "github": "https://github.com/chunkyguy",
+    "x": "https://x.com/chunkyguy"
   },
   {
     "url": "https://whatibroke.com",
@@ -35659,7 +35769,8 @@
       }
     ],
     "about": "https://www.xitijpatel.com/about/",
-    "feed": "https://www.xitijpatel.com/rss/"
+    "feed": "https://www.xitijpatel.com/rss/",
+    "x": "https://x.com/ghost"
   },
   {
     "url": "https://xnacly.me",
@@ -36685,7 +36796,8 @@
     "url": "https://costacoders.es",
     "title": "CostaCoders.es Community",
     "feed": "https://costacoders.es/rss.xml",
-    "desc": "CostaCoders.es is an open virtual space and a collaborative local community for English-speaking software engineers living in Costa del Sol area."
+    "desc": "CostaCoders.es is an open virtual space and a collaborative local community for English-speaking software engineers living in Costa del Sol area.",
+    "x": "https://x.com/keskival"
   },
   {
     "url": "https://neter.fi",
@@ -37492,7 +37604,8 @@
     ],
     "about": "https://benbyford.com/about/",
     "now": "https://benbyford.com/now/",
-    "github": "https://github.com/benbyford"
+    "github": "https://github.com/benbyford",
+    "x": "https://x.com/benbyford"
   },
   {
     "url": "https://benjamincongdon.me",
@@ -38317,7 +38430,8 @@
     "about": "https://chenhuijing.com/about",
     "github": "https://github.com/huijing",
     "bluesky": "https://bsky.app/profile/huijing.bsky.social",
-    "mastodon": "https://tech.lgbt/@huijing"
+    "mastodon": "https://tech.lgbt/@huijing",
+    "x": "https://x.com/hj_chen"
   },
   {
     "url": "https://christiantietze.de",
@@ -38360,7 +38474,8 @@
     ],
     "now": "https://christiantietze.de/now/",
     "github": "https://github.com/DivineDominion",
-    "mastodon": "https://mastodon.social/@ctietze"
+    "mastodon": "https://mastodon.social/@ctietze",
+    "x": "https://x.com/ctietze"
   },
   {
     "url": "https://christopherkade.com",
@@ -38858,7 +38973,8 @@
     ],
     "about": "https://geshan.com.np/about/",
     "feed": "https://geshan.com.np/atom.xml",
-    "github": "https://github.com/geshan"
+    "github": "https://github.com/geshan",
+    "x": "https://x.com/geshan"
   },
   {
     "url": "https://gilest.org",
@@ -39048,7 +39164,8 @@
         "comments": 86,
         "id": "20146648"
       }
-    ]
+    ],
+    "x": "https://x.com/jakejarvis"
   },
   {
     "url": "https://jmtd.net",
@@ -39116,7 +39233,8 @@
     ],
     "bluesky": "https://bsky.app/profile/johnnyreilly.com",
     "x": "https://x.com/johnny_reilly",
-    "mastodon": "https://fosstodon.org/@johnny_reilly"
+    "mastodon": "https://fosstodon.org/@johnny_reilly",
+    "github": "https://github.com/johnnyreilly"
   },
   {
     "url": "https://joshuakeel.com",
@@ -39449,7 +39567,8 @@
     "feed": "https://kilianvalkhof.com/feed/",
     "github": "https://github.com/kilian",
     "bluesky": "https://bsky.app/profile/kilianvalkhof.com",
-    "mastodon": "https://mastodon.social/@Kilian"
+    "mastodon": "https://mastodon.social/@Kilian",
+    "x": "https://x.com/kilianvalkhof"
   },
   {
     "url": "https://librarian.dev",
@@ -39833,7 +39952,8 @@
     "about": "https://nicolas-hoizey.com/about/",
     "feed": "https://nicolas-hoizey.com/feeds/all.xml",
     "github": "https://github.com/nhoizey",
-    "mastodon": "https://mamot.fr/@nhoizey"
+    "mastodon": "https://mamot.fr/@nhoizey",
+    "x": "https://x.com/nhoizey"
   },
   {
     "url": "https://notes.volution.ro",
@@ -40521,7 +40641,8 @@
         "id": "593561"
       }
     ],
-    "github": "https://github.com/minor"
+    "github": "https://github.com/minor",
+    "x": "https://x.com/saurishhh"
   },
   {
     "url": "https://scottohara.me",
@@ -40735,7 +40856,8 @@
         "comments": 219,
         "id": "22517505"
       }
-    ]
+    ],
+    "x": "https://x.com/shime_sh"
   },
   {
     "url": "https://silvestar.codes",
@@ -41109,7 +41231,8 @@
     ],
     "feed": "https://www.trovster.com/blog/posts.xml",
     "github": "https://github.com/trovster",
-    "mastodon": "https://mastodon.social/@trovster"
+    "mastodon": "https://mastodon.social/@trovster",
+    "x": "https://x.com/trovster"
   },
   {
     "url": "https://tylergaw.com",
@@ -41437,7 +41560,8 @@
         "id": "18654061"
       }
     ],
-    "now": "https://jvt.me/now/"
+    "now": "https://jvt.me/now/",
+    "x": "https://x.com/jamietanna"
   },
   {
     "url": "https://zachleat.com",
@@ -41945,7 +42069,8 @@
     ],
     "github": "https://github.com/evert",
     "bluesky": "https://bsky.app/profile/evertpot.com",
-    "mastodon": "https://indieweb.social/@evert"
+    "mastodon": "https://indieweb.social/@evert",
+    "x": "https://x.com/evertp"
   },
   {
     "url": "https://simonwillison.net/",
@@ -44097,7 +44222,8 @@
         "id": "37778729"
       }
     ],
-    "github": "https://github.com/ahmadrosid"
+    "github": "https://github.com/ahmadrosid",
+    "x": "https://x.com/_ahmadrosid"
   },
   {
     "url": "https://ahoneybun.net",
@@ -44172,7 +44298,8 @@
         "comments": 46,
         "id": "43468491"
       }
-    ]
+    ],
+    "x": "https://x.com/Aizkmusic"
   },
   {
     "url": "https://ajxs.me",
@@ -44245,7 +44372,8 @@
     "title": "Kishore Kumar",
     "feed": "https://akcube.github.io/index.xml",
     "keywords": "kishore kumar akcube iiit iiith iiit-h international institute of information technology ICPC competitive programming optimization performance algorithms finance math c++ cpp research quant finance ml deep learning reinforcement learning theory",
-    "desc": "If we keep holding onto yesterday, what are we going to be tomorrow?"
+    "desc": "If we keep holding onto yesterday, what are we going to be tomorrow?",
+    "github": "https://github.com/akcube"
   },
   {
     "url": "https://akshay326.com",
@@ -44338,7 +44466,8 @@
         "id": "47783878"
       }
     ],
-    "github": "https://github.com/dado3212"
+    "github": "https://github.com/dado3212",
+    "x": "https://x.com/alex_beals"
   },
   {
     "url": "https://alexrichey.com",
@@ -44450,7 +44579,8 @@
     ],
     "about": "https://allenc.com/about/",
     "feed": "https://allenc.com/rss/",
-    "github": "https://github.com/allenmhc"
+    "github": "https://github.com/allenmhc",
+    "x": "https://x.com/allenmhc"
   },
   {
     "url": "https://allthroughthenight.github.io",
@@ -44487,7 +44617,8 @@
         "comments": 3,
         "id": "37385401"
       }
-    ]
+    ],
+    "x": "https://x.com/alexanderameye"
   },
   {
     "url": "https://amirmalik.net",
@@ -44689,7 +44820,8 @@
     "url": "https://apreche.space",
     "title": "Apreche.space",
     "feed": "https://apreche.space/index.xml",
-    "about": "https://apreche.space/about/"
+    "about": "https://apreche.space/about/",
+    "x": "https://x.com/Apreche"
   },
   {
     "url": "https://aquova.net",
@@ -45042,7 +45174,8 @@
   {
     "url": "https://atul-atul.github.io",
     "title": "Atul",
-    "feed": "https://atul-atul.github.io/feed.xml"
+    "feed": "https://atul-atul.github.io/feed.xml",
+    "github": "https://github.com/atul-atul"
   },
   {
     "url": "https://autumnsgrove.com",
@@ -45450,7 +45583,8 @@
     ],
     "about": "https://bergie.iki.fi/about/",
     "now": "https://bergie.iki.fi/now/",
-    "github": "https://github.com/bergie"
+    "github": "https://github.com/bergie",
+    "x": "https://x.com/bergie"
   },
   {
     "url": "https://bernat.ch",
@@ -45625,7 +45759,8 @@
         "id": "23676521"
       }
     ],
-    "feed": "https://bitlog.com/feed/"
+    "feed": "https://bitlog.com/feed/",
+    "x": "https://x.com/jakevoytko"
   },
   {
     "url": "https://bityard.net",
@@ -46158,7 +46293,8 @@
     "feed": "https://blog.pluggedpotato.com/feed.xml",
     "desc": "A menace to myself mostly, everyone else too sometimes. Welcome to my blog!",
     "about": "https://blog.pluggedpotato.com/about/",
-    "mastodon": "https://infosec.exchange/@pluggedpotato"
+    "mastodon": "https://infosec.exchange/@pluggedpotato",
+    "x": "https://x.com/pluggedpotato"
   },
   {
     "url": "https://blog.prizrak.me",
@@ -46237,7 +46373,8 @@
         "comments": 9,
         "id": "29230252"
       }
-    ]
+    ],
+    "x": "https://x.com/skzv"
   },
   {
     "url": "https://blog.tldrversion.com",
@@ -46311,7 +46448,8 @@
         "id": "48345694"
       }
     ],
-    "github": "https://github.com/panr"
+    "github": "https://github.com/panr",
+    "x": "https://x.com/tymscar"
   },
   {
     "url": "https://blog.vibemanager.cc",
@@ -46600,7 +46738,8 @@
       }
     ],
     "about": "https://www.bramadams.dev/about/",
-    "feed": "https://www.bramadams.dev/rss/"
+    "feed": "https://www.bramadams.dev/rss/",
+    "x": "https://x.com/_bramses"
   },
   {
     "url": "https://brandonowens.me",
@@ -46761,7 +46900,8 @@
         "id": "47366616"
       }
     ],
-    "bluesky": "https://bsky.app/profile/brianmoore.com"
+    "bluesky": "https://bsky.app/profile/brianmoore.com",
+    "x": "https://x.com/lanewinfield"
   },
   {
     "url": "https://brisray.com",
@@ -47212,7 +47352,8 @@
         "comments": 53,
         "id": "33226817"
       }
-    ]
+    ],
+    "x": "https://x.com/simonsarris"
   },
   {
     "url": "https://carlkolon.com",
@@ -47905,7 +48046,9 @@
         "id": "4877841"
       }
     ],
-    "github": "https://github.com/colly"
+    "github": "https://github.com/colly",
+    "x": "https://x.com/colly",
+    "mastodon": "https://mastodon.social/@colly"
   },
   {
     "url": "https://contraption.co",
@@ -48052,7 +48195,8 @@
     "feed": "https://crespo.business/rss.xml",
     "desc": "Web dev + dad in Chicago",
     "github": "https://github.com/david-crespo",
-    "bluesky": "https://bsky.app/profile/davidcrespo.bsky.social"
+    "bluesky": "https://bsky.app/profile/davidcrespo.bsky.social",
+    "x": "https://x.com/davidcrespo"
   },
   {
     "url": "https://crowfunder.github.io",
@@ -48111,7 +48255,8 @@
       }
     ],
     "github": "https://github.com/cweagans",
-    "mastodon": "https://mas.to/@cweagans"
+    "mastodon": "https://mas.to/@cweagans",
+    "x": "https://x.com/cweagans"
   },
   {
     "url": "https://cyberjunkie.in",
@@ -48626,7 +48771,8 @@
         "comments": 94,
         "id": "22822401"
       }
-    ]
+    ],
+    "x": "https://x.com/danny_salzman"
   },
   {
     "url": "https://danverbraganza.com",
@@ -48683,7 +48829,8 @@
     "feed": "https://darios.blog/rss.xml",
     "desc": "Blog by Dario Djuric: writing about development, DevOps, and technology.",
     "github": "https://github.com/dariodjuric",
-    "bluesky": "https://bsky.app/profile/dariodjuric.bsky.social"
+    "bluesky": "https://bsky.app/profile/dariodjuric.bsky.social",
+    "x": "https://x.com/dario_djuric"
   },
   {
     "url": "https://dav.one",
@@ -48736,7 +48883,8 @@
         "id": "39426569"
       }
     ],
-    "feed": "https://www.daviddegner.com/feed/"
+    "feed": "https://www.daviddegner.com/feed/",
+    "x": "https://x.com/degner"
   },
   {
     "url": "https://davide.im",
@@ -48923,7 +49071,8 @@
       }
     ],
     "feed": "https://dbohdan.com/",
-    "github": "https://github.com/dbohdan"
+    "github": "https://github.com/dbohdan",
+    "x": "https://x.com/dbotdan"
   },
   {
     "url": "https://dcaulfield.com",
@@ -49563,7 +49712,8 @@
         "id": "48091812"
       }
     ],
-    "feed": "https://dmitry.gr/rss.php"
+    "feed": "https://dmitry.gr/rss.php",
+    "x": "https://x.com/dmitrygr"
   },
   {
     "url": "https://docodethatmatters.com",
@@ -49784,7 +49934,8 @@
         "id": "43461640"
       }
     ],
-    "about": "https://drjoshcsimmons.com/about"
+    "about": "https://drjoshcsimmons.com/about",
+    "x": "https://x.com/Dr_joshcsimmons"
   },
   {
     "url": "https://drshapeless.com",
@@ -50042,7 +50193,8 @@
         "comments": 1,
         "id": "40101453"
       }
-    ]
+    ],
+    "x": "https://x.com/Lovable"
   },
   {
     "url": "https://edm115.dev",
@@ -50195,7 +50347,8 @@
         "comments": 309,
         "id": "46646777"
       }
-    ]
+    ],
+    "github": "https://github.com/embedding-shapes"
   },
   {
     "url": "https://emgoto.com",
@@ -52421,7 +52574,8 @@
     "about": "https://henrikwarne.com/about/",
     "feed": "https://henrikwarne.com/feed/",
     "github": "https://github.com/henrikw",
-    "bluesky": "https://bsky.app/profile/henrikwarne.bsky.social"
+    "bluesky": "https://bsky.app/profile/henrikwarne.bsky.social",
+    "x": "https://x.com/henrikwarne"
   },
   {
     "url": "https://herlein.com",
@@ -52529,7 +52683,8 @@
     "title": "HN Personal Websites Directory",
     "about": "https://www.seangoedecke.com/about",
     "now": "https://teeg.no/now",
-    "feed": "https://blog.zacbentley.com/index.xml"
+    "feed": "https://blog.zacbentley.com/index.xml",
+    "github": "https://github.com/hnpwd"
   },
   {
     "url": "https://hodovi.cc",
@@ -53354,7 +53509,8 @@
     ],
     "about": "https://interjectedfuture.com/about/",
     "feed": "https://interjectedfuture.com/rss/",
-    "bluesky": "https://bsky.app/profile/did:plc:4yf2dz4a5hvjmui5gbgxclzx"
+    "bluesky": "https://bsky.app/profile/did:plc:4yf2dz4a5hvjmui5gbgxclzx",
+    "x": "https://x.com/iamwil"
   },
   {
     "url": "https://inventcures.github.io",
@@ -53586,7 +53742,8 @@
     "title": "Ivan Derevianko - Software Developer, Architect, Consultant",
     "about": "https://ivanderevianko.com/about",
     "feed": "https://ivanderevianko.com/feed",
-    "desc": "I've started programming when I was fourteen years old, and since then, software development is my passion."
+    "desc": "I've started programming when I was fourteen years old, and since then, software development is my passion.",
+    "x": "https://x.com/drussilla7"
   },
   {
     "url": "https://ivanyu.me",
@@ -53799,7 +53956,8 @@
         "comments": 7,
         "id": "10218832"
       }
-    ]
+    ],
+    "x": "https://x.com/jabbs___"
   },
   {
     "url": "https://jackson.dev",
@@ -53854,7 +54012,8 @@
       }
     ],
     "bluesky": "https://bsky.app/profile/jade.ellis.link",
-    "mastodon": "https://tech.lgbt/@JadedBlueEyes"
+    "mastodon": "https://tech.lgbt/@JadedBlueEyes",
+    "github": "https://github.com/JadedBlueEyes"
   },
   {
     "url": "https://jakesaunders.dev",
@@ -53901,7 +54060,8 @@
         "id": "37583593"
       }
     ],
-    "github": "https://github.com/Jakob-98"
+    "github": "https://github.com/Jakob-98",
+    "x": "https://x.com/Jakobsdev"
   },
   {
     "url": "https://jama.me",
@@ -54034,7 +54194,8 @@
         "comments": 195,
         "id": "30876934"
       }
-    ]
+    ],
+    "x": "https://x.com/jamieonkeys"
   },
   {
     "url": "https://janitha.com",
@@ -54077,7 +54238,8 @@
       }
     ],
     "feed": "https://jasongi.com/feed/",
-    "github": "https://github.com/jasongi"
+    "github": "https://github.com/jasongi",
+    "x": "https://x.com/jason_gi"
   },
   {
     "url": "https://jasonthorsness.com",
@@ -54675,7 +54837,8 @@
     "title": "Je note donc je suis — Accueil",
     "feed": "https://jndjs.dev/feed.xml",
     "desc": "Accueil — Un jardin numérique en chantier perpétuel made in Bruxelles",
-    "keywords": "digital garden, notes, typographie, Bauhaus, écriture, Eleventy, slow web, pensée, journal"
+    "keywords": "digital garden, notes, typographie, Bauhaus, écriture, Eleventy, slow web, pensée, journal",
+    "x": "https://x.com/baudouin"
   },
   {
     "url": "https://jodavaho.io",
@@ -55014,7 +55177,8 @@
         "id": "7105307"
       }
     ],
-    "feed": "https://josecasanova.com/rss.xml"
+    "feed": "https://josecasanova.com/rss.xml",
+    "x": "https://x.com/jcsnv"
   },
   {
     "url": "https://josem.co",
@@ -55197,7 +55361,8 @@
       }
     ],
     "feed": "https://joshmcarthur.com/feed/",
-    "github": "https://github.com/joshmcarthur"
+    "github": "https://github.com/joshmcarthur",
+    "x": "https://x.com/sudojosh"
   },
   {
     "url": "https://joshmosier.com",
@@ -55255,7 +55420,8 @@
       }
     ],
     "feed": "https://joshstrange.com/feed/",
-    "mastodon": "https://mastodon.social/@joshstrange"
+    "mastodon": "https://mastodon.social/@joshstrange",
+    "x": "https://x.com/joshstrange"
   },
   {
     "url": "https://joshtronic.com",
@@ -55565,7 +55731,8 @@
     ],
     "about": "https://justinmiller.io/about/",
     "now": "https://justinmiller.io/now/",
-    "mastodon": "https://mastodon.social/@incanus.rss"
+    "mastodon": "https://mastodon.social/@incanus.rss",
+    "github": "https://github.com/incanus"
   },
   {
     "url": "https://justinmklam.com",
@@ -56097,7 +56264,8 @@
         "id": "27118536"
       }
     ],
-    "github": "https://github.com/alex-ketch"
+    "github": "https://github.com/alex-ketch",
+    "x": "https://x.com/alex_ketch"
   },
   {
     "url": "https://kevindangoor.com",
@@ -56374,7 +56542,8 @@
     ],
     "about": "https://kudmitry.com/about/",
     "now": "https://kudmitry.com/now/",
-    "github": "https://github.com/skwee357"
+    "github": "https://github.com/skwee357",
+    "x": "https://x.com/skwee357"
   },
   {
     "url": "https://kylejeong.com",
@@ -56533,7 +56702,8 @@
     "desc": "Homepage of Marco Bravo Mejías, a systems engineer and IT professional specializing in DevOps",
     "github": "https://github.com/layfellow",
     "bluesky": "https://bsky.app/profile/layfellow.net",
-    "mastodon": "https://mastodon.social/@layfellow"
+    "mastodon": "https://mastodon.social/@layfellow",
+    "x": "https://x.com/layfellow"
   },
   {
     "url": "https://lazarakisd.com",
@@ -56715,7 +56885,8 @@
         "comments": 10,
         "id": "38410966"
       }
-    ]
+    ],
+    "x": "https://x.com/lswainemoore"
   },
   {
     "url": "https://literallythevoid.com",
@@ -56745,7 +56916,8 @@
   {
     "url": "https://ljubomirj.github.io",
     "title": "Redirecting...",
-    "feed": "https://ljubomirj.github.io/feed.xml"
+    "feed": "https://ljubomirj.github.io/feed.xml",
+    "github": "https://github.com/ljubomirj"
   },
   {
     "url": "https://lmao.center",
@@ -57362,7 +57534,8 @@
         "comments": 2,
         "id": "46173882"
       }
-    ]
+    ],
+    "github": "https://github.com/martianlantern"
   },
   {
     "url": "https://martianwabbit.com",
@@ -57376,7 +57549,8 @@
     "about": "https://martin-brennan.com/about",
     "feed": "https://martin-brennan.com/feed.xml",
     "desc": "I’m Martin Brennan, and I’m a full stack staff software engineer based in Australia, currently working for Discourse. I primarily enjoy working with Ruby, Rails, and JavaScript, with a focus on product engineering. I’m always seeking ways to expand my knowledge and learn about new tools, languages and frameworks.",
-    "github": "https://github.com/martin-brennan"
+    "github": "https://github.com/martin-brennan",
+    "x": "https://x.com/mjrbrennan"
   },
   {
     "url": "https://martinpiala.com",
@@ -57954,7 +58128,8 @@
     "url": "https://mattbrandly.com",
     "title": "matt brandly",
     "about": "https://mattbrandly.com/about",
-    "feed": "https://mattbrandly.com/rss"
+    "feed": "https://mattbrandly.com/rss",
+    "x": "https://x.com/mattbrandly"
   },
   {
     "url": "https://mattfriz.com",
@@ -58929,7 +59104,8 @@
     "title": "Miguel Piedrafita",
     "feed": "https://miguel.build/feed.xml",
     "desc": "I'm a 23-year-old maker, and I love building things.",
-    "mastodon": "https://mastodon.social/@m1guelpf"
+    "mastodon": "https://mastodon.social/@m1guelpf",
+    "x": "https://x.com/m1guelpf"
   },
   {
     "url": "https://miguelxpn.com",
@@ -59184,7 +59360,8 @@
     "url": "https://monji.com",
     "title": "Monji Dolon | A collection of my personal work, including essays, projects, and photos.",
     "feed": "https://monji.com/feed.xml",
-    "desc": "A collection of my personal work, including essays, projects, and photos."
+    "desc": "A collection of my personal work, including essays, projects, and photos.",
+    "x": "https://x.com/mdolon"
   },
   {
     "url": "https://monokai.com",
@@ -59210,7 +59387,8 @@
     "title": "TJ Raklovits - Software Developer & Computer Science Student",
     "about": "https://monster0506.dev/about",
     "keywords": "TJ Raklovits, software developer, computer science student, Kent State University, Python developer, JavaScript developer, React developer, full-stack developer, web development, portfolio, programming, software engineering, frontend development, backend development, database design, API development, cloud computing, AWS, Docker, Git, TypeScript, Next.js, Node.js, PostgreSQL, MongoDB, Linux, agile development, problem solving, technical writing, open source, portfolio, homepage, software developer portfolio, computer science student, Kent State University, Python developer, JavaScript developer, React developer, full-stack developer",
-    "desc": "Computer Science student at Kent State University with 20+ years of programming experience. Specializing in Python, JavaScript, React, and full-stack develop..."
+    "desc": "Computer Science student at Kent State University with 20+ years of programming experience. Specializing in Python, JavaScript, React, and full-stack develop...",
+    "x": "https://x.com/tjraklovits"
   },
   {
     "url": "https://moomers.org",
@@ -60846,7 +61024,8 @@
         "comments": 8,
         "id": "44350655"
       }
-    ]
+    ],
+    "x": "https://x.com/OrigamiUSA"
   },
   {
     "url": "https://ouachitalabs.com",
@@ -61066,7 +61245,8 @@
       }
     ],
     "feed": "https://p4bl0.net/feed/rss2",
-    "mastodon": "https://mamot.fr/@p4bl0"
+    "mastodon": "https://mamot.fr/@p4bl0",
+    "x": "https://x.com/p4bl0"
   },
   {
     "url": "https://pa.rh.am",
@@ -61339,7 +61519,8 @@
         "comments": 9,
         "id": "40458914"
       }
-    ]
+    ],
+    "github": "https://github.com/pramatias"
   },
   {
     "url": "https://pramode.net",
@@ -61831,7 +62012,8 @@
     "now": "https://realmorrisliu.com/now",
     "feed": "https://realmorrisliu.com/rss.xml",
     "keywords": "Morris Liu, Rust Developer, Systems Programming, AI Infrastructure Engineer, Rust Programming, Secret Management, AI Tools, Open Source, Sealbox, TypeScript, CAD Technology, 3D Visualization, Performance Engineering, Backend Systems, EverXYZ, UniXYZ",
-    "desc": "Morris Liu: 7+ years building Rust systems & AI infrastructure. Former CTO scaling teams 20+. Creator of Sealbox (secret management) & Kira (AI knowledge). Open source contributor with 99.9% uptime production experience."
+    "desc": "Morris Liu: 7+ years building Rust systems & AI infrastructure. Former CTO scaling teams 20+. Creator of Sealbox (secret management) & Kira (AI knowledge). Open source contributor with 99.9% uptime production experience.",
+    "x": "https://x.com/realmorrisliu"
   },
   {
     "url": "https://refactoringenglish.com",
@@ -61951,7 +62133,8 @@
         "id": "48662007"
       }
     ],
-    "feed": "https://refactoringenglish.com/index.xml"
+    "feed": "https://refactoringenglish.com/index.xml",
+    "x": "https://x.com/deliberatecoder"
   },
   {
     "url": "https://reidburke.com",
@@ -62109,7 +62292,8 @@
     "keywords": "blog, devops, development, programming, management, iex, exchanges, stock market",
     "desc": "A dad that is into technology and the U.S. stock market",
     "x": "https://x.com/rjgonza",
-    "mastodon": "https://hachyderm.io/@rjgonza"
+    "mastodon": "https://hachyderm.io/@rjgonza",
+    "github": "https://github.com/rjgonza"
   },
   {
     "url": "https://rkp.science",
@@ -62335,7 +62519,8 @@
     ],
     "desc": "All the text documents your organization has collected have untapped potential. Using natural language processing, machine learning and large language models (LLM), I can help unlock it. With tools such as GPT4 or Mistral, you can see results in less than a month. Get in touch to learn how I can hel",
     "about": "https://rolisz.com/about/",
-    "feed": "https://rolisz.com/feed/"
+    "feed": "https://rolisz.com/feed/",
+    "x": "https://x.com/rolisz"
   },
   {
     "url": "https://romanzipp.com",
@@ -62371,7 +62556,8 @@
     ],
     "github": "https://github.com/romanzipp",
     "bluesky": "https://bsky.app/profile/romanzipp.com",
-    "mastodon": "https://mastodon.social/@romanzipp"
+    "mastodon": "https://mastodon.social/@romanzipp",
+    "x": "https://x.com/romanzipp"
   },
   {
     "url": "https://ronsor.com",
@@ -62443,7 +62629,8 @@
     "title": "Prabin Paudel | Staff Engineer",
     "feed": "https://royalghost.github.io/writing/writing.atom",
     "desc": "Staff Engineer",
-    "about": "https://royalghost.github.io/about/"
+    "about": "https://royalghost.github.io/about/",
+    "github": "https://github.com/royalghost"
   },
   {
     "url": "https://rozumem.xyz",
@@ -62595,7 +62782,10 @@
         "comments": 5,
         "id": "831676"
       }
-    ]
+    ],
+    "desc": "List of Sweepstakes Casinos 2026 — Insider Guide for US Readers Last updated: Looking for a legitimate, fun way to [&hellip;]",
+    "about": "https://russellbeattie.com/about/",
+    "feed": "https://russellbeattie.com/feed/"
   },
   {
     "url": "https://ruxu.dev",
@@ -62859,7 +63049,8 @@
     "desc": "Personal site of Ryan McGrath - entrepreneur, engineer, designer, author, and teacher.",
     "about": "https://rymc.io/about/",
     "github": "https://github.com/ryanmcgrath",
-    "bluesky": "https://bsky.app/profile/rymc.io"
+    "bluesky": "https://bsky.app/profile/rymc.io",
+    "x": "https://x.com/ryanmcgrath"
   },
   {
     "url": "https://rz01.org",
@@ -62922,7 +63113,8 @@
     "url": "https://sagrd.github.io",
     "title": "Sagar Dhungel",
     "feed": "https://sagrd.github.io/feed.xml",
-    "desc": "Sagar Dhungel - A Data Science and Engineering Consultant."
+    "desc": "Sagar Dhungel - A Data Science and Engineering Consultant.",
+    "github": "https://github.com/sagrd"
   },
   {
     "url": "https://sahillavingia.com",
@@ -63095,7 +63287,8 @@
     "url": "https://saint-angels.github.io",
     "feed": "https://saint-angels.github.io/feed.xml",
     "desc": "sinking my teeth into",
-    "x": "https://x.com/teeth2i4"
+    "x": "https://x.com/teeth2i4",
+    "github": "https://github.com/saint-angels"
   },
   {
     "url": "https://sambroner.com",
@@ -63668,7 +63861,8 @@
     "url": "https://seanwangjs.github.io",
     "title": "博客 - Fenrier Lab",
     "feed": "https://seanwangjs.github.io/feed.xml",
-    "desc": "A Blog To Record And Share "
+    "desc": "A Blog To Record And Share ",
+    "github": "https://github.com/seanwangjs"
   },
   {
     "url": "https://selfboot.cn",
@@ -63898,7 +64092,8 @@
     "feed": "https://shreyasprakash.com/feed",
     "desc": "Shreyas Prakash - Product, Design, and Technology",
     "keywords": "technology, product design, AI, indie software, and personal essays",
-    "github": "https://github.com/shreyas-makes"
+    "github": "https://github.com/shreyas-makes",
+    "x": "https://x.com/shreyas_makes"
   },
   {
     "url": "https://shub.club",
@@ -64241,7 +64436,8 @@
     "title": "Nick Khami's Blog | About",
     "desc": "About Nick Khami, a software engineer and entrepreneur, founder of Trieve, and previous work at NelNet Payment Services, zeroDAO, Breezy, and Quai.",
     "feed": "https://skeptrune.com/rss.xml",
-    "bluesky": "https://bsky.app/profile/skeptrune.bsky.social"
+    "bluesky": "https://bsky.app/profile/skeptrune.bsky.social",
+    "x": "https://x.com/skeptrune"
   },
   {
     "url": "https://skruban.com",
@@ -64626,7 +64822,8 @@
         "comments": 692,
         "id": "47652400"
       }
-    ]
+    ],
+    "github": "https://github.com/sschueller"
   },
   {
     "url": "https://staticnotes.org",
@@ -65180,7 +65377,8 @@
       }
     ],
     "about": "https://tglyn.ch/about/",
-    "github": "https://github.com/tomglynch"
+    "github": "https://github.com/tomglynch",
+    "x": "https://x.com/lynchyeatspizza"
   },
   {
     "url": "https://thangqt.com",
@@ -65903,7 +66101,8 @@
         "comments": 61,
         "id": "41267894"
       }
-    ]
+    ],
+    "x": "https://x.com/TomerAberbach"
   },
   {
     "url": "https://tomyeoman.dev",
@@ -65949,7 +66148,9 @@
         "comments": 4,
         "id": "40761191"
       }
-    ]
+    ],
+    "desc": "JavaScript, HTML, CSS, NodeJS, UX",
+    "x": "https://x.com/anthonypalicea"
   },
   {
     "url": "https://tonycodes.com",
@@ -66009,7 +66210,8 @@
     "url": "https://traverseda.github.io",
     "title": "Outside Context Solutions",
     "feed": "https://traverseda.github.io/index.xml",
-    "desc": "I occasionally do art, you can find any art I post here. Long-form programming goes here while code snippets go here."
+    "desc": "I occasionally do art, you can find any art I post here. Long-form programming goes here while code snippets go here.",
+    "github": "https://github.com/traverseda"
   },
   {
     "url": "https://travisbumgarner.dev",
@@ -66129,7 +66331,8 @@
     "desc": "Technical blog covering Kubernetes, microservices, cloud architecture, mobile development, and modern development practices. Deep dives into K8s, Go, Android, database migrations, and production-ready solutions.",
     "about": "https://tskulbru.dev/about",
     "github": "https://github.com/tskulbru",
-    "bluesky": "https://bsky.app/profile/tskulbru.dev"
+    "bluesky": "https://bsky.app/profile/tskulbru.dev",
+    "x": "https://x.com/tskulbru"
   },
   {
     "url": "https://tsx.su",
@@ -66488,7 +66691,8 @@
         "comments": 1,
         "id": "21076550"
       }
-    ]
+    ],
+    "feed": "https://unintendedconsequenc.es/feed/"
   },
   {
     "url": "https://unkel.io",
@@ -66584,7 +66788,8 @@
         "comments": 10,
         "id": "42147612"
       }
-    ]
+    ],
+    "x": "https://x.com/rafalpast"
   },
   {
     "url": "https://usmanity.com",
@@ -67463,7 +67668,8 @@
     "desc": "I am a full-stack cloud application engineer and developer advocate passionate about distributed cloud applications. I am a golang enthusiast trapped in a Java dev's body. I have been a cloud-native aficionado since the moment I learned there was a world outside of VMs and server racks. My passions for event streaming and microservices fit nicely in the cloud. I love working for a global company, working with both technical and non-technical team members. I have served in a leadership role for the majority of my development career. In any role, I will contribute to the success of a software project by advocating internally and externally for all developers.",
     "bluesky": "https://bsky.app/profile/vordimous.programmer.blue",
     "x": "https://x.com/vordimous",
-    "mastodon": "https://mas.to/@vordimous"
+    "mastodon": "https://mas.to/@vordimous",
+    "github": "https://github.com/vordimous"
   },
   {
     "url": "https://wener.me",
@@ -67604,7 +67810,8 @@
     "title": "Blog | Will Ness",
     "feed": "https://willness.dev/feed.xml",
     "keywords": "full stack developer,web development,react,typescript,projects,portfolio",
-    "desc": "Thoughts on AI, development, and building products. Practical tutorials and insights from an active builder."
+    "desc": "Thoughts on AI, development, and building products. Practical tutorials and insights from an active builder.",
+    "x": "https://x.com/WillNessAI"
   },
   {
     "url": "https://wilsoniumite.com",
@@ -68586,7 +68793,8 @@
         "comments": 1,
         "id": "9048332"
       }
-    ]
+    ],
+    "x": "https://x.com/tomek_zemla"
   },
   {
     "url": "https://rkowalewski.de",
@@ -68694,7 +68902,10 @@
     "url": "https://ziritione.org",
     "title": "Ziritione: Luis Peralta's home | Luis Peralta",
     "feed": "https://www.ziritione.org/index.xml",
-    "desc": "Luis Peralta home."
+    "desc": "Luis Peralta home.",
+    "github": "https://github.com/peralta",
+    "bluesky": "https://bsky.app/profile/luisperalta.ziritione.org",
+    "x": "https://x.com/luisperalta"
   },
   {
     "url": "https://wyounas.github.io",
@@ -68742,7 +68953,8 @@
         "comments": 5,
         "id": "48879960"
       }
-    ]
+    ],
+    "github": "https://github.com/wyounas"
   },
   {
     "url": "https://xlii.space",
