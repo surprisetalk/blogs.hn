@@ -224,6 +224,35 @@
     "github": "https://github.com/welpo"
   },
   {
+    "url": "https://hawksley.dev",
+    "title": "Ethan Hawksley | Computer Science Student, Systems & Cybersecurity",
+    "desc": "A blog by Ethan Hawksley, a Computer Science student in the UK. Posts on systems programming, cybersecurity, and whatever else grabs my attention.",
+    "keywords": "computer science, systems programming, cybersecurity, linux, web development",
+    "feed": "https://hawksley.dev/rss.xml",
+    "github": "https://github.com/ethanhawksley",
+    "bluesky": "https://bsky.app/profile/hawksley.dev",
+    "x": "https://x.com/Ethan_Hawksley",
+    "mastodon": "https://mastodon.social/@ethanhawksley",
+    "hn": [
+      {
+        "created_at": "2026-06-21T18:51:47Z",
+        "title": "JSON-LD explained for personal websites",
+        "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+        "points": 278,
+        "comments": 91,
+        "id": "48621517"
+      },
+      {
+        "created_at": "2026-04-13T20:33:42Z",
+        "title": "We need Post-Quantum Cryptography more than ever",
+        "url": "https://hawksley.dev/blog/need-for-post-quantum-cryptography/",
+        "points": 25,
+        "comments": 2,
+        "id": "47757469"
+      }
+    ]
+  },
+  {
     "url": "https://nabraj.com",
     "title": "Nabraj NT",
     "desc": "NT's blog | Ramblings on tech and random topics.",
