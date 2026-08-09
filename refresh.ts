@@ -283,9 +283,9 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
     c.pageFail++;
     console.error(`${blog.url}: ${msg(err)}`);
   }
+  const host = stripWww(new URL(blog.url).hostname);
   if (html !== undefined) {
     const links = extractLinks(html, blog.url);
-    const host = stripWww(new URL(blog.url).hostname);
     const own = links.filter((l) => stripWww(l.href.hostname) === host);
     c.filled += fillMissing(blog, {
       title: extractTitle(html),
@@ -296,6 +296,17 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
       feed: extractFeed(links, own),
       ...extractSocials(links, host),
     });
+  }
+  // People often keep social links on /about instead of the homepage.
+  if (!(blog.github || blog.bluesky || blog.x || blog.mastodon) && blog.about) {
+    try {
+      const aboutHtml = await fetchHtml(blog.about);
+      c.filled += fillMissing(blog, {
+        ...extractSocials(extractLinks(aboutHtml, blog.about), host),
+      });
+    } catch (err) {
+      console.error(`${blog.about}: ${msg(err)}`);
+    }
   }
   try {
     const merged = mergeHn(blog.hn, await fetchHn(blog.url));

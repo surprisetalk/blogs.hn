@@ -66,6 +66,7 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
 
 A daily [workflow](.github/workflows/refresh.yml) refreshes a rotating subset
 of blogs: it fills in missing fields (title, desc, feed, about, now, and
-github/bluesky/x/mastodon profiles found on the blog's homepage) and updates
+github/bluesky/x/mastodon profiles found on the blog's homepage or /about
+page) and updates
 HackerNews stories. It never overwrites existing values, so hand-curated edits
 are safe.
