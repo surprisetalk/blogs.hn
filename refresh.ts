@@ -4,7 +4,7 @@
 //   --fmt         reserialize blogs.json, no network
 //   <url>...      print fresh entries for new blogs to stdout
 
-export const CYCLE = 14;
+export const CYCLE = 28;
 const CONCURRENCY = 8;
 const TIMEOUT = 10_000;
 const MAX_HTML = 512 * 1024;

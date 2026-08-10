@@ -27,6 +27,9 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
     "about": "https://taylor.town/about",
     "now": "https://taylor.town/now",
     "feed": "https://taylor.town/feed.xml",
+    "active_at": "2026-08-01T10:00:00Z",
+    "posts": 42,
+    "cadence": 9.5,
     "hn": [
       {
         "created_at": "2023-04-04T11:42:33.000Z",
@@ -79,3 +82,22 @@ stories pointing at another domain). Run it by hand with:
 ```bash
 deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt
 ```
+
+## Activity
+
+`active_at`, `posts`, and `cadence` are read from the blog's feed: the date of
+the newest post, how many dated entries the feed carries, and the median days
+between posts. They refresh on every run rather than being filled once, and
+they are dropped if the feed goes away. Blogs that advertise no feed get the
+conventional paths (`/feed.xml`, `/index.xml`, `/feeds/posts/default`, …)
+probed before we give up.
+
+## What the site shows
+
+`blogs.json` is the whole directory, and the [OPML export](https://blogs.hn/blogs.hn.opml)
+carries every feed in it. The front page is smaller on purpose: a blog is
+eligible only if it has a feed, has posted within two years, and says
+something about itself, and the page then draws a weighted random sample of
+1000 from that pool — better blogs are likelier to appear, but the page
+rebuilds hourly, so the rest get their turn. Being left off the page is not a
+judgement on a blog; it usually means we could not find a feed.
