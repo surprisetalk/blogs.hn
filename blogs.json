@@ -679,16 +679,6 @@
     ]
   },
   {
-    "url": "https://0xzhangke.github.io",
-    "title": "张可的博客",
-    "feed": "https://0xzhangke.github.io/feed.xml",
-    "active_at": "2024-06-24T07:32:30Z",
-    "posts": 38,
-    "cadence": 21.6,
-    "github": "https://github.com/0xZhangKe",
-    "x": "https://x.com/zhangke19"
-  },
-  {
     "url": "https://123ash.wordpress.com",
     "title": "123ash's Blog – Just another WordPress.com weblog",
     "desc": "Just another WordPress.com weblog",
@@ -9974,16 +9964,6 @@
         "id": "49007149"
       }
     ]
-  },
-  {
-    "url": "https://colobu.com",
-    "desc": "万物之始，大道至简，衍化至繁",
-    "about": "https://colobu.com/about",
-    "feed": "https://colobu.com/atom.xml",
-    "active_at": "2026-07-04T08:08:14Z",
-    "posts": 20,
-    "cadence": 0,
-    "github": "https://github.com/smallnest"
   },
   {
     "url": "https://componenthouse.com",
@@ -63240,40 +63220,6 @@
         "points": 27,
         "comments": 4,
         "id": "47204083"
-      }
-    ]
-  },
-  {
-    "url": "https://seanwangjs.github.io",
-    "title": "博客 - Fenrier Lab",
-    "desc": "A Blog To Record And Share",
-    "feed": "https://seanwangjs.github.io/feed.xml",
-    "active_at": "2024-08-20T00:00:00Z",
-    "posts": 10,
-    "cadence": 19,
-    "github": "https://github.com/seanwangjs"
-  },
-  {
-    "url": "https://selfboot.cn",
-    "title": "Just For Fun | 知其然，知其所以然。知识广度是深度的副产品！",
-    "feed": "https://selfboot.cn/atom.xml,en/atom.xml",
-    "github": "https://github.com/selfboot",
-    "hn": [
-      {
-        "created_at": "2025-04-17T12:54:31Z",
-        "title": "Consistent Hash Ring",
-        "url": "https://gallery.selfboot.cn/en/algorithms/hashring",
-        "points": 73,
-        "comments": 21,
-        "id": "43716106"
-      },
-      {
-        "created_at": "2024-08-16T05:13:24Z",
-        "title": "Visualization of Consistent Hashing Rings",
-        "url": "https://gallery.selfboot.cn/en/algorithms/hashring",
-        "points": 15,
-        "comments": 3,
-        "id": "41263344"
       }
     ]
   },
@@ -156573,16 +156519,6 @@
     ]
   },
   {
-    "url": "https://maxua.com",
-    "title": "Max Ischenko",
-    "desc": "Пошук відповідей про стартапи, розробку продукта і життя.",
-    "about": "https://maxua.com/about",
-    "feed": "https://maxua.com/feed.xml",
-    "active_at": "2026-07-28T00:00:00Z",
-    "posts": 15,
-    "cadence": 5
-  },
-  {
     "url": "https://steipete.me",
     "title": "Peter Steinberger",
     "desc": "Peter Steinberger: AI-powered tools from Swift roots to web frontiers. Every commit lands on GitHub for you to fork & remix.",
@@ -205083,17 +205019,6 @@
     "posts": 6,
     "cadence": 81,
     "bluesky": "https://bsky.app/profile/bearthatcodes.uk"
-  },
-  {
-    "url": "https://beginhq.com",
-    "title": "BeginHQ",
-    "desc": "游戏人的生活日记",
-    "about": "https://beginhq.com/about/",
-    "feed": "https://beginhq.com/atom.xml",
-    "active_at": "2025-11-02T12:41:24Z",
-    "posts": 3,
-    "cadence": 12.6,
-    "github": "https://github.com/bitinn"
   },
   {
     "url": "https://bastianoso.de",

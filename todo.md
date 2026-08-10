@@ -1,2 +1,3 @@
 - [ ] add closest major city for each blog. grab from github?
 - [ ] blog categories and similarities via vector embeddings
+- [ ] change to append-based: blogs.tsv, hn.tsv, rss.tsv
