@@ -8,6 +8,7 @@ export const CYCLE = 14;
 const CONCURRENCY = 8;
 const TIMEOUT = 10_000;
 const MAX_HTML = 512 * 1024;
+const MAX_FEED = 16 * 1024 * 1024;
 const UA = "blogs.hn-bot/1 (+https://blogs.hn)";
 
 export type Hn = {
@@ -386,9 +387,39 @@ export const fetchFeed = async (url: string): Promise<FeedStats | undefined> => 
     headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" },
     signal: AbortSignal.timeout(TIMEOUT),
   });
+  // Never truncate a feed. Plenty of them list oldest entries first, so a
+  // prefix of a big archive dates a live blog to whenever it started.
+  const len = Number(res.headers.get("content-length") ?? 0);
+  if (len > MAX_FEED) {
+    await res.body?.cancel();
+    throw new Error(`feed is ${len} bytes, over the ${MAX_FEED} limit`);
+  }
   const body = await res.text();
   if (!res.ok) throw new Error(`http ${res.status}`);
-  return feedStats(body.slice(0, MAX_HTML));
+  return feedStats(body);
+};
+
+// Plenty of blogs serve a feed without advertising it in <head>. Probing the
+// conventional paths finds one for roughly two in five of them.
+const FEED_PROBES = ["/feed.xml", "/rss.xml", "/atom.xml", "/index.xml", "/feed", "/rss", "/feeds/posts/default"];
+
+export const discoverFeed = async (
+  base: string,
+): Promise<{ feed: string; stats: FeedStats } | undefined> => {
+  for (const p of FEED_PROBES) {
+    let url: string;
+    try {
+      url = new URL(p, base).href;
+    } catch {
+      continue;
+    }
+    try {
+      const stats = await fetchFeed(url);
+      if (stats) return { feed: url, stats };
+    } catch {
+      // not a feed at this path
+    }
+  }
 };
 
 export const fetchHn = async (blogUrl: string): Promise<Hn[]> => {
@@ -504,6 +535,14 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
     } catch (err) {
       c.feedFail = (c.feedFail ?? 0) + 1;
       console.error(`${blog.feed} feed: ${msg(err)}`);
+    }
+  } else {
+    const found = await discoverFeed(blog.url);
+    if (found) {
+      blog.feed = found.feed;
+      Object.assign(blog, found.stats);
+      c.filled++;
+      c.feedOk = (c.feedOk ?? 0) + 1;
     }
   }
   try {

@@ -239,6 +239,11 @@ Deno.test("feedStats: entry dates only, median cadence", () => {
   assertEquals(feedStats("<rss><channel><lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate></channel></rss>"), undefined, "a generator timestamp is not a post");
   assertEquals(feedDates(`<item><pubDate>1970-01-01</pubDate></item><item><pubDate>2099-01-01</pubDate></item>`).length, 0, "placeholder and future dates dropped");
   assertEquals(feedStats(`<item><pubDate>Sat, 01 Aug 2026 10:00:00 GMT</pubDate></item>`), { active_at: "2026-08-01T10:00:00Z", posts: 1 }, "one post has no cadence");
+  // Plenty of feeds list oldest first; the newest post must win regardless.
+  const ascending = `<feed>
+    <entry><updated>2009-02-10T00:00:00Z</updated></entry>
+    <entry><updated>2026-08-06T00:00:00Z</updated></entry></feed>`;
+  assertEquals(feedStats(ascending)?.active_at, "2026-08-06T00:00:00Z", "oldest-first feeds still date to the newest entry");
 });
 
 Deno.test("normalize: activity stats are tied to the feed", () => {
