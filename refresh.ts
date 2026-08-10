@@ -69,19 +69,30 @@ const cp = (n: number): string => (n > 0 && n <= 0x10ffff ? String.fromCodePoint
 // Bot-blocks, plus unedited theme/host boilerplate that describes the
 // generator instead of the blog.
 const JUNK =
-  /^(just a moment|attention required|access denied|checking your browser|please wait|verifying you are human|403 forbidden|404|example domain|a blog powered by hashnode|examplesite description|description will go into a meta tag|a minimal, responsive and feature-rich jekyll theme|minimal hugo blog theme|jekyll twitter bootstrap is a jekyll theme|front page content this website is powered by gitlab pages|what.s a website description like you doing)/i;
+  /^(just a moment|attention required|access denied|checking your browser|please wait|verifying you are human|prove you.re a human|403 forbidden|404|example domain|a blog powered by hashnode|examplesite description|description will go into a meta tag|a minimal, responsive and feature-rich jekyll theme|minimal hugo blog theme|jekyll twitter bootstrap is a jekyll theme|front page content this website is powered by gitlab pages|what.s a website description like you doing|some homepage text)/i;
+
+// Some themes (Bear Blog above all) leave their own machinery in the
+// description meta tag instead of rendering it: an HTML comment whose "<"
+// already got stripped by a prior pass, unrendered {{ liquid }} syntax, a
+// tracking snippet, or a tag that lost its "<" and reads as bare
+// name="value" text. Everything from the first such marker onward is
+// generator noise, not the author's words, so it is cut rather than kept.
+const LEAK =
+  /<!--|!--|\{\{|\{%|window\.\w+\s*=|document\.\w+\(|\bgtag\(|(?:\b(?:div|span|p|a|img|iframe|script|style|button|input|form)\s+)?(?:style|href|src|class|width|height|alt|id)\s*=\s*"/i;
 
 export const clean = (s?: string): string | undefined => {
   if (!s) return undefined;
-  const t = decodeEntities(s)
+  let t = decodeEntities(s)
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, " ")
     .replace(/<\/?[a-z][^>]*>/gi, " ")
     // deno-lint-ignore no-control-regex
     .replace(/[<>\x00-\x1f\x7f]/g, " ")
-    .replace(/\s+/g, " ")
     .trim()
-    .slice(0, 300)
-    .replace(/[\ud800-\udbff]$/, "")
-    .trim();
+    .replace(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\s+/i, "");
+  const leak = LEAK.exec(t);
+  if (leak) t = t.slice(0, leak.index);
+  t = t.replace(/\s+/g, " ").trim().slice(0, 300).replace(/[\ud800-\udbff]$/, "").trim();
   // Requires a letter, a digit, or an emoji: "..." and "…" are theme filler,
   // but a wall of frogs is a real description.
   return !t || JUNK.test(t) || !/[\p{L}\p{N}\p{So}]/u.test(t) ? undefined : t;

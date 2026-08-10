@@ -30,7 +30,7 @@ const allBlogs = require("./blogs.json");
 // The directory holds far more blogs than belong on one page. Show the best
 // PAGE_SIZE of them; the full list lives in blogs.json and the OPML export.
 const PAGE_SIZE = 1000;
-const STORIES_PER_BLOG = 3;
+const STORIES_PER_BLOG = 10;
 const YEAR = 31557600000;
 
 // Years since the newest post. Null when there is no feed or no dated entries.

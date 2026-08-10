@@ -161,7 +161,7 @@ Deno.test("githubFromUrl", () => {
 Deno.test("clean: junk and markup", () => {
   assertEquals(clean("Just a moment..."), undefined, "challenge title dropped");
   assertEquals(clean("  Attention Required! | Cloudflare "), undefined);
-  assertEquals(clean("<script>alert(1)</script>Cool blog"), "alert(1) Cool blog", "tags stripped");
+  assertEquals(clean("<script>alert(1)</script>Cool blog"), "Cool blog", "script body dropped with its tags");
   assertEquals(clean("a < b > c"), "a b c", "stray angle brackets stripped");
   assertEquals(clean(""), undefined);
   assertEquals(clean("x".repeat(400))?.length, 300, "capped");
@@ -175,6 +175,58 @@ Deno.test("clean: junk and markup", () => {
   assertEquals(clean("Julio Merino&rsquo;s blog"), "Julio Merino’s blog");
   assertEquals(decodeEntities("&amp;lt;"), "&lt;", "no double decode (named)");
   assertEquals(decodeEntities("&#38;lt;"), "&lt;", "no double decode (numeric)");
+});
+
+// Bear Blog (and similar) themes sometimes dump their own unrendered
+// machinery into the description meta tag instead of rendering it. These are
+// real strings pulled from blogs.json before the fix.
+Deno.test("clean: theme/template leakage", () => {
+  assertEquals(clean("<style>body{color:red}</style>Cool blog"), "Cool blog", "style body dropped with its tags");
+  assertEquals(
+    clean("<!-- nav --> Real content here"),
+    "Real content here",
+    "intact HTML comment dropped",
+  );
+  assertEquals(
+    clean("!-- Google tag (gtag.js) -- window.dataLayer = window.dataLayer || [];"),
+    undefined,
+    "comment/script residue with no real content left",
+  );
+  assertEquals(
+    clean("˚ ✦ foolishly impractical, especially in the pursuit of ideals ✦ ˚ status (all) {{ posts|limit:5 }}"),
+    "˚ ✦ foolishly impractical, especially in the pursuit of ideals ✦ ˚ status (all)",
+    "unrendered {{ liquid }} tag cut, real tagline kept",
+  );
+  assertEquals(clean("{{ posts }}..."), undefined, "pure template leakage, nothing to keep");
+  assertEquals(
+    clean("{% for post in paginator.posts %} {{ post.title }}"),
+    undefined,
+    "unrendered {% jekyll %} block tag, not just {{ liquid }}",
+  );
+  assertEquals(
+    clean('Hi, Reader! Welcome to my blog, where I write about: div class="row" style="display: flex;"'),
+    "Hi, Reader! Welcome to my blog, where I write about:",
+    "leaked bare tag+attrs cut, real intro kept",
+  );
+  assertEquals(
+    clean('img src="https://example.com/a.jpg" alt="me"'),
+    undefined,
+    "leaked bare tag+attrs with nothing else",
+  );
+  assertEquals(
+    clean("window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}"),
+    undefined,
+    "GA snippet with no prose",
+  );
+  assertEquals(clean("Some homepage text......"), undefined, "Bear Blog's own unedited placeholder");
+  assertEquals(clean("Prove you're a human"), undefined, "bot-challenge title variant");
+  assertEquals(
+    clean("35d43639-cd65-4101-afe6-7597c890a7dc Welcome to my blog!"),
+    "Welcome to my blog!",
+    "leaked UUID token stripped, real text kept",
+  );
+  assertEquals(clean("Thoughts on life -- and everything else"), "Thoughts on life -- and everything else", "a plain double-hyphen is not a comment marker");
+  assertEquals(clean("A class act, this one"), "A class act, this one", "the word class alone is not a leaked attribute");
 });
 
 Deno.test("canonUrl", () => {

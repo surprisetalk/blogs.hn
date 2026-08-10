@@ -1,3 +1,2 @@
 - [ ] add closest major city for each blog. grab from github?
-- [ ] do a manual quality pass
 - [ ] blog categories and similarities via vector embeddings
