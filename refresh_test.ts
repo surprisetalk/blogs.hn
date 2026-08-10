@@ -12,6 +12,8 @@ import {
   extractPage,
   extractSocials,
   extractTitle,
+  feedDates,
+  feedStats,
   fillMissing,
   fnv1a,
   githubFromUrl,
@@ -222,6 +224,34 @@ Deno.test("normalize: canonical key order and idempotence", () => {
   assertEquals(normalize(once), once, "normalize is a fixed point");
 });
 
+Deno.test("feedStats: entry dates only, median cadence", () => {
+  const rss = `<rss><channel><lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <item><pubDate>Sat, 01 Aug 2026 10:00:00 GMT</pubDate></item>
+    <item><pubDate>Sat, 25 Jul 2026 10:00:00 GMT</pubDate></item>
+    <item><pubDate>Sat, 11 Jul 2026 10:00:00 GMT</pubDate></item></channel></rss>`;
+  assertEquals(feedStats(rss), { active_at: "2026-08-01T10:00:00Z", posts: 3, cadence: 10.5 }, "gaps of 7 and 14 days -> median 10.5");
+  const atom = `<feed><updated>2026-08-09T00:00:00Z</updated>
+    <entry><published>2026-08-05T00:00:00Z</published><updated>2026-08-08T00:00:00Z</updated></entry>
+    <entry><updated>2026-08-01T00:00:00Z</updated></entry></feed>`;
+  const a = feedStats(atom)!;
+  assertEquals(a.active_at, "2026-08-05T00:00:00Z", "published beats updated; channel <updated> ignored");
+  assertEquals(a.posts, 2);
+  assertEquals(feedStats("<rss><channel><lastBuildDate>Sun, 09 Aug 2026 00:00:00 GMT</lastBuildDate></channel></rss>"), undefined, "a generator timestamp is not a post");
+  assertEquals(feedDates(`<item><pubDate>1970-01-01</pubDate></item><item><pubDate>2099-01-01</pubDate></item>`).length, 0, "placeholder and future dates dropped");
+  assertEquals(feedStats(`<item><pubDate>Sat, 01 Aug 2026 10:00:00 GMT</pubDate></item>`), { active_at: "2026-08-01T10:00:00Z", posts: 1 }, "one post has no cadence");
+});
+
+Deno.test("normalize: activity stats are tied to the feed", () => {
+  const withFeed = normalize({ url: "https://a.com", feed: "https://a.com/rss", active_at: "2026-08-01T10:00:00Z", posts: 12, cadence: 9.5 });
+  assertEquals(withFeed.active_at, "2026-08-01T10:00:00Z");
+  assertEquals([withFeed.posts, withFeed.cadence], [12, 9.5]);
+  const noFeed = normalize({ url: "https://a.com", active_at: "2026-08-01T10:00:00Z", posts: 12 });
+  assertEquals([noFeed.active_at, noFeed.posts], [undefined, undefined], "no feed -> stats cannot be refreshed, so they are dropped");
+  const bad = normalize({ url: "https://a.com", feed: "https://a.com/rss", active_at: "last tuesday", posts: -1, cadence: NaN } as never);
+  assertEquals([bad.active_at, bad.posts, bad.cadence], [undefined, undefined, undefined], "malformed stats rejected");
+  assertEquals(Object.keys(normalize({ url: "https://a.com", cadence: 0, posts: 1, feed: "https://a.com/rss", title: "t" })), ["url", "title", "feed", "posts", "cadence"], "canonical order");
+});
+
 Deno.test("fnv1a vectors + sameSite", () => {
   assertEquals(fnv1a(""), 0x811c9dc5);
   assertEquals(fnv1a("a"), 0xe40c292c);
@@ -263,7 +293,8 @@ const blogs: Blog[] = JSON.parse(raw);
 
 Deno.test("blogs.json: structure", () => {
   assert(Array.isArray(blogs) && blogs.length > 2000, "array of blogs");
-  const KEYS = new Set(["url", "title", "desc", "keywords", "about", "now", "feed", "github", "bluesky", "x", "mastodon", "hn"]);
+  const KEYS = new Set(["url", "title", "desc", "keywords", "about", "now", "feed", "active_at", "posts", "cadence", "github", "bluesky", "x", "mastodon", "hn"]);
+  const NUM_KEYS = new Set(["posts", "cadence"]);
   const URL_KEYS = new Set(["url", "about", "now", "feed", "github", "bluesky", "x", "mastodon"]);
   const HN_KEYS = ["created_at", "title", "url", "points", "comments", "id"];
   const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z$/;
@@ -290,6 +321,12 @@ Deno.test("blogs.json: structure", () => {
           assert(ISO.test(item.created_at as string), `bad hn.created_at in ${where}: ${item.created_at}`);
           assert(/^https?:\/\//.test(item.url as string), `bad hn.url in ${where}: ${item.url}`);
         }
+      } else if (NUM_KEYS.has(k)) {
+        assert(typeof v === "number" && isFinite(v) && v >= 0, `bad ${k} in ${where}: ${v}`);
+        assert(blog.feed, `${k} without a feed in ${where}`);
+      } else if (k === "active_at") {
+        assert(typeof v === "string" && ISO.test(v), `bad active_at in ${where}: ${v}`);
+        assert(blog.feed, `active_at without a feed in ${where}`);
       } else {
         assert(typeof v === "string" && v.trim().length, `bad ${k} in ${where}`);
         if (URL_KEYS.has(k)) assert(/^https?:\/\//.test(v as string), `bad ${k} scheme in ${where}: ${v}`);

@@ -32,7 +32,11 @@ export const FILLABLE = [
   "mastodon",
 ] as const;
 
-export type Blog = { url: string; hn?: Hn[] } & {
+// Derived from the feed, not scraped: active_at is the newest post date,
+// posts is how many dated entries the feed carries, and cadence is the median
+// gap between consecutive posts in days. Median rather than mean so one
+// six-year hiatus does not describe a weekly blog as dormant.
+export type Blog = { url: string; hn?: Hn[]; active_at?: string; posts?: number; cadence?: number } & {
   [K in (typeof FILLABLE)[number]]?: string;
 };
 
@@ -242,7 +246,9 @@ const FEED_HOSTS = "feedburner.com feedpress.me buttondown.email buttondown.com 
 const isFeedHost = (host: string): boolean =>
   FEED_HOSTS.some((f) => host === f || host.endsWith("." + f));
 
-const KEYS = ["url", "title", "desc", "keywords", "about", "now", "feed", "github", "bluesky", "x", "mastodon", "hn"] as const;
+const KEYS = ["url", "title", "desc", "keywords", "about", "now", "feed", "active_at", "posts", "cadence", "github", "bluesky", "x", "mastodon", "hn"] as const;
+
+const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
 
 export const canonUrl = (raw: string): string => {
   const u = new URL(raw.trim());
@@ -297,6 +303,18 @@ export const normalize = (blog: Blog): Blog => {
       if (hn.length) out.hn = hn;
       continue;
     }
+    // Activity stats describe the stored feed. Without one they cannot be
+    // refreshed or checked, so they do not get to outlive it.
+    if (key === "active_at" || key === "posts" || key === "cadence") {
+      const v = blog[key];
+      if (!out.feed) continue;
+      if (key === "active_at") {
+        if (typeof v === "string" && ISO.test(v) && !isNaN(Date.parse(v))) out.active_at = v;
+      } else if (typeof v === "number" && isFinite(v) && v >= 0) {
+        out[key] = v;
+      }
+      continue;
+    }
     const raw = blog[key];
     if (typeof raw !== "string") continue;
     const val = key === "title" || key === "desc" || key === "keywords"
@@ -329,6 +347,48 @@ export const fetchHtml = async (url: string): Promise<string> => {
     throw new Error(`redirected to ${res.url}`);
   if (body.includes("�")) throw new Error("mojibake");
   return body.slice(0, MAX_HTML);
+};
+
+// Entry dates only. A channel-level <lastBuildDate> ticks every time the
+// generator runs, so it says nothing about whether anyone is still writing.
+export const feedDates = (xml: string): number[] => {
+  const out: number[] = [];
+  const now = Date.now();
+  for (const m of xml.matchAll(/<(item|entry)(?:\s[^>]*)?>([\s\S]*?)<\/\1\s*>/gi)) {
+    const block = m[2];
+    const raw = block.match(/<(?:pubDate|published|dc:date)>([^<]+)</i)?.[1] ??
+      block.match(/<updated>([^<]+)</i)?.[1];
+    const t = raw && Date.parse(raw.trim());
+    // Clock-skewed and placeholder dates are worse than no date at all.
+    if (t && !isNaN(t) && t > Date.UTC(1990, 0, 1) && t < now + 86_400_000) out.push(t);
+  }
+  return out.sort((a, b) => b - a);
+};
+
+export type FeedStats = { active_at: string; posts: number; cadence?: number };
+
+export const feedStats = (xml: string): FeedStats | undefined => {
+  const dates = feedDates(xml);
+  if (!dates.length) return undefined;
+  const gaps = dates.slice(1).map((t, i) => (dates[i] - t) / 86_400_000).sort((a, b) => a - b);
+  const mid = gaps.length && (gaps.length % 2
+    ? gaps[(gaps.length - 1) / 2]
+    : (gaps[gaps.length / 2 - 1] + gaps[gaps.length / 2]) / 2);
+  return {
+    active_at: new Date(dates[0]).toISOString().replace(/\.\d+Z$/, "Z"),
+    posts: dates.length,
+    ...(gaps.length ? { cadence: Math.round(mid as number * 10) / 10 } : {}),
+  };
+};
+
+export const fetchFeed = async (url: string): Promise<FeedStats | undefined> => {
+  const res = await fetch(url, {
+    headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" },
+    signal: AbortSignal.timeout(TIMEOUT),
+  });
+  const body = await res.text();
+  if (!res.ok) throw new Error(`http ${res.status}`);
+  return feedStats(body.slice(0, MAX_HTML));
 };
 
 export const fetchHn = async (blogUrl: string): Promise<Hn[]> => {
@@ -393,7 +453,7 @@ export const fillMissing = (
   return n;
 };
 
-type Counters = { filled: number; pageOk: number; pageFail: number; hnOk: number; hnFail: number };
+type Counters = { filled: number; pageOk: number; pageFail: number; hnOk: number; hnFail: number; feedOk?: number; feedFail?: number };
 
 const msg = (err: unknown): string => (err instanceof Error ? err.message : String(err));
 
@@ -434,6 +494,18 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
       console.error(`${blog.about}: ${msg(err)}`);
     }
   }
+  // Unlike scraped fields, activity is live data: it overwrites every run,
+  // the same way HN points do.
+  if (blog.feed) {
+    try {
+      const stats = await fetchFeed(blog.feed);
+      if (stats) Object.assign(blog, stats);
+      c.feedOk = (c.feedOk ?? 0) + 1;
+    } catch (err) {
+      c.feedFail = (c.feedFail ?? 0) + 1;
+      console.error(`${blog.feed} feed: ${msg(err)}`);
+    }
+  }
   try {
     const merged = mergeHn(blog.hn, await fetchHn(blog.url));
     if (merged.length || "hn" in blog) blog.hn = merged;
@@ -459,6 +531,7 @@ if (import.meta.main) {
     console.error(
       `${prefix}${c.filled} fields filled, ` +
         `${c.pageOk} pages ok, ${c.pageFail} pages failed, ` +
+        `${c.feedOk ?? 0} feeds ok, ${c.feedFail ?? 0} feeds failed, ` +
         `${c.hnOk} hn ok, ${c.hnFail} hn failed`,
     );
   const urls = Deno.args.filter((a) => !a.startsWith("--"));

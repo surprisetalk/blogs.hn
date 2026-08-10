@@ -25,26 +25,73 @@ const esc = (unsafe) => {
   });
 };
 
-const blogs = require("./blogs.json");
+const allBlogs = require("./blogs.json");
 
-blogs.sort(() => Math.random() - 0.5);
+// The directory holds far more blogs than belong on one page. Show the best
+// PAGE_SIZE of them; the full list lives in blogs.json and the OPML export.
+const PAGE_SIZE = 1000;
+const STORIES_PER_BLOG = 3;
+const YEAR = 31557600000;
+
+// Years since the newest post. Null when there is no feed or no dated entries.
+const idleYears = (blog) =>
+  blog.active_at ? (Date.now() - Date.parse(blog.active_at)) / YEAR : null;
+
+// To earn a spot a blog must be followable (a feed), demonstrably alive, and
+// say something about itself. Anything that fails is still in blogs.json.
+const qualifies = (blog) => {
+  const idle = idleYears(blog);
+  return (
+    !!blog.url &&
+    !!blog.title &&
+    !!blog.feed &&
+    idle !== null &&
+    idle <= 2 &&
+    ((blog.desc || "").length > 40 || (blog.hn || []).length > 0)
+  );
+};
+
+const quality = (blog) => {
+  const idle = idleYears(blog);
+  const hn = blog.hn || [];
+  const best = hn.reduce((m, h) => Math.max(m, h.points), 0);
+  return (
+    (idle < 0.25 ? 3 : idle < 1 ? 2 : 1) +
+    Math.min(hn.length, 3) +
+    (best >= 100 ? 2 : best >= 30 ? 1 : 0) +
+    ((blog.desc || "").length > 40) +
+    !!blog.about +
+    !!blog.now +
+    // Posts at least monthly.
+    (blog.cadence !== undefined && blog.cadence <= 31)
+  );
+};
+
+for (const blog of allBlogs) {
+  blog.title = (blog.title || "").trim();
+  blog.desc = (blog.desc || "").trim();
+}
+
+// Weighted sample without replacement (Efraimidis-Spirakis): a blog's chance
+// of being drawn is proportional to its quality, so the page leans good
+// without becoming the same thousand blogs every build. The site rebuilds
+// hourly, so the tail gets its turn.
+const blogs = allBlogs
+  .filter(qualifies)
+  .map((blog) => ({ blog, key: Math.random() ** (1 / Math.max(1, quality(blog))) }))
+  .sort((a, b) => b.key - a.key)
+  .slice(0, PAGE_SIZE)
+  .map((x) => x.blog);
+
+// Sampling leaves the list ordered by key, which tracks quality. Shuffle so
+// the page does not silently rank its own contents.
+for (let i = blogs.length; --i > 0; ) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [blogs[i], blogs[j]] = [blogs[j], blogs[i]];
+}
 
 let index = "";
 for (const blog of blogs) {
-  blog.title = (blog.title || "").trim();
-  blog.desc = (blog.desc || "").trim();
-  if (!blog.url) continue;
-  if (
-    3 >
-    0 +
-      !!blog.title +
-      ((blog.desc || "").length > 40) +
-      !!blog.about +
-      !!blog.now +
-      !!blog.feed +
-      3 * ((blog.hn || []).length > 1)
-  )
-    continue;
   const link = blog.url
     .replace(/^https?:\/\//, "")
     .replace(/[^A-Za-z0-9]/g, (c) => `<wbr/>${esc(c)}`);
@@ -61,7 +108,11 @@ for (const blog of blogs) {
   if (blog.desc) index += `<p class="small"><em>${esc(blog.desc)}</em></p>`;
   if (blog.hn) {
     index += `<table>`;
-    for (const { id, comments, created_at, points, url, title } of blog.hn)
+    const stories = blog.hn
+      .slice()
+      .sort((a, b) => b.points - a.points)
+      .slice(0, STORIES_PER_BLOG);
+    for (const { id, comments, created_at, points, url, title } of stories)
       index += `
         <tr>
           <td>${points}</td>
@@ -128,7 +179,7 @@ fs.writeFileSync(
     <title>blogs.hn</title>
   </head>
   <body>
-${blogs
+${allBlogs
   .filter((blog) => blog.title && blog.feed && blog.url)
   .map((blog) =>
     `<outline type="rss" text="${esc(blog.title.trim())}" title="${esc(blog.title.trim())}" htmlUrl="${esc(blog.url.trim())}" xmlUrl="${esc(blog.feed.trim())}" />`.replace(
