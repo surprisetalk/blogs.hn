@@ -172489,6 +172489,19 @@
     "cadence": 1.7
   },
   {
+    "url": "https://roberthopman.com",
+    "title": "Robert Hopman",
+    "desc": "Practical guides on syntax, patterns, upgrades, and software development best practices.",
+    "keywords": "ruby,rails,software quality,debugging,programming,software development",
+    "about": "https://roberthopman.com/author/",
+    "feed": "https://roberthopman.com/feed.xml",
+    "active_at": "2026-08-09T00:00:00Z",
+    "posts": 10,
+    "cadence": 24,
+    "github": "https://github.com/roberthopman",
+    "x": "https://x.com/roberthopman"
+  },
+  {
     "url": "https://beautifulwatergenealogy.wordpress.com",
     "title": "Beautiful Water Genealogy | Voyages through family and local history",
     "desc": "Voyages through family and local history",
