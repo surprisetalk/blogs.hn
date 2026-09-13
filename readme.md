@@ -67,11 +67,10 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
    in a pull request. To prevent merge conflicts, please don't append to the top
    or bottom!
 
-Run `refresh.ts` without URLs to refresh `blogs.json` in place:
+Run `refresh.ts` without URLs to refresh every blog in `blogs.json` in place:
 
 ```bash
-deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts        # today's rotating subset
-deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts --all  # every blog
+deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts
 ```
 
 It fills in missing fields (title, desc, feed, about, now, and

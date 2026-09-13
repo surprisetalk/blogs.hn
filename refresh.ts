@@ -1,10 +1,8 @@
 // deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts
-//   (no args)     refresh today's shard of blogs.json in place
-//   --all         refresh every blog
+//   (no args)     refresh every blog in blogs.json in place
 //   --fmt         reserialize blogs.json, no network
 //   <url>...      print fresh entries for new blogs to stdout
 
-export const CYCLE = 28;
 const CONCURRENCY = 8;
 const TIMEOUT = 10_000;
 const MAX_HTML = 512 * 1024;
@@ -40,15 +38,6 @@ export const FILLABLE = [
 export type Blog = { url: string; hn?: Hn[]; active_at?: string; posts?: number; cadence?: number } & {
   [K in (typeof FILLABLE)[number]]?: string;
 };
-
-export const fnv1a = (s: string): number => {
-  let h = 0x811c9dc5;
-  for (let i = 0; i < s.length; i++)
-    h = Math.imul(h ^ s.charCodeAt(i), 0x01000193) >>> 0;
-  return h;
-};
-
-export const shardOf = (url: string): number => fnv1a(url) % CYCLE;
 
 const ENT: Record<string, string> = {
   amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", hellip: "…",
@@ -608,12 +597,7 @@ if (import.meta.main) {
         throw new Error(`blogs.json[${i}]: unparseable url: ${JSON.stringify(b.url)}`);
       }
     });
-    const today = Math.floor(Date.now() / 86_400_000) % CYCLE;
-    const targets = Deno.args.includes("--fmt")
-      ? []
-      : Deno.args.includes("--all")
-      ? blogs
-      : blogs.filter((b) => shardOf(b.url) === today);
+    const targets = Deno.args.includes("--fmt") ? [] : blogs;
     await pool(targets, CONCURRENCY, (b) => enrich(b, c));
     if (targets.length && (c.pageOk === 0 || c.hnOk === 0))
       throw new Error(
@@ -622,6 +606,6 @@ if (import.meta.main) {
       );
     const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
     if (out !== raw) await Deno.writeTextFile("blogs.json", out);
-    summary(`${targets.length} blogs (shard ${today}/${CYCLE}): `);
+    summary(`${targets.length} blogs: `);
   }
 }

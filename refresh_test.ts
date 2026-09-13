@@ -3,7 +3,6 @@ import {
   Blog,
   canonUrl,
   clean,
-  CYCLE,
   decodeEntities,
   extractDesc,
   extractFeed,
@@ -15,13 +14,11 @@ import {
   feedDates,
   feedStats,
   fillMissing,
-  fnv1a,
   githubFromUrl,
   Hn,
   mergeHn,
   normalize,
   sameSite,
-  shardOf,
   stripWww,
 } from "./refresh.ts";
 
@@ -309,10 +306,7 @@ Deno.test("normalize: activity stats are tied to the feed", () => {
   assertEquals(Object.keys(normalize({ url: "https://a.com", cadence: 0, posts: 1, feed: "https://a.com/rss", title: "t" })), ["url", "title", "feed", "posts", "cadence"], "canonical order");
 });
 
-Deno.test("fnv1a vectors + sameSite", () => {
-  assertEquals(fnv1a(""), 0x811c9dc5);
-  assertEquals(fnv1a("a"), 0xe40c292c);
-  assertEquals(fnv1a("foobar"), 0xbf9cf968);
+Deno.test("sameSite", () => {
   assert(sameSite("www.taylor.town", "taylor.town"), "www stripped");
   assert(sameSite("blog.example.com", "example.com"), "subdomain matches");
   assert(!sameSite("example.com", "example.org"), "different sites");
@@ -396,14 +390,6 @@ Deno.test("blogs.json: structure", () => {
       }
     }
   }
-});
-
-Deno.test("blogs.json: shard distribution is even-ish", () => {
-  const counts = new Array(CYCLE).fill(0);
-  for (const blog of blogs) counts[shardOf(blog.url)]++;
-  const avg = blogs.length / CYCLE;
-  for (const [shard, n] of counts.entries())
-    assert(n > avg / 2 && n < avg * 2, `shard ${shard} has ${n} blogs (avg ${avg.toFixed(0)})`);
 });
 
 Deno.test("blogs.json: byte-stable serialization", () => {
