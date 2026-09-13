@@ -238,6 +238,9 @@
     "desc": "A blog by Ethan Hawksley, a Computer Science student in the UK. Posts on systems programming, cybersecurity, and whatever else grabs my attention.",
     "keywords": "computer science, systems programming, cybersecurity, linux, web development",
     "feed": "https://hawksley.dev/rss.xml",
+    "active_at": "2026-07-30T00:00:00Z",
+    "posts": 7,
+    "cadence": 34.5,
     "github": "https://github.com/ethanhawksley",
     "bluesky": "https://bsky.app/profile/hawksley.dev",
     "x": "https://x.com/Ethan_Hawksley",
@@ -67568,7 +67571,13 @@
     "title": "Chris' Place",
     "desc": "Into tinkering, sharing knowledge and experiences; mostly Open-Source tech and photography.",
     "about": "https://chris-besch.com/about",
-    "feed": "https://chris-besch.com/rss.xml"
+    "feed": "https://chris-besch.com/rss.xml",
+    "active_at": "2026-06-28T00:00:00Z",
+    "posts": 28,
+    "cadence": 21,
+    "github": "https://github.com/christopher-besch",
+    "x": "https://x.com/besch_chris",
+    "mastodon": "https://mastodon.social/@christopher_besch"
   },
   {
     "url": "https://davidtran.me",
@@ -166950,36 +166959,6 @@
     "cadence": 29.1
   },
   {
-    "url": "https://hawksley.dev",
-    "title": "Ethan Hawksley | Computer Science Student, Systems & Cybersecurity",
-    "desc": "The personal site and blog of Ethan Hawksley, a Computer Science student in the UK with a focus on systems programming and cybersecurity.",
-    "feed": "https://hawksley.dev/rss.xml",
-    "active_at": "2026-07-30T00:00:00Z",
-    "posts": 7,
-    "cadence": 34.5,
-    "github": "https://github.com/ethanhawksley",
-    "x": "https://x.com/Ethan_Hawksley",
-    "mastodon": "https://mastodon.social/@ethanhawksley",
-    "hn": [
-      {
-        "created_at": "2026-06-21T18:51:47Z",
-        "title": "JSON-LD explained for personal websites",
-        "url": "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
-        "points": 278,
-        "comments": 91,
-        "id": "48621517"
-      },
-      {
-        "created_at": "2026-04-13T20:33:42Z",
-        "title": "We need Post-Quantum Cryptography more than ever",
-        "url": "https://hawksley.dev/blog/need-for-post-quantum-cryptography/",
-        "points": 25,
-        "comments": 2,
-        "id": "47757469"
-      }
-    ]
-  },
-  {
     "url": "https://williamhleucka.com/blog",
     "title": "Blog · William Hleucka",
     "desc": "Writing by William Hleucka on full stack development, the web, and the craft of building software.",
@@ -211715,18 +211694,6 @@
     "posts": 11,
     "cadence": 47.8,
     "mastodon": "https://rheinneckar.social/@hdvalentin"
-  },
-  {
-    "url": "https://chris-besch.com",
-    "title": "Chris' Homepage",
-    "about": "https://chris-besch.com/about",
-    "feed": "https://chris-besch.com/rss.xml",
-    "active_at": "2026-06-28T00:00:00Z",
-    "posts": 28,
-    "cadence": 21,
-    "github": "https://github.com/christopher-besch",
-    "x": "https://x.com/besch_chris",
-    "mastodon": "https://mastodon.social/@christopher_besch"
   },
   {
     "url": "https://chris.funderburg.me",

@@ -1,13 +1,10 @@
 name: CI
 
+# No paths filter: a required check that never reports blocks the merge.
+# Refresh opens its PR with GITHUB_TOKEN, which starts no pull_request run, so Refresh dispatches CI.
 on:
   pull_request:
-    paths:
-      - blogs.json
-      - "**.ts"
-      - build.js
-      - template.html
-      - style.css
+  workflow_dispatch:
 
 permissions:
   contents: read

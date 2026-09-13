@@ -355,14 +355,20 @@ Deno.test("blogs.json: structure", () => {
   const URL_KEYS = new Set(["url", "about", "now", "feed", "github", "bluesky", "x", "mastodon"]);
   const HN_KEYS = ["created_at", "title", "url", "points", "comments", "id"];
   const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?Z$/;
-  const seen = new Set<string>();
-  for (const blog of blogs) {
+  const seen = new Map<string, number>();
+  for (const [i, blog] of blogs.entries()) {
     const where = JSON.stringify(blog.url ?? blog);
     assert(typeof blog.url === "string" && blog.url.startsWith("https://"), `bad url: ${where}`);
     const u = new URL(blog.url);
     const norm = stripWww(u.hostname) + u.pathname.replace(/\/$/, "");
-    assert(!seen.has(norm), `duplicate blog: ${where}`);
-    seen.add(norm);
+    // A clean git merge can add a second copy of a blog that main already has.
+    assert(
+      !seen.has(norm),
+      `duplicate blog: blogs.json[${seen.get(norm)}] and blogs.json[${i}] both resolve to ${JSON.stringify(norm)}.\n` +
+        `  Expected one entry per blog. Merge the fields into one entry, delete the other, then run:\n` +
+        `  deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt`,
+    );
+    seen.set(norm, i);
     for (const [k, v] of Object.entries(blog)) {
       assert(KEYS.has(k), `unknown field ${JSON.stringify(k)} in ${where}`);
       if (k === "hn") {
