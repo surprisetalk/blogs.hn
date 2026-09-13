@@ -248256,5 +248256,18 @@
         "id": "35854369"
       }
     ]
+  },
+  {
+    "url": "https://rodamora.com",
+    "title": "Rod Amora",
+    "desc": "Where AI fits in your business, what to try first, and what can go wrong. I write from running our own AI transition at Berry.",
+    "about": "https://rodamora.com/about",
+    "now": "https://rodamora.com/now",
+    "feed": "https://rodamora.com/rss.xml",
+    "active_at": "2026-09-11T13:00:00Z",
+    "posts": 28,
+    "cadence": 2,
+    "github": "https://github.com/rodamora",
+    "x": "https://x.com/rod_amora"
   }
 ]
