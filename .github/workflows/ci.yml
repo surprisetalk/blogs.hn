@@ -1,10 +1,8 @@
 name: CI
 
 # No paths filter: a required check that never reports blocks the merge.
-# Refresh opens its PR with GITHUB_TOKEN, which starts no pull_request run, so Refresh dispatches CI.
 on:
   pull_request:
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -19,5 +17,5 @@ jobs:
         with:
           deno-version: v2.x
       - run: deno lint
-      - run: deno test --allow-read=blogs.json --allow-env=GITHUB_EVENT_NAME
+      - run: deno test --allow-read=blogs.json
       - run: node build.js

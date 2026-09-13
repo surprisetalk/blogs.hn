@@ -67,17 +67,23 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
    in a pull request. To prevent merge conflicts, please don't append to the top
    or bottom!
 
-A daily [workflow](.github/workflows/refresh.yml) refreshes a rotating subset
-of blogs: it fills in missing fields (title, desc, feed, about, now, and
+Run `refresh.ts` without URLs to refresh `blogs.json` in place:
+
+```bash
+deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts        # today's rotating subset
+deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts --all  # every blog
+```
+
+It fills in missing fields (title, desc, feed, about, now, and
 github/bluesky/x/mastodon profiles found on the blog's homepage or /about
-page) and updates
-HackerNews stories. It never overwrites existing values, so hand-curated edits
-are safe.
+page) and updates HackerNews stories. It never overwrites existing values, so
+hand-curated edits are safe.
 
 Every write also normalizes the whole file: fields are sorted, text is
 trimmed, and anything that cannot be attributed to the blog is dropped
 (off-site /about and /now links, feeds belonging to somebody else, HackerNews
-stories pointing at another domain). Run it by hand with:
+stories pointing at another domain). CI rejects a pull request whose
+`blogs.json` is not normalized. Normalize it by hand with:
 
 ```bash
 deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt

@@ -406,12 +406,7 @@ Deno.test("blogs.json: shard distribution is even-ish", () => {
     assert(n > avg / 2 && n < avg * 2, `shard ${shard} has ${n} blogs (avg ${avg.toFixed(0)})`);
 });
 
-// Contributor PRs may hand-format entries; the daily job renormalizes.
-const isPr =
-  Deno.permissions.querySync({ name: "env", variable: "GITHUB_EVENT_NAME" }).state === "granted" &&
-  Deno.env.get("GITHUB_EVENT_NAME") === "pull_request";
-
-Deno.test({ name: "blogs.json: byte-stable serialization", ignore: isPr }, () => {
+Deno.test("blogs.json: byte-stable serialization", () => {
   const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
   if (out !== raw) {
     let i = 0;
