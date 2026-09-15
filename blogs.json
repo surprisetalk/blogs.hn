@@ -16955,6 +16955,17 @@
     ]
   },
   {
+    "url": "https://jarekavi.com",
+    "title": "Jarek Avi | Software Engineer & Indie Hacker",
+    "desc": "Software engineer trying to make it as an indie hacker outside a 9-5. Writing about engineering, product, distribution, launches and lessons from the journey.",
+    "about": "https://jarekavi.com/about",
+    "feed": "https://jarekavi.com/rss.xml",
+    "active_at": "2026-01-05T00:00:00Z",
+    "posts": 3,
+    "cadence": 60,
+    "x": "https://x.com/JarekAvi"
+  },
+  {
     "url": "https://jasoneckert.github.io",
     "title": "Jason Eckert's Website and Blog",
     "desc": "My personal website and blog",
