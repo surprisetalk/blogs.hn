@@ -248247,5 +248247,14 @@
     "cadence": 2,
     "github": "https://github.com/rodamora",
     "x": "https://x.com/rod_amora"
+  },
+  {
+    "url": "https://pastagi.com",
+    "title": "PastAGI - AI for Builders",
+    "desc": "Practical AI guides, honest tool reviews, engineering deep dives, real-world use cases, and sharp analysis that cuts through the hype.",
+    "feed": "https://pastagi.com/rss.xml",
+    "active_at": "2026-09-22T15:13:50Z",
+    "posts": 20,
+    "cadence": 1
   }
 ]
