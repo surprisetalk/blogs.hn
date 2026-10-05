@@ -248247,5 +248247,21 @@
     "cadence": 2,
     "github": "https://github.com/rodamora",
     "x": "https://x.com/rod_amora"
+  },
+  {
+    "url": "https://markodenic.tech",
+    "title": "Marko Denic Tech",
+    "desc": "A weekly newsletter by Marko Denic: practical web dev tips, small demos and tools.",
+    "feed": "https://markodenic.tech/feed/",
+    "github": "https://github.com/markodenic",
+    "x": "https://x.com/denicmarko"
+  },
+  {
+    "url": "https://markodenic.com",
+    "title": "Marko Denic",
+    "desc": "CSS, HTML and JavaScript tutorials, plus free CSS generators.",
+    "feed": "https://markodenic.com/feed/",
+    "github": "https://github.com/markodenic",
+    "x": "https://x.com/denicmarko"
   }
 ]
