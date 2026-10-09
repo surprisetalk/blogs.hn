@@ -1,0 +1,6 @@
+#!/bin/sh
+# The same checks as .github/workflows/ci.yml.
+set -e
+deno lint
+deno test --allow-read=blogs.json
+node build.js
