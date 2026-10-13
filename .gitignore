@@ -3,3 +3,6 @@
 package.json
 yarn.lock
 .DS_Store
+.env
+.env.*
+!.env.example
