@@ -172522,6 +172522,15 @@
     ]
   },
   {
+    "url": "https://nickgeorgeai.com/insights",
+    "title": "Nick George",
+    "desc": "Straight answers on AI automation for owners and operators — what to automate first, what it costs, agents vs. chatbots, and MCP in plain English. No hype.",
+    "feed": "https://nickgeorgeai.com/insights/feed.xml",
+    "active_at": "2026-10-13T12:00:00Z",
+    "posts": 23,
+    "cadence": 4.5
+  },
+  {
     "url": "https://bencrowder.net/blog",
     "title": "Blog — Ben Crowder",
     "desc": "Website of Ben Crowder.",
