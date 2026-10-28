@@ -172531,6 +172531,30 @@
     "cadence": 4.5
   },
   {
+    "url": "https://hrih.si",
+    "title": "Hatim Rih",
+    "desc": "Essays on AI and the work of programming, by Hatim Rih.",
+    "about": "https://hrih.si/about/",
+    "feed": "https://hrih.si/rss.xml",
+    "active_at": "2026-10-25T00:00:00Z",
+    "posts": 7,
+    "cadence": 1,
+    "github": "https://github.com/R-Hatim",
+    "bluesky": "https://bsky.app/profile/hrih.si",
+    "x": "https://x.com/HatimRih",
+    "mastodon": "https://hachyderm.io/@hrih",
+    "hn": [
+      {
+        "created_at": "2026-10-21T18:00:51Z",
+        "title": "The compiler was supposed to end programming too",
+        "url": "https://hrih.si/articles/the-compiler-was-supposed-to-end-programming/",
+        "points": 161,
+        "comments": 207,
+        "id": "50185045"
+      }
+    ]
+  },
+  {
     "url": "https://bencrowder.net/blog",
     "title": "Blog — Ben Crowder",
     "desc": "Website of Ben Crowder.",
