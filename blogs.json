@@ -212950,6 +212950,36 @@
     ]
   },
   {
+    "url": "https://www.codedge.de",
+    "title": "code and society | codedge | code and society | codedge",
+    "desc": "Holger Lösken, going by his freelance brand codedge, talking about all things code-related as well topics around social society. Find musings about programming languages, deployment, computer and digital stuff in general.",
+    "keywords": "coding,code,programming,php,golang,python,rust,terraform,ansible,hetzner,society,politics,engineering,software engineering,web development,web,web3,web2",
+    "feed": "https://www.codedge.de/feed.xml",
+    "active_at": "2026-10-27T23:00:00Z",
+    "posts": 18,
+    "cadence": 17,
+    "github": "https://github.com/codedge",
+    "mastodon": "https://hachyderm.io/@theaitch",
+    "hn": [
+      {
+        "created_at": "2025-10-06T12:02:45Z",
+        "title": "Modern messaging: Running your own XMPP server",
+        "url": "https://www.codedge.de/posts/modern-messaging-running-your-own-xmpp-server",
+        "points": 224,
+        "comments": 148,
+        "id": "45490439"
+      },
+      {
+        "created_at": "2026-08-20T15:50:57Z",
+        "title": "How to compromise your system with a job interview",
+        "url": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+        "points": 190,
+        "comments": 171,
+        "id": "49376332"
+      }
+    ]
+  },
+  {
     "url": "https://codon.org.uk/~mjg59/blog",
     "title": "Matthew Garrett's Blog",
     "desc": "Power management, mobile and firmware developer on Linux. Security developer. Ex-biologist. Content here should not be interpreted as the opinion of my employer.",
