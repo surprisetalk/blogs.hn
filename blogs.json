@@ -14025,6 +14025,17 @@
     ]
   },
   {
+    "url": "https://clouatre.ca",
+    "title": "Hugues Clouâtre - AI & Platform Engineering",
+    "desc": "AI and platform engineering insights from a Field CTO and AWS veteran. Practical guides for CTOs and engineering leaders.",
+    "about": "https://clouatre.ca/about",
+    "feed": "https://clouatre.ca/rss.xml",
+    "active_at": "2026-10-23T12:00:00Z",
+    "posts": 21,
+    "cadence": 13.5,
+    "github": "https://github.com/clouatre"
+  },
+  {
     "url": "https://rafibayer.github.io",
     "title": "Rafi's Blog",
     "desc": "A blog about various programming topics, mostly focused on Rust and languages.",
