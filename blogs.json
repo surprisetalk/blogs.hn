@@ -248347,5 +248347,12 @@
     "feed": "https://markodenic.com/feed/",
     "github": "https://github.com/markodenic",
     "x": "https://x.com/denicmarko"
+  },
+  {
+    "url": "https://waynetalk.com",
+    "title": "WayneTalk",
+    "desc": "A tech blog covering open-source software, AI tools, VPN and internet-access guides, cryptocurrency basics, and practical software tutorials.",
+    "feed": "https://waynetalk.com/feed/",
+    "github": "https://github.com/waynew8623"
   }
 ]
