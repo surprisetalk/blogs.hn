@@ -172542,6 +172542,15 @@
     "cadence": 4.5
   },
   {
+    "url": "https://thingspool.net/library.html",
+    "title": "ThingsPool",
+    "desc": "Writings on philosophy, game design, mathematics and programming by Youngjin Kang, with art and small browser games.",
+    "feed": "https://thingspool.net/feed.atom",
+    "active_at": "2026-10-31T00:00:00Z",
+    "posts": 455,
+    "cadence": 0
+  },
+  {
     "url": "https://hrih.si",
     "title": "Hatim Rih",
     "desc": "Essays on AI and the work of programming, by Hatim Rih.",
