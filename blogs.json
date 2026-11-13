@@ -34245,6 +34245,17 @@
     "title": "Victory's Blog"
   },
   {
+    "url": "https://waldo.vanderlore.de",
+    "title": "Waldo Vanderhaeghen",
+    "desc": "Writing on AI agents, automation workflows, and building software side projects, from a product manager who builds everything he writes about.",
+    "about": "https://waldo.vanderlore.de/about/",
+    "feed": "https://waldo.vanderlore.de/rss.xml",
+    "active_at": "2026-11-10T00:00:00Z",
+    "posts": 21,
+    "cadence": 10.5,
+    "github": "https://github.com/waldo-van-der-code"
+  },
+  {
     "url": "https://wantguns.dev",
     "title": "Gunwant Jain",
     "desc": "Gunwant Jain's (@wantguns) place in the internet",
