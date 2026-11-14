@@ -38,6 +38,20 @@ const esc = (unsafe) => {
 };
 
 const allBlogs = require("./blogs.json");
+if (!Array.isArray(allBlogs)) {
+  throw new Error(
+    `build.js: expected blogs.json to hold an array, received ${typeof allBlogs}. Fix: restore blogs.json from main.`,
+  );
+}
+allBlogs.forEach((blog, i) => {
+  if (typeof blog !== "object" || blog === null || Array.isArray(blog)) {
+    throw new Error(
+      `build.js: expected blogs.json[${i}] to be an object, received ${
+        JSON.stringify(blog)
+      }. Fix: run refresh.ts --fmt and check the entry.`,
+    );
+  }
+});
 
 // The directory holds far more blogs than belong on one page. Show the best
 // PAGE_SIZE of them; the full list lives in blogs.json and the OPML export.

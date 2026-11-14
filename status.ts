@@ -53,7 +53,7 @@ const get = async (url: string, method = "GET") => {
     body = await res.text();
   } catch (e) {
     throw new Error(
-      `${method} ${url}: expected a response within ${TIMEOUT_MS} ms, received ${e}. Fix: check this host's network, then the URL.`,
+      `${method} ${url}: expected a complete response within ${TIMEOUT_MS} ms, received ${e}. Fix: check this host's network, then the URL.`,
     );
   }
   if (!res.ok) {
@@ -143,7 +143,7 @@ const oldestPrAgeS = async () => {
   if (typeof created !== "string") {
     throw new Error(
       `${PULLS}: expected [0].created_at as a string, received ${
-        JSON.stringify(created)
+        JSON.stringify(first)
       }.`,
     );
   }
