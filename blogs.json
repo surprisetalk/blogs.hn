@@ -193,6 +193,18 @@
     ]
   },
   {
+    "url": "https://sameerbajaj.com",
+    "title": "Sameer Bajaj",
+    "desc": "Product Manager and software builder writing about AI product strategy, systems, and tools.",
+    "now": "https://sameerbajaj.com/now",
+    "feed": "https://sameerbajaj.com/feed.xml",
+    "active_at": "2026-06-25T00:00:00Z",
+    "posts": 63,
+    "cadence": 7,
+    "github": "https://github.com/sameerbajaj",
+    "x": "https://x.com/sameerbajaj"
+  },
+  {
     "url": "https://emulationonline.com",
     "title": "Emulators and Retro System Deep-dives",
     "desc": "Blog about building emulators for classic systems, and how those systems work.",
@@ -172551,6 +172563,15 @@
     "active_at": "2026-10-13T12:00:00Z",
     "posts": 23,
     "cadence": 4.5
+  },
+  {
+    "url": "https://thingspool.net/library.html",
+    "title": "ThingsPool",
+    "desc": "Writings on philosophy, game design, mathematics and programming by Youngjin Kang, with art and small browser games.",
+    "feed": "https://thingspool.net/feed.atom",
+    "active_at": "2026-10-31T00:00:00Z",
+    "posts": 455,
+    "cadence": 0
   },
   {
     "url": "https://hrih.si",
