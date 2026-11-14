@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "check": "deno fmt --check && deno lint && deno check *.ts && deno test --allow-read=blogs.json"
+  },
+  "fmt": {
+    "exclude": [
+      "blogs.json",
+      "dist/",
+      ".impeccable/",
+      "template.html",
+      "todo.md"
+    ]
+  },
+  "lint": { "exclude": ["dist/"] }
+}

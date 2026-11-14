@@ -6,6 +6,5 @@ for tool in gitleaks shellcheck; do command -v "$tool" >/dev/null || { echo "pre
 ids=$(jj log --no-graph -r 'trunk()..@' -T 'commit_id ++ " "')
 gitleaks git --no-banner --redact -v --log-level warn --log-opts="--no-walk ${ids% }"
 jj file list 'glob:**/*.sh' | xargs shellcheck -x -P SCRIPTDIR .githooks/pre-commit
-deno lint
-deno test --allow-read=blogs.json
+deno task check
 node build.js

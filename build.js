@@ -5,6 +5,14 @@ process.execSync("mkdir -p dist");
 process.execSync("cp style.css dist/style.css");
 
 const template = fs.readFileSync("./template.html", "utf-8");
+// A formatter once rewrote the slot as {{ body }}, and replace() then built pages with no body.
+if (template.split("{{body}}").length !== 2) {
+  throw new Error(
+    "build.js: expected template.html to hold exactly one {{body}} slot. Received " +
+      (template.split("{{body}}").length - 1) +
+      ". Fix: restore {{body}} in template.html, and keep the file out of deno fmt.",
+  );
+}
 
 const esc = (unsafe) => {
   return unsafe.replace(/[<>&'"]/g, (c) => {
@@ -78,14 +86,17 @@ for (const blog of allBlogs) {
 // hourly, so the tail gets its turn.
 const blogs = allBlogs
   .filter(qualifies)
-  .map((blog) => ({ blog, key: Math.random() ** (1 / Math.max(1, quality(blog))) }))
+  .map((blog) => ({
+    blog,
+    key: Math.random() ** (1 / Math.max(1, quality(blog))),
+  }))
   .sort((a, b) => b.key - a.key)
   .slice(0, PAGE_SIZE)
   .map((x) => x.blog);
 
 // Sampling leaves the list ordered by key, which tracks quality. Shuffle so
 // the page does not silently rank its own contents.
-for (let i = blogs.length; --i > 0; ) {
+for (let i = blogs.length; --i > 0;) {
   const j = Math.floor(Math.random() * (i + 1));
   [blogs[i], blogs[j]] = [blogs[j], blogs[i]];
 }
@@ -97,8 +108,24 @@ for (const blog of blogs) {
     .replace(/[^A-Za-z0-9]/g, (c) => `<wbr/>${esc(c)}`);
   index += `<div class="blog">`;
   index += `<h2><a href="${esc(blog.url)}">${link}</a></h2>`;
-  const linkTitles = ["about", "now", "feed", "github", "bluesky", "x", "mastodon"];
-  const links = [blog.about, blog.now, blog.feed, blog.github, blog.bluesky, blog.x, blog.mastodon]
+  const linkTitles = [
+    "about",
+    "now",
+    "feed",
+    "github",
+    "bluesky",
+    "x",
+    "mastodon",
+  ];
+  const links = [
+    blog.about,
+    blog.now,
+    blog.feed,
+    blog.github,
+    blog.bluesky,
+    blog.x,
+    blog.mastodon,
+  ]
     .map((x, i) => x && `<a href="${esc(x)}">${linkTitles[i]}</a>`)
     .filter((x) => x)
     .join(" • ");
@@ -112,15 +139,18 @@ for (const blog of blogs) {
       .slice()
       .sort((a, b) => b.points - a.points)
       .slice(0, STORIES_PER_BLOG);
-    for (const { id, comments, created_at, points, url, title } of stories)
+    for (const { id, comments, created_at, points, url, title } of stories) {
       index += `
         <tr>
           <td>${points}</td>
-          <td><a href="https://news.ycombinator.com/item?id=${esc(id)}">${comments}</a></td>
+          <td><a href="https://news.ycombinator.com/item?id=${
+        esc(id)
+      }">${comments}</a></td>
           <td>${esc(created_at.slice(0, 4))}</td>
           <td><a href="${esc(url)}">${esc(title)}</a></td>
         </tr>
       `;
+    }
     index += `</table>`;
   }
   index += `</div>`;
@@ -179,15 +209,21 @@ fs.writeFileSync(
     <title>blogs.hn</title>
   </head>
   <body>
-${allBlogs
-  .filter((blog) => blog.title && blog.feed && blog.url)
-  .map((blog) =>
-    `<outline type="rss" text="${esc(blog.title.trim())}" title="${esc(blog.title.trim())}" htmlUrl="${esc(blog.url.trim())}" xmlUrl="${esc(blog.feed.trim())}" />`.replace(
-      /\s+/gi,
-      " ",
-    ),
-  )
-  .join("\n")}
+${
+    allBlogs
+      .filter((blog) => blog.title && blog.feed && blog.url)
+      .map((blog) =>
+        `<outline type="rss" text="${esc(blog.title.trim())}" title="${
+          esc(blog.title.trim())
+        }" htmlUrl="${esc(blog.url.trim())}" xmlUrl="${
+          esc(blog.feed.trim())
+        }" />`.replace(
+          /\s+/gi,
+          " ",
+        )
+      )
+      .join("\n")
+  }
   </body>
 </opml>`,
   "utf-8",

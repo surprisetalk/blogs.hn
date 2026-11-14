@@ -35,25 +35,56 @@ export const FILLABLE = [
 // posts is how many dated entries the feed carries, and cadence is the median
 // gap between consecutive posts in days. Median rather than mean so one
 // six-year hiatus does not describe a weekly blog as dormant.
-export type Blog = { url: string; hn?: Hn[]; active_at?: string; posts?: number; cadence?: number } & {
-  [K in (typeof FILLABLE)[number]]?: string;
-};
+export type Blog =
+  & {
+    url: string;
+    hn?: Hn[];
+    active_at?: string;
+    posts?: number;
+    cadence?: number;
+  }
+  & {
+    [K in (typeof FILLABLE)[number]]?: string;
+  };
 
 const ENT: Record<string, string> = {
-  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", hellip: "…",
-  mdash: "—", ndash: "–", lsquo: "‘", rsquo: "’", ldquo: "“",
-  rdquo: "”", laquo: "«", raquo: "»", middot: "·", bull: "•", deg: "°",
-  times: "×", copy: "©", reg: "®", trade: "™",
+  amp: "&",
+  lt: "<",
+  gt: ">",
+  quot: '"',
+  apos: "'",
+  nbsp: " ",
+  hellip: "…",
+  mdash: "—",
+  ndash: "–",
+  lsquo: "‘",
+  rsquo: "’",
+  ldquo: "“",
+  rdquo: "”",
+  laquo: "«",
+  raquo: "»",
+  middot: "·",
+  bull: "•",
+  deg: "°",
+  times: "×",
+  copy: "©",
+  reg: "®",
+  trade: "™",
 };
 
 export const decodeEntities = (s: string): string =>
   s.replace(
-    new RegExp(`&(?:#x([0-9a-f]+)|#(\\d+)|(${Object.keys(ENT).join("|")}));`, "gi"),
+    new RegExp(
+      `&(?:#x([0-9a-f]+)|#(\\d+)|(${Object.keys(ENT).join("|")}));`,
+      "gi",
+    ),
     (_, hex, dec, name) =>
       name ? ENT[name.toLowerCase()] : cp(parseInt(hex ?? dec, hex ? 16 : 10)),
   );
 
-const cp = (n: number): string => (n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : "");
+const cp = (
+  n: number,
+): string => (n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : "");
 
 // Bot-blocks, plus unedited theme/host boilerplate that describes the
 // generator instead of the blog.
@@ -78,10 +109,16 @@ export const clean = (s?: string): string | undefined => {
     // deno-lint-ignore no-control-regex
     .replace(/[<>\x00-\x1f\x7f]/g, " ")
     .trim()
-    .replace(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\s+/i, "");
+    .replace(
+      /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\s+/i,
+      "",
+    );
   const leak = LEAK.exec(t);
   if (leak) t = t.slice(0, leak.index);
-  t = t.replace(/\s+/g, " ").trim().slice(0, 300).replace(/[\ud800-\udbff]$/, "").trim();
+  t = t.replace(/\s+/g, " ").trim().slice(0, 300).replace(
+    /[\ud800-\udbff]$/,
+    "",
+  ).trim();
   // Requires a letter, a digit, or an emoji: "..." and "…" are theme filler,
   // but a wall of frogs is a real description.
   return !t || JUNK.test(t) || !/[\p{L}\p{N}\p{So}]/u.test(t) ? undefined : t;
@@ -105,13 +142,14 @@ export const extractLinks = (html: string, base: string): Link[] => {
     try {
       const url = new URL(href, base);
       url.hash = "";
-      if (url.protocol === "http:" || url.protocol === "https:")
+      if (url.protocol === "http:" || url.protocol === "https:") {
         links.push({
           tag: name.toLowerCase(),
           href: url,
           rel: (attr(tag, "rel") ?? "").toLowerCase(),
           type: (attr(tag, "type") ?? "").toLowerCase(),
         });
+      }
     } catch {
       // unparseable href
     }
@@ -123,15 +161,20 @@ export const extractTitle = (html: string): string | undefined =>
   clean(html.match(/<title[^>]*>([^<]*)/i)?.[1]);
 
 export const extractMeta = (html: string, key: string): string | undefined => {
-  for (const [tag] of html.matchAll(/<meta\b[^>]*>/gi))
-    if ((attr(tag, "name") ?? attr(tag, "property"))?.toLowerCase() === key)
+  for (const [tag] of html.matchAll(/<meta\b[^>]*>/gi)) {
+    if ((attr(tag, "name") ?? attr(tag, "property"))?.toLowerCase() === key) {
       return attr(tag, "content");
+    }
+  }
 };
 
 export const extractDesc = (html: string): string | undefined =>
-  clean(extractMeta(html, "description") ?? extractMeta(html, "og:description"));
+  clean(
+    extractMeta(html, "description") ?? extractMeta(html, "og:description"),
+  );
 
-const FEED_PATH = /(\/index\.xml|\/rss\.xml|\/feed\.xml|\/atom\.xml|\/rss|\/feed|\.atom)$/;
+const FEED_PATH =
+  /(\/index\.xml|\/rss\.xml|\/feed\.xml|\/atom\.xml|\/rss|\/feed|\.atom)$/;
 
 export const extractFeed = (all: Link[], own: Link[]): string | undefined => {
   const alt = all.find(
@@ -156,15 +199,32 @@ export const sameSite = (a: string, b: string): boolean => {
 
 // panr authors a popular Hugo theme; ghost/svbtle/tumblr are host platforms.
 // Their links ride along in footers and get mistaken for the blog's author.
-const GH_DENY = new Set("about apps blog collections contact customer-stories enterprise events explore features join login marketplace notifications orgs panr pricing readme security settings site sponsors team topics trending".split(" "));
-const X_DENY = new Set("explore ghost hashtag home i intent login messages notifications panr privacy search settings share signup svbtle tos tumblr".split(" "));
+const GH_DENY = new Set(
+  "about apps blog collections contact customer-stories enterprise events explore features join login marketplace notifications orgs panr pricing readme security settings site sponsors team topics trending"
+    .split(" "),
+);
+const X_DENY = new Set(
+  "explore ghost hashtag home i intent login messages notifications panr privacy search settings share signup svbtle tos tumblr"
+    .split(" "),
+);
 // mastodon.* and mstdn.* hosts match by prefix; this list is the rest.
-const MASTO_HOSTS = new Set("fosstodon.org hachyderm.io infosec.exchange mas.to chaos.social indieweb.social techhub.social mathstodon.xyz sigmoid.social functional.cafe merveilles.town octodon.social social.coop scholar.social fediscience.org hci.social discuss.systems types.pl ruby.social phpc.social front-end.social social.tchncs.de tech.lgbt universeodon.com masto.ai c.im toot.community social.vivaldi.net metalhead.club social.linux.pizza mamot.fr norden.social troet.cafe det.social aus.social mastodonapp.uk tilde.zone vis.social peoplemaking.games gamedev.lgbt pawoo.net".split(" "));
+const MASTO_HOSTS = new Set(
+  "fosstodon.org hachyderm.io infosec.exchange mas.to chaos.social indieweb.social techhub.social mathstodon.xyz sigmoid.social functional.cafe merveilles.town octodon.social social.coop scholar.social fediscience.org hci.social discuss.systems types.pl ruby.social phpc.social front-end.social social.tchncs.de tech.lgbt universeodon.com masto.ai c.im toot.community social.vivaldi.net metalhead.club social.linux.pizza mamot.fr norden.social troet.cafe det.social aus.social mastodonapp.uk tilde.zone vis.social peoplemaking.games gamedev.lgbt pawoo.net"
+    .split(" "),
+);
 const isMastoInstance = (host: string): boolean =>
   MASTO_HOSTS.has(host) || /^(mastodon|mstdn)\./.test(host);
-const RELME_DENY = new Set("medium.com youtube.com threads.net tiktok.com instagram.com facebook.com linkedin.com twitch.tv twitter.com x.com bsky.app github.com".split(" "));
+const RELME_DENY = new Set(
+  "medium.com youtube.com threads.net tiktok.com instagram.com facebook.com linkedin.com twitch.tv twitter.com x.com bsky.app github.com"
+    .split(" "),
+);
 
-export type Socials = { github?: string; bluesky?: string; x?: string; mastodon?: string };
+export type Socials = {
+  github?: string;
+  bluesky?: string;
+  x?: string;
+  mastodon?: string;
+};
 
 export const githubFromUrl = (url: string): string | undefined => {
   const m = stripWww(new URL(url).hostname).match(
@@ -185,10 +245,22 @@ const xHandle = (s?: string): string | undefined => {
 // Candidates are tiered by author intent: rel="me" identity claims beat
 // twitter:creator/site meta, which beat plain anchors (could link anyone).
 // Within the winning tier, exactly one distinct profile must remain.
-type Tiers = { me: Map<string, string>; meta: Map<string, string>; plain: Map<string, string> };
+type Tiers = {
+  me: Map<string, string>;
+  meta: Map<string, string>;
+  plain: Map<string, string>;
+};
 
-export const extractSocials = (links: Link[], selfHost = "", html = ""): Socials => {
-  const tiers = (): Tiers => ({ me: new Map(), meta: new Map(), plain: new Map() });
+export const extractSocials = (
+  links: Link[],
+  selfHost = "",
+  html = "",
+): Socials => {
+  const tiers = (): Tiers => ({
+    me: new Map(),
+    meta: new Map(),
+    plain: new Map(),
+  });
   const found: Record<keyof Socials, Tiers> = {
     github: tiers(),
     bluesky: tiers(),
@@ -207,29 +279,38 @@ export const extractSocials = (links: Link[], selfHost = "", html = ""): Socials
       seg.length === 1 &&
       /^[a-z\d](?:[a-z\d-]*[a-z\d])?$/i.test(seg[0]) &&
       !GH_DENY.has(seg[0].toLowerCase())
-    )
+    ) {
       put("github", seg[0], `https://github.com/${seg[0]}`);
+    }
     if (
       (host === "x.com" || host === "twitter.com") &&
       seg.length === 1 &&
       /^\w{1,15}$/.test(seg[0]) &&
       !X_DENY.has(seg[0].toLowerCase())
-    )
+    ) {
       put("x", seg[0], `https://x.com/${seg[0]}`);
-    if (host === "bsky.app" && seg.length === 2 && seg[0] === "profile")
+    }
+    if (host === "bsky.app" && seg.length === 2 && seg[0] === "profile") {
       put("bluesky", seg[1], `https://bsky.app/profile/${seg[1]}`);
+    }
     if (/^\/(@[^/]+|users\/[^/]+)$/.test(path) && host !== selfHost) {
-      if (me && !RELME_DENY.has(host))
+      if (me && !RELME_DENY.has(host)) {
         found.mastodon.me.set(host + path.toLowerCase(), href.origin + path);
-      else if (!me && isMastoInstance(host))
+      } else if (!me && isMastoInstance(host)) {
         found.mastodon.plain.set(host + path.toLowerCase(), href.origin + path);
+      }
     }
   }
-  const creator = xHandle(extractMeta(html, "twitter:creator") ?? extractMeta(html, "twitter:site"));
-  if (creator) found.x.meta.set(creator.toLowerCase(), `https://x.com/${creator}`);
+  const creator = xHandle(
+    extractMeta(html, "twitter:creator") ?? extractMeta(html, "twitter:site"),
+  );
+  if (creator) {
+    found.x.meta.set(creator.toLowerCase(), `https://x.com/${creator}`);
+  }
   const one = (t: Tiers) => {
-    for (const m of [t.me, t.meta, t.plain])
+    for (const m of [t.me, t.meta, t.plain]) {
       if (m.size) return m.size === 1 ? m.values().next().value : undefined;
+    }
   };
   return {
     github: one(found.github),
@@ -242,12 +323,30 @@ export const extractSocials = (links: Link[], selfHost = "", html = ""): Socials
 // Platforms where a blog's feed legitimately lives off-site (a custom domain
 // fronting a newsletter). Everything else off-site is a build artifact, a
 // placeholder, or somebody else's blog.
-const FEED_HOSTS = "feedburner.com feedpress.me buttondown.email buttondown.com substack.com beehiiv.com ghost.io blogspot.com wordpress.com micro.blog bearblog.dev write.as tumblr.com".split(" ");
+const FEED_HOSTS =
+  "feedburner.com feedpress.me buttondown.email buttondown.com substack.com beehiiv.com ghost.io blogspot.com wordpress.com micro.blog bearblog.dev write.as tumblr.com"
+    .split(" ");
 
 const isFeedHost = (host: string): boolean =>
   FEED_HOSTS.some((f) => host === f || host.endsWith("." + f));
 
-const KEYS = ["url", "title", "desc", "keywords", "about", "now", "feed", "active_at", "posts", "cadence", "github", "bluesky", "x", "mastodon", "hn"] as const;
+const KEYS = [
+  "url",
+  "title",
+  "desc",
+  "keywords",
+  "about",
+  "now",
+  "feed",
+  "active_at",
+  "posts",
+  "cadence",
+  "github",
+  "bluesky",
+  "x",
+  "mastodon",
+  "hn",
+] as const;
 
 const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
 
@@ -258,9 +357,18 @@ export const canonUrl = (raw: string): string => {
 
 // Round-trips a stored handle through the extractor so saved socials obey
 // the same rules as scraped ones. rel=me because a stored value is a claim.
-const canonSocial = (net: keyof Socials, raw: string, selfHost: string): string | undefined => {
+const canonSocial = (
+  net: keyof Socials,
+  raw: string,
+  selfHost: string,
+): string | undefined => {
   try {
-    return extractSocials([{ tag: "a", href: new URL(raw), rel: "me", type: "" }], selfHost)[net];
+    return extractSocials([{
+      tag: "a",
+      href: new URL(raw),
+      rel: "me",
+      type: "",
+    }], selfHost)[net];
   } catch {
     return undefined;
   }
@@ -310,7 +418,9 @@ export const normalize = (blog: Blog): Blog => {
       const v = blog[key];
       if (!out.feed) continue;
       if (key === "active_at") {
-        if (typeof v === "string" && ISO.test(v) && !isNaN(Date.parse(v))) out.active_at = v;
+        if (typeof v === "string" && ISO.test(v) && !isNaN(Date.parse(v))) {
+          out.active_at = v;
+        }
       } else if (typeof v === "number" && isFinite(v) && v >= 0) {
         out[key] = v;
       }
@@ -328,7 +438,9 @@ export const normalize = (blog: Blog): Blog => {
     if (!val) continue;
     // KEYS puts title first, so out.title is settled by now. A desc that only
     // repeats it renders as the same line twice.
-    if (key === "desc" && val.toLowerCase() === out.title?.toLowerCase()) continue;
+    if (key === "desc" && val.toLowerCase() === out.title?.toLowerCase()) {
+      continue;
+    }
     out[key] = val;
   }
   return out;
@@ -342,10 +454,12 @@ export const fetchHtml = async (url: string): Promise<string> => {
   const body = await res.text();
   if (!res.ok) throw new Error(`http ${res.status}`);
   const type = res.headers.get("content-type") ?? "";
-  if (type && !/text\/html|application\/xhtml/.test(type))
+  if (type && !/text\/html|application\/xhtml/.test(type)) {
     throw new Error(`content-type ${type}`);
-  if (!sameSite(new URL(res.url).hostname, new URL(url).hostname))
+  }
+  if (!sameSite(new URL(res.url).hostname, new URL(url).hostname)) {
     throw new Error(`redirected to ${res.url}`);
+  }
   if (body.includes("�")) throw new Error("mojibake");
   return body.slice(0, MAX_HTML);
 };
@@ -355,13 +469,17 @@ export const fetchHtml = async (url: string): Promise<string> => {
 export const feedDates = (xml: string): number[] => {
   const out: number[] = [];
   const now = Date.now();
-  for (const m of xml.matchAll(/<(item|entry)(?:\s[^>]*)?>([\s\S]*?)<\/\1\s*>/gi)) {
+  for (
+    const m of xml.matchAll(/<(item|entry)(?:\s[^>]*)?>([\s\S]*?)<\/\1\s*>/gi)
+  ) {
     const block = m[2];
     const raw = block.match(/<(?:pubDate|published|dc:date)>([^<]+)</i)?.[1] ??
       block.match(/<updated>([^<]+)</i)?.[1];
     const t = raw && Date.parse(raw.trim());
     // Clock-skewed and placeholder dates are worse than no date at all.
-    if (t && !isNaN(t) && t > Date.UTC(1990, 0, 1) && t < now + 86_400_000) out.push(t);
+    if (t && !isNaN(t) && t > Date.UTC(1990, 0, 1) && t < now + 86_400_000) {
+      out.push(t);
+    }
   }
   return out.sort((a, b) => b - a);
 };
@@ -371,10 +489,14 @@ export type FeedStats = { active_at: string; posts: number; cadence?: number };
 export const feedStats = (xml: string): FeedStats | undefined => {
   const dates = feedDates(xml);
   if (!dates.length) return undefined;
-  const gaps = dates.slice(1).map((t, i) => (dates[i] - t) / 86_400_000).sort((a, b) => a - b);
-  const mid = gaps.length && (gaps.length % 2
-    ? gaps[(gaps.length - 1) / 2]
-    : (gaps[gaps.length / 2 - 1] + gaps[gaps.length / 2]) / 2);
+  const gaps = dates.slice(1).map((t, i) => (dates[i] - t) / 86_400_000).sort((
+    a,
+    b,
+  ) => a - b);
+  const mid = gaps.length &&
+    (gaps.length % 2
+      ? gaps[(gaps.length - 1) / 2]
+      : (gaps[gaps.length / 2 - 1] + gaps[gaps.length / 2]) / 2);
   return {
     active_at: new Date(dates[0]).toISOString().replace(/\.\d+Z$/, "Z"),
     posts: dates.length,
@@ -382,9 +504,15 @@ export const feedStats = (xml: string): FeedStats | undefined => {
   };
 };
 
-export const fetchFeed = async (url: string): Promise<FeedStats | undefined> => {
+export const fetchFeed = async (
+  url: string,
+): Promise<FeedStats | undefined> => {
   const res = await fetch(url, {
-    headers: { "user-agent": UA, accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" },
+    headers: {
+      "user-agent": UA,
+      accept:
+        "application/rss+xml, application/atom+xml, application/xml, text/xml",
+    },
     signal: AbortSignal.timeout(TIMEOUT),
   });
   // Never truncate a feed. Plenty of them list oldest entries first, so a
@@ -401,7 +529,15 @@ export const fetchFeed = async (url: string): Promise<FeedStats | undefined> => 
 
 // Plenty of blogs serve a feed without advertising it in <head>. Probing the
 // conventional paths finds one for roughly two in five of them.
-const FEED_PROBES = ["/feed.xml", "/rss.xml", "/atom.xml", "/index.xml", "/feed", "/rss", "/feeds/posts/default"];
+const FEED_PROBES = [
+  "/feed.xml",
+  "/rss.xml",
+  "/atom.xml",
+  "/index.xml",
+  "/feed",
+  "/rss",
+  "/feeds/posts/default",
+];
 
 export const discoverFeed = async (
   base: string,
@@ -432,8 +568,11 @@ export const fetchHn = async (blogUrl: string): Promise<Hn[]> => {
   );
   if (!res.ok) throw new Error(`hn.algolia.com ${res.status}`);
   const data = await res.json();
-  if (!Array.isArray(data.hits))
-    throw new Error(`hn.algolia.com: no hits array: ${JSON.stringify(data).slice(0, 200)}`);
+  if (!Array.isArray(data.hits)) {
+    throw new Error(
+      `hn.algolia.com: no hits array: ${JSON.stringify(data).slice(0, 200)}`,
+    );
+  }
   const blogHost = new URL(blogUrl).hostname;
   const hits: Hn[] = [];
   for (const hit of data.hits) {
@@ -450,8 +589,13 @@ export const fetchHn = async (blogUrl: string): Promise<Hn[]> => {
       typeof hit.created_at !== "string" ||
       typeof hit.title !== "string" ||
       typeof hit.objectID !== "string"
-    )
-      throw new Error(`hn.algolia.com: unexpected hit shape: ${JSON.stringify(hit).slice(0, 200)}`);
+    ) {
+      throw new Error(
+        `hn.algolia.com: unexpected hit shape: ${
+          JSON.stringify(hit).slice(0, 200)
+        }`,
+      );
+    }
     hits.push({
       created_at: hit.created_at,
       title: hit.title.trim(),
@@ -476,17 +620,28 @@ export const fillMissing = (
   fill: { [K in (typeof FILLABLE)[number]]?: string },
 ): number => {
   let n = 0;
-  for (const k of FILLABLE)
+  for (const k of FILLABLE) {
     if (fill[k] && !blog[k]) {
       blog[k] = fill[k];
       n++;
     }
+  }
   return n;
 };
 
-type Counters = { filled: number; pageOk: number; pageFail: number; hnOk: number; hnFail: number; feedOk?: number; feedFail?: number };
+type Counters = {
+  filled: number;
+  pageOk: number;
+  pageFail: number;
+  hnOk: number;
+  hnFail: number;
+  feedOk?: number;
+  feedFail?: number;
+};
 
-const msg = (err: unknown): string => (err instanceof Error ? err.message : String(err));
+const msg = (
+  err: unknown,
+): string => (err instanceof Error ? err.message : String(err));
 
 // Only the fetches are guarded: a broken extractor must crash the run, not
 // masquerade as 160 dead websites.
@@ -555,7 +710,11 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
   }
 };
 
-const pool = async <T>(items: T[], n: number, fn: (item: T) => Promise<void>) => {
+const pool = async <T>(
+  items: T[],
+  n: number,
+  fn: (item: T) => Promise<void>,
+) => {
   let i = 0;
   await Promise.all(
     Array.from({ length: Math.min(n, items.length) }, async () => {
@@ -587,23 +746,31 @@ if (import.meta.main) {
   } else {
     const raw = await Deno.readTextFile("blogs.json");
     const blogs: Blog[] = JSON.parse(raw);
-    if (!Array.isArray(blogs)) throw new Error("blogs.json: expected a top-level array");
+    if (!Array.isArray(blogs)) {
+      throw new Error("blogs.json: expected a top-level array");
+    }
     blogs.forEach((b, i) => {
-      if (typeof b?.url !== "string")
-        throw new Error(`blogs.json[${i}]: missing url: ${JSON.stringify(b)?.slice(0, 100)}`);
+      if (typeof b?.url !== "string") {
+        throw new Error(
+          `blogs.json[${i}]: missing url: ${JSON.stringify(b)?.slice(0, 100)}`,
+        );
+      }
       try {
         new URL(b.url);
       } catch {
-        throw new Error(`blogs.json[${i}]: unparseable url: ${JSON.stringify(b.url)}`);
+        throw new Error(
+          `blogs.json[${i}]: unparseable url: ${JSON.stringify(b.url)}`,
+        );
       }
     });
     const targets = Deno.args.includes("--fmt") ? [] : blogs;
     await pool(targets, CONCURRENCY, (b) => enrich(b, c));
-    if (targets.length && (c.pageOk === 0 || c.hnOk === 0))
+    if (targets.length && (c.pageOk === 0 || c.hnOk === 0)) {
       throw new Error(
         `systemic failure (${c.pageOk}/${targets.length} pages, ${c.hnOk}/${targets.length} hn); ` +
           `refusing to write blogs.json`,
       );
+    }
     const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
     if (out !== raw) await Deno.writeTextFile("blogs.json", out);
     summary(`${targets.length} blogs: `);

@@ -7,8 +7,7 @@ okay too, but remember that the community is mostly folks from
 ## Adding Blogs
 
 This repo comes with a helper script `refresh.ts` to automatically grab blog
-info from a URL. But feel free to manually add/edit information to
-`blogs.json`!
+info from a URL. But feel free to manually add/edit information to `blogs.json`!
 
 1. Run the script ([deno](https://deno.com)):
 
@@ -74,15 +73,15 @@ deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts
 ```
 
 It fills in missing fields (title, desc, feed, about, now, and
-github/bluesky/x/mastodon profiles found on the blog's homepage or /about
-page) and updates HackerNews stories. It never overwrites existing values, so
+github/bluesky/x/mastodon profiles found on the blog's homepage or /about page)
+and updates HackerNews stories. It never overwrites existing values, so
 hand-curated edits are safe.
 
-Every write also normalizes the whole file: fields are sorted, text is
-trimmed, and anything that cannot be attributed to the blog is dropped
-(off-site /about and /now links, feeds belonging to somebody else, HackerNews
-stories pointing at another domain). CI rejects a pull request whose
-`blogs.json` is not normalized. Normalize it by hand with:
+Every write also normalizes the whole file: fields are sorted, text is trimmed,
+and anything that cannot be attributed to the blog is dropped (off-site /about
+and /now links, feeds belonging to somebody else, HackerNews stories pointing at
+another domain). CI rejects a pull request whose `blogs.json` is not normalized.
+Normalize it by hand with:
 
 ```bash
 deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt
@@ -95,17 +94,18 @@ the same checks as CI.
 
 `active_at`, `posts`, and `cadence` are read from the blog's feed: the date of
 the newest post, how many dated entries the feed carries, and the median days
-between posts. They refresh on every run rather than being filled once, and
-they are dropped if the feed goes away. Blogs that advertise no feed get the
-conventional paths (`/feed.xml`, `/index.xml`, `/feeds/posts/default`, …)
-probed before we give up.
+between posts. They refresh on every run rather than being filled once, and they
+are dropped if the feed goes away. Blogs that advertise no feed get the
+conventional paths (`/feed.xml`, `/index.xml`, `/feeds/posts/default`, …) probed
+before we give up.
 
 ## What the site shows
 
-`blogs.json` is the whole directory, and the [OPML export](https://blogs.hn/blogs.hn.opml)
-carries every feed in it. The front page is smaller on purpose: a blog is
-eligible only if it has a feed, has posted within two years, and says
-something about itself, and the page then draws a weighted random sample of
-1000 from that pool — better blogs are likelier to appear, but the page
-rebuilds hourly, so the rest get their turn. Being left off the page is not a
-judgement on a blog; it usually means we could not find a feed.
+`blogs.json` is the whole directory, and the
+[OPML export](https://blogs.hn/blogs.hn.opml) carries every feed in it. The
+front page is smaller on purpose: a blog is eligible only if it has a feed, has
+posted within two years, and says something about itself, and the page then
+draws a weighted random sample of 1000 from that pool — better blogs are
+likelier to appear, but the page rebuilds hourly, so the rest get their turn.
+Being left off the page is not a judgement on a blog; it usually means we could
+not find a feed.

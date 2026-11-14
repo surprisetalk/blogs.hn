@@ -16,6 +16,5 @@ jobs:
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
-      - run: deno lint
-      - run: deno test --allow-read=blogs.json
+      - run: deno task check
       - run: node build.js
