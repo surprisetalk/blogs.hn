@@ -69,8 +69,15 @@ deno run --allow-net refresh.ts "https://taylor.town" "https://gwern.net"
 Run `refresh.ts` without URLs to refresh every blog in `blogs.json` in place:
 
 ```bash
-deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts
+deno run --env-file=.env --allow-env=SHELOB_ACCOUNT_ID,SHELOB_ACCESS_KEY_ID,SHELOB_SECRET_ACCESS_KEY,SHELOB_BUCKET --allow-net --allow-read=blogs.json,.env --allow-write=blogs.json refresh.ts
 ```
+
+The full refresh reads each blog's `active_at`, `posts`, and `cadence` from
+shelob's `feed_item` table (a read-only R2 bucket) and fetches no known feed.
+`posts` counts every item shelob has seen. `.env` (git-ignored) needs
+`SHELOB_ACCOUNT_ID`, `SHELOB_ACCESS_KEY_ID`, `SHELOB_SECRET_ACCESS_KEY`, and
+`SHELOB_BUCKET`. A blog whose feed has no rows there keeps its stats. Adding
+blogs by URL needs no keys.
 
 It fills in missing fields (title, desc, feed, about, now, and
 github/bluesky/x/mastodon profiles found on the blog's homepage or /about page)

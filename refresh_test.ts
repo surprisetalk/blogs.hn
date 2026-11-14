@@ -1,4 +1,4 @@
-// deno test --allow-read=blogs.json
+// deno test --allow-read=blogs.json,fixtures --allow-net=127.0.0.1 --allow-env=SHELOB_ACCOUNT_ID
 import {
   Blog,
   canonUrl,
@@ -11,14 +11,16 @@ import {
   extractPage,
   extractSocials,
   extractTitle,
-  feedDates,
   feedStats,
   fillMissing,
   githubFromUrl,
   Hn,
+  loadFeedTimes,
   mergeHn,
   normalize,
   sameSite,
+  statsOf,
+  storeFromEnv,
   stripWww,
 } from "./refresh.ts";
 
@@ -549,10 +551,10 @@ Deno.test("feedStats: entry dates only, median cadence", () => {
     "a generator timestamp is not a post",
   );
   assertEquals(
-    feedDates(
+    feedStats(
       `<item><pubDate>1970-01-01</pubDate></item><item><pubDate>2099-01-01</pubDate></item>`,
-    ).length,
-    0,
+    ),
+    undefined,
     "placeholder and future dates dropped",
   );
   assertEquals(
@@ -789,4 +791,107 @@ Deno.test("blogs.json: byte-stable serialization", () => {
         `run: deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt`,
     );
   }
+});
+
+Deno.test("loadFeedTimes: signed range reads of a parquet part, then stats", async () => {
+  const part = await Deno.readFile("fixtures/feed_item.parquet");
+  const seen: string[] = [];
+  const server = Deno.serve({
+    hostname: "127.0.0.1",
+    port: 0,
+    onListen: () => {},
+  }, (req) => {
+    const path = new URL(req.url).pathname;
+    seen.push(
+      `${req.method} ${path} ${
+        req.headers.get("authorization")?.slice(0, 16)
+      } ${req.headers.get("range") ?? ""}`,
+    );
+    if (path === "/bkt/table/feed_item.json") {
+      return Response.json({ parts: ["table/feed_item/t/part-0.parquet"] });
+    }
+    if (path !== "/bkt/table/feed_item/t/part-0.parquet") {
+      return new Response("no", { status: 404 });
+    }
+    const m = req.headers.get("range")?.match(/^bytes=(\d+)-(\d+)$/);
+    if (!m) {
+      return new Response(null, {
+        headers: { "content-length": String(part.length) },
+      });
+    }
+    const body = part.slice(Number(m[1]), Number(m[2]) + 1);
+    return new Response(body, {
+      status: 206,
+      headers: { "content-length": String(body.length) },
+    });
+  });
+  try {
+    const store = {
+      endpoint: `http://127.0.0.1:${server.addr.port}`,
+      accessKeyId: "k",
+      secretAccessKey: "s",
+      bucket: "bkt",
+    };
+    const times = await loadFeedTimes(
+      store,
+      new Set([
+        "https://a.example/feed.xml",
+        "https://b.example/rss",
+        "https://none.example/rss",
+      ]),
+    );
+    assertEquals([...times.keys()].sort(), [
+      "https://a.example/feed.xml",
+      "https://b.example/rss",
+    ], "other feeds and unwanted feeds dropped");
+    assertEquals(statsOf(times.get("https://a.example/feed.xml")!), {
+      active_at: "2026-08-01T10:00:00Z",
+      posts: 3,
+      cadence: 10.5,
+    }, "1970 and null dates dropped");
+    assertEquals(statsOf(times.get("https://b.example/rss")!), {
+      active_at: "2026-06-01T00:00:00Z",
+      posts: 1,
+    });
+    assertEquals(
+      statsOf(times.get("https://none.example/rss") ?? []),
+      undefined,
+      "no rows, no stats",
+    );
+    assertEquals(
+      seen.every((l) => l.includes("AWS4-HMAC-SHA256")),
+      true,
+      "every request is signed",
+    );
+    assertEquals(
+      seen.some((l) => / bytes=\d+-\d+$/.test(l)),
+      true,
+      "the parquet read uses ranges",
+    );
+
+    const err = await loadFeedTimes({ ...store, bucket: "nope" }, new Set())
+      .catch((e) => String(e.message));
+    assert(
+      typeof err === "string" && err.includes("Expected: http 200") &&
+        err.includes("Received: http 404"),
+      "a failed manifest read throws expected and received: " + err,
+    );
+  } finally {
+    await server.shutdown();
+  }
+});
+
+Deno.test("storeFromEnv: a missing variable names itself and the fix", () => {
+  Deno.env.delete("SHELOB_ACCOUNT_ID");
+  let msg = "";
+  try {
+    storeFromEnv();
+  } catch (e) {
+    msg = (e as Error).message;
+  }
+  assert(
+    msg.startsWith("SHELOB_ACCOUNT_ID is not set") &&
+      msg.includes("copy SHELOB_ACCOUNT_ID into .env"),
+    "names the variable and the fix: " + msg,
+  );
 });

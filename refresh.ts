@@ -1,12 +1,18 @@
-// deno run --allow-net --allow-read=blogs.json --allow-write=blogs.json refresh.ts
-//   (no args)     refresh every blog in blogs.json in place
+// deno run --env-file=.env --allow-env=SHELOB_ACCOUNT_ID,SHELOB_ACCESS_KEY_ID,SHELOB_SECRET_ACCESS_KEY,SHELOB_BUCKET --allow-net --allow-read=blogs.json,.env --allow-write=blogs.json refresh.ts
+//   (no args)     refresh every blog in blogs.json in place, feed stats from shelob's feed_item
+//   (URL mode needs no keys: deno run --allow-net refresh.ts <url>...)
 //   --fmt         reserialize blogs.json, no network
 //   <url>...      print fresh entries for new blogs to stdout
+
+import { AwsClient } from "aws4fetch";
+import { parquetReadObjects } from "hyparquet";
+import { compressors } from "hyparquet-compressors";
 
 const CONCURRENCY = 8;
 const TIMEOUT = 10_000;
 const MAX_HTML = 512 * 1024;
 const MAX_FEED = 16 * 1024 * 1024;
+const STORE_TIMEOUT = 60_000;
 const UA = "blogs.hn-bot/1 (+https://blogs.hn)";
 
 export type Hn = {
@@ -466,9 +472,8 @@ export const fetchHtml = async (url: string): Promise<string> => {
 
 // Entry dates only. A channel-level <lastBuildDate> ticks every time the
 // generator runs, so it says nothing about whether anyone is still writing.
-export const feedDates = (xml: string): number[] => {
+const feedDates = (xml: string): number[] => {
   const out: number[] = [];
-  const now = Date.now();
   for (
     const m of xml.matchAll(/<(item|entry)(?:\s[^>]*)?>([\s\S]*?)<\/\1\s*>/gi)
   ) {
@@ -476,18 +481,20 @@ export const feedDates = (xml: string): number[] => {
     const raw = block.match(/<(?:pubDate|published|dc:date)>([^<]+)</i)?.[1] ??
       block.match(/<updated>([^<]+)</i)?.[1];
     const t = raw && Date.parse(raw.trim());
-    // Clock-skewed and placeholder dates are worse than no date at all.
-    if (t && !isNaN(t) && t > Date.UTC(1990, 0, 1) && t < now + 86_400_000) {
-      out.push(t);
-    }
+    if (t && !isNaN(t)) out.push(t);
   }
-  return out.sort((a, b) => b - a);
+  return out;
 };
 
 export type FeedStats = { active_at: string; posts: number; cadence?: number };
 
-export const feedStats = (xml: string): FeedStats | undefined => {
-  const dates = feedDates(xml);
+// REVIEW: posts counts every item shelob has seen, not the feed's current window (about 10-50 items). A weekly blog now reads in the hundreds after a few years. Alternative: count only items published in the last 365 days. It keeps the old scale but hides a blog's history.
+export const statsOf = (times: number[]): FeedStats | undefined => {
+  const now = Date.now();
+  // Clock-skewed and placeholder dates are worse than no date at all.
+  const dates = times
+    .filter((t) => t > Date.UTC(1990, 0, 1) && t < now + 86_400_000)
+    .sort((a, b) => b - a);
   if (!dates.length) return undefined;
   const gaps = dates.slice(1).map((t, i) => (dates[i] - t) / 86_400_000).sort((
     a,
@@ -503,6 +510,9 @@ export const feedStats = (xml: string): FeedStats | undefined => {
     ...(gaps.length ? { cadence: Math.round(mid as number * 10) / 10 } : {}),
   };
 };
+
+export const feedStats = (xml: string): FeedStats | undefined =>
+  statsOf(feedDates(xml));
 
 export const fetchFeed = async (
   url: string,
@@ -525,6 +535,171 @@ export const fetchFeed = async (
   const body = await res.text();
   if (!res.ok) throw new Error(`http ${res.status}`);
   return feedStats(body);
+};
+
+export type Store = {
+  endpoint: string;
+  accessKeyId: string;
+  secretAccessKey: string;
+  bucket: string;
+};
+
+export const storeFromEnv = (): Store => {
+  const get = (name: string): string => {
+    const v = Deno.env.get(name);
+    if (!v) {
+      throw new Error(
+        `${name} is not set. Expected: SHELOB_ACCOUNT_ID, SHELOB_ACCESS_KEY_ID, SHELOB_SECRET_ACCESS_KEY, SHELOB_BUCKET. ` +
+          `Source: environment. Likely fix: copy ${name} into .env and run with --env-file=.env.`,
+      );
+    }
+    return v;
+  };
+  return {
+    endpoint: `https://${get("SHELOB_ACCOUNT_ID")}.r2.cloudflarestorage.com`,
+    accessKeyId: get("SHELOB_ACCESS_KEY_ID"),
+    secretAccessKey: get("SHELOB_SECRET_ACCESS_KEY"),
+    bucket: get("SHELOB_BUCKET"),
+  };
+};
+
+const storeError = (
+  what: string,
+  expected: string,
+  received: string,
+  source: string,
+): Error =>
+  new Error(
+    `${what}. Expected: ${expected}. Received: ${received}. Source: ${source}. ` +
+      `Likely fix: check the SHELOB_* keys in .env and that the shelob table exists.`,
+  );
+
+// Published times, in ms, of every feed_item row whose feed is in `feeds`.
+// shelob writes zstd parquet. Reads two columns of each part with range requests, never the raw column.
+export const loadFeedTimes = async (
+  store: Store,
+  feeds: Set<string>,
+): Promise<Map<string, number[]>> => {
+  // retries: 1 keeps aws4fetch from backing off ten times on a 5xx.
+  const client = new AwsClient({
+    accessKeyId: store.accessKeyId,
+    secretAccessKey: store.secretAccessKey,
+    service: "s3",
+    region: "auto",
+    retries: 1,
+  });
+  const get = async (key: string, init: RequestInit = {}) => {
+    const url = `${store.endpoint}/${store.bucket}/${key}`;
+    const res = await client.fetch(url, {
+      ...init,
+      signal: AbortSignal.timeout(STORE_TIMEOUT),
+    });
+    return { res, url };
+  };
+  const { res: mres, url: murl } = await get("table/feed_item.json");
+  if (!mres.ok) {
+    await mres.body?.cancel();
+    throw storeError(
+      "Cannot read the feed_item manifest",
+      "http 200",
+      `http ${mres.status}`,
+      murl,
+    );
+  }
+  let parts: unknown;
+  try {
+    parts = (await mres.json()).parts;
+  } catch (err) {
+    throw storeError(
+      "Cannot parse the feed_item manifest",
+      "JSON with a parts array",
+      msg(err),
+      murl,
+    );
+  }
+  if (
+    !Array.isArray(parts) || !parts.length ||
+    !parts.every((p) => typeof p === "string")
+  ) {
+    throw storeError(
+      "Malformed feed_item manifest",
+      "a non-empty parts array of keys",
+      JSON.stringify(parts)?.slice(0, 200),
+      murl,
+    );
+  }
+
+  const out = new Map<string, number[]>();
+  for (const key of parts as string[]) {
+    const { res: head, url } = await get(key, { method: "HEAD" });
+    const byteLength = Number(head.headers.get("content-length"));
+    if (!head.ok || !byteLength) {
+      throw storeError(
+        "Cannot size a feed_item part",
+        "http 200 with content-length",
+        `http ${head.status}, length ${byteLength}`,
+        url,
+      );
+    }
+    const file = {
+      byteLength,
+      slice: async (start: number, end?: number) => {
+        const stop = end ?? byteLength;
+        const { res } = await get(key, {
+          headers: { range: `bytes=${start}-${stop - 1}` },
+        });
+        if (res.status !== 206) {
+          await res.body?.cancel();
+          throw storeError(
+            "Cannot range-read a feed_item part",
+            "http 206",
+            `http ${res.status}`,
+            url,
+          );
+        }
+        return res.arrayBuffer();
+      },
+    };
+    let rows;
+    try {
+      rows = await parquetReadObjects({
+        file,
+        columns: ["feed", "published_at"],
+        compressors,
+      });
+    } catch (err) {
+      throw storeError(
+        "Cannot decode a feed_item part",
+        "parquet with feed and published_at",
+        msg(err),
+        url,
+      );
+    }
+    for (const r of rows) {
+      if (typeof r.feed !== "string") {
+        throw storeError(
+          "Malformed feed_item row",
+          "feed as a string",
+          JSON.stringify(r.feed),
+          url,
+        );
+      }
+      if (r.published_at === null) continue;
+      if (!(r.published_at instanceof Date)) {
+        throw storeError(
+          "Malformed feed_item row",
+          "published_at as a timestamp",
+          typeof r.published_at,
+          url,
+        );
+      }
+      if (!feeds.has(r.feed)) continue;
+      const list = out.get(r.feed) ?? [];
+      list.push(r.published_at.getTime());
+      out.set(r.feed, list);
+    }
+  }
+  return out;
 };
 
 // Plenty of blogs serve a feed without advertising it in <head>. Probing the
@@ -636,7 +811,7 @@ type Counters = {
   hnOk: number;
   hnFail: number;
   feedOk?: number;
-  feedFail?: number;
+  feedUnseen?: number;
 };
 
 const msg = (
@@ -645,7 +820,11 @@ const msg = (
 
 // Only the fetches are guarded: a broken extractor must crash the run, not
 // masquerade as 160 dead websites.
-export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
+export const enrich = async (
+  blog: Blog,
+  c: Counters,
+  times?: Map<string, number[]>,
+): Promise<void> => {
   let html: string | undefined;
   try {
     html = await fetchHtml(blog.url);
@@ -681,15 +860,14 @@ export const enrich = async (blog: Blog, c: Counters): Promise<void> => {
     }
   }
   // Unlike scraped fields, activity is live data: it overwrites every run,
-  // the same way HN points do.
+  // the same way HN points do. A feed that shelob has no rows for keeps its stats.
   if (blog.feed) {
-    try {
-      const stats = await fetchFeed(blog.feed);
-      if (stats) Object.assign(blog, stats);
-      c.feedOk = (c.feedOk ?? 0) + 1;
-    } catch (err) {
-      c.feedFail = (c.feedFail ?? 0) + 1;
-      console.error(`${blog.feed} feed: ${msg(err)}`);
+    if (times) {
+      const stats = statsOf(times.get(blog.feed) ?? []);
+      if (stats) {
+        Object.assign(blog, stats);
+        c.feedOk = (c.feedOk ?? 0) + 1;
+      } else c.feedUnseen = (c.feedUnseen ?? 0) + 1;
     }
   } else {
     const found = await discoverFeed(blog.url);
@@ -729,7 +907,7 @@ if (import.meta.main) {
     console.error(
       `${prefix}${c.filled} fields filled, ` +
         `${c.pageOk} pages ok, ${c.pageFail} pages failed, ` +
-        `${c.feedOk ?? 0} feeds ok, ${c.feedFail ?? 0} feeds failed, ` +
+        `${c.feedOk ?? 0} feeds ok, ${c.feedUnseen ?? 0} feeds unseen, ` +
         `${c.hnOk} hn ok, ${c.hnFail} hn failed`,
     );
   const urls = Deno.args.filter((a) => !a.startsWith("--"));
@@ -764,7 +942,11 @@ if (import.meta.main) {
       }
     });
     const targets = Deno.args.includes("--fmt") ? [] : blogs;
-    await pool(targets, CONCURRENCY, (b) => enrich(b, c));
+    const feeds = new Set(targets.flatMap((b) => (b.feed ? [b.feed] : [])));
+    const times = targets.length
+      ? await loadFeedTimes(storeFromEnv(), feeds)
+      : undefined;
+    await pool(targets, CONCURRENCY, (b) => enrich(b, c, times));
     if (targets.length && (c.pageOk === 0 || c.hnOk === 0)) {
       throw new Error(
         `systemic failure (${c.pageOk}/${targets.length} pages, ${c.hnOk}/${targets.length} hn); ` +

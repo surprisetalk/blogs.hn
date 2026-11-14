@@ -1,0 +1,36 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:aws4fetch@1.0.20": "1.0.20",
+    "npm:hyparquet-compressors@1.1.2": "1.1.2",
+    "npm:hyparquet@1.31.4": "1.31.4"
+  },
+  "npm": {
+    "aws4fetch@1.0.20": {
+      "integrity": "sha512-/djoAN709iY65ETD6LKCtyyEI04XIBP5xVvfmNxsEP0uJB5tyaGBztSryRr4HqMStr9R06PisQE7m9zDTXKu6g=="
+    },
+    "fzstd@0.1.1": {
+      "integrity": "sha512-dkuVSOKKwh3eas5VkJy1AW1vFpet8TA/fGmVA5krThl8YcOVE/8ZIoEA1+U1vEn5ckxxhLirSdY837azmbaNHA=="
+    },
+    "hyparquet-compressors@1.1.2": {
+      "integrity": "sha512-0Hx6w0ZpVpNCefKy5xBYLTp6rKeZn/tsUzuliNzfKqSCdLcTQSfwATEoeedS703Y17k1qNS61HwRME5aOeNkPg==",
+      "dependencies": [
+        "fzstd",
+        "hysnappy"
+      ]
+    },
+    "hyparquet@1.31.4": {
+      "integrity": "sha512-Qe37Nhu1lLvmnSL9bQuY/CN8suLDoNMPNhrTb6+ZXJDfiy1mHHRjkoVYIYPhf0krYpRdAxMMnuEWEHeSUCe40g=="
+    },
+    "hysnappy@1.1.1": {
+      "integrity": "sha512-/V9XcN2NtRyWjR4LYMfvnvasVVF8jbT/ej0eofBQjZel91E3D813FQ3mQC6gDSMMTCq/FJh28XHeyqr3I/oBRw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:aws4fetch@1.0.20",
+      "npm:hyparquet-compressors@1.1.2",
+      "npm:hyparquet@1.31.4"
+    ]
+  }
+}
