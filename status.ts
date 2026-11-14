@@ -16,12 +16,14 @@ const BUILT_LIMIT_S = 3 * HOUR_S;
 // REVIEW: Date the last refresh by the 100th-newest post in blogs.json. A refresh puts hundreds of blogs within a week, and contributors add a few per week, so their new entries cannot pass it alone. Alternative: refresh.ts writes a refreshed_at stamp. It is exact but adds a field that every PR can conflict on.
 const REFRESH_RANK = 100;
 // Clock skew between this host and the source.
-const SKEW_S = 300;
+export const SKEW_S = 300;
+// refresh.ts statsOf admits feed dates up to a day ahead, for feeds with a wrong time zone.
+export const FEED_SKEW_S = DAY_S;
 
 // A condition scores 1.0 at the minimum passing grade. A limit over an age scores 1.0 at the limit.
 const within = (limitS: number, ageS: number) => limitS / Math.max(ageS, 1);
 
-export const ageS = (iso: string, source: string) => {
+export const ageS = (iso: string, source: string, skewS: number) => {
   const t = /^\d{4}-\d{2}-\d{2}T/.test(iso) ? Date.parse(iso) : NaN;
   if (!Number.isFinite(t)) {
     throw new Error(
@@ -29,7 +31,7 @@ export const ageS = (iso: string, source: string) => {
     );
   }
   const age = (Date.now() - t) / 1000;
-  if (age < -SKEW_S) {
+  if (age < -skewS) {
     throw new Error(
       `${source}: expected a date in the past, received ${iso}, ${
         Math.round(-age)
@@ -93,7 +95,7 @@ const builtAgeS = (built: string | undefined) => {
       `${SITE}: expected <meta name="built">, received none. Fix: check that Cloudflare Pages builds main with build.js.`,
     );
   }
-  return ageS(built, `${SITE} <meta name="built">`);
+  return ageS(built, `${SITE} <meta name="built">`, SKEW_S);
 };
 
 const refreshAgeS = async () => {
@@ -120,7 +122,7 @@ const refreshAgeS = async () => {
         }.`,
       );
     }
-    return [ageS(a, `${BLOGS_JSON}[${i}].active_at`)];
+    return [ageS(a, `${BLOGS_JSON}[${i}].active_at`, FEED_SKEW_S)];
   }).sort((x, y) => x - y);
   if (ages.length < REFRESH_RANK) {
     throw new Error(
@@ -147,7 +149,7 @@ const oldestPrAgeS = async () => {
       }.`,
     );
   }
-  return ageS(created, `${PULLS} [0].created_at`);
+  return ageS(created, `${PULLS} [0].created_at`, SKEW_S);
 };
 
 // A failed check scores 0 and says why on stderr, so the other conditions still report.

@@ -1,4 +1,5 @@
-import { ageS, page } from "./status.ts";
+import { ageS, FEED_SKEW_S, page, SKEW_S } from "./status.ts";
+import { statsOf } from "./refresh.ts";
 
 // Runs the real status command against production. Offline, every condition scores 0, and the test still holds.
 Deno.test("status grades five conditions and exits 1 exactly when one is below 1.0", async () => {
@@ -71,7 +72,7 @@ Deno.test("build.js output carries what status reads, and keeps $ patterns liter
     const html = await Deno.readTextFile(`${dir}/dist/index.html`);
     const p = page(html);
     if (p.blogs !== 1) throw new Error(`expected 1 blog, received ${p.blogs}`);
-    if (p.built === undefined || ageS(p.built, "built") > 60) {
+    if (p.built === undefined || ageS(p.built, "built", SKEW_S) > 60) {
       throw new Error(`expected a fresh build stamp, received ${p.built}`);
     }
     if (html.split("<!doctype html>").length !== 2) {
@@ -87,4 +88,11 @@ Deno.test("build.js output carries what status reads, and keeps $ patterns liter
   } finally {
     await Deno.remove(dir, { recursive: true });
   }
+});
+
+// refresh.ts admits feed dates up to a day ahead, for feeds with a wrong time zone.
+Deno.test("status accepts an active_at that refresh.ts writes from a feed dated 2 h ahead", () => {
+  const stats = statsOf([Date.now() + 2 * 3_600_000]);
+  if (!stats) throw new Error("expected statsOf to keep a date 2 h ahead");
+  ageS(stats.active_at, "active_at", FEED_SKEW_S);
 });
