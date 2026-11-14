@@ -4,6 +4,7 @@ import {
   canonUrl,
   clean,
   decodeEntities,
+  enrich,
   extractDesc,
   extractFeed,
   extractLinks,
@@ -20,6 +21,7 @@ import {
   normalize,
   sameSite,
   statsOf,
+  Store,
   storeFromEnv,
   stripWww,
 } from "./refresh.ts";
@@ -793,8 +795,17 @@ Deno.test("blogs.json: byte-stable serialization", () => {
   }
 });
 
-Deno.test("loadFeedTimes: signed range reads of a parquet part, then stats", async () => {
+const FIXTURE_ROWS = 7;
+const FEED_A = "https://a.example/feed.xml";
+const FEED_B = "https://b.example/rss";
+
+// A fake R2 that serves the fixture part under each key in `parts`.
+const withStore = async (
+  o: { parts?: string[]; ranges?: number; builtAt?: string; rows?: number },
+  fn: (store: Store, seen: string[]) => Promise<void>,
+) => {
   const part = await Deno.readFile("fixtures/feed_item.parquet");
+  const parts = o.parts ?? ["table/feed_item/t/part-0.parquet"];
   const seen: string[] = [];
   const server = Deno.serve({
     hostname: "127.0.0.1",
@@ -808,9 +819,14 @@ Deno.test("loadFeedTimes: signed range reads of a parquet part, then stats", asy
       } ${req.headers.get("range") ?? ""}`,
     );
     if (path === "/bkt/table/feed_item.json") {
-      return Response.json({ parts: ["table/feed_item/t/part-0.parquet"] });
+      return Response.json({
+        table: "feed_item",
+        rows: o.rows ?? FIXTURE_ROWS * parts.length,
+        parts,
+        built_at: o.builtAt ?? new Date().toISOString(),
+      });
     }
-    if (path !== "/bkt/table/feed_item/t/part-0.parquet") {
+    if (!parts.some((k) => path === "/bkt/" + k)) {
       return new Response("no", { status: 404 });
     }
     const m = req.headers.get("range")?.match(/^bytes=(\d+)-(\d+)$/);
@@ -821,43 +837,56 @@ Deno.test("loadFeedTimes: signed range reads of a parquet part, then stats", asy
     }
     const body = part.slice(Number(m[1]), Number(m[2]) + 1);
     return new Response(body, {
-      status: 206,
+      status: o.ranges ?? 206,
       headers: { "content-length": String(body.length) },
     });
   });
   try {
-    const store = {
+    await fn({
       endpoint: `http://127.0.0.1:${server.addr.port}`,
       accessKeyId: "k",
       secretAccessKey: "s",
       bucket: "bkt",
-    };
+    }, seen);
+  } finally {
+    await server.shutdown();
+  }
+};
+
+const failsWith = async (p: Promise<unknown>, ...parts: string[]) => {
+  const err = await p.then(() => "", (e) => String(e.message));
+  assert(
+    parts.every((x) => err.includes(x)),
+    `expected an error with ${JSON.stringify(parts)}, got: ${err}`,
+  );
+};
+
+Deno.test("loadFeedTimes: signed range reads of every part, then stats", async () => {
+  await withStore({
+    parts: [
+      "table/feed_item/t/part-0.parquet",
+      "table/feed_item/t/part-1.parquet",
+    ],
+  }, async (store, seen) => {
     const times = await loadFeedTimes(
       store,
-      new Set([
-        "https://a.example/feed.xml",
-        "https://b.example/rss",
-        "https://none.example/rss",
-      ]),
+      new Set([FEED_A, FEED_B, "https://none.example/rss"]),
     );
-    assertEquals([...times.keys()].sort(), [
-      "https://a.example/feed.xml",
-      "https://b.example/rss",
-    ], "other feeds and unwanted feeds dropped");
-    assertEquals(statsOf(times.get("https://a.example/feed.xml")!), {
-      active_at: "2026-08-01T10:00:00Z",
-      posts: 3,
-      cadence: 10.5,
-    }, "1970 and null dates dropped");
-    assertEquals(statsOf(times.get("https://b.example/rss")!), {
-      active_at: "2026-06-01T00:00:00Z",
-      posts: 1,
-    });
     assertEquals(
-      statsOf(times.get("https://none.example/rss") ?? []),
-      undefined,
-      "no rows, no stats",
+      [...times.keys()].sort(),
+      [FEED_A, FEED_B],
+      "other feeds and unwanted feeds dropped",
     );
+    assertEquals(
+      statsOf(times.get(FEED_A)!)?.posts,
+      6,
+      "the same part twice doubles the dated items: null dates dropped, 1970 left to statsOf",
+    );
+    assertEquals(statsOf(times.get(FEED_B)!), {
+      active_at: "2026-06-01T00:00:00Z",
+      posts: 2,
+      cadence: 0,
+    });
     assertEquals(
       seen.every((l) => l.includes("AWS4-HMAC-SHA256")),
       true,
@@ -868,30 +897,129 @@ Deno.test("loadFeedTimes: signed range reads of a parquet part, then stats", asy
       true,
       "the parquet read uses ranges",
     );
+  });
+});
 
-    const err = await loadFeedTimes({ ...store, bucket: "nope" }, new Set())
-      .catch((e) => String(e.message));
-    assert(
-      typeof err === "string" && err.includes("Expected: http 200") &&
-        err.includes("Received: http 404"),
-      "a failed manifest read throws expected and received: " + err,
+Deno.test("loadFeedTimes: a bad store crashes with expected and received", async () => {
+  await withStore({}, async (store) => {
+    await failsWith(
+      loadFeedTimes({ ...store, bucket: "nope" }, new Set([FEED_A])),
+      "Expected: http 200",
+      "Received: http 404",
+    );
+    await failsWith(
+      loadFeedTimes(store, new Set(["https://none.example/rss"])),
+      "No feed_item row matches",
+      "none in",
+    );
+  });
+  await withStore({ ranges: 200 }, async (store) => {
+    await failsWith(
+      loadFeedTimes(store, new Set([FEED_A])),
+      "Expected: http 206",
+      "Received: http 200",
+    );
+  });
+  await withStore({
+    builtAt: new Date(Date.now() - 49 * 3_600_000).toISOString(),
+  }, async (store) => {
+    await failsWith(
+      loadFeedTimes(store, new Set([FEED_A])),
+      "stale",
+      "built_at",
+    );
+  });
+  await withStore({ rows: FIXTURE_ROWS + 1 }, async (store) => {
+    await failsWith(
+      loadFeedTimes(store, new Set([FEED_A])),
+      "partial feed_item table",
+      `${FIXTURE_ROWS + 1} rows`,
+    );
+  });
+});
+
+Deno.test("enrich: a known feed is never fetched, a new feed waits for the store", async () => {
+  const requested: string[] = [];
+  const real = globalThis.fetch;
+  globalThis.fetch = (input) => {
+    const url = String(input instanceof Request ? input.url : input);
+    requested.push(url);
+    return Promise.resolve(
+      new Response(
+        url.includes("hn.algolia.com")
+          ? '{"hits":[]}'
+          : "<html><title>t</title></html>",
+        { status: url.includes("/feed.xml") ? 404 : 200 },
+      ),
+    );
+  };
+  try {
+    const c = {
+      filled: 0,
+      pageOk: 0,
+      pageFail: 0,
+      hnOk: 0,
+      hnFail: 0,
+      feedOk: 0,
+      feedUnseen: 0,
+    };
+    const day = 86_400_000, t0 = Date.now() - 10 * day;
+    const times = new Map([[FEED_A, [t0, t0 + 2 * day, t0 + 4 * day]]]);
+    const known: Blog = {
+      url: "https://a.example/",
+      feed: FEED_A,
+      cadence: 99,
+    };
+    const bare: Blog = { url: "https://bare.example/" };
+    await enrich(known, c, times);
+    await enrich(bare, c, times);
+    assertEquals(
+      [known.posts, known.cadence],
+      [3, 2],
+      "stats come from the store and replace the old cadence",
+    );
+    assertEquals(
+      requested.includes(FEED_A),
+      false,
+      "the known feed is never requested",
+    );
+    assertEquals(
+      requested.includes("https://bare.example/feed.xml"),
+      true,
+      "a blog with no feed still probes for one",
+    );
+    assertEquals([c.feedOk, c.feedUnseen], [1, 0]);
+    await enrich(
+      { url: "https://c.example/", feed: "https://c.example/rss" },
+      c,
+      times,
+    );
+    assertEquals(
+      c.feedUnseen,
+      1,
+      "a feed with no rows in the store is counted",
     );
   } finally {
-    await server.shutdown();
+    globalThis.fetch = real;
   }
 });
 
 Deno.test("storeFromEnv: a missing variable names itself and the fix", () => {
+  const was = Deno.env.get("SHELOB_ACCOUNT_ID");
   Deno.env.delete("SHELOB_ACCOUNT_ID");
-  let msg = "";
   try {
-    storeFromEnv();
-  } catch (e) {
-    msg = (e as Error).message;
+    let msg = "";
+    try {
+      storeFromEnv();
+    } catch (e) {
+      msg = (e as Error).message;
+    }
+    assert(
+      msg.startsWith("SHELOB_ACCOUNT_ID is not set") &&
+        msg.includes("copy SHELOB_ACCOUNT_ID into .env"),
+      "names the variable and the fix: " + msg,
+    );
+  } finally {
+    if (was !== undefined) Deno.env.set("SHELOB_ACCOUNT_ID", was);
   }
-  assert(
-    msg.startsWith("SHELOB_ACCOUNT_ID is not set") &&
-      msg.includes("copy SHELOB_ACCOUNT_ID into .env"),
-    "names the variable and the fix: " + msg,
-  );
 });

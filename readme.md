@@ -74,10 +74,13 @@ deno run --env-file=.env --allow-env=SHELOB_ACCOUNT_ID,SHELOB_ACCESS_KEY_ID,SHEL
 
 The full refresh reads each blog's `active_at`, `posts`, and `cadence` from
 shelob's `feed_item` table (a read-only R2 bucket) and fetches no known feed.
-`posts` counts every item shelob has seen. `.env` (git-ignored) needs
-`SHELOB_ACCOUNT_ID`, `SHELOB_ACCESS_KEY_ID`, `SHELOB_SECRET_ACCESS_KEY`, and
-`SHELOB_BUCKET`. A blog whose feed has no rows there keeps its stats. Adding
-blogs by URL needs no keys.
+`posts` counts every dated item shelob has seen; an undated item is ignored.
+`.env` (git-ignored) needs `SHELOB_ACCOUNT_ID`, `SHELOB_ACCESS_KEY_ID`,
+`SHELOB_SECRET_ACCESS_KEY`, and `SHELOB_BUCKET`. A blog whose feed has no rows
+there keeps its stats, but the run fails when no blog feed has rows, when the
+table is over 48 hours old, or when the rows read differ from the manifest's
+count. A feed found by the scrape in a full run gets its stats once shelob has
+fetched it. Adding blogs by URL needs no keys.
 
 It fills in missing fields (title, desc, feed, about, now, and
 github/bluesky/x/mastodon profiles found on the blog's homepage or /about page)

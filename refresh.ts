@@ -13,6 +13,9 @@ const TIMEOUT = 10_000;
 const MAX_HTML = 512 * 1024;
 const MAX_FEED = 16 * 1024 * 1024;
 const STORE_TIMEOUT = 60_000;
+const STORE_DEADLINE = 600_000;
+const MAX_PARTS = 1000; // shelob's appending fold alarms at 1,000 parts
+const MAX_AGE = 48 * 3_600_000; // a stalled shelob build must not read as inactive blogs
 const UA = "blogs.hn-bot/1 (+https://blogs.hn)";
 
 export type Hn = {
@@ -488,7 +491,7 @@ const feedDates = (xml: string): number[] => {
 
 export type FeedStats = { active_at: string; posts: number; cadence?: number };
 
-// REVIEW: posts counts every item shelob has seen, not the feed's current window (about 10-50 items). A weekly blog now reads in the hundreds after a few years. Alternative: count only items published in the last 365 days. It keeps the old scale but hides a blog's history.
+// REVIEW: posts counts every dated item shelob has seen (undated items are ignored), not the feed's current window (about 10-50 items). A weekly blog now reads in the hundreds after a few years. Alternative: count only items published in the last 365 days. It keeps the old scale but hides a blog's history.
 export const statsOf = (times: number[]): FeedStats | undefined => {
   const now = Date.now();
   // Clock-skewed and placeholder dates are worse than no date at all.
@@ -571,7 +574,8 @@ const storeError = (
 ): Error =>
   new Error(
     `${what}. Expected: ${expected}. Received: ${received}. Source: ${source}. ` +
-      `Likely fix: check the SHELOB_* keys in .env and that the shelob table exists.`,
+      `Likely fix: check the SHELOB_* keys in .env and that the shelob table exists. ` +
+      `If a shelob build was running, it replaced a part under this read: rerun.`,
   );
 
 // Published times, in ms, of every feed_item row whose feed is in `feeds`.
@@ -606,31 +610,61 @@ export const loadFeedTimes = async (
       murl,
     );
   }
-  let parts: unknown;
+  let manifest;
   try {
-    parts = (await mres.json()).parts;
+    manifest = await mres.json();
   } catch (err) {
     throw storeError(
       "Cannot parse the feed_item manifest",
-      "JSON with a parts array",
+      "JSON",
       msg(err),
       murl,
     );
   }
+  const { table, rows: want, parts, built_at } = manifest ?? {};
+  const age = Date.now() - Date.parse(built_at);
   if (
+    table !== "feed_item" || typeof want !== "number" ||
     !Array.isArray(parts) || !parts.length ||
-    !parts.every((p) => typeof p === "string")
+    !parts.every((p) =>
+      typeof p === "string" && p.startsWith("table/feed_item/")
+    ) || !(age < MAX_AGE)
   ) {
     throw storeError(
-      "Malformed feed_item manifest",
-      "a non-empty parts array of keys",
-      JSON.stringify(parts)?.slice(0, 200),
+      "Malformed or stale feed_item manifest",
+      `table feed_item, a numeric rows, a non-empty parts array of table/feed_item/ keys, built_at under ${
+        MAX_AGE / 3_600_000
+      } hours ago`,
+      JSON.stringify({
+        table,
+        rows: want,
+        parts: Array.isArray(parts) ? `${parts.length} parts` : parts,
+        built_at,
+      }).slice(0, 300),
+      murl,
+    );
+  }
+  if (parts.length > MAX_PARTS) {
+    throw storeError(
+      "Too many feed_item parts",
+      `at most ${MAX_PARTS}`,
+      String(parts.length),
       murl,
     );
   }
 
   const out = new Map<string, number[]>();
-  for (const key of parts as string[]) {
+  const started = Date.now();
+  let read = 0;
+  for (const [n, key] of (parts as string[]).entries()) {
+    if (Date.now() - started > STORE_DEADLINE) {
+      throw storeError(
+        "Reading feed_item took too long",
+        `all ${parts.length} parts within ${STORE_DEADLINE / 1000}s`,
+        `${n} parts in ${Math.round((Date.now() - started) / 1000)}s`,
+        murl,
+      );
+    }
     const { res: head, url } = await get(key, { method: "HEAD" });
     const byteLength = Number(head.headers.get("content-length"));
     if (!head.ok || !byteLength) {
@@ -675,6 +709,7 @@ export const loadFeedTimes = async (
         url,
       );
     }
+    read += rows.length;
     for (const r of rows) {
       if (typeof r.feed !== "string") {
         throw storeError(
@@ -693,11 +728,36 @@ export const loadFeedTimes = async (
           url,
         );
       }
+      if (Number.isNaN(r.published_at.getTime())) {
+        throw storeError(
+          "Malformed feed_item row",
+          "a valid published_at",
+          "an invalid date",
+          url,
+        );
+      }
       if (!feeds.has(r.feed)) continue;
       const list = out.get(r.feed) ?? [];
       list.push(r.published_at.getTime());
       out.set(r.feed, list);
     }
+  }
+  if (read !== want) {
+    throw storeError(
+      "Read a partial feed_item table",
+      `${want} rows, as the manifest says`,
+      `${read} rows`,
+      murl,
+    );
+  }
+  // A wrong bucket or a feed URL form that differs from shelob's feed_list matches nothing.
+  if (feeds.size && !out.size) {
+    throw storeError(
+      "No feed_item row matches any blog feed",
+      `rows for some of ${feeds.size} feeds`,
+      `none in ${read} rows`,
+      murl,
+    );
   }
   return out;
 };
@@ -810,8 +870,8 @@ type Counters = {
   pageFail: number;
   hnOk: number;
   hnFail: number;
-  feedOk?: number;
-  feedUnseen?: number;
+  feedOk: number;
+  feedUnseen: number;
 };
 
 const msg = (
@@ -825,6 +885,7 @@ export const enrich = async (
   c: Counters,
   times?: Map<string, number[]>,
 ): Promise<void> => {
+  const known = !!blog.feed;
   let html: string | undefined;
   try {
     html = await fetchHtml(blog.url);
@@ -861,21 +922,34 @@ export const enrich = async (
   }
   // Unlike scraped fields, activity is live data: it overwrites every run,
   // the same way HN points do. A feed that shelob has no rows for keeps its stats.
-  if (blog.feed) {
-    if (times) {
-      const stats = statsOf(times.get(blog.feed) ?? []);
-      if (stats) {
-        Object.assign(blog, stats);
-        c.feedOk = (c.feedOk ?? 0) + 1;
-      } else c.feedUnseen = (c.feedUnseen ?? 0) + 1;
+  // REVIEW: A feed found in this run gets live stats only in URL mode. A full run sets the feed and waits for shelob's rows, so posts keeps one scale. Alternative: fetch it now. The blog then shows a window of 10-50 items until shelob catches up.
+  if (known) {
+    if (!times) {
+      throw new Error(
+        `enrich: ${blog.url} has a feed but no store times. Expected: a Map from loadFeedTimes. Source: refresh.ts main.`,
+      );
+    }
+    const stats = statsOf(times.get(blog.feed!) ?? []);
+    if (stats) {
+      delete blog.cadence;
+      Object.assign(blog, stats);
+      c.feedOk++;
+    } else c.feedUnseen++;
+  } else if (blog.feed) {
+    if (!times) {
+      try {
+        const stats = await fetchFeed(blog.feed);
+        if (stats) Object.assign(blog, stats);
+      } catch (err) {
+        console.error(`${blog.feed}: ${msg(err)}`);
+      }
     }
   } else {
     const found = await discoverFeed(blog.url);
     if (found) {
       blog.feed = found.feed;
-      Object.assign(blog, found.stats);
+      if (!times) Object.assign(blog, found.stats);
       c.filled++;
-      c.feedOk = (c.feedOk ?? 0) + 1;
     }
   }
   try {
@@ -902,12 +976,20 @@ const pool = async <T>(
 };
 
 if (import.meta.main) {
-  const c: Counters = { filled: 0, pageOk: 0, pageFail: 0, hnOk: 0, hnFail: 0 };
+  const c: Counters = {
+    filled: 0,
+    pageOk: 0,
+    pageFail: 0,
+    hnOk: 0,
+    hnFail: 0,
+    feedOk: 0,
+    feedUnseen: 0,
+  };
   const summary = (prefix: string) =>
     console.error(
       `${prefix}${c.filled} fields filled, ` +
         `${c.pageOk} pages ok, ${c.pageFail} pages failed, ` +
-        `${c.feedOk ?? 0} feeds ok, ${c.feedUnseen ?? 0} feeds unseen, ` +
+        `${c.feedOk} feeds ok, ${c.feedUnseen} feeds unseen, ` +
         `${c.hnOk} hn ok, ${c.hnFail} hn failed`,
     );
   const urls = Deno.args.filter((a) => !a.startsWith("--"));
