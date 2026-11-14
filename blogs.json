@@ -193,6 +193,18 @@
     ]
   },
   {
+    "url": "https://sameerbajaj.com",
+    "title": "Sameer Bajaj",
+    "desc": "Product Manager and software builder writing about AI product strategy, systems, and tools.",
+    "now": "https://sameerbajaj.com/now",
+    "feed": "https://sameerbajaj.com/feed.xml",
+    "active_at": "2026-06-25T00:00:00Z",
+    "posts": 63,
+    "cadence": 7,
+    "github": "https://github.com/sameerbajaj",
+    "x": "https://x.com/sameerbajaj"
+  },
+  {
     "url": "https://emulationonline.com",
     "title": "Emulators and Retro System Deep-dives",
     "desc": "Blog about building emulators for classic systems, and how those systems work.",
