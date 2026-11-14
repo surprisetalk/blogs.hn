@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "check": "deno fmt --check && deno lint && deno check *.ts && deno test --allow-read=blogs.json"
+    "check": "deno fmt --check && deno lint && deno check *.ts && deno test --allow-read --allow-write --allow-run=node,deno",
+    "status": "deno run --allow-net=blogs.hn,api.github.com,raw.githubusercontent.com status.ts"
   },
   "fmt": {
     "exclude": [
@@ -11,5 +12,9 @@
       "todo.md"
     ]
   },
-  "lint": { "exclude": ["dist/"] }
+  "lint": {
+    "exclude": [
+      "dist/"
+    ]
+  }
 }

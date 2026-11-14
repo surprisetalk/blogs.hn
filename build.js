@@ -4,15 +4,19 @@ const process = require("child_process");
 process.execSync("mkdir -p dist");
 process.execSync("cp style.css dist/style.css");
 
-const template = fs.readFileSync("./template.html", "utf-8");
+const raw = fs.readFileSync("./template.html", "utf-8");
 // A formatter once rewrote the slot as {{ body }}, and replace() then built pages with no body.
-if (template.split("{{body}}").length !== 2) {
-  throw new Error(
-    "build.js: expected template.html to hold exactly one {{body}} slot. Received " +
-      (template.split("{{body}}").length - 1) +
-      ". Fix: restore {{body}} in template.html, and keep the file out of deno fmt.",
-  );
+// status.ts reads the stamp from this exact meta tag.
+for (const slot of ["{{body}}", '<meta name="built" content="{{built}}" />']) {
+  const n = raw.split(slot).length - 1;
+  if (n !== 1) {
+    throw new Error(
+      `build.js: expected template.html to hold exactly one ${slot} slot. Received ${n}. Fix: restore ${slot} in template.html, and keep the file out of deno fmt.`,
+    );
+  }
 }
+// status.ts reads this stamp to tell whether the hourly deploy still runs.
+const template = raw.replace("{{built}}", new Date().toISOString());
 
 const esc = (unsafe) => {
   return unsafe.replace(/[<>&'"]/g, (c) => {
@@ -93,6 +97,11 @@ const blogs = allBlogs
   .sort((a, b) => b.key - a.key)
   .slice(0, PAGE_SIZE)
   .map((x) => x.blog);
+if (blogs.length === 0) {
+  throw new Error(
+    `build.js: expected blogs on the front page, received 0 of ${allBlogs.length} in blogs.json. Fix: check qualifies(); a stale refresh ages every active_at past two years.`,
+  );
+}
 
 // Sampling leaves the list ordered by key, which tracks quality. Shuffle so
 // the page does not silently rank its own contents.
@@ -178,7 +187,8 @@ index += `
 
 fs.writeFileSync(
   "./dist/index.html",
-  template.replace("{{body}}", `<main id="index">${index}</main>`),
+  // A function, because a string replacement reads $` and $& in blog titles as patterns.
+  template.replace("{{body}}", () => `<main id="index">${index}</main>`),
 );
 
 const about = `
@@ -198,7 +208,7 @@ const about = `
 
 fs.writeFileSync(
   "./dist/about.html",
-  template.replace("{{body}}", `<main id="about">${about}</main>`),
+  template.replace("{{body}}", () => `<main id="about">${about}</main>`),
 );
 
 fs.writeFileSync(

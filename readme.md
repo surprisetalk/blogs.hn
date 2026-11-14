@@ -90,6 +90,12 @@ deno run --allow-read=blogs.json --allow-write=blogs.json refresh.ts --fmt
 Run `git config core.hooksPath .githooks` once per clone, and every commit runs
 the same checks as CI.
 
+## Status
+
+`deno task status` grades production blogs.hn and exits 1 when any condition
+scores below 1.0. A monitor runs it every hour. `deno task check` runs the
+formatter, linter, typechecker, and tests.
+
 ## Activity
 
 `active_at`, `posts`, and `cadence` are read from the blog's feed: the date of
