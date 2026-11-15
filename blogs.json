@@ -4253,9 +4253,9 @@
     "desc": "My personal Substack.",
     "about": "https://auralie.substack.com/about",
     "feed": "https://auralie.substack.com/feed",
-    "active_at": "2026-05-09T18:21:41Z",
-    "posts": 3,
-    "cadence": 587.1
+    "active_at": "2026-11-14T22:58:02Z",
+    "posts": 4,
+    "cadence": 189.2
   },
   {
     "url": "https://austinhenley.com",
@@ -12120,9 +12120,9 @@
     "desc": "All things synthetic.",
     "about": "https://denovo.substack.com/about",
     "feed": "https://denovo.substack.com/feed",
-    "active_at": "2026-09-20T23:29:35Z",
-    "posts": 20,
-    "cadence": 25.7,
+    "active_at": "2026-11-15T00:30:01Z",
+    "posts": 21,
+    "cadence": 26.8,
     "hn": [
       {
         "created_at": "2022-07-01T12:29:06Z",
@@ -18563,9 +18563,9 @@
     "desc": "Josh is a seasoned startup operator, software engineer, and gardener in Chicago and online/everywhere.",
     "about": "https://joshbeckman.org/about",
     "feed": "https://www.joshbeckman.org/feed.xml",
-    "active_at": "2026-11-11T11:05:00Z",
-    "posts": 37,
-    "cadence": 1.5,
+    "active_at": "2026-11-13T22:18:26Z",
+    "posts": 38,
+    "cadence": 1.8,
     "github": "https://github.com/joshbeckman",
     "bluesky": "https://bsky.app/profile/joshbeckman.org",
     "mastodon": "https://mastodon.social/@joshbeckman",
@@ -41605,8 +41605,8 @@
     "title": "Jamie Tanna | Software Engineer",
     "now": "https://jvt.me/now/",
     "feed": "https://www.jvt.me/feed.xml?atom",
-    "active_at": "2026-11-14T15:34:00Z",
-    "posts": 141,
+    "active_at": "2026-11-14T22:00:00Z",
+    "posts": 143,
     "cadence": 0.1,
     "bluesky": "https://bsky.app/profile/www.jvt.me.web.brid.gy",
     "x": "https://x.com/jamietanna",
@@ -42298,8 +42298,8 @@
     "title": "Simon Willison’s Weblog",
     "about": "https://simonwillison.net/about/",
     "feed": "https://simonwillison.net/atom/everything/",
-    "active_at": "2026-11-13T23:02:45Z",
-    "posts": 71,
+    "active_at": "2026-11-14T23:59:28Z",
+    "posts": 73,
     "cadence": 0.3,
     "github": "https://github.com/simonw",
     "x": "https://x.com/simonw",
@@ -45206,9 +45206,9 @@
     "url": "https://aquova.net",
     "title": "aquova.net",
     "feed": "https://aquova.net/rss.xml",
-    "active_at": "2026-08-24T06:00:00Z",
-    "posts": 18,
-    "cadence": 20.9,
+    "active_at": "2026-11-14T19:00:00Z",
+    "posts": 19,
+    "cadence": 23,
     "bluesky": "https://bsky.app/profile/aquova.net",
     "mastodon": "https://mastodon.gamedev.place/@aquova"
   },
@@ -49915,9 +49915,9 @@
     "desc": "Digitaliziran.si",
     "keywords": "ai,audit,ciso,configuration,development,esg,ethics,gdpr,general,happiness,legal,linguistics,regualtion,research,safety,security,team,translation,ai,atrophied and unprepared,azure,blockchain,configuration,cryptography,customer engagement,development,dora,dynamics 365,edpb,education,eli5,en,energy,env",
     "feed": "https://digitaliziran.si/feed",
-    "active_at": "2026-10-26T00:00:00Z",
-    "posts": 20,
-    "cadence": 16
+    "active_at": "2026-11-14T21:45:00Z",
+    "posts": 23,
+    "cadence": 15.6
   },
   {
     "url": "https://digitalseams.com",
@@ -50324,7 +50324,7 @@
         "created_at": "2026-11-10T15:25:20Z",
         "title": "Smart home devices should work without the internet",
         "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-        "points": 1197,
+        "points": 1198,
         "comments": 442,
         "id": "50441707"
       }
@@ -65303,9 +65303,9 @@
     "desc": "a personal website",
     "about": "https://simonshine.dk/about",
     "feed": "https://simonshine.dk/index.xml",
-    "active_at": "2026-11-11T14:32:52Z",
-    "posts": 78,
-    "cadence": 5.5,
+    "active_at": "2026-11-15T00:50:00Z",
+    "posts": 80,
+    "cadence": 4.7,
     "github": "https://github.com/sshine"
   },
   {
@@ -69038,7 +69038,7 @@
         "created_at": "2026-11-11T20:05:29Z",
         "title": "Why are we still working this hard?",
         "url": "https://wilsoniumite.com/2026/11/11/why-are-we-still-working-this-hard/",
-        "points": 243,
+        "points": 244,
         "comments": 302,
         "id": "50457939"
       },
@@ -84947,9 +84947,9 @@
     "title": "Ben Visness",
     "about": "https://bvisness.me/about/",
     "feed": "https://bvisness.me/index.xml",
-    "active_at": "2026-01-03T12:00:00Z",
-    "posts": 19,
-    "cadence": 96.5,
+    "active_at": "2026-11-14T12:00:00Z",
+    "posts": 20,
+    "cadence": 105,
     "github": "https://github.com/bvisness",
     "x": "https://x.com/its_bvisness",
     "hn": [
@@ -86730,7 +86730,7 @@
     "title": "Brian Bien",
     "feed": "https://brianbien.com/feed/",
     "active_at": "2023-02-07T15:04:38Z",
-    "posts": 10,
+    "posts": 16,
     "cadence": 203.3,
     "hn": [
       {
@@ -95507,7 +95507,7 @@
         "title": "What happened to 3Com?",
         "url": "https://dfarq.homeip.net/what-happened-to-3com/",
         "points": 198,
-        "comments": 121,
+        "comments": 123,
         "id": "50491830"
       },
       {
@@ -122471,8 +122471,8 @@
     "desc": "Essays and photography from Nat Bennett. Based in Minneapolis.",
     "about": "https://www.simplermachines.com/about/",
     "feed": "https://www.simplermachines.com/rss/",
-    "active_at": "2026-11-14T01:04:00Z",
-    "posts": 30,
+    "active_at": "2026-11-15T01:05:00Z",
+    "posts": 31,
     "cadence": 1,
     "x": "https://x.com/SimplerMachines",
     "hn": [
@@ -129900,9 +129900,9 @@
     "title": "The Angry Dev · Darren Horrocks explains various Programming and DevOps practices, with some guides, explanations and ramblings from a sometimes angry man",
     "desc": "Darren Horrocks explains various Programming and DevOps practices, with some guides, explanations and ramblings from a sometimes angry man",
     "feed": "https://www.darrenhorrocks.co.uk/feed.xml",
-    "active_at": "2026-06-30T12:59:17Z",
-    "posts": 123,
-    "cadence": 2.8,
+    "active_at": "2026-11-14T12:00:00Z",
+    "posts": 124,
+    "cadence": 2.9,
     "github": "https://github.com/bizzehdee",
     "hn": [
       {
@@ -144797,9 +144797,9 @@
     "desc": "thoughts and ideas",
     "about": "https://sunshowers.io/about",
     "feed": "https://sunshowers.io/index.xml",
-    "active_at": "2026-11-12T00:00:00Z",
-    "posts": 22,
-    "cadence": 36,
+    "active_at": "2026-11-14T00:00:00Z",
+    "posts": 23,
+    "cadence": 34.5,
     "github": "https://github.com/sunshowers",
     "bluesky": "https://bsky.app/profile/sunshowers.io",
     "x": "https://x.com/sunshowers6",
@@ -153107,8 +153107,8 @@
     "about": "https://lmika.org/about/",
     "now": "https://lmika.org/now/",
     "feed": "https://lmika.org/feed.xml",
-    "active_at": "2026-11-14T21:46:22Z",
-    "posts": 91,
+    "active_at": "2026-11-15T00:36:55Z",
+    "posts": 94,
     "cadence": 0.2,
     "github": "https://github.com/lmika",
     "x": "https://x.com/_leonmika",
@@ -154052,9 +154052,9 @@
     "url": "https://charap.co",
     "title": "Aleksey Charapko",
     "feed": "https://charap.co/feed/",
-    "active_at": "2026-05-02T20:53:18Z",
-    "posts": 10,
-    "cadence": 15.7,
+    "active_at": "2026-11-14T23:59:59Z",
+    "posts": 11,
+    "cadence": 37.4,
     "x": "https://x.com/AlekseyCharapko",
     "hn": [
       {
@@ -159639,8 +159639,8 @@
     "title": "x-log",
     "desc": "x-log - personal weblog of Andreas Jaggi",
     "feed": "https://blog.x-way.org/rss.xml",
-    "active_at": "2026-10-18T07:43:29Z",
-    "posts": 934,
+    "active_at": "2026-11-14T22:42:09Z",
+    "posts": 935,
     "cadence": 1.7,
     "github": "https://github.com/x-way",
     "mastodon": "https://infosec.exchange/@x_way",
@@ -159990,8 +159990,8 @@
     "title": "Manton Reece",
     "about": "https://www.manton.org/about/",
     "feed": "https://www.manton.org/feed.xml",
-    "active_at": "2026-11-14T18:40:59Z",
-    "posts": 142,
+    "active_at": "2026-11-14T22:06:02Z",
+    "posts": 143,
     "cadence": 0.1,
     "github": "https://github.com/manton",
     "x": "https://x.com/mantonsblog",
@@ -162060,9 +162060,9 @@
     "desc": "ava's blog documenting life, little projects, tech adventures and more.",
     "now": "https://blog.avas.space/now/",
     "feed": "https://blog.avas.space/feed/",
-    "active_at": "2026-11-14T19:58:32Z",
-    "posts": 13,
-    "cadence": 3,
+    "active_at": "2026-11-14T22:27:55Z",
+    "posts": 14,
+    "cadence": 2.7,
     "hn": [
       {
         "created_at": "2024-11-23T17:06:19Z",
@@ -167426,8 +167426,8 @@
         "created_at": "2026-11-12T22:03:09Z",
         "title": "Reverse engineering my Coway air purifier to ditch the cloud",
         "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-        "points": 782,
-        "comments": 221,
+        "points": 786,
+        "comments": 222,
         "id": "50474959"
       }
     ]
@@ -173709,9 +173709,9 @@
     "url": "https://linesandcolors.com",
     "title": "Lines and Colors",
     "feed": "https://linesandcolors.com/feed/",
-    "active_at": "2026-11-14T01:45:25Z",
-    "posts": 12,
-    "cadence": 3.1,
+    "active_at": "2026-11-15T00:02:42Z",
+    "posts": 13,
+    "cadence": 2.5,
     "bluesky": "https://bsky.app/profile/linesandcolors.bsky.social",
     "x": "https://x.com/CharleyParkerLC",
     "mastodon": "https://mastodon.art/@linesandcolors"
@@ -173809,8 +173809,8 @@
     "title": "Shouting Into The Void",
     "desc": "Fitz's Roleplaying, Wargaming and Modeling-related blather",
     "feed": "https://mojobob.blogspot.com/feeds/posts/default",
-    "active_at": "2026-11-14T22:04:28Z",
-    "posts": 39,
+    "active_at": "2026-11-15T01:09:01Z",
+    "posts": 40,
     "cadence": 1
   },
   {
@@ -175135,8 +175135,8 @@
     "title": "@Kevuhnn / 📸 / 📚 / 🇨🇦 -",
     "about": "https://kevuhnn.com/about/",
     "feed": "https://kevuhnn.com/feed/",
-    "active_at": "2026-11-14T13:31:52Z",
-    "posts": 53,
+    "active_at": "2026-11-14T23:02:10Z",
+    "posts": 55,
     "cadence": 0.4,
     "x": "https://x.com/kevuhnn"
   },
@@ -176833,9 +176833,9 @@
     "title": "Analog Gaming | Posts",
     "desc": "Image galleries and blog posts about board games and tabletop games.",
     "feed": "https://analog-gaming.de/posts/index.xml",
-    "active_at": "2026-07-22T19:00:00Z",
-    "posts": 14,
-    "cadence": 100.9,
+    "active_at": "2026-11-14T19:00:00Z",
+    "posts": 15,
+    "cadence": 106,
     "bluesky": "https://bsky.app/profile/analog-gaming.de",
     "x": "https://x.com/analog_gaming_",
     "mastodon": "https://mastodon.social/@analog_gaming"
@@ -180399,8 +180399,8 @@
     "title": "Buildings of New England – Exploring New England and showcasing amazing architecture and history one building at a time!",
     "desc": "Exploring New England and showcasing amazing architecture and history one building at a time!",
     "feed": "https://buildingsofnewengland.com/feed/",
-    "active_at": "2026-11-14T12:01:00Z",
-    "posts": 42,
+    "active_at": "2026-11-14T23:06:00Z",
+    "posts": 43,
     "cadence": 0.5
   },
   {
@@ -182433,8 +182433,8 @@
     "url": "https://diamondgeezer.blogspot.com",
     "title": "diamond geezer",
     "feed": "http://diamondgeezer.blogspot.com/atom.xml",
-    "active_at": "2026-11-14T07:00:00Z",
-    "posts": 44,
+    "active_at": "2026-11-15T00:10:00Z",
+    "posts": 45,
     "cadence": 1,
     "bluesky": "https://bsky.app/profile/diamondgeezerblog.bsky.social",
     "hn": [
@@ -185196,8 +185196,8 @@
     "desc": "Alfred Soto's blog about arts and politics.",
     "about": "https://humanizingthevacuum.wordpress.com/about/",
     "feed": "https://humanizingthevacuum.wordpress.com/feed/",
-    "active_at": "2026-11-14T01:05:00Z",
-    "posts": 45,
+    "active_at": "2026-11-15T00:21:04Z",
+    "posts": 46,
     "cadence": 0.5
   },
   {
@@ -186900,8 +186900,8 @@
     "desc": "A place where Justin Searls is content to post content.",
     "about": "https://justin.searls.co/about/",
     "feed": "https://justin.searls.co/atom.xml",
-    "active_at": "2026-11-14T19:18:31Z",
-    "posts": 133,
+    "active_at": "2026-11-14T23:21:59Z",
+    "posts": 134,
     "cadence": 0.5,
     "github": "https://github.com/searls",
     "x": "https://x.com/searls",
@@ -187460,9 +187460,9 @@
     "about": "https://kimberlyhirsh.com/about/",
     "now": "https://kimberlyhirsh.com/now/",
     "feed": "https://kimberlyhirsh.com/feed.xml",
-    "active_at": "2026-11-14T15:57:53Z",
-    "posts": 44,
-    "cadence": 0.6,
+    "active_at": "2026-11-14T23:46:22Z",
+    "posts": 45,
+    "cadence": 0.5,
     "github": "https://github.com/kimberlyhirsh",
     "bluesky": "https://bsky.app/profile/kimberlyhirsh.com",
     "x": "https://x.com/kimberlyhirsh"
@@ -188402,8 +188402,8 @@
     "desc": "I'm Jennifer Laughran. I'm a Senior Agent at the Andrea Brown Literary Agency, representing great authors and illustrators of children's and YA books. I'm also a life-long bookseller and sloth fan....",
     "keywords": "technical questions,faq,nonfiction,children's nonfiction",
     "feed": "https://literaticat.tumblr.com/rss",
-    "active_at": "2026-11-12T22:10:32Z",
-    "posts": 35,
+    "active_at": "2026-11-14T23:39:11Z",
+    "posts": 38,
     "cadence": 0.6
   },
   {
@@ -188980,9 +188980,9 @@
     "keywords": "academic editor, translator (German to English), history, teaching, academic blogging, academic publishing, scholarly communication, history of knowledge, German history, war and society, social history, cultural history, gender history, military history, historiography, Wilhelm Groener, World War I",
     "about": "https://markstoneman.com/about/",
     "feed": "https://markstoneman.com/feed.xml",
-    "active_at": "2026-11-14T03:30:28Z",
-    "posts": 31,
-    "cadence": 1.9
+    "active_at": "2026-11-15T01:13:48Z",
+    "posts": 32,
+    "cadence": 1.8
   },
   {
     "url": "https://matthewsheret.wordpress.com",
@@ -191998,9 +191998,9 @@
     "title": "Way Too Damn Lazy To Write A Blog",
     "desc": "Musings On 20th Century Pop Culture by Psychotronic Paul",
     "feed": "https://psychotronicpaul.blogspot.com/feeds/posts/default",
-    "active_at": "2026-11-06T19:26:52Z",
-    "posts": 27,
-    "cadence": 6.4
+    "active_at": "2026-11-14T23:34:05Z",
+    "posts": 28,
+    "cadence": 6.5
   },
   {
     "url": "https://psychogeographicreview.com",
@@ -192138,8 +192138,8 @@
     "desc": "Perspectives on thinking, learning, decision making, and occasionally running.",
     "about": "https://questionsconsidered.blog/about/",
     "feed": "https://questionsconsidered.blog/feed/",
-    "active_at": "2026-11-14T00:01:36Z",
-    "posts": 24,
+    "active_at": "2026-11-15T00:32:02Z",
+    "posts": 25,
     "cadence": 1.1
   },
   {
@@ -193141,8 +193141,8 @@
     "title": "Sail Delmarva",
     "desc": "Sailing Chesapeake Bay books racing instructional Catamaran Delmarva Kayak Fishing DIY cheap maintenance repair boat cruising anchoring singlehanding",
     "feed": "https://sail-delmarva.blogspot.com/feeds/posts/default",
-    "active_at": "2026-11-08T17:39:37Z",
-    "posts": 31,
+    "active_at": "2026-11-15T00:27:55Z",
+    "posts": 32,
     "cadence": 3.2
   },
   {
@@ -193467,9 +193467,9 @@
     "about": "https://scottboms.com/about",
     "now": "https://scottboms.com/now",
     "feed": "https://scottboms.com/rss",
-    "active_at": "2026-11-09T23:10:00Z",
-    "posts": 13,
-    "cadence": 5.3,
+    "active_at": "2026-11-14T16:30:00Z",
+    "posts": 14,
+    "cadence": 4.7,
     "github": "https://github.com/scottboms",
     "bluesky": "https://bsky.app/profile/scottboms.bsky.social",
     "mastodon": "https://typo.social/@scottboms"
@@ -194469,8 +194469,8 @@
     "desc": "Home for fanfics, LOLz and musings in the spirit of Hanna-Barbera and its byproducts. Dedicated to the memories of William Hanna (1910-2001), Joseph Barbera (1911-2006), Daws Butler (1916-1988), Don...",
     "keywords": "hannabarberaforever,hanna barbera,vignette,peter potamus,trollkins",
     "feed": "https://sohannabarberaesque.tumblr.com/rss",
-    "active_at": "2026-11-14T18:04:47Z",
-    "posts": 113,
+    "active_at": "2026-11-15T00:01:34Z",
+    "posts": 115,
     "cadence": 0.1
   },
   {
@@ -194608,8 +194608,8 @@
     "url": "https://spitalfieldslife.com",
     "title": "Spitalfields Life | In the midst of life I woke to find myself living in an old house beside Brick Lane in the East End of London",
     "feed": "https://spitalfieldslife.com/feed/",
-    "active_at": "2026-11-14T00:01:01Z",
-    "posts": 27,
+    "active_at": "2026-11-15T00:01:42Z",
+    "posts": 28,
     "cadence": 1,
     "hn": [
       {
@@ -196353,8 +196353,8 @@
     "title": "blog | The White Pube",
     "about": "https://thewhitepube.co.uk/about",
     "feed": "https://thewhitepube.co.uk/index.xml",
-    "active_at": "2026-11-09T00:00:00Z",
-    "posts": 880,
+    "active_at": "2026-11-14T00:00:00Z",
+    "posts": 881,
     "cadence": 3,
     "bluesky": "https://bsky.app/profile/thewhitepube.bsky.social"
   },
@@ -197022,8 +197022,8 @@
     "title": "TWIN PEAKS BLOG | Documenting and archiving my fascination with David Lynch and Mark Frost's TWIN PEAKS, TWIN PEAKS: FIRE WALK WITH ME and TWIN PEAKS: THE RETURN.",
     "desc": "Documenting and archiving my fascination with David Lynch and Mark Frost's TWIN PEAKS, TWIN PEAKS: FIRE WALK WITH ME and TWIN PEAKS: THE RETURN.",
     "feed": "https://twinpeaksblog.com/feed/",
-    "active_at": "2026-11-12T21:17:41Z",
-    "posts": 20,
+    "active_at": "2026-11-15T00:04:27Z",
+    "posts": 21,
     "cadence": 1.2,
     "bluesky": "https://bsky.app/profile/twinpeaksblog.bsky.social",
     "x": "https://x.com/SamHowzit"
@@ -197179,8 +197179,8 @@
     "desc": "A Trawl through my VHS library",
     "about": "https://vhistory.wordpress.com/about/",
     "feed": "https://vhistory.wordpress.com/feed/",
-    "active_at": "2026-11-14T00:00:00Z",
-    "posts": 67,
+    "active_at": "2026-11-15T00:00:00Z",
+    "posts": 68,
     "cadence": 1,
     "x": "https://x.com/TonyLymbo"
   },
@@ -203406,9 +203406,9 @@
     "desc": "Articles and Tutorials on Light Painting Techniques. Reviews and Buying Guides for Flashlights, Torches, and Light Painting Tools.",
     "keywords": "light painting,photography,blog,reviews,tutorials,flashlights,lights, articles,australia",
     "feed": "https://www.stephenknightphotography.com/blog-feed.xml",
-    "active_at": "2026-11-07T06:45:11Z",
-    "posts": 21,
-    "cadence": 7.1
+    "active_at": "2026-11-15T00:02:08Z",
+    "posts": 22,
+    "cadence": 7.2
   },
   {
     "url": "https://www.strangehistory.net",
@@ -203995,8 +203995,8 @@
     "title": "web-goddess – personal blog of Kris Howard",
     "desc": "personal blog of Kris Howard",
     "feed": "https://www.web-goddess.org/feed",
-    "active_at": "2026-11-14T00:29:32Z",
-    "posts": 47,
+    "active_at": "2026-11-15T00:47:07Z",
+    "posts": 48,
     "cadence": 0.3,
     "bluesky": "https://bsky.app/profile/web-goddess.org",
     "mastodon": "https://aus.social/@web_goddess"
@@ -204024,8 +204024,8 @@
     "title": "World of Reel",
     "desc": "A website dedicated to all things film-related. Created by Jordan Ruimy.",
     "feed": "https://www.worldofreel.com/blog?format=rss",
-    "active_at": "2026-11-14T20:51:59Z",
-    "posts": 157,
+    "active_at": "2026-11-14T23:51:20Z",
+    "posts": 158,
     "cadence": 0,
     "x": "https://x.com/worldofreel",
     "hn": [
@@ -204145,8 +204145,8 @@
     "desc": "an attempt at bloggin, nothing more...",
     "about": "https://xianblog.wordpress.com/about",
     "feed": "https://xianblog.wordpress.com/feed/",
-    "active_at": "2026-11-13T23:26:43Z",
-    "posts": 28,
+    "active_at": "2026-11-14T23:26:56Z",
+    "posts": 29,
     "cadence": 1
   },
   {
@@ -213410,8 +213410,8 @@
     "desc": "Welcome! I promise I'll come up with a super useful tagging and organization scheme for my posts someday.",
     "now": "https://blog.jacobtvarney.me/now/",
     "feed": "https://blog.jacobtvarney.me/feed/",
-    "active_at": "2026-11-07T19:01:00Z",
-    "posts": 12,
+    "active_at": "2026-11-14T22:14:06Z",
+    "posts": 13,
     "cadence": 7.1
   },
   {
@@ -213579,7 +213579,7 @@
         "title": "Big tech is here to let us down",
         "url": "https://blog.jsweeting.me/big-tech-is-here-to-let-us-down",
         "points": 219,
-        "comments": 200,
+        "comments": 201,
         "id": "50489083"
       }
     ]
@@ -216728,9 +216728,9 @@
     "desc": "Build.ms exists to make technology accessible to everyone with lessons about engineering, product, design, marketing, business, and AI.",
     "about": "https://build.ms/about",
     "feed": "https://build.ms/feed.xml",
-    "active_at": "2026-10-30T12:00:00Z",
-    "posts": 54,
-    "cadence": 14,
+    "active_at": "2026-11-14T12:00:00Z",
+    "posts": 55,
+    "cadence": 14.5,
     "github": "https://github.com/mergesort",
     "bluesky": "https://bsky.app/profile/mergesort.me",
     "hn": [
@@ -219376,7 +219376,7 @@
     "about": "https://coldscars.smol.pub/about",
     "feed": "https://coldscars.smol.pub/atom.xml",
     "active_at": "2026-11-14T21:57:16Z",
-    "posts": 39,
+    "posts": 40,
     "cadence": 1
   },
   {
@@ -219582,9 +219582,9 @@
     "desc": "Writing, blogging, life, tech and mental health with a philosophical/psychological slant",
     "about": "https://colinwalker.blog/about/",
     "feed": "https://colinwalker.blog/dailyfeed.xml",
-    "active_at": "2026-11-09T00:00:00Z",
-    "posts": 8,
-    "cadence": 1,
+    "active_at": "2026-11-15T00:00:00Z",
+    "posts": 9,
+    "cadence": 1.5,
     "github": "https://github.com/colin-walker",
     "hn": [
       {
@@ -219953,7 +219953,7 @@
         "created_at": "2026-11-13T09:27:05Z",
         "title": "Is there a 'right amount' of AI?",
         "url": "https://coyotetracks.org/blog/right-amount-of-ai/",
-        "points": 37,
+        "points": 38,
         "comments": 64,
         "id": "50480659"
       },
@@ -220352,9 +220352,9 @@
     "desc": "I help people build.",
     "about": "https://cyrusradfar.com/about",
     "feed": "https://cyrusradfar.com/rss.xml",
-    "active_at": "2026-11-09T00:00:00Z",
-    "posts": 99,
-    "cadence": 9.5,
+    "active_at": "2026-11-14T00:00:00Z",
+    "posts": 100,
+    "cadence": 9,
     "x": "https://x.com/cyrusradfar",
     "hn": [
       {
@@ -223649,8 +223649,8 @@
     "desc": "Das Weblog von Stefan Grund, der im Netz als @eay unterwegs ist und hier seit 2003 über Popkultur, Medien und Technologie schreibt.",
     "about": "https://eay.cc/about/",
     "feed": "https://eay.cc/feed/",
-    "active_at": "2026-11-13T08:59:03Z",
-    "posts": 31,
+    "active_at": "2026-11-14T22:50:49Z",
+    "posts": 32,
     "cadence": 1,
     "github": "https://github.com/stefangrund",
     "bluesky": "https://bsky.app/profile/eay.social",
@@ -225121,7 +225121,7 @@
         "created_at": "2026-11-11T12:29:48Z",
         "title": "We need more goat sacrifices",
         "url": "https://www.experimental-history.com/p/we-need-more-goat-sacrifices",
-        "points": 225,
+        "points": 226,
         "comments": 135,
         "id": "50452652"
       },
@@ -227418,9 +227418,9 @@
     "title": "Giovanni Dicanio's Blog – Giovanni Dicanio's Programming Corner on the Internet",
     "desc": "Giovanni Dicanio's Programming Corner on the Internet",
     "feed": "https://giodicanio.com/feed/",
-    "active_at": "2026-10-12T19:37:38Z",
-    "posts": 10,
-    "cadence": 21.2,
+    "active_at": "2026-11-15T01:15:24Z",
+    "posts": 11,
+    "cadence": 22.7,
     "hn": [
       {
         "created_at": "2026-06-06T18:21:51Z",
@@ -227891,8 +227891,8 @@
     "title": "Greenway36",
     "desc": "Greenway36, Rezepte, Foodblog, Tanja Prange",
     "feed": "https://greenway36food.blogspot.com/feeds/posts/default",
-    "active_at": "2026-11-10T23:01:00Z",
-    "posts": 29,
+    "active_at": "2026-11-14T23:01:00Z",
+    "posts": 30,
     "cadence": 4
   },
   {
@@ -232351,8 +232351,8 @@
     "desc": "Justin Cox is a Star Wars-loving, word-writing, nonprofit guy in Orlando, FL. He also runs The Writing Cooperative on Medium.",
     "about": "https://justincox.com/about",
     "feed": "https://justincox.com/rss/",
-    "active_at": "2026-11-13T19:52:43Z",
-    "posts": 24,
+    "active_at": "2026-11-15T01:15:24Z",
+    "posts": 25,
     "cadence": 1.3,
     "github": "https://github.com/justincox",
     "x": "https://x.com/justincox"
@@ -233367,8 +233367,8 @@
     "desc": "Der Blog von Philipp Waldhauer &uuml;ber Tech, Pers&ouml;nliches und Schrauben.",
     "now": "https://knuspermagier.de/now",
     "feed": "https://knuspermagier.de/feed",
-    "active_at": "2026-11-13T00:00:00Z",
-    "posts": 24,
+    "active_at": "2026-11-15T00:45:00Z",
+    "posts": 25,
     "cadence": 1,
     "github": "https://github.com/pwaldhauer",
     "mastodon": "https://norden.social/@pwa"
@@ -233789,8 +233789,8 @@
     "desc": "The Sky Won't Fall?",
     "about": "https://lars.ingebrigtsen.no/about/",
     "feed": "https://lars.ingebrigtsen.no/feed",
-    "active_at": "2026-11-13T20:17:02Z",
-    "posts": 63,
+    "active_at": "2026-11-14T23:03:41Z",
+    "posts": 64,
     "cadence": 0.8,
     "hn": [
       {
@@ -234575,9 +234575,9 @@
     "title": "Lonely Star",
     "desc": "A blog by Havoc (They / Them). Remember: respect the legacy, keep things straight, I fought we won. You can reach me at hellhound_havoc on Discord, or sho...",
     "feed": "https://lonely-star.bearblog.dev/feed/",
-    "active_at": "2026-11-03T00:45:00Z",
-    "posts": 12,
-    "cadence": 6.1
+    "active_at": "2026-11-15T01:10:00Z",
+    "posts": 13,
+    "cadence": 7.1
   },
   {
     "url": "https://lordjohn75.de",
@@ -236079,7 +236079,7 @@
     "now": "https://maxdeviant.com/now/",
     "feed": "https://maxdeviant.com/atom.xml",
     "active_at": "2026-08-24T13:03:36Z",
-    "posts": 93,
+    "posts": 101,
     "cadence": 12.6,
     "github": "https://github.com/maxdeviant",
     "bluesky": "https://bsky.app/profile/maxdeviant.com",
@@ -236406,8 +236406,8 @@
     "title": "Mausloch",
     "desc": "Das Mausloch als privates Tagebuch, onlinediary, als Refugium, als Höhle, als Unterschlupf. Einsichten in den Alltag einer leisen, mittelalten Frau",
     "feed": "https://mausloch.blogspot.com/feeds/posts/default",
-    "active_at": "2026-11-14T21:09:58Z",
-    "posts": 35,
+    "active_at": "2026-11-14T23:30:00Z",
+    "posts": 36,
     "cadence": 1.7
   },
   {
@@ -237002,8 +237002,8 @@
     "about": "https://michaelharley.net/about/",
     "now": "https://michaelharley.net/now/",
     "feed": "https://michaelharley.net/feed.xml",
-    "active_at": "2026-11-13T23:02:48Z",
-    "posts": 29,
+    "active_at": "2026-11-15T00:42:55Z",
+    "posts": 30,
     "cadence": 0.8,
     "mastodon": "https://infosec.exchange/@michaelharley",
     "hn": [
@@ -237916,7 +237916,7 @@
     "about": "https://mjulius.com/about/",
     "feed": "https://mjulius.com/feed/",
     "active_at": "2026-11-11T15:14:24Z",
-    "posts": 17,
+    "posts": 18,
     "cadence": 2.2
   },
   {
@@ -238495,9 +238495,9 @@
     "title": "Musings from a Tangled Mind",
     "about": "https://musingsfromatangledmind.com/about/",
     "feed": "https://musingsfromatangledmind.com/feed/",
-    "active_at": "2026-11-09T23:42:55Z",
-    "posts": 14,
-    "cadence": 5.6
+    "active_at": "2026-11-15T00:49:13Z",
+    "posts": 15,
+    "cadence": 5.3
   },
   {
     "url": "https://mycabinetofcuriosities.com",
@@ -238515,9 +238515,9 @@
     "title": "My Inner Mishmash – A weird Bibiel and all of her brains",
     "desc": "A weird Bibiel and all of her brains",
     "feed": "https://myinnermishmash.wordpress.com/feed/",
-    "active_at": "2026-11-08T18:58:44Z",
-    "posts": 23,
-    "cadence": 2.3
+    "active_at": "2026-11-14T23:43:25Z",
+    "posts": 24,
+    "cadence": 2.5
   },
   {
     "url": "https://mxd.codes",
@@ -238778,9 +238778,9 @@
     "url": "https://nathany.com",
     "title": "Nathan's Blog",
     "feed": "https://nathany.com/articles.xml",
-    "active_at": "2026-07-16T00:00:00Z",
-    "posts": 16,
-    "cadence": 32,
+    "active_at": "2026-11-14T00:00:00Z",
+    "posts": 17,
+    "cadence": 38.5,
     "hn": [
       {
         "created_at": "2013-05-14T05:05:34Z",
@@ -239278,8 +239278,8 @@
         "created_at": "2026-11-14T13:36:17Z",
         "title": "The Claude Delusion",
         "url": "https://www.netmeister.org/blog/claude-delusion.html",
-        "points": 143,
-        "comments": 180,
+        "points": 145,
+        "comments": 182,
         "id": "50496921"
       }
     ]
@@ -242605,7 +242605,7 @@
         "created_at": "2026-11-12T12:00:06Z",
         "title": "Bilingualism and Denaskuleco",
         "url": "https://pgadey.ca/notes/bilingualism-and-denaskuleco/",
-        "points": 19,
+        "points": 21,
         "comments": 21,
         "id": "50465926"
       }
@@ -243959,7 +243959,7 @@
     "desc": "Plain and simple, rhyme and meter",
     "feed": "https://randal.us/rss/",
     "active_at": "2026-11-14T00:00:00Z",
-    "posts": 102,
+    "posts": 103,
     "cadence": 3
   },
   {
@@ -244672,8 +244672,8 @@
     "desc": "Sometimes, you need to go back, to go forward.",
     "about": "https://refarmer.ca/about/",
     "feed": "https://refarmer.ca/feed/",
-    "active_at": "2026-11-13T23:21:19Z",
-    "posts": 28,
+    "active_at": "2026-11-14T23:59:22Z",
+    "posts": 29,
     "cadence": 1
   },
   {
@@ -244899,8 +244899,8 @@
     "url": "https://rmoff.net",
     "title": "rmoff's random ramblings",
     "feed": "https://rmoff.net/index.xml",
-    "active_at": "2026-11-13T10:58:33Z",
-    "posts": 694,
+    "active_at": "2026-11-14T12:42:01Z",
+    "posts": 695,
     "cadence": 4,
     "github": "https://github.com/rmoff",
     "bluesky": "https://bsky.app/profile/rmoff.net",
@@ -249802,8 +249802,8 @@
     "desc": "Eine Entdeckung der Möglichkeit zum Schreiben von Zettelchen für mich und andere",
     "keywords": "Tamaro, Zettelkasten, Tamaros Zettelkasten, Parallelblog, Wolkenbilder, Wolkenfänger, Himmelsbilder, Sonnenuntergang, Abendrot, Blog, SAM, Wochenstart, Wochenanfang, Wochenende, Monatsabschluss, Mrwo_7tsE4pNwXoA2d4iYpBhvBI",
     "feed": "https://tamaroszettelkasten.blogspot.com/feeds/posts/default",
-    "active_at": "2026-11-13T23:05:00Z",
-    "posts": 42,
+    "active_at": "2026-11-14T23:30:00Z",
+    "posts": 43,
     "cadence": 1
   },
   {
@@ -251082,8 +251082,8 @@
     "desc": "Writer of The Weekly Thing. Explorer of tech, the open web, AI, and a good escape room. Minneapolis is home.",
     "about": "https://thingelstad.com/about/",
     "feed": "https://www.thingelstad.com/feed.xml",
-    "active_at": "2026-11-10T01:47:33Z",
-    "posts": 45,
+    "active_at": "2026-11-14T23:19:19Z",
+    "posts": 46,
     "cadence": 0.2,
     "github": "https://github.com/jthingelstad"
   },
@@ -252045,8 +252045,8 @@
     "desc": "I write about ttrpgs",
     "feed": "https://tricks-tales.blogspot.com/feeds/posts/default",
     "active_at": "2026-11-09T04:06:35Z",
-    "posts": 26,
-    "cadence": 14,
+    "posts": 27,
+    "cadence": 13.3,
     "bluesky": "https://bsky.app/profile/swanandravenstudio.com"
   },
   {
@@ -252216,9 +252216,9 @@
     "title": "Ty Finck, Graphic Design in Ithaca, New York",
     "desc": "Type and graphic designer, open source contributor",
     "feed": "https://tyfromtheinternet.com/feed/",
-    "active_at": "2026-10-31T23:24:36Z",
-    "posts": 12,
-    "cadence": 15.7
+    "active_at": "2026-11-14T22:50:39Z",
+    "posts": 13,
+    "cadence": 14.8
   },
   {
     "url": "https://tylerhellard.com",
@@ -254509,9 +254509,9 @@
     "desc": "sharing my Linux experience with you",
     "keywords": "2026 leveluplog,corne,design,framework,keybindings in (neo)vim,neomutt,rofi,system structure,xteink x4,(neo)vim,(neo)vim-plugins,cli,hugo,system,zsh,zsh-plugins,",
     "feed": "https://www-gem.codeberg.page/feed.xml",
-    "active_at": "2026-11-12T01:33:37Z",
-    "posts": 93,
-    "cadence": 3.5,
+    "active_at": "2026-11-15T00:12:37Z",
+    "posts": 94,
+    "cadence": 3.1,
     "mastodon": "https://social.linux.pizza/@wwwgem"
   },
   {
