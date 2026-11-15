@@ -15,6 +15,8 @@ export const PAGE_SIZE = 1000;
 const BUILT_LIMIT_S = 3 * HOUR_S;
 // REVIEW: Date the last refresh by the 100th-newest post in blogs.json. A refresh puts hundreds of blogs within a week, and contributors add a few per week, so their new entries cannot pass it alone. Alternative: refresh.ts writes a refreshed_at stamp. It is exact but adds a field that every PR can conflict on.
 const REFRESH_RANK = 100;
+// REVIEW: pc's blogs-refresh timer runs weekly, and the 100th-newest post trails a refresh by about half a day. So the limit is 8 days, not 7, and a 7-day limit fails for hours before each run. Alternative: keep 7 days and run the timer twice a week. It doubles the homepage and HN traffic.
+const REFRESH_LIMIT_S = 8 * DAY_S;
 // Clock skew between this host and the source.
 export const SKEW_S = 300;
 // refresh.ts statsOf admits feed dates up to a day ahead, for feeds with a wrong time zone.
@@ -179,8 +181,8 @@ if (import.meta.main) {
     "The site rebuilt within 3 hours.": {
       "0": built === null ? 0 : within(BUILT_LIMIT_S, built),
     },
-    "A refresh ran this week.": {
-      "0": refresh === null ? 0 : within(7 * DAY_S, refresh),
+    "A refresh ran in the last 8 days.": {
+      "0": refresh === null ? 0 : within(REFRESH_LIMIT_S, refresh),
     },
     "No pull request waits over 14 days.": {
       "0": pr === null ? 0 : within(14 * DAY_S, pr),

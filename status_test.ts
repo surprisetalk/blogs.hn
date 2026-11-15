@@ -20,7 +20,7 @@ Deno.test("status grades five conditions and exits 1 exactly when one is below 1
   const keys = Object.keys(json).sort();
   if (
     JSON.stringify(keys) !== JSON.stringify([
-      "A refresh ran this week.",
+      "A refresh ran in the last 8 days.",
       "No pull request waits over 14 days.",
       "The front page lists 1000 blogs.",
       "The site rebuilt within 3 hours.",
