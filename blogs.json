@@ -178071,6 +178071,16 @@
     "x": "https://x.com/NickGeorgeSEO"
   },
   {
+    "url": "https://nicholashopper.com",
+    "title": "Nicholas Hopper",
+    "desc": "Nicholas (Nick) Hopper is an AI engineer at APX Stream who builds agent-driven software delivery systems. He was previously a senior software engineer at ForeFlight and iHeartMedia and holds a computer science degree from Baylor University.",
+    "feed": "https://nicholashopper.com/feed.xml",
+    "active_at": "2026-11-17T00:00:00Z",
+    "posts": 64,
+    "cadence": 0,
+    "github": "https://github.com/NicholasHopper"
+  },
+  {
     "url": "https://thingspool.net/library.html",
     "title": "ThingsPool",
     "desc": "Writings on philosophy, game design, mathematics and programming by Youngjin Kang, with art and small browser games.",
