@@ -171,16 +171,18 @@ for (const c of cities.values()) c.name = [...c.names].sort().join(" / ");
 
 // Every page lists every tag, busiest first, so a visitor moves between them without going back.
 const nav = (current) =>
-  `<nav class="small">${
-    [...tags].sort((a, b) =>
-      b[1].length - a[1].length || a[0].localeCompare(b[0])
-    )
-      .map(([t, pool]) =>
-        t === current
-          ? `<strong>${t}</strong> ${pool.length}`
-          : `<a href="/c/${t}">${t}</a> ${pool.length}`
-      ).join(" • ")
-  }</nav>`;
+  tags.size === 0
+    ? ""
+    : `<nav class="small">${
+      [...tags].sort((a, b) =>
+        b[1].length - a[1].length || a[0].localeCompare(b[0])
+      )
+        .map(([t, pool]) =>
+          t === current
+            ? `<strong>${t}</strong> ${pool.length}`
+            : `<a href="/c/${t}">${t}</a> ${pool.length}`
+        ).join(" • ")
+    }</nav>`;
 
 // A city page names itself above its listing.
 const heading = (name) =>

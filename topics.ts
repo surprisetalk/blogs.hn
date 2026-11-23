@@ -18,7 +18,7 @@ import {
 } from "./refresh.ts";
 
 // pc's llama-cpp-embed serves nomic-embed-text-v1.5 (768 dimensions) here.
-export const EMBED = "http://127.0.0.1:8081/v1/embeddings";
+const EMBED = "http://127.0.0.1:8081/v1/embeddings";
 // pc's llama-cpp serves Gemma here.
 const CHAT = "http://127.0.0.1:8080/v1/chat/completions";
 const DIM = 768;
@@ -28,9 +28,9 @@ const TIMEOUT = 60_000;
 // nomic-embed-text trains to 2048 tokens. 2000 characters stay under that.
 const EMBED_CHARS = 2000;
 // NOTE: A blog's newest 50 posts speak for it. Alternative: every post. A blog with 1,700 posts then outweighs 100 small blogs in the fit.
-export const POSTS_PER_BLOG = 50;
+const POSTS_PER_BLOG = 50;
 // A topic tags a blog when it holds this share of the blog's points. The strongest topic always tags it.
-export const TAG_SHARE = 0.2;
+const TAG_SHARE = 0.2;
 const MAX_TAGS = 3;
 // NOTE: 40 topics. Alternative: HDBSCAN finds its own count, but it needs a Python stack, and it calls most short titles noise.
 const TOPICS = 40;
@@ -41,8 +41,8 @@ const KMEANS_SETTLED = 0.001;
 const NAMING_TITLES = 20;
 // Titles topics.json keeps per topic, for review.
 const EXAMPLES = 8;
-export const VECTORS = "vectors.tsv";
-export const TOPICS_FILE = "topics.json";
+const VECTORS = "vectors.tsv";
+const TOPICS_FILE = "topics.json";
 
 const msg = (e: unknown) => (e instanceof Error ? e.message : String(e));
 
@@ -130,7 +130,7 @@ const nearest = (v: Float32Array, centroids: Float32Array[]) => {
 };
 
 // part and row locate the post's raw item in feed_item, for its body.
-export type Post = {
+type Post = {
   feed: string;
   title: string;
   t: number;
@@ -139,7 +139,7 @@ export type Post = {
 };
 
 // A post's vector is keyed by its feed and title, so a fixed date does not embed it again.
-export const postKey = (p: Post) => `${p.feed}\t${p.title}`;
+const postKey = (p: Post) => `${p.feed}\t${p.title}`;
 
 // The newest POSTS_PER_BLOG titled, dated posts of each feed, one per title.
 export const loadPosts = async (
@@ -170,6 +170,12 @@ export const loadPosts = async (
       }
     },
   );
+  // Without this check, a wrong bucket or a change in feed URL form strips the tags of every blog, and the run still exits 0.
+  if (all.size < feeds.size / 2) {
+    throw new Error(
+      `feed_item: expected posts for at least half of the ${feeds.size} feeds in blogs.json, received posts for ${all.size}. Fix: check SHELOB_BUCKET, and compare blogs.json feed URLs with feed_item.feed.`,
+    );
+  }
   return new Map(
     [...all].map(([feed, byTitle]) => [
       feed,
@@ -438,62 +444,7 @@ export const kmeans = (points: Float32Array[], k: number, seed = 1) => {
   }
 };
 
-// Gemma names a topic from the titles nearest its centroid.
-const nameTopic = async (titles: string[], chat = CHAT) => {
-  let text: unknown;
-  try {
-    const res = await fetch(chat, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        messages: [{
-          role: "user",
-          content: `Blog post titles from one topic:\n${
-            titles.map((t) => `- ${t}`).join("\n")
-          }\nName the topic as one lowercase tag of 1 to 3 words joined by hyphens, like web-development or cooking.`,
-        }],
-        temperature: 0,
-        max_tokens: 40,
-        // Gemma reasons by default and spends hundreds of tokens before a short answer.
-        chat_template_kwargs: { enable_thinking: false },
-        response_format: {
-          type: "json_schema",
-          json_schema: {
-            name: "out",
-            strict: true,
-            schema: {
-              type: "object",
-              properties: {
-                tag: {
-                  type: "string",
-                  pattern: "^[a-z0-9]+(-[a-z0-9]+){0,2}$",
-                },
-              },
-              required: ["tag"],
-              additionalProperties: false,
-            },
-          },
-        },
-      }),
-      signal: AbortSignal.timeout(TIMEOUT),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    text = (await res.json()).choices?.[0]?.message?.content;
-    const tag = JSON.parse(String(text)).tag;
-    if (typeof tag !== "string" || !TAG.test(tag)) throw new Error("no tag");
-    return tag;
-  } catch (err) {
-    throw new Error(
-      `nameTopic: expected {"tag": "a-lowercase-tag"} from ${chat} within ${TIMEOUT} ms, received ${
-        msg(err)
-      }: ${
-        JSON.stringify(text).slice(0, 200)
-      }. Fix: systemctl status llama-cpp on pc.`,
-    );
-  }
-};
-
-export type Topic = {
+type Topic = {
   name: string;
   posts: number;
   examples: string[];
@@ -583,8 +534,65 @@ if (import.meta.main) {
           : []
       ).sort((a, b) => b.sim - a.sim);
       const near = [...new Set(members.map((m) => m.title))];
+      // Gemma names a topic from the titles nearest its centroid.
+      let text: unknown;
+      let name: string;
+      try {
+        const res = await fetch(CHAT, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            messages: [{
+              role: "user",
+              content: `Blog post titles from one topic:\n${
+                near.slice(0, NAMING_TITLES).map((t) => `- ${t}`).join("\n")
+              }\nName the topic as one lowercase tag of 1 to 3 words joined by hyphens, like web-development or cooking.`,
+            }],
+            temperature: 0,
+            max_tokens: 40,
+            // Gemma reasons by default and spends hundreds of tokens before a short answer.
+            chat_template_kwargs: { enable_thinking: false },
+            response_format: {
+              type: "json_schema",
+              json_schema: {
+                name: "out",
+                strict: true,
+                schema: {
+                  type: "object",
+                  properties: {
+                    tag: {
+                      type: "string",
+                      pattern: "^[a-z0-9]+(-[a-z0-9]+){0,2}$",
+                    },
+                  },
+                  required: ["tag"],
+                  additionalProperties: false,
+                },
+              },
+            },
+          }),
+          signal: AbortSignal.timeout(TIMEOUT),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        text = (await res.json()).choices?.[0]?.message?.content;
+        const tag = JSON.parse(String(text)).tag;
+        if (typeof tag !== "string" || !TAG.test(tag)) {
+          throw new Error("no tag");
+        }
+        name = tag;
+      } catch (err) {
+        throw new Error(
+          `topic ${
+            c + 1
+          } name: expected {"tag": "a-lowercase-tag"} from ${CHAT} within ${TIMEOUT} ms, received ${
+            msg(err)
+          }: ${
+            String(JSON.stringify(text)).slice(0, 200)
+          }. Fix: systemctl status llama-cpp on pc.`,
+        );
+      }
       topics.push({
-        name: await nameTopic(near.slice(0, NAMING_TITLES)),
+        name,
         posts: members.length,
         examples: near.slice(0, EXAMPLES),
         centroid: Array.from(centroid, (x) => Number(x.toFixed(4))),
@@ -599,13 +607,15 @@ if (import.meta.main) {
   }
   const topics = loadTopics(topicsJson);
 
-  const texts = blogs.map(blogText);
   const descs = new Map<Blog, Float32Array>();
-  const withText = blogs.filter((_, i) => texts[i] !== undefined);
+  const withText = blogs.flatMap((blog) => {
+    const text = blogText(blog);
+    return text === undefined ? [] : [{ blog, text }];
+  });
   for (let i = 0; i < withText.length; i += EMBED_BATCH) {
     const batch = withText.slice(i, i + EMBED_BATCH);
-    const vs = await embed(batch.map((b) => blogText(b)!));
-    batch.forEach((b, j) => descs.set(b, vs[j]));
+    const vs = await embed(batch.map((b) => b.text));
+    batch.forEach((b, j) => descs.set(b.blog, vs[j]));
   }
   const points = new Map(blogs.map((b) => [
     b,
