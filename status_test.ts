@@ -37,7 +37,7 @@ Deno.test("status grades five conditions and exits 1 exactly when one is below 1
   }
 });
 
-Deno.test("build.js output carries what status reads, keeps $ patterns literal, and lists each category", async () => {
+Deno.test("build.js output carries what status reads, keeps $ patterns literal, and lists each category and city", async () => {
   const dir = await Deno.makeTempDir();
   try {
     for (const f of ["build.js", "template.html", "style.css"]) {
@@ -51,6 +51,7 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
         url: "https://example.com",
         title: "Example",
         category: "ai",
+        city: "Zürich, CH",
         desc: "A description long enough to qualify for the front page.",
         feed: "https://example.com/feed.xml",
         active_at: new Date().toISOString(),
@@ -62,6 +63,14 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
           comments: 1,
           created_at: "2020-01-01T00:00:00.000Z",
         }],
+      }, {
+        // Its city folds to the same slug as the first blog's.
+        url: "https://example.org",
+        title: "Example",
+        desc: "A description long enough to qualify for the front page.",
+        feed: "https://example.org/feed.xml",
+        active_at: new Date().toISOString(),
+        city: "Zurich, CH",
       }]),
     );
     const { code, stderr } = await new Deno.Command("node", {
@@ -72,7 +81,7 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
     if (code !== 0) throw new Error(new TextDecoder().decode(stderr));
     const html = await Deno.readTextFile(`${dir}/dist/index.html`);
     const p = page(html);
-    if (p.blogs !== 1) throw new Error(`expected 1 blog, received ${p.blogs}`);
+    if (p.blogs !== 2) throw new Error(`expected 2 blogs, received ${p.blogs}`);
     if (p.built === undefined || ageS(p.built, "built", SKEW_S) > 60) {
       throw new Error(`expected a fresh build stamp, received ${p.built}`);
     }
@@ -92,6 +101,18 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
     const ai = await Deno.readTextFile(`${dir}/dist/c/ai.html`);
     if (page(ai).blogs !== 1 || !ai.includes("<strong>ai</strong>")) {
       throw new Error("expected dist/c/ai.html to list the blog and mark ai");
+    }
+    const zurich = await Deno.readTextFile(`${dir}/dist/city/zurich-ch.html`);
+    if (page(zurich).blogs !== 2 || !html.includes('href="/city/zurich-ch"')) {
+      throw new Error("expected the card to link dist/city/zurich-ch.html");
+    }
+    const cities = await Deno.readTextFile(`${dir}/dist/cities.html`);
+    if (
+      !cities.includes(
+        '<a href="/city/zurich-ch">Zurich, CH / Zürich, CH</a> 2',
+      )
+    ) {
+      throw new Error("expected /cities to list Zürich with its count");
     }
   } finally {
     await Deno.remove(dir, { recursive: true });

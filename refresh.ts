@@ -83,6 +83,7 @@ export type Blog =
     posts?: number;
     cadence?: number;
     category?: Category;
+    city?: string;
   }
   & {
     [K in (typeof FILLABLE)[number]]?: string;
@@ -377,6 +378,7 @@ const KEYS = [
   "desc",
   "keywords",
   "category",
+  "city",
   "about",
   "now",
   "feed",
@@ -391,6 +393,7 @@ const KEYS = [
 ] as const;
 
 const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
+export const CITY = /^\S[^\t\n\r]*, [A-Z]{2}$/;
 
 export const canonUrl = (raw: string): string => {
   const u = new URL(raw.trim());
@@ -471,6 +474,12 @@ export const normalize = (blog: Blog): Blog => {
     if (key === "category") {
       const v = blog.category;
       if (typeof v === "string" && isCategory(v)) out.category = v;
+      continue;
+    }
+    // NOTE: city is curated: "City, CC", filled once from GitHub profiles and nownownow.com, and by hand in pull requests. Alternative: a weekly GitHub lookup. It needs a GitHub token in every refresh and a 2 MB city table, and its free-text rules kept missing. build.js escapes the city and folds it into a file name.
+    if (key === "city") {
+      const v = blog.city;
+      if (typeof v === "string" && CITY.test(v)) out.city = v;
       continue;
     }
     const raw = blog[key];
@@ -910,6 +919,7 @@ type Counters = {
   hnFail: number;
   feedOk: number;
   feedUnseen: number;
+  categorized: number;
 };
 
 const msg = (
@@ -1015,12 +1025,9 @@ export const blogText = (b: Blog): string | undefined => {
     .slice(0, 5).map((h) => h.title);
   const about = [b.desc, b.keywords, ...hn].filter((x) => x);
   if (!about.length) return undefined;
-  return [b.title, ...about].filter((x) => x).join("\n").slice(0, EMBED_CHARS);
-};
-
-const unit = (v: number[]) => {
-  const n = Math.hypot(...v);
-  return v.map((x) => x / n);
+  // llama-server answers HTTP 400 to a lone surrogate, so repair scraped ones and cut by code point.
+  return [...[b.title, ...about].filter((x) => x).join("\n").toWellFormed()]
+    .slice(0, EMBED_CHARS).join("");
 };
 
 // nomic-embed-text needs a task prefix on every input. "classification: " is its prefix for labeling.
@@ -1051,35 +1058,39 @@ export const embed = async (
     );
   }
   const data = (body as { data?: unknown })?.data;
-  const vs = Array.isArray(data)
-    ? data.map((d) => (d as { embedding?: unknown })?.embedding)
-    : [];
-  const ok = vs.length === texts.length &&
-    vs.every((v) =>
-      Array.isArray(v) && v.length === EMBED_DIM &&
-      v.every((x) => typeof x === "number" && isFinite(x)) &&
-      v.some((x) => x !== 0)
-    );
-  if (!ok) {
+  const items = Array.isArray(data) ? data : [];
+  const vs = items.map((d, i) => {
+    const { index, embedding: v } = (d ?? {}) as {
+      index?: unknown;
+      embedding?: unknown;
+    };
+    if (index !== i || !Array.isArray(v) || v.length !== EMBED_DIM) return;
+    if (!v.every((x) => typeof x === "number")) return;
+    const n = Math.hypot(...v);
+    return n > 0 && isFinite(n) ? v.map((x) => x / n) : undefined;
+  });
+  if (vs.length !== texts.length || vs.some((v) => v === undefined)) {
     throw new Error(
-      `embed: expected {data: [{embedding}]} with ${texts.length} nonzero ${EMBED_DIM}-number vectors from ${endpoint}, received ${
+      `embed: expected {data: [{index, embedding}]} with ${texts.length} ${EMBED_DIM}-number vectors in input order, each of finite nonzero length, from ${endpoint}, received ${
         JSON.stringify(body).slice(0, 200)
       }. Fix: check that llama-cpp-embed on pc still serves nomic-embed-text-v1.5.`,
     );
   }
-  return (vs as number[][]).map(unit);
+  return vs as number[][];
 };
+
+const CATEGORY_KEYS = Object.keys(CATEGORIES) as Category[];
+
+// main calls this before the long fetches, so a down embedder crashes in seconds.
+export const categoryVectors = (endpoint = EMBED) =>
+  embed(endpoint, CATEGORY_KEYS.map((k) => "a blog about " + CATEGORIES[k]));
 
 // Sets each blog's category from its text, every full run, the way activity stats refresh. Returns the count.
 export const categorize = async (
   blogs: Blog[],
+  labels: number[][],
   endpoint = EMBED,
 ): Promise<number> => {
-  const keys = Object.keys(CATEGORIES) as Category[];
-  const labels = await embed(
-    endpoint,
-    keys.map((k) => "a blog about " + CATEGORIES[k]),
-  );
   const todo = blogs.flatMap((blog) => {
     const text = blogText(blog);
     if (text === undefined) delete blog.category;
@@ -1092,10 +1103,22 @@ export const categorize = async (
       const sims = labels.map((l) =>
         l.reduce((s, x, d) => s + x * vs[j][d], 0)
       );
-      blog.category = keys[sims.indexOf(Math.max(...sims))];
+      blog.category = CATEGORY_KEYS[sims.indexOf(Math.max(...sims))];
     });
   }
   return todo.length;
+};
+
+// A broken embedder would otherwise delete every category and still commit.
+// NOTE: Half of the last run's count is the floor. Alternative: a fixed floor. It goes stale as blogs.json grows.
+export const atLeastHalf = (before: number, after: number, what: string) => {
+  if (after < before / 2) {
+    throw new Error(
+      `expected at least ${
+        Math.ceil(before / 2)
+      } blogs ${what}, half of the ${before} in blogs.json, received ${after}. Refusing to write blogs.json. Fix: read the errors above; check llama-cpp-embed.`,
+    );
+  }
 };
 
 const pool = async <T>(
@@ -1120,12 +1143,14 @@ if (import.meta.main) {
     hnFail: 0,
     feedOk: 0,
     feedUnseen: 0,
+    categorized: 0,
   };
   const summary = (prefix: string) =>
     console.error(
       `${prefix}${c.filled} fields filled, ` +
         `${c.pageOk} pages ok, ${c.pageFail} pages failed, ` +
         `${c.feedOk} feeds ok, ${c.feedUnseen} feeds unseen, ` +
+        `${c.categorized} categorized, ` +
         `${c.hnOk} hn ok, ${c.hnFail} hn failed`,
     );
   const urls = Deno.args.filter((a) => !a.startsWith("--"));
@@ -1160,6 +1185,8 @@ if (import.meta.main) {
       }
     });
     const targets = Deno.args.includes("--fmt") ? [] : blogs;
+    // Before the long fetches, so a down embedder crashes in seconds.
+    const labels = targets.length ? await categoryVectors() : undefined;
     const feeds = new Set(targets.flatMap((b) => (b.feed ? [b.feed] : [])));
     const times = targets.length
       ? await loadFeedTimes(storeFromEnv(), feeds)
@@ -1171,8 +1198,10 @@ if (import.meta.main) {
           `refusing to write blogs.json`,
       );
     }
-    if (targets.length) {
-      console.error(`${await categorize(blogs)} blogs categorized`);
+    if (labels) {
+      const had = blogs.filter((b) => b.category).length;
+      c.categorized = await categorize(blogs, labels);
+      atLeastHalf(had, c.categorized, "categorized");
     }
     const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
     if (out !== raw) await Deno.writeTextFile("blogs.json", out);

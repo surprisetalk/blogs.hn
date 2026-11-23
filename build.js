@@ -138,11 +138,31 @@ for (const blog of qualified) {
       }. Fix: run refresh.ts --fmt, which drops unknown categories.`,
     );
   }
-  categories.set(blog.category, [
-    ...(categories.get(blog.category) ?? []),
-    blog,
-  ]);
+  if (!categories.has(blog.category)) categories.set(blog.category, []);
+  categories.get(blog.category).push(blog);
 }
+
+// "Zürich, CH" lives at /city/zurich-ch.
+const slug = (city) =>
+  city.normalize("NFKD").replace(/\p{M}/gu, "").toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+// NOTE: Cities whose names fold to one slug ("Belém, BR" and "Belem, BR") share one page under both names. Alternative: fail the build. One blog in a small town then stops every deploy.
+const cities = new Map();
+for (const blog of qualified) {
+  if (blog.city === undefined) continue;
+  const s = typeof blog.city === "string" ? slug(blog.city) : "";
+  if (!s) {
+    throw new Error(
+      `build.js: expected ${blog.url} to have a city with letters or digits, received ${
+        JSON.stringify(blog.city)
+      }. Fix: run refresh.ts --fmt, then check cities.tsv.`,
+    );
+  }
+  if (!cities.has(s)) cities.set(s, { names: new Set(), blogs: [] });
+  cities.get(s).names.add(blog.city);
+  cities.get(s).blogs.push(blog);
+}
+for (const c of cities.values()) c.name = [...c.names].sort().join(" / ");
 
 // Every page lists every category, so a visitor moves between them without going back.
 const nav = (current) =>
@@ -182,6 +202,8 @@ const card = (blog) => {
     .map((x, i) => x && `<a href="${esc(x)}">${linkTitles[i]}</a>`)
     .concat(
       blog.category && `<a href="/c/${blog.category}">#${blog.category}</a>`,
+      blog.city &&
+        `<a href="/city/${slug(blog.city)}">${esc(blog.city)}</a>`,
     )
     .filter((x) => x)
     .join(" • ");
@@ -234,21 +256,49 @@ const script = `
 `;
 
 // The script sits after main, because shuffle() reorders every child of main.
-const listing = (current, pool) =>
+const listing = (head, pool) =>
   // A function, because a string replacement reads $` and $& in blog titles as patterns.
   template.replace(
     "{{body}}",
     () =>
-      `${nav(current)}<main id="index">${
+      `${head}<main id="index">${
         sample(pool).map(card).join("")
       }</main>${script}`,
   );
 
-fs.writeFileSync("./dist/index.html", listing(undefined, qualified));
-process.execSync("mkdir -p dist/c");
+fs.writeFileSync("./dist/index.html", listing(nav(), qualified));
+// A category or city that empties must lose its page.
+process.execSync("rm -rf dist/c dist/city && mkdir -p dist/c dist/city");
 for (const [c, pool] of categories) {
-  fs.writeFileSync(`./dist/c/${c}.html`, listing(c, pool));
+  fs.writeFileSync(`./dist/c/${c}.html`, listing(nav(c), pool));
 }
+for (const [s, { name, blogs }] of cities) {
+  fs.writeFileSync(
+    `./dist/city/${s}.html`,
+    listing(
+      `${nav()}<nav class="small"><strong>${
+        esc(name)
+      }</strong> • <a href="/cities">all cities</a></nav>`,
+      blogs,
+    ),
+  );
+}
+// Busiest first: most visitors look for a big city.
+fs.writeFileSync(
+  "./dist/cities.html",
+  template.replace(
+    "{{body}}",
+    () =>
+      `<main id="about"><div><h2>cities</h2><p>${
+        [...cities].sort((a, b) =>
+          b[1].blogs.length - a[1].blogs.length ||
+          a[1].name.localeCompare(b[1].name)
+        ).map(([s, { name, blogs }]) =>
+          `<a href="/city/${s}">${esc(name)}</a> ${blogs.length}`
+        ).join(" • ")
+      }</p></div></main>`,
+  ),
+);
 
 const about = `
   <div>
@@ -256,6 +306,7 @@ const about = `
     <p><a href="/">blogs.hn</a> is a directory of tech sites, primarily sourced from <a href="https://news.ycombinator.com">HackerNews</a>.</p>
     <p>To submit/update a blog, <a href="https://github.com/surprisetalk/blogs.hn/blob/main/blogs.json">edit blogs.json in a pull-request</a>.</p>
     <p>If you like sites with RSS feeds, consider checking out <a href="https://ooh.directory">ooh.directory</a>. If you don't have an RSS reader, I highly recommend <a href="https://reederapp.com">Reeder 5</a>.</p>
+    <p>Cities come from GitHub profiles, <a href="https://nownownow.com">nownownow.com</a>, and <a href="https://www.geonames.org">GeoNames</a> (CC BY 4.0).</p>
     <p>You can import all the RSS feeds via <a href="/blogs.hn.opml" download>this OPML file</a>.</p>
     <p>And if you aren't already, <em>you should</em> <a href="https://www.benkuhn.net/writing/">write things on the internet</a>. All you need is <a href="https://github.com/surprisetalk/worstpress">worstpress</a> and some markdown files! You can <a href="mailto:hello@taylor.town">email me</a> if you need help getting started.</p>
     <p>Every blog is a window into a skull. Don't be afraid to ask questions and kindle friendships! Remember to be kind, courteous, and succinct.</p>

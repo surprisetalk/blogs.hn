@@ -89,6 +89,12 @@ picks the nearest category description. A blog with only a title gets none. The
 run fails when the embedder does not answer. The category overwrites every run,
 as activity stats do.
 
+`city`, such as `San Jose, US` or `Portland, Maine, US`, is curated. It was
+filled once from GitHub profile locations and nownownow.com, then checked by
+hand, and no refresh changes it. Add or fix it in a pull request as `City, CC`,
+with the ISO country code. A town takes its nearby big city: Brooklyn is
+`New York City, US`.
+
 It fills in missing fields (title, desc, feed, about, now, and
 github/bluesky/x/mastodon profiles found on the blog's homepage or /about page)
 and updates HackerNews stories. It never overwrites existing values, so
@@ -112,8 +118,8 @@ the same checks as CI.
 `deno task status` grades production blogs.hn and exits 1 when any condition
 scores below 1.0. A monitor runs it every hour. The `blogs-deploy` timer on pc
 (`flake.nix` in surprisetalk/pc) POSTs the Cloudflare Pages deploy hook every 2
-hours. The hook URL is a secret in `.env`. `deno task check` runs the formatter,
-linter, typechecker, and tests.
+hours. The hook URL is a secret in `.env.deploy`. `deno task check` runs the
+formatter, linter, typechecker, and tests.
 
 ## Activity
 
@@ -136,4 +142,5 @@ turn. Being left off the page is not a judgement on a blog; it usually means we
 could not find a feed.
 
 Each category gets a page at `/c/<category>` with the same eligibility and
-sample. Every page starts with a line of links to every category.
+sample. Every page starts with a line of links to every category. Each city gets
+a page at `/city/<city>`, and `/cities` lists them all, busiest first.

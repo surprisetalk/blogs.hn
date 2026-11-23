@@ -1,9 +1,12 @@
 // deno test --allow-read=blogs.json,fixtures --allow-net=127.0.0.1 --allow-env=SHELOB_ACCOUNT_ID
 import {
+  atLeastHalf,
   Blog,
   canonUrl,
   CATEGORIES,
   categorize,
+  categoryVectors,
+  CITY,
   clean,
   decodeEntities,
   enrich,
@@ -687,6 +690,7 @@ Deno.test("blogs.json: structure", () => {
     "desc",
     "keywords",
     "category",
+    "city",
     "about",
     "now",
     "feed",
@@ -764,6 +768,11 @@ Deno.test("blogs.json: structure", () => {
         assert(
           typeof v === "string" && Object.hasOwn(CATEGORIES, v),
           `bad category in ${where}: ${v}`,
+        );
+      } else if (k === "city") {
+        assert(
+          typeof v === "string" && CITY.test(v),
+          `bad city in ${where}: ${v}`,
         );
       } else if (k === "active_at") {
         assert(
@@ -970,6 +979,7 @@ Deno.test("enrich: a known feed is never fetched, a new feed waits for the store
       hnFail: 0,
       feedOk: 0,
       feedUnseen: 0,
+      categorized: 0,
     };
     const day = 86_400_000, t0 = Date.now() - 10 * day;
     const times = new Map([[FEED_A, [t0, t0 + 2 * day, t0 + 4 * day]]]);
@@ -1055,10 +1065,19 @@ const withEmbedder = async (
     async (req) => {
       const { input } = await req.json();
       calls.push(input);
+      if (input.some((t: string) => !t.isWellFormed())) {
+        return new Response(
+          "surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF",
+          { status: 400 },
+        );
+      }
       return Response.json(
-        reply
-          ? reply(input)
-          : { data: input.map((t: string) => ({ embedding: bag(t) })) },
+        reply ? reply(input) : {
+          data: input.map((t: string, index: number) => ({
+            index,
+            embedding: bag(t),
+          })),
+        },
       );
     },
   );
@@ -1094,9 +1113,17 @@ Deno.test("categorize: nearest category by text, in batches, and none without te
         }],
       },
       { url: "https://c.example", title: "Home", category: "music" },
+      // The cut at EMBED_CHARS falls inside the emoji's surrogate pair.
+      { url: "https://d.example", title: "x".repeat(1998), desc: "😀 music" },
+      // A lone surrogate from a scraped page.
+      { url: "https://e.example", desc: "x\ud800y" },
       ...filler,
     ];
-    assertEquals(await categorize(blogs, endpoint), 40, "count");
+    assertEquals(
+      await categorize(blogs, await categoryVectors(endpoint), endpoint),
+      42,
+      "count",
+    );
     assertEquals(blogs.slice(0, 3).map((b) => b.category), [
       "security",
       "food",
@@ -1105,7 +1132,7 @@ Deno.test("categorize: nearest category by text, in batches, and none without te
     assert(filler.every((b) => b.category === "travel"), "filler is travel");
     assertEquals(
       calls.map((c) => c.length),
-      [Object.keys(CATEGORIES).length, 32, 8],
+      [Object.keys(CATEGORIES).length, 32, 10],
       "batches",
     );
     assert(
@@ -1115,21 +1142,61 @@ Deno.test("categorize: nearest category by text, in batches, and none without te
   });
 });
 
-Deno.test("categorize: a wrong reply crashes with expected and received", async () => {
-  const one: Blog[] = [{ url: "https://a.example", desc: "x" }];
-  await withEmbedder(
-    (input) => ({ data: input.map(() => ({ embedding: [1, 2, 3] })) }),
-    (endpoint) =>
+Deno.test("embed: a wrong reply crashes with expected and received", async () => {
+  const wrong: [string, (input: string[]) => unknown][] = [
+    [
+      "short",
+      (input) => ({
+        data: input.map((_, index) => ({ index, embedding: [1, 2, 3] })),
+      }),
+    ],
+    [
+      "huge",
+      (input) => ({
+        data: input.map((_, index) => ({
+          index,
+          embedding: Array(768).fill(1e308),
+        })),
+      }),
+    ],
+    [
+      "reversed",
+      (input) => ({
+        data: input.map((_, index) => ({
+          index: input.length - 1 - index,
+          embedding: Array(768).fill(1),
+        })),
+      }),
+    ],
+  ];
+  for (const [, reply] of wrong) {
+    await withEmbedder(reply, (endpoint) =>
       failsWith(
-        categorize(one, endpoint),
-        "nonzero 768-number vectors",
+        categoryVectors(endpoint),
+        "768-number vectors in input order",
         "received",
         "llama-cpp-embed",
-      ),
-  );
+      ));
+  }
   await failsWith(
-    categorize(one, "http://127.0.0.1:9/v1/embeddings"),
+    categoryVectors("http://127.0.0.1:9/v1/embeddings"),
     `expected ${Object.keys(CATEGORIES).length} embeddings`,
     "systemctl status llama-cpp-embed",
+  );
+});
+
+Deno.test("atLeastHalf: a count that falls below half of the last run crashes", () => {
+  atLeastHalf(10, 5, "categorized");
+  atLeastHalf(0, 0, "categorized");
+  let err = "";
+  try {
+    atLeastHalf(10, 4, "categorized");
+  } catch (e) {
+    err = String(e);
+  }
+  assert(
+    err.includes("expected at least 5 blogs categorized") &&
+      err.includes("received 4"),
+    err,
   );
 });
