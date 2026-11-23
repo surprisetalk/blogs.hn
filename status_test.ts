@@ -37,7 +37,7 @@ Deno.test("status grades five conditions and exits 1 exactly when one is below 1
   }
 });
 
-Deno.test("build.js output carries what status reads, and keeps $ patterns literal", async () => {
+Deno.test("build.js output carries what status reads, keeps $ patterns literal, and lists each category", async () => {
   const dir = await Deno.makeTempDir();
   try {
     for (const f of ["build.js", "template.html", "style.css"]) {
@@ -50,6 +50,7 @@ Deno.test("build.js output carries what status reads, and keeps $ patterns liter
       JSON.stringify([{
         url: "https://example.com",
         title: "Example",
+        category: "ai",
         desc: "A description long enough to qualify for the front page.",
         feed: "https://example.com/feed.xml",
         active_at: new Date().toISOString(),
@@ -84,6 +85,13 @@ Deno.test("build.js output carries what status reads, and keeps $ patterns liter
       throw new Error(
         `expected the title verbatim, received a page without it`,
       );
+    }
+    if (!html.includes('<a href="/c/ai">ai</a> 1')) {
+      throw new Error("expected the nav to link /c/ai with its count");
+    }
+    const ai = await Deno.readTextFile(`${dir}/dist/c/ai.html`);
+    if (page(ai).blogs !== 1 || !ai.includes("<strong>ai</strong>")) {
+      throw new Error("expected dist/c/ai.html to list the blog and mark ai");
     }
   } finally {
     await Deno.remove(dir, { recursive: true });

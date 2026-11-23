@@ -15,7 +15,7 @@ for (const slot of ["{{body}}", '<meta name="built" content="{{built}}" />']) {
     );
   }
 }
-// status.ts reads this stamp to tell whether the hourly deploy still runs.
+// status.ts reads this stamp to tell whether pc's blogs-deploy timer still runs.
 const template = raw.replace("{{built}}", new Date().toISOString());
 
 const esc = (unsafe) => {
@@ -100,32 +100,62 @@ for (const blog of allBlogs) {
 
 // Weighted sample without replacement (Efraimidis-Spirakis): a blog's chance
 // of being drawn is proportional to its quality, so the page leans good
-// without becoming the same thousand blogs every build. The site rebuilds
-// hourly, so the tail gets its turn.
-const blogs = allBlogs
-  .filter(qualifies)
-  .map((blog) => ({
-    blog,
-    key: Math.random() ** (1 / Math.max(1, quality(blog))),
-  }))
-  .sort((a, b) => b.key - a.key)
-  .slice(0, PAGE_SIZE)
-  .map((x) => x.blog);
-if (blogs.length === 0) {
+// without becoming the same thousand blogs every build. The site rebuilds every
+// 2 hours, so the tail gets its turn.
+const sample = (pool) => {
+  const blogs = pool
+    .map((blog) => ({
+      blog,
+      key: Math.random() ** (1 / Math.max(1, quality(blog))),
+    }))
+    .sort((a, b) => b.key - a.key)
+    .slice(0, PAGE_SIZE)
+    .map((x) => x.blog);
+  // Sampling leaves the list ordered by key, which tracks quality. Shuffle so
+  // the page does not silently rank its own contents.
+  for (let i = blogs.length; --i > 0;) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [blogs[i], blogs[j]] = [blogs[j], blogs[i]];
+  }
+  return blogs;
+};
+
+const qualified = allBlogs.filter(qualifies);
+if (qualified.length === 0) {
   throw new Error(
     `build.js: expected blogs on the front page, received 0 of ${allBlogs.length} in blogs.json. Fix: check qualifies(); a stale refresh ages every active_at past two years.`,
   );
 }
 
-// Sampling leaves the list ordered by key, which tracks quality. Shuffle so
-// the page does not silently rank its own contents.
-for (let i = blogs.length; --i > 0;) {
-  const j = Math.floor(Math.random() * (i + 1));
-  [blogs[i], blogs[j]] = [blogs[j], blogs[i]];
+// The category names a file under dist/c/, so it must be a plain slug.
+const categories = new Map();
+for (const blog of qualified) {
+  if (blog.category === undefined) continue;
+  if (typeof blog.category !== "string" || !/^[a-z]+$/.test(blog.category)) {
+    throw new Error(
+      `build.js: expected ${blog.url} to have a lowercase category slug, received ${
+        JSON.stringify(blog.category)
+      }. Fix: run refresh.ts --fmt, which drops unknown categories.`,
+    );
+  }
+  categories.set(blog.category, [
+    ...(categories.get(blog.category) ?? []),
+    blog,
+  ]);
 }
 
-let index = "";
-for (const blog of blogs) {
+// Every page lists every category, so a visitor moves between them without going back.
+const nav = (current) =>
+  `<nav class="small">${
+    [...categories.keys()].sort().map((c) =>
+      c === current
+        ? `<strong>${c}</strong>`
+        : `<a href="/c/${c}">${c}</a> ${categories.get(c).length}`
+    ).join(" • ")
+  }</nav>`;
+
+const card = (blog) => {
+  let index = "";
   const link = blog.url
     .replace(/^https?:\/\//, "")
     .replace(/[^A-Za-z0-9]/g, (c) => `<wbr/>${esc(c)}`);
@@ -150,6 +180,9 @@ for (const blog of blogs) {
     blog.mastodon,
   ]
     .map((x, i) => x && `<a href="${esc(x)}">${linkTitles[i]}</a>`)
+    .concat(
+      blog.category && `<a href="/c/${blog.category}">#${blog.category}</a>`,
+    )
     .filter((x) => x)
     .join(" • ");
 
@@ -177,9 +210,10 @@ for (const blog of blogs) {
     index += `</table>`;
   }
   index += `</div>`;
-}
+  return index;
+};
 
-index += `
+const script = `
   <script>
     function shuffle () {
       const main = document.querySelector("main");
@@ -199,11 +233,22 @@ index += `
   </script>
 `;
 
-fs.writeFileSync(
-  "./dist/index.html",
+// The script sits after main, because shuffle() reorders every child of main.
+const listing = (current, pool) =>
   // A function, because a string replacement reads $` and $& in blog titles as patterns.
-  template.replace("{{body}}", () => `<main id="index">${index}</main>`),
-);
+  template.replace(
+    "{{body}}",
+    () =>
+      `${nav(current)}<main id="index">${
+        sample(pool).map(card).join("")
+      }</main>${script}`,
+  );
+
+fs.writeFileSync("./dist/index.html", listing(undefined, qualified));
+process.execSync("mkdir -p dist/c");
+for (const [c, pool] of categories) {
+  fs.writeFileSync(`./dist/c/${c}.html`, listing(c, pool));
+}
 
 const about = `
   <div>

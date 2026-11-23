@@ -40,6 +40,37 @@ export const FILLABLE = [
   "mastodon",
 ] as const;
 
+// The key is the slug and the label on the site. The value is what the embedder compares a blog's text against.
+// NOTE: A blog gets the category whose description sits nearest its text in nomic-embed-text space. Alternative: k-means clusters. They find the corpus's own topics, but every cluster needs a name, and the names move with each refresh.
+export const CATEGORIES = {
+  programming: "programming languages, compilers, and software engineering",
+  web: "web development, JavaScript, CSS, and browsers",
+  systems: "operating systems, Linux, networking, and low-level systems",
+  ai: "artificial intelligence, machine learning, and LLMs",
+  data: "databases, data engineering, and analytics",
+  security: "computer security, cryptography, and privacy",
+  hardware: "hardware, electronics, and making things",
+  math: "mathematics",
+  science: "physics, biology, chemistry, and science",
+  design: "design, typography, and user experience",
+  business: "startups, business, and management",
+  economics: "economics, finance, and investing",
+  career: "productivity, careers, and self-improvement",
+  books: "writing, books, and literature",
+  philosophy: "philosophy and ideas",
+  society: "politics, culture, and society",
+  history: "history",
+  art: "art and photography",
+  music: "music",
+  games: "video games and game development",
+  travel: "travel",
+  food: "food and cooking",
+  health: "health and fitness",
+  life: "personal life, family, and journaling",
+} as const;
+export type Category = keyof typeof CATEGORIES;
+const isCategory = (s: string): s is Category => Object.hasOwn(CATEGORIES, s);
+
 // Derived from the feed, not scraped: active_at is the newest post date,
 // posts is how many dated entries the feed carries, and cadence is the median
 // gap between consecutive posts in days. Median rather than mean so one
@@ -51,6 +82,7 @@ export type Blog =
     active_at?: string;
     posts?: number;
     cadence?: number;
+    category?: Category;
   }
   & {
     [K in (typeof FILLABLE)[number]]?: string;
@@ -344,6 +376,7 @@ const KEYS = [
   "title",
   "desc",
   "keywords",
+  "category",
   "about",
   "now",
   "feed",
@@ -433,6 +466,11 @@ export const normalize = (blog: Blog): Blog => {
       } else if (typeof v === "number" && isFinite(v) && v >= 0) {
         out[key] = v;
       }
+      continue;
+    }
+    if (key === "category") {
+      const v = blog.category;
+      if (typeof v === "string" && isCategory(v)) out.category = v;
       continue;
     }
     const raw = blog[key];
@@ -962,6 +1000,104 @@ export const enrich = async (
   }
 };
 
+// pc's llama-cpp-embed serves nomic-embed-text-v1.5 (768 dimensions) here.
+export const EMBED = "http://127.0.0.1:8081/v1/embeddings";
+const EMBED_DIM = 768;
+// llama-cpp-embed runs 4 slots; one request of 32 texts keeps them busy.
+const EMBED_BATCH = 32;
+const EMBED_TIMEOUT = 60_000;
+// nomic-embed-text trains to 2048 tokens. 2000 characters stay under that.
+const EMBED_CHARS = 2000;
+
+// The title alone ("Home", "Blog") says nothing about a topic, so a blog with only a title gets no category.
+export const blogText = (b: Blog): string | undefined => {
+  const hn = (b.hn ?? []).slice().sort((x, y) => y.points - x.points)
+    .slice(0, 5).map((h) => h.title);
+  const about = [b.desc, b.keywords, ...hn].filter((x) => x);
+  if (!about.length) return undefined;
+  return [b.title, ...about].filter((x) => x).join("\n").slice(0, EMBED_CHARS);
+};
+
+const unit = (v: number[]) => {
+  const n = Math.hypot(...v);
+  return v.map((x) => x / n);
+};
+
+// nomic-embed-text needs a task prefix on every input. "classification: " is its prefix for labeling.
+export const embed = async (
+  endpoint: string,
+  texts: string[],
+): Promise<number[][]> => {
+  const input = texts.map((t) => "classification: " + t);
+  let body: unknown;
+  try {
+    const res = await fetch(endpoint, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ input }),
+      signal: AbortSignal.timeout(EMBED_TIMEOUT),
+    });
+    if (!res.ok) {
+      throw new Error(
+        `HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`,
+      );
+    }
+    body = await res.json();
+  } catch (err) {
+    throw new Error(
+      `embed: expected ${texts.length} embeddings from ${endpoint} within ${EMBED_TIMEOUT} ms, received ${
+        msg(err)
+      }. Fix: systemctl status llama-cpp-embed on pc.`,
+    );
+  }
+  const data = (body as { data?: unknown })?.data;
+  const vs = Array.isArray(data)
+    ? data.map((d) => (d as { embedding?: unknown })?.embedding)
+    : [];
+  const ok = vs.length === texts.length &&
+    vs.every((v) =>
+      Array.isArray(v) && v.length === EMBED_DIM &&
+      v.every((x) => typeof x === "number" && isFinite(x)) &&
+      v.some((x) => x !== 0)
+    );
+  if (!ok) {
+    throw new Error(
+      `embed: expected {data: [{embedding}]} with ${texts.length} nonzero ${EMBED_DIM}-number vectors from ${endpoint}, received ${
+        JSON.stringify(body).slice(0, 200)
+      }. Fix: check that llama-cpp-embed on pc still serves nomic-embed-text-v1.5.`,
+    );
+  }
+  return (vs as number[][]).map(unit);
+};
+
+// Sets each blog's category from its text, every full run, the way activity stats refresh. Returns the count.
+export const categorize = async (
+  blogs: Blog[],
+  endpoint = EMBED,
+): Promise<number> => {
+  const keys = Object.keys(CATEGORIES) as Category[];
+  const labels = await embed(
+    endpoint,
+    keys.map((k) => "a blog about " + CATEGORIES[k]),
+  );
+  const todo = blogs.flatMap((blog) => {
+    const text = blogText(blog);
+    if (text === undefined) delete blog.category;
+    return text === undefined ? [] : [{ blog, text }];
+  });
+  for (let i = 0; i < todo.length; i += EMBED_BATCH) {
+    const batch = todo.slice(i, i + EMBED_BATCH);
+    const vs = await embed(endpoint, batch.map((t) => t.text));
+    batch.forEach(({ blog }, j) => {
+      const sims = labels.map((l) =>
+        l.reduce((s, x, d) => s + x * vs[j][d], 0)
+      );
+      blog.category = keys[sims.indexOf(Math.max(...sims))];
+    });
+  }
+  return todo.length;
+};
+
 const pool = async <T>(
   items: T[],
   n: number,
@@ -1034,6 +1170,9 @@ if (import.meta.main) {
         `systemic failure (${c.pageOk}/${targets.length} pages, ${c.hnOk}/${targets.length} hn); ` +
           `refusing to write blogs.json`,
       );
+    }
+    if (targets.length) {
+      console.error(`${await categorize(blogs)} blogs categorized`);
     }
     const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
     if (out !== raw) await Deno.writeTextFile("blogs.json", out);

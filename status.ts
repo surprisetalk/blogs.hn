@@ -10,7 +10,7 @@ const HOUR_S = 3600;
 const DAY_S = 24 * HOUR_S;
 // PAGE_SIZE in build.js.
 export const PAGE_SIZE = 1000;
-// The deploy hook fires hourly. Three hours allows one late GitHub cron and one slow Cloudflare build.
+// pc's blogs-deploy timer fires the Cloudflare deploy hook every 2 hours. Three hours allows one slow Cloudflare build.
 // This also catches a build.js crash and an exhausted Cloudflare build quota.
 const BUILT_LIMIT_S = 3 * HOUR_S;
 // REVIEW: Date the last refresh by the 100th-newest post in blogs.json. A refresh puts hundreds of blogs within a week, and contributors add a few per week, so their new entries cannot pass it alone. Alternative: refresh.ts writes a refreshed_at stamp. It is exact but adds a field that every PR can conflict on.

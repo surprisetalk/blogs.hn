@@ -2,6 +2,8 @@
 import {
   Blog,
   canonUrl,
+  CATEGORIES,
+  categorize,
   clean,
   decodeEntities,
   enrich,
@@ -684,6 +686,7 @@ Deno.test("blogs.json: structure", () => {
     "title",
     "desc",
     "keywords",
+    "category",
     "about",
     "now",
     "feed",
@@ -757,6 +760,11 @@ Deno.test("blogs.json: structure", () => {
           `bad ${k} in ${where}: ${v}`,
         );
         assert(blog.feed, `${k} without a feed in ${where}`);
+      } else if (k === "category") {
+        assert(
+          typeof v === "string" && Object.hasOwn(CATEGORIES, v),
+          `bad category in ${where}: ${v}`,
+        );
       } else if (k === "active_at") {
         assert(
           typeof v === "string" && ISO.test(v),
@@ -1022,4 +1030,106 @@ Deno.test("storeFromEnv: a missing variable names itself and the fix", () => {
   } finally {
     if (was !== undefined) Deno.env.set("SHELOB_ACCOUNT_ID", was);
   }
+});
+
+// A fake llama-cpp-embed: a bag of hashed words, so texts that share words sit near each other.
+const withEmbedder = async (
+  reply: ((input: string[]) => unknown) | undefined,
+  fn: (endpoint: string, calls: string[][]) => Promise<void>,
+) => {
+  const calls: string[][] = [];
+  const STOP = new Set(["classification", "a", "and", "blog", "about"]);
+  const bag = (t: string) => {
+    const v = Array(768).fill(0);
+    for (const w of t.toLowerCase().match(/[a-z]+/g) ?? []) {
+      if (STOP.has(w)) continue;
+      let h = 0;
+      for (const c of w) h = (h * 31 + c.charCodeAt(0)) % 767;
+      v[h]++;
+    }
+    v[767] = 0.01;
+    return v;
+  };
+  const server = Deno.serve(
+    { hostname: "127.0.0.1", port: 0, onListen: () => {} },
+    async (req) => {
+      const { input } = await req.json();
+      calls.push(input);
+      return Response.json(
+        reply
+          ? reply(input)
+          : { data: input.map((t: string) => ({ embedding: bag(t) })) },
+      );
+    },
+  );
+  try {
+    await fn(`http://127.0.0.1:${server.addr.port}/v1/embeddings`, calls);
+  } finally {
+    await server.shutdown();
+  }
+};
+
+Deno.test("categorize: nearest category by text, in batches, and none without text", async () => {
+  await withEmbedder(undefined, async (endpoint, calls) => {
+    const filler: Blog[] = Array.from({ length: 38 }, (_, i) => ({
+      url: `https://f${i}.example`,
+      desc: "travel",
+    }));
+    const blogs: Blog[] = [
+      {
+        url: "https://a.example",
+        title: "A",
+        desc: "Notes on cryptography and privacy.",
+      },
+      {
+        url: "https://b.example",
+        title: "B",
+        hn: [{
+          id: "1",
+          title: "Cooking food at home",
+          url: "https://b.example/1",
+          points: 5,
+          comments: 1,
+          created_at: "2020-01-01T00:00:00.000Z",
+        }],
+      },
+      { url: "https://c.example", title: "Home", category: "music" },
+      ...filler,
+    ];
+    assertEquals(await categorize(blogs, endpoint), 40, "count");
+    assertEquals(blogs.slice(0, 3).map((b) => b.category), [
+      "security",
+      "food",
+      undefined,
+    ]);
+    assert(filler.every((b) => b.category === "travel"), "filler is travel");
+    assertEquals(
+      calls.map((c) => c.length),
+      [Object.keys(CATEGORIES).length, 32, 8],
+      "batches",
+    );
+    assert(
+      calls.flat().every((t) => t.startsWith("classification: ")),
+      "task prefix",
+    );
+  });
+});
+
+Deno.test("categorize: a wrong reply crashes with expected and received", async () => {
+  const one: Blog[] = [{ url: "https://a.example", desc: "x" }];
+  await withEmbedder(
+    (input) => ({ data: input.map(() => ({ embedding: [1, 2, 3] })) }),
+    (endpoint) =>
+      failsWith(
+        categorize(one, endpoint),
+        "nonzero 768-number vectors",
+        "received",
+        "llama-cpp-embed",
+      ),
+  );
+  await failsWith(
+    categorize(one, "http://127.0.0.1:9/v1/embeddings"),
+    `expected ${Object.keys(CATEGORIES).length} embeddings`,
+    "systemctl status llama-cpp-embed",
+  );
 });

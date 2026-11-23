@@ -177,3 +177,7 @@ main > div {
     border-bottom: 6px solid #333;
   }
 }
+nav {
+  margin: 0 2rem;
+  line-height: 1.6;
+}
