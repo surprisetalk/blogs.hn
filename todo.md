@@ -4,7 +4,8 @@
   3. Asked 2026-11-23. You rotate it.
 
 - [ ] Visitors browse blogs by 1-3 topic tags drawn from natural clusters of their posts, and the category strip returns.
-  1. Embed each post's title and summary from shelob's `feed_item` (`title`, `raw`), not refetched feeds, with nomic-embed-text on pc's llama-cpp-embed. Store vectors in Postgres on pc (pgvector), never in blogs.json.
+  Decision: approved (you, 2026-11-23).
+  1. Embed each post's title and summary from shelob's `feed_item` (`title`, `raw`), not refetched feeds, with nomic-embed-text on pc's llama-cpp-embed. Store vectors in `vectors.tsv` (feed, post url, published_at, 768 numbers at 4 decimals), gitignored on pc: at about 3 KB a post it runs to hundreds of MB (you, 2026-11-23).
   2. Embed each blog's title, desc, and /about text as one extra point; posts outweigh it.
   3. Cluster post vectors (HDBSCAN or k-means over UMAP), not blog vectors. Ask vixing's clustering lane before writing a second one; it already clusters nomic vectors.
   4. Name each cluster once with Gemma on pc from its 20 central post titles, then review the names by hand. Freeze names and centroids in a committed file.
