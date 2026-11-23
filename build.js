@@ -164,15 +164,9 @@ for (const blog of qualified) {
 }
 for (const c of cities.values()) c.name = [...c.names].sort().join(" / ");
 
-// Every page lists every category, so a visitor moves between them without going back.
-const nav = (current) =>
-  `<nav class="small">${
-    [...categories.keys()].sort().map((c) =>
-      c === current
-        ? `<strong>${c}</strong>`
-        : `<a href="/c/${c}">${c}</a> ${categories.get(c).length}`
-    ).join(" • ")
-  }</nav>`;
+// A category or city page names itself above its listing.
+const heading = (name) =>
+  `<nav class="small"><strong>${esc(name)}</strong></nav>`;
 
 const card = (blog) => {
   let index = "";
@@ -266,39 +260,18 @@ const listing = (head, pool) =>
       }</main>${script}`,
   );
 
-fs.writeFileSync("./dist/index.html", listing(nav(), qualified));
+fs.writeFileSync("./dist/index.html", listing("", qualified));
 // A category or city that empties must lose its page.
 process.execSync("rm -rf dist/c dist/city && mkdir -p dist/c dist/city");
 for (const [c, pool] of categories) {
-  fs.writeFileSync(`./dist/c/${c}.html`, listing(nav(c), pool));
+  fs.writeFileSync(`./dist/c/${c}.html`, listing(heading(c), pool));
 }
 for (const [s, { name, blogs }] of cities) {
   fs.writeFileSync(
     `./dist/city/${s}.html`,
-    listing(
-      `${nav()}<nav class="small"><strong>${
-        esc(name)
-      }</strong> • <a href="/cities">all cities</a></nav>`,
-      blogs,
-    ),
+    listing(heading(name), blogs),
   );
 }
-// Busiest first: most visitors look for a big city.
-fs.writeFileSync(
-  "./dist/cities.html",
-  template.replace(
-    "{{body}}",
-    () =>
-      `<main id="about"><div><h2>cities</h2><p>${
-        [...cities].sort((a, b) =>
-          b[1].blogs.length - a[1].blogs.length ||
-          a[1].name.localeCompare(b[1].name)
-        ).map(([s, { name, blogs }]) =>
-          `<a href="/city/${s}">${esc(name)}</a> ${blogs.length}`
-        ).join(" • ")
-      }</p></div></main>`,
-  ),
-);
 
 const about = `
   <div>

@@ -142,5 +142,5 @@ turn. Being left off the page is not a judgement on a blog; it usually means we
 could not find a feed.
 
 Each category gets a page at `/c/<category>` with the same eligibility and
-sample. Every page starts with a line of links to every category. Each city gets
-a page at `/city/<city>`, and `/cities` lists them all, busiest first.
+sample. Each city gets a page at `/city/<city>`. A blog's card links its
+category and city.

@@ -95,8 +95,8 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
         `expected the title verbatim, received a page without it`,
       );
     }
-    if (!html.includes('<a href="/c/ai">ai</a> 1')) {
-      throw new Error("expected the nav to link /c/ai with its count");
+    if (!html.includes('<a href="/c/ai">#ai</a>')) {
+      throw new Error("expected the card to link /c/ai");
     }
     const ai = await Deno.readTextFile(`${dir}/dist/c/ai.html`);
     if (page(ai).blogs !== 1 || !ai.includes("<strong>ai</strong>")) {
@@ -106,13 +106,8 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
     if (page(zurich).blogs !== 2 || !html.includes('href="/city/zurich-ch"')) {
       throw new Error("expected the card to link dist/city/zurich-ch.html");
     }
-    const cities = await Deno.readTextFile(`${dir}/dist/cities.html`);
-    if (
-      !cities.includes(
-        '<a href="/city/zurich-ch">Zurich, CH / Zürich, CH</a> 2',
-      )
-    ) {
-      throw new Error("expected /cities to list Zürich with its count");
+    if (!zurich.includes("<strong>Zurich, CH / Zürich, CH</strong>")) {
+      throw new Error("expected the city page to name both spellings");
     }
   } finally {
     await Deno.remove(dir, { recursive: true });
