@@ -37,7 +37,7 @@ Deno.test("status grades five conditions and exits 1 exactly when one is below 1
   }
 });
 
-Deno.test("build.js output carries what status reads, keeps $ patterns literal, and lists each category and city", async () => {
+Deno.test("build.js output carries what status reads, keeps $ patterns literal, and lists each tag and city", async () => {
   const dir = await Deno.makeTempDir();
   try {
     for (const f of ["build.js", "template.html", "style.css"]) {
@@ -50,7 +50,7 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
       JSON.stringify([{
         url: "https://example.com",
         title: "Example",
-        category: "ai",
+        tags: ["ai"],
         city: "Zürich, CH",
         desc: "A description long enough to qualify for the front page.",
         feed: "https://example.com/feed.xml",
@@ -97,6 +97,9 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
     }
     if (!html.includes('<a href="/c/ai">#ai</a>')) {
       throw new Error("expected the card to link /c/ai");
+    }
+    if (!html.includes('<nav class="small"><a href="/c/ai">ai</a> 1</nav>')) {
+      throw new Error("expected the strip to link /c/ai with its count");
     }
     const ai = await Deno.readTextFile(`${dir}/dist/c/ai.html`);
     if (page(ai).blogs !== 1 || !ai.includes("<strong>ai</strong>")) {

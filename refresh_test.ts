@@ -1,11 +1,7 @@
 // deno test --allow-read=blogs.json,fixtures --allow-net=127.0.0.1 --allow-env=SHELOB_ACCOUNT_ID
 import {
-  atLeastHalf,
   Blog,
   canonUrl,
-  CATEGORIES,
-  categorize,
-  categoryVectors,
   CITY,
   clean,
   decodeEntities,
@@ -30,6 +26,18 @@ import {
   storeFromEnv,
   stripWww,
 } from "./refresh.ts";
+import {
+  blogText,
+  embed,
+  embedMissing,
+  htmlText,
+  kmeans,
+  loadPosts,
+  loadTopics,
+  loadVectors,
+  postBody,
+  tagBlogs,
+} from "./topics.ts";
 
 const assertEquals = (got: unknown, want: unknown, msg = "") => {
   const g = JSON.stringify(got), w = JSON.stringify(want);
@@ -682,14 +690,19 @@ Deno.test("fillMissing: never overwrites", () => {
 const raw = await Deno.readTextFile("blogs.json");
 const blogs: Blog[] = JSON.parse(raw);
 
-Deno.test("blogs.json: structure", () => {
+Deno.test("blogs.json: structure", async () => {
+  const topicNames = new Set(
+    blogs.some((b: Blog) => b.tags)
+      ? loadTopics(await Deno.readTextFile("topics.json")).map((t) => t.name)
+      : [],
+  );
   assert(Array.isArray(blogs) && blogs.length > 2000, "array of blogs");
   const KEYS = new Set([
     "url",
     "title",
     "desc",
     "keywords",
-    "category",
+    "tags",
     "city",
     "about",
     "now",
@@ -764,10 +777,11 @@ Deno.test("blogs.json: structure", () => {
           `bad ${k} in ${where}: ${v}`,
         );
         assert(blog.feed, `${k} without a feed in ${where}`);
-      } else if (k === "category") {
+      } else if (k === "tags") {
         assert(
-          typeof v === "string" && Object.hasOwn(CATEGORIES, v),
-          `bad category in ${where}: ${v}`,
+          Array.isArray(v) && v.length &&
+            v.every((t) => typeof t === "string" && topicNames.has(t)),
+          `tags not in topics.json in ${where}: ${JSON.stringify(v)}`,
         );
       } else if (k === "city") {
         assert(
@@ -1048,7 +1062,7 @@ const withEmbedder = async (
   fn: (endpoint: string, calls: string[][]) => Promise<void>,
 ) => {
   const calls: string[][] = [];
-  const STOP = new Set(["classification", "a", "and", "blog", "about"]);
+  const STOP = new Set(["clustering", "a", "and"]);
   const bag = (t: string) => {
     const v = Array(768).fill(0);
     for (const w of t.toLowerCase().match(/[a-z]+/g) ?? []) {
@@ -1088,115 +1102,212 @@ const withEmbedder = async (
   }
 };
 
-Deno.test("categorize: nearest category by text, in batches, and none without text", async () => {
-  await withEmbedder(undefined, async (endpoint, calls) => {
-    const filler: Blog[] = Array.from({ length: 38 }, (_, i) => ({
-      url: `https://f${i}.example`,
-      desc: "travel",
-    }));
-    const blogs: Blog[] = [
-      {
-        url: "https://a.example",
-        title: "A",
-        desc: "Notes on cryptography and privacy.",
-      },
-      {
-        url: "https://b.example",
-        title: "B",
-        hn: [{
-          id: "1",
-          title: "Cooking food at home",
-          url: "https://b.example/1",
-          points: 5,
-          comments: 1,
-          created_at: "2020-01-01T00:00:00.000Z",
-        }],
-      },
-      { url: "https://c.example", title: "Home", category: "music" },
-      // The cut at EMBED_CHARS falls inside the emoji's surrogate pair.
-      { url: "https://d.example", title: "x".repeat(1998), desc: "😀 music" },
-      // A lone surrogate from a scraped page.
-      { url: "https://e.example", desc: "x\ud800y" },
-      ...filler,
-    ];
-    assertEquals(
-      await categorize(blogs, await categoryVectors(endpoint), endpoint),
-      42,
-      "count",
-    );
-    assertEquals(blogs.slice(0, 3).map((b) => b.category), [
-      "security",
-      "food",
-      undefined,
-    ]);
-    assert(filler.every((b) => b.category === "travel"), "filler is travel");
-    assertEquals(
-      calls.map((c) => c.length),
-      [Object.keys(CATEGORIES).length, 32, 10],
-      "batches",
-    );
-    assert(
-      calls.flat().every((t) => t.startsWith("classification: ")),
-      "task prefix",
-    );
-  });
-});
+const wrongReplies: ((input: string[]) => unknown)[] = [
+  // too short
+  (input) => ({
+    data: input.map((_, index) => ({ index, embedding: [1, 2, 3] })),
+  }),
+  // infinite length
+  (input) => ({
+    data: input.map((_, index) => ({
+      index,
+      embedding: Array(768).fill(1e308),
+    })),
+  }),
+  // out of order
+  (input) => ({
+    data: input.map((_, index) => ({
+      index: input.length - 1 - index,
+      embedding: Array(768).fill(1),
+    })),
+  }),
+];
 
 Deno.test("embed: a wrong reply crashes with expected and received", async () => {
-  const wrong: [string, (input: string[]) => unknown][] = [
-    [
-      "short",
-      (input) => ({
-        data: input.map((_, index) => ({ index, embedding: [1, 2, 3] })),
-      }),
-    ],
-    [
-      "huge",
-      (input) => ({
-        data: input.map((_, index) => ({
-          index,
-          embedding: Array(768).fill(1e308),
-        })),
-      }),
-    ],
-    [
-      "reversed",
-      (input) => ({
-        data: input.map((_, index) => ({
-          index: input.length - 1 - index,
-          embedding: Array(768).fill(1),
-        })),
-      }),
-    ],
-  ];
-  for (const [, reply] of wrong) {
+  for (const reply of wrongReplies) {
     await withEmbedder(reply, (endpoint) =>
       failsWith(
-        categoryVectors(endpoint),
+        embed(["a", "b"], endpoint),
         "768-number vectors in input order",
         "received",
         "llama-cpp-embed",
       ));
   }
   await failsWith(
-    categoryVectors("http://127.0.0.1:9/v1/embeddings"),
-    `expected ${Object.keys(CATEGORIES).length} embeddings`,
+    embed(["a"], "http://127.0.0.1:9/v1/embeddings"),
+    "expected 1 embeddings",
     "systemctl status llama-cpp-embed",
   );
 });
 
-Deno.test("atLeastHalf: a count that falls below half of the last run crashes", () => {
-  atLeastHalf(10, 5, "categorized");
-  atLeastHalf(0, 0, "categorized");
+Deno.test("topics: posts and bodies from feed_item; vectors.tsv resumes and drops a cut line", async () => {
+  const dir = await Deno.makeTempDir();
+  const path = `${dir}/vectors.tsv`;
+  try {
+    await withStore(
+      {},
+      (store) =>
+        withEmbedder(undefined, async (endpoint, calls) => {
+          const posts = await loadPosts(store, new Set([FEED_A, FEED_B]));
+          // The undated row is out; the 1970 row is dated.
+          assertEquals(posts.get(FEED_A)!.map((p) => p.title), [
+            "one",
+            "two",
+            "three",
+            "zero",
+          ]);
+          const all = [...posts.values()].flat();
+          let cache = await loadVectors(path);
+          assertEquals(
+            await embedMissing(store, all, cache, path, endpoint),
+            5,
+            "first run",
+          );
+          assert(
+            calls.flat().every((t) => t.startsWith("clustering: ")),
+            "task prefix",
+          );
+          await Deno.writeTextFile(path, `${FEED_A}\tcut\t0.1,0.2`, {
+            append: true,
+          });
+          cache = await loadVectors(path);
+          assertEquals(cache.size, 5, "the cut line is dropped");
+          assert(
+            (await Deno.readTextFile(path)).endsWith("\n"),
+            "and the file repaired",
+          );
+          assertEquals(
+            await embedMissing(store, all, cache, path, endpoint),
+            0,
+            "rerun",
+          );
+        }),
+    );
+    await Deno.writeTextFile(path, "x\ty\t1,2\n");
+    await failsWith(
+      loadVectors(path),
+      "vectors.tsv:1",
+      "768 comma-joined numbers",
+    );
+  } finally {
+    await Deno.remove(dir, { recursive: true });
+  }
+});
+
+Deno.test("postBody: content over description, as text; a non-object crashes", () => {
+  assertEquals(
+    postBody({
+      content: "<p>Hi &amp; <b>bye</b></p><script>x()</script>",
+      description: "no",
+    }, "w"),
+    "Hi & bye",
+  );
+  assertEquals(
+    postBody(JSON.stringify({ description: "<i>sum</i>" }), "w"),
+    "sum",
+  );
+  assertEquals(postBody({}, "w"), "");
+  assertEquals(htmlText("a<style>p{}</style>b"), "ab");
   let err = "";
   try {
-    atLeastHalf(10, 4, "categorized");
+    postBody(5, "part row 3");
   } catch (e) {
     err = String(e);
   }
-  assert(
-    err.includes("expected at least 5 blogs categorized") &&
-      err.includes("received 4"),
-    err,
+  assert(err.includes("part row 3") && err.includes("gofeed item"), err);
+});
+
+const basis = (i: number, jitter = 0) => {
+  const v = new Float32Array(768);
+  v[i] = 1;
+  v[767] = jitter;
+  const n = Math.hypot(1, jitter);
+  return v.map((x) => x / n);
+};
+
+Deno.test("kmeans: finds separate groups, the same way each run", () => {
+  const points = [0, 1, 2].flatMap((g) =>
+    Array.from({ length: 20 }, (_, i) => basis(g, i / 100))
+  );
+  const a = kmeans(points, 3);
+  const b = kmeans(points, 3);
+  assertEquals(Array.from(a.assign), Array.from(b.assign), "deterministic");
+  for (const g of [0, 1, 2]) {
+    assertEquals(
+      new Set(a.assign.slice(g * 20, g * 20 + 20)).size,
+      1,
+      `group ${g}`,
+    );
+  }
+  assertEquals(new Set(a.assign).size, 3, "three topics");
+});
+
+Deno.test("tagBlogs: the strongest topic, others at 20%, at most 3; none without points", () => {
+  const topics = ["a", "b", "c", "d"].map((name, i) => ({
+    name,
+    centroid: basis(i),
+  }));
+  const blog = (url: string) => ({ url, tags: ["stale"] });
+  const [x, y, z, w] = [
+    blog("https://x"),
+    blog("https://y"),
+    blog("https://z"),
+    blog("https://w"),
+  ];
+  const pts = (counts: number[]) =>
+    counts.flatMap((n, i) => Array.from({ length: n }, () => basis(i)));
+  const n = tagBlogs(
+    [x, y, z, w],
+    new Map([
+      [x, pts([6, 3, 1])],
+      [y, pts([3, 3, 2, 2])],
+      [z, pts([1, 1, 1, 1, 0])],
+    ]),
+    topics,
+  );
+  assertEquals(n, 3);
+  assertEquals([x.tags, y.tags, z.tags, w.tags], [["a", "b"], ["a", "b", "c"], [
+    "a",
+    "b",
+    "c",
+  ], undefined]);
+});
+
+Deno.test("loadTopics: unique slug names and 768-number centroids", () => {
+  const t = (name: string) => ({
+    name,
+    posts: 1,
+    examples: [],
+    centroid: Array.from(basis(0)),
+  });
+  assertEquals(loadTopics(JSON.stringify([t("a"), t("b-c")])).length, 2);
+  for (
+    const bad of [[t("a"), t("a")], [t("Bad Name")], [{
+      ...t("a"),
+      centroid: [1],
+    }], []]
+  ) {
+    let err = "";
+    try {
+      loadTopics(JSON.stringify(bad));
+    } catch (e) {
+      err = String(e);
+    }
+    assert(err.includes("topics.json: expected"), err);
+  }
+});
+
+Deno.test("blogText: a blog needs more than a title, and its text stays well formed", () => {
+  assertEquals(blogText({ url: "https://a", title: "Home" }), undefined);
+  assertEquals(blogText({ url: "https://a", desc: "x\ud800y" }), "x\ufffdy");
+  assertEquals(
+    [
+      ...blogText({
+        url: "https://a",
+        title: "x".repeat(1998),
+        desc: "😀 music",
+      })!,
+    ].length,
+    2000,
   );
 });

@@ -40,37 +40,6 @@ export const FILLABLE = [
   "mastodon",
 ] as const;
 
-// The key is the slug and the label on the site. The value is what the embedder compares a blog's text against.
-// NOTE: A blog gets the category whose description sits nearest its text in nomic-embed-text space. Alternative: k-means clusters. They find the corpus's own topics, but every cluster needs a name, and the names move with each refresh.
-export const CATEGORIES = {
-  programming: "programming languages, compilers, and software engineering",
-  web: "web development, JavaScript, CSS, and browsers",
-  systems: "operating systems, Linux, networking, and low-level systems",
-  ai: "artificial intelligence, machine learning, and LLMs",
-  data: "databases, data engineering, and analytics",
-  security: "computer security, cryptography, and privacy",
-  hardware: "hardware, electronics, and making things",
-  math: "mathematics",
-  science: "physics, biology, chemistry, and science",
-  design: "design, typography, and user experience",
-  business: "startups, business, and management",
-  economics: "economics, finance, and investing",
-  career: "productivity, careers, and self-improvement",
-  books: "writing, books, and literature",
-  philosophy: "philosophy and ideas",
-  society: "politics, culture, and society",
-  history: "history",
-  art: "art and photography",
-  music: "music",
-  games: "video games and game development",
-  travel: "travel",
-  food: "food and cooking",
-  health: "health and fitness",
-  life: "personal life, family, and journaling",
-} as const;
-export type Category = keyof typeof CATEGORIES;
-const isCategory = (s: string): s is Category => Object.hasOwn(CATEGORIES, s);
-
 // Derived from the feed, not scraped: active_at is the newest post date,
 // posts is how many dated entries the feed carries, and cadence is the median
 // gap between consecutive posts in days. Median rather than mean so one
@@ -82,7 +51,7 @@ export type Blog =
     active_at?: string;
     posts?: number;
     cadence?: number;
-    category?: Category;
+    tags?: string[];
     city?: string;
   }
   & {
@@ -377,7 +346,7 @@ const KEYS = [
   "title",
   "desc",
   "keywords",
-  "category",
+  "tags",
   "city",
   "about",
   "now",
@@ -393,6 +362,7 @@ const KEYS = [
 ] as const;
 
 const ISO = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/;
+export const TAG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 export const CITY = /^\S[^\t\n\r]*, [A-Z]{2}$/;
 
 export const canonUrl = (raw: string): string => {
@@ -471,9 +441,14 @@ export const normalize = (blog: Blog): Blog => {
       }
       continue;
     }
-    if (key === "category") {
-      const v = blog.category;
-      if (typeof v === "string" && isCategory(v)) out.category = v;
+    // topics.ts writes 1 to 3 names from topics.json, strongest first. The blogs.json test checks them against it.
+    if (key === "tags") {
+      const v = blog.tags;
+      if (
+        Array.isArray(v) && v.length >= 1 && v.length <= 3 &&
+        v.every((t) => typeof t === "string" && TAG.test(t)) &&
+        new Set(v).size === v.length
+      ) out.tags = v;
       continue;
     }
     // NOTE: city is curated: "City, CC", filled once from GitHub profiles and nownownow.com, and by hand in pull requests. Alternative: a weekly GitHub lookup. It needs a GitHub token in every refresh and a 2 MB city table, and its free-text rules kept missing. build.js escapes the city and folds it into a file name.
@@ -625,12 +600,7 @@ const storeError = (
       `If a shelob build was running, it replaced a part under this read: rerun.`,
   );
 
-// Published times, in ms, of every feed_item row whose feed is in `feeds`.
-// shelob writes zstd parquet. Reads two columns of each part with range requests, never the raw column.
-export const loadFeedTimes = async (
-  store: Store,
-  feeds: Set<string>,
-): Promise<Map<string, number[]>> => {
+const storeGet = (store: Store) => {
   // retries: 1 keeps aws4fetch from backing off ten times on a 5xx.
   const client = new AwsClient({
     accessKeyId: store.accessKeyId,
@@ -639,7 +609,7 @@ export const loadFeedTimes = async (
     region: "auto",
     retries: 1,
   });
-  const get = async (key: string, init: RequestInit = {}) => {
+  return async (key: string, init: RequestInit = {}) => {
     const url = `${store.endpoint}/${store.bucket}/${key}`;
     const res = await client.fetch(url, {
       ...init,
@@ -647,6 +617,51 @@ export const loadFeedTimes = async (
     });
     return { res, url };
   };
+};
+
+// A feed_item part as a range-read file for hyparquet.
+export const feedItemPart = async (store: Store, key: string) => {
+  const get = storeGet(store);
+  const { res: head, url } = await get(key, { method: "HEAD" });
+  const byteLength = Number(head.headers.get("content-length"));
+  if (!head.ok || !byteLength) {
+    throw storeError(
+      "Cannot size a feed_item part",
+      "http 200 with content-length",
+      `http ${head.status}, length ${byteLength}`,
+      url,
+    );
+  }
+  return {
+    url,
+    byteLength,
+    slice: async (start: number, end?: number) => {
+      const stop = end ?? byteLength;
+      const { res } = await get(key, {
+        headers: { range: `bytes=${start}-${stop - 1}` },
+      });
+      if (res.status !== 206) {
+        await res.body?.cancel();
+        throw storeError(
+          "Cannot range-read a feed_item part",
+          "http 206",
+          `http ${res.status}`,
+          url,
+        );
+      }
+      return res.arrayBuffer();
+    },
+  };
+};
+
+// Reads `columns` of every feed_item part with range requests and hands each part's rows, in part order, to `each`.
+// shelob writes zstd parquet. The raw column is 95% of the bytes, so only topics.ts reads it, and only for the rows it needs.
+export const readFeedItem = async (
+  store: Store,
+  columns: string[],
+  each: (rows: Record<string, unknown>[], url: string, key: string) => void,
+): Promise<number> => {
+  const get = storeGet(store);
   const { res: mres, url: murl } = await get("table/feed_item.json");
   if (!mres.ok) {
     await mres.body?.cancel();
@@ -700,7 +715,6 @@ export const loadFeedTimes = async (
     );
   }
 
-  const out = new Map<string, number[]>();
   const started = Date.now();
   let read = 0;
   for (const [n, key] of (parts as string[]).entries()) {
@@ -712,82 +726,25 @@ export const loadFeedTimes = async (
         murl,
       );
     }
-    const { res: head, url } = await get(key, { method: "HEAD" });
-    const byteLength = Number(head.headers.get("content-length"));
-    if (!head.ok || !byteLength) {
-      throw storeError(
-        "Cannot size a feed_item part",
-        "http 200 with content-length",
-        `http ${head.status}, length ${byteLength}`,
-        url,
-      );
-    }
-    const file = {
-      byteLength,
-      slice: async (start: number, end?: number) => {
-        const stop = end ?? byteLength;
-        const { res } = await get(key, {
-          headers: { range: `bytes=${start}-${stop - 1}` },
-        });
-        if (res.status !== 206) {
-          await res.body?.cancel();
-          throw storeError(
-            "Cannot range-read a feed_item part",
-            "http 206",
-            `http ${res.status}`,
-            url,
-          );
-        }
-        return res.arrayBuffer();
-      },
-    };
+    const file = await feedItemPart(store, key);
+    const url = file.url;
     let rows;
     try {
       rows = await parquetReadObjects({
         file,
-        columns: ["feed", "published_at"],
+        columns,
         compressors,
       });
     } catch (err) {
       throw storeError(
         "Cannot decode a feed_item part",
-        "parquet with feed and published_at",
+        `parquet with ${columns.join(", ")}`,
         msg(err),
         url,
       );
     }
     read += rows.length;
-    for (const r of rows) {
-      if (typeof r.feed !== "string") {
-        throw storeError(
-          "Malformed feed_item row",
-          "feed as a string",
-          JSON.stringify(r.feed),
-          url,
-        );
-      }
-      if (r.published_at === null) continue;
-      if (!(r.published_at instanceof Date)) {
-        throw storeError(
-          "Malformed feed_item row",
-          "published_at as a timestamp",
-          typeof r.published_at,
-          url,
-        );
-      }
-      if (Number.isNaN(r.published_at.getTime())) {
-        throw storeError(
-          "Malformed feed_item row",
-          "a valid published_at",
-          "an invalid date",
-          url,
-        );
-      }
-      if (!feeds.has(r.feed)) continue;
-      const list = out.get(r.feed) ?? [];
-      list.push(r.published_at.getTime());
-      out.set(r.feed, list);
-    }
+    each(rows, url, key);
   }
   if (read !== want) {
     throw storeError(
@@ -797,13 +754,65 @@ export const loadFeedTimes = async (
       murl,
     );
   }
+  return read;
+};
+
+// A feed_item row's published_at: null when undated, else a valid Date.
+export const publishedAt = (r: Record<string, unknown>, url: string) => {
+  if (r.published_at === null) return null;
+  if (!(r.published_at instanceof Date)) {
+    throw storeError(
+      "Malformed feed_item row",
+      "published_at as a timestamp",
+      typeof r.published_at,
+      url,
+    );
+  }
+  if (Number.isNaN(r.published_at.getTime())) {
+    throw storeError(
+      "Malformed feed_item row",
+      "a valid published_at",
+      "an invalid date",
+      url,
+    );
+  }
+  return r.published_at.getTime();
+};
+
+// Published times, in ms, of every feed_item row whose feed is in `feeds`.
+export const loadFeedTimes = async (
+  store: Store,
+  feeds: Set<string>,
+): Promise<Map<string, number[]>> => {
+  const out = new Map<string, number[]>();
+  const read = await readFeedItem(
+    store,
+    ["feed", "published_at"],
+    (rows, url) => {
+      for (const r of rows) {
+        if (typeof r.feed !== "string") {
+          throw storeError(
+            "Malformed feed_item row",
+            "feed as a string",
+            JSON.stringify(r.feed),
+            url,
+          );
+        }
+        const t = publishedAt(r, url);
+        if (t === null || !feeds.has(r.feed)) continue;
+        const list = out.get(r.feed) ?? [];
+        list.push(t);
+        out.set(r.feed, list);
+      }
+    },
+  );
   // A wrong bucket or a feed URL form that differs from shelob's feed_list matches nothing.
   if (feeds.size && !out.size) {
     throw storeError(
       "No feed_item row matches any blog feed",
       `rows for some of ${feeds.size} feeds`,
       `none in ${read} rows`,
-      murl,
+      `${store.endpoint}/${store.bucket}/table/feed_item.json`,
     );
   }
   return out;
@@ -919,7 +928,6 @@ type Counters = {
   hnFail: number;
   feedOk: number;
   feedUnseen: number;
-  categorized: number;
 };
 
 const msg = (
@@ -1010,117 +1018,6 @@ export const enrich = async (
   }
 };
 
-// pc's llama-cpp-embed serves nomic-embed-text-v1.5 (768 dimensions) here.
-export const EMBED = "http://127.0.0.1:8081/v1/embeddings";
-const EMBED_DIM = 768;
-// llama-cpp-embed runs 4 slots; one request of 32 texts keeps them busy.
-const EMBED_BATCH = 32;
-const EMBED_TIMEOUT = 60_000;
-// nomic-embed-text trains to 2048 tokens. 2000 characters stay under that.
-const EMBED_CHARS = 2000;
-
-// The title alone ("Home", "Blog") says nothing about a topic, so a blog with only a title gets no category.
-export const blogText = (b: Blog): string | undefined => {
-  const hn = (b.hn ?? []).slice().sort((x, y) => y.points - x.points)
-    .slice(0, 5).map((h) => h.title);
-  const about = [b.desc, b.keywords, ...hn].filter((x) => x);
-  if (!about.length) return undefined;
-  // llama-server answers HTTP 400 to a lone surrogate, so repair scraped ones and cut by code point.
-  return [...[b.title, ...about].filter((x) => x).join("\n").toWellFormed()]
-    .slice(0, EMBED_CHARS).join("");
-};
-
-// nomic-embed-text needs a task prefix on every input. "classification: " is its prefix for labeling.
-export const embed = async (
-  endpoint: string,
-  texts: string[],
-): Promise<number[][]> => {
-  const input = texts.map((t) => "classification: " + t);
-  let body: unknown;
-  try {
-    const res = await fetch(endpoint, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ input }),
-      signal: AbortSignal.timeout(EMBED_TIMEOUT),
-    });
-    if (!res.ok) {
-      throw new Error(
-        `HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`,
-      );
-    }
-    body = await res.json();
-  } catch (err) {
-    throw new Error(
-      `embed: expected ${texts.length} embeddings from ${endpoint} within ${EMBED_TIMEOUT} ms, received ${
-        msg(err)
-      }. Fix: systemctl status llama-cpp-embed on pc.`,
-    );
-  }
-  const data = (body as { data?: unknown })?.data;
-  const items = Array.isArray(data) ? data : [];
-  const vs = items.map((d, i) => {
-    const { index, embedding: v } = (d ?? {}) as {
-      index?: unknown;
-      embedding?: unknown;
-    };
-    if (index !== i || !Array.isArray(v) || v.length !== EMBED_DIM) return;
-    if (!v.every((x) => typeof x === "number")) return;
-    const n = Math.hypot(...v);
-    return n > 0 && isFinite(n) ? v.map((x) => x / n) : undefined;
-  });
-  if (vs.length !== texts.length || vs.some((v) => v === undefined)) {
-    throw new Error(
-      `embed: expected {data: [{index, embedding}]} with ${texts.length} ${EMBED_DIM}-number vectors in input order, each of finite nonzero length, from ${endpoint}, received ${
-        JSON.stringify(body).slice(0, 200)
-      }. Fix: check that llama-cpp-embed on pc still serves nomic-embed-text-v1.5.`,
-    );
-  }
-  return vs as number[][];
-};
-
-const CATEGORY_KEYS = Object.keys(CATEGORIES) as Category[];
-
-// main calls this before the long fetches, so a down embedder crashes in seconds.
-export const categoryVectors = (endpoint = EMBED) =>
-  embed(endpoint, CATEGORY_KEYS.map((k) => "a blog about " + CATEGORIES[k]));
-
-// Sets each blog's category from its text, every full run, the way activity stats refresh. Returns the count.
-export const categorize = async (
-  blogs: Blog[],
-  labels: number[][],
-  endpoint = EMBED,
-): Promise<number> => {
-  const todo = blogs.flatMap((blog) => {
-    const text = blogText(blog);
-    if (text === undefined) delete blog.category;
-    return text === undefined ? [] : [{ blog, text }];
-  });
-  for (let i = 0; i < todo.length; i += EMBED_BATCH) {
-    const batch = todo.slice(i, i + EMBED_BATCH);
-    const vs = await embed(endpoint, batch.map((t) => t.text));
-    batch.forEach(({ blog }, j) => {
-      const sims = labels.map((l) =>
-        l.reduce((s, x, d) => s + x * vs[j][d], 0)
-      );
-      blog.category = CATEGORY_KEYS[sims.indexOf(Math.max(...sims))];
-    });
-  }
-  return todo.length;
-};
-
-// A broken embedder would otherwise delete every category and still commit.
-// NOTE: Half of the last run's count is the floor. Alternative: a fixed floor. It goes stale as blogs.json grows.
-export const atLeastHalf = (before: number, after: number, what: string) => {
-  if (after < before / 2) {
-    throw new Error(
-      `expected at least ${
-        Math.ceil(before / 2)
-      } blogs ${what}, half of the ${before} in blogs.json, received ${after}. Refusing to write blogs.json. Fix: read the errors above; check llama-cpp-embed.`,
-    );
-  }
-};
-
 const pool = async <T>(
   items: T[],
   n: number,
@@ -1143,14 +1040,12 @@ if (import.meta.main) {
     hnFail: 0,
     feedOk: 0,
     feedUnseen: 0,
-    categorized: 0,
   };
   const summary = (prefix: string) =>
     console.error(
       `${prefix}${c.filled} fields filled, ` +
         `${c.pageOk} pages ok, ${c.pageFail} pages failed, ` +
         `${c.feedOk} feeds ok, ${c.feedUnseen} feeds unseen, ` +
-        `${c.categorized} categorized, ` +
         `${c.hnOk} hn ok, ${c.hnFail} hn failed`,
     );
   const urls = Deno.args.filter((a) => !a.startsWith("--"));
@@ -1185,8 +1080,6 @@ if (import.meta.main) {
       }
     });
     const targets = Deno.args.includes("--fmt") ? [] : blogs;
-    // Before the long fetches, so a down embedder crashes in seconds.
-    const labels = targets.length ? await categoryVectors() : undefined;
     const feeds = new Set(targets.flatMap((b) => (b.feed ? [b.feed] : [])));
     const times = targets.length
       ? await loadFeedTimes(storeFromEnv(), feeds)
@@ -1197,11 +1090,6 @@ if (import.meta.main) {
         `systemic failure (${c.pageOk}/${targets.length} pages, ${c.hnOk}/${targets.length} hn); ` +
           `refusing to write blogs.json`,
       );
-    }
-    if (labels) {
-      const had = blogs.filter((b) => b.category).length;
-      c.categorized = await categorize(blogs, labels);
-      atLeastHalf(had, c.categorized, "categorized");
     }
     const out = JSON.stringify(blogs.map(normalize), null, 2) + "\n";
     if (out !== raw) await Deno.writeTextFile("blogs.json", out);

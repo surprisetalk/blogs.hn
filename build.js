@@ -127,19 +127,24 @@ if (qualified.length === 0) {
   );
 }
 
-// The category names a file under dist/c/, so it must be a plain slug.
-const categories = new Map();
+// Each tag names a file under dist/c/, so it must be a plain slug.
+const tags = new Map();
 for (const blog of qualified) {
-  if (blog.category === undefined) continue;
-  if (typeof blog.category !== "string" || !/^[a-z]+$/.test(blog.category)) {
+  if (blog.tags === undefined) continue;
+  if (
+    !Array.isArray(blog.tags) ||
+    !blog.tags.every((t) => /^[a-z0-9]+(-[a-z0-9]+)*$/.test(t))
+  ) {
     throw new Error(
-      `build.js: expected ${blog.url} to have a lowercase category slug, received ${
-        JSON.stringify(blog.category)
-      }. Fix: run refresh.ts --fmt, which drops unknown categories.`,
+      `build.js: expected ${blog.url} to have an array of lowercase-hyphen tags, received ${
+        JSON.stringify(blog.tags)
+      }. Fix: run refresh.ts --fmt, which drops malformed tags.`,
     );
   }
-  if (!categories.has(blog.category)) categories.set(blog.category, []);
-  categories.get(blog.category).push(blog);
+  for (const t of blog.tags) {
+    if (!tags.has(t)) tags.set(t, []);
+    tags.get(t).push(blog);
+  }
 }
 
 // "Zürich, CH" lives at /city/zurich-ch.
@@ -164,7 +169,20 @@ for (const blog of qualified) {
 }
 for (const c of cities.values()) c.name = [...c.names].sort().join(" / ");
 
-// A category or city page names itself above its listing.
+// Every page lists every tag, busiest first, so a visitor moves between them without going back.
+const nav = (current) =>
+  `<nav class="small">${
+    [...tags].sort((a, b) =>
+      b[1].length - a[1].length || a[0].localeCompare(b[0])
+    )
+      .map(([t, pool]) =>
+        t === current
+          ? `<strong>${t}</strong> ${pool.length}`
+          : `<a href="/c/${t}">${t}</a> ${pool.length}`
+      ).join(" • ")
+  }</nav>`;
+
+// A city page names itself above its listing.
 const heading = (name) =>
   `<nav class="small"><strong>${esc(name)}</strong></nav>`;
 
@@ -195,7 +213,7 @@ const card = (blog) => {
   ]
     .map((x, i) => x && `<a href="${esc(x)}">${linkTitles[i]}</a>`)
     .concat(
-      blog.category && `<a href="/c/${blog.category}">#${blog.category}</a>`,
+      ...(blog.tags ?? []).map((t) => `<a href="/c/${t}">#${t}</a>`),
       blog.city &&
         `<a href="/city/${slug(blog.city)}">${esc(blog.city)}</a>`,
     )
@@ -260,16 +278,16 @@ const listing = (head, pool) =>
       }</main>${script}`,
   );
 
-fs.writeFileSync("./dist/index.html", listing("", qualified));
-// A category or city that empties must lose its page.
+fs.writeFileSync("./dist/index.html", listing(nav(), qualified));
+// A tag or city that empties must lose its page.
 process.execSync("rm -rf dist/c dist/city && mkdir -p dist/c dist/city");
-for (const [c, pool] of categories) {
-  fs.writeFileSync(`./dist/c/${c}.html`, listing(heading(c), pool));
+for (const [t, pool] of tags) {
+  fs.writeFileSync(`./dist/c/${t}.html`, listing(nav(t), pool));
 }
 for (const [s, { name, blogs }] of cities) {
   fs.writeFileSync(
     `./dist/city/${s}.html`,
-    listing(heading(name), blogs),
+    listing(nav() + heading(name), blogs),
   );
 }
 

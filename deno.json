@@ -1,10 +1,13 @@
 {
   "tasks": {
     "check": "deno fmt --check && deno lint && deno check *.ts && deno test --allow-read --allow-write --allow-run=node,deno --allow-net=127.0.0.1 --allow-env=SHELOB_ACCOUNT_ID",
-    "status": "deno run --allow-net=blogs.hn,api.github.com,raw.githubusercontent.com status.ts"
+    "status": "deno run --allow-net=blogs.hn,api.github.com,raw.githubusercontent.com status.ts",
+    "topics": "deno run --env-file=.env --allow-env=SHELOB_ACCOUNT_ID,SHELOB_ACCESS_KEY_ID,SHELOB_SECRET_ACCESS_KEY,SHELOB_BUCKET --allow-net --allow-read=blogs.json,.env,vectors.tsv,topics.json --allow-write=blogs.json,vectors.tsv,topics.json topics.ts"
   },
   "imports": {
     "aws4fetch": "npm:aws4fetch@1.0.20",
+    "domutils": "npm:domutils@3.2.2",
+    "htmlparser2": "npm:htmlparser2@10.0.0",
     "hyparquet": "npm:hyparquet@1.31.4",
     "hyparquet-compressors": "npm:hyparquet-compressors@1.1.2"
   },

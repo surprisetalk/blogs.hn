@@ -82,12 +82,19 @@ table is over 48 hours old, or when the rows read differ from the manifest's
 count. A feed found by the scrape in a full run gets its stats once shelob has
 fetched it. Adding blogs by URL needs no keys.
 
-The full refresh also sets each blog's `category`, one of `CATEGORIES` in
-`refresh.ts`. It embeds the blog's title, desc, keywords, and top HackerNews
-titles with nomic-embed-text on pc's `llama-cpp-embed` (`127.0.0.1:8081`), and
-picks the nearest category description. A blog with only a title gets none. The
-run fails when the embedder does not answer. The category overwrites every run,
-as activity stats do.
+`tags` holds 1 to 3 topics from `topics.json`, strongest first. Only a
+deliberate run of `deno task topics` on pc sets them; the refresh keeps them as
+they are. It reads the title and body of each blog's newest 50 posts from
+shelob's `feed_item` (the body only for those rows), embeds each with
+nomic-embed-text on pc's `llama-cpp-embed` (`127.0.0.1:8081`), and adds the
+blog's desc as one more point. Each point votes for its nearest topic. A blog
+takes its top topic, plus any topic with 20% of its points. `vectors.tsv`
+(gitignored) caches the post vectors, so a rerun embeds only new posts and a
+crashed run resumes. Without `topics.json`, the run first fits 40 topics with
+k-means over the post vectors and names each with Gemma on pc
+(`127.0.0.1:8080`). Gemma's names repeat and run long, so shorten each by hand
+to a unique tag, such as `css`, `week`, or `pl`, then commit `topics.json` and
+run again to tag. Delete it to fit again. A new blog gets tags at the next run.
 
 `city`, such as `San Jose, US` or `Portland, Maine, US`, is curated. It was
 filled once from GitHub profile locations and nownownow.com, then checked by
@@ -141,6 +148,6 @@ likelier to appear, but the page rebuilds every 2 hours, so the rest get their
 turn. Being left off the page is not a judgement on a blog; it usually means we
 could not find a feed.
 
-Each category gets a page at `/c/<category>` with the same eligibility and
-sample. Each city gets a page at `/city/<city>`. A blog's card links its
-category and city.
+Each tag gets a page at `/c/<tag>` with the same eligibility and sample, and
+every page starts with a line of links to every tag. Each city gets a page at
+`/city/<city>`. A blog's card links its tags and city.
