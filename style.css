@@ -70,6 +70,25 @@ header > a:first-child {
 main {
   margin: 2rem 2rem 12rem;
 }
+/* The tag strip shares the cards' side margins. */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 2rem 2rem 0;
+}
+nav + main {
+  margin-top: 1.5rem;
+}
+/* A city page names its city in a second strip under the tags. */
+nav + nav {
+  margin-top: 1rem;
+}
+nav strong {
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
 main > div {
   display: inline-block;
   width: 100%;
@@ -95,6 +114,12 @@ main > div {
   }
   main {
     margin: 3rem 4rem 12rem;
+  }
+  nav {
+    margin: 3rem 4rem 0;
+  }
+  nav + main {
+    margin-top: 2rem;
   }
 }
 
@@ -176,8 +201,4 @@ main > div {
     border: 0;
     border-bottom: 6px solid #333;
   }
-}
-nav {
-  margin: 0 2rem;
-  line-height: 1.6;
 }

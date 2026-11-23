@@ -6,7 +6,6 @@
   },
   "imports": {
     "aws4fetch": "npm:aws4fetch@1.0.20",
-    "domutils": "npm:domutils@3.2.2",
     "htmlparser2": "npm:htmlparser2@10.0.0",
     "hyparquet": "npm:hyparquet@1.31.4",
     "hyparquet-compressors": "npm:hyparquet-compressors@1.1.2"

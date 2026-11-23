@@ -2,7 +2,6 @@
 // Without topics.json, it first fits the topics and names them with Gemma. Review the names, then commit topics.json.
 // Delete topics.json to fit again. Only a deliberate run changes tags; refresh.ts keeps them as they are.
 
-import { findAll, removeElement, textContent } from "domutils";
 import { parseDocument } from "htmlparser2";
 import { parquetMetadataAsync, parquetReadObjects } from "hyparquet";
 import { compressors } from "hyparquet-compressors";
@@ -186,6 +185,7 @@ export const loadPosts = async (
 
 // vectors.tsv: feed, title, and 768 comma-joined numbers per line. A crash can leave a cut last line; loading drops it.
 const VECTOR_CUT = 64 * 1024;
+const DECIMAL = /^-?\d+(\.\d+)?$/;
 
 export const loadVectors = async (
   path = VECTORS,
@@ -228,9 +228,10 @@ export const loadVectors = async (
   const take = (s: string) => {
     line++;
     const f = s.split("\t");
-    const nums = f[2]?.split(",").map(Number) ?? [];
-    const v = nums.length === DIM && nums.every(isFinite)
-      ? unit(Float32Array.from(nums))
+    // Number() reads "" and " " as 0 and "0x10" as 16, so each field must look like toFixed output first.
+    const fields = f[2]?.split(",") ?? [];
+    const v = fields.length === DIM && fields.every((x) => DECIMAL.test(x))
+      ? unit(Float32Array.from(fields, Number))
       : undefined;
     if (f.length !== 3 || !f[0] || !f[1] || !v) {
       throw new Error(
@@ -253,18 +254,33 @@ export const loadVectors = async (
   return out;
 };
 
+// A block element or <br> ends a word, so its text is set off by spaces; inline elements such as <b> join their text.
+const BLOCK = new Set(
+  "address article aside blockquote br dd div dl dt figcaption figure footer h1 h2 h3 h4 h5 h6 header hr li main nav ol p pre section table td th tr ul"
+    .split(" "),
+);
+
 // The visible text of an HTML fragment. htmlparser2 decodes entities and tolerates broken markup.
+// NOTE: Walk the tree with an explicit stack. Alternative: domutils textContent. It recurses, so 5000 nested divs overflow the call stack, and it glues the words of adjacent paragraphs.
 export const htmlText = (html: string) => {
-  const doc = parseDocument(html);
-  for (
-    const el of findAll(
-      (e) => e.name === "script" || e.name === "style",
-      doc.children,
-    )
-  ) {
-    removeElement(el);
+  type Node = ReturnType<typeof parseDocument>["children"][number];
+  const out: string[] = [];
+  const stack: (Node | " ")[] = [...parseDocument(html).children].reverse();
+  while (stack.length) {
+    const n = stack.pop()!;
+    if (n === " ") out.push(" ");
+    else if (n.type === "text" && "data" in n) out.push(n.data);
+    else if (
+      "children" in n && n.type !== "script" && n.type !== "style"
+    ) {
+      const block = "name" in n && BLOCK.has(n.name);
+      if (block) out.push(" "), stack.push(" ");
+      for (let i = n.children.length - 1; i >= 0; i--) {
+        stack.push(n.children[i]);
+      }
+    }
   }
-  return textContent(doc);
+  return out.join("").replace(/\s+/g, " ").trim();
 };
 
 // shelob stores gofeed's item as JSON: content holds the full post when the feed carries it, description the summary.
@@ -412,7 +428,7 @@ export const kmeans = (points: Float32Array[], k: number, seed = 1) => {
       throw new Error(
         `kmeans: expected fewer than ${
           KMEANS_SETTLED * 100
-        }% of points to change topic within ${KMEANS_ITERS} passes, received more. Fix: raise KMEANS_ITERS in topics.ts.`,
+        }% of points to change topic within ${KMEANS_ITERS} passes, received more. Fix: if the posts hold fewer than ${k} distinct vectors, an empty topic restarts every pass and never settles, so lower TOPICS; else raise KMEANS_ITERS in topics.ts.`,
       );
     }
     let moved = 0;
@@ -451,19 +467,25 @@ type Topic = {
   centroid: number[];
 };
 
-// Topic names become tags and file names under dist/c/, so each is a unique slug.
+// Topic names become tags and file names under dist/c/, so each is a unique slug, short enough for the tag strip.
+const MAX_TAG = 20;
 export const loadTopics = (json: string, source = TOPICS_FILE) => {
-  const topics: unknown = JSON.parse(json);
   const fail = (what: string) => {
     throw new Error(
-      `${source}: expected an array of {name, posts, examples, centroid} with unique lowercase-hyphen names and ${DIM}-number centroids, received ${what}. Fix: edit ${source}, or delete it to fit again.`,
+      `${source}: expected an array of {name, posts, examples, centroid} with unique lowercase-hyphen names of at most ${MAX_TAG} characters and ${DIM}-number centroids, received ${what}. Fix: edit ${source}, or delete it to fit again.`,
     );
   };
+  let topics: unknown;
+  try {
+    topics = JSON.parse(json);
+  } catch (err) {
+    return fail(`invalid JSON (${msg(err)})`);
+  }
   if (!Array.isArray(topics) || !topics.length) return fail("no array");
   const names = new Set<string>();
   return topics.map((t, i) => {
     const { name, centroid } = (t ?? {}) as Partial<Topic>;
-    if (typeof name !== "string" || !TAG.test(name)) {
+    if (typeof name !== "string" || !TAG.test(name) || name.length > MAX_TAG) {
       return fail(`[${i}].name ${JSON.stringify(name)}`);
     }
     if (names.has(name)) return fail(`"${name}" twice`);

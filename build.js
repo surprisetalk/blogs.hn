@@ -177,11 +177,9 @@ const nav = (current) =>
       [...tags].sort((a, b) =>
         b[1].length - a[1].length || a[0].localeCompare(b[0])
       )
-        .map(([t, pool]) =>
-          t === current
-            ? `<strong>${t}</strong> ${pool.length}`
-            : `<a href="/c/${t}">${t}</a> ${pool.length}`
-        ).join(" • ")
+        .map(([t]) =>
+          t === current ? `<strong>${t}</strong>` : `<a href="/c/${t}">${t}</a>`
+        ).join("")
     }</nav>`;
 
 // A city page names itself above its listing.

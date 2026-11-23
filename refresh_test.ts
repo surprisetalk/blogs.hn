@@ -1183,12 +1183,16 @@ Deno.test("topics: posts and bodies from feed_item; vectors.tsv resumes and drop
           );
         }),
     );
-    await Deno.writeTextFile(path, "x\ty\t1,2\n");
-    await failsWith(
-      loadVectors(path),
-      "vectors.tsv:1",
-      "768 comma-joined numbers",
-    );
+    for (
+      const nums of ["1,2", "1," + "0,".repeat(766), "0x10" + ",0".repeat(767)]
+    ) {
+      await Deno.writeTextFile(path, `x\ty\t${nums}\n`);
+      await failsWith(
+        loadVectors(path),
+        "vectors.tsv:1",
+        "768 comma-joined numbers",
+      );
+    }
   } finally {
     await Deno.remove(dir, { recursive: true });
   }
@@ -1208,6 +1212,11 @@ Deno.test("postBody: content over description, as text; a non-object crashes", (
   );
   assertEquals(postBody({}, "w"), "");
   assertEquals(htmlText("a<style>p{}</style>b"), "ab");
+  assertEquals(
+    htmlText("<p>a</p><p>b</p><li>c</li>d<br>e<b>f</b>"),
+    "a b c d ef",
+  );
+  assertEquals(htmlText("<div>".repeat(20000) + "deep"), "deep");
   let err = "";
   try {
     postBody(5, "part row 3");

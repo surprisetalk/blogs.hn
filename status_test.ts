@@ -98,7 +98,7 @@ Deno.test("build.js output carries what status reads, keeps $ patterns literal, 
     if (!html.includes('<a href="/c/ai">#ai</a>')) {
       throw new Error("expected the card to link /c/ai");
     }
-    if (!html.includes('<nav class="small"><a href="/c/ai">ai</a> 1</nav>')) {
+    if (!html.includes('<nav class="small"><a href="/c/ai">ai</a></nav>')) {
       throw new Error("expected the strip to link /c/ai with its count");
     }
     const ai = await Deno.readTextFile(`${dir}/dist/c/ai.html`);
