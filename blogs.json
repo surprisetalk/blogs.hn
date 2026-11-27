@@ -38403,6 +38403,34 @@
     "github": "https://github.com/waldo-van-der-code"
   },
   {
+        "url": "https://aien.kyorenka.com",
+    "title": "Sorting the gems from the AI flood",
+    "desc": "Which AI tools are actually worth using? Let’s find out",
+    "feed": "https://aien.kyorenka.com/feeds/posts/default?alt=rss",
+    "active_at": "2026-11-27T00:00:00Z"
+  },
+  {
+    "url": "https://animeen.kyorenka.com",
+    "title": "I Wish I'd Known You Better",
+    "desc": "The latest anime news, plus MBTI and Enneagram analyses of its characters.",
+    "feed": "https://animeen.kyorenka.com/feeds/posts/default?alt=rss",
+    "active_at": "2026-11-27T00:00:00Z"
+  },
+  {
+    "url": "https://gameen.kyorenka.com",
+    "title": "Will we ever find our soulmate?",
+    "desc": "Finding connection through games — a guide for solos.",
+    "feed": "https://gameen.kyorenka.com/feeds/posts/default?alt=rss",
+    "active_at": "2026-11-27T00:00:00Z"
+  },
+  {
+    "url": "https://investen.kyorenka.com",
+    "title": "More Money, More Spellbooks",
+    "desc": "Stocks, crypto, and ETFs, with the latest news shared fast.",
+    "feed": "https://investen.kyorenka.com/feeds/posts/default?alt=rss",
+    "active_at": "2026-11-26T00:00:00Z"
+  },
+  {
     "url": "https://wantguns.dev",
     "title": "Gunwant Jain",
     "desc": "Gunwant Jain's (@wantguns) place in the internet",
